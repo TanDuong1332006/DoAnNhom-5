@@ -1,0 +1,36 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class ChiTietGioHang extends Model
+{
+    use HasFactory;
+
+    protected $table = 'chi_tiet_gio_hangs';
+
+    protected $fillable = [
+        'id_gio_hang',
+        'id_san_pham',
+        'id_chi_tiet_san_pham',
+        'so_luong',
+        'gia_ban',
+    ];
+
+    public function gioHang()
+    {
+        return $this->belongsTo(GioHang::class, 'id_gio_hang');
+    }
+
+    public function sanPham()
+    {
+        return $this->belongsTo(SanPham::class, 'id_san_pham');
+    }
+
+    public function chiTietSanPham()
+    {
+        return $this->belongsTo(ChiTietSanPham::class, 'id_chi_tiet_san_pham');
+    }
+}

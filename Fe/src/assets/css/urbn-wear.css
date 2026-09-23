@@ -1,0 +1,189 @@
+/* ==========================================================================
+   URBN WEAR - Contemporary Streetwear Design System
+   Color Palette: Electric Blue (#002fda), Obsidian Dark (#0a0d12), Off-White (#f8f9fb)
+   ========================================================================== */
+
+:root {
+  --urbn-primary: #002fda;
+  --urbn-primary-hover: #0022a1;
+  --urbn-dark: #0a0d12;
+  --urbn-dark-elevated: #111315;
+  --urbn-body: #191c1e;
+  --urbn-light: #f8f9fb;
+  --urbn-gray-100: #f1f3f5;
+  --urbn-gray-200: #e9ecef;
+  --urbn-gray-300: #dee2e6;
+  --urbn-gray-400: #ced4da;
+  --urbn-gray-500: #868e96;
+  --urbn-border: rgba(0, 0, 0, 0.08);
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--urbn-light);
+  color: var(--urbn-body);
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Backgrounds & Text Utilities */
+.bg-urbn-primary {
+  background-color: var(--urbn-primary) !important;
+}
+
+.text-urbn-primary {
+  color: var(--urbn-primary) !important;
+}
+
+.border-urbn-primary {
+  border-color: var(--urbn-primary) !important;
+}
+
+.bg-urbn-dark {
+  background-color: var(--urbn-dark) !important;
+}
+
+.text-urbn-dark {
+  color: var(--urbn-dark) !important;
+}
+
+/* Buttons */
+.btn-urbn-primary {
+  background-color: var(--urbn-primary);
+  color: #ffffff;
+  font-weight: 700;
+  border: 1px solid var(--urbn-primary);
+  border-radius: 9999px;
+  padding: 0.65rem 1.4rem;
+  transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-urbn-primary:hover,
+.btn-urbn-primary:focus {
+  background-color: var(--urbn-primary-hover);
+  color: #ffffff;
+  border-color: var(--urbn-primary-hover);
+  box-shadow: 0 6px 18px rgba(0, 47, 218, 0.3);
+  transform: translateY(-1px);
+}
+
+.btn-urbn-dark {
+  background-color: var(--urbn-dark);
+  color: #ffffff;
+  font-weight: 700;
+  border: 1px solid var(--urbn-dark);
+  border-radius: 9999px;
+  padding: 0.65rem 1.4rem;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-urbn-dark:hover,
+.btn-urbn-dark:focus {
+  background-color: #1f242d;
+  color: #ffffff;
+  border-color: #1f242d;
+  transform: translateY(-1px);
+}
+
+.btn-urbn-outline {
+  background-color: transparent;
+  color: var(--urbn-dark);
+  font-weight: 700;
+  border: 1.5px solid var(--urbn-dark);
+  border-radius: 9999px;
+  padding: 0.6rem 1.25rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-urbn-outline:hover {
+  background-color: var(--urbn-dark);
+  color: #ffffff;
+}
+
+/* Card Styling */
+.card-urbn {
+  background-color: #ffffff;
+  border: 1px solid var(--urbn-border);
+  border-radius: 1.25rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  overflow: hidden;
+}
+
+.card-urbn:hover {
+  transform: translateY(-4px);
+  border-color: rgba(0, 47, 218, 0.25);
+  box-shadow: 0 14px 30px -6px rgba(0, 0, 0, 0.08);
+}
+
+/* Streetwear Badges */
+.badge-urbn-sale {
+  background-color: #dc3545;
+  color: #ffffff;
+  font-weight: 800;
+  border-radius: 9999px;
+  padding: 0.35em 0.75em;
+  font-size: 0.72rem;
+  letter-spacing: 0.5px;
+}
+
+.badge-urbn-new {
+  background-color: var(--urbn-dark);
+  color: #ffffff;
+  font-weight: 800;
+  border-radius: 9999px;
+  padding: 0.35em 0.75em;
+  font-size: 0.72rem;
+  letter-spacing: 0.5px;
+}
+
+.badge-urbn-hot {
+  background-color: #fd7e14;
+  color: #ffffff;
+  font-weight: 800;
+  border-radius: 9999px;
+  padding: 0.35em 0.75em;
+  font-size: 0.72rem;
+  letter-spacing: 0.5px;
+}
+
+/* Streetwear Typography */
+.font-streetwear {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+
+/* Cart Drawer */
+.cart-drawer-container {
+  position: fixed;
+  top: 0;
+  right: -440px;
+  width: 420px;
+  max-width: 92vw;
+  height: 100vh;
+  z-index: 1060;
+  transition: right 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background-color: #ffffff;
+}
+
+.cart-drawer-container.open {
+  right: 0;
+}
+
+.offcanvas-backdrop-custom {
+  position: fixed;
+  inset: 0;
+  z-index: 1055;
+  background-color: rgba(10, 13, 18, 0.6);
+  backdrop-filter: blur(4px);
+}
