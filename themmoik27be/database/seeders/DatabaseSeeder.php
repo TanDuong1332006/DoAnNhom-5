@@ -364,5 +364,8 @@ class DatabaseSeeder extends Seeder
                 'trang_thai'    => 1,
             ]);
         }
+
+        // 9. Bổ sung 20 sản phẩm cho mỗi danh mục thời trang
+        $this->call(SanPhamFashionSeeder::class);
     }
 }

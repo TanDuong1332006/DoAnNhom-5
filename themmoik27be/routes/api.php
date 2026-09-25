@@ -13,6 +13,7 @@ use App\Http\Controllers\Admin\DanhGiaController;
 use App\Http\Controllers\Admin\ThongKeController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\giaoDichController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -30,11 +31,17 @@ Route::post('/dang-xuat',           [AuthController::class, 'dangXuat']);
 Route::post('/admin-login',         [AuthController::class, 'dangNhap']);
 Route::post('/auth/admin-login',    [AuthController::class, 'dangNhap']);
 
+// Giao Dịch MB Bank & Thanh Toán Tự Động
+Route::any('/giao-dich',                         [giaoDichController::class, 'getData']);
+Route::post('/giao-dich/mo-phong',               [giaoDichController::class, 'moPhongThanhToan']);
+Route::get('/kiem-tra-thanh-toan/{ma_hoa_don}',  [giaoDichController::class, 'kiemTraThanhToan']);
+
 // Public Client API
 Route::prefix('client')->group(function () {
     Route::get('/home-data',              [ClientController::class, 'getHomeData']);
     Route::get('/san-phams',              [ClientController::class, 'getSanPhams']);
     Route::get('/san-pham/{slug}',        [ClientController::class, 'getChiTietSanPham']);
+    Route::post('/dat-hang',              [ClientController::class, 'datHang']);
 });
 
 // ─── ADMIN ROUTES (Đúng chuẩn style be_k27_esport02) ───────────────────
@@ -130,5 +137,11 @@ Route::prefix('admin')->group(function () {
         Route::get('/doanh-thu-theo-thang',  [ThongKeController::class, 'getDoanhThuTheoThang']);
         Route::get('/doanh-thu-theo-nam',    [ThongKeController::class, 'getDoanhThuTheoNam']);
         Route::get('/san-pham-theo-danh-muc',[ThongKeController::class, 'getSanPhamTheoDanhMuc']);
+    });
+
+    // Lịch Sử Giao Dịch MB Bank
+    Route::prefix('giao-dich')->group(function () {
+        Route::get('/get-data',       [giaoDichController::class, 'layDanhSachGiaoDich']);
+        Route::post('/sync',          [giaoDichController::class, 'getData']);
     });
 });
