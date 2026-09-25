@@ -1,32 +1,23 @@
 <template>
   <div class="min-vh-100 d-flex flex-column align-items-center justify-content-center py-5"
-       style="background-color: #f1f3f7;">
+       style="background: radial-gradient(circle at 50% 10%, #fffdfa 0%, #fef8ee 40%, #f9f8f5 100%);">
 
     <!-- Brand Logo Top -->
     <div class="text-center mb-4">
-      <router-link to="/" class="d-inline-flex align-items-center gap-2 text-decoration-none">
-        <div class="rounded-3 bg-urbn-dark text-white d-flex align-items-center justify-content-center shadow-sm"
-             style="width: 44px; height: 44px;">
-          <i class="bx bxs-layer text-urbn-primary fs-3"></i>
-        </div>
-        <span class="fs-3 fw-extrabold text-dark tracking-tight font-streetwear">
-          URBN<span class="text-urbn-primary">.</span>WEAR
-        </span>
+      <router-link to="/" class="d-inline-flex align-items-center text-decoration-none">
+        <SofepLogo size="lg" variant="light" subtitle="STUDIO 2026" />
       </router-link>
-      <div class="text-muted small fw-semibold tracking-wider text-uppercase" style="font-size: 10px; letter-spacing: 2px;">
-        Contemporary Streetwear Studio
-      </div>
     </div>
 
     <!-- Forgot Password Card -->
-    <div class="card border-0 shadow-lg rounded-4 p-2 bg-white" style="width: 100%; max-width: 420px;">
+    <div class="card border-0 shadow-xl rounded-4 p-2 bg-white" style="width: 100%; max-width: 420px; border: 1px solid rgba(180, 131, 37, 0.16) !important;">
       <div class="card-body px-4 py-4">
 
         <!-- Icon + Title -->
         <div class="text-center mb-4">
-          <div class="rounded-circle bg-urbn-primary bg-opacity-10 d-inline-flex align-items-center justify-content-center mb-2"
-               style="width: 64px; height: 64px;">
-            <i class="bx bx-lock-open-alt text-urbn-primary" style="font-size: 2rem;"></i>
+          <div class="rounded-circle d-inline-flex align-items-center justify-content-center mb-3 shadow-xs"
+               style="width: 64px; height: 64px; background: rgba(180, 131, 37, 0.12); color: #b48325;">
+            <i class="bx bx-lock-open-alt" style="font-size: 2rem;"></i>
           </div>
           <h4 class="fw-extrabold text-dark mb-1 font-streetwear">Quên Mật Khẩu?</h4>
           <p class="text-muted small mb-0">
@@ -38,7 +29,7 @@
         <div class="alert alert-light border border-secondary border-opacity-25 py-2 px-3 rounded-3 mb-3 d-flex align-items-start gap-2 small text-muted">
           <i class="bx bx-info-circle text-urbn-primary fs-5 mt-0.5 flex-shrink-0"></i>
           <div>
-            Hệ thống hỗ trợ đặt lại mật khẩu trực tiếp cho tài khoản đã có trên website URBN WEAR.
+            Hệ thống hỗ trợ đặt lại mật khẩu trực tiếp cho tài khoản đã có trên website SOFEP STUDIO.
           </div>
         </div>
 

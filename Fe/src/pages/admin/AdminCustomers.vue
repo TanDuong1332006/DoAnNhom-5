@@ -54,8 +54,9 @@ export default {
       this.loading = false
     },
     async toggleBlock(customer) {
-      const action = customer.is_block ? 'mở khoá' : 'khoá'
-      if (!confirm(`Xác nhận ${action} tài khoản ${customer.name}?`)) return
+      const action = customer.is_block ? 'mở khóa' : 'khóa'
+      const confirmed = await this.$confirm(`Xác nhận <b>${action}</b> tài khoản <b>${customer.name}</b>?`, 'Xác Nhận Thao Tác', 'warning')
+      if (!confirmed) return
       const res = await axiosClient.post('/admin/customers/toggle-block', { id: customer.id })
       if (res.data.status === 1) { this.$toast.success(res.data.message); customer.is_block = !customer.is_block }
       else this.$toast.error(res.data.message)

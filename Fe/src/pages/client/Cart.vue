@@ -106,7 +106,8 @@ export default {
       if (res.status === 1) this.$toast.success('Đã xoá sản phẩm!')
     },
     async clearCart() {
-      if (!confirm('Xoá toàn bộ giỏ hàng?')) return
+      const confirmed = await this.$confirmDelete('Bạn có chắc muốn xóa sạch toàn bộ sản phẩm khỏi giỏ hàng?', 'Xóa Giỏ Hàng');
+      if (!confirmed) return;
       await cartStore.clearCart()
       this.$toast.success('Đã xoá giỏ hàng!')
     },

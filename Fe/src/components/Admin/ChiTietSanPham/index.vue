@@ -183,8 +183,9 @@ export default {
                     }
                 });
         },
-        xoaBienThe(item) {
-            if (confirm('Bạn có chắc chắn muốn xóa biến thể này?')) {
+        async xoaBienThe(item) {
+            const confirmed = await this.$confirmDelete(`Bạn có chắc chắn muốn xóa biến thể <b>${item.ten_mau || ''} - ${item.ten_kich_thuoc || ''}</b> này không?`);
+            if (confirmed) {
                 axios.post('http://127.0.0.1:8000/api/admin/chi-tiet-san-pham/destroy', { id: item.id })
                     .then(res => {
                         if (res.data.status) {

@@ -1,12 +1,7 @@
 <template>
     <div class="nav-container primary-menu">
         <div class="mobile-topbar-header">
-            <div>
-                <img src="../../assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
-            </div>
-            <div>
-                <h4 class="logo-text">FashionStore</h4>
-            </div>
+            <SofepLogo size="sm" variant="light" subtitle="ADMIN PORTAL" />
             <div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
             </div>
         </div>

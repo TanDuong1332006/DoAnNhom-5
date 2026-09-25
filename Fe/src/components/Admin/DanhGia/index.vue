@@ -99,8 +99,9 @@ export default {
                     }
                 });
         },
-        xoaDanhGia(item) {
-            if (confirm('Bạn có chắc muốn xóa đánh giá này?')) {
+        async xoaDanhGia(item) {
+            const confirmed = await this.$confirmDelete(`Bạn có chắc muốn xóa đánh giá của khách hàng <b>${item.ho_va_ten || 'này'}</b>?`);
+            if (confirmed) {
                 axios.post('http://127.0.0.1:8000/api/admin/danh-gia/destroy', { id: item.id })
                     .then(res => {
                         if (res.data.status) {

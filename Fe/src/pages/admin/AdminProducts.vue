@@ -180,7 +180,8 @@ export default {
       this.saving = false
     },
     async deleteProduct(p) {
-      if (!confirm(`Xoá sản phẩm "${p.name}"?`)) return
+      const confirmed = await this.$confirmDelete(`Bạn có chắc chắn muốn xóa sản phẩm <b>"${p.name}"</b>? Thao tác này không thể hoàn tác.`);
+      if (!confirmed) return;
       const res = await axiosClient.post('/admin/products/delete', { id: p.id })
       if (res.data.status === 1) { this.$toast.success('Đã xoá!'); this.fetchProducts() }
       else this.$toast.error(res.data.message)

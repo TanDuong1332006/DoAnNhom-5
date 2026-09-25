@@ -13,6 +13,7 @@ import "./assets/js/bootstrap.bundle.min.js"
 import Toast, { useToast } from "vue-toastification";
 import "vue-toastification/dist/index.css";
 import axios from 'axios';
+import { CustomSwal, showConfirm, showDeleteConfirm, showAlert } from './utils/dialog';
 
 // Cấu hình axios tự động gắn Bearer token
 axios.interceptors.request.use((config) => {
@@ -22,6 +23,12 @@ axios.interceptors.request.use((config) => {
     }
     return config;
 });
+
+// Gắn dialog đẹp thay thế alert của trình duyệt
+window.alert = (msg) => showAlert(msg);
+window.$confirm = showConfirm;
+window.$confirmDelete = showDeleteConfirm;
+window.Swal = CustomSwal;
 
 const app = createApp(App)
 
@@ -33,8 +40,16 @@ app.use(Toast, {
 });
 app.use(router);
 app.config.globalProperties.$toast = useToast();
+app.config.globalProperties.$swal = CustomSwal;
+app.config.globalProperties.$confirm = showConfirm;
+app.config.globalProperties.$confirmDelete = showDeleteConfirm;
+app.config.globalProperties.$alert = showAlert;
+
+import SofepLogo from './components/Common/SofepLogo.vue';
+
 app.component("default-layout", Default);
 app.component("blank-layout", Blank);
 app.component("client-layout", ClientLayout);
+app.component("SofepLogo", SofepLogo);
 
 app.mount("#app")

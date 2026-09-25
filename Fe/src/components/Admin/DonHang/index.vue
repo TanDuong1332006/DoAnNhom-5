@@ -271,8 +271,9 @@ export default {
                 }
             });
         },
-        xoaDonHang(item) {
-            if (confirm('Bạn có chắc chắn muốn xóa đơn hàng này không?')) {
+        async xoaDonHang(item) {
+            const confirmed = await this.$confirmDelete(`Bạn có chắc chắn muốn xóa đơn hàng <b>#${item.ma_don_hang || item.id}</b> không? Thao tác này không thể hoàn tác.`);
+            if (confirmed) {
                 axios.post('http://127.0.0.1:8000/api/admin/don-hang/destroy', { id: item.id })
                     .then(res => {
                         if (res.data.status) {

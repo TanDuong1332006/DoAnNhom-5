@@ -107,7 +107,8 @@ export default {
       this.saving = false
     },
     async deleteCoupon(c) {
-      if (!confirm(`Xoá mã "${c.code}"?`)) return
+      const confirmed = await this.$confirmDelete(`Bạn có chắc muốn xóa mã giảm giá <b>"${c.code}"</b>?`);
+      if (!confirmed) return;
       const res = await axiosClient.post('/admin/coupons/delete', { id: c.id })
       if (res.data.status === 1) { this.$toast.success('Đã xoá!'); this.fetchCoupons() }
     },

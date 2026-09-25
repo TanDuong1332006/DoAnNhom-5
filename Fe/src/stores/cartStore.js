@@ -21,6 +21,7 @@ export const cartStore = reactive({
     items: getLocalCart(),
     isOpenDrawer: false,
     isOpenSizeAdvisor: false,
+    isOpenCheckout: false,
     selectedSizeAdvisorSize: 'L',
 
     get count() {
@@ -85,5 +86,9 @@ export const cartStore = reactive({
 
     toggleSizeAdvisor(val) {
         this.isOpenSizeAdvisor = typeof val === 'boolean' ? val : !this.isOpenSizeAdvisor;
+    },
+
+    toggleCheckout(val) {
+        this.isOpenCheckout = typeof val === 'boolean' ? val : !this.isOpenCheckout;
     }
 });

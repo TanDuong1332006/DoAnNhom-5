@@ -185,8 +185,9 @@ export default {
                     }
                 });
         },
-        xoaMGG(item) {
-            if (confirm('Bạn có chắc muốn xóa mã giảm giá này?')) {
+        async xoaMGG(item) {
+            const confirmed = await this.$confirmDelete(`Bạn có chắc muốn xóa mã giảm giá <b>${item.ma_code}</b>? Thao tác này không thể hoàn tác.`);
+            if (confirmed) {
                 axios.post('http://127.0.0.1:8000/api/admin/ma-giam-gia/destroy', { id: item.id })
                     .then(res => {
                         if (res.data.status) {

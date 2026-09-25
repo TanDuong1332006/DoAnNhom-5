@@ -13,6 +13,39 @@ const routes = [
         meta: { layout: 'client' },
         component: () => import('../components/Client/TrangChu.vue')
     },
+    {
+        path: '/san-pham/:id',
+        meta: { layout: 'client' },
+        component: () => import('../components/Client/ChiTietSanPham.vue')
+    },
+    {
+        path: '/chi-tiet-san-pham/:id',
+        meta: { layout: 'client' },
+        component: () => import('../components/Client/ChiTietSanPham.vue')
+    },
+    {
+        path: '/tim-kiem',
+        meta: { layout: 'client' },
+        component: () => import('../components/Client/TimKiem.vue')
+    },
+    {
+        path: '/danh-muc/:id_or_slug?',
+        name: 'DanhMucClient',
+        meta: { layout: 'client' },
+        component: () => import('../components/Client/TimKiem.vue')
+    },
+    {
+        path: '/bo-suu-tap',
+        name: 'BoSuuTapClient',
+        meta: { layout: 'client' },
+        component: () => import('../components/Client/TimKiem.vue')
+    },
+    {
+        path: '/flash-sale',
+        name: 'FlashSaleClient',
+        meta: { layout: 'client' },
+        component: () => import('../components/Client/TimKiem.vue')
+    },
 
     // ─── AUTH (Đăng ký, Đăng nhập) ──────────────────────────
     {
@@ -105,7 +138,14 @@ const routes = [
 
 const router = createRouter({
     history: createWebHistory(),
-    routes
+    routes,
+    scrollBehavior(to, from, savedPosition) {
+        if (savedPosition) {
+            return savedPosition;
+        } else {
+            return { top: 0, behavior: 'smooth' };
+        }
+    }
 });
 
 // Guard bảo vệ các trang Quản Trị Admin

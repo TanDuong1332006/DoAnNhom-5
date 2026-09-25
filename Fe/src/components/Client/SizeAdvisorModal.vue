@@ -3,23 +3,21 @@
     <div class="modal-dialog-content bg-white rounded-4 shadow-2xl overflow-hidden border" @click.stop>
       
       <!-- Modal Header -->
-      <div class="bg-urbn-dark text-white px-4 py-3 d-flex align-items-center justify-content-between">
+      <div class="bg-white border-bottom px-4 py-3 d-flex align-items-center justify-content-between">
         <div class="d-flex align-items-center gap-2">
-          <div class="p-2 bg-urbn-primary rounded-3 d-flex align-items-center justify-content-center text-white">
+          <div class="p-2 rounded-3 d-flex align-items-center justify-content-center text-white shadow-xs" style="background: var(--sofep-gold-gradient); width: 36px; height: 36px;">
             <i class='bx bx-ruler fs-5'></i>
           </div>
           <div>
-            <h5 class="fw-bold mb-0 text-uppercase small tracking-wide">
-              Bảng Hướng Dẫn & Gợi Ý Chọn Size
+            <h5 class="fw-bold mb-0 text-uppercase small tracking-wide text-dark font-streetwear">
+              Bảng Hướng Dẫn &amp; Gợi Ý Chọn Size
             </h5>
-            <span class="text-white-50" style="font-size: 11px;">
-              Quy đổi kích cỡ chuẩn theo phom dáng Boxy Drop-Shoulder
+            <span class="text-muted" style="font-size: 11px;">
+              Quy đổi kích cỡ chuẩn theo phom dáng thời trang SOFEP ATELIER
             </span>
           </div>
         </div>
-        <button @click="cartStore.toggleSizeAdvisor(false)" class="btn btn-link text-white-50 p-1 text-decoration-none hover-white">
-          <i class='bx bx-x fs-3'></i>
-        </button>
+        <button type="button" @click="cartStore.toggleSizeAdvisor(false)" class="btn-close shadow-none"></button>
       </div>
 
       <!-- Tab Switcher -->

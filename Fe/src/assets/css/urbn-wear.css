@@ -1,21 +1,31 @@
 /* ==========================================================================
-   URBN WEAR - Contemporary Streetwear Design System
-   Color Palette: Electric Blue (#002fda), Obsidian Dark (#0a0d12), Off-White (#f8f9fb)
+   SOFEP - Modern Luxury Bright Design System (Sang Xịn Mịn)
+   Color Palette: Champagne Gold (#b48325), Warm Amber (#d97706), 
+                  Pearl Alabaster (#fafafa), Luxury Cashmere Ivory (#f9f8f5), 
+                  Obsidian Slate (#1e293b)
    ========================================================================== */
 
 :root {
-  --urbn-primary: #002fda;
-  --urbn-primary-hover: #0022a1;
-  --urbn-dark: #0a0d12;
-  --urbn-dark-elevated: #111315;
-  --urbn-body: #191c1e;
-  --urbn-light: #f8f9fb;
-  --urbn-gray-100: #f1f3f5;
-  --urbn-gray-200: #e9ecef;
-  --urbn-gray-300: #dee2e6;
-  --urbn-gray-400: #ced4da;
-  --urbn-gray-500: #868e96;
-  --urbn-border: rgba(0, 0, 0, 0.08);
+  --urbn-primary: #b48325;
+  --urbn-primary-hover: #966b1c;
+  --urbn-dark: #1e293b;
+  --urbn-dark-elevated: #334155;
+  --urbn-body: #1e293b;
+  --urbn-light: #fafafa;
+  --urbn-gray-100: #f9f8f5;
+  --urbn-gray-200: #f1ede6;
+  --urbn-gray-300: #e2dbcf;
+  --urbn-gray-400: #cbd5e1;
+  --urbn-gray-500: #64748b;
+  --urbn-border: rgba(180, 131, 37, 0.12);
+
+  /* SOFEP Specific Luxury Tokens */
+  --sofep-gold: #b48325;
+  --sofep-gold-light: #fef8eb;
+  --sofep-gold-glow: 0 8px 24px rgba(180, 131, 37, 0.2);
+  --sofep-gold-gradient: linear-gradient(135deg, #d97706 0%, #b48325 50%, #92400e 100%);
+  --sofep-pearl-gradient: linear-gradient(135deg, #ffffff 0%, #fdfbf7 50%, #fef3c7 100%);
+  --sofep-topbar-gradient: linear-gradient(90deg, #fef9ee 0%, #fef3c7 50%, #fef9ee 100%);
 }
 
 body {
@@ -28,7 +38,7 @@ body {
 
 /* Backgrounds & Text Utilities */
 .bg-urbn-primary {
-  background-color: var(--urbn-primary) !important;
+  background: var(--sofep-gold-gradient) !important;
 }
 
 .text-urbn-primary {
@@ -47,12 +57,20 @@ body {
   color: var(--urbn-dark) !important;
 }
 
-/* Buttons */
+.bg-sofep-pearl {
+  background: var(--sofep-pearl-gradient) !important;
+}
+
+.bg-sofep-subtle {
+  background-color: var(--urbn-gray-100) !important;
+}
+
+/* Luxury Buttons */
 .btn-urbn-primary {
-  background-color: var(--urbn-primary);
-  color: #ffffff;
+  background: var(--sofep-gold-gradient);
+  color: #ffffff !important;
   font-weight: 700;
-  border: 1px solid var(--urbn-primary);
+  border: none;
   border-radius: 9999px;
   padding: 0.65rem 1.4rem;
   transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -60,22 +78,22 @@ body {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  box-shadow: 0 4px 14px rgba(180, 131, 37, 0.25);
 }
 
 .btn-urbn-primary:hover,
 .btn-urbn-primary:focus {
-  background-color: var(--urbn-primary-hover);
-  color: #ffffff;
-  border-color: var(--urbn-primary-hover);
-  box-shadow: 0 6px 18px rgba(0, 47, 218, 0.3);
+  background: linear-gradient(135deg, #b45309 0%, #966b1c 100%);
+  color: #ffffff !important;
+  box-shadow: 0 6px 20px rgba(180, 131, 37, 0.35);
   transform: translateY(-1px);
 }
 
 .btn-urbn-dark {
-  background-color: var(--urbn-dark);
-  color: #ffffff;
+  background-color: #1e293b;
+  color: #ffffff !important;
   font-weight: 700;
-  border: 1px solid var(--urbn-dark);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 9999px;
   padding: 0.65rem 1.4rem;
   transition: all 0.2s ease-in-out;
@@ -83,59 +101,63 @@ body {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  box-shadow: 0 4px 12px rgba(30, 41, 59, 0.15);
 }
 
 .btn-urbn-dark:hover,
 .btn-urbn-dark:focus {
-  background-color: #1f242d;
-  color: #ffffff;
-  border-color: #1f242d;
+  background-color: #0f172a;
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.2);
   transform: translateY(-1px);
 }
 
 .btn-urbn-outline {
   background-color: transparent;
-  color: var(--urbn-dark);
+  color: var(--urbn-primary);
   font-weight: 700;
-  border: 1.5px solid var(--urbn-dark);
+  border: 1.5px solid var(--urbn-primary);
   border-radius: 9999px;
   padding: 0.6rem 1.25rem;
   transition: all 0.2s ease-in-out;
 }
 
 .btn-urbn-outline:hover {
-  background-color: var(--urbn-dark);
+  background: var(--sofep-gold-gradient);
   color: #ffffff;
+  border-color: transparent;
 }
 
-/* Card Styling */
+/* Card Styling (Bright Luxury Aesthetic) */
 .card-urbn {
   background-color: #ffffff;
   border: 1px solid var(--urbn-border);
   border-radius: 1.25rem;
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
   overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
 }
 
 .card-urbn:hover {
   transform: translateY(-4px);
-  border-color: rgba(0, 47, 218, 0.25);
-  box-shadow: 0 14px 30px -6px rgba(0, 0, 0, 0.08);
+  border-color: rgba(180, 131, 37, 0.35);
+  box-shadow: 0 16px 36px -8px rgba(180, 131, 37, 0.14);
 }
 
-/* Streetwear Badges */
+/* Luxury Badges */
 .badge-urbn-sale {
-  background-color: #dc3545;
+  background: linear-gradient(135deg, #e11d48 0%, #be123c 100%);
   color: #ffffff;
   font-weight: 800;
   border-radius: 9999px;
   padding: 0.35em 0.75em;
   font-size: 0.72rem;
   letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(225, 29, 72, 0.25);
 }
 
 .badge-urbn-new {
-  background-color: var(--urbn-dark);
+  background: var(--sofep-gold-gradient);
   color: #ffffff;
   font-weight: 800;
   border-radius: 9999px;
@@ -145,7 +167,7 @@ body {
 }
 
 .badge-urbn-hot {
-  background-color: #fd7e14;
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
   color: #ffffff;
   font-weight: 800;
   border-radius: 9999px;
@@ -154,14 +176,12 @@ body {
   letter-spacing: 0.5px;
 }
 
-/* Streetwear Typography */
+/* Streetwear & Luxury Typography */
 .font-streetwear {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 800;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
+  letter-spacing: -0.02em;
 }
-
 
 /* Cart Drawer */
 .cart-drawer-container {
@@ -184,6 +204,52 @@ body {
   position: fixed;
   inset: 0;
   z-index: 1055;
-  background-color: rgba(10, 13, 18, 0.6);
+  background-color: rgba(15, 23, 42, 0.55);
   backdrop-filter: blur(4px);
+}
+
+/* ==========================================================================
+   SweetAlert2 Custom Styling - Contemporary Dialog System
+   ========================================================================== */
+.urbn-swal-popup {
+  border-radius: 20px !important;
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.3) !important;
+  border: 1px solid rgba(0, 0, 0, 0.06) !important;
+  max-width: 440px !important;
+  padding: 1.75rem !important;
+}
+
+.urbn-swal-title {
+  font-size: 1.15rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em !important;
+  color: #111827 !important;
+}
+
+.swal2-icon.swal2-warning {
+  border-color: #fee2e2 !important;
+  color: #ee4d2d !important;
+  background-color: #fef2f2 !important;
+}
+
+.swal2-icon.swal2-question {
+  border-color: #fef3c7 !important;
+  color: #b48325 !important;
+  background-color: #fef8eb !important;
+}
+
+.swal2-icon.swal2-success {
+  border-color: #dcfce7 !important;
+  color: #16a34a !important;
+  background-color: #f0fdf4 !important;
+}
+
+.swal2-icon {
+  margin: 0.5rem auto 1.25rem !important;
+  transform: scale(0.9);
+}
+
+.swal2-actions {
+  margin-top: 1.25rem !important;
+  width: 100% !important;
 }

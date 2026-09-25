@@ -1,14 +1,13 @@
 <template>
   <div class="urbn-home-container">
 
-    <!-- 1. HERO BANNER SECTION (CYBER METROPOLIS 2026) -->
-    <section class="hero-banner-section position-relative bg-urbn-dark text-white overflow-hidden">
-      <!-- Background Image with Dark Vignette Gradient -->
-      <div class="position-absolute top-0 start-0 w-100 h-100 z-0">
-        <img src="https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1800&q=80"
-             class="w-100 h-100 object-fit-cover filter-hero"
-             alt="URBN WEAR Hero">
-        <div class="hero-gradient-overlay position-absolute top-0 start-0 w-100 h-100"></div>
+    <!-- 1. HERO BANNER SECTION (SOFEP LUXURY ATELIER 2026) -->
+    <section class="hero-banner-section position-relative overflow-hidden" style="background: linear-gradient(135deg, #fdfbf7 0%, #fef3c7 40%, #fef9ee 100%); border-bottom: 1px solid #f1ede6;">
+      <!-- Background Image with Soft Luminous Gradient -->
+      <div class="position-absolute top-0 end-0 h-100 w-100 z-0 opacity-25 d-none d-md-block" style="mix-blend-mode: multiply;">
+        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1800&q=80"
+             class="w-100 h-100 object-fit-cover"
+             alt="SOFEP Luxury Hero">
       </div>
 
       <div class="container position-relative z-1 py-5 py-lg-6">
@@ -16,46 +15,46 @@
           <div class="col-lg-8 col-xl-7">
             
             <!-- Capsule Tag -->
-            <div class="d-inline-flex align-items-center gap-2 px-3 py-1.5 rounded-pill bg-white bg-opacity-10 border border-white border-opacity-20 text-white small fw-bold mb-3 backdrop-blur">
-              <i class='bx bxs-zap text-urbn-primary fs-5'></i>
-              <span>BỘ SƯU TẬP XUÂN HÈ 2026 • DROP 04</span>
+            <div class="d-inline-flex align-items-center gap-2 px-3 py-1.5 rounded-pill bg-white border shadow-xs small fw-bold mb-3" style="border-color: rgba(180, 131, 37, 0.3) !important; color: #78350f;">
+              <i class='bx bxs-crown fs-5' style="color: #b48325;"></i>
+              <span>BỘ SƯU TẬP XUÂN HÈ 2026 • SOFEP ATELIER</span>
             </div>
 
-            <!-- Big Bold Streetwear Title -->
-            <h1 class="display-3 fw-extrabold text-uppercase tracking-tighter lh-1 mb-3 font-streetwear hero-main-title">
-              CYBER <br>
-              <span class="text-gradient-electric">METROPOLIS</span>
+            <!-- Big Bold Luxury Title -->
+            <h1 class="display-3 fw-extrabold text-uppercase tracking-tighter lh-1 mb-3 font-streetwear hero-main-title text-dark">
+              SOFEP <br>
+              <span class="text-gradient-gold">HAUTE ATELIER</span>
             </h1>
 
             <!-- Subtitle -->
-            <p class="lead text-light opacity-80 mb-4 max-w-550 fw-normal" style="font-size: 1.05rem; line-height: 1.6;">
-              Cấu trúc vải Heavyweight 320–460GSM kết hợp đường may raw-edge và phom dáng boxy drop-shoulder chuẩn tỉ lệ hình học đô thị hiện đại.
+            <p class="lead text-secondary mb-4 max-w-550 fw-normal" style="font-size: 1.05rem; line-height: 1.6;">
+              Bộ sưu tập thời trang đương đại với chất liệu Cotton Supima cao cấp và đường may chuẩn mực Milan, định hình phong cách sang trọng, tối giản và thời thượng.
             </p>
 
             <!-- Action Buttons -->
             <div class="d-flex flex-wrap align-items-center gap-3 pt-2">
-              <a href="#products-section" class="btn btn-urbn-primary btn-lg shadow-lg">
-                <span>Khám Phá Drop Mới</span>
+              <router-link to="/tim-kiem" class="btn btn-urbn-primary btn-lg shadow-sm">
+                <span>Khám Phá Bộ Sưu Tập</span>
                 <i class='bx bx-right-arrow-alt fs-4'></i>
-              </a>
+              </router-link>
 
-              <button @click="cartStore.toggleSizeAdvisor(true)" class="btn btn-link text-white-50 text-decoration-none small hover-white p-2">
-                <i class='bx bx-ruler text-urbn-primary me-1'></i> Bảng Chọn Size
+              <button @click="cartStore.toggleSizeAdvisor(true)" class="btn btn-outline-dark rounded-pill px-4 py-2.5 fw-bold">
+                <i class='bx bx-ruler me-1' style="color: #b48325;"></i> Bảng Chọn Size
               </button>
             </div>
 
             <!-- Key Metric Highlights -->
-            <div class="row g-3 pt-5 mt-2 border-top border-white border-opacity-15 text-white-50 small">
+            <div class="row g-3 pt-5 mt-2 border-top text-secondary small" style="border-color: rgba(180, 131, 37, 0.2) !important;">
               <div class="col-4">
-                <div class="fs-4 fw-extrabold text-white font-monospace">320+ GSM</div>
-                <div class="small opacity-75">Cotton Compact 2 mặt</div>
+                <div class="fs-4 fw-extrabold text-dark font-monospace">320+ GSM</div>
+                <div class="small opacity-75">Cotton Supima 2 mặt</div>
               </div>
               <div class="col-4">
-                <div class="fs-4 fw-extrabold text-white font-monospace">30 NGÀY</div>
+                <div class="fs-4 fw-extrabold text-dark font-monospace">30 NGÀY</div>
                 <div class="small opacity-75">Đổi trả tận nhà miễn phí</div>
               </div>
               <div class="col-4">
-                <div class="fs-4 fw-extrabold text-white font-monospace">4.9 / 5.0</div>
+                <div class="fs-4 fw-extrabold font-monospace" style="color: #b48325;">4.9 / 5.0</div>
                 <div class="small opacity-75">+12.000 khách hài lòng</div>
               </div>
             </div>
@@ -73,9 +72,9 @@
             <span class="text-urbn-primary fw-bold text-uppercase small tracking-wide">PHÂN LOẠI TRANG PHỤC</span>
             <h2 class="fw-extrabold text-dark text-uppercase font-streetwear mb-0">Danh Mục Nổi Bật</h2>
           </div>
-          <a href="#products-section" class="btn btn-outline-dark btn-sm rounded-pill px-3">
+          <router-link to="/tim-kiem" class="btn btn-outline-dark btn-sm rounded-pill px-3">
             Xem Tất Cả ({{ san_phams.length }}) <i class='bx bx-right-arrow-alt'></i>
-          </a>
+          </router-link>
         </div>
 
         <div class="row g-3 row-cols-2 row-cols-md-3 row-cols-lg-5">
@@ -99,40 +98,41 @@
     <section id="flash-sale-section" class="flash-sale-section py-5 bg-light">
       <div class="container">
         
-        <!-- Radiant Banner Card -->
+        <!-- Radiant Banner Card (SOFEP Luxury Sunrise Gold Style) -->
         <div class="flash-banner-card p-4 p-md-5 rounded-4 text-white shadow-lg mb-5"
-             style="background: linear-gradient(135deg, #dc2626 0%, #ea580c 50%, #f59e0b 100%);">
+             style="background: linear-gradient(135deg, #b45309 0%, #d97706 50%, #f59e0b 100%);">
           <div class="row align-items-center gy-4">
             <div class="col-lg-7">
-              <div class="d-inline-flex align-items-center gap-2 bg-black bg-opacity-25 px-3 py-1 rounded-pill small fw-bold text-uppercase tracking-wider mb-2">
+              <div class="d-inline-flex align-items-center gap-2 bg-white bg-opacity-20 px-3 py-1 rounded-pill small fw-bold text-uppercase tracking-wider mb-2">
                 <i class='bx bxs-flame text-warning fs-5'></i>
                 <span>GIỜ VÀNG GIÁ SỐC • FLASH SALE ĐỘC QUYỀN</span>
               </div>
-              <h2 class="display-6 fw-extrabold text-uppercase font-streetwear mb-1">
-                GIẢM ĐẾN 30% BỘ SƯU TẬP METROPOLIS
+              <h2 class="display-6 fw-extrabold text-uppercase font-streetwear mb-1 text-white">
+                GIẢM ĐẾN 30% BỘ SƯU TẬP SOFEP ATELIER
               </h2>
-              <p class="mb-0 text-white-50 small">
+              <p class="mb-0 text-white opacity-90 small">
                 Số lượng giới hạn chỉ 50 chiếc mỗi size/màu. Miễn phí đổi trả trong 30 ngày tại nhà.
               </p>
             </div>
 
             <!-- Digital Countdown Timer -->
             <div class="col-lg-5 text-lg-end">
-              <div class="d-inline-flex align-items-center gap-2 bg-black bg-opacity-40 backdrop-blur px-4 py-2.5 rounded-4 border border-white border-opacity-20 shadow">
+              <div class="d-inline-flex align-items-center gap-2 px-4 py-2.5 rounded-4 shadow-sm"
+                   style="background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(8px); border: 1.5px solid rgba(255,255,255,0.4);">
                 <i class='bx bx-time-five fs-4 text-warning'></i>
                 <div class="text-center px-1">
-                  <span class="fs-4 fw-bolder font-monospace d-block lh-1">{{ timer.hours }}</span>
-                  <span class="text-white-50 font-monospace" style="font-size: 10px;">GIỜ</span>
+                  <span class="fs-4 fw-bolder font-monospace d-block lh-1 text-white">{{ timer.hours }}</span>
+                  <span class="text-white opacity-75 font-monospace" style="font-size: 10px;">GIỜ</span>
                 </div>
-                <span class="fs-4 fw-bold">:</span>
+                <span class="fs-4 fw-bold text-white">:</span>
                 <div class="text-center px-1">
-                  <span class="fs-4 fw-bolder font-monospace d-block lh-1">{{ timer.minutes }}</span>
-                  <span class="text-white-50 font-monospace" style="font-size: 10px;">PHÚT</span>
+                  <span class="fs-4 fw-bolder font-monospace d-block lh-1 text-white">{{ timer.minutes }}</span>
+                  <span class="text-white opacity-75 font-monospace" style="font-size: 10px;">PHÚT</span>
                 </div>
-                <span class="fs-4 fw-bold">:</span>
+                <span class="fs-4 fw-bold text-white">:</span>
                 <div class="text-center px-1">
                   <span class="fs-4 fw-bolder font-monospace text-warning d-block lh-1">{{ timer.seconds }}</span>
-                  <span class="text-white-50 font-monospace" style="font-size: 10px;">GIÂY</span>
+                  <span class="text-white opacity-75 font-monospace" style="font-size: 10px;">GIÂY</span>
                 </div>
               </div>
             </div>
@@ -150,13 +150,13 @@
               </span>
 
               <!-- Aspect Ratio 4:5 Image Box -->
-              <div class="position-relative overflow-hidden" style="padding-top: 120%;">
+              <div class="position-relative overflow-hidden cursor-pointer" style="padding-top: 120%;" @click="xemChiTiet(sp)">
                 <img :src="sp.hinh_anh || 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500'"
                      class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover img-hover-zoom"
                      :alt="sp.ten_san_pham">
                 <!-- Action Hover Buttons -->
-                <div class="product-hover-overlay position-absolute bottom-0 start-0 end-0 p-2 d-flex justify-content-center gap-2">
-                  <button @click="moQuickView(sp)" class="btn btn-light btn-sm rounded-circle shadow" title="Xem nhanh">
+                <div class="product-hover-overlay position-absolute bottom-0 start-0 end-0 p-2 d-flex justify-content-center gap-2" @click.stop>
+                  <button @click="xemChiTiet(sp)" class="btn btn-light btn-sm rounded-circle shadow" title="Xem chi tiết">
                     <i class='bx bx-show fs-5'></i>
                   </button>
                   <button @click="themNhanhVaoGio(sp)" class="btn btn-urbn-dark btn-sm rounded-pill px-3 shadow" title="Thêm vào giỏ">
@@ -170,7 +170,7 @@
                 <span class="text-muted small text-uppercase mb-1" style="font-size: 11px;">
                   {{ sp.danh_muc ? sp.danh_muc.ten_danh_muc : 'Streetwear Drop' }}
                 </span>
-                <h6 class="fw-bold text-dark text-truncate mb-2" :title="sp.ten_san_pham">
+                <h6 class="fw-bold text-dark text-truncate mb-2 cursor-pointer" @click="xemChiTiet(sp)" :title="sp.ten_san_pham">
                   {{ sp.ten_san_pham }}
                 </h6>
                 <div class="d-flex align-items-baseline gap-2 mt-auto">
@@ -248,14 +248,14 @@
               </div>
 
               <!-- Product Image Box -->
-              <div class="position-relative overflow-hidden" style="padding-top: 125%;">
+              <div class="position-relative overflow-hidden cursor-pointer" style="padding-top: 125%;" @click="xemChiTiet(sp)">
                 <img :src="sp.hinh_anh || 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500'"
                      class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover img-hover-zoom"
                      :alt="sp.ten_san_pham">
                 
                 <!-- Hover Overlay Action Buttons -->
-                <div class="product-hover-overlay position-absolute bottom-0 start-0 end-0 p-2 d-flex justify-content-center gap-2">
-                  <button @click="moQuickView(sp)" class="btn btn-light btn-sm rounded-circle shadow" title="Xem nhanh">
+                <div class="product-hover-overlay position-absolute bottom-0 start-0 end-0 p-2 d-flex justify-content-center gap-2" @click.stop>
+                  <button @click="xemChiTiet(sp)" class="btn btn-light btn-sm rounded-circle shadow" title="Xem chi tiết">
                     <i class='bx bx-show fs-5'></i>
                   </button>
                   <button @click="themNhanhVaoGio(sp)" class="btn btn-urbn-dark btn-sm rounded-pill px-3 shadow" title="Thêm vào giỏ">
@@ -269,7 +269,7 @@
                 <span class="text-muted small text-uppercase mb-1" style="font-size: 11px;">
                   {{ sp.danh_muc ? sp.danh_muc.ten_danh_muc : 'Áo Thun & Streetwear' }}
                 </span>
-                <h6 class="fw-bold text-dark text-truncate mb-2" :title="sp.ten_san_pham">
+                <h6 class="fw-bold text-dark text-truncate mb-2 cursor-pointer" @click="xemChiTiet(sp)" :title="sp.ten_san_pham">
                   {{ sp.ten_san_pham }}
                 </h6>
                 
@@ -368,7 +368,7 @@
     <section id="reviews-section" class="py-5 bg-white">
       <div class="container">
         <div class="text-center max-w-600 mx-auto mb-5">
-          <span class="badge bg-urbn-primary bg-opacity-10 text-urbn-primary rounded-pill px-3 py-1 small fw-bold mb-2">URBN COMMUNITY</span>
+          <span class="badge bg-urbn-primary bg-opacity-10 text-urbn-primary rounded-pill px-3 py-1 small fw-bold mb-2" style="background-color: rgba(180, 131, 37, 0.12) !important; color: #b48325 !important;">SOFEP COMMUNITY</span>
           <h2 class="fw-extrabold text-dark text-uppercase font-streetwear">Cộng Đồng Đánh Giá</h2>
           <p class="text-secondary small">Hơn 12.000 khách hàng đã trải nghiệm chất lượng vải và phom dáng đương đại của chúng tôi.</p>
         </div>
@@ -404,10 +404,10 @@
           ĐỒNG HÀNH VÀ PHÁT TRIỂN CÙNG CÁC THƯƠNG HIỆU QUỐC TẾ
         </span>
         <div class="d-flex flex-wrap justify-content-center align-items-center gap-4 gap-md-5 opacity-75">
-          <span class="fw-extrabold fs-4 text-dark font-streetwear">URBN STUDIO</span>
-          <span class="fw-extrabold fs-4 text-dark font-streetwear">Y-3</span>
-          <span class="fw-extrabold fs-4 text-dark font-streetwear">ACW*</span>
-          <span class="fw-extrabold fs-4 text-dark font-streetwear">MISBHV</span>
+          <span class="fw-extrabold fs-4 text-dark font-streetwear">SOFEP STUDIO</span>
+          <span class="fw-extrabold fs-4 text-dark font-streetwear">DIOR</span>
+          <span class="fw-extrabold fs-4 text-dark font-streetwear">CELINE</span>
+          <span class="fw-extrabold fs-4 text-dark font-streetwear">JACQUEMUS</span>
           <span class="fw-extrabold fs-4 text-dark font-streetwear">BALENCIAGA</span>
         </div>
       </div>
@@ -648,12 +648,14 @@ export default {
     locTheoTenDanhMuc(catName) {
       const match = this.danh_mucs.find(d => d.ten_danh_muc && d.ten_danh_muc.toLowerCase().includes(catName.toLowerCase()));
       if (match) {
-        this.tabActive = match.id;
+        this.$router.push({ path: '/tim-kiem', query: { danh_muc: match.id, ten: match.ten_danh_muc } });
       } else {
-        this.searchKeyword = catName;
+        this.$router.push({ path: '/tim-kiem', query: { q: catName } });
       }
-      const el = document.getElementById('products-section');
-      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    },
+    xemChiTiet(product) {
+      if (!product) return;
+      this.$router.push('/san-pham/' + (product.slug_san_pham || product.id));
     },
     themNhanhVaoGio(product) {
       this.cartStore.addItem(product, 1);
@@ -693,6 +695,11 @@ export default {
 }
 .text-gradient-electric {
   background: linear-gradient(90deg, #ffffff 0%, #cbd5e1 40%, #002fda 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient-gold {
+  background: linear-gradient(135deg, #b45309 0%, #d97706 45%, #b48325 75%, #f59e0b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

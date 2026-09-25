@@ -1,12 +1,7 @@
 <template>
     <nav class="navbar navbar-expand">
         <div class="topbar-logo-header">
-            <div class="">
-                <img src="../../assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
-            </div>
-            <div class="">
-                <h4 class="logo-text">Rocker</h4>
-            </div>
+            <SofepLogo size="sm" variant="light" subtitle="ADMIN PORTAL" />
         </div>
         <div class="mobile-toggle-menu"><i class="bx bx-menu"></i></div>
         <div class="search-bar flex-grow-1">

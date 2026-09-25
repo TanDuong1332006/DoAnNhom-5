@@ -96,7 +96,8 @@ export default {
       this.saving = false
     },
     async deleteCategory(cat) {
-      if (!confirm(`Xoá danh mục "${cat.name}"?`)) return
+      const confirmed = await this.$confirmDelete(`Bạn có chắc muốn xóa danh mục <b>"${cat.name}"</b>?`);
+      if (!confirmed) return;
       const res = await axiosClient.post('/admin/categories/delete', { id: cat.id })
       if (res.data.status === 1) { this.$toast.success('Đã xoá!'); this.fetchCategories() }
       else this.$toast.error(res.data.message)
