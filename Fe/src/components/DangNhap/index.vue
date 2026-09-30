@@ -130,7 +130,7 @@ export default {
     },
     dangnhapTK() {
       this.loading = true;
-      axios.post('http://127.0.0.1:8000/api/dang-nhap', this.dangNhap)
+      axios.post(`${import.meta.env.VITE_API_URL}/dang-nhap`, this.dangNhap)
         .then((res) => {
           if (res.data.status === 1) {
             this.$toast.success(res.data.message || 'Đăng nhập thành công!');
