@@ -1,3 +1,4 @@
+```vue
 <template>
   <div class="min-vh-100 d-flex flex-column align-items-center justify-content-center py-5"
        style="background: radial-gradient(circle at 50% 10%, #fffdfa 0%, #fef8ee 40%, #f9f8f5 100%);">
@@ -9,8 +10,13 @@
       </router-link>
     </div>
 
-    <!-- Registration Card -->
-    <div class="card border-0 shadow-xl rounded-4 p-2 bg-white" style="width: 100%; max-width: 460px; border: 1px solid rgba(180, 131, 37, 0.16) !important;">
+    <!-- ========================= -->
+    <!-- MÀN HÌNH ĐĂNG KÝ -->
+    <!-- ========================= -->
+    <div v-if="!showOtp"
+         class="card border-0 shadow-xl rounded-4 p-2 bg-white"
+         style="width: 100%; max-width: 460px; border: 1px solid rgba(180, 131, 37, 0.16) !important;">
+
       <div class="card-body px-4 py-4">
 
         <!-- Icon + Title -->
@@ -19,7 +25,11 @@
                style="width: 64px; height: 64px; background: rgba(180, 131, 37, 0.12); color: #b48325;">
             <i class="bx bx-user-plus" style="font-size: 2rem;"></i>
           </div>
-          <h4 class="fw-extrabold text-dark mb-1 font-streetwear">Tạo Tài Khoản Mới</h4>
+
+          <h4 class="fw-extrabold text-dark mb-1 font-streetwear">
+            Tạo Tài Khoản Mới
+          </h4>
+
           <p class="text-muted small mb-0">
             Gia nhập cộng đồng thời trang SOFEP &amp; nhận ngay voucher 50.000₫.
           </p>
@@ -27,54 +37,102 @@
 
         <form @submit.prevent="dangkyTaiKhoan">
           <div class="row g-3">
-            
+
             <!-- Họ và Tên -->
             <div class="col-12">
-              <label for="regFullName" class="form-label fw-semibold small text-dark mb-1">Họ Và Tên</label>
+              <label for="regFullName"
+                     class="form-label fw-semibold small text-dark mb-1">
+                Họ Và Tên
+              </label>
+
               <div class="input-group input-group-sm">
                 <span class="input-group-text bg-light border-end-0 text-muted">
                   <i class="bx bx-user"></i>
                 </span>
-                <input v-model="dangKy.ho_va_ten" type="text" class="form-control border-start-0 ps-0"
-                       id="regFullName" placeholder="Nguyễn Văn A" required />
+
+                <input
+                  v-model="dangKy.ho_va_ten"
+                  type="text"
+                  class="form-control border-start-0 ps-0"
+                  id="regFullName"
+                  placeholder="Nguyễn Văn A"
+                  required
+                />
               </div>
             </div>
 
             <!-- Email -->
             <div class="col-12">
-              <label for="regEmail" class="form-label fw-semibold small text-dark mb-1">Địa Chỉ Email</label>
+              <label for="regEmail"
+                     class="form-label fw-semibold small text-dark mb-1">
+                Địa Chỉ Email
+              </label>
+
               <div class="input-group input-group-sm">
                 <span class="input-group-text bg-light border-end-0 text-muted">
                   <i class="bx bx-envelope"></i>
                 </span>
-                <input v-model="dangKy.email" type="email" class="form-control border-start-0 ps-0"
-                       id="regEmail" placeholder="name@example.com" required />
+
+                <input
+                  v-model="dangKy.email"
+                  type="email"
+                  class="form-control border-start-0 ps-0"
+                  id="regEmail"
+                  placeholder="name@example.com"
+                  required
+                />
               </div>
             </div>
 
             <!-- Số điện thoại -->
             <div class="col-12">
-              <label for="regPhone" class="form-label fw-semibold small text-dark mb-1">Số Điện Thoại</label>
+              <label for="regPhone"
+                     class="form-label fw-semibold small text-dark mb-1">
+                Số Điện Thoại
+              </label>
+
               <div class="input-group input-group-sm">
                 <span class="input-group-text bg-light border-end-0 text-muted">
                   <i class="bx bx-phone"></i>
                 </span>
-                <input v-model="dangKy.so_dien_thoai" type="tel" class="form-control border-start-0 ps-0"
-                       id="regPhone" placeholder="09xxxxxxxx" required />
+
+                <input
+                  v-model="dangKy.so_dien_thoai"
+                  type="tel"
+                  class="form-control border-start-0 ps-0"
+                  id="regPhone"
+                  placeholder="09xxxxxxxx"
+                  required
+                />
               </div>
             </div>
 
             <!-- Mật khẩu -->
             <div class="col-6">
-              <label for="regPassword" class="form-label fw-semibold small text-dark mb-1">Mật Khẩu</label>
+              <label for="regPassword"
+                     class="form-label fw-semibold small text-dark mb-1">
+                Mật Khẩu
+              </label>
+
               <div class="input-group input-group-sm">
                 <span class="input-group-text bg-light border-end-0 text-muted">
                   <i class="bx bx-lock-alt"></i>
                 </span>
-                <input v-model="dangKy.mat_khau" :type="hienMK ? 'text' : 'password'"
-                       class="form-control border-start-0 border-end-0 ps-0"
-                       id="regPassword" placeholder="••••••••" required />
-                <span class="input-group-text bg-light border-start-0 text-muted" style="cursor:pointer;" @click="hienMK = !hienMK">
+
+                <input
+                  v-model="dangKy.mat_khau"
+                  :type="hienMK ? 'text' : 'password'"
+                  class="form-control border-start-0 border-end-0 ps-0"
+                  id="regPassword"
+                  placeholder="••••••••"
+                  required
+                />
+
+                <span
+                  class="input-group-text bg-light border-start-0 text-muted"
+                  style="cursor:pointer;"
+                  @click="hienMK = !hienMK"
+                >
                   <i :class="hienMK ? 'bx bx-hide' : 'bx bx-show'"></i>
                 </span>
               </div>
@@ -82,23 +140,50 @@
 
             <!-- Xác nhận mật khẩu -->
             <div class="col-6">
-              <label for="regConfirmPassword" class="form-label fw-semibold small text-dark mb-1">Xác Nhận</label>
+              <label for="regConfirmPassword"
+                     class="form-label fw-semibold small text-dark mb-1">
+                Xác Nhận
+              </label>
+
               <div class="input-group input-group-sm">
                 <span class="input-group-text bg-light border-end-0 text-muted">
                   <i class="bx bx-lock-alt"></i>
                 </span>
-                <input v-model="dangKy.xac_nhan_mk" :type="hienMK ? 'text' : 'password'"
-                       class="form-control border-start-0 ps-0"
-                       id="regConfirmPassword" placeholder="••••••••" required />
+
+                <input
+                  v-model="dangKy.xac_nhan_mk"
+                  :type="hienMK ? 'text' : 'password'"
+                  class="form-control border-start-0 ps-0"
+                  id="regConfirmPassword"
+                  placeholder="••••••••"
+                  required
+                />
               </div>
             </div>
 
             <!-- Điều khoản -->
             <div class="col-12">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="agreeTerms" v-model="dongYDieuKhoan" required />
-                <label class="form-check-label small text-muted" for="agreeTerms">
-                  Tôi đồng ý với <a href="#" class="text-urbn-primary text-decoration-none fw-semibold">Điều khoản sử dụng</a> và <a href="#" class="text-urbn-primary text-decoration-none fw-semibold">Chính sách bảo mật</a>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="agreeTerms"
+                  v-model="dongYDieuKhoan"
+                  required
+                />
+
+                <label class="form-check-label small text-muted"
+                       for="agreeTerms">
+                  Tôi đồng ý với
+                  <a href="#"
+                     class="text-urbn-primary text-decoration-none fw-semibold">
+                    Điều khoản sử dụng
+                  </a>
+                  và
+                  <a href="#"
+                     class="text-urbn-primary text-decoration-none fw-semibold">
+                    Chính sách bảo mật
+                  </a>
                 </label>
               </div>
             </div>
@@ -106,9 +191,21 @@
             <!-- Nút đăng ký -->
             <div class="col-12 mt-3">
               <div class="d-grid">
-                <button type="submit" :disabled="loading" class="btn btn-urbn-primary py-2 fw-bold text-white shadow-sm">
-                  <span v-if="loading" class="spinner-border spinner-border-sm me-2"></span>
-                  <i v-else class="bx bx-user-check me-1 fs-5"></i>
+                <button
+                  type="submit"
+                  :disabled="loading"
+                  class="btn btn-urbn-primary py-2 fw-bold text-white shadow-sm"
+                >
+                  <span
+                    v-if="loading"
+                    class="spinner-border spinner-border-sm me-2"
+                  ></span>
+
+                  <i
+                    v-else
+                    class="bx bx-user-check me-1 fs-5"
+                  ></i>
+
                   <span>ĐĂNG KÝ TÀI KHOẢN</span>
                 </button>
               </div>
@@ -118,84 +215,379 @@
         </form>
       </div>
 
-      <!-- Footer chuyển sang Đăng nhập -->
+      <!-- Footer -->
       <div class="card-footer bg-transparent border-0 text-center pb-3 pt-0">
-        <span class="text-muted small">Đã có tài khoản? </span>
-        <router-link to="/dang-nhap" class="text-urbn-primary small text-decoration-none fw-bold">
-          Đăng nhập ngay <i class="bx bx-right-arrow-alt"></i>
+        <span class="text-muted small">
+          Đã có tài khoản?
+        </span>
+
+        <router-link
+          to="/dang-nhap"
+          class="text-urbn-primary small text-decoration-none fw-bold"
+        >
+          Đăng nhập ngay
+          <i class="bx bx-right-arrow-alt"></i>
         </router-link>
       </div>
     </div>
 
-    <!-- Back to store link -->
+
+    <!-- ========================= -->
+    <!-- MÀN HÌNH NHẬP OTP -->
+    <!-- ========================= -->
+    <div
+      v-else
+      class="card border-0 shadow-xl rounded-4 p-2 bg-white"
+      style="width: 100%; max-width: 460px; border: 1px solid rgba(180, 131, 37, 0.16) !important;"
+    >
+
+      <div class="card-body px-4 py-5">
+
+        <!-- Icon -->
+        <div class="text-center mb-4">
+
+          <div
+            class="rounded-circle d-inline-flex align-items-center justify-content-center mb-3 shadow-xs"
+            style="width: 64px; height: 64px; background: rgba(180, 131, 37, 0.12); color: #b48325;"
+          >
+            <i class="bx bx-envelope" style="font-size: 2rem;"></i>
+          </div>
+
+          <h4 class="fw-extrabold text-dark mb-2 font-streetwear">
+            Xác Thực Email
+          </h4>
+
+          <p class="text-muted small mb-1">
+            Mã xác thực 6 số đã được gửi đến email:
+          </p>
+
+          <strong class="text-dark">
+            {{ emailXacThuc }}
+          </strong>
+
+        </div>
+
+
+        <!-- OTP -->
+        <form @submit.prevent="xacThucOtp">
+
+          <div class="mb-4">
+
+            <label
+              for="otp"
+              class="form-label fw-semibold small text-dark"
+            >
+              Nhập mã OTP
+            </label>
+
+            <div class="input-group input-group-sm">
+
+              <span class="input-group-text bg-light border-end-0 text-muted">
+                <i class="bx bx-shield-quarter"></i>
+              </span>
+
+              <input
+                v-model="otp"
+                type="text"
+                id="otp"
+                class="form-control border-start-0 text-center fw-bold"
+                placeholder="Nhập 6 số"
+                maxlength="6"
+                inputmode="numeric"
+                autocomplete="one-time-code"
+                required
+              />
+
+            </div>
+
+            <div class="text-muted small mt-2 text-center">
+              Mã OTP có hiệu lực trong <strong>10 phút</strong>.
+            </div>
+
+          </div>
+
+
+          <!-- Nút xác thực -->
+          <div class="d-grid">
+
+            <button
+              type="submit"
+              :disabled="otpLoading || otp.length !== 6"
+              class="btn btn-urbn-primary py-2 fw-bold text-white shadow-sm"
+            >
+
+              <span
+                v-if="otpLoading"
+                class="spinner-border spinner-border-sm me-2"
+              ></span>
+
+              <i
+                v-else
+                class="bx bx-check-circle me-1 fs-5"
+              ></i>
+
+              XÁC THỰC OTP
+
+            </button>
+
+          </div>
+
+        </form>
+
+
+        <!-- Quay lại -->
+        <div class="text-center mt-4">
+
+          <button
+            type="button"
+            class="btn btn-link text-muted text-decoration-none small"
+            @click="quayLaiDangKy"
+          >
+            <i class="bx bx-arrow-back me-1"></i>
+            Quay lại đăng ký
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- Back to store -->
     <div class="text-center mt-3">
-      <router-link to="/" class="text-muted small text-decoration-none">
-        <i class="bx bx-arrow-back me-1"></i> Quay về trang chủ cửa hàng
+      <router-link
+        to="/"
+        class="text-muted small text-decoration-none"
+      >
+        <i class="bx bx-arrow-back me-1"></i>
+        Quay về trang chủ cửa hàng
       </router-link>
     </div>
 
   </div>
 </template>
 
+
 <script>
 import axios from 'axios';
 
 export default {
   name: 'DangKy',
+
   data() {
     return {
+      // Đăng ký
       hienMK: false,
       loading: false,
       dongYDieuKhoan: true,
+
       dangKy: {
         ho_va_ten: '',
         email: '',
         so_dien_thoai: '',
         mat_khau: '',
         xac_nhan_mk: ''
-      }
+      },
+
+      // OTP
+      showOtp: false,
+      otp: '',
+      emailXacThuc: '',
+      otpLoading: false
     };
   },
+
   methods: {
+
+    // ==========================================
+    // ĐĂNG KÝ TÀI KHOẢN
+    // ==========================================
     dangkyTaiKhoan() {
+
+      // Kiểm tra mật khẩu
       if (this.dangKy.mat_khau !== this.dangKy.xac_nhan_mk) {
         this.$toast.error('Xác nhận mật khẩu không khớp!');
         return;
       }
+
       this.loading = true;
-      axios.post('http://127.0.0.1:8000/api/dang-ky', this.dangKy)
-        .then(res => {
-          if (res.data.status === 1) {
-            this.$toast.success(res.data.message || 'Đăng ký tài khoản thành công!');
+
+      axios.post(
+        'http://127.0.0.1:8000/api/dang-ky',
+        this.dangKy
+      )
+      .then(res => {
+
+        if (res.data.status === 1) {
+
+          // Lưu email để xác thực OTP
+          this.emailXacThuc = this.dangKy.email;
+
+          // Xóa OTP cũ nếu có
+          this.otp = '';
+
+          // Hiện màn hình nhập OTP
+          this.showOtp = true;
+
+          this.$toast.success(
+            res.data.message || 'Mã OTP đã được gửi đến email!'
+          );
+
+        } else {
+
+          this.$toast.error(
+            res.data.message || 'Đăng ký không thành công!'
+          );
+
+        }
+
+      })
+      .catch(err => {
+
+        if (err.response && err.response.data) {
+
+          const errors = err.response.data.errors;
+
+          if (errors) {
+
+            const firstKey = Object.keys(errors)[0];
+
+            this.$toast.error(errors[firstKey][0]);
+
+          } else {
+
+            this.$toast.error(
+              err.response.data.message ||
+              'Lỗi dữ liệu đăng ký!'
+            );
+
+          }
+
+        } else {
+
+          this.$toast.error(
+            'Không thể kết nối đến máy chủ!'
+          );
+
+        }
+
+      })
+      .finally(() => {
+
+        this.loading = false;
+
+      });
+    },
+
+
+    // ==========================================
+    // XÁC THỰC OTP
+    // ==========================================
+    xacThucOtp() {
+
+      // Kiểm tra đủ 6 số
+      if (!/^\d{6}$/.test(this.otp)) {
+
+        this.$toast.error(
+          'Vui lòng nhập đúng mã OTP gồm 6 số!'
+        );
+
+        return;
+      }
+
+      this.otpLoading = true;
+
+      axios.post(
+        'http://127.0.0.1:8000/api/xac-thuc-otp',
+        {
+          email: this.emailXacThuc,
+          otp: this.otp
+        }
+      )
+      .then(res => {
+
+        if (res.data.status === 1) {
+
+          this.$toast.success(
+            res.data.message ||
+            'Xác thực email thành công!'
+          );
+
+          // Xác thực xong mới cho đăng nhập
+          setTimeout(() => {
             this.$router.push('/dang-nhap');
+          }, 1000);
+
+        } else {
+
+          this.$toast.error(
+            res.data.message ||
+            'Xác thực OTP không thành công!'
+          );
+
+        }
+
+      })
+      .catch(err => {
+
+        if (err.response && err.response.data) {
+
+          const errors = err.response.data.errors;
+
+          if (errors) {
+
+            const firstKey = Object.keys(errors)[0];
+
+            this.$toast.error(errors[firstKey][0]);
+
           } else {
-            this.$toast.error(res.data.message || 'Đăng ký không thành công!');
+
+            this.$toast.error(
+              err.response.data.message ||
+              'Mã OTP không chính xác!'
+            );
+
           }
-        })
-        .catch(err => {
-          if (err.response && err.response.data) {
-            const errors = err.response.data.errors;
-            if (errors) {
-              const firstKey = Object.keys(errors)[0];
-              this.$toast.error(errors[firstKey][0]);
-            } else {
-              this.$toast.error(err.response.data.message || 'Lỗi dữ liệu đăng ký!');
-            }
-          } else {
-            this.$toast.error('Không thể kết nối đến máy chủ!');
-          }
-        })
-        .finally(() => {
-          this.loading = false;
-        });
+
+        } else {
+
+          this.$toast.error(
+            'Không thể kết nối đến máy chủ!'
+          );
+
+        }
+
+      })
+      .finally(() => {
+
+        this.otpLoading = false;
+
+      });
+    },
+
+
+    // ==========================================
+    // QUAY LẠI MÀN HÌNH ĐĂNG KÝ
+    // ==========================================
+    quayLaiDangKy() {
+
+      this.showOtp = false;
+      this.otp = '';
+
     }
+
   }
 };
 </script>
 
+
 <style scoped>
+
 .font-streetwear {
   font-family: 'Plus Jakarta Sans', sans-serif;
   letter-spacing: -0.02em;
 }
+
 </style>
+```
