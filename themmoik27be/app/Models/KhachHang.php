@@ -14,16 +14,23 @@ class KhachHang extends Authenticatable
     protected $table = 'khach_hangs';
 
     protected $fillable = [
-        'ho_va_ten',
-        'email',
-        'so_dien_thoai',
-        'mat_khau',
-        'dia_chi',
-        'ngay_sinh',
-        'gioi_tinh',
-        'avatar',
-        'is_kich_hoat',
-        'is_khoa',
+    'ho_va_ten',
+    'email',
+    'so_dien_thoai',
+    'mat_khau',
+    'dia_chi',
+    'ngay_sinh',
+    'gioi_tinh',
+    'avatar',
+    'is_kich_hoat',
+    'is_khoa',
+
+    // Google Login
+    'google_id',
+
+    // Email OTP
+    'otp_hash',
+    'otp_expires_at',
     ];
 
     protected $hidden = [

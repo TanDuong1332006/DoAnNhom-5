@@ -1,0 +1,55 @@
+# ==============================
+# Frontend - Vue / Vite
+# ==============================
+
+Fe/node_modules/
+Fe/dist/
+Fe/.env
+Fe/.env.local
+Fe/.env.*.local
+
+
+# ==============================
+# Backend - Laravel
+# ==============================
+
+themmoik27be/vendor/
+themmoik27be/.env
+themmoik27be/.env.backup
+themmoik27be/.env.production
+themmoik27be/.env.local
+
+
+# ==============================
+# Laravel runtime
+# ==============================
+
+themmoik27be/storage/logs/*
+themmoik27be/storage/framework/cache/*
+themmoik27be/storage/framework/sessions/*
+themmoik27be/storage/framework/views/*
+
+
+# ==============================
+# IDE
+# ==============================
+
+.vscode/
+.idea/
+
+
+# ==============================
+# Operating System
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.log
+*.tmp
+*.temp

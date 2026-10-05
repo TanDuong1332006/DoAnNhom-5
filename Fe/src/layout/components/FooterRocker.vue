@@ -1,6 +1,7 @@
 <template>
     <footer class="page-footer">
-        <p class="mb-0">Copyright © 2021. All right reserved.</p>
+        <p class="mb-0">© 2026 SOFEP STUDIO. Bản quyền thuộc về thương hiệu thời trang cao cấp.
+</p>
     </footer>
 </template>
 

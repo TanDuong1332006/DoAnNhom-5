@@ -25,6 +25,7 @@ use Illuminate\Support\Facades\Route;
 
 // Auth (Đăng ký, Đăng nhập, Kiểm tra đăng nhập, Đăng xuất)
 Route::post('/dang-ky',             [AuthController::class, 'dangKy']);
+Route::post('/xac-thuc-otp',         [AuthController::class, 'xacThucOtp']);
 Route::post('/dang-nhap',           [AuthController::class, 'dangNhap']);
 Route::get('/kiem-tra-dang-nhap',   [AuthController::class, 'kiemTraDangNhap']);
 Route::post('/dang-xuat',           [AuthController::class, 'dangXuat']);
