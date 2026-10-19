@@ -22,9 +22,9 @@ class giaoDichController extends Controller
             'verify'  => false
         ]);
 
-        $username   = env('MB_USERNAME', '0862296097');
+        $username   = env('MB_USERNAME', '0362242553');
         $password   = env('MB_PASSWORD', '');
-        $accountNo  = env('MB_ACCOUNT_NO', '0862296097');
+        $accountNo  = env('MB_ACCOUNT_NO', '0362242553');
         $dayBegin   = Carbon::today()->format('d/m/Y');
         $dayEnd     = Carbon::today()->format('d/m/Y');
 
