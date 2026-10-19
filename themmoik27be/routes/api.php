@@ -14,6 +14,8 @@ use App\Http\Controllers\Admin\ThongKeController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\giaoDichController;
+// THÊM CONTROLLER QUÊN MẬT KHẨU Ở ĐÂY:
+use App\Http\Controllers\Api\ForgotPasswordController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -23,7 +25,7 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
-// Auth (Đăng ký, Đăng nhập, Kiểm tra đăng nhập, Đăng xuất)
+// Auth (Đăng ký, Đăng nhập, Kiểm tra đăng nhập, Đăng xuất, Quên mật khẩu)
 Route::post('/dang-ky',             [AuthController::class, 'dangKy']);
 Route::post('/xac-thuc-otp',         [AuthController::class, 'xacThucOtp']);
 Route::post('/dang-nhap',           [AuthController::class, 'dangNhap']);
@@ -31,6 +33,11 @@ Route::get('/kiem-tra-dang-nhap',   [AuthController::class, 'kiemTraDangNhap']);
 Route::post('/dang-xuat',           [AuthController::class, 'dangXuat']);
 Route::post('/admin-login',         [AuthController::class, 'dangNhap']);
 Route::post('/auth/admin-login',    [AuthController::class, 'dangNhap']);
+
+// THÊM ROUTES QUÊN MẬT KHẨU Ở ĐÂY:
+Route::post('/forgot-password/send-otp', [ForgotPasswordController::class, 'sendOtp']);
+Route::post('/forgot-password/verify-otp', [ForgotPasswordController::class, 'verifyOtp']);
+Route::post('/forgot-password/reset-password', [ForgotPasswordController::class, 'resetPassword']);
 
 // Giao Dịch MB Bank & Thanh Toán Tự Động
 Route::any('/giao-dich',                         [giaoDichController::class, 'getData']);

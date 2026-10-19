@@ -256,9 +256,8 @@ class ClientController extends Controller
             'ghi_chu'                => $request->ghi_chu ?: 'Khách hàng thanh toán qua VietQR MB Bank',
         ]);
 
-        $stkMb = env('MB_ACCOUNT_NO', '0862296097');
-        $vietqr_url = "https://img.vietqr.io/image/MB-{$stkMb}-compact2.png?amount={$tongTien}&addInfo={$ma_don_hang}&accountName=MB%20BANK";
-
+        $stkMb = env('MB_ACCOUNT_NO', '0362242553');
+        $vietqr_url = "https://img.vietqr.io/image/MB-{$stkMb}-compact2.png?amount={$tongTien}&addInfo={$ma_don_hang}&accountName=NGUYEN%20TAN%20DUONG";    
         return response()->json([
             'status'     => 1,
             'message'    => 'Tạo đơn hàng thành công!',

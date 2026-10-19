@@ -291,7 +291,7 @@ export default {
       vietqrUrl: '',
       bankInfo: {
         ten_ngan_hang: 'MB Bank',
-        so_tai_khoan: '0862296097',
+        so_tai_khoan: '0362242553',
         chu_tai_khoan: 'MB BANK OFFICIAL',
         noi_dung_chuyen_khoan: '',
         so_tien: 0
