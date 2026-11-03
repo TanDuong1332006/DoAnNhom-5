@@ -52,6 +52,11 @@ Route::prefix('client')->group(function () {
     Route::post('/dat-hang',              [ClientController::class, 'datHang']);
 });
 
+Route::middleware('auth:sanctum')->group(function () {
+    Route::post('/client/product-views', [ClientController::class, 'recordProductView']);
+    Route::get('/client/recommendations', [ClientController::class, 'getRecommendations']);
+});
+
 // ─── ADMIN ROUTES (Đúng chuẩn style be_k27_esport02) ───────────────────
 Route::prefix('admin')->group(function () {
 

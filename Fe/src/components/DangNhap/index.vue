@@ -104,7 +104,7 @@
 </template>
 
 <script>
-import axios from 'axios';
+import axiosClient from '@/services/axiosClient';
 
 export default {
   name: "DangNhap",
@@ -130,7 +130,7 @@ export default {
     },
     dangnhapTK() {
       this.loading = true;
-      axios.post(`${import.meta.env.VITE_API_URL}/dang-nhap`, this.dangNhap)
+      axiosClient.post('/dang-nhap', this.dangNhap)
         .then((res) => {
           if (res.data.status === 1) {
             this.$toast.success(res.data.message || 'Đăng nhập thành công!');
@@ -138,10 +138,12 @@ export default {
             localStorage.setItem('auth_token', res.data.token);
             localStorage.setItem('nguoi_dung_token', res.data.token);
             localStorage.setItem('admin_token', res.data.token);
+            localStorage.setItem('shop_token', res.data.token);
             
             // Lưu thông tin người dùng
             localStorage.setItem('user', JSON.stringify(res.data.nguoi_dung));
             localStorage.setItem('nguoi_dung', JSON.stringify(res.data.nguoi_dung));
+            localStorage.setItem('shop_user', JSON.stringify(res.data.nguoi_dung));
 
             // Nếu là admin thì vào trang quản trị /admin, nếu là khách hàng thì về trang chủ /
             if (res.data.nguoi_dung && res.data.nguoi_dung.role === 'admin') {

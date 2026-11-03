@@ -64,6 +64,37 @@
       </div>
     </section>
 
+    <section v-if="recommendedProducts.length" class="py-5 bg-white border-bottom">
+      <div class="container">
+        <div class="d-flex align-items-end justify-content-between mb-4">
+          <div>
+            <span class="text-urbn-primary fw-bold text-uppercase small tracking-wide">DÀNH RIÊNG CHO BẠN</span>
+            <h2 class="fw-extrabold text-dark text-uppercase font-streetwear mb-0">Có Thể Bạn Sẽ Thích</h2>
+          </div>
+        </div>
+        <div class="row g-4 row-cols-2 row-cols-md-3 row-cols-lg-4">
+          <div v-for="sp in recommendedProducts" :key="sp.id" class="col">
+            <div class="card-urbn h-100 d-flex flex-column position-relative group-product cursor-pointer" @click="xemChiTiet(sp)">
+              <div class="position-relative overflow-hidden" style="padding-top: 125%;">
+                <img :src="sp.hinh_anh || 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500'"
+                     class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover img-hover-zoom"
+                     :alt="sp.ten_san_pham">
+              </div>
+              <div class="p-3">
+                <span class="text-muted small text-uppercase mb-1" style="font-size: 11px;">
+                  {{ sp.danh_muc?.ten_danh_muc || 'Sản phẩm' }}
+                </span>
+                <h6 class="fw-bold text-dark text-truncate mb-2">{{ sp.ten_san_pham }}</h6>
+                <span class="fw-extrabold text-urbn-primary fs-5">
+                  {{ formatMoney(sp.gia_khuyen_mai || sp.gia_ban) }}₫
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- 2. QUICK CATEGORY CHIPS BAR (5 Contemporary Streetwear Cards) -->
     <section class="quick-categories py-5 bg-white border-bottom">
       <div class="container">
@@ -493,6 +524,7 @@
 <script>
 import { cartStore } from '../../stores/cartStore';
 import axios from 'axios';
+import axiosClient from '@/services/axiosClient';
 
 export default {
   name: 'ClientTrangChu',
@@ -501,6 +533,7 @@ export default {
       cartStore,
       danh_mucs: [],
       san_phams: [],
+      recommendedProducts: [],
       mau_sacs: [],
       kich_thuocs: [],
       tabActive: 'tat-ca',
@@ -595,6 +628,7 @@ export default {
   },
   mounted() {
     this.loadData();
+    this.loadRecommendations();
     this.startCountdown();
   },
   beforeUnmount() {
@@ -644,6 +678,16 @@ export default {
             if (this.kich_thuocs.length > 0) this.selectedSize = this.kich_thuocs[1] || this.kich_thuocs[0];
           }
         });
+    },
+    loadRecommendations() {
+      const user = JSON.parse(localStorage.getItem('shop_user') || 'null');
+      if (!localStorage.getItem('shop_token') || user?.role !== 'customer') return;
+
+      axiosClient.get('/client/recommendations')
+        .then(res => {
+          if (res.data.status) this.recommendedProducts = res.data.data;
+        })
+        .catch(error => console.error('Không thể tải gợi ý sản phẩm:', error));
     },
     locTheoTenDanhMuc(catName) {
       const match = this.danh_mucs.find(d => d.ten_danh_muc && d.ten_danh_muc.toLowerCase().includes(catName.toLowerCase()));

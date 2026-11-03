@@ -11,6 +11,7 @@ use App\Models\KhachHang;
 use App\Models\MaGiamGia;
 use App\Models\HoaDon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 
@@ -126,6 +127,89 @@ class ClientController extends Controller
                 'san_pham'           => $san_pham,
                 'san_pham_lien_quan' => $san_pham_lien_quan
             ]
+        ]);
+    }
+
+    public function recordProductView(Request $request)
+    {
+        $customer = $request->user();
+        if (!$customer instanceof KhachHang) {
+            return response()->json([
+                'status' => 0,
+                'message' => 'Chỉ khách hàng mới có thể lưu lịch sử xem sản phẩm.',
+            ], 403);
+        }
+
+        $validated = $request->validate([
+            'id_san_pham' => 'required|integer|exists:san_phams,id',
+        ]);
+        $product = SanPham::where('id', $validated['id_san_pham'])
+            ->where('trang_thai', 1)
+            ->first();
+
+        if (!$product) {
+            return response()->json([
+                'status' => 0,
+                'message' => 'Sản phẩm không tồn tại hoặc đã ngừng kinh doanh.',
+            ], 404);
+        }
+
+        $now = now();
+        DB::table('luot_xem_san_phams')->insertOrIgnore([
+            'id_khach_hang' => $customer->id,
+            'id_san_pham' => $product->id,
+            'so_luot_xem' => 0,
+            'created_at' => $now,
+            'updated_at' => $now,
+        ]);
+        DB::table('luot_xem_san_phams')
+            ->where('id_khach_hang', $customer->id)
+            ->where('id_san_pham', $product->id)
+            ->increment('so_luot_xem', 1, ['updated_at' => $now]);
+
+        return response()->json([
+            'status' => 1,
+            'message' => 'Đã lưu lượt xem sản phẩm.',
+        ]);
+    }
+
+    public function getRecommendations(Request $request)
+    {
+        $customer = $request->user();
+        if (!$customer instanceof KhachHang) {
+            return response()->json([
+                'status' => 0,
+                'message' => 'Chỉ khách hàng mới có thể xem gợi ý sản phẩm.',
+            ], 403);
+        }
+
+        $favoriteCategoryId = DB::table('luot_xem_san_phams')
+            ->join('san_phams', 'san_phams.id', '=', 'luot_xem_san_phams.id_san_pham')
+            ->where('luot_xem_san_phams.id_khach_hang', $customer->id)
+            ->where('san_phams.trang_thai', 1)
+            ->select('san_phams.id_danh_muc')
+            ->groupBy('san_phams.id_danh_muc')
+            ->orderByRaw('SUM(luot_xem_san_phams.so_luot_xem) DESC')
+            ->value('san_phams.id_danh_muc');
+
+        $products = collect();
+        if ($favoriteCategoryId) {
+            $viewedProductIds = DB::table('luot_xem_san_phams')
+                ->where('id_khach_hang', $customer->id)
+                ->pluck('id_san_pham');
+
+            $products = SanPham::with(['danhMuc', 'thuongHieu'])
+                ->where('id_danh_muc', $favoriteCategoryId)
+                ->where('trang_thai', 1)
+                ->whereNotIn('id', $viewedProductIds)
+                ->orderByDesc('luot_xem')
+                ->take(8)
+                ->get();
+        }
+
+        return response()->json([
+            'status' => 1,
+            'data' => $products,
         ]);
     }
 

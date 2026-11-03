@@ -621,7 +621,7 @@
 
 <script>
 import { cartStore } from '../../stores/cartStore';
-import axios from 'axios';
+import axiosClient from '@/services/axiosClient';
 
 export default {
   name: 'ChiTietSanPham',
@@ -715,12 +715,13 @@ export default {
   },
   methods: {
     loadChiTietSanPham(idOrSlug) {
-      axios.get(`http://127.0.0.1:8000/api/client/san-pham/${idOrSlug}`)
+      axiosClient.get(`/client/san-pham/${idOrSlug}`)
         .then(res => {
           if (res.data.status && res.data.data) {
             const sp = res.data.data.san_pham;
             this.product = sp;
             this.relatedProducts = res.data.data.san_pham_lien_quan || [];
+            this.recordProductView(sp.id);
 
             const images = [];
             if (sp.hinh_anh) images.push(sp.hinh_anh);
@@ -766,6 +767,13 @@ export default {
           console.warn('Fallback mock product data:', err);
           this.setupMockProduct(idOrSlug);
         });
+    },
+    recordProductView(productId) {
+      const user = JSON.parse(localStorage.getItem('shop_user') || 'null');
+      if (!localStorage.getItem('shop_token') || user?.role !== 'customer') return;
+
+      axiosClient.post('/client/product-views', { id_san_pham: productId })
+        .catch(error => console.error('Không thể lưu lịch sử xem sản phẩm:', error));
     },
     setupMockProduct(id) {
       this.product = {

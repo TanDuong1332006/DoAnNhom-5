@@ -603,6 +603,8 @@ export default {
         localStorage.removeItem('auth_token');
         localStorage.removeItem('nguoi_dung_token');
         localStorage.removeItem('admin_token');
+        localStorage.removeItem('shop_token');
+        localStorage.removeItem('shop_user');
         localStorage.removeItem('user');
         localStorage.removeItem('nguoi_dung');
         this.currentUser = null;
