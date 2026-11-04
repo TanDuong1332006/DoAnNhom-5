@@ -2,6 +2,11 @@ import { createRouter, createWebHistory } from "vue-router";
 import checkLogin from "./checkLogin";
 
 const routes = [
+    {
+        path: '/demo/product-detail-2/:id?',
+        meta: { layout: 'client' },
+        redirect: to => '/san-pham/' + encodeURIComponent(to.params.id || to.query.product || '1')
+    },
     // ─── CLIENT SHOPPING ROUTES (Light Modern Theme) ─────────
     {
         path: '/',
@@ -14,14 +19,13 @@ const routes = [
         component: () => import('../components/Client/TrangChu.vue')
     },
     {
-        path: '/san-pham/:id',
+        path: '/san-pham/:slug',
         meta: { layout: 'client' },
         component: () => import('../components/Client/ChiTietSanPham.vue')
     },
     {
         path: '/chi-tiet-san-pham/:id',
-        meta: { layout: 'client' },
-        component: () => import('../components/Client/ChiTietSanPham.vue')
+        redirect: to => '/san-pham/' + encodeURIComponent(to.params.id)
     },
     {
         path: '/tim-kiem',
@@ -69,7 +73,9 @@ const routes = [
         component: () => import('../components/QuenMatKhau/index.vue')
     },
 
+
     // ─── ADMIN ROUTES (Rocker Dashboard Default Layout) ─────
+
     {
         path: '/admin',
         component: () => import('../components/Admin/Dashboard/index.vue')

@@ -3,32 +3,15 @@
         <div class="topbar-logo-header">
             <SofepLogo size="sm" variant="light" subtitle="ADMIN PORTAL" />
         </div>
-        <div class="mobile-toggle-menu"><i class="bx bx-menu"></i></div>
+        <button type="button" class="mobile-toggle-menu border-0 bg-transparent" aria-label="Mở menu Admin" @click.stop="$emit('toggle-menu')"><i class="bx bx-menu"></i></button>
         
         <!-- 1. KHU VỰC THANH TÌM KIẾM TƯƠNG TÁC -->
-        <div class="search-bar flex-grow-1">
-            <div class="position-relative search-bar-box">
-                <input 
-                    type="text" 
-                    class="form-control search-control" 
-                    placeholder="Type to search..."
-                    v-model="searchQuery"
-                    @keyup.enter="handleSearch"
-                >
-                <span class="position-absolute top-50 search-show translate-middle-y" @click="handleSearch" style="cursor: pointer;">
-                    <i class="bx bx-search"></i>
-                </span>
-                <span class="position-absolute top-50 search-close translate-middle-y" @click="clearSearch" style="cursor: pointer;">
-                    <i class="bx bx-x"></i>
-                </span>
-            </div>
-        </div>
-        
+        <div class="search-bar flex-grow-1" :class="{ 'full-search-bar': mobileSearchOpen }"><AdminSearch /><button v-if="mobileSearchOpen" type="button" class="btn btn-light ms-2" aria-label="Đóng tìm kiếm" @click="mobileSearchOpen = false">×</button></div>
+
         <div class="top-menu ms-auto">
             <ul class="navbar-nav align-items-center">
                 <li class="nav-item mobile-search-icon">
-                    <a class="nav-link" href="#"> <i class="bx bx-search"></i>
-                    </a>
+                    <button type="button" class="nav-link border-0 bg-transparent" aria-label="Mở tìm kiếm Admin" @click="mobileSearchOpen = true"><i class="bx bx-search"></i></button>
                 </li>
                 
                 <!-- Bỏ qua phần menu thông báo (Notifications, Messages...) giữ nguyên như cũ -->
@@ -64,22 +47,28 @@
 </template>
 
 <script>
+import AdminSearch from './AdminSearch.vue';
+import axios from 'axios';
+import { adminToken, clearAdminSession } from '../../services/authSessions';
 export default {
     name: 'HeaderRocker',
+    components: { AdminSearch },
+    emits: ['toggle-menu'],
     data() {
         return {
-            currentUser: null,
+            currentUser: null, mobileSearchOpen: false,
             searchQuery: '', // Biến lưu chữ tìm kiếm
             isUserMenuOpen: false // Biến điều khiển menu thả xuống (Mặc định là đóng)
         }
     },
+    watch: { '$route.fullPath'() { this.mobileSearchOpen = false; } },
     mounted() {
         this.loadUser();
     },
     methods: {
         loadUser() {
             try {
-                const raw = localStorage.getItem('nguoi_dung') || localStorage.getItem('user');
+                const raw = localStorage.getItem('admin_user') || localStorage.getItem('nguoi_dung') || localStorage.getItem('user');
                 if (raw) {
                     this.currentUser = JSON.parse(raw);
                 }
@@ -87,34 +76,17 @@ export default {
                 console.error(e);
             }
         },
-        dangXuat() {
+        async dangXuat() {
+            const token = adminToken();
+            try { if (token) await axios.post('http://127.0.0.1:8000/api/dang-xuat', {}, { headers: { Authorization: `Bearer ${token}` }, timeout: 8000 }); } catch {}
             this.isUserMenuOpen = false; // Đóng menu lại khi đăng xuất
-            localStorage.removeItem('admin_token');
-            localStorage.removeItem('auth_token');
-            localStorage.removeItem('nguoi_dung_token');
-            localStorage.removeItem('user');
-            localStorage.removeItem('nguoi_dung');
+            clearAdminSession(token);
             if (this.$toast) {
                 this.$toast.success('Đã đăng xuất thành công');
             }
             this.$router.push('/dang-nhap');
         },
-        handleSearch() {
-            if (!this.searchQuery.trim()) {
-                alert('Vui lòng nhập từ khóa tìm kiếm vào ô trống!');
-                return;
-            }
-            
-            // Hiển thị một bảng thông báo ngay giữa màn hình để bạn thấy nó hoạt động
-            alert('Hệ thống đang tìm kiếm từ khóa: ' + this.searchQuery);
-            
-            // Ghi chú: Sau này khi nhóm bạn có trang hiển thị kết quả tìm kiếm, 
-            // hãy xóa dòng alert() phía trên và bỏ dấu // ở dòng code phía dưới đi:
-            // this.$router.push({ path: '/admin/tim-kiem', query: { q: this.searchQuery } });
-        },
-        clearSearch() {
-            this.searchQuery = '';
-        }
+
     }
 }
 </script>

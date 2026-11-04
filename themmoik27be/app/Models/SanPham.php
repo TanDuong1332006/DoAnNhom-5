@@ -12,6 +12,7 @@ class SanPham extends Model
     protected $table = 'san_phams';
 
     protected $fillable = [
+        'id_cua_hang',
         'id_danh_muc',
         'id_thuong_hieu',
         'ma_san_pham',
@@ -28,7 +29,21 @@ class SanPham extends Model
         'luot_xem',
         'trang_thai',
     ];
+    public function scopeCatalog($query)
+    {
+        return $query->where('trang_thai', 1)->withCount('chiTietSanPhams')->with([
+            'danhMuc',
+            'chiTietSanPhams' => fn ($q) => $q->where('trang_thai', 1)
+                ->where(fn ($c) => $c->whereNull('id_mau_sac')->orWhereHas('mauSac', fn ($m) => $m->where('trang_thai', 1)))
+                ->where(fn ($c) => $c->whereNull('id_kich_thuoc')->orWhereHas('kichThuoc', fn ($m) => $m->where('trang_thai', 1)))
+                ->with(['mauSac', 'kichThuoc']),
+        ]);
+    }
 
+    public function cuaHang()
+    {
+    return $this->belongsTo(CuaHang::class, 'id_cua_hang');
+    }
     public function danhMuc()
     {
         return $this->belongsTo(DanhMuc::class, 'id_danh_muc');

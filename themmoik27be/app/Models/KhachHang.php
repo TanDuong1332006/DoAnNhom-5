@@ -31,6 +31,7 @@ class KhachHang extends Authenticatable
     // Email OTP
     'otp_hash',
     'otp_expires_at',
+    'role',
     ];
 
     protected $hidden = [

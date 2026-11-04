@@ -15,6 +15,7 @@ class ChiTietSanPham extends Model
         'id_san_pham',
         'id_mau_sac',
         'id_kich_thuoc',
+        'id_anh_san_pham',
         'so_luong_ton',
         'gia_chenh_lech',
         'trang_thai',

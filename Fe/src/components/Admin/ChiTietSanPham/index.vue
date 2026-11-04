@@ -4,12 +4,12 @@
         <div class="col-lg-4">
             <div class="card border-top border-3 border-primary shadow-sm">
                 <div class="card-header bg-transparent">
-                    <b class="text-uppercase text-dark">Thêm Biến Thể Tồn Kho</b>
+                    <b class="text-uppercase text-dark">{{ create_BienThe.id ? 'Sửa Biến Thể' : 'Thêm Biến Thể Tồn Kho' }}</b>
                 </div>
                 <div class="card-body">
                     <div class="mb-2">
                         <label class="form-label fw-semibold">Sản phẩm <span class="text-danger">*</span></label>
-                        <select v-model="create_BienThe.id_san_pham" class="form-select form-select-sm">
+                        <select v-model="create_BienThe.id_san_pham" :disabled="!!create_BienThe.id" class="form-select form-select-sm">
                             <option value="">-- Chọn sản phẩm --</option>
                             <option v-for="sp in list_san_pham" :key="sp.id" :value="sp.id">{{ sp.ten_san_pham }}</option>
                         </select>
@@ -37,9 +37,11 @@
                         <input v-model="create_BienThe.gia_chenh_lech" type="number" class="form-control form-control-sm" placeholder="0">
                     </div>
                 </div>
+                <div class="card-body pt-0"><label class="form-label">Trạng thái</label><select v-model.number="create_BienThe.trang_thai" class="form-select form-select-sm"><option :value="1">Đang bán</option><option :value="0">Ngừng bán</option></select></div>
                 <div class="card-footer bg-transparent text-end">
+                    <button v-if="create_BienThe.id" @click="resetForm" class="btn btn-outline-secondary btn-sm me-2">Hủy sửa</button>
                     <button v-on:click="themBienThe()" type="button" class="btn btn-primary btn-sm px-3">
-                        <i class='bx bx-plus-circle me-1'></i> Thêm Biến Thể
+                        {{ create_BienThe.id ? 'Lưu biến thể' : 'Thêm biến thể' }}
                     </button>
                 </div>
             </div>
@@ -74,7 +76,7 @@
                                     <th>Kích Thước</th>
                                     <th>Tồn Kho</th>
                                     <th>Giá Chênh</th>
-                                    <th>Action</th>
+                                    <th>Trạng thái / Thao tác</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -102,6 +104,8 @@
                                         {{ Number(item.gia_chenh_lech).toLocaleString('vi-VN') }} đ
                                     </td>
                                     <td class="text-center">
+                                        <span class="small me-2">{{ item.trang_thai == 1 ? 'Đang bán' : 'Ngừng bán' }}</span>
+                                        <button @click="create_BienThe = { ...item }" class="btn btn-primary btn-sm me-2">Sửa</button>
                                         <button v-on:click="xoaBienThe(item)" class="btn btn-danger btn-sm">
                                             <i class='bx bx-trash'></i> Xóa
                                         </button>
@@ -135,8 +139,8 @@ export default {
                 id_san_pham: '',
                 id_mau_sac: '',
                 id_kich_thuoc: '',
-                so_luong_ton: 50,
-                gia_chenh_lech: 0
+                so_luong_ton: 0,
+                gia_chenh_lech: 0, trang_thai: 1
             }
         }
     },
@@ -149,7 +153,7 @@ export default {
                 const ms = i.mau_sac ? i.mau_sac.ten_mau.toLowerCase() : '';
                 const kt = i.kich_thuoc ? i.kich_thuoc.ten_kich_thuoc.toLowerCase() : '';
                 return sp.includes(kw) || ms.includes(kw) || kt.includes(kw);
-            });
+            }).catch(this.showError);
         }
     },
     mounted() {
@@ -157,31 +161,33 @@ export default {
         this.loadOptions();
     },
     methods: {
+        resetForm() { this.create_BienThe = { id_san_pham: '', id_mau_sac: '', id_kich_thuoc: '', so_luong_ton: 0, gia_chenh_lech: 0, trang_thai: 1 }; },
+        showError(error) { this.$toast.error(Object.values(error.response?.data?.errors || {}).flat()[0] || error.response?.data?.message || 'Không thể thực hiện thao tác.'); },
         loadData() {
             axios.get('http://127.0.0.1:8000/api/admin/chi-tiet-san-pham/get-data')
-                .then(res => { this.list_bien_the = res.data.data; });
+                .then(res => { this.list_bien_the = res.data.data; }).catch(this.showError);
         },
         loadOptions() {
             axios.get('http://127.0.0.1:8000/api/admin/san-pham/get-data')
-                .then(res => { this.list_san_pham = res.data.data; });
+                .then(res => { this.list_san_pham = res.data.data; }).catch(this.showError);
             axios.get('http://127.0.0.1:8000/api/admin/mau-sac/get-data')
-                .then(res => { this.list_mau_sac = res.data.data; });
+                .then(res => { this.list_mau_sac = res.data.data; }).catch(this.showError);
             axios.get('http://127.0.0.1:8000/api/admin/kich-thuoc/get-data')
-                .then(res => { this.list_kich_thuoc = res.data.data; });
+                .then(res => { this.list_kich_thuoc = res.data.data; }).catch(this.showError);
         },
         themBienThe() {
             if (!this.create_BienThe.id_san_pham || this.create_BienThe.so_luong_ton === '') {
                 this.$toast.error('Vui lòng chọn sản phẩm và nhập số lượng tồn kho');
                 return;
             }
-            axios.post('http://127.0.0.1:8000/api/admin/chi-tiet-san-pham/create', this.create_BienThe)
+            axios.post('http://127.0.0.1:8000/api/admin/chi-tiet-san-pham/' + (this.create_BienThe.id ? 'update' : 'create'), this.create_BienThe)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
                         this.loadData();
-                        this.create_BienThe = { id_san_pham: '', id_mau_sac: '', id_kich_thuoc: '', so_luong_ton: 50, gia_chenh_lech: 0 };
+                        this.resetForm();
                     }
-                });
+                }).catch(this.showError);
         },
         async xoaBienThe(item) {
             const confirmed = await this.$confirmDelete(`Bạn có chắc chắn muốn xóa biến thể <b>${item.ten_mau || ''} - ${item.ten_kich_thuoc || ''}</b> này không?`);
@@ -192,7 +198,7 @@ export default {
                             this.$toast.success(res.data.message);
                             this.loadData();
                         }
-                    });
+                    }).catch(this.showError);
             }
         }
     }

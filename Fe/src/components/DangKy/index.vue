@@ -375,6 +375,7 @@ import axios from 'axios';
 export default {
   name: 'DangKy',
 
+
   data() {
     return {
       // Đăng ký
@@ -383,6 +384,7 @@ export default {
       dongYDieuKhoan: true,
 
       dangKy: {
+        role: 'customer',
         ho_va_ten: '',
         email: '',
         so_dien_thoai: '',
@@ -398,12 +400,16 @@ export default {
     };
   },
 
+
   methods: {
 
     // ==========================================
     // ĐĂNG KÝ TÀI KHOẢN
     // ==========================================
     dangkyTaiKhoan() {
+
+      if (this.loading) return;
+
 
       // Kiểm tra mật khẩu
       if (this.dangKy.mat_khau !== this.dangKy.xac_nhan_mk) {
@@ -413,9 +419,11 @@ export default {
 
       this.loading = true;
 
+      const duLieuDangKy = { ...this.dangKy, role: 'customer' };
+
       axios.post(
         'http://127.0.0.1:8000/api/dang-ky',
-        this.dangKy
+        duLieuDangKy
       )
       .then(res => {
 
@@ -587,6 +595,42 @@ export default {
 .font-streetwear {
   font-family: 'Plus Jakarta Sans', sans-serif;
   letter-spacing: -0.02em;
+}
+
+.account-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  height: 100%;
+  padding: 0.85rem 0.65rem;
+  border: 1px solid #e5e0d7;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.account-option.is-selected {
+  border-color: #b48325;
+  background: rgba(180, 131, 37, 0.08);
+}
+
+.account-option:focus-within {
+  outline: 2px solid #b48325;
+  outline-offset: 2px;
+}
+
+.account-option .form-check-input {
+  flex-shrink: 0;
+}
+
+.account-option .form-check-input:checked {
+  background-color: #b48325;
+  border-color: #b48325;
+}
+
+.account-description {
+  font-size: 0.7rem;
+  line-height: 1.4;
 }
 
 </style>

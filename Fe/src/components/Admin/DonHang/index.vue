@@ -74,9 +74,7 @@
                                         <button v-on:click="xemChiTiet(item)" class="btn btn-info btn-sm text-white me-1" data-bs-toggle="modal" data-bs-target="#modalChiTietDH">
                                             <i class='bx bx-show'></i> Chi tiết
                                         </button>
-                                        <button v-on:click="xoaDonHang(item)" class="btn btn-danger btn-sm">
-                                            <i class='bx bx-trash'></i>
-                                        </button>
+
                                     </td>
                                 </tr>
                                 <tr v-if="list_don_hang_loc.length === 0">
@@ -269,20 +267,9 @@ export default {
                     this.$toast.success(res.data.message);
                     this.loadData();
                 }
-            });
+            }).catch(error => this.$toast.error(error.response?.data?.message || 'Không thể cập nhật trạng thái.'));
         },
-        async xoaDonHang(item) {
-            const confirmed = await this.$confirmDelete(`Bạn có chắc chắn muốn xóa đơn hàng <b>#${item.ma_don_hang || item.id}</b> không? Thao tác này không thể hoàn tác.`);
-            if (confirmed) {
-                axios.post('http://127.0.0.1:8000/api/admin/don-hang/destroy', { id: item.id })
-                    .then(res => {
-                        if (res.data.status) {
-                            this.$toast.success(res.data.message);
-                            this.loadData();
-                        }
-                    });
-            }
-        }
+
     }
 }
 </script>

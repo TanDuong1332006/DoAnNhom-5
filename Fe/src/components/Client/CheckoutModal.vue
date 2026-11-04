@@ -1,6 +1,9 @@
 <template>
-  <div v-if="cartStore.isOpenCheckout" class="checkout-modal-backdrop position-fixed top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center p-3" style="background-color: rgba(0,0,0,0.65); z-index: 1080;">
-    <div class="card border-0 rounded-4 shadow-lg bg-white overflow-hidden checkout-modal-card" style="width: 100%; max-width: 680px; max-height: 90vh; display: flex; flex-column;">
+  <button v-if="!cartStore.isOpenCheckout && currentStep === 'payment' && donHangData" type="button"
+    class="btn btn-dark position-fixed bottom-0 end-0 m-3 rounded-pill shadow" style="z-index:1070"
+    @click="cartStore.toggleCheckout(true)">Tiếp tục thanh toán demo</button>
+  <div v-if="cartStore.isOpenCheckout" role="dialog" aria-modal="true" aria-labelledby="checkout-heading" class="checkout-modal-backdrop position-fixed top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center p-3" style="background-color: rgba(0,0,0,0.65); z-index: 1080;">
+    <div class="card border-0 rounded-4 shadow-lg bg-white overflow-hidden checkout-modal-card" style="width: 100%; max-width: 680px; max-height: 90vh; display: flex; flex-direction: column;">
       
       <!-- Modal Header -->
       <div class="modal-header border-bottom px-4 py-3 bg-white d-flex align-items-center justify-content-between">
@@ -9,15 +12,15 @@
             <i class='bx bx-credit-card-front fs-4'></i>
           </div>
           <div>
-            <h5 class="fw-bold text-dark mb-0 font-streetwear fs-6">
-              {{ currentStep === 'payment' ? 'Thanh Toán VietQR - MB Bank' : (currentStep === 'success' ? 'Đặt Hàng Thành Công' : 'Xác Nhận Đặt Hàng & Thanh Toán') }}
+            <h5 id="checkout-heading" class="fw-bold text-dark mb-0 font-streetwear fs-6">
+              {{ currentStep === 'payment' ? 'Thanh toán mô phỏng' : (currentStep === 'success' ? 'Đặt Hàng Thành Công' : 'Xác Nhận Đặt Hàng & Thanh Toán') }}
             </h5>
             <span class="small text-muted" style="font-size: 11px;">
-              {{ currentStep === 'payment' ? 'Quét mã QR để hoàn tất thanh toán tự động' : 'Hệ thống mua sắm trực tuyến chính hãng SOFEP STUDIO' }}
+              {{ currentStep === 'payment' ? 'Demo SOFEP — không chuyển tiền thật' : 'Hệ thống mua sắm trực tuyến chính hãng SOFEP STUDIO' }}
             </span>
           </div>
         </div>
-        <button type="button" class="btn-close shadow-none" @click="dongModal"></button>
+        <button type="button" :disabled="loadingTaoDon" aria-label="Đóng thanh toán" class="btn-close shadow-none" @click="dongModal"></button>
       </div>
 
       <!-- Modal Body (Scrollable) -->
@@ -69,10 +72,10 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Logo_MB_new.png" style="height: 24px; width: auto;" alt="MB Bank Logo">
                 <div>
                   <div class="fw-bold text-dark small d-flex align-items-center gap-1">
-                    <span>Chuyển Khoản MB Bank (VietQR)</span>
-                    <span class="badge bg-danger text-white rounded-pill px-1.5 py-0.5" style="font-size: 9px;">Tự Động 24/7</span>
+                    <span>Thanh toán mô phỏng (demo)</span>
+                    <span class="badge bg-danger text-white rounded-pill px-1.5 py-0.5" style="font-size: 9px;">DEMO</span>
                   </div>
-                  <div class="text-muted small" style="font-size: 11px;">Quét mã QR qua app ngân hàng, hệ thống tự động xác nhận đơn sau 1-3 giây.</div>
+                  <div class="text-muted small" style="font-size: 11px;">Dùng nút mô phỏng sau khi đặt hàng; không chuyển tiền thật.</div>
                 </div>
               </div>
               <i class='bx bxs-check-circle text-danger fs-5' v-if="form.phuong_thuc === 'MB_BANK'"></i>
@@ -96,6 +99,21 @@
 
           </div>
 
+          <div class="mb-3">
+            <label for="checkout-voucher" class="form-label small fw-semibold">Mã giảm giá (tùy chọn)</label>
+            <input id="checkout-voucher" v-model="voucherCode" maxlength="50" class="form-control" placeholder="Nhập mã voucher">
+            <button @click="checkVoucher" :disabled="loadingVoucher || loadingTaoDon" class="btn btn-outline-dark btn-sm mt-2">{{ loadingVoucher ? 'Đang kiểm tra…' : 'Kiểm tra mã và tổng tiền' }}</button>
+            <div v-if="voucherMessage" class="small mt-2" role="status" :class="quote ? 'text-success' : 'text-danger'">{{ voucherMessage }}</div>
+            <small class="text-muted">Mức giảm và tồn kho được xác nhận lại khi đặt hàng.</small>
+          </div>
+          <div v-if="cartIssue" class="alert alert-warning" role="alert">
+            <strong>{{ cartIssue.item.ten_san_pham }}</strong>
+            <p class="mb-2">{{ cartIssue.message }}</p>
+            <div class="d-flex flex-wrap gap-2">
+              <button type="button" class="btn btn-outline-dark btn-sm" @click="reviewCart">Chỉnh sửa giỏ hàng</button>
+              <button type="button" class="btn btn-outline-danger btn-sm" @click="reselectItem">Bỏ dòng này và chọn lại sản phẩm</button>
+            </div>
+          </div>
           <!-- Order Summary Card -->
           <div class="bg-light rounded-3 p-3 border mb-3">
             <div class="d-flex justify-content-between small text-secondary mb-1">
@@ -103,8 +121,8 @@
               <strong class="text-dark">{{ cartStore.count }} món</strong>
             </div>
             <div class="d-flex justify-content-between small text-secondary mb-1">
-              <span>Tạm tính tiền hàng:</span>
-              <span>₫{{ formatMoney(cartStore.subtotal) }}</span>
+              <span>{{ quote ? 'Tiền hàng đã kiểm tra:' : 'Tạm tính tiền hàng:' }}</span>
+              <span>₫{{ formatMoney(quote?.tong_tien_hang ?? cartStore.subtotal) }}</span>
             </div>
             <div class="d-flex justify-content-between small text-secondary mb-1">
               <span>Phí vận chuyển:</span>
@@ -112,6 +130,7 @@
                 {{ phiVanChuyen === 0 ? 'Miễn phí' : '₫' + formatMoney(phiVanChuyen) }}
               </span>
             </div>
+            <div v-if="quote" class="d-flex justify-content-between small text-success"><span>Giảm voucher:</span><span>-₫{{ formatMoney(quote.tien_giam_gia) }}</span></div>
             <div class="d-flex justify-content-between align-items-baseline pt-2 mt-2 border-top">
               <span class="fw-bold text-dark">Tổng thanh toán:</span>
               <span class="fs-4 fw-black text-danger font-streetwear">₫{{ formatMoney(tongThanhToan) }}</span>
@@ -120,7 +139,7 @@
 
           <!-- Submit Button -->
           <button @click="taoDonHang"
-                  :disabled="loadingTaoDon"
+                  :disabled="loadingTaoDon || loadingVoucher || !!cartIssue || !cartStore.items.length"
                   class="btn btn-danger btn-lg w-100 rounded-pill fw-bold text-white shadow-sm py-2.5 d-flex align-items-center justify-content-center gap-2">
             <span v-if="loadingTaoDon" class="spinner-border spinner-border-sm"></span>
             <span v-else><i class='bx bx-check-shield fs-5'></i></span>
@@ -135,88 +154,20 @@
         <!-- ══════════════════════════════════════════════════════ -->
         <div v-else-if="currentStep === 'payment'" class="text-center">
           
-          <div class="alert alert-danger bg-danger bg-opacity-10 border-danger border-opacity-25 rounded-3 text-start small mb-3 p-2.5">
-            <div class="d-flex align-items-center gap-1.5 text-danger fw-bold mb-1">
-              <i class='bx bxs-bell-ring fs-5'></i>
-              <span>Vui lòng không thay đổi NỘI DUNG CHUYỂN KHOẢN:</span>
-            </div>
-            <div class="text-muted">
-              Nội dung chuyển khoản chuẩn: <strong class="badge bg-danger fs-6 text-white">{{ donHangData?.ma_don_hang }}</strong> để hệ thống tự động xác nhận đơn hàng ngay khi nhận được tiền!
-            </div>
-          </div>
-
-          <!-- VietQR Code Image Card -->
-          <div class="vietqr-box bg-white p-3 rounded-4 border shadow-sm mx-auto mb-3" style="max-width: 320px;">
-            <div class="d-flex align-items-center justify-content-between mb-2">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Logo_MB_new.png" style="height: 22px;" alt="MB Bank">
-              <span class="badge bg-primary text-white rounded-pill px-2 py-0.5" style="font-size: 10px;">VietQR 24/7</span>
-            </div>
-            
-            <div class="position-relative overflow-hidden rounded-3 border mb-2" style="background-color: #fafafa;">
-              <img :src="vietqrUrl" class="img-fluid w-100" alt="VietQR MB Bank">
-            </div>
-
-            <div class="small fw-semibold text-danger">Quét mã bằng mọi App Ngân Hàng</div>
-          </div>
-
-          <!-- Bank Details Table with 1-click Copy -->
-          <div class="card border rounded-3 p-3 bg-light text-start mb-3 small">
-            <div class="row gy-2">
-              <div class="col-6 text-muted">Ngân hàng:</div>
-              <div class="col-6 text-end fw-bold text-dark">MB Bank (Quân Đội)</div>
-
-              <div class="col-6 text-muted">Số tài khoản:</div>
-              <div class="col-6 text-end">
-                <span class="fw-black text-danger font-monospace fs-6 me-1">{{ bankInfo.so_tai_khoan }}</span>
-                <button @click="copyText(bankInfo.so_tai_khoan, 'Đã sao chép số tài khoản!')" class="btn btn-outline-secondary btn-sm py-0 px-1.5" title="Copy">
-                  <i class='bx bx-copy'></i>
-                </button>
-              </div>
-
-              <div class="col-6 text-muted">Chủ tài khoản:</div>
-              <div class="col-6 text-end fw-bold text-dark">{{ bankInfo.chu_tai_khoan }}</div>
-
-              <div class="col-6 text-muted">Số tiền chuyển:</div>
-              <div class="col-6 text-end">
-                <span class="fw-black text-danger fs-6 me-1">₫{{ formatMoney(bankInfo.so_tien) }}</span>
-                <button @click="copyText(bankInfo.so_tien, 'Đã sao chép số tiền!')" class="btn btn-outline-secondary btn-sm py-0 px-1.5" title="Copy">
-                  <i class='bx bx-copy'></i>
-                </button>
-              </div>
-
-              <div class="col-6 text-muted">Nội dung chuyển khoản:</div>
-              <div class="col-6 text-end">
-                <span class="badge bg-danger text-white fs-6 font-monospace me-1">{{ bankInfo.noi_dung_chuyen_khoan }}</span>
-                <button @click="copyText(bankInfo.noi_dung_chuyen_khoan, 'Đã sao chép nội dung chuyển khoản!')" class="btn btn-danger btn-sm py-0 px-1.5" title="Copy">
-                  <i class='bx bx-copy'></i>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Live Automatic Polling Indicator -->
-          <div class="p-3 bg-white rounded-3 border mb-3 d-flex align-items-center justify-content-between gap-2">
-            <div class="d-flex align-items-center gap-2">
-              <div class="spinner-grow spinner-grow-sm text-danger" role="status"></div>
-              <div class="text-start">
-                <div class="small fw-bold text-dark">Đang tự động kiểm tra giao dịch MB Bank...</div>
-                <div class="text-muted" style="font-size: 11px;">Hệ thống quét định kỳ mỗi 3 giây hoặc bạn có thể bấm kiểm tra ngay.</div>
-              </div>
-            </div>
-            <button @click="kiemTraGiaoDichNgay" class="btn btn-danger btn-sm rounded-pill px-3 fw-bold text-nowrap" :disabled="loadingCheck">
-              <span v-if="loadingCheck" class="spinner-border spinner-border-sm me-1"></span>
-              <i v-else class='bx bx-refresh me-1'></i> Kiểm tra ngay
-            </button>
+          <div class="alert alert-warning text-start">
+            <strong>Thanh toán mô phỏng phục vụ demo.</strong> Không chuyển tiền thật.
+            <div>Mã đơn: {{ donHangData?.ma_don_hang }}</div>
+            <div>Tổng tiền đã được server xác nhận: ₫{{ formatMoney(donHangData?.tong_thanh_toan) }}</div>
           </div>
 
           <!-- Quick Test Simulation (Dành cho chấm điểm & Test Demo) -->
           <div class="p-2.5 bg-warning bg-opacity-10 border border-warning border-opacity-25 rounded-3 text-start small mb-2 d-flex align-items-center justify-content-between">
             <div>
               <span class="fw-bold text-dark">🧪 Chế độ Demo / Chấm điểm:</span>
-              <div class="text-muted" style="font-size: 11px;">Mô phỏng khách vừa chuyển khoản thành công vào tài khoản MB Bank.</div>
+              <div class="text-muted" style="font-size: 11px;">Chỉ ghi nhận trạng thái demo, không có giao dịch tiền thật.</div>
             </div>
-            <button @click="moPhongChuyenKhoan" class="btn btn-warning btn-sm fw-bold text-dark rounded-pill px-3 shadow-xs">
-              Mô Phỏng Đã Chuyển
+            <button :disabled="loadingSimulation" @click="moPhongChuyenKhoan" class="btn btn-warning btn-sm fw-bold text-dark rounded-pill px-3 shadow-xs">
+              Mô phỏng thanh toán
             </button>
           </div>
 
@@ -238,11 +189,11 @@
           <div class="p-3 bg-light rounded-3 border text-start small mx-auto mb-4" style="max-width: 480px;">
             <div class="d-flex justify-content-between mb-1">
               <span class="text-muted">Trạng thái thanh toán:</span>
-              <span class="badge bg-success text-white fw-bold">Đã Thanh Toán Thành Công</span>
+              <span class="badge bg-success text-white fw-bold">{{ form.phuong_thuc === 'COD' ? 'Chờ thanh toán khi nhận hàng' : 'Đã thanh toán mô phỏng' }}</span>
             </div>
             <div class="d-flex justify-content-between mb-1">
               <span class="text-muted">Phương thức:</span>
-              <span class="fw-semibold text-dark">{{ form.phuong_thuc === 'MB_BANK' ? 'Chuyển khoản MB Bank (VietQR)' : 'Thanh toán COD' }}</span>
+              <span class="fw-semibold text-dark">{{ form.phuong_thuc === 'MB_BANK' ? 'Thanh toán mô phỏng (demo)' : 'Thanh toán COD' }}</span>
             </div>
             <div class="d-flex justify-content-between mb-1">
               <span class="text-muted">Người nhận:</span>
@@ -270,6 +221,7 @@
 <script>
 import { cartStore } from '../../stores/cartStore';
 import axios from 'axios';
+import { isNavigationFailure, NavigationFailureType } from 'vue-router';
 
 export default {
   name: 'CheckoutModal',
@@ -288,6 +240,11 @@ export default {
         phuong_thuc: 'MB_BANK'
       },
       donHangData: null,
+      paymentToken: '',
+      voucherCode: '', quote: null, voucherMessage: '', loadingVoucher: false, loadingSimulation: false,
+      cartIssue: null,
+      orderKey: '',
+      orderFingerprint: '',
       vietqrUrl: '',
       bankInfo: {
         ten_ngan_hang: 'MB Bank',
@@ -300,26 +257,45 @@ export default {
   },
   computed: {
     phiVanChuyen() {
-      return this.cartStore.subtotal >= 500000 ? 0 : 30000;
+      return this.quote?.phi_van_chuyen ?? (this.cartStore.subtotal <= 0 || this.cartStore.subtotal >= 500000 ? 0 : 30000);
     },
     tongThanhToan() {
-      return this.cartStore.subtotal + this.phiVanChuyen;
+      return this.quote?.tong_thanh_toan ?? this.cartStore.subtotal + this.phiVanChuyen;
     }
   },
   watch: {
+    voucherCode() { this.quote = null; this.voucherMessage = ''; },
+    'cartStore.items': { deep: true, handler() { this.quote = null; this.voucherMessage = ''; this.cartIssue = null; } },
     'cartStore.isOpenCheckout'(isOpen) {
       if (isOpen) {
+        if (this.currentStep === 'payment' && this.donHangData) { this.batDauPolling(this.donHangData.ma_don_hang); return; }
         this.currentStep = 'form';
+        this.orderKey = ''; this.orderFingerprint = ''; this.voucherCode = '';
         this.fillUserInfo();
       } else {
         this.dungPolling();
       }
     }
   },
+  mounted() {
+    try {
+      const pending = JSON.parse(sessionStorage.getItem('sofep_pending_demo_order') || 'null');
+      if (pending?.code && pending?.token) {
+        this.donHangData = { ma_don_hang: pending.code, tong_thanh_toan: pending.total };
+        this.paymentToken = pending.token; this.currentStep = 'payment'; this.form.phuong_thuc = 'MB_BANK';
+        this.kiemTraTrangThai(pending.code);
+      }
+    } catch {}
+  },
   beforeUnmount() {
     this.dungPolling();
   },
   methods: {
+    clearPendingDemo() {
+      this.dungPolling(); sessionStorage.removeItem('sofep_pending_demo_order');
+      this.currentStep = 'form'; this.donHangData = null; this.paymentToken = '';
+      this.cartStore.toggleCheckout(false);
+    },
     fillUserInfo() {
       const userStr = localStorage.getItem('user') || localStorage.getItem('nguoi_dung');
       if (userStr) {
@@ -335,6 +311,32 @@ export default {
       this.dungPolling();
       this.cartStore.toggleCheckout(false);
     },
+    reviewCart() {
+      this.dongModal();
+      this.cartStore.toggleDrawer(true);
+    },
+    async reselectItem() {
+      const item = this.cartIssue?.item;
+      if (!item) return;
+      const failure = await this.$router.push('/san-pham/' + encodeURIComponent(item.id));
+      // Khi đã ở trang sản phẩm này, Vue Router báo điều hướng trùng.
+      if (failure && !isNavigationFailure(failure, NavigationFailureType.duplicated)) return;
+      this.cartStore.removeItem(item.itemKey);
+      this.dongModal();
+    },
+    showCartIssue(error, items) {
+      const errors = error.response?.data?.errors || {};
+      for (const [field, messages] of Object.entries(errors)) {
+        const match = /^items\.(\d+)(?:\.|$)/.exec(field);
+        const item = match && items[Number(match[1])];
+        if (!item) continue;
+        this.quote = null;
+        this.voucherMessage = '';
+        this.cartIssue = { item, message: [].concat(messages)[0] };
+        return true;
+      }
+      return false;
+    },
     formatMoney(val) {
       if (!val) return '0';
       return Number(val).toLocaleString('vi-VN');
@@ -346,7 +348,26 @@ export default {
         this.$toast ? this.$toast.info(successMsg) : alert(successMsg);
       }
     },
+    async checkVoucher() {
+      if (this.loadingVoucher || this.loadingTaoDon || !this.cartStore.items.length) return;
+      const items = this.cartStore.items.slice();
+      const version = JSON.stringify([this.voucherCode, this.cartStore.items]);
+      this.loadingVoucher = true; this.quote = null; this.voucherMessage = ''; this.cartIssue = null;
+      try {
+        const { data } = await axios.post('http://127.0.0.1:8000/api/client/kiem-tra-voucher', {
+          ma_giam_gia_su_dung: this.voucherCode.trim(),
+          items: items.map(i => ({ id: i.id, id_chi_tiet_san_pham: i.id_chi_tiet_san_pham || null, quantity: i.so_luong }))
+        });
+        if (version !== JSON.stringify([this.voucherCode, this.cartStore.items])) return;
+        this.quote = data.data; this.voucherMessage = data.message;
+      } catch (error) {
+        if (version !== JSON.stringify([this.voucherCode, this.cartStore.items]) || this.showCartIssue(error, items)) return;
+        this.voucherMessage = Object.values(error.response?.data?.errors || {}).flat()[0] || error.response?.data?.message || 'Không thể kiểm tra voucher.';
+      }
+      finally { this.loadingVoucher = false; }
+    },
     taoDonHang() {
+      if (this.loadingTaoDon || this.loadingVoucher || this.cartIssue || this.currentStep !== 'form') return;
       if (!this.form.ho_ten.trim()) {
         this.$toast ? this.$toast.error('Vui lòng nhập họ và tên người nhận!') : alert('Vui lòng nhập họ tên!');
         return;
@@ -365,17 +386,21 @@ export default {
       }
 
       this.loadingTaoDon = true;
+      const items = this.cartStore.items.slice();
+      const cartVersion = JSON.stringify(items);
       const payload = {
         ho_ten: this.form.ho_ten,
         so_dien_thoai: this.form.so_dien_thoai,
         dia_chi_giao: this.form.dia_chi_giao,
         ghi_chu: this.form.ghi_chu,
         phuong_thuc_thanh_toan: this.form.phuong_thuc,
+        ma_giam_gia_su_dung: this.voucherCode.trim(),
         tong_tien_hang: this.cartStore.subtotal,
         phi_van_chuyen: this.phiVanChuyen,
         tong_thanh_toan: this.tongThanhToan,
-        items: this.cartStore.items.map(i => ({
+        items: items.map(i => ({
           id: i.id,
+          ...(i.id_chi_tiet_san_pham ? { id_chi_tiet_san_pham: i.id_chi_tiet_san_pham } : {}),
           ten_san_pham: i.ten_san_pham,
           hinh_anh: i.hinh_anh,
           quantity: i.so_luong,
@@ -385,27 +410,35 @@ export default {
         }))
       };
 
-      axios.post('http://127.0.0.1:8000/api/client/dat-hang', payload)
+      const fingerprint = JSON.stringify(payload);
+      if (!this.orderKey || fingerprint !== this.orderFingerprint) {
+        this.orderKey = crypto.randomUUID(); this.orderFingerprint = fingerprint;
+      }
+      axios.post('http://127.0.0.1:8000/api/client/dat-hang', payload, { headers: { 'Idempotency-Key': this.orderKey } })
         .then(res => {
           if (res.data.status) {
             this.donHangData = res.data.don_hang;
+            this.paymentToken = res.data.payment_token;
+            this.cartStore.clearCart();
             this.vietqrUrl = res.data.vietqr_url;
             if (res.data.ngan_hang) {
               this.bankInfo = res.data.ngan_hang;
             }
 
             if (this.form.phuong_thuc === 'MB_BANK') {
+              sessionStorage.setItem('sofep_pending_demo_order', JSON.stringify({ code: this.donHangData.ma_don_hang, token: this.paymentToken, total: this.donHangData.tong_thanh_toan }));
               this.currentStep = 'payment';
               this.batDauPolling(this.donHangData.ma_don_hang);
             } else {
               this.currentStep = 'success';
-              this.cartStore.clearCart();
+
             }
           }
         })
         .catch(err => {
-          console.error(err);
-          this.$toast ? this.$toast.error('Có lỗi xảy ra khi tạo đơn hàng!') : alert('Lỗi tạo đơn hàng!');
+          if (cartVersion === JSON.stringify(this.cartStore.items) && this.showCartIssue(err, items)) return;
+          const message = Object.values(err.response?.data?.errors || {}).flat()[0] || err.response?.data?.message || 'Không thể tạo đơn hàng.';
+          this.$toast ? this.$toast.error(message) : alert(message);
         })
         .finally(() => {
           this.loadingTaoDon = false;
@@ -426,52 +459,50 @@ export default {
     },
     kiemTraTrangThai(maHoaDon) {
       if (!maHoaDon) return;
-      axios.get(`http://127.0.0.1:8000/api/kiem-tra-thanh-toan/${maHoaDon}`)
+      axios.get(`http://127.0.0.1:8000/api/kiem-tra-thanh-toan/${maHoaDon}`, { params: { payment_token: this.paymentToken } })
         .then(res => {
+          if (res.data.don_hang) {
+            this.donHangData = res.data.don_hang;
+            for (const field of ['ho_ten', 'so_dien_thoai', 'dia_chi_giao']) this.form[field] = this.donHangData[field] || '';
+            this.form.phuong_thuc = this.donHangData.phuong_thuc_thanh_toan || 'MB_BANK';
+            if (this.donHangData.trang_thai_don_hang === 'da_huy') {
+              this.dungPolling(); this.currentStep = 'form';
+              sessionStorage.removeItem('sofep_pending_demo_order'); return;
+            }
+          }
           if (res.data.status && res.data.da_thanh_toan) {
             this.dungPolling();
             this.currentStep = 'success';
-            this.cartStore.clearCart();
+            sessionStorage.removeItem('sofep_pending_demo_order');
             if (this.$toast) {
-              this.$toast.success('Hệ thống MB Bank đã ghi nhận thanh toán thành công!');
+              this.$toast.success('Đã ghi nhận thanh toán mô phỏng.');
             }
           }
         })
         .catch(e => console.warn(e));
     },
     kiemTraGiaoDichNgay() {
-      this.loadingCheck = true;
-      // Gọi API giao-dich quét MB Bank
-      axios.get('http://127.0.0.1:8000/api/giao-dich')
-        .then(() => {
-          if (this.donHangData?.ma_don_hang) {
-            this.kiemTraTrangThai(this.donHangData.ma_don_hang);
-          }
-        })
-        .catch(() => {})
-        .finally(() => {
-          setTimeout(() => {
-            this.loadingCheck = false;
-          }, 800);
-        });
+      if (this.donHangData?.ma_don_hang) this.kiemTraTrangThai(this.donHangData.ma_don_hang);
     },
     moPhongChuyenKhoan() {
-      if (!this.donHangData?.ma_don_hang) return;
+      if (!this.donHangData?.ma_don_hang || this.loadingSimulation) return;
+      this.loadingSimulation = true;
       axios.post('http://127.0.0.1:8000/api/giao-dich/mo-phong', {
         ma_hoa_don: this.donHangData.ma_don_hang,
-        so_tien: this.bankInfo.so_tien
+        payment_token: this.paymentToken
       })
       .then(res => {
         if (res.data.status) {
           this.dungPolling();
           this.currentStep = 'success';
-          this.cartStore.clearCart();
+          sessionStorage.removeItem('sofep_pending_demo_order');
           if (this.$toast) {
             this.$toast.success('Mô phỏng MB Bank thành công!');
           }
         }
       })
-      .catch(e => console.error(e));
+      .catch(error => this.$toast?.error(error.response?.data?.message || 'Không thể mô phỏng thanh toán.'))
+      .finally(() => { this.loadingSimulation = false; });
     },
     hoanTatMuaHang() {
       this.dongModal();
@@ -513,4 +544,8 @@ export default {
 .cursor-pointer {
   cursor: pointer;
 }
+</style>
+
+<style scoped>
+.payment-option-card.active { background-color: #fff4f1 !important; color: #222; }
 </style>

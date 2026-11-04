@@ -1,8 +1,11 @@
 $(function () {
 	"use strict";
 	/* perfect scrol bar */
-	new PerfectScrollbar('.header-message-list');
-	new PerfectScrollbar('.header-notifications-list');
+	if (typeof PerfectScrollbar !== 'undefined') {
+		for (const selector of ['.header-message-list', '.header-notifications-list']) {
+			if (document.querySelector(selector)) new PerfectScrollbar(selector);
+		}
+	}
 	// search bar
 	$(".mobile-search-icon").on("click", function () {
 		$(".search-bar").addClass("full-search-bar");

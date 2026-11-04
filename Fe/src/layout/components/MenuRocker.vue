@@ -2,7 +2,7 @@
     <div class="nav-container primary-menu">
         <div class="mobile-topbar-header">
             <SofepLogo size="sm" variant="light" subtitle="ADMIN PORTAL" />
-            <div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
+            <div class="toggle-icon ms-auto" @click="$emit('close-menu')"><i class='bx bx-arrow-to-left'></i>
             </div>
         </div>
         <nav class="navbar navbar-expand-xl w-100">
@@ -17,12 +17,12 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a href="javascript:;" class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-bs-toggle="dropdown">
+                    <a href="javascript:;" class="nav-link dropdown-toggle dropdown-toggle-nocaret" :aria-expanded="productMenuOpen" @click.prevent="toggleProductMenu">
                         <div class="parent-icon"><i class='bx bx-closet'></i>
                         </div>
                         <div class="menu-title">Quản Lý Sản Phẩm</div>
                     </a>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu" :class="{ show: productMenuOpen }" :style="{ display: productMenuOpen ? 'block' : 'none' }" @click="productMenuOpen = false">
                         <li>
                             <router-link class="dropdown-item" to="/admin/danh-muc">
                                 <i class="bx bx-right-arrow-alt"></i>Danh Mục Sản Phẩm
@@ -128,7 +128,11 @@
 
 <script>
 export default {
-    name: 'MenuRocker'
+    name: 'MenuRocker',
+    emits: ['close-menu'],
+    data() { return { productMenuOpen: false }; },
+    watch: { '$route.fullPath'() { this.productMenuOpen = false; } },
+    methods: { toggleProductMenu() { this.productMenuOpen = !this.productMenuOpen; } }
 }
 </script>
 

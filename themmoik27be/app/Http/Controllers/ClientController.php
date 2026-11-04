@@ -16,16 +16,40 @@ use Illuminate\Support\Str;
 
 class ClientController extends Controller
 {
+    public function getDanhMucs()
+    {
+        $data = DanhMuc::select('id', 'ten_danh_muc', 'slug_danh_muc', 'hinh_anh', 'mo_ta')
+            ->where('trang_thai', 1)
+            ->withCount(['sanPhams' => fn ($query) => $query->where('trang_thai', 1)])
+            ->orderBy('id', 'desc')
+            ->get();
+
+        return response()->json(['status' => 1, 'data' => $data]);
+    }
+
+    public function getTuyChonSanPham()
+    {
+        return response()->json([
+            'status' => 1,
+            'data' => [
+                'mau_sacs' => \App\Models\MauSac::select('id', 'ten_mau', 'ma_mau')
+                    ->where('trang_thai', 1)->orderBy('id', 'desc')->get(),
+                'kich_thuocs' => \App\Models\KichThuoc::select('id', 'ten_kich_thuoc', 'mo_ta')
+                    ->where('trang_thai', 1)->orderBy('id')->get(),
+            ],
+        ]);
+    }
+
     public function getHomeData()
     {
         $danh_mucs = DanhMuc::where('trang_thai', 1)->take(8)->get();
         $thuong_hieus = ThuongHieu::where('trang_thai', 1)->take(6)->get();
-        $san_pham_noi_bat = SanPham::with(['danhMuc', 'thuongHieu'])
+        $san_pham_noi_bat = SanPham::catalog()
             ->where('trang_thai', 1)
             ->where('is_noi_bat', 1)
             ->take(8)
             ->get();
-        $san_pham_moi = SanPham::with(['danhMuc', 'thuongHieu'])
+        $san_pham_moi = SanPham::catalog()
             ->where('trang_thai', 1)
             ->orderBy('id', 'desc')
             ->take(8)
@@ -44,7 +68,7 @@ class ClientController extends Controller
 
     public function getSanPhams(Request $request)
     {
-        $query = SanPham::with(['danhMuc', 'thuongHieu'])->where('trang_thai', 1);
+        $query = SanPham::catalog()->where('trang_thai', 1);
 
         // Lọc theo danh mục (ID hoặc Slug)
         if ($request->has('danh_muc') && $request->danh_muc && $request->danh_muc !== 'tat-ca') {
@@ -83,6 +107,7 @@ class ClientController extends Controller
             $query->where('is_noi_bat', 1);
         }
 
+        $request->validate(['per_page' => 'sometimes|integer|min:1|max:100']);
         $perPage = (int) $request->input('per_page', 50);
         if ($request->boolean('all')) {
             $san_phams = $query->orderBy('id', 'desc')->get();
@@ -96,13 +121,18 @@ class ClientController extends Controller
         ]);
     }
 
-    public function getChiTietSanPham($slug)
+    public function getChiTietSanPham($slug, Request $request)
     {
-        $san_pham = SanPham::with(['danhMuc', 'thuongHieu', 'chiTietSanPhams.mauSac', 'chiTietSanPhams.kichThuoc', 'anhSanPhams', 'danhGias.khachHang'])
+        // Chế độ 2.1 chỉ đọc; Quick View cũ giữ nguyên hợp đồng API.
+        if ($request->query('presentation') === '2') {
+            return app(ProductDetailController::class)->show((string) $slug);
+        }
+        $san_pham = SanPham::catalog()->with(['anhSanPhams' => fn ($q) => $q->orderBy('thu_tu'), 'danhGias' => fn ($q) => $q->where('trang_thai', 1)->with('khachHang:id,ho_va_ten')])
             ->where(function ($query) use ($slug) {
                 $query->where('slug_san_pham', $slug)
                       ->orWhere('id', $slug);
             })
+            ->where('trang_thai', 1)
             ->first();
 
         if (!$san_pham) {
@@ -114,7 +144,7 @@ class ClientController extends Controller
 
         $san_pham->increment('luot_xem');
 
-        $san_pham_lien_quan = SanPham::where('id_danh_muc', $san_pham->id_danh_muc)
+        $san_pham_lien_quan = SanPham::catalog()->where('id_danh_muc', $san_pham->id_danh_muc)
             ->where('id', '!=', $san_pham->id)
             ->where('trang_thai', 1)
             ->take(4)
@@ -191,86 +221,11 @@ class ClientController extends Controller
 
     public function datHang(Request $request)
     {
-        $request->validate([
-            'ho_ten'                 => 'required|string|max:255',
-            'so_dien_thoai'          => 'required|string|max:20',
-            'dia_chi_giao'           => 'required|string',
-            'tong_thanh_toan'        => 'required|numeric|min:0',
-            'phuong_thuc_thanh_toan' => 'nullable|string',
-        ]);
+        return app(\App\Services\CheckoutService::class)->place($request);
+    }
 
-        // Tạo mã đơn hàng định dạng HD_xxxxx để khớp với regex MB Bank
-        $soNgauNhien = rand(1000, 9999);
-        $ma_don_hang = 'HD_' . $soNgauNhien;
-        while (DonHang::where('ma_don_hang', $ma_don_hang)->exists() || HoaDon::where('ma_hoa_don', $ma_don_hang)->exists()) {
-            $ma_don_hang = 'HD_' . rand(1000, 9999);
-        }
-
-        $phuongThuc = $request->phuong_thuc_thanh_toan ?: 'MB_BANK';
-        $tongTien = (float)$request->tong_thanh_toan;
-
-        $donHang = DonHang::create([
-            'id_khach_hang'          => $request->id_khach_hang,
-            'ma_don_hang'            => $ma_don_hang,
-            'ho_ten'                 => $request->ho_ten,
-            'so_dien_thoai'          => $request->so_dien_thoai,
-            'email'                  => $request->email,
-            'dia_chi_giao'           => $request->dia_chi_giao,
-            'tong_tien_hang'         => $request->tong_tien_hang ?: $tongTien,
-            'phi_van_chuyen'         => $request->phi_van_chuyen ?: 0,
-            'tien_giam_gia'          => $request->tien_giam_gia ?: 0,
-            'ma_giam_gia_su_dung'    => $request->ma_giam_gia_su_dung,
-            'tong_thanh_toan'        => $tongTien,
-            'phuong_thuc_thanh_toan' => $phuongThuc,
-            'trang_thai_thanh_toan'  => 'chua_thanh_toan',
-            'trang_thai_don_hang'    => 'cho_xac_nhan',
-            'ghi_chu'                => $request->ghi_chu ?: 'Đơn hàng mua trực tuyến trên website URBN WEAR',
-        ]);
-
-        // Tạo chi tiết đơn hàng nếu có danh sách items
-        if ($request->has('items') && is_array($request->items)) {
-            foreach ($request->items as $item) {
-                ChiTietDonHang::create([
-                    'id_don_hang'       => $donHang->id,
-                    'id_san_pham'       => $item['id'] ?? 1,
-                    'ten_san_pham'      => $item['ten_san_pham'] ?? 'Sản phẩm',
-                    'hinh_anh'          => $item['hinh_anh'] ?? null,
-                    'so_luong'          => $item['quantity'] ?? 1,
-                    'gia_ban'           => $item['gia_ban'] ?? 0,
-                    'thanh_tien'        => ($item['gia_ban'] ?? 0) * ($item['quantity'] ?? 1),
-                    'ten_kich_thuoc'    => $item['size'] ?? null,
-                    'ten_mau'           => $item['color'] ?? null,
-                ]);
-            }
-        }
-
-        // Tạo bản ghi tương ứng trong bảng hoa_dons
-        $hoaDon = HoaDon::create([
-            'ma_hoa_don'             => $ma_don_hang,
-            'tong_tien_hang'         => $request->tong_tien_hang ?: $tongTien,
-            'giam_gia'               => $request->tien_giam_gia ?: 0,
-            'phi_van_chuyen'         => $request->phi_van_chuyen ?: 0,
-            'tong_tien'              => $tongTien,
-            'trang_thai'             => 0, // 0 = Chưa thanh toán
-            'phuong_thuc_thanh_toan' => $phuongThuc,
-            'ghi_chu'                => $request->ghi_chu ?: 'Khách hàng thanh toán qua VietQR MB Bank',
-        ]);
-
-        $stkMb = env('MB_ACCOUNT_NO', '0362242553');
-        $vietqr_url = "https://img.vietqr.io/image/MB-{$stkMb}-compact2.png?amount={$tongTien}&addInfo={$ma_don_hang}&accountName=NGUYEN%20TAN%20DUONG";    
-        return response()->json([
-            'status'     => 1,
-            'message'    => 'Tạo đơn hàng thành công!',
-            'don_hang'   => $donHang,
-            'hoa_don'    => $hoaDon,
-            'vietqr_url' => $vietqr_url,
-            'ngan_hang'  => [
-                'ten_ngan_hang'         => 'MB Bank (Ngân hàng Quân Đội)',
-                'so_tai_khoan'          => $stkMb,
-                'chu_tai_khoan'         => 'MB BANK OFFICIAL',
-                'noi_dung_chuyen_khoan' => $ma_don_hang,
-                'so_tien'               => $tongTien
-            ]
-        ], 201);
+    public function kiemTraVoucher(Request $request)
+    {
+        return app(\App\Services\CheckoutService::class)->place($request, true);
     }
 }

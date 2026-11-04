@@ -12,6 +12,7 @@ class DonHang extends Model
     protected $table = 'don_hangs';
 
     protected $fillable = [
+        'ton_kho_da_giu', 'voucher_da_giu', 'checkout_fingerprint',
         'id_khach_hang',
         'ma_don_hang',
         'ho_ten',

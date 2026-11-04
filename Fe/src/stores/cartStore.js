@@ -32,11 +32,12 @@ export const cartStore = reactive({
         return this.items.reduce((sum, item) => sum + ((Number(item.gia) || 0) * (Number(item.so_luong) || 0)), 0);
     },
 
-    addItem(product, quantity = 1, selectedColor = null, selectedSize = null) {
+    addItem(product, quantity = 1, selectedColor = null, selectedSize = null, variant = null) {
         const gia = product.gia_khuyen_mai ? Number(product.gia_khuyen_mai) : Number(product.gia_ban);
         const colorName = selectedColor ? selectedColor.ten_mau : 'Tiêu chuẩn';
         const sizeName = selectedSize ? selectedSize.ten_kich_thuoc : 'Freesize';
-        const itemKey = `${product.id}_${colorName}_${sizeName}`;
+        const variantId = variant?.id ?? null;
+        const itemKey = variantId ? `${product.id}_variant_${variantId}` : `${product.id}_${colorName}_${sizeName}`;
 
         const existing = this.items.find(i => i.itemKey === itemKey);
         if (existing) {
@@ -45,6 +46,7 @@ export const cartStore = reactive({
             this.items.push({
                 itemKey,
                 id: product.id,
+                ...(variantId ? { id_chi_tiet_san_pham: variantId } : {}),
                 ten_san_pham: product.ten_san_pham,
                 hinh_anh: product.hinh_anh,
                 gia: gia,
