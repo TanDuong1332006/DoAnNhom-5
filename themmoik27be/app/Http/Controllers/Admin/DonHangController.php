@@ -25,15 +25,11 @@ class DonHangController extends Controller
     {
         $request->validate([
             'id'                  => 'required|exists:don_hangs,id',
-            'trang_thai_don_hang' => 'required|string',
+            'trang_thai_don_hang' => 'required|in:cho_xac_nhan,da_xac_nhan,dang_giao,da_giao,da_huy',
+            'trang_thai_thanh_toan' => 'nullable|in:chua_thanh_toan,da_thanh_toan,hoan_tien',
         ]);
 
-        $dh = DonHang::find($request->id);
-        $dh->trang_thai_don_hang = $request->trang_thai_don_hang;
-        if ($request->has('trang_thai_thanh_toan')) {
-            $dh->trang_thai_thanh_toan = $request->trang_thai_thanh_toan;
-        }
-        $dh->save();
+        app(\App\Services\OrderLifecycle::class)->update((int) $request->id, $request->trang_thai_don_hang, $request->trang_thai_thanh_toan);
 
         return response()->json([
             'status'  => 1,
@@ -45,11 +41,6 @@ class DonHangController extends Controller
     {
         $request->validate(['id' => 'required|exists:don_hangs,id']);
 
-        DonHang::where('id', $request->id)->delete();
-
-        return response()->json([
-            'status'  => 1,
-            'message' => 'Xóa đơn hàng thành công',
-        ]);
+        return response()->json(['status' => 0, 'message' => 'Giữ nguyên lịch sử đơn hàng. Hãy hủy đơn chưa thanh toán nếu đủ điều kiện.'], 409);
     }
 }

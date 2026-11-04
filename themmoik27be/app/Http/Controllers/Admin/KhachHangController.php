@@ -10,7 +10,7 @@ class KhachHangController extends Controller
 {
     public function getData()
     {
-        $data = KhachHang::withCount('donHangs')
+        $data = KhachHang::where(fn ($q) => $q->where('role', 'customer')->orWhereNull('role'))->withCount('donHangs')
             ->orderBy('id', 'desc')
             ->get();
 
@@ -25,7 +25,7 @@ class KhachHangController extends Controller
     {
         $request->validate(['id' => 'required|exists:khach_hangs,id']);
 
-        $kh = KhachHang::find($request->id);
+        $kh = KhachHang::where(fn ($q) => $q->where('role', 'customer')->orWhereNull('role'))->findOrFail($request->id);
         $kh->is_kich_hoat = !$kh->is_kich_hoat;
         $kh->save();
 
@@ -39,7 +39,7 @@ class KhachHangController extends Controller
     {
         $request->validate(['id' => 'required|exists:khach_hangs,id']);
 
-        $kh = KhachHang::find($request->id);
+        $kh = KhachHang::where(fn ($q) => $q->where('role', 'customer')->orWhereNull('role'))->findOrFail($request->id);
         $kh->is_khoa = !$kh->is_khoa;
         $kh->save();
 

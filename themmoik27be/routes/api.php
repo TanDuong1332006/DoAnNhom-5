@@ -18,7 +18,6 @@ use App\Http\Controllers\giaoDichController;
 use App\Http\Controllers\Api\ForgotPasswordController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -29,7 +28,7 @@ use Illuminate\Support\Facades\Route;
 Route::post('/dang-ky',             [AuthController::class, 'dangKy']);
 Route::post('/xac-thuc-otp',         [AuthController::class, 'xacThucOtp']);
 Route::post('/dang-nhap',           [AuthController::class, 'dangNhap']);
-Route::get('/kiem-tra-dang-nhap',   [AuthController::class, 'kiemTraDangNhap']);
+Route::get('/kiem-tra-dang-nhap',   [AuthController::class, 'kiemTraDangNhap'])->middleware('auth:sanctum');
 Route::post('/dang-xuat',           [AuthController::class, 'dangXuat']);
 Route::post('/admin-login',         [AuthController::class, 'dangNhap']);
 Route::post('/auth/admin-login',    [AuthController::class, 'dangNhap']);
@@ -44,16 +43,23 @@ Route::any('/giao-dich',                         [giaoDichController::class, 'ge
 Route::post('/giao-dich/mo-phong',               [giaoDichController::class, 'moPhongThanhToan']);
 Route::get('/kiem-tra-thanh-toan/{ma_hoa_don}',  [giaoDichController::class, 'kiemTraThanhToan']);
 
+// File ảnh raster do Admin tải lên, không thực thi nội dung upload.
+Route::get('/product-images/{product}/{filename}', [\App\Http\Controllers\Admin\ProductImageController::class, 'image'])->whereNumber('product');
+
 // Public Client API
-Route::prefix('client')->group(function () {
+Route::prefix('client')->middleware(\App\Http\Middleware\RejectLegacySeller::class)->group(function () {
+    Route::get('/demo/san-pham/{slug}', [\App\Http\Controllers\ProductDetailController::class, 'show']);
+    Route::get('/danh-mucs',              [ClientController::class, 'getDanhMucs']);
+    Route::get('/tuy-chon-san-pham',      [ClientController::class, 'getTuyChonSanPham']);
     Route::get('/home-data',              [ClientController::class, 'getHomeData']);
     Route::get('/san-phams',              [ClientController::class, 'getSanPhams']);
     Route::get('/san-pham/{slug}',        [ClientController::class, 'getChiTietSanPham']);
     Route::post('/dat-hang',              [ClientController::class, 'datHang']);
+    Route::post('/kiem-tra-voucher',      [ClientController::class, 'kiemTraVoucher']);
 });
 
 // ─── ADMIN ROUTES (Đúng chuẩn style be_k27_esport02) ───────────────────
-Route::prefix('admin')->group(function () {
+Route::prefix('admin')->middleware(['auth:sanctum', 'admin'])->group(function () {
 
     // Danh Mục
     Route::prefix('danh-muc')->group(function () {
@@ -93,6 +99,9 @@ Route::prefix('admin')->group(function () {
 
     // Sản Phẩm
     Route::prefix('san-pham')->group(function () {
+        Route::post('/{product}/images', [\App\Http\Controllers\Admin\ProductImageController::class, 'upload'])->whereNumber('product');
+        Route::post('/{product}/images/order', [\App\Http\Controllers\Admin\ProductImageController::class, 'arrange'])->whereNumber('product');
+        Route::delete('/{product}/images/{image}', [\App\Http\Controllers\Admin\ProductImageController::class, 'remove'])->whereNumber('product')->whereNumber('image');
         Route::get('/get-data',          [SanPhamController::class, 'getData']);
         Route::post('/create',           [SanPhamController::class, 'create']);
         Route::post('/update',           [SanPhamController::class, 'capNhat']);

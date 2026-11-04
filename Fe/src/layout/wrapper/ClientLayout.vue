@@ -7,21 +7,20 @@
         <div class="d-flex align-items-center overflow-hidden flex-wrap">
           <span class="d-flex align-items-center gap-2 font-medium tracking-wide">
             <i class='bx bxs-truck fs-5' style="color: #b48325;"></i>
-            <span>MIỄN PHÍ VẬN CHUYỂN ĐƠN TỪ 500.000₫ TOÀN QUỐC</span>
+            <span>KHÁM PHÁ THỜI TRANG SOFEP</span>
           </span>
           <span class="d-none d-md-inline topbar-separator">|</span>
           <span class="d-none d-md-flex align-items-center gap-2">
             <i class='bx bx-refresh fs-5' style="color: #b48325;"></i>
-            <span>ĐỔI TRẢ 30 NGÀY TẬN NHÀ MIỄN PHÍ</span>
+            <span>THỜI TRANG SOFEP</span>
           </span>
           <span class="d-none d-lg-inline topbar-separator">|</span>
           <span class="d-none d-lg-flex align-items-center gap-2 font-bold" style="color: #92400e;">
-            <span>MÃ:</span>
-            <code class="px-2.5 py-0.5 rounded font-monospace small topbar-coupon-code">SOFEPNEW</code>
-            <span>GIẢM 50.000₫</span>
+            <span>SOFEP STUDIO</span>
+            <span>KHÁM PHÁ BỘ SƯU TẬP</span>
           </span>
         </div>
-        
+
         <!-- Size Guide Quick Button -->
         <button @click="cartStore.toggleSizeAdvisor(true)"
                 class="btn btn-sm btn-light bg-white border border-warning border-opacity-25 rounded-pill px-3.5 py-1.5 d-flex align-items-center gap-1.5 ms-auto ms-sm-0 shadow-2xs hover-gold text-dark">
@@ -51,19 +50,18 @@
 
           <!-- Live Search Bar (Co giãn linh hoạt ở giữa) -->
           <div class="flex-grow-1 mx-2 mx-md-4 d-none d-sm-block" style="max-width: 540px;">
-            <div class="position-relative search-box-wrapper">
-              <input v-model="searchQuery" @keyup.enter="handleSearch" type="text"
-                class="form-control rounded-pill bg-light border ps-4 pe-5 py-2 search-input shadow-none"
-                placeholder="Tìm áo thun boxy, hoodie utility, quần parachute cargo...">
-              <button @click="handleSearch" class="btn btn-urbn-dark text-white rounded-circle position-absolute top-50 end-0 translate-middle-y me-1.5 p-0 d-flex align-items-center justify-content-center search-btn">
-                <i class='bx bx-search fs-5'></i>
+            <form role="search" aria-label="Tìm sản phẩm desktop" class="position-relative search-box-wrapper" @submit.prevent="handleSearch">
+              <input v-model="searchQuery" type="search" maxlength="200" autocomplete="off" aria-label="Từ khóa tìm sản phẩm" :aria-invalid="!!searchMessage" aria-describedby="customer-search-message"
+                class="form-control rounded-pill bg-light border search-input shadow-none" placeholder="Tìm áo thun boxy, hoodie utility, quần parachute cargo...">
+              <button type="submit" :disabled="searching" aria-label="Tìm kiếm sản phẩm" class="customer-search-submit position-absolute top-50 end-0 translate-middle-y">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
               </button>
-            </div>
+            </form>
           </div>
 
           <!-- Right Action Buttons (Cực kỳ gọn gàng trên 1 hàng duy nhất) -->
           <div class="d-flex align-items-center justify-content-end gap-3 flex-shrink-0">
-            
+
             <!-- Cart Trigger Button -->
             <button @click="cartStore.toggleDrawer(true)" class="btn btn-light rounded-circle position-relative border-0 shadow-sm p-2 action-icon-btn" title="Giỏ hàng">
               <i class='bx bx-shopping-bag fs-4 text-dark'></i>
@@ -73,15 +71,16 @@
             </button>
 
             <!-- Account User Dropdown (Bấm vào Avatar hiện Đăng Ký, Đăng Nhập, Đăng Xuất) -->
-            <div class="dropdown d-inline-block position-relative" ref="userDropdownRef">
+            <div class="dropdown d-inline-block position-relative" ref="userDropdownRef" @keydown="handleUserMenuKeydown" @focusout="handleUserMenuFocusOut">
               <button class="btn btn-light rounded-pill border-0 shadow-sm px-3 py-1.5 d-flex align-items-center gap-2 cursor-pointer user-dropdown-btn"
-                      @click="toggleUserDropdown"
+                      ref="userMenuTrigger" id="customer-account-trigger" :aria-expanded="isUserDropdownOpen" aria-controls="customer-account-menu" aria-haspopup="menu"
+                      :aria-label="currentUser ? 'Tài khoản: ' + accountName : 'Tài khoản'" :title="currentUser ? accountName : 'Tài khoản'" @click="toggleUserDropdown"
                       type="button">
                 <div class="rounded-circle bg-primary bg-opacity-10 text-primary d-flex align-items-center justify-content-center flex-shrink-0" style="width: 28px; height: 28px;">
                   <i class='bx bx-user fs-5'></i>
                 </div>
                 <span v-if="currentUser" class="small fw-bold text-dark d-none d-sm-inline text-truncate" style="max-width: 120px;">
-                  {{ currentUser.ho_va_ten }}
+                  {{ accountName }}
                 </span>
                 <span v-else class="small fw-bold text-dark d-none d-sm-inline">
                   Tài khoản
@@ -89,24 +88,24 @@
                 <i class='bx bx-chevron-down text-muted small ms-1 transition-transform' :class="{ 'rotate-180': isUserDropdownOpen }"></i>
               </button>
 
-              <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 rounded-4 mt-2 p-2 custom-user-dropdown"
+              <ul id="customer-account-menu" role="menu" aria-labelledby="customer-account-trigger" class="dropdown-menu dropdown-menu-end shadow-lg border-0 rounded-4 mt-2 p-2 custom-user-dropdown"
                   :class="{ 'show': isUserDropdownOpen }"
                   :style="isUserDropdownOpen ? 'display: block; position: absolute; right: 0; top: 100%; z-index: 1060;' : 'display: none;'"
-                  style="min-width: 250px;">
+                  >
                 <!-- Header thông tin tài khoản -->
                 <li v-if="currentUser" class="px-3 py-2 border-bottom mb-2 bg-light rounded-3">
                   <div class="d-flex align-items-center gap-2">
-                    <div class="rounded-circle bg-primary bg-opacity-10 text-primary d-flex align-items-center justify-content-center" style="width: 36px; height: 36px;">
+                    <div class="rounded-circle bg-primary bg-opacity-10 text-primary d-flex align-items-center justify-content-center" style="width: 36px; height: 36px; flex-shrink: 0;">
                       <i class='bx bx-user fs-5'></i>
                     </div>
-                    <div class="overflow-hidden">
-                      <div class="small fw-bold text-dark text-truncate">{{ currentUser.ho_va_ten }}</div>
+                    <div class="customer-account-details">
+                      <div class="small fw-bold text-dark customer-account-name">{{ accountName }}</div>
                       <span class="badge" :class="currentUser.role === 'admin' ? 'bg-danger' : 'bg-primary'" style="font-size: 10px;">
                         {{ currentUser.role === 'admin' ? 'Quản Trị Viên' : 'Thành Viên' }}
                       </span>
                     </div>
                   </div>
-                  <div class="text-muted small text-truncate mt-1" style="font-size: 11px;">{{ currentUser.email }}</div>
+                  <div class="customer-account-email small mt-1">{{ currentUser.email }}</div>
                 </li>
                 <li v-else class="px-3 py-2 border-bottom mb-2 bg-light rounded-3">
                   <div class="small fw-bold text-dark">Tài Khoản SOFEP</div>
@@ -115,12 +114,12 @@
 
                 <!-- Admin & Profile Links -->
                 <li v-if="currentUser && currentUser.role === 'admin'">
-                  <router-link class="dropdown-item py-2 small fw-semibold text-danger rounded-2" to="/admin" @click="isUserDropdownOpen = false">
+                  <router-link role="menuitem" class="dropdown-item py-2 small fw-semibold text-danger rounded-2" to="/admin" @click="isUserDropdownOpen = false">
                     <i class='bx bx-shield-quarter me-2 fs-5 align-middle'></i>Bảng Điều Khiển Admin
                   </router-link>
                 </li>
                 <li v-if="currentUser && currentUser.role !== 'admin'">
-                  <a class="dropdown-item py-2 small fw-semibold text-dark rounded-2" href="javascript:;" @click="showUserModal = true; isUserDropdownOpen = false;">
+                  <a role="menuitem" class="dropdown-item py-2 small fw-semibold text-dark rounded-2" href="javascript:;" @click="showUserModal = true; isUserDropdownOpen = false;">
                     <i class='bx bx-id-card me-2 text-primary fs-5 align-middle'></i>Thông Tin Tài Khoản
                   </a>
                 </li>
@@ -129,7 +128,7 @@
 
                 <!-- Nút ĐĂNG NHẬP (Luôn hiển thị) -->
                 <li>
-                  <router-link class="dropdown-item py-2 small fw-semibold text-dark rounded-2" to="/dang-nhap" @click="isUserDropdownOpen = false">
+                  <router-link role="menuitem" class="dropdown-item py-2 small fw-semibold text-dark rounded-2" to="/dang-nhap" @click="isUserDropdownOpen = false">
                     <i class='bx bx-log-in me-2 text-primary fs-5 align-middle'></i>
                     <span>{{ currentUser ? 'Đăng Nhập (Tài Khoản Khác)' : 'Đăng Nhập' }}</span>
                   </router-link>
@@ -137,7 +136,7 @@
 
                 <!-- Nút ĐĂNG KÝ (Luôn hiển thị) -->
                 <li>
-                  <router-link class="dropdown-item py-2 small fw-semibold text-dark rounded-2" to="/dang-ky" @click="isUserDropdownOpen = false">
+                  <router-link role="menuitem" class="dropdown-item py-2 small fw-semibold text-dark rounded-2" to="/dang-ky" @click="isUserDropdownOpen = false">
                     <i class='bx bx-user-plus me-2 text-success fs-5 align-middle'></i>
                     <span>Đăng Ký Tài Khoản Mới</span>
                   </router-link>
@@ -147,16 +146,17 @@
                 <template v-if="currentUser">
                   <li><hr class="dropdown-divider my-1"></li>
                   <li>
-                    <a class="dropdown-item py-2 small fw-bold text-danger bg-danger bg-opacity-10 rounded-2" href="javascript:;" @click="dangXuat(); isUserDropdownOpen = false;">
-                      <i class='bx bx-log-out me-2 fs-5 align-middle'></i>Đăng Xuất
-                    </a>
+                    <button role="menuitem" type="button" class="customer-logout-btn" :disabled="logoutLoading" @click="dangXuat">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M10 4H4v16h6M14 8l4 4-4 4M8 12h13"/></svg>
+                      <span>{{ logoutLoading ? 'Đang đăng xuất…' : 'Đăng xuất' }}</span>
+                    </button>
                   </li>
                 </template>
 
                 <li><hr class="dropdown-divider my-1"></li>
                 <li>
-                  <a class="dropdown-item py-1.5 small text-muted rounded-2" href="tel:19006868" @click="isUserDropdownOpen = false">
-                    <i class='bx bx-help-circle me-2 align-middle'></i>Hotline 1900 6868
+                  <a role="menuitem" class="dropdown-item py-1.5 small text-muted rounded-2" href="tel:0362242553" @click="isUserDropdownOpen = false">
+                    <i class='bx bx-help-circle me-2 align-middle'></i>Hotline 0362242553
                   </a>
                 </li>
               </ul>
@@ -168,19 +168,20 @@
 
         <!-- Search bar mobile -->
         <div class="d-block d-sm-none mt-2">
-          <div class="position-relative search-box-wrapper">
-            <input v-model="searchQuery" @keyup.enter="handleSearch" type="text"
-              class="form-control form-control-sm rounded-pill bg-light border ps-3 pe-5 py-1.5 search-input shadow-none"
-              placeholder="Tìm kiếm sản phẩm...">
-            <button @click="handleSearch" class="btn btn-urbn-dark text-white rounded-circle position-absolute top-50 end-0 translate-middle-y me-1 p-0 d-flex align-items-center justify-content-center search-btn" style="width: 28px; height: 28px;">
-              <i class='bx bx-search small'></i>
+          <form role="search" aria-label="Tìm sản phẩm mobile" class="position-relative search-box-wrapper" @submit.prevent="handleSearch">
+            <input v-model="searchQuery" type="search" maxlength="200" autocomplete="off" aria-label="Từ khóa tìm sản phẩm" :aria-invalid="!!searchMessage" aria-describedby="customer-search-message"
+              class="form-control rounded-pill bg-light border search-input shadow-none" placeholder="Tìm kiếm sản phẩm...">
+            <button type="submit" :disabled="searching" aria-label="Tìm kiếm sản phẩm" class="customer-search-submit position-absolute top-50 end-0 translate-middle-y">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
             </button>
-          </div>
+          </form>
         </div>
 
       </div>
 
-      <!-- 3. Desktop Sub-Navbar Navigation Menu -->
+      <p v-if="searchMessage" id="customer-search-message" class="customer-search-message container mb-2" role="status">{{ searchMessage }}</p>
+
+    <!-- 3. Desktop Sub-Navbar Navigation Menu -->
       <nav class="sub-navbar border-top bg-white d-none d-lg-block">
         <div class="container">
           <ul class="nav nav-pills align-items-center gap-2 gap-xl-3 py-2">
@@ -201,7 +202,7 @@
                 <span>Danh Mục Thời Trang</span>
                 <i class='bx bx-chevron-down ms-1.5 transition-transform' :class="{ 'rotate-180': isCategoryDropdownOpen }"></i>
               </button>
-              
+
               <!-- Dropdown Menu -->
               <div class="dropdown-menu shadow-lg border-0 rounded-4 py-2 custom-category-dropdown"
                    :class="{ 'show': isCategoryDropdownOpen }"
@@ -234,7 +235,7 @@
 
             <li class="nav-item">
               <a class="nav-link sub-nav-pill text-danger fw-bold cursor-pointer" href="javascript:;" @click="dieuHuongFlashSale">
-                <i class='bx bxs-zap text-danger me-1.5'></i> Flash Sale -30%
+                <i class='bx bxs-zap text-danger me-1.5'></i> Sản phẩm ưu đãi
               </a>
             </li>
 
@@ -265,7 +266,7 @@
           <!-- User info & logout on mobile -->
           <div v-if="currentUser" class="p-2.5 bg-light rounded-3 border mb-1 d-flex align-items-center justify-content-between">
             <div class="overflow-hidden">
-              <div class="fw-bold text-dark text-truncate small">{{ currentUser.ho_va_ten }}</div>
+              <div class="fw-bold text-dark text-truncate small">{{ accountName }}</div>
               <span class="badge" :class="currentUser.role === 'admin' ? 'bg-danger' : 'bg-primary'" style="font-size: 10px;">
                 {{ currentUser.role === 'admin' ? 'Quản Trị Viên' : 'Thành Viên' }}
               </span>
@@ -291,7 +292,7 @@
             <i class='bx bx-category me-2 text-urbn-primary'></i> Danh Mục Thời Trang
           </a>
           <a href="javascript:;" @click="dieuHuongFlashSale" class="btn btn-light text-start fw-bold py-2 rounded-3 text-danger">
-            <i class='bx bxs-zap me-2 text-danger'></i> Flash Sale -30%
+            <i class='bx bxs-zap me-2 text-danger'></i> Sản phẩm ưu đãi
           </a>
           <a href="javascript:;" @click="dieuHuongSanPhamMoi" class="btn btn-light text-start fw-bold py-2 rounded-3">
             <i class='bx bx-star me-2 text-warning'></i> Sản Phẩm Mới Drop 04
@@ -314,7 +315,7 @@
     <!-- 4. Slide-in Cart Drawer (URBN WEAR Style) -->
     <div v-if="cartStore.isOpenDrawer" class="offcanvas-backdrop-custom" @click="cartStore.toggleDrawer(false)"></div>
     <div class="cart-drawer-container shadow-2xl d-flex flex-column" :class="{ 'open': cartStore.isOpenDrawer }">
-      
+
       <!-- Drawer Header (Bright Luxury Style) -->
       <div class="cart-drawer-header p-3 bg-white border-bottom d-flex align-items-center justify-content-between">
         <div class="d-flex align-items-center gap-2">
@@ -373,9 +374,7 @@
           <span class="text-secondary small">Tạm tính:</span>
           <h5 class="fw-bold text-urbn-primary mb-0">{{ formatMoney(cartStore.subtotal) }}₫</h5>
         </div>
-        <div class="alert alert-success py-1 px-2 border-0 mb-3 small text-center" style="font-size: 11px;">
-          <i class='bx bxs-check-circle me-1'></i> Đã đủ điều kiện được <strong>Miễn Phí Vận Chuyển</strong>!
-        </div>
+
         <div class="d-grid gap-2">
           <button @click="tienHanhDatHang" class="btn btn-urbn-primary py-2 fw-bold text-white rounded-pill shadow-sm">
             <i class='bx bx-credit-card me-1'></i> TIẾN HÀNH ĐẶT HÀNG ({{ formatMoney(cartStore.subtotal) }}₫)
@@ -391,30 +390,14 @@
     <SizeAdvisorModal />
 
     <!-- 5b. Checkout & VietQR MB Bank Payment Modal Component -->
-    <CheckoutModal />
+    <CheckoutModal ref="checkoutModal" />
 
     <!-- 6. Footer (SOFEP Luxury Light Atelier Style) -->
     <footer class="pt-5 pb-4 mt-5 border-top" style="background-color: #f9f8f5; border-color: #f1ede6 !important;">
       <div class="container">
-        
+
         <!-- Newsletter Box (Bright Pearl White with Champagne Border) -->
-        <div class="p-4 p-md-5 rounded-4 mb-5 border shadow-sm" style="background: linear-gradient(135deg, #ffffff 0%, #fffdfa 60%, #fef8eb 100%); border-color: rgba(180, 131, 37, 0.25) !important;">
-          <div class="row align-items-center gy-3">
-            <div class="col-lg-6">
-              <span class="badge bg-warning bg-opacity-15 text-dark rounded-pill px-3 py-1 mb-2 fw-bold small border border-warning border-opacity-25" style="color: #78350f !important;">
-                <i class='bx bxs-crown me-1' style="color: #b48325;"></i>SOFEP CLUB VIP
-              </span>
-              <h3 class="fw-extrabold mb-1 font-streetwear text-dark">Đăng Ký Nhận Voucher 50.000₫</h3>
-              <p class="mb-0 text-secondary small">Nhận thông báo sớm nhất về các bộ sưu tập Haute Couture mới, mã giảm giá độc quyền và sự kiện thời trang.</p>
-            </div>
-            <div class="col-lg-6">
-              <div class="input-group input-group-lg bg-white rounded-pill p-1 border shadow-xs" style="border-color: rgba(180, 131, 37, 0.25) !important;">
-                <input type="email" class="form-control border-0 bg-transparent text-dark ps-3 shadow-none small" placeholder="Nhập địa chỉ email của bạn...">
-                <button class="btn btn-urbn-primary rounded-pill px-4 fw-bold text-white text-nowrap">Đăng Ký</button>
-              </div>
-            </div>
-          </div>
-        </div>
+
 
         <!-- Footer Columns -->
         <div class="row g-4 mb-4">
@@ -462,8 +445,8 @@
             <h6 class="fw-bold text-dark text-uppercase mb-3 small tracking-wide font-streetwear">Dịch Vụ Khách Hàng</h6>
             <ul class="list-unstyled small d-flex flex-column gap-2 text-secondary">
               <li><a href="javascript:;" @click="cartStore.toggleSizeAdvisor(true)" class="text-decoration-none text-secondary footer-link">Bảng Hướng Dẫn Chọn Size</a></li>
-              <li><a href="#" class="text-decoration-none text-secondary footer-link">Chính Sách Đổi Trả 30 Ngày</a></li>
-              <li><a href="#" class="text-decoration-none text-secondary footer-link">Quy Định Bảo Hành Form Áo</a></li>
+
+
               <li><a href="#" class="text-decoration-none text-secondary footer-link">Tra Cứu Tiến Độ Đơn Hàng</a></li>
               <li><a href="#" class="text-decoration-none text-secondary footer-link">Hệ Thống Flagship Store</a></li>
             </ul>
@@ -472,10 +455,9 @@
           <div class="col-lg-3 col-md-6">
             <h6 class="fw-bold text-dark text-uppercase mb-3 small tracking-wide font-streetwear">Showroom Đô Thị</h6>
             <ul class="list-unstyled small text-secondary d-flex flex-column gap-2">
-              <li><i class='bx bx-map-pin me-2' style="color: #b48325;"></i> 124 Phố Huế, Hoàn Kiếm, Hà Nội</li>
-              <li><i class='bx bx-map-pin me-2' style="color: #b48325;"></i> 285 Cách Mạng Tháng 8, Q.10, TP.HCM</li>
-              <li><i class='bx bx-phone me-2' style="color: #b48325;"></i> Hotline: 1900 6868 (8:30 - 22:00)</li>
-              <li><i class='bx bx-envelope me-2' style="color: #b48325;"></i> contact@sofep.vn</li>
+              <li><i class='bx bx-map-pin me-2' style="color: #b48325;"></i> 403 Điện Biên Phủ, Thanh Kê, Đà Nẵng</li>
+              <li><i class='bx bx-phone me-2' style="color: #b48325;"></i> Hotline: 0362242553 (8:30 - 22:00)</li>
+              <li><i class='bx bx-envelope me-2' style="color: #b48325;"></i> dn1332006@gmail.com </li>
             </ul>
           </div>
         </div>
@@ -509,7 +491,7 @@
               <div class="rounded-circle bg-urbn-primary bg-opacity-10 d-inline-flex align-items-center justify-content-center mb-2" style="width: 72px; height: 72px;">
                 <i class='bx bx-user fs-1 text-urbn-primary'></i>
               </div>
-              <h5 class="fw-bold text-dark mb-0">{{ currentUser.ho_va_ten }}</h5>
+              <h5 class="fw-bold text-dark mb-0">{{ accountName }}</h5>
               <span class="badge rounded-pill mt-1" :class="currentUser.role === 'admin' ? 'bg-danger' : 'bg-primary'">
                 {{ currentUser.role === 'admin' ? 'Quản Trị Viên' : 'Thành Viên Chính Thức' }}
               </span>
@@ -546,6 +528,7 @@ import { cartStore } from '../../stores/cartStore';
 import SizeAdvisorModal from '../../components/Client/SizeAdvisorModal.vue';
 import CheckoutModal from '../../components/Client/CheckoutModal.vue';
 import axios from 'axios';
+import { customerSession, clearCustomerSession } from '../../services/authSessions';
 
 export default {
   name: 'ClientLayout',
@@ -556,7 +539,7 @@ export default {
   data() {
     return {
       cartStore,
-      searchQuery: '',
+      searchQuery: '', searchMessage: '', searching: false, logoutLoading: false, sessionRequest: 0,
       danh_mucs: [],
       isCategoryDropdownOpen: false,
       isMobileMenuOpen: false,
@@ -565,6 +548,14 @@ export default {
       currentUser: null
     }
   },
+  computed: {
+    accountName() { return this.currentUser?.ho_va_ten || this.currentUser?.name || 'Thành viên SOFEP'; },
+  },
+  watch: {
+    searchQuery() { this.searchMessage = ''; },
+    '$route.query.q': { immediate: true, handler(value) { this.searchQuery = typeof value === 'string' ? value : ''; } },
+    '$route.fullPath'() { this.isUserDropdownOpen = false; this.showUserModal = false; },
+  },
   mounted() {
     this.loadDanhMucs();
     this.checkLoginUser();
@@ -572,6 +563,7 @@ export default {
   },
   beforeUnmount() {
     document.removeEventListener('click', this.handleUserDropdownClickOutside);
+    this.sessionRequest++;
   },
   methods: {
     toggleUserDropdown(e) {
@@ -583,33 +575,66 @@ export default {
         this.isUserDropdownOpen = false;
       }
     },
-    checkLoginUser() {
-      const userStr = localStorage.getItem('user') || localStorage.getItem('nguoi_dung');
-      if (userStr) {
-        try {
-          this.currentUser = JSON.parse(userStr);
-        } catch (e) {
-          this.currentUser = null;
-        }
-      } else {
+    async checkLoginUser() {
+      const session = customerSession(); const request = ++this.sessionRequest;
+      this.currentUser = session?.user || null;
+      if (!session) return;
+      try {
+        const { data } = await axios.get('http://127.0.0.1:8000/api/kiem-tra-dang-nhap', { headers: { Authorization: `Bearer ${session.token}` } });
+        if (request !== this.sessionRequest || customerSession()?.token !== session.token) return;
+        if (data.status !== 1 || data.nguoi_dung?.role !== 'customer') { clearCustomerSession(session.token); this.currentUser = null; return; }
+        this.currentUser = data.nguoi_dung;
+      } catch (error) {
+        if (request !== this.sessionRequest) return;
+        if ([401, 403].includes(error.response?.status)) clearCustomerSession(session.token);
         this.currentUser = null;
       }
     },
-    dangXuat() {
-      const token = localStorage.getItem('auth_token') || localStorage.getItem('nguoi_dung_token') || localStorage.getItem('admin_token');
-      axios.post('http://127.0.0.1:8000/api/dang-xuat', {}, {
-        headers: { Authorization: `Bearer ${token}` }
-      }).finally(() => {
-        localStorage.removeItem('auth_token');
-        localStorage.removeItem('nguoi_dung_token');
-        localStorage.removeItem('admin_token');
-        localStorage.removeItem('user');
-        localStorage.removeItem('nguoi_dung');
-        this.currentUser = null;
-        this.$toast.success('Đã đăng xuất thành công!');
-        if (this.$route.path.startsWith('/admin')) {
-          this.$router.push('/dang-nhap');
+    async dangXuat() {
+      if (this.logoutLoading) return;
+      const token = customerSession()?.token;
+      this.logoutLoading = true; this.sessionRequest++;
+      let confirmed = !token;
+      try {
+        if (token) {
+          const { data } = await axios.post('http://127.0.0.1:8000/api/dang-xuat', {}, { headers: { Authorization: `Bearer ${token}` }, timeout: 8000 });
+          confirmed = data.status === 1;
         }
+      } catch { confirmed = false; }
+      finally {
+        clearCustomerSession(token);
+        this.currentUser = customerSession()?.user || null;
+        this.isUserDropdownOpen = false; this.showUserModal = false; this.isMobileMenuOpen = false;
+        if (!this.currentUser) {
+          sessionStorage.removeItem('sofep_pending_demo_order');
+          this.$refs.checkoutModal?.clearPendingDemo();
+        }
+        this.logoutLoading = false;
+      }
+      if (confirmed) this.$toast.success('Đã đăng xuất tài khoản Customer.');
+      else this.$toast.warning('Đã kết thúc phiên trên trình duyệt; chưa thể xác nhận đăng xuất với máy chủ.');
+      if (!this.currentUser) await this.$router.push('/');
+    },
+    closeUserMenu(restoreFocus = false) {
+      this.isUserDropdownOpen = false;
+      if (restoreFocus) this.$refs.userMenuTrigger?.focus();
+    },
+    handleUserMenuFocusOut(event) {
+      if (!event.currentTarget.contains(event.relatedTarget)) this.closeUserMenu();
+    },
+    handleUserMenuKeydown(event) {
+      if (event.key === 'Escape') { event.preventDefault(); event.stopPropagation(); this.closeUserMenu(true); return; }
+      if (!['ArrowDown', 'ArrowUp', 'Home', 'End'].includes(event.key)) return;
+      event.preventDefault();
+      const wasOpen = this.isUserDropdownOpen; this.isUserDropdownOpen = true;
+      this.$nextTick(() => {
+        const items = [...this.$refs.userDropdownRef.querySelectorAll('[role="menuitem"]:not([disabled])')];
+        if (!items.length) return;
+        const index = items.indexOf(document.activeElement);
+        const next = event.key === 'Home' ? 0 : event.key === 'End' ? items.length - 1
+          : !wasOpen || index < 0 ? (event.key === 'ArrowUp' ? items.length - 1 : 0)
+          : (index + (event.key === 'ArrowDown' ? 1 : -1) + items.length) % items.length;
+        items[next].focus();
       });
     },
     formatMoney(val) {
@@ -617,7 +642,7 @@ export default {
       return Number(val).toLocaleString('vi-VN');
     },
     loadDanhMucs() {
-      axios.get('http://127.0.0.1:8000/api/admin/danh-muc/get-data')
+      axios.get('http://127.0.0.1:8000/api/client/danh-mucs')
         .then(res => {
           if (res.data.status) {
             this.danh_mucs = res.data.data;
@@ -665,9 +690,17 @@ export default {
         if (el) el.scrollIntoView({ behavior: 'smooth' });
       }
     },
-    handleSearch() {
-      if (!this.searchQuery.trim()) return;
-      this.$router.push({ path: '/tim-kiem', query: { q: this.searchQuery.trim() } });
+    async handleSearch(event) {
+      const keyword = this.searchQuery.trim();
+      if (!keyword) {
+        this.searchMessage = 'Vui lòng nhập từ khóa tìm kiếm.';
+        event?.target?.querySelector('input')?.focus(); return;
+      }
+      if (this.searching) return;
+      this.searching = true; this.searchMessage = ''; this.isUserDropdownOpen = false;
+      try { await this.$router.push({ path: '/tim-kiem', query: { q: keyword } }); }
+      catch { this.searchMessage = 'Không thể mở trang tìm kiếm. Vui lòng thử lại.'; }
+      finally { this.searching = false; }
     },
     tienHanhDatHang() {
       if (this.cartStore.items.length === 0) {
@@ -716,6 +749,40 @@ export default {
 .user-dropdown-btn {
   transition: all 0.2s ease;
 }
+.custom-user-dropdown {
+  width: min(340px, calc(100vw - 24px));
+  min-width: 0 !important;
+  max-height: min(70vh, calc(100dvh - 140px));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: #fff;
+  border: 1px solid #e9e0d2 !important;
+}
+.customer-account-details { min-width: 0; flex: 1; }
+.customer-account-name, .customer-account-email { white-space: normal; overflow-wrap: anywhere; }
+.customer-account-email { color: #475569; font-size: 12px; }
+.customer-logout-btn {
+  display: flex; align-items: center; gap: 10px; width: 100%; padding: 11px 14px;
+  border: 0; border-radius: 10px; background: #fff !important; color: #b91c1c !important;
+  font: inherit; font-size: 14px; font-weight: 700; text-align: left; cursor: pointer;
+}
+.customer-logout-btn:hover { color: #991b1b !important; text-decoration: underline; }
+.customer-logout-btn:disabled { opacity: .7; cursor: wait; }
+.customer-logout-btn svg, .customer-search-submit svg { display: block; flex-shrink: 0; opacity: 1; }
+.customer-logout-btn:focus-visible, .user-dropdown-btn:focus-visible,
+.custom-user-dropdown [role="menuitem"]:focus-visible, .customer-search-submit:focus-visible {
+  outline: 3px solid #b48325; outline-offset: 3px;
+}
+.custom-user-dropdown [role="menuitem"]:focus-visible { background-color: #fef8ee; }
+.customer-search-submit {
+  display: flex; align-items: center; justify-content: center; width: 38px; height: 38px;
+  margin-right: 3px; padding: 0; border: 1px solid #1e293b; border-radius: 50%;
+  background: #1e293b !important; color: #fff !important; cursor: pointer;
+}
+.customer-search-submit:hover { background: #0f172a !important; }
+.customer-search-submit:disabled { opacity: .7; cursor: wait; }
+.search-box-wrapper .search-input { min-height: 44px; padding-left: 16px; padding-right: 52px; }
+.customer-search-message { color: #9f1239; font-size: 13px; }
 
 .user-dropdown-btn:hover {
   background-color: #fef8ee !important;

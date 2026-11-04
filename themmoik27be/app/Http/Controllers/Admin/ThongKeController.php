@@ -15,13 +15,13 @@ class ThongKeController extends Controller
 {
     public function getTongQuan()
     {
-        $tong_doanh_thu = DonHang::where('trang_thai_don_hang', '!=', 'da_huy')
+        $tong_doanh_thu = $this->completedPaid()
             ->sum('tong_thanh_toan');
 
         $tong_don_hang = DonHang::count();
         $don_hang_moi = DonHang::where('trang_thai_don_hang', 'cho_xac_nhan')->count();
-        $tong_san_pham = SanPham::count();
-        $tong_khach_hang = KhachHang::count();
+        $tong_san_pham = SanPham::where('trang_thai', 1)->count();
+        $tong_khach_hang = KhachHang::where(fn ($q) => $q->where('role', 'customer')->orWhereNull('role'))->where('is_khoa', 0)->where('is_kich_hoat', 1)->count();
 
         $don_hang_gan_day = DonHang::with('khachHang')
             ->orderBy('id', 'desc')
@@ -33,7 +33,8 @@ class ThongKeController extends Controller
                 DB::raw('SUM(so_luong) as tong_so_luong'),
                 DB::raw('SUM(thanh_tien) as tong_doanh_thu')
             )
-            ->groupBy('ten_san_pham')
+            ->whereIn('id_don_hang', $this->completedPaid()->select('id'))
+            ->groupBy('id_san_pham', 'ten_san_pham')
             ->orderBy('tong_so_luong', 'desc')
             ->limit(5)
             ->get();
@@ -53,60 +54,36 @@ class ThongKeController extends Controller
         ]);
     }
 
+    private function completedPaid()
+    {
+        return DonHang::where('trang_thai_don_hang', 'da_giao')->where('trang_thai_thanh_toan', 'da_thanh_toan');
+    }
+
     public function getDoanhThuTheoThang(Request $request)
     {
-        $nam = $request->nam ?? date('Y');
-
+        $request->validate(['nam' => 'sometimes|integer|min:1900|max:2100']);
+        $year = (int) ($request->nam ?? date('Y'));
+        $month = DB::getDriverName() === 'sqlite' ? "CAST(strftime('%m', created_at) AS INTEGER)" : 'MONTH(created_at)';
+        $rows = $this->completedPaid()->where('created_at', '>=', "$year-01-01")->where('created_at', '<', ($year + 1).'-01-01')
+            ->selectRaw("$month AS period, SUM(tong_thanh_toan) AS revenue, COUNT(*) AS total")
+            ->groupByRaw($month)->get()->keyBy('period');
         $data = [];
-        for ($thang = 1; $thang <= 12; $thang++) {
-            $tong = DonHang::whereYear('created_at', $nam)
-                ->whereMonth('created_at', $thang)
-                ->where('trang_thai_don_hang', '!=', 'da_huy')
-                ->sum('tong_thanh_toan');
-
-            $so_don = DonHang::whereYear('created_at', $nam)
-                ->whereMonth('created_at', $thang)
-                ->where('trang_thai_don_hang', '!=', 'da_huy')
-                ->count();
-
-            $data[] = [
-                'thang'          => 'T' . $thang,
-                'thang_full'     => 'Tháng ' . $thang,
-                'tong_doanh_thu' => (float)$tong,
-                'so_don_hang'    => $so_don,
-            ];
-        }
-
-        return response()->json([
-            'status'  => 1,
-            'message' => 'Lấy doanh thu theo tháng thành công',
-            'nam'     => $nam,
-            'data'    => $data
-        ]);
+        foreach (range(1, 12) as $number) $data[] = ['thang' => 'T'.$number, 'thang_full' => 'Tháng '.$number,
+            'tong_doanh_thu' => (float) ($rows[$number]->revenue ?? 0), 'so_don_hang' => (int) ($rows[$number]->total ?? 0)];
+        return response()->json(['status' => 1, 'message' => 'Lấy doanh thu theo tháng thành công', 'nam' => $year, 'data' => $data]);
     }
 
     public function getDoanhThuTheoNam(Request $request)
     {
-        $tu_nam = $request->tu_nam ?? (date('Y') - 4);
-        $den_nam = $request->den_nam ?? date('Y');
-
+        $request->validate(['tu_nam' => 'sometimes|integer|min:1900|max:2100', 'den_nam' => 'sometimes|integer|min:1900|max:2100']);
+        $from = (int) ($request->tu_nam ?? date('Y') - 4); $to = (int) ($request->den_nam ?? date('Y'));
+        abort_if($to < $from || $to - $from > 50, 422, 'Khoảng thống kê phải từ 0 đến 50 năm.');
+        $year = DB::getDriverName() === 'sqlite' ? "CAST(strftime('%Y', created_at) AS INTEGER)" : 'YEAR(created_at)';
+        $rows = $this->completedPaid()->where('created_at', '>=', "$from-01-01")->where('created_at', '<', ($to + 1).'-01-01')
+            ->selectRaw("$year AS period, SUM(tong_thanh_toan) AS revenue")->groupByRaw($year)->get()->keyBy('period');
         $data = [];
-        for ($y = $tu_nam; $y <= $den_nam; $y++) {
-            $tong = DonHang::whereYear('created_at', $y)
-                ->where('trang_thai_don_hang', '!=', 'da_huy')
-                ->sum('tong_thanh_toan');
-
-            $data[] = [
-                'nam'            => $y,
-                'tong_doanh_thu' => (float)$tong,
-            ];
-        }
-
-        return response()->json([
-            'status'  => 1,
-            'message' => 'Lấy doanh thu theo năm thành công',
-            'data'    => $data
-        ]);
+        foreach (range($from, $to) as $number) $data[] = ['nam' => $number, 'tong_doanh_thu' => (float) ($rows[$number]->revenue ?? 0)];
+        return response()->json(['status' => 1, 'message' => 'Lấy doanh thu theo năm thành công', 'data' => $data]);
     }
 
     public function getSanPhamTheoDanhMuc()

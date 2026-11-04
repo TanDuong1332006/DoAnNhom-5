@@ -1,8 +1,8 @@
-import { createApp } from 'vue'
+import { createApp, defineAsyncComponent } from 'vue'
 import App from './App.vue'
 import router from './router'
-import Default from './layout/wrapper/index.vue'
-import Blank from './layout/wrapper/blank.vue'
+const Default = defineAsyncComponent(() => import('./layout/wrapper/index.vue'))
+const Blank = defineAsyncComponent(() => import('./layout/wrapper/blank.vue'))
 import ClientLayout from './layout/wrapper/ClientLayout.vue'
 
 import "./assets/css/bootstrap.min.css"
@@ -13,12 +13,15 @@ import "./assets/js/bootstrap.bundle.min.js"
 import Toast, { useToast } from "vue-toastification";
 import "vue-toastification/dist/index.css";
 import axios from 'axios';
+import { resolveApiUrl } from './services/resolveApiUrl';
+import { requestToken } from './services/authSessions';
 import { CustomSwal, showConfirm, showDeleteConfirm, showAlert } from './utils/dialog';
 
 // Cấu hình axios tự động gắn Bearer token
 axios.interceptors.request.use((config) => {
-    const token = localStorage.getItem('auth_token') || localStorage.getItem('nguoi_dung_token') || localStorage.getItem('admin_token');
-    if (token) {
+    config.url = resolveApiUrl(config.url, import.meta.env.VITE_API_URL);
+    const token = requestToken(config.url);
+    if (token && !config.headers.Authorization && !config.headers.authorization) {
         config.headers.Authorization = `Bearer ${token}`;
     }
     return config;
@@ -52,4 +55,5 @@ app.component("blank-layout", Blank);
 app.component("client-layout", ClientLayout);
 app.component("SofepLogo", SofepLogo);
 
-app.mount("#app")
+// Tránh render layout Admin mặc định trong lúc router còn xác định trang đầu tiên.
+router.isReady().then(() => app.mount("#app"))

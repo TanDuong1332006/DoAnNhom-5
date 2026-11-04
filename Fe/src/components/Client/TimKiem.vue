@@ -1,10 +1,10 @@
 <template>
   <div class="sofep-atelier-search-page bg-light-subtle min-vh-100 pb-5">
-    
+
     <!-- 1. Search Header Hero Banner -->
     <div class="search-hero-bar py-4 mb-4 border-bottom shadow-xs">
       <div class="container">
-        
+
         <!-- Breadcrumb Navigation -->
         <nav aria-label="breadcrumb" class="mb-2">
           <ol class="breadcrumb mb-0 small d-flex align-items-center gap-1 text-muted">
@@ -30,7 +30,7 @@
               {{ pageSubtitle }}
             </p>
           </div>
-          
+
           <div class="d-flex align-items-center gap-2">
             <span class="badge rounded-pill px-3 py-2 fw-bold text-dark border bg-white shadow-xs" style="border-color: rgba(180, 131, 37, 0.25) !important;">
               <i class='bx bx-check-double text-warning me-1'></i>
@@ -55,12 +55,12 @@
     <!-- 2. Main Search Body: 2-Column Desktop Web Layout -->
     <div class="container mb-4">
       <div class="row g-4">
-        
+
         <!-- LEFT SIDEBAR: Boutique Filter Panel (col-lg-3 col-xl-3) -->
         <div class="col-lg-3 col-xl-3">
           <div class="card border-0 rounded-4 shadow-sm bg-white p-3 p-xl-4 filter-sidebar sticky-top"
                style="top: 85px; z-index: 10; border: 1px solid rgba(180, 131, 37, 0.14) !important;">
-            
+
             <!-- Sidebar Header -->
             <div class="d-flex align-items-center justify-content-between pb-3 border-bottom mb-3">
               <h6 class="fw-bold text-dark text-uppercase small mb-0 d-flex align-items-center gap-2 font-streetwear">
@@ -78,6 +78,7 @@
                 <span>Danh Mục Thiết Kế</span>
                 <span class="text-muted" style="font-size: 10px; font-weight: normal; text-transform: none;">({{ danh_mucs.length }} nhóm)</span>
               </div>
+              <div v-if="categoryError" class="alert alert-warning small">{{ categoryError }}</div>
               <div class="category-filter-list">
                 <a href="javascript:;"
                    @click="chonDanhMuc('tat-ca')"
@@ -101,44 +102,14 @@
             </div>
 
             <!-- Filter: Đặc Quyền Dịch Vụ -->
-            <div class="filter-section-group">
-              <div class="filter-section-title">
-                <span>Đặc Quyền Dịch Vụ</span>
-              </div>
-              <div class="filter-checkbox-list">
-                <label class="filter-check-item" for="filterHoaToc">
-                  <div class="d-flex align-items-center gap-2">
-                    <input class="form-check-input mt-0 filter-custom-checkbox" type="checkbox" v-model="activeFilters.hoa_toc" id="filterHoaToc">
-                    <span class="d-flex align-items-center gap-1.5 filter-check-label text-dark fw-semibold">
-                      <i class='bx bxs-zap' style="color: #b48325;"></i> Giao Hỏa Tốc (2H)
-                    </span>
-                  </div>
-                </label>
-                <label class="filter-check-item" for="filterMall">
-                  <div class="d-flex align-items-center gap-2">
-                    <input class="form-check-input mt-0 filter-custom-checkbox" type="checkbox" v-model="activeFilters.mall" id="filterMall">
-                    <span class="d-flex align-items-center gap-1.5 filter-check-label text-dark fw-semibold">
-                      <i class='bx bxs-crown text-warning'></i> SOFEP Atelier VIP
-                    </span>
-                  </div>
-                </label>
-                <label class="filter-check-item" for="filterYeuThich">
-                  <div class="d-flex align-items-center gap-2">
-                    <input class="form-check-input mt-0 filter-custom-checkbox" type="checkbox" v-model="activeFilters.yeu_thich" id="filterYeuThich">
-                    <span class="d-flex align-items-center gap-1.5 filter-check-label text-dark fw-semibold">
-                      <i class='bx bxs-heart text-danger'></i> Được Yêu Thích Nhất
-                    </span>
-                  </div>
-                </label>
-              </div>
-            </div>
+
 
             <!-- Filter: Khoảng Giá Thông Minh -->
             <div class="filter-section-group">
               <div class="filter-section-title">
                 <span>Khoảng Giá (₫)</span>
               </div>
-              
+
               <!-- Quick Price Chips -->
               <div class="quick-price-chips mb-3">
                 <button type="button" @click="chonGiaNhanh(null, 300000)" class="quick-price-chip-btn">
@@ -167,48 +138,10 @@
             </div>
 
             <!-- Filter: Khu Vực Xuất Xưởng -->
-            <div class="filter-section-group">
-              <div class="filter-section-title">
-                <span>Khu Vực Phục Vụ</span>
-              </div>
-              <div class="filter-checkbox-list">
-                <label class="filter-check-item" for="locHaNoi">
-                  <div class="d-flex align-items-center gap-2">
-                    <input class="form-check-input mt-0 filter-custom-checkbox" type="checkbox" id="locHaNoi" checked>
-                    <span class="text-secondary filter-check-label">Hà Nội (Atelier Studio 1)</span>
-                  </div>
-                </label>
-                <label class="filter-check-item" for="locHCM">
-                  <div class="d-flex align-items-center gap-2">
-                    <input class="form-check-input mt-0 filter-custom-checkbox" type="checkbox" id="locHCM" checked>
-                    <span class="text-secondary filter-check-label">TP. Hồ Chí Minh (Atelier Studio 2)</span>
-                  </div>
-                </label>
-                <label class="filter-check-item" for="locDaNang">
-                  <div class="d-flex align-items-center gap-2">
-                    <input class="form-check-input mt-0 filter-custom-checkbox" type="checkbox" id="locDaNang">
-                    <span class="text-secondary filter-check-label">Đà Nẵng &amp; Toàn Quốc</span>
-                  </div>
-                </label>
-              </div>
-            </div>
+
 
             <!-- Filter: Đánh Giá Tuyển Chọn -->
-            <div class="filter-rating-group">
-              <div class="filter-section-title">
-                <span>Đánh Giá Hài Lòng</span>
-              </div>
-              <div class="rating-filter-list">
-                <a href="javascript:;" @click="setStarFilter(5)" class="rating-filter-item">
-                  <span class="text-warning d-flex align-items-center gap-0.5"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></span>
-                  <span class="fw-bold small text-dark">5 sao xuất sắc</span>
-                </a>
-                <a href="javascript:;" @click="setStarFilter(4)" class="rating-filter-item">
-                  <span class="text-warning d-flex align-items-center gap-0.5"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bx-star'></i></span>
-                  <span class="small text-secondary">Từ 4 sao trở lên</span>
-                </a>
-              </div>
-            </div>
+
 
           </div>
         </div>
@@ -217,76 +150,20 @@
         <div class="col-lg-9 col-xl-9">
 
           <!-- 1. SOFEP Flagship Atelier Showcase Card -->
-          <div v-if="brandShowcase" class="card border-0 rounded-4 shadow-sm bg-white p-3 p-lg-4 mb-3" style="border: 1px solid rgba(180, 131, 37, 0.14) !important;">
-            <div class="row align-items-center gy-3">
-              
-              <!-- Brand Identity Box -->
-              <div class="col-12 col-md-5 col-xl-4 border-md-end">
-                <div class="d-flex align-items-center gap-3">
-                  <div class="rounded-circle border p-1 bg-white flex-shrink-0 d-flex align-items-center justify-content-center shadow-xs overflow-hidden" style="width: 56px; height: 56px;">
-                    <SofepLogo circle size="sm" variant="light" />
-                  </div>
-                  <div class="overflow-hidden">
-                    <div class="d-flex align-items-center gap-1.5 flex-wrap">
-                      <span class="fw-bold text-dark text-truncate small font-streetwear">{{ brandShowcase.name }}</span>
-                      <span class="badge rounded-pill text-white fw-bold px-2 py-0.5" style="font-size: 9px; background: var(--sofep-gold-gradient);">Atelier</span>
-                    </div>
-                    <div class="small text-muted d-flex align-items-center gap-2 mt-0.5" style="font-size: 11px;">
-                      <span class="text-warning fw-bold"><i class='bx bxs-star me-0.5'></i>4.9</span>
-                      <span>{{ brandShowcase.followers }} thành viên VIP</span>
-                    </div>
-                    <router-link to="/" class="btn btn-outline-dark btn-sm rounded-pill px-3 py-0.5 fw-bold mt-2" style="font-size: 11px;">
-                      Khám Phá Toàn Bộ
-                    </router-link>
-                  </div>
-                </div>
-              </div>
 
-              <!-- Brand Vouchers & Mini-Showcase Strip -->
-              <div class="col-12 col-md-7 col-xl-8">
-                <div class="d-flex gap-2.5 overflow-x-auto scroll-no-bar align-items-center py-1">
-                  
-                  <!-- Luxury Voucher Card 150k -->
-                  <div class="voucher-mini-atelier rounded-3 p-2.5 d-flex flex-column align-items-center justify-content-between flex-shrink-0 text-center" style="width: 125px; min-height: 105px;">
-                    <div class="small fw-bold" style="color: #78350f; font-size: 10.5px;">MÃ ĐẶC QUYỀN</div>
-                    <div class="fs-5 fw-extrabold font-streetwear my-0.5" style="color: #b48325;">₫150k</div>
-                    <button @click="luuVoucher" class="btn btn-urbn-primary btn-sm w-100 py-0.5 rounded-pill fw-bold text-white" style="font-size: 10.5px;">
-                      Lưu Mã
-                    </button>
-                  </div>
-
-                  <!-- Mini Product Cards -->
-                  <div v-for="mini in brandShowcase.products" :key="mini.id"
-                       @click="chuyenToiChiTiet(mini)"
-                       class="mini-atelier-card rounded-3 border bg-white p-1.5 position-relative flex-shrink-0 cursor-pointer text-center hover-lift"
-                       style="width: 115px;">
-                    <div class="badge rounded-pill position-absolute top-0 end-0 m-1 px-1.5 py-0.5 text-white fw-bold" style="font-size: 9px; background: var(--sofep-gold-gradient);">
-                      -{{ mini.discount }}%
-                    </div>
-                    <img :src="mini.image" class="w-100 rounded-2 object-fit-cover mb-1" style="height: 85px;" :alt="mini.name">
-                    <div class="bg-dark bg-opacity-80 text-white rounded-pill px-1.5 py-0.5 fw-bold text-truncate" style="font-size: 10px;">
-                      {{ formatMoney(mini.price) }}₫
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-          </div>
 
           <!-- 2. Modern Segmented Sort Control Bar -->
           <div class="card border-0 rounded-4 shadow-sm bg-white p-3 mb-3.5" style="border: 1px solid rgba(180, 131, 37, 0.14) !important;">
             <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
-              
+
               <!-- Sort Buttons -->
               <div class="d-flex align-items-center gap-2 flex-wrap">
                 <span class="small text-secondary fw-semibold me-1">Sắp xếp theo:</span>
-                
+
                 <button @click="setSort('lien_quan')"
                         :class="sortBy === 'lien_quan' ? 'active-sort-pill' : 'inactive-sort-pill'"
                         class="btn btn-sm px-3 py-1.5 rounded-pill fw-semibold">
-                  ✦ Phổ Biến Nhất
+                  ✦ Mặc Định
                 </button>
                 <button @click="setSort('moi_nhat')"
                         :class="sortBy === 'moi_nhat' ? 'active-sort-pill' : 'inactive-sort-pill'"
@@ -296,7 +173,7 @@
                 <button @click="setSort('ban_chay')"
                         :class="sortBy === 'ban_chay' ? 'active-sort-pill' : 'inactive-sort-pill'"
                         class="btn btn-sm px-3 py-1.5 rounded-pill fw-semibold">
-                  Bán Chạy Nhất
+                  Lượt Xem Nhất
                 </button>
 
                 <!-- Sort by Price dropdown (Vue Reactive State & Click-outside) -->
@@ -348,17 +225,19 @@
           </div>
 
           <!-- 3. Editorial Fashion Products Grid (Khoảng cách thoáng đãng, sang trọng) -->
-          <div v-if="filteredProducts.length > 0" class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 editorial-grid-row">
+          <div v-if="loading" class="alert alert-light" role="status">Đang tải sản phẩm…</div>
+          <div v-else-if="error" class="alert alert-warning" role="alert">{{ error }} <button class="btn btn-sm btn-outline-dark" @click="taiSanPham">Thử lại</button></div>
+          <div v-else-if="filteredProducts.length > 0" class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 editorial-grid-row">
             <div v-for="item in filteredProducts" :key="item.id" class="col">
               <div @click="chuyenToiChiTiet(item)"
                    class="card border-0 shadow-sm bg-white h-100 overflow-hidden cursor-pointer editorial-product-card hover-lift position-relative">
-                
+
                 <!-- Product Image Frame (Clean, Generous Studio Stage) -->
                 <div class="position-relative overflow-hidden atelier-img-box" style="padding-top: 110%;">
-                  <img :src="item.hinh_anh || 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500'"
+                  <ProductImage :src="item.hinh_anh"
                        class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover editorial-img"
-                       :alt="item.ten_san_pham">
-                  
+                       :alt="item.ten_san_pham" />
+
                   <!-- Floating Top-Left Luxury Tag -->
                   <div class="position-absolute top-0 start-0 m-2.5 z-2">
                     <span class="badge rounded-pill px-2.5 py-1 text-white fw-bold small shadow-xs" style="background: var(--sofep-gold-gradient); font-size: 10px;">
@@ -376,7 +255,7 @@
                   <div class="editorial-hover-bar position-absolute bottom-0 start-0 end-0 p-2.5 d-flex gap-2 z-2">
                     <button @click.stop="themNhanhVaoGio(item, $event)" class="btn btn-sm btn-white flex-grow-1 rounded-pill fw-bold text-dark shadow-sm d-flex align-items-center justify-content-center gap-1" style="font-size: 11.5px;">
                       <i class='bx bx-cart-add fs-6' style="color: #b48325;"></i>
-                      <span>Thêm Nhanh</span>
+                      <span>Chọn biến thể</span>
                     </button>
                     <button class="btn btn-sm btn-dark rounded-circle p-0 d-flex align-items-center justify-content-center shadow-sm" style="width: 32px; height: 32px;">
                       <i class='bx bx-right-arrow-alt fs-5 text-white'></i>
@@ -386,7 +265,7 @@
 
                 <!-- Product Info Body -->
                 <div class="p-3 d-flex flex-column flex-grow-1">
-                  
+
                   <!-- Brand Sub-tag -->
                   <span class="text-uppercase tracking-wider small fw-bold mb-1" style="font-size: 10px; color: #b48325;">
                     SOFEP ATELIER · 2026
@@ -400,7 +279,7 @@
                   <!-- Price & Rating Row -->
                   <div class="d-flex align-items-baseline gap-2 flex-wrap mt-auto">
                     <span class="fs-6 fw-extrabold font-streetwear" style="color: #b48325;">
-                      ₫{{ formatMoney(item.gia_khuyen_mai || item.gia_ban) }}
+                      ₫{{ formatMoney(getEffectivePrice(item)) }}
                     </span>
                     <span v-if="item.gia_khuyen_mai" class="text-muted text-decoration-line-through small" style="font-size: 11px;">
                       ₫{{ formatMoney(item.gia_ban) }}
@@ -408,13 +287,7 @@
                   </div>
 
                   <!-- Ratings & Sold Count -->
-                  <div class="d-flex align-items-center justify-content-between text-muted small mt-2 pt-2 border-top" style="font-size: 11px;">
-                    <span class="text-warning d-flex align-items-center gap-1">
-                      <i class='bx bxs-star'></i>
-                      <strong class="text-dark">4.9</strong>
-                    </span>
-                    <span>Đã bán {{ item.luot_xem || 120 }}</span>
-                  </div>
+
 
                 </div>
 
@@ -450,8 +323,11 @@
 <script>
 import { cartStore } from '../../stores/cartStore';
 import axios from 'axios';
+import ProductImage from '../shared/ProductImage.vue';
+import { basePrice } from '../../services/productCatalog';
 
 export default {
+  components: { ProductImage },
   name: 'TimKiem',
   data() {
     return {
@@ -463,6 +339,9 @@ export default {
       isFlashSaleFilter: false,
       isNewArrivalFilter: false,
       loading: false,
+      error: '',
+      categoryError: '',
+      requestId: 0,
       sortBy: 'lien_quan',
       sortPriceLabel: 'Giá: Thấp đến Cao',
       isPriceDropdownOpen: false,
@@ -484,34 +363,6 @@ export default {
         'Quần parachute',
         'Bộ sưu tập Xuân Hè'
       ],
-      brandShowcase: {
-        name: 'SOFEP Flagship Atelier',
-        avatar: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=200&q=80',
-        followers: '199,5k',
-        products: [
-          {
-            id: 1,
-            name: 'Túi Xách Da Đeo Chéo Khóa Mạ Vàng',
-            price: 450000,
-            discount: 18,
-            image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=200'
-          },
-          {
-            id: 2,
-            name: 'Áo Thun Cotton Supima Form Boxy',
-            price: 249000,
-            discount: 20,
-            image: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=200'
-          },
-          {
-            id: 3,
-            name: 'Balo Du Lịch Minimalist Atelier',
-            price: 680000,
-            discount: 15,
-            image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=200'
-          }
-        ]
-      }
     };
   },
   computed: {
@@ -520,7 +371,7 @@ export default {
       return this.danh_mucs.find(d => d.id == this.selectedDanhMuc || d.slug_danh_muc == this.selectedDanhMuc);
     },
     pageTitle() {
-      if (this.isFlashSaleFilter) return 'Giờ Vàng Flash Sale -30%';
+      if (this.isFlashSaleFilter) return 'Giờ Vàng Sản phẩm ưu đãi';
       if (this.isNewArrivalFilter) return 'Bộ Sưu Tập Mới Drop 04';
       if (this.currentCategoryObj) return 'Danh Mục: ' + this.currentCategoryObj.ten_danh_muc;
       if (this.$route.query.ten) return 'Danh Mục: ' + this.$route.query.ten;
@@ -528,15 +379,15 @@ export default {
       return 'Tất Cả Tác Phẩm Thời Trang';
     },
     pageSubtitle() {
-      if (this.isFlashSaleFilter) return 'Ưu đãi chớp nhoáng lên đến 30% cho các mẫu thiết kế Haute Atelier số lượng giới hạn.';
+      if (this.isFlashSaleFilter) return 'Các sản phẩm có ưu đãi tại SOFEP.';
       if (this.isNewArrivalFilter) return 'Các sáng tạo thời trang đương đại hoàn thiện trên chất liệu cao cấp mới nhất mùa này.';
-      if (this.currentCategoryObj) return `Khám phá các thiết kế ${this.currentCategoryObj.ten_danh_muc.toLowerCase()} cao cấp hoàn thiện trên chất liệu chuẩn mực Milan.`;
+      if (this.currentCategoryObj) return `Khám phá các thiết kế ${this.currentCategoryObj.ten_danh_muc.toLowerCase()} cao cấp tại SOFEP.`;
       if (this.keyword && this.keyword.trim()) return `Danh sách các sản phẩm phù hợp với từ khóa "${this.keyword}" tại SOFEP Studio.`;
-      return 'Khám phá toàn bộ bộ sưu tập thời trang đương đại hoàn thiện trên chất liệu cao cấp từ SOFEP Studio.';
+      return 'Khám phá toàn bộ bộ sưu tập thời trang đương đại từ SOFEP.';
     },
     breadcrumbLabel() {
-      if (this.isFlashSaleFilter) return 'Flash Sale -30%';
-      if (this.isNewArrivalFilter) return 'Sản Phẩm Mới Drop 04';
+      if (this.isFlashSaleFilter) return 'Sản phẩm ưu đãi';
+      if (this.isNewArrivalFilter) return 'Sản Phẩm Nổi Bật';
       if (this.currentCategoryObj) return this.currentCategoryObj.ten_danh_muc;
       if (this.$route.query.ten) return this.$route.query.ten;
       if (this.keyword && this.keyword.trim()) return `"${this.keyword}"`;
@@ -552,7 +403,7 @@ export default {
 
       // Lọc Sản Phẩm Mới Drop 04
       if (this.isNewArrivalFilter) {
-        list = list.filter(p => p.is_noi_bat == 1 || p.id >= 100);
+        list = list.filter(p => p.is_noi_bat == 1);
       }
 
       // Lọc theo Danh mục
@@ -596,7 +447,7 @@ export default {
         const query = route.query || {};
         const params = route.params || {};
         this.keyword = query.q || '';
-        
+
         const catParam = params.id_or_slug || query.danh_muc;
         if (catParam) {
           this.selectedDanhMuc = isNaN(catParam) ? catParam : Number(catParam);
@@ -619,14 +470,7 @@ export default {
     document.removeEventListener('click', this.handlePriceClickOutside);
   },
   methods: {
-    getEffectivePrice(p) {
-      if (!p) return 0;
-      const sale = parseFloat(p.gia_khuyen_mai);
-      const regular = parseFloat(p.gia_ban);
-      if (!isNaN(sale) && sale > 0) return sale;
-      if (!isNaN(regular) && regular > 0) return regular;
-      return 0;
-    },
+    getEffectivePrice(p) { return basePrice(p); },
     togglePriceDropdown(e) {
       if (e) e.stopPropagation();
       this.isPriceDropdownOpen = !this.isPriceDropdownOpen;
@@ -642,39 +486,24 @@ export default {
       }
     },
     taiDanhMucs() {
-      axios.get('http://127.0.0.1:8000/api/admin/danh-muc/get-data')
+      axios.get('http://127.0.0.1:8000/api/client/danh-mucs')
         .then(res => {
           if (res.data.status) {
             this.danh_mucs = res.data.data;
           }
         })
-        .catch(e => console.error(e));
+        .catch(() => { this.categoryError = 'Không thể tải danh mục.'; });
     },
-    taiSanPham() {
-      this.loading = true;
-      // Tải toàn bộ danh mục sản phẩm từ backend để lọc tức thì mượt mà
-      axios.get('http://127.0.0.1:8000/api/admin/san-pham/get-data')
-        .then(res => {
-          if (res.data.status && res.data.data) {
-            this.products = res.data.data;
-          }
-        })
-        .catch(() => {
-          return axios.get('http://127.0.0.1:8000/api/client/san-phams?all=1');
-        })
-        .then(res => {
-          if (res && res.data && res.data.data) {
-            let list = res.data.data.data || res.data.data;
-            this.products = list;
-          }
-        })
-        .catch(err => {
-          console.warn('Fallback mock search items:', err);
-          this.products = this.getMockProducts();
-        })
-        .finally(() => {
-          this.loading = false;
-        });
+    async taiSanPham() {
+      const request=++this.requestId;
+      this.loading=true;this.error='';this.products=[];
+      try {
+        const response=await axios.get('http://127.0.0.1:8000/api/client/san-phams?all=1');
+        if(request!==this.requestId)return;
+        if(!response.data.status||!Array.isArray(response.data.data))throw new Error('Invalid response');
+        this.products=response.data.data;
+      }catch(error){if(request===this.requestId)this.error='Không thể tải sản phẩm. Vui lòng thử lại.';}
+      finally{if(request===this.requestId)this.loading=false;}
     },
     thucHienTimKiem() {
       this.$router.push({ path: '/tim-kiem', query: { q: this.keyword } }).catch(() => {});
@@ -734,12 +563,6 @@ export default {
         this.$toast.info('Đã áp dụng khoảng giá đã chọn!');
       }
     },
-    setStarFilter(stars) {
-      this.starFilter = stars;
-      if (this.$toast) {
-        this.$toast.info(`Lọc sản phẩm đánh giá ${stars} sao`);
-      }
-    },
     resetFilters() {
       this.selectedDanhMuc = 'tat-ca';
       this.priceRange.min = null;
@@ -752,55 +575,19 @@ export default {
       this.keyword = '';
       this.$router.push({ path: '/tim-kiem' }).catch(() => {});
     },
-    luuVoucher() {
-      this.$toast ? this.$toast.success('Đã lưu mã giảm giá ₫150k vào ví voucher!') : alert('Đã lưu mã giảm giá ₫150k!');
-    },
     chuyenToiChiTiet(item) {
       this.$router.push(`/san-pham/${item.slug_san_pham || item.id}`);
     },
-    themNhanhVaoGio(item, event) {
-      if (event) event.stopPropagation();
-      this.cartStore.addItem({
-        id: item.id,
-        ten_san_pham: item.ten_san_pham,
-        gia_ban: item.gia_khuyen_mai || item.gia_ban,
-        hinh_anh: item.hinh_anh,
-        size: 'L',
-        color: 'Đen Obsidian',
-        quantity: 1
-      }, 1);
-      if (this.$toast) {
-        this.$toast.success(`Đã thêm "${item.ten_san_pham}" vào giỏ hàng!`);
-      }
-    },
+    themNhanhVaoGio(item,event){event?.stopPropagation();this.chuyenToiChiTiet(item);},
     formatMoney(val) {
       if (!val) return '0';
       return Number(val).toLocaleString('vi-VN');
     },
     tinhPhanTramGiam(giaBan, giaKM) {
-      if (!giaBan || !giaKM || Number(giaBan) <= Number(giaKM)) return 15;
+      if (!giaBan || !giaKM || Number(giaBan) <= Number(giaKM)) return 0;
       return Math.round(((giaBan - giaKM) / giaBan) * 100);
     },
-    getMockProducts() {
-      return [
-        {
-          id: 1,
-          ten_san_pham: 'Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp Form Boxy Chuẩn Streetwear',
-          gia_ban: 299000,
-          gia_khuyen_mai: 249000,
-          hinh_anh: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500',
-          luot_xem: 976
-        },
-        {
-          id: 2,
-          ten_san_pham: 'Túi Xách Da Nữ Đeo Chéo Khóa Mạ Vàng Cao Cấp SOFEP Atelier',
-          gia_ban: 550000,
-          gia_khuyen_mai: 450000,
-          hinh_anh: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500',
-          luot_xem: 488
-        }
-      ];
-    }
+
   }
 };
 </script>

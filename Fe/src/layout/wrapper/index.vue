@@ -1,13 +1,13 @@
 <template>
-    <div class="wrapper">
+    <div class="wrapper" :class="{ toggled: menuOpen }">
         <div class="header-wrapper">
 
             <header>
                 <div class="topbar d-flex align-items-center">
-                    <HeaderRocker></HeaderRocker>
+                    <HeaderRocker @toggle-menu="menuOpen = !menuOpen"></HeaderRocker>
                 </div>
             </header>
-            <MenuRocker></MenuRocker>
+            <MenuRocker @close-menu="menuOpen = false"></MenuRocker>
         </div>
         <div class="page-wrapper">
             <div class="page-content">
@@ -15,7 +15,7 @@
 
             </div>
         </div>
-        <div class="overlay toggle-icon"></div>
+        <div class="overlay toggle-icon" @click="menuOpen = false"></div>
         <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
         <FooterRocker></FooterRocker>
     </div>
@@ -32,6 +32,8 @@ import "../../assets/plugins/metismenu/js/metisMenu.min.js";
 
 import "../../assets/js/app.js";
 export default {
+    data() { return { menuOpen: false }; },
+    watch: { '$route.fullPath'() { this.menuOpen = false; } },
     components: {
         HeaderRocker,
         MenuRocker,
