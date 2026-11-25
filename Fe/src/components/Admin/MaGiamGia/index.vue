@@ -144,6 +144,7 @@
 </template>
 
 <script>
+import { apiUrl } from '../../../services/apiConfig.js';
 import axios from 'axios';
 
 export default {
@@ -196,7 +197,7 @@ export default {
             this.customerIds = (item.ids_khach_hang || []).join(', ');
         },
         loadData() {
-            axios.get('http://127.0.0.1:8000/api/admin/ma-giam-gia/get-data')
+            axios.get(apiUrl('/admin/ma-giam-gia/get-data'))
                 .then(res => { this.list_mgg = res.data.data; this.supportsEligibility = !!res.data.supports_eligibility; }).catch(this.showError);
         },
         async themMGG() {
@@ -208,7 +209,7 @@ export default {
             if (this.editingId) { payload.id = this.editingId; delete payload.ma_code; }
             this.saving = true;
             try {
-                const { data } = await axios.post('http://127.0.0.1:8000/api/admin/ma-giam-gia/' + (this.editingId ? 'update' : 'create'), payload);
+                const { data } = await axios.post(apiUrl('/admin/ma-giam-gia/') + (this.editingId ? 'update' : 'create'), payload);
                 if (data.status) { this.$toast.success(data.message); this.resetForm(); this.loadData(); }
             } catch (error) { this.showError(error); }
             finally { this.saving = false; }
@@ -216,7 +217,7 @@ export default {
         async xoaMGG(item) {
             const confirmed = await this.$confirmDelete(`Bạn có chắc muốn xóa mã giảm giá <b>${item.ma_code}</b>? Thao tác này không thể hoàn tác.`);
             if (confirmed) {
-                axios.post('http://127.0.0.1:8000/api/admin/ma-giam-gia/destroy', { id: item.id })
+                axios.post(apiUrl('/admin/ma-giam-gia/destroy'), { id: item.id })
                     .then(res => {
                         if (res.data.status) {
                             this.$toast.success(res.data.message);
@@ -226,7 +227,7 @@ export default {
             }
         },
         changeStatus(item) {
-            axios.post('http://127.0.0.1:8000/api/admin/ma-giam-gia/change-status', { id: item.id })
+            axios.post(apiUrl('/admin/ma-giam-gia/change-status'), { id: item.id })
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);

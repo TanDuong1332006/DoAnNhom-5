@@ -8,23 +8,21 @@
     <template v-else-if="product">
       <div class="pd2-grid">
         <section class="pd2-gallery" aria-label="Ảnh sản phẩm">
-          <div class="pd2-gallery-layout"><div class="pd2-thumbnails" aria-label="Ảnh thu nhỏ"><button v-for="(image, index) in images" :key="image" :aria-label="'Xem ảnh ' + (index + 1)" :aria-pressed="imageIndex === index" @click="setImage(index)"><img :src="image" :alt="'Ảnh ' + (index + 1)" /></button><div v-if="!images.length" class="pd2-thumbnail-empty"><span>＋</span><small>CHỜ ẢNH</small></div></div><div class="pd2-stage">
-            <span v-if="illustrativeImage" class="pd2-illustration-badge">Ảnh minh họa · không phải mẫu thực tế</span><span class="pd2-gallery-label">SOFEP / PRODUCT GALLERY</span>
+          <div class="pd2-gallery-layout"><div class="pd2-thumbnails" aria-label="Ảnh thu nhỏ"><button v-for="(image, index) in images" :key="image" :aria-label="'Xem ảnh ' + (index + 1)" :aria-pressed="imageIndex === index" @click="setImage(index)"><ProductImage :src="image" :alt="'Ảnh ' + (index + 1)" /></button><div v-if="!images.length" class="pd2-thumbnail-empty"><span>＋</span><small>CHỜ ẢNH</small></div></div><div class="pd2-stage">
+            <span class="pd2-gallery-label">SOFEP / PRODUCT GALLERY</span>
             <button v-if="activeImage && !imageFailed" class="pd2-main-image" aria-label="Phóng to ảnh sản phẩm" @click="openZoom"><img :src="activeImage" :alt="product.ten_san_pham" @error="imageFailed = true" /></button>
             <div v-else class="pd2-no-image"><span class="pd2-placeholder-brand">S<span>✦</span></span><span class="pd2-section-kicker">PRODUCT IMAGE PENDING</span><strong>{{ imageFailed ? 'Ảnh tạm thời không khả dụng' : 'Chờ ảnh đúng sản phẩm' }}</strong><p>{{ product.ma_san_pham }}<br>Placeholder · Không phải ảnh sản phẩm</p></div>
             <button v-if="activeImage && !imageFailed" class="pd2-zoom-button" aria-label="Phóng to" @click="openZoom">↗ <span>Phóng to</span></button>
             <div v-if="images.length > 1" class="pd2-gallery-controls"><button aria-label="Ảnh trước" @click="moveImage(-1)">←</button><span>{{ imageIndex + 1 }} / {{ images.length }}</span><button aria-label="Ảnh tiếp theo" @click="moveImage(1)">→</button></div>
           </div>
           </div>
-          <p v-if="illustrativeImage" class="pd2-image-notice" role="note">Ảnh minh họa kiểu áo, không phải mẫu SOFEP thực tế. Màu, chất liệu và chi tiết có thể khác. Các ảnh không phải các góc chụp của cùng một mẫu.</p>
-          <p class="pd2-gallery-caption">{{ product.ten_san_pham }} <span>{{ images.length ? images.length + (illustrativeImage ? ' ảnh minh họa' : ' ảnh sản phẩm') : '' }}</span></p>
-        <p v-if="unverifiedImages && !images.length" class="pd2-image-notice">ⓘ Ảnh stock trong catalog chưa được xác minh với SKU này nên không được dùng để minh họa sản phẩm.</p></section>
+          <p class="pd2-gallery-caption">{{ product.ten_san_pham }} <span>{{ images.length ? images.length + ' ảnh sản phẩm' : '' }}</span></p>
+        <p v-if="unverifiedImages && !images.length" class="pd2-image-notice">Chưa có ảnh phù hợp để hiển thị.</p></section>
         <section class="pd2-info" aria-label="Thông tin và lựa chọn sản phẩm">
           <div class="pd2-eyebrow">SOFEP <span>{{ product.danh_muc?.ten_danh_muc || 'THE SOFEP EDIT' }}</span></div>
           <h1>{{ product.ten_san_pham }}</h1>
           <p v-if="product.ma_san_pham" class="pd2-sku">SKU <span>{{ product.ma_san_pham }}</span></p>
-          <div class="pd2-social-proof"><span v-if="!rating.count" class="pd2-review-empty">Chưa có đánh giá hợp lệ</span>
-            <button v-if="rating.count" class="pd2-rating" @click="activeTab = 'reviews'; scrollToInformation()"><span class="pd2-star">★</span><strong>{{ rating.average.toFixed(1) }}</strong><span>({{ rating.count }} đánh giá)</span></button>
+          <div class="pd2-social-proof"><router-link class="pd2-review-empty" to="/gop-y">Góp ý riêng cho SOFEP</router-link>
             <span v-if="soldCount !== null" class="pd2-proof-divider"></span><span v-if="soldCount !== null" :title="soldDefinition">Đã bán <strong>{{ soldCount.toLocaleString('vi-VN') }}</strong></span>
           </div>
           <div class="pd2-pricing"><span class="pd2-price-label">GIÁ SẢN PHẨM</span><div><strong>{{ money(pricing.price) }}</strong><span v-if="pricing.saving > 0" class="pd2-original">{{ money(pricing.original) }}</span><span v-if="pricing.percent > 0" class="pd2-discount">−{{ pricing.percent }}%</span></div><p v-if="pricing.saving > 0">Tiết kiệm <strong>{{ money(pricing.saving) }}</strong> cho lựa chọn này</p></div>
@@ -45,18 +43,17 @@
           <template v-if="activeTab === 'description'"><p class="pd2-section-kicker">THE DETAILS</p><h2>Chi tiết tạo nên khác biệt.</h2><p class="pd2-description">{{ product.mo_ta_chi_tiet || product.mo_ta_ngan }}</p></template>
           <template v-if="activeTab === 'specs'"><h2>Thông số sản phẩm</h2><dl v-for="(value, key) in productFacts" :key="key"><dt>{{ key }}</dt><dd>{{ value }}</dd></dl></template>
           <template v-if="activeTab === 'size'"><h2>Thông tin kích thước</h2><p v-if="sizeGuide">{{ sizeGuide }}</p><dl v-for="note in sizeNotes" :key="note.id"><dt>{{ note.name }}</dt><dd>{{ note.description }}</dd></dl></template>
-          <template v-if="activeTab === 'reviews'"><div class="pd2-review-heading"><h2>Trải nghiệm từ khách hàng.</h2><strong>{{ rating.average?.toFixed(1) }}<span> / 5 · {{ rating.count }} đánh giá</span></strong></div><article v-for="review in reviews" :key="review.id" class="pd2-review"><div><strong>{{ review.khach_hang?.ho_va_ten || 'Khách hàng' }}</strong><span class="pd2-star">{{ '★'.repeat(Number(review.so_sao)) }}</span></div><h3 v-if="review.tieu_de">{{ review.tieu_de }}</h3><p>{{ review.noi_dung }}</p></article><p v-if="rating.count > reviews.length" class="pd2-review-limit">Đang hiển thị {{ reviews.length }} đánh giá gần nhất.</p></template>
         </div>
       </section>
       <section v-if="related.length" class="pd2-related" aria-label="Sản phẩm liên quan"><div class="pd2-related-heading"><div><p class="pd2-section-kicker">CONTINUE EXPLORING</p><h2>Cùng bộ sưu tập.</h2></div><router-link to="/tim-kiem">Khám phá tất cả ↗</router-link></div><div class="pd2-related-grid"><router-link v-for="item in related" :key="item.id" :to="'/san-pham/' + (item.slug_san_pham || item.id)" class="pd2-related-card"><div class="pd2-related-image"><ProductImage v-if="productGallery(item).length" :src="productGallery(item)[0]" :alt="item.ten_san_pham" loading="lazy" /><span v-else>S<span>✦</span><small>CHỜ ẢNH ĐÚNG SẢN PHẨM</small></span></div><p>{{ item.danh_muc?.ten_danh_muc || product.danh_muc?.ten_danh_muc }}</p><h3>{{ item.ten_san_pham }}</h3><strong>{{ money(basePrice(item)) }}</strong><span class="pd2-related-link">Xem sản phẩm ↗</span></router-link></div></section>
     </template>
-    <dialog ref="zoomDialog" class="pd2-lightbox" aria-label="Ảnh phóng to" @close="zoomed = false"><button class="pd2-lightbox-close" aria-label="Đóng ảnh phóng to" @click="$refs.zoomDialog.close()">×</button><div class="pd2-lightbox-toolbar"><span v-if="illustrativeImage">Ảnh minh họa · không phải mẫu thực tế</span><span>{{ imageIndex + 1 }} / {{ images.length }}</span><button @click="zoomed = !zoomed">{{ zoomed ? 'Thu nhỏ −' : 'Phóng to +' }}</button></div><div class="pd2-lightbox-stage"><img :src="activeImage" :alt="product?.ten_san_pham" :class="{ enlarged: zoomed }" /></div><div v-if="images.length > 1" class="pd2-lightbox-nav"><button aria-label="Ảnh trước trong phóng to" @click="moveImage(-1)">←</button><button aria-label="Ảnh tiếp theo trong phóng to" @click="moveImage(1)">→</button></div></dialog>
+    <dialog ref="zoomDialog" class="pd2-lightbox" aria-label="Ảnh phóng to" @close="zoomed = false"><button class="pd2-lightbox-close" aria-label="Đóng ảnh phóng to" @click="$refs.zoomDialog.close()">×</button><div class="pd2-lightbox-toolbar"><span>{{ imageIndex + 1 }} / {{ images.length }}</span><button @click="zoomed = !zoomed">{{ zoomed ? 'Thu nhỏ −' : 'Phóng to +' }}</button></div><div class="pd2-lightbox-stage"><img :src="activeImage" :alt="product?.ten_san_pham" :class="{ enlarged: zoomed }" @error="imageFailed = true; $refs.zoomDialog.close()" /></div><div v-if="images.length > 1" class="pd2-lightbox-nav"><button aria-label="Ảnh trước trong phóng to" @click="moveImage(-1)">←</button><button aria-label="Ảnh tiếp theo trong phóng to" @click="moveImage(1)">→</button></div></dialog>
   </main>
 </template>
 
 <script>
+import { apiUrl } from '../../services/apiConfig.js';
 import axios from 'axios';
-import { isIllustrativeImage } from '../../services/productImages.js';
 import ProductImage from '../shared/ProductImage.vue';
 import { cartStore } from '../../stores/cartStore';
 import { galleryOf, basePrice, variantsOf, hasVariants, availableStock, totalAvailableStock } from '../../services/productCatalog.js';
@@ -66,7 +63,6 @@ export default {
   name: 'ChiTietSanPham', components: { ProductImage },
   data() { return { cartStore, products: [], product: null, reviews: [], rating: { count: 0, average: null }, soldCount: null, soldDefinition: '', specifications: null, sizeGuide: null, colorKey: 'none', sizeKey: 'none', quantity: 1, imageIndex: 0, imageFailed: false, zoomed: false, activeTab: 'description', loading: true, error: '', purchaseError: '', requestId: 0 }; },
   computed: {
-    illustrativeImage() { return isIllustrativeImage(this.activeImage); },
     currentId() { return this.$route.params.slug || this.$route.params.id; },
     images() { return productGallery(this.product); },
     unverifiedImages() { return galleryOf(this.product).length > this.images.length; },
@@ -90,7 +86,7 @@ export default {
       ...(this.product?.mo_ta_chi_tiet || this.product?.mo_ta_ngan ? [{ key: 'description', label: 'Mô tả sản phẩm' }] : []),
       ...(Object.keys(this.productFacts).length ? [{ key: 'specs', label: 'Thông số' }] : []),
       ...(this.sizeGuide || this.sizeNotes.length ? [{ key: 'size', label: 'Hướng dẫn size' }] : []),
-      ...(this.rating.count ? [{ key: 'reviews', label: `Đánh giá (${this.rating.count})` }] : [])
+
     ]; }
   },
   watch: { '$route.fullPath'() { if (this.currentId) this.loadProduct(this.currentId); } },
@@ -105,7 +101,7 @@ export default {
       const request = ++this.requestId;
       this.loading = true; this.error = ''; this.product = null; this.products = []; this.purchaseError = ''; this.$refs.zoomDialog?.close();
       try {
-        const response = await axios.get('http://127.0.0.1:8000/api/client/san-pham/' + encodeURIComponent(id) + '?presentation=2');
+        const response = await axios.get(apiUrl('/client/san-pham/') + encodeURIComponent(id) + '?presentation=2');
         if (request !== this.requestId) return;
         if (!response.data.status || !response.data.data?.san_pham) throw new Error('Invalid product');
         const data = response.data.data;
@@ -184,5 +180,4 @@ export default {
 .pd2 button:focus-visible,.pd2 input:focus-visible,.pd2 a:focus-visible{outline:2px solid #a68043;outline-offset:4px}.pd2-quantity button:focus-visible,.pd2-quantity input:focus-visible{outline-offset:-4px}.pd2-swatches button{border-radius:50%}.pd2-swatches button:hover:enabled{border-color:var(--gold)}
 @media(max-width:700px){.pd2-topline{padding:18px 0 22px}.pd2-option-group{margin:25px 0}.pd2-tabs{gap:4px}.pd2-tabs button{padding:12px 13px}.pd2-purchase-row{gap:12px}.pd2-stage{border-radius:14px}}
 @media(prefers-reduced-motion:reduce){.pd2 button,.pd2-related-card{transition:none}}
-.pd2-illustration-badge{position:absolute;top:42px;left:16px;right:16px;max-width:max-content;padding:7px 10px;border-radius:8px;background:#fffaf1ee;color:#765c34;font-size:11px;line-height:1.5;z-index:2;pointer-events:none}
 </style>

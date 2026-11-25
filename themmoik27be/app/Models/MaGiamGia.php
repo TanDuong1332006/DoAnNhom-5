@@ -13,6 +13,17 @@ class MaGiamGia extends Model
 
     public function assertCustomer(?KhachHang $customer): void
     {
+        if ($this->campaign_restricted) {
+            if (!$customer) throw \Illuminate\Validation\ValidationException::withMessages(['ma_giam_gia_su_dung'=>'Vui lòng đăng nhập để dùng mã được cấp riêng.']);
+            $grants = \Illuminate\Support\Facades\DB::table('voucher_grants')->where('voucher_id',$this->id)->where('customer_id',$customer->id)->get();
+            $allowed = $grants->contains(fn ($grant) => !$grant->recheck || app(\App\Services\LoyaltyAudience::class)->matches($customer->id,json_decode($grant->filters ?: '{}',true)));
+            if (!$allowed) throw \Illuminate\Validation\ValidationException::withMessages(['ma_giam_gia_su_dung'=>'Bạn không thuộc nhóm được cấp mã hoặc chưa đủ điều kiện sử dụng.']);
+        }
+        $this->assertBaseCustomer($customer);
+    }
+
+    public function assertBaseCustomer(?KhachHang $customer): void
+    {
         $audience = $this->doi_tuong ?: 'all';
         $limit = $this->gioi_han_moi_khach;
         $message = null;
@@ -28,8 +39,8 @@ class MaGiamGia extends Model
     {
         $message = match (true) {
             (int) $this->trang_thai !== 1 => 'Mã giảm giá đang tạm khóa.',
-            $this->ngay_bat_dau && now()->toDateString() < $this->ngay_bat_dau => 'Mã giảm giá chưa đến ngày sử dụng.',
-            $this->ngay_ket_thuc && now()->toDateString() > $this->ngay_ket_thuc => 'Mã giảm giá đã hết hạn.',
+            $this->ngay_bat_dau && now('Asia/Ho_Chi_Minh')->toDateString() < $this->ngay_bat_dau => 'Mã giảm giá chưa đến ngày sử dụng.',
+            $this->ngay_ket_thuc && now('Asia/Ho_Chi_Minh')->toDateString() > $this->ngay_ket_thuc => 'Mã giảm giá đã hết hạn.',
             $this->so_luong_da_dung >= $this->so_luong => 'Mã giảm giá đã hết lượt.',
             $subtotal < $this->gia_tri_toi_thieu => 'Đơn hàng chưa đạt giá trị tối thiểu.',
             !in_array($this->loai_giam, ['phan_tram', 'co_dinh'], true) || $this->gia_tri < 0 || ($this->loai_giam === 'phan_tram' && $this->gia_tri > 100) => 'Cấu hình mã giảm giá không hợp lệ.',
@@ -55,6 +66,6 @@ class MaGiamGia extends Model
         'ngay_bat_dau',
         'ngay_ket_thuc',
         'trang_thai',
-        'doi_tuong', 'gioi_han_moi_khach', 'ids_khach_hang',
+        'doi_tuong', 'gioi_han_moi_khach', 'ids_khach_hang', 'campaign_restricted', 'mo_ta',
     ];
 }

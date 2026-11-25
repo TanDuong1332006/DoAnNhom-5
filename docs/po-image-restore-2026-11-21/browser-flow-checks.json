@@ -1,0 +1,9 @@
+{
+  "customer_login_form": true,
+  "admin_login_form": true,
+  "existing_cart_opened": true,
+  "checkout_guest_requires_login": true,
+  "login_submitted": false,
+  "order_submitted": false,
+  "main_upload_performed": false
+}

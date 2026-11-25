@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-18",
+  "jira": "N5-147",
+  "jira_status_observed": "In Progress",
+  "app_source_modified_this_followup": false,
+  "prior_patch_hashes_unchanged": true,
+  "browser": {
+    "desktop_viewport": [
+      1440,
+      900
+    ],
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "physical_mobile": false,
+    "registration_desktop": "passed",
+    "registration_mobile": "passed",
+    "registration_otp_wrong": "passed_UI_422",
+    "registration_otp_correct": "passed_UI_200",
+    "registration_otp_expired": "passed_UI_422_UAT_fixture_expiry_modified",
+    "registration_otp_used": "passed_API_422",
+    "mobile_login_attempts": {
+      "unauthorized_requests": 10,
+      "rate_limited_requests": 1,
+      "browser_submissions": 11
+    },
+    "forgot_password_mail": "passed_simulated_mime",
+    "reset_wrong_code": "passed_UI_400",
+    "reset_correct_code": "passed_UI_200_opens_password_form",
+    "reset_submit_via_browser": "Pending Manual UI Reset Submit",
+    "reset_submit_via_api": "passed",
+    "old_browser_session": "rejected_and_customer_login_required",
+    "new_password_browser_login": "passed_mobile",
+    "guest_checkout_UI": "blocked_login_prompt",
+    "customer_admin_UI": "redirected_to_login",
+    "admin_orders": "passed_desktop_mobile",
+    "checkout_simulation_desktop": "passed_failed_then_success",
+    "checkout_COD_mobile": "passed_unpaid",
+    "console_check": "No captured warn/error at sampled Admin mobile moment; not all-page certification"
+  },
+  "email": {
+    "transport": "array with MIME capture",
+    "count": 3,
+    "allowlist": "@sofep.example.test only",
+    "external_email_sent": false,
+    "real_email_uat": "Pending Real Email UAT"
+  },
+  "cache": {
+    "main_inspection": "PDO read-only SELECT; no Laravel Cache reads on main",
+    "tracked_rows": 24,
+    "active_rows_at_snapshot": 8,
+    "active_counters_at_snapshot": 4,
+    "old_main_rows_unchanged_during_followup": true,
+    "new_uat_prefix_rows_on_main": 0,
+    "uat_default_cache_witness": true,
+    "uat_limiter_witness": true,
+    "uat_connections": [
+      "security_browser"
+    ],
+    "main_cache_flush_delete_reset": false
+  },
+  "orders": [
+    {
+      "id": 1,
+      "phuong_thuc_thanh_toan": "MB_BANK",
+      "trang_thai_thanh_toan": "da_thanh_toan",
+      "tong_thanh_toan": "280000.00"
+    },
+    {
+      "id": 2,
+      "phuong_thuc_thanh_toan": "COD",
+      "trang_thai_thanh_toan": "chua_thanh_toan",
+      "tong_thanh_toan": "280000.00"
+    }
+  ],
+  "stock": 18,
+  "api_regression": {
+    "cases": 9,
+    "passed": true
+  },
+  "php_lint": [
+    {
+      "path": "themmoik27be/tests/Support/SecurityCacheInspection.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in themmoik27be\\tests\\Support\\SecurityCacheInspection.php"
+    },
+    {
+      "path": "themmoik27be/tests/Support/SecurityBrowserBoot.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in themmoik27be\\tests\\Support\\SecurityBrowserBoot.php"
+    },
+    {
+      "path": "themmoik27be/tests/Support/SecurityBrowserUat.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in themmoik27be\\tests\\Support\\SecurityBrowserUat.php"
+    },
+    {
+      "path": "themmoik27be/tests/Support/SecurityBrowserControl.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in themmoik27be\\tests\\Support\\SecurityBrowserControl.php"
+    },
+    {
+      "path": "themmoik27be/tests/Support/SecurityBrowserEvidence.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in themmoik27be\\tests\\Support\\SecurityBrowserEvidence.php"
+    }
+  ],
+  "tests_build_repeated": false,
+  "reason": "No application changes; this followup focuses on browser, simulated mail, cache isolation and HTTP/API regression. Previous automated results retained as historical.",
+  "screenshots": [
+    {
+      "path": "docs/N5-147/browser-evidence/desktop-admin-orders.jpg",
+      "sha256": "3cf19df3173ea20a47a2b084df29c2c05d02176ac081a511b6baa3fe8d744fd2"
+    },
+    {
+      "path": "docs/N5-147/browser-evidence/desktop-checkout-paid.jpg",
+      "sha256": "cd3af04dbbedceb682db2fb797588556dc6ab57513fc3baa4fd3a5a52aa27b27"
+    },
+    {
+      "path": "docs/N5-147/browser-evidence/desktop-guest-checkout.jpg",
+      "sha256": "3061171c42d11e1d1f93e57284a9c9dbe5979ab52b96adbf73c91db0685caaaa"
+    },
+    {
+      "path": "docs/N5-147/browser-evidence/desktop-otp-wrong.jpg",
+      "sha256": "9445403d5b9252609ebd32421a81ed751b2de57acb7aba955d9b584ee6e69cf3"
+    },
+    {
+      "path": "docs/N5-147/browser-evidence/mobile-admin-orders.jpg",
+      "sha256": "e63d4c89bcc239dce60c7a7d10ac3e2db44e83572ffee9382d2f42feaa3a76a1"
+    },
+    {
+      "path": "docs/N5-147/browser-evidence/mobile-checkout-cod.jpg",
+      "sha256": "84f168bc1bb00af16d7e1b193088d84f849626eed8012409d000130339ad29b9"
+    },
+    {
+      "path": "docs/N5-147/browser-evidence/mobile-checkout-form.jpg",
+      "sha256": "cfb13b896f9987b835ef58411594dea55811deff1209d98b3db29aefc66ab3f5"
+    },
+    {
+      "path": "docs/N5-147/browser-evidence/mobile-login-429.jpg",
+      "sha256": "6f96a141c2062af801d2e5b30debf567530d3cc21cf05e10ca58367593035fbe"
+    },
+    {
+      "path": "docs/N5-147/browser-evidence/mobile-old-session-rejected.jpg",
+      "sha256": "8b026a12935bc5c82382751289ce01f33b3dd8e95c904c5c1b8e41bf599acad2"
+    },
+    {
+      "path": "docs/N5-147/browser-evidence/mobile-otp-expired.jpg",
+      "sha256": "ba3080ff216665416b8cf31650c71727692887dcadd8c7db8b1892558ee3f5ea"
+    },
+    {
+      "path": "docs/N5-147/browser-evidence/mobile-reset-verified.jpg",
+      "sha256": "ba86c2a132996e5f969969785b416a075cb11e4bc7212cefdce0f474f3c6245a"
+    }
+  ],
+  "ready_for_done": false,
+  "remaining": [
+    "Manual UI Reset Submit",
+    "PM scope acceptance of simulated email vs later Real Email UAT",
+    "PM disposition of registration resend proposal"
+  ],
+  "main_database_writes_this_followup": false,
+  "git_commit_push_deploy": false,
+  "jira_mutations": false,
+  "uat_servers": [
+    "127.0.0.1:5187",
+    "127.0.0.1:8027"
+  ]
+}

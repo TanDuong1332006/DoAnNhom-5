@@ -1,0 +1,15 @@
+{
+  "id": 114,
+  "sku": "SFP-GIAY-06",
+  "name": "Giày Da Nam Oxford Buộc Dây Công Sở Da Bóng Cao Cấp",
+  "prompt": "Use case: product-mockup. ONE unique ecommerce product illustration for a Vietnamese SOFEP local demo. Subject: Giày Da Nam Oxford Buộc Dây Công Sở Da Bóng Cao Cấp. Match exact clothing or accessory type, silhouette, neckline, sleeve length, cut, pattern and special construction in this Vietnamese title. Choose black, white or deep navy, obey explicit color named in title. SINGLE product only, ENTIRE item visible with margins, centered square composition, premium realistic studio render isolated on clean warm light gray background. Clothing on invisible mannequin or flat lay. Shoes: one shoe three-quarter side view. Accessories: single object close studio product view. NO people, NO additional objects or styling accessories, NO text, NO scenery, NO watermark, NO external brand marks. Original AI demo illustration, not a photo of a real SKU.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; no third-party stock license; not real SKU photography",
+  "file": "assets/114.jpg",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-170d11fb-23b8-4ee7-aa49-d3f8eda383f8.png",
+  "created_at": "2026-10-31T09:46:15.338Z",
+  "review": "approved",
+  "sha256": "ce75319aa5fa46a501dd4fe80300495d9c9b0167ce6efe8b218f7281446b1f4d",
+  "bytes": 150058
+}

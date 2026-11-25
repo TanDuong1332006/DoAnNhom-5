@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-11-03T08:24:54.625Z",
+  "fixture_products": 6,
+  "before_admin_search_full_catalog": {
+    "samples_ms": [
+      1225.04,
+      1025.29,
+      1133.38,
+      1226.91,
+      948.41,
+      566.57,
+      610.48
+    ],
+    "median_ms": 1025.29,
+    "bytes": 7014
+  },
+  "after_admin_search_options": {
+    "samples_ms": [
+      937.04,
+      867.18,
+      859.84,
+      973.97,
+      2357.83,
+      1329.51,
+      1560.66
+    ],
+    "median_ms": 973.97,
+    "bytes": 423
+  },
+  "public_catalog": {
+    "samples_ms": [
+      1077.32,
+      1032.64,
+      1308.22,
+      1332.88,
+      1083.06,
+      1985.08,
+      1863.66
+    ],
+    "median_ms": 1308.22,
+    "bytes": 6876
+  },
+  "limitation": "Local UAT, 7 warm samples after 1 warmup; does not measure production load or browser page speed."
+}

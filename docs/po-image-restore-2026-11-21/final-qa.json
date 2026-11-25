@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "website": "http://localhost:5173",
+  "backend": "http://127.0.0.1:8000",
+  "unique_illustration_product_ids": 167,
+  "id172_placeholder": true,
+  "all_home_dom_photos_loaded": true,
+  "home_dom_photos": 173,
+  "sample_ids": [
+    1,
+    3,
+    4,
+    7,
+    8
+  ],
+  "mysql_api_storage_browser_match": true
+}

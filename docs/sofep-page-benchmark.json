@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-11-03T08:57:31.985Z",
+  "method": "Same browser tab and identical UAT data. Before: eager Admin/Blank and immediate mount. After: async layouts and router.isReady before mount. One warmup then 3 reloads per build, no-store static server. Browser Navigation/Resource Timing emitted only by test builds.",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "before": [
+    {
+      "dom_content_loaded_ms": 392.39999997615814,
+      "load_event_ms": 569.3999999761581,
+      "js_encoded_bytes": 626084,
+      "js_requests": 4,
+      "catalog_response_end_ms": 2882
+    },
+    {
+      "dom_content_loaded_ms": 537.4000000059605,
+      "load_event_ms": 637.2000000178814,
+      "js_encoded_bytes": 626084,
+      "js_requests": 4,
+      "catalog_response_end_ms": 2906.300000011921
+    },
+    {
+      "dom_content_loaded_ms": 429.2999999821186,
+      "load_event_ms": 645.6999999880791,
+      "js_encoded_bytes": 626084,
+      "js_requests": 4,
+      "catalog_response_end_ms": 2345.899999976158
+    }
+  ],
+  "after": [
+    {
+      "dom_content_loaded_ms": 270.89999997615814,
+      "load_event_ms": 330.89999997615814,
+      "js_encoded_bytes": 439783,
+      "js_requests": 4,
+      "catalog_response_end_ms": 2322.2999999821186
+    },
+    {
+      "dom_content_loaded_ms": 349.7000000178814,
+      "load_event_ms": 362.5,
+      "js_encoded_bytes": 439783,
+      "js_requests": 4,
+      "catalog_response_end_ms": 2477.800000011921
+    },
+    {
+      "dom_content_loaded_ms": 366,
+      "load_event_ms": 371.80000001192093,
+      "js_encoded_bytes": 439783,
+      "js_requests": 4,
+      "catalog_response_end_ms": 2516.2000000178814
+    }
+  ],
+  "limitation": "Local UAT, 6 products, no throttling. External media and machine load vary. Not a production load test or Core Web Vitals measurement."
+}

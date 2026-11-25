@@ -1,0 +1,47 @@
+Browser tab: 4, Title: "SOFEP STUDIO - Thời Trang Sang Xịn Mịn & Đương Đại 2026", URL: "http://127.0.0.1:5198/admin/khach-hang".
+1 AXWebArea SOFEP STUDIO - Thời Trang Sang Xịn Mịn & Đương Đại 2026, URL: 127.0.0.1:5198/admin/khach-hang
+	2 container
+		3 container
+			4 image
+			5 text SOFEP ✦ ADMIN PORTAL
+			6 combo box (collapsed, settable) Description: Tìm kiếm Admin, Secondary Actions: Expand
+			7 button user avatar SOFEP Demo Admin Quản Trị Viên
+				8 image user avatar
+				9 text SOFEP Demo Admin
+				10 text Quản Trị Viên
+		11 content list
+			12 link Description:  Dashboard, Value: 127.0.0.1:5198/admin
+			13 link (collapsed) Description:  Quản Lý Sản Phẩm, Value: javascript:;, Secondary Actions: Expand
+			14 link Description:  Đơn Hàng & Ưu Đãi, Value: javascript:;
+			15 link Description:  Khách Hàng & Phản Hồi, Value: javascript:;
+			16 link Description:  Báo Cáo & Thống Kê, Value: javascript:;
+		17 heading  QUẢN LÝ KHÁCH HÀNG (0), Value: 5
+			18 text 
+			19 text  QUẢN LÝ KHÁCH HÀNG (0)
+		20 container
+			21 text 
+			22 text field (settable)
+		23 table
+			24 row
+				25 cell
+					26 text STT
+				27 cell
+					28 text Họ Và Tên
+				29 cell
+					30 text Email
+				31 cell
+					32 text Số Điện Thoại
+				33 cell
+					34 text Địa Chỉ
+				35 cell
+					36 text Số Đơn Hàng
+				37 cell
+					38 text Trạng Thái Kích Hoạt
+				39 cell
+					40 text Khóa Tài Khoản
+			41 row
+				42 cell
+					43 text Không tìm thấy khách hàng nào.
+		44 text © 2026 SOFEP STUDIO. Bản quyền thuộc về thương hiệu thời trang cao cấp.
+
+The focused UI element is 1 AXWebArea SOFEP STUDIO - Thời Trang Sang Xịn Mịn & Đương Đại 2026, URL: 127.0.0.1:5198/admin/khach-hang

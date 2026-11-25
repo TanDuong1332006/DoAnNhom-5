@@ -1,0 +1,39 @@
+{
+    "id": 21,
+    "id_cua_hang": null,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": 6,
+    "ma_san_pham": "SFP-AONAM-13",
+    "ten_san_pham": "Áo Polo Nam Bo Cổ Dệt Họa Tiết Houndstooth",
+    "slug_san_pham": "ao-polo-nam-bo-co-det-hoa-tiet-houndstooth-xx3u",
+    "gia_ban": "530000.00",
+    "gia_khuyen_mai": "460000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=700",
+    "mo_ta_ngan": "Điểm nhấn nẹp cổ họa tiết nanh sói tinh tế, logo SOFEP thêu tỉ mỉ ngực trái.",
+    "mo_ta_chi_tiet": "Điểm nhấn nẹp cổ họa tiết nanh sói tinh tế, logo SOFEP thêu tỉ mỉ ngực trái. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 150,
+    "is_noi_bat": 1,
+    "is_flash_sale": 1,
+    "luot_xem": 1488,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:51.000000Z",
+    "updated_at": "2026-09-27T09:05:51.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 33,
+            "id_san_pham": 21,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        },
+        {
+            "id": 34,
+            "id_san_pham": 21,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        }
+    ]
+}

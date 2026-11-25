@@ -124,6 +124,7 @@
 </template>
 
 <script>
+import { apiUrl } from '../../../services/apiConfig.js';
 import axios from 'axios';
 
 export default {
@@ -164,15 +165,15 @@ export default {
         resetForm() { this.create_BienThe = { id_san_pham: '', id_mau_sac: '', id_kich_thuoc: '', so_luong_ton: 0, gia_chenh_lech: 0, trang_thai: 1 }; },
         showError(error) { this.$toast.error(Object.values(error.response?.data?.errors || {}).flat()[0] || error.response?.data?.message || 'Không thể thực hiện thao tác.'); },
         loadData() {
-            axios.get('http://127.0.0.1:8000/api/admin/chi-tiet-san-pham/get-data')
+            axios.get(apiUrl('/admin/chi-tiet-san-pham/get-data'))
                 .then(res => { this.list_bien_the = res.data.data; }).catch(this.showError);
         },
         loadOptions() {
-            axios.get('http://127.0.0.1:8000/api/admin/san-pham/get-data')
+            axios.get(apiUrl('/admin/san-pham/get-data'))
                 .then(res => { this.list_san_pham = res.data.data; }).catch(this.showError);
-            axios.get('http://127.0.0.1:8000/api/admin/mau-sac/get-data')
+            axios.get(apiUrl('/admin/mau-sac/get-data'))
                 .then(res => { this.list_mau_sac = res.data.data; }).catch(this.showError);
-            axios.get('http://127.0.0.1:8000/api/admin/kich-thuoc/get-data')
+            axios.get(apiUrl('/admin/kich-thuoc/get-data'))
                 .then(res => { this.list_kich_thuoc = res.data.data; }).catch(this.showError);
         },
         themBienThe() {
@@ -180,7 +181,7 @@ export default {
                 this.$toast.error('Vui lòng chọn sản phẩm và nhập số lượng tồn kho');
                 return;
             }
-            axios.post('http://127.0.0.1:8000/api/admin/chi-tiet-san-pham/' + (this.create_BienThe.id ? 'update' : 'create'), this.create_BienThe)
+            axios.post(apiUrl('/admin/chi-tiet-san-pham/') + (this.create_BienThe.id ? 'update' : 'create'), this.create_BienThe)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -192,7 +193,7 @@ export default {
         async xoaBienThe(item) {
             const confirmed = await this.$confirmDelete(`Bạn có chắc chắn muốn xóa biến thể <b>${item.ten_mau || ''} - ${item.ten_kich_thuoc || ''}</b> này không?`);
             if (confirmed) {
-                axios.post('http://127.0.0.1:8000/api/admin/chi-tiet-san-pham/destroy', { id: item.id })
+                axios.post(apiUrl('/admin/chi-tiet-san-pham/destroy'), { id: item.id })
                     .then(res => {
                         if (res.data.status) {
                             this.$toast.success(res.data.message);

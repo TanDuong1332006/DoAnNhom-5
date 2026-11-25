@@ -24,6 +24,8 @@ export function matchesSearch(value, query) {
 }
 
 const sections = [
+  ['Góp ý riêng', 'gop y feedback phan hoi ho tro', '/admin/gop-y'],
+  ['Thông báo và chiến dịch', 'thong bao chien dich notification campaign tri an', '/admin/thong-bao'],
   ['Sản phẩm', 'san pham product sku hang hoa', '/admin/san-pham'],
   ['Đơn hàng', 'don hang order hoa don', '/admin/don-hang'],
   ['Khách hàng', 'khach hang customer tai khoan', '/admin/khach-hang'],

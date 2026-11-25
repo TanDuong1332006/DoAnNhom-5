@@ -2,7 +2,7 @@
   <div class="card h-100 border-0 shadow-sm product-card">
     <div class="position-relative">
       <router-link :to="'/product/' + product.id">
-        <img :src="product.image" class="card-img-top" :alt="product.name" style="height: 220px; object-fit: cover;">
+        <ProductImage :src="product.image" class="card-img-top" :alt="product.name" style="height: 220px; object-fit: cover;" />
       </router-link>
       <span v-if="product.sale_price" class="badge bg-danger position-absolute top-0 end-0 m-2">
         -{{ discountPercent }}%
@@ -28,7 +28,9 @@
 </template>
 
 <script>
+import ProductImage from './shared/ProductImage.vue';
 export default {
+  components: { ProductImage },
   name: 'ProductCard',
   props: { product: { type: Object, required: true } },
   emits: ['add-to-cart'],

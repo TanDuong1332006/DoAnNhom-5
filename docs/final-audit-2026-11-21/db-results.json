@@ -1,0 +1,19 @@
+{
+    "passed": true,
+    "database": "sofep_demo_20261121_1862a96c23ee",
+    "storage_root": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-submission-install-v2-e6414f61ef524a88ad1e65d0190c5cd2/themmoik27be/storage/app/public",
+    "image_files_original_167_unchanged": true,
+    "counts_after_tests": {
+        "danh_mucs": 8,
+        "san_phams": 168,
+        "anh_san_phams": 168,
+        "chi_tiet_san_phams": 501,
+        "khach_hangs": 3,
+        "users": 1,
+        "don_hangs": 7,
+        "chi_tiet_don_hangs": 7
+    },
+    "foreign_key_relationships": 20,
+    "fk_orphans": 0,
+    "orders_are_synthetic_UAT_only": true
+}

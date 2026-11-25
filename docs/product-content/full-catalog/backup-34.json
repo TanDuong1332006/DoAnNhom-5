@@ -1,0 +1,39 @@
+{
+    "id": 34,
+    "id_cua_hang": null,
+    "id_danh_muc": 2,
+    "id_thuong_hieu": 2,
+    "ma_san_pham": "SFP-QUANNAM-06",
+    "ten_san_pham": "Quần Jean Nam Rách Gối Xước Nhẹ Phong Cách Streetwear",
+    "slug_san_pham": "quan-jean-nam-rach-goi-xuoc-nhe-phong-cach-streetwear-equ2",
+    "gia_ban": "640000.00",
+    "gia_khuyen_mai": "550000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+    "mo_ta_ngan": "Vết mài xước thủ công nghệ thuật, phối cùng sneaker tạo vẻ ngoài bụi bặm cá tính.",
+    "mo_ta_chi_tiet": "Vết mài xước thủ công nghệ thuật, phối cùng sneaker tạo vẻ ngoài bụi bặm cá tính. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 101,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 1091,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:52.000000Z",
+    "updated_at": "2026-09-27T09:05:52.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 59,
+            "id_san_pham": 34,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 60,
+            "id_san_pham": 34,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        }
+    ]
+}

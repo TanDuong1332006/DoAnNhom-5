@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-11-03T09:20:38.465Z",
+  "database": "sofep_uat_20261103_0552eb8e0b6d",
+  "products": 167,
+  "valid_primary_images": 167,
+  "distinct_primary_hashes": 167,
+  "product_id": 168,
+  "product_name": "Ô Dù Cầm Tay Mini Gấp Gọn Chống Tia Cực Tím UV99% Lớp Đen",
+  "variant_id": 494,
+  "order_id": 1,
+  "subtotal": 220000,
+  "discount": 22000,
+  "total": 228000,
+  "checkout_simulation_admin_completion": true,
+  "paid_cancellation_rejected": true,
+  "stock_decremented_once": true,
+  "revenue_matches_completed_paid_order": true,
+  "passed": true
+}

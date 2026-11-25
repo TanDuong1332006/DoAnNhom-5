@@ -1,0 +1,3 @@
+
+
+{"database":"sofep_image_restore_20261120_fda6e65a359c","runtime":"C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-image-restored-8b25c37b6213","restored_images":167}

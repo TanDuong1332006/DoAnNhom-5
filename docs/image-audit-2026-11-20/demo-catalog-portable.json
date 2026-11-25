@@ -1,0 +1,3684 @@
+{
+  "purpose": "portable image demo; placeholder until PO approval",
+  "products": [
+    {
+      "id": 1,
+      "ten_san_pham": "Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp",
+      "ma_san_pham": "SP-AONAM-01",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 2,
+      "ten_san_pham": "Áo Sơ Mi Nam Tay Dài Oxford Form Regular",
+      "ma_san_pham": "SP-AONAM-02",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 3,
+      "ten_san_pham": "Quần Jean Nam Slimfit Denim Co Giãn Nhẹ",
+      "ma_san_pham": "SP-QUANNAM-01",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 4,
+      "ten_san_pham": "Đầm Xòe Nữ Cổ Vuông Thanh Lịch Dự Tiệc",
+      "ma_san_pham": "SP-VAYDAM-01",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 5,
+      "ten_san_pham": "Áo Len Dệt Kim Cổ Tim Phong Cách Hàn Quốc",
+      "ma_san_pham": "SP-AONU-01",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 6,
+      "ten_san_pham": "Áo Khoác Blazer Nam 2 Lớp Form Rộng Hiện Đại",
+      "ma_san_pham": "SP-AOKHOAC-01",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 7,
+      "ten_san_pham": "Giày Sneaker Nam Nữ Thể Thao Air Cushion",
+      "ma_san_pham": "SP-GIAY-01",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 8,
+      "ten_san_pham": "Túi Xách Da Nữ Đeo Chéo Khóa Mạ Vàng",
+      "ma_san_pham": "SP-TUIXACH-01",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 9,
+      "ten_san_pham": "Áo Thun Nam Boxy Heavyweight Cotton Supima SOFEP",
+      "ma_san_pham": "SFP-AONAM-01",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 10,
+      "ten_san_pham": "Áo Sơ Mi Nam Oxford Cổ Button-Down Relaxed Fit",
+      "ma_san_pham": "SFP-AONAM-02",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 11,
+      "ten_san_pham": "Áo Polo Nam Dệt Kim Mercerized Cotton Ánh Kim",
+      "ma_san_pham": "SFP-AONAM-03",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 12,
+      "ten_san_pham": "Áo Thun Nam Graphic Oversized SOFEP Studio 2026",
+      "ma_san_pham": "SFP-AONAM-04",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 13,
+      "ten_san_pham": "Áo Sơ Mi Nam Cuban Collar Hoạ Tiết Minimalist",
+      "ma_san_pham": "SFP-AONAM-05",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 14,
+      "ten_san_pham": "Áo Thun Nam Tay Dài Waffle Knit Tổ Ong Thu Đông",
+      "ma_san_pham": "SFP-AONAM-06",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 15,
+      "ten_san_pham": "Áo Polo Nam Zip Collar Khóa Kéo Kim Loại Sang Trọng",
+      "ma_san_pham": "SFP-AONAM-07",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 16,
+      "ten_san_pham": "Áo Sơ Mi Nam Vải Đũi Linen Thoáng Mát Tự Nhiên",
+      "ma_san_pham": "SFP-AONAM-08",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 17,
+      "ten_san_pham": "Áo Thun Nam Cổ Tròn Clean Fit Trơn Màu Đen Obsidian",
+      "ma_san_pham": "SFP-AONAM-09",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 18,
+      "ten_san_pham": "Áo Ba Lỗ Nam Tanktop Ribbed Co Giãn Tôn Thể Hình",
+      "ma_san_pham": "SFP-AONAM-10",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 19,
+      "ten_san_pham": "Áo Sơ Mi Nam Denim Chambray Cổ Bẻ Nam Tính",
+      "ma_san_pham": "SFP-AONAM-11",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 20,
+      "ten_san_pham": "Áo Thun Nam Raglan Tay Phối Màu Phong Cách Retro",
+      "ma_san_pham": "SFP-AONAM-12",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 21,
+      "ten_san_pham": "Áo Polo Nam Bo Cổ Dệt Họa Tiết Houndstooth",
+      "ma_san_pham": "SFP-AONAM-13",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 22,
+      "ten_san_pham": "Áo Sơ Mi Nam Flannel Kẻ Caro Phong Cách Grunge",
+      "ma_san_pham": "SFP-AONAM-14",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 23,
+      "ten_san_pham": "Áo Thun Nam Drop-Shoulder Acid Wash Vintage Streetwear",
+      "ma_san_pham": "SFP-AONAM-15",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 24,
+      "ten_san_pham": "Áo Sơ Mi Nam Lụa Satin Trơn Dự Tiệc Sang Trọng",
+      "ma_san_pham": "SFP-AONAM-16",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 25,
+      "ten_san_pham": "Áo Thun Nam Form Rộng Thêu Chữ Nổi SOFEP Haute Atelier",
+      "ma_san_pham": "SFP-AONAM-17",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 26,
+      "ten_san_pham": "Áo Sơ Mi Nam Cổ Trụ Mandarin Tối Giản Đương Đại",
+      "ma_san_pham": "SFP-AONAM-18",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 27,
+      "ten_san_pham": "Áo Thun Nam Cổ Tim V-Neck Co Giãn Sợi Modal Thoáng Khí",
+      "ma_san_pham": "SFP-AONAM-19",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 28,
+      "ten_san_pham": "Áo Polo Nam Pique Cotton Kháng Khuẩn Khử Mùi Active",
+      "ma_san_pham": "SFP-AONAM-20",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 29,
+      "ten_san_pham": "Quần Jean Nam Ống Suông Wide-Leg Vintage Wash SOFEP",
+      "ma_san_pham": "SFP-QUANNAM-01",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 30,
+      "ten_san_pham": "Quần Kaki Nam Chino Dáng Tapered Fit Co Giãn Nhẹ",
+      "ma_san_pham": "SFP-QUANNAM-02",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 31,
+      "ten_san_pham": "Quần Tây Nam Xếp Ly Phong Cách Sartorial Hàn Quốc",
+      "ma_san_pham": "SFP-QUANNAM-03",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 32,
+      "ten_san_pham": "Quần Parachute Nam Utility Cargo Túi Hộp Dây Rút",
+      "ma_san_pham": "SFP-QUANNAM-04",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 33,
+      "ten_san_pham": "Quần Short Nam Kaki Túi Chéo Năng Động Dạo Phố",
+      "ma_san_pham": "SFP-QUANNAM-05",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 34,
+      "ten_san_pham": "Quần Jean Nam Rách Gối Xước Nhẹ Phong Cách Streetwear",
+      "ma_san_pham": "SFP-QUANNAM-06",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 35,
+      "ten_san_pham": "Quần Jogger Nam Vải Dù 2 Lớp Kháng Gió Đô Thị",
+      "ma_san_pham": "SFP-QUANNAM-07",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 36,
+      "ten_san_pham": "Quần Tây Nam Cạp Gurkha Khóa Kim Loại Sang Trọng",
+      "ma_san_pham": "SFP-QUANNAM-08",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 37,
+      "ten_san_pham": "Quần Short Nam Thể Thao 2 Lớp Chạy Bộ Kháng Nước",
+      "ma_san_pham": "SFP-QUANNAM-09",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 38,
+      "ten_san_pham": "Quần Jean Nam Slimfit Màu Xanh Chàm Indigo Tối Giản",
+      "ma_san_pham": "SFP-QUANNAM-10",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 39,
+      "ten_san_pham": "Quần Kaki Nam Ống Đứng Regular Fit Chuẩn Công Sở",
+      "ma_san_pham": "SFP-QUANNAM-11",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 40,
+      "ten_san_pham": "Quần Túi Hộp Nam Cargo Pants Vải Ripstop Quân Đội",
+      "ma_san_pham": "SFP-QUANNAM-12",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 41,
+      "ten_san_pham": "Quần Jean Nam Màu Đen Obsidian Wash Nhẹ Chống Bụi",
+      "ma_san_pham": "SFP-QUANNAM-13",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 42,
+      "ten_san_pham": "Quần Tây Nam Co Giãn 4 Chiều Công Sở Không Nhăn",
+      "ma_san_pham": "SFP-QUANNAM-14",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 43,
+      "ten_san_pham": "Quần Short Nam Vải Đũi Linen Đi Biển & Du Lịch",
+      "ma_san_pham": "SFP-QUANNAM-15",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 44,
+      "ten_san_pham": "Quần Nỉ Nam Sweatpants Bo Gấu Dày Dặn 380GSM",
+      "ma_san_pham": "SFP-QUANNAM-16",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 45,
+      "ten_san_pham": "Quần Jean Nam Ống Loe Bootcut Phong Cách Retro Y2K",
+      "ma_san_pham": "SFP-QUANNAM-17",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 46,
+      "ten_san_pham": "Quần Kaki Nam Xếp Ly Baggy Dáng Rộng Tự Do",
+      "ma_san_pham": "SFP-QUANNAM-18",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 47,
+      "ten_san_pham": "Quần Short Nam Jean Denim Cắt Gấu Tua Rua Bụi Bặm",
+      "ma_san_pham": "SFP-QUANNAM-19",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 48,
+      "ten_san_pham": "Quần Tây Nam Họa Tiết Kẻ Sọc Pinstripe Cổ Điển",
+      "ma_san_pham": "SFP-QUANNAM-20",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 49,
+      "ten_san_pham": "Đầm Lụa Satin Hai Dây Dáng Dài Hở Lưng Quyến Rũ SOFEP",
+      "ma_san_pham": "SFP-VAYDAM-01",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 50,
+      "ten_san_pham": "Váy Xòe Nữ Cổ Vuông Tay Bồng Tiểu Thư Dự Tiệc",
+      "ma_san_pham": "SFP-VAYDAM-02",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 51,
+      "ten_san_pham": "Đầm Bodycon Dệt Kim Gân Tăm Ôm Sát Tôn Đường Cong",
+      "ma_san_pham": "SFP-VAYDAM-03",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 52,
+      "ten_san_pham": "Chân Váy Chữ A Xếp Ly Phong Cách Tennis Năng Động",
+      "ma_san_pham": "SFP-VAYDAM-04",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 53,
+      "ten_san_pham": "Đầm Suông Nữ Vải Đũi Linen Thắt Nơ Eo Tinh Tế",
+      "ma_san_pham": "SFP-VAYDAM-05",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 54,
+      "ten_san_pham": "Chân Váy Midi Xẻ Tà Nữ Tính Dáng Dài Thanh Lịch",
+      "ma_san_pham": "SFP-VAYDAM-06",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 55,
+      "ten_san_pham": "Đầm Maxi Đi Biển Hoạ Tiết Hoa Nhí Bohemian Mùa Hè",
+      "ma_san_pham": "SFP-VAYDAM-07",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 56,
+      "ten_san_pham": "Váy Yếm Nữ Vải Kaki Vintage Dễ Phối Đồ Dạo Phố",
+      "ma_san_pham": "SFP-VAYDAM-08",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 57,
+      "ten_san_pham": "Đầm Dạ Hội Trễ Vai Đính Đá Pha Lê Cao Cấp SOFEP",
+      "ma_san_pham": "SFP-VAYDAM-09",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 58,
+      "ten_san_pham": "Chân Váy Bút Chì Công Sở Co Giãn Ôm Tôn Dáng",
+      "ma_san_pham": "SFP-VAYDAM-10",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 59,
+      "ten_san_pham": "Đầm Sơ Mi Nữ Kèm Thắt Lưng Bản Nhỏ Thời Thượng",
+      "ma_san_pham": "SFP-VAYDAM-11",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 60,
+      "ten_san_pham": "Chân Váy Chữ A Nữ Da PU Cao Cấp Khóa Bạc Cá Tính",
+      "ma_san_pham": "SFP-VAYDAM-12",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 61,
+      "ten_san_pham": "Đầm Babydoll Nữ Tay Lỡ Xinh Xắn Ngọt Ngào",
+      "ma_san_pham": "SFP-VAYDAM-13",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 62,
+      "ten_san_pham": "Chân Váy Jean Dáng Dài Xẻ Trước Phong Cách Ulzzang",
+      "ma_san_pham": "SFP-VAYDAM-14",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 63,
+      "ten_san_pham": "Đầm Suông Đuôi Cá Nữ Dự Tiệc Màu Trắng Ngọc Trai",
+      "ma_san_pham": "SFP-VAYDAM-15",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 64,
+      "ten_san_pham": "Váy Nhún Bèo Tầng Vải Chiffon Bay Bổng Lãng Mạn",
+      "ma_san_pham": "SFP-VAYDAM-16",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 65,
+      "ten_san_pham": "Đầm Ôm Body Cổ Yếm Khoét Lưng Dự Tiệc Quyến Rũ",
+      "ma_san_pham": "SFP-VAYDAM-17",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 66,
+      "ten_san_pham": "Chân Váy Xếp Tầng Tutu Phối Lưới Thời Thượng Paris",
+      "ma_san_pham": "SFP-VAYDAM-18",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 67,
+      "ten_san_pham": "Đầm Ren Trắng Nữ Tinh Khôi Dáng Xòe Lót Lụa",
+      "ma_san_pham": "SFP-VAYDAM-19",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 68,
+      "ten_san_pham": "Váy Suông Nữ Thể Thao Phối Sọc Năng Động Trẻ Trung",
+      "ma_san_pham": "SFP-VAYDAM-20",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 69,
+      "ten_san_pham": "Áo Croptop Nữ Tay Ngắn Cổ Tròn Ôm Body Cotton SOFEP",
+      "ma_san_pham": "SFP-AONU-01",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 70,
+      "ten_san_pham": "Áo Sơ Mi Nữ Lụa Cổ Nơ Phong Cách Công Sở Paris",
+      "ma_san_pham": "SFP-AONU-02",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 71,
+      "ten_san_pham": "Áo Kiểu Nữ Trễ Vai Tay Bồng Bo Chun Nữ Tính",
+      "ma_san_pham": "SFP-AONU-03",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 72,
+      "ten_san_pham": "Áo Len Nữ Cổ Lọ Dệt Kim Giữ Ấm Mùa Đông",
+      "ma_san_pham": "SFP-AONU-04",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 73,
+      "ten_san_pham": "Áo Thun Nữ Oversized In Hình Chữ Nổi Minimalist",
+      "ma_san_pham": "SFP-AONU-05",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 74,
+      "ten_san_pham": "Áo Hai Dây Nữ Lụa Satin Viền Ren Cổ V Gợi Cảm",
+      "ma_san_pham": "SFP-AONU-06",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 75,
+      "ten_san_pham": "Áo Sơ Mi Nữ Voan Kẻ Sọc Dáng Rộng Dạo Phố",
+      "ma_san_pham": "SFP-AONU-07",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 76,
+      "ten_san_pham": "Áo Kiểu Nữ Cổ Vuông Tay Nhún Điệu Đà Tiểu Thư",
+      "ma_san_pham": "SFP-AONU-08",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 77,
+      "ten_san_pham": "Áo Ba Lỗ Nữ Dệt Rib Co Giãn Tôn Dáng Thể Thao",
+      "ma_san_pham": "SFP-AONU-09",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 78,
+      "ten_san_pham": "Áo Nỉ Nữ Hoodie Form Rộng Phong Cách Ulzzang Hàn Quốc",
+      "ma_san_pham": "SFP-AONU-10",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 79,
+      "ten_san_pham": "Áo Sơ Mi Nữ Trắng Cổ Đức Basic Vải Kate Lụa",
+      "ma_san_pham": "SFP-AONU-11",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 80,
+      "ten_san_pham": "Áo Len Nữ Cardigan Nút Cài Ngọc Trai Vintage",
+      "ma_san_pham": "SFP-AONU-12",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 81,
+      "ten_san_pham": "Áo Croptop Nữ Dài Tay Khóa Kéo Hai Đầu Sành Điệu",
+      "ma_san_pham": "SFP-AONU-13",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 82,
+      "ten_san_pham": "Áo Kiểu Nữ Thắt Nơ Lưng Hở Vai Gợi Cảm Đi Tiệc",
+      "ma_san_pham": "SFP-AONU-14",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 83,
+      "ten_san_pham": "Áo Thun Nữ Cổ Tim Vải Tencel Mát Mịn Thấm Hút",
+      "ma_san_pham": "SFP-AONU-15",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 84,
+      "ten_san_pham": "Áo Sơ Mi Nữ Tay Lỡ Vải Đũi Mộc Mạc Tối Giản",
+      "ma_san_pham": "SFP-AONU-16",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 85,
+      "ten_san_pham": "Áo Corset Nữ Định Hình Eo Gợi Cảm Phối Ren",
+      "ma_san_pham": "SFP-AONU-17",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 86,
+      "ten_san_pham": "Áo Dệt Kim Nữ Cộc Tay Cổ Polo Trẻ Trung Năng Động",
+      "ma_san_pham": "SFP-AONU-18",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 87,
+      "ten_san_pham": "Áo Peplum Nữ Che Khuyết Điểm Bụng Tôn Vóc Dáng",
+      "ma_san_pham": "SFP-AONU-19",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 88,
+      "ten_san_pham": "Áo Thun Nữ Body Cổ Khóa Half-Zip Thể Thao Cao Cấp",
+      "ma_san_pham": "SFP-AONU-20",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 89,
+      "ten_san_pham": "Áo Khoác Blazer Nam 2 Hàng Khuy Double-Breasted SOFEP",
+      "ma_san_pham": "SFP-AOKHOAC-01",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 90,
+      "ten_san_pham": "Áo Khoác Bomber Dù 2 Lớp Chống Gió Chống Nước",
+      "ma_san_pham": "SFP-AOKHOAC-02",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 91,
+      "ten_san_pham": "Áo Khoác Blazer Nữ Cắt Lửng Cropped Thời Thượng",
+      "ma_san_pham": "SFP-AOKHOAC-03",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 92,
+      "ten_san_pham": "Áo Khoác Denim Bò Unisex Lót Lông Cừu Ấm Áp Mùa Đông",
+      "ma_san_pham": "SFP-AOKHOAC-04",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 93,
+      "ten_san_pham": "Áo Khoác Măng Tô Dạ Dáng Dài Thu Đông Đẳng Cấp",
+      "ma_san_pham": "SFP-AOKHOAC-05",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 94,
+      "ten_san_pham": "Áo Khoác Gió Thể Thao Chống Nước Có Mũ Trùm Đa Năng",
+      "ma_san_pham": "SFP-AOKHOAC-06",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 95,
+      "ten_san_pham": "Áo Khoác Blazer Nam Form Rộng Relaxed Fit Smart Casual",
+      "ma_san_pham": "SFP-AOKHOAC-07",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 96,
+      "ten_san_pham": "Áo Khoác Da Biker Da Cừu Cao Cấp Khóa Xéo Đinh Tán",
+      "ma_san_pham": "SFP-AOKHOAC-08",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 97,
+      "ten_san_pham": "Áo Khoác Cardigan Len Vặn Thừng Dáng Rộng Vintage",
+      "ma_san_pham": "SFP-AOKHOAC-09",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 98,
+      "ten_san_pham": "Áo Khoác Kaki Safari 4 Túi Hộp Quân Đội Đa Dụng",
+      "ma_san_pham": "SFP-AOKHOAC-10",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 99,
+      "ten_san_pham": "Áo Blazer Nữ Kẻ Caro Houndstooth Nanh Sói Hoàng Gia",
+      "ma_san_pham": "SFP-AOKHOAC-11",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 100,
+      "ten_san_pham": "Áo Khoác Phao Lông Vũ Dáng Ngắn Siêu Nhẹ 800FP",
+      "ma_san_pham": "SFP-AOKHOAC-12",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 101,
+      "ten_san_pham": "Áo Khoác Varsity Jacket Phối Tay Da Học Đường Trẻ Trung",
+      "ma_san_pham": "SFP-AOKHOAC-13",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 102,
+      "ten_san_pham": "Áo Khoác Trench Coat Dáng Dài Phong Cách London Cổ Điển",
+      "ma_san_pham": "SFP-AOKHOAC-14",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 103,
+      "ten_san_pham": "Áo Khoác Gió Nam Nữ Trượt Nước Đi Mưa Có Phản Quang",
+      "ma_san_pham": "SFP-AOKHOAC-15",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 104,
+      "ten_san_pham": "Áo Blazer Nam Linen Không Đệm Vai Thoáng Mát Mùa Hè",
+      "ma_san_pham": "SFP-AOKHOAC-16",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 105,
+      "ten_san_pham": "Áo Khoác Nhựa Dù Trong Suốt Thời Trang Độc Lạ Y2K",
+      "ma_san_pham": "SFP-AOKHOAC-17",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 106,
+      "ten_san_pham": "Áo Khoác Nỉ Hoodie Zip 2 Chiều Form Rộng Streetwear",
+      "ma_san_pham": "SFP-AOKHOAC-18",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 107,
+      "ten_san_pham": "Áo Khoác Kimono Cách Điệu Vải Gấm Sang Trọng Dạo Phố",
+      "ma_san_pham": "SFP-AOKHOAC-19",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 108,
+      "ten_san_pham": "Áo Blazer Nữ Không Tay Dáng Dài Vest Gilet Thanh Lịch",
+      "ma_san_pham": "SFP-AOKHOAC-20",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 109,
+      "ten_san_pham": "Giày Sneaker Thấp Cổ Low-Top Trắng Chunky Sole SOFEP",
+      "ma_san_pham": "SFP-GIAY-01",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 110,
+      "ten_san_pham": "Giày Lười Da Bò Nam Loafer Khóa Mạ Vàng Sang Trọng",
+      "ma_san_pham": "SFP-GIAY-02",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 111,
+      "ten_san_pham": "Giày Cao Gót Nữ Mũi Nhọn 7cm Đính Đá Dự Tiệc Quý Phái",
+      "ma_san_pham": "SFP-GIAY-03",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 112,
+      "ten_san_pham": "Giày Sneaker Chạy Bộ Siêu Nhẹ Thoáng Khí Breathable Pro",
+      "ma_san_pham": "SFP-GIAY-04",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 113,
+      "ten_san_pham": "Giày Sandal Nữ Dây Mảnh Quai Đan Đế Vuông 5cm",
+      "ma_san_pham": "SFP-GIAY-05",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 114,
+      "ten_san_pham": "Giày Da Nam Oxford Buộc Dây Công Sở Da Bóng Cao Cấp",
+      "ma_san_pham": "SFP-GIAY-06",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 115,
+      "ten_san_pham": "Giày Sneaker Cổ Cao High-Top Canvas Bụi Bặm Vintage",
+      "ma_san_pham": "SFP-GIAY-07",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 116,
+      "ten_san_pham": "Giày Mule Sục Da Nữ Mũi Vuông Thanh Lịch Tiện Dụng",
+      "ma_san_pham": "SFP-GIAY-08",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 117,
+      "ten_san_pham": "Giày Thể Thao Tập Gym Nam Nữ Đế Bám Chống Trượt Chuyên Nghiệp",
+      "ma_san_pham": "SFP-GIAY-09",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 118,
+      "ten_san_pham": "Giày Búp Bê Nữ Nơ Nhỏ Đế Bệt Êm Chân Da Cừu",
+      "ma_san_pham": "SFP-GIAY-10",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 119,
+      "ten_san_pham": "Giày Chelsea Boots Nam Da Lộn Cổ Thun Phong Cách Rocker",
+      "ma_san_pham": "SFP-GIAY-11",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 120,
+      "ten_san_pham": "Giày Boots Nữ Cổ Cao Qua Gối Da Thuộc Tôn Chân",
+      "ma_san_pham": "SFP-GIAY-12",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 121,
+      "ten_san_pham": "Giày Sneaker Retro Vintage 1980s Đế Bánh Mì Dày Dặn",
+      "ma_san_pham": "SFP-GIAY-13",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 122,
+      "ten_san_pham": "Giày Sandal Nam Quai Dù Đế Cao Su Êm Ái Đi Mưa",
+      "ma_san_pham": "SFP-GIAY-14",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 123,
+      "ten_san_pham": "Giày Cao Gót Nữ Quai Trong Suốt Mũi Vuông Độc Đáo",
+      "ma_san_pham": "SFP-GIAY-15",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 124,
+      "ten_san_pham": "Giày Lười Nam Moccasin Da Lộn Mềm Mại Thắt Dây Da",
+      "ma_san_pham": "SFP-GIAY-16",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 125,
+      "ten_san_pham": "Giày Chunky Sneaker Đế Khủng Tăng Chiều Cao 5cm",
+      "ma_san_pham": "SFP-GIAY-17",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 126,
+      "ten_san_pham": "Giày Da Nữ Derby Cột Dây Đế Răng Cưa Phong Cách Cổ Điển",
+      "ma_san_pham": "SFP-GIAY-18",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 127,
+      "ten_san_pham": "Giày Slip-On Nữ Vải Canvas Thêu Họa Tiết Hoa Nhỏ",
+      "ma_san_pham": "SFP-GIAY-19",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 128,
+      "ten_san_pham": "Giày Thể Thao Cầu Lông Tennis Chuyên Dụng Bọc Mũi",
+      "ma_san_pham": "SFP-GIAY-20",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 129,
+      "ten_san_pham": "Túi Xách Da Nữ Đeo Chéo Khóa Mạ Vàng Cao Cấp SOFEP Atelier",
+      "ma_san_pham": "SFP-TUIXACH-01",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 130,
+      "ten_san_pham": "Balo Da Nam Đựng Laptop 15.6 Inch Chống Nước Doanh Nhân",
+      "ma_san_pham": "SFP-TUIXACH-02",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 131,
+      "ten_san_pham": "Túi Tote Vải Canvas Dày Dặn Đựng Vừa Hồ Sơ Laptop A4",
+      "ma_san_pham": "SFP-TUIXACH-03",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 132,
+      "ten_san_pham": "Ví Da Nam Dáng Ngang Da Bò Thật Khắc Tên Thủ Công",
+      "ma_san_pham": "SFP-TUIXACH-04",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 133,
+      "ten_san_pham": "Túi Đeo Chéo Nam Nữ Bao Tử Thể Thao Chống Trộm Siêu Nhẹ",
+      "ma_san_pham": "SFP-TUIXACH-05",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 134,
+      "ten_san_pham": "Túi Xách Nữ Kẹp Nách Da Vân Cá Sấu Thời Thượng Paris",
+      "ma_san_pham": "SFP-TUIXACH-06",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 135,
+      "ten_san_pham": "Balo Du Lịch Đa Năng Cỡ Lớn Chống Thấm 40L Mở Vali",
+      "ma_san_pham": "SFP-TUIXACH-07",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 136,
+      "ten_san_pham": "Ví Cầm Tay Nữ Clutch Dạ Hội Đính Hạt Lấp Lánh Khóa Bạc",
+      "ma_san_pham": "SFP-TUIXACH-08",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 137,
+      "ten_san_pham": "Túi Đeo Chéo Nữ Dáng Tròn Mini Đựng Son Phấn Xinh Xắn",
+      "ma_san_pham": "SFP-TUIXACH-09",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 138,
+      "ten_san_pham": "Túi Đựng Laptop Chống Sốc Phối Quai Da Doanh Nhân",
+      "ma_san_pham": "SFP-TUIXACH-10",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 139,
+      "ten_san_pham": "Ví Da Nam Dáng Đứng Nhiều Ngăn Thẻ Tích Hợp Chặn RFID",
+      "ma_san_pham": "SFP-TUIXACH-11",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 140,
+      "ten_san_pham": "Túi Bucket Da Dây Rút Miệng Thời Trang Phong Cách Pháp",
+      "ma_san_pham": "SFP-TUIXACH-12",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 141,
+      "ten_san_pham": "Balo Mini Nữ Da PU Nơ Nhỏ Dễ Thương Đi Học & Dạo Phố",
+      "ma_san_pham": "SFP-TUIXACH-13",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 142,
+      "ten_san_pham": "Túi Đeo Hông Chạy Bộ Chống Thấm Mồ Hôi Co Giãn",
+      "ma_san_pham": "SFP-TUIXACH-14",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 143,
+      "ten_san_pham": "Túi Xách Nữ Công Sở Đựng Tài Liệu A4 Da Thật Khóa Số",
+      "ma_san_pham": "SFP-TUIXACH-15",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 144,
+      "ten_san_pham": "Ví Đựng Thẻ Card Holder Mini Da Bò Thật Mạ Logo SOFEP",
+      "ma_san_pham": "SFP-TUIXACH-16",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 145,
+      "ten_san_pham": "Túi Du Lịch Xách Tay Da Trống Tập Gym Thể Thao Cao Cấp",
+      "ma_san_pham": "SFP-TUIXACH-17",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 146,
+      "ten_san_pham": "Túi Xách Nữ Hobo Da Mềm Đeo Vai Phong Cách Tối Giản",
+      "ma_san_pham": "SFP-TUIXACH-18",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 147,
+      "ten_san_pham": "Ví Nữ Dáng Dài Hai Khóa Kéo Kèm Dây Đeo Cổ Tay",
+      "ma_san_pham": "SFP-TUIXACH-19",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 148,
+      "ten_san_pham": "Túi Đeo Chéo Mini Trong Suốt Nhựa PVC Đi Lễ Hội Âm Nhạc",
+      "ma_san_pham": "SFP-TUIXACH-20",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 149,
+      "ten_san_pham": "Đồng Hồ Nam Dây Da Kính Sapphire Máy Cơ Tự Động SOFEP",
+      "ma_san_pham": "SFP-PHUKIEN-01",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 150,
+      "ten_san_pham": "Kính Mát Unisex Phi Công Aviator Tròng Phân Cực Polarized",
+      "ma_san_pham": "SFP-PHUKIEN-02",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 151,
+      "ten_san_pham": "Thắt Lưng Nam Da Bò Thật Khóa Tự Động Mạ Vàng 18K",
+      "ma_san_pham": "SFP-PHUKIEN-03",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 152,
+      "ten_san_pham": "Mũ Nồi Beret Nữ Vải Dạ Thời Trang Phong Cách Cổ Điển",
+      "ma_san_pham": "SFP-PHUKIEN-04",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 153,
+      "ten_san_pham": "Khăn Choàng Cổ Lụa Tơ Tằm Họa Tiết Hội Họa Cổ Điển",
+      "ma_san_pham": "SFP-PHUKIEN-05",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 154,
+      "ten_san_pham": "Vòng Tay Bạc Ý 925 Đính Đá Zirconia Sang Trọng Cho Nữ",
+      "ma_san_pham": "SFP-PHUKIEN-06",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 155,
+      "ten_san_pham": "Mũ Lưỡi Trai Unisex Thêu Chữ SOFEP Haute Atelier Vải Cotton",
+      "ma_san_pham": "SFP-PHUKIEN-07",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 156,
+      "ten_san_pham": "Dây Chuyền Nam Titan Mặt Khắc Hình Học Geometric Cá Tính",
+      "ma_san_pham": "SFP-PHUKIEN-08",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 157,
+      "ten_san_pham": "Bông Tai Nữ Ngọc Trai Nước Ngọt Chuôi Bạc Ý Tinh Khôi",
+      "ma_san_pham": "SFP-PHUKIEN-09",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 159,
+      "ten_san_pham": "Kính Râm Gọng Mắt Mèo Nữ Cá Tính Phong Cách Milan",
+      "ma_san_pham": "SFP-PHUKIEN-11",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 160,
+      "ten_san_pham": "Mũ Len Beanie Unisex Giữ Ấm Mùa Đông Dệt Rib",
+      "ma_san_pham": "SFP-PHUKIEN-12",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 161,
+      "ten_san_pham": "Cà Vạt Nam Lụa Dệt Thoi Kèm Kẹp Cà Vạt Mạ Vàng Cao Cấp",
+      "ma_san_pham": "SFP-PHUKIEN-13",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 162,
+      "ten_san_pham": "Vòng Cổ Nữ Choker Ren Quyến Rũ Dự Tiệc Tối",
+      "ma_san_pham": "SFP-PHUKIEN-14",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 163,
+      "ten_san_pham": "Găng Tay Da Cừu Nam Lót Lông Cảm Ứng Điện Thoại Mùa Đông",
+      "ma_san_pham": "SFP-PHUKIEN-15",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 164,
+      "ten_san_pham": "Khăn Bandana Lụa Vuông Cột Cổ & Quai Túi Thời Trang",
+      "ma_san_pham": "SFP-PHUKIEN-16",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 165,
+      "ten_san_pham": "Hộp 5 Đôi Vớ Tất Cổ Cao Nam Nữ Dệt Kim Kháng Khuẩn Bạc",
+      "ma_san_pham": "SFP-PHUKIEN-17",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 166,
+      "ten_san_pham": "Kẹp Tóc Nữ Đính Đá Càng Cua Phong Cách Hàn Quốc Cao Cấp",
+      "ma_san_pham": "SFP-PHUKIEN-18",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 167,
+      "ten_san_pham": "Ghim Cài Áo Vest Nam Nữ Kim Loại Mạ Vàng Khảm Xà Cừ",
+      "ma_san_pham": "SFP-PHUKIEN-19",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 168,
+      "ten_san_pham": "Ô Dù Cầm Tay Mini Gấp Gọn Chống Tia Cực Tím UV99% Lớp Đen",
+      "ma_san_pham": "SFP-PHUKIEN-20",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    },
+    {
+      "id": 172,
+      "ten_san_pham": "Áo polo",
+      "ma_san_pham": "SPYKRV3B",
+      "hinh_anh": "/product-placeholder.svg",
+      "trang_thai": 1
+    }
+  ],
+  "gallery": [],
+  "variants": [
+    {
+      "id": 1,
+      "id_san_pham": 1,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 2,
+      "id_san_pham": 1,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 3,
+      "id_san_pham": 2,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 4,
+      "id_san_pham": 2,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 5,
+      "id_san_pham": 3,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 6,
+      "id_san_pham": 3,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 7,
+      "id_san_pham": 4,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 8,
+      "id_san_pham": 4,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 9,
+      "id_san_pham": 5,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 10,
+      "id_san_pham": 5,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 11,
+      "id_san_pham": 6,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 12,
+      "id_san_pham": 6,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 13,
+      "id_san_pham": 7,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 14,
+      "id_san_pham": 7,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 15,
+      "id_san_pham": 8,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 16,
+      "id_san_pham": 8,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 17,
+      "id_san_pham": 9,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 18,
+      "id_san_pham": 9,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 19,
+      "id_san_pham": 9,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 20,
+      "id_san_pham": 10,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 21,
+      "id_san_pham": 10,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 22,
+      "id_san_pham": 10,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 23,
+      "id_san_pham": 11,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 24,
+      "id_san_pham": 11,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 25,
+      "id_san_pham": 11,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 26,
+      "id_san_pham": 12,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 27,
+      "id_san_pham": 12,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 28,
+      "id_san_pham": 12,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 29,
+      "id_san_pham": 13,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 30,
+      "id_san_pham": 13,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 31,
+      "id_san_pham": 13,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 32,
+      "id_san_pham": 14,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 33,
+      "id_san_pham": 14,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 34,
+      "id_san_pham": 14,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 35,
+      "id_san_pham": 15,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 36,
+      "id_san_pham": 15,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 37,
+      "id_san_pham": 15,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 38,
+      "id_san_pham": 16,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 39,
+      "id_san_pham": 16,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 40,
+      "id_san_pham": 16,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 41,
+      "id_san_pham": 17,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 42,
+      "id_san_pham": 17,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 43,
+      "id_san_pham": 17,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 44,
+      "id_san_pham": 18,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 45,
+      "id_san_pham": 18,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 46,
+      "id_san_pham": 18,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 47,
+      "id_san_pham": 19,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 48,
+      "id_san_pham": 19,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 49,
+      "id_san_pham": 19,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 50,
+      "id_san_pham": 20,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 51,
+      "id_san_pham": 20,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 52,
+      "id_san_pham": 20,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 53,
+      "id_san_pham": 21,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 54,
+      "id_san_pham": 21,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 55,
+      "id_san_pham": 21,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 56,
+      "id_san_pham": 22,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 57,
+      "id_san_pham": 22,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 58,
+      "id_san_pham": 22,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 59,
+      "id_san_pham": 23,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 60,
+      "id_san_pham": 23,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 61,
+      "id_san_pham": 23,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 62,
+      "id_san_pham": 24,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 63,
+      "id_san_pham": 24,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 64,
+      "id_san_pham": 24,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 65,
+      "id_san_pham": 25,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 66,
+      "id_san_pham": 25,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 67,
+      "id_san_pham": 25,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 68,
+      "id_san_pham": 26,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 69,
+      "id_san_pham": 26,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 70,
+      "id_san_pham": 26,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 71,
+      "id_san_pham": 27,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 72,
+      "id_san_pham": 27,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 73,
+      "id_san_pham": 27,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 74,
+      "id_san_pham": 28,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 75,
+      "id_san_pham": 28,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 76,
+      "id_san_pham": 28,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 77,
+      "id_san_pham": 29,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 78,
+      "id_san_pham": 29,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 79,
+      "id_san_pham": 29,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 80,
+      "id_san_pham": 30,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 81,
+      "id_san_pham": 30,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 82,
+      "id_san_pham": 30,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 83,
+      "id_san_pham": 31,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 84,
+      "id_san_pham": 31,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 85,
+      "id_san_pham": 31,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 86,
+      "id_san_pham": 32,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 87,
+      "id_san_pham": 32,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 88,
+      "id_san_pham": 32,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 89,
+      "id_san_pham": 33,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 90,
+      "id_san_pham": 33,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 91,
+      "id_san_pham": 33,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 92,
+      "id_san_pham": 34,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 93,
+      "id_san_pham": 34,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 94,
+      "id_san_pham": 34,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 95,
+      "id_san_pham": 35,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 96,
+      "id_san_pham": 35,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 97,
+      "id_san_pham": 35,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 98,
+      "id_san_pham": 36,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 99,
+      "id_san_pham": 36,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 100,
+      "id_san_pham": 36,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 101,
+      "id_san_pham": 37,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 102,
+      "id_san_pham": 37,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 103,
+      "id_san_pham": 37,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 104,
+      "id_san_pham": 38,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 105,
+      "id_san_pham": 38,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 106,
+      "id_san_pham": 38,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 107,
+      "id_san_pham": 39,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 108,
+      "id_san_pham": 39,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 109,
+      "id_san_pham": 39,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 110,
+      "id_san_pham": 40,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 111,
+      "id_san_pham": 40,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 112,
+      "id_san_pham": 40,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 113,
+      "id_san_pham": 41,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 114,
+      "id_san_pham": 41,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 115,
+      "id_san_pham": 41,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 116,
+      "id_san_pham": 42,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 117,
+      "id_san_pham": 42,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 118,
+      "id_san_pham": 42,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 119,
+      "id_san_pham": 43,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 120,
+      "id_san_pham": 43,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 121,
+      "id_san_pham": 43,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 122,
+      "id_san_pham": 44,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 123,
+      "id_san_pham": 44,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 124,
+      "id_san_pham": 44,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 125,
+      "id_san_pham": 45,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 126,
+      "id_san_pham": 45,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 127,
+      "id_san_pham": 45,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 128,
+      "id_san_pham": 46,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 129,
+      "id_san_pham": 46,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 130,
+      "id_san_pham": 46,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 131,
+      "id_san_pham": 47,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 132,
+      "id_san_pham": 47,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 133,
+      "id_san_pham": 47,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 134,
+      "id_san_pham": 48,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 135,
+      "id_san_pham": 48,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 136,
+      "id_san_pham": 48,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 137,
+      "id_san_pham": 49,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 138,
+      "id_san_pham": 49,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 139,
+      "id_san_pham": 49,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 140,
+      "id_san_pham": 50,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 141,
+      "id_san_pham": 50,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 142,
+      "id_san_pham": 50,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 143,
+      "id_san_pham": 51,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 144,
+      "id_san_pham": 51,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 145,
+      "id_san_pham": 51,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 146,
+      "id_san_pham": 52,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 147,
+      "id_san_pham": 52,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 148,
+      "id_san_pham": 52,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 149,
+      "id_san_pham": 53,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 150,
+      "id_san_pham": 53,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 151,
+      "id_san_pham": 53,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 152,
+      "id_san_pham": 54,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 153,
+      "id_san_pham": 54,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 154,
+      "id_san_pham": 54,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 155,
+      "id_san_pham": 55,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 156,
+      "id_san_pham": 55,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 157,
+      "id_san_pham": 55,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 158,
+      "id_san_pham": 56,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 159,
+      "id_san_pham": 56,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 160,
+      "id_san_pham": 56,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 161,
+      "id_san_pham": 57,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 162,
+      "id_san_pham": 57,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 163,
+      "id_san_pham": 57,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 164,
+      "id_san_pham": 58,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 165,
+      "id_san_pham": 58,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 166,
+      "id_san_pham": 58,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 167,
+      "id_san_pham": 59,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 168,
+      "id_san_pham": 59,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 169,
+      "id_san_pham": 59,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 170,
+      "id_san_pham": 60,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 171,
+      "id_san_pham": 60,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 172,
+      "id_san_pham": 60,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 173,
+      "id_san_pham": 61,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 174,
+      "id_san_pham": 61,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 175,
+      "id_san_pham": 61,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 176,
+      "id_san_pham": 62,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 177,
+      "id_san_pham": 62,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 178,
+      "id_san_pham": 62,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 179,
+      "id_san_pham": 63,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 180,
+      "id_san_pham": 63,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 181,
+      "id_san_pham": 63,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 182,
+      "id_san_pham": 64,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 183,
+      "id_san_pham": 64,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 184,
+      "id_san_pham": 64,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 185,
+      "id_san_pham": 65,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 186,
+      "id_san_pham": 65,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 187,
+      "id_san_pham": 65,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 188,
+      "id_san_pham": 66,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 189,
+      "id_san_pham": 66,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 190,
+      "id_san_pham": 66,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 191,
+      "id_san_pham": 67,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 192,
+      "id_san_pham": 67,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 193,
+      "id_san_pham": 67,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 194,
+      "id_san_pham": 68,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 195,
+      "id_san_pham": 68,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 196,
+      "id_san_pham": 68,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 197,
+      "id_san_pham": 69,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 198,
+      "id_san_pham": 69,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 199,
+      "id_san_pham": 69,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 200,
+      "id_san_pham": 70,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 201,
+      "id_san_pham": 70,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 202,
+      "id_san_pham": 70,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 203,
+      "id_san_pham": 71,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 204,
+      "id_san_pham": 71,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 205,
+      "id_san_pham": 71,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 206,
+      "id_san_pham": 72,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 207,
+      "id_san_pham": 72,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 208,
+      "id_san_pham": 72,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 209,
+      "id_san_pham": 73,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 210,
+      "id_san_pham": 73,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 211,
+      "id_san_pham": 73,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 212,
+      "id_san_pham": 74,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 213,
+      "id_san_pham": 74,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 214,
+      "id_san_pham": 74,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 215,
+      "id_san_pham": 75,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 216,
+      "id_san_pham": 75,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 217,
+      "id_san_pham": 75,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 218,
+      "id_san_pham": 76,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 219,
+      "id_san_pham": 76,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 220,
+      "id_san_pham": 76,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 221,
+      "id_san_pham": 77,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 222,
+      "id_san_pham": 77,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 223,
+      "id_san_pham": 77,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 224,
+      "id_san_pham": 78,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 225,
+      "id_san_pham": 78,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 226,
+      "id_san_pham": 78,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 227,
+      "id_san_pham": 79,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 228,
+      "id_san_pham": 79,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 229,
+      "id_san_pham": 79,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 230,
+      "id_san_pham": 80,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 231,
+      "id_san_pham": 80,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 232,
+      "id_san_pham": 80,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 233,
+      "id_san_pham": 81,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 234,
+      "id_san_pham": 81,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 235,
+      "id_san_pham": 81,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 236,
+      "id_san_pham": 82,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 237,
+      "id_san_pham": 82,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 238,
+      "id_san_pham": 82,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 239,
+      "id_san_pham": 83,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 240,
+      "id_san_pham": 83,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 241,
+      "id_san_pham": 83,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 242,
+      "id_san_pham": 84,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 243,
+      "id_san_pham": 84,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 244,
+      "id_san_pham": 84,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 245,
+      "id_san_pham": 85,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 246,
+      "id_san_pham": 85,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 247,
+      "id_san_pham": 85,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 248,
+      "id_san_pham": 86,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 249,
+      "id_san_pham": 86,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 250,
+      "id_san_pham": 86,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 251,
+      "id_san_pham": 87,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 252,
+      "id_san_pham": 87,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 253,
+      "id_san_pham": 87,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 254,
+      "id_san_pham": 88,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 255,
+      "id_san_pham": 88,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 256,
+      "id_san_pham": 88,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 257,
+      "id_san_pham": 89,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 258,
+      "id_san_pham": 89,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 259,
+      "id_san_pham": 89,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 260,
+      "id_san_pham": 90,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 261,
+      "id_san_pham": 90,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 262,
+      "id_san_pham": 90,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 263,
+      "id_san_pham": 91,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 264,
+      "id_san_pham": 91,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 265,
+      "id_san_pham": 91,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 266,
+      "id_san_pham": 92,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 267,
+      "id_san_pham": 92,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 268,
+      "id_san_pham": 92,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 269,
+      "id_san_pham": 93,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 270,
+      "id_san_pham": 93,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 271,
+      "id_san_pham": 93,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 272,
+      "id_san_pham": 94,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 273,
+      "id_san_pham": 94,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 274,
+      "id_san_pham": 94,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 275,
+      "id_san_pham": 95,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 276,
+      "id_san_pham": 95,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 277,
+      "id_san_pham": 95,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 278,
+      "id_san_pham": 96,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 279,
+      "id_san_pham": 96,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 280,
+      "id_san_pham": 96,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 281,
+      "id_san_pham": 97,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 282,
+      "id_san_pham": 97,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 283,
+      "id_san_pham": 97,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 284,
+      "id_san_pham": 98,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 285,
+      "id_san_pham": 98,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 286,
+      "id_san_pham": 98,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 287,
+      "id_san_pham": 99,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 288,
+      "id_san_pham": 99,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 289,
+      "id_san_pham": 99,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 290,
+      "id_san_pham": 100,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 291,
+      "id_san_pham": 100,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 292,
+      "id_san_pham": 100,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 293,
+      "id_san_pham": 101,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 294,
+      "id_san_pham": 101,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 295,
+      "id_san_pham": 101,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 296,
+      "id_san_pham": 102,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 297,
+      "id_san_pham": 102,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 298,
+      "id_san_pham": 102,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 299,
+      "id_san_pham": 103,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 300,
+      "id_san_pham": 103,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 301,
+      "id_san_pham": 103,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 302,
+      "id_san_pham": 104,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 303,
+      "id_san_pham": 104,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 304,
+      "id_san_pham": 104,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 305,
+      "id_san_pham": 105,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 306,
+      "id_san_pham": 105,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 307,
+      "id_san_pham": 105,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 308,
+      "id_san_pham": 106,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 309,
+      "id_san_pham": 106,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 310,
+      "id_san_pham": 106,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 311,
+      "id_san_pham": 107,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 312,
+      "id_san_pham": 107,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 313,
+      "id_san_pham": 107,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 314,
+      "id_san_pham": 108,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 315,
+      "id_san_pham": 108,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 316,
+      "id_san_pham": 108,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 317,
+      "id_san_pham": 109,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 318,
+      "id_san_pham": 109,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 319,
+      "id_san_pham": 109,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 320,
+      "id_san_pham": 110,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 321,
+      "id_san_pham": 110,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 322,
+      "id_san_pham": 110,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 323,
+      "id_san_pham": 111,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 324,
+      "id_san_pham": 111,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 325,
+      "id_san_pham": 111,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 326,
+      "id_san_pham": 112,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 327,
+      "id_san_pham": 112,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 328,
+      "id_san_pham": 112,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 329,
+      "id_san_pham": 113,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 330,
+      "id_san_pham": 113,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 331,
+      "id_san_pham": 113,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 332,
+      "id_san_pham": 114,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 333,
+      "id_san_pham": 114,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 334,
+      "id_san_pham": 114,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 335,
+      "id_san_pham": 115,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 336,
+      "id_san_pham": 115,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 337,
+      "id_san_pham": 115,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 338,
+      "id_san_pham": 116,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 339,
+      "id_san_pham": 116,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 340,
+      "id_san_pham": 116,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 341,
+      "id_san_pham": 117,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 342,
+      "id_san_pham": 117,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 343,
+      "id_san_pham": 117,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 344,
+      "id_san_pham": 118,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 345,
+      "id_san_pham": 118,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 346,
+      "id_san_pham": 118,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 347,
+      "id_san_pham": 119,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 348,
+      "id_san_pham": 119,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 349,
+      "id_san_pham": 119,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 350,
+      "id_san_pham": 120,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 351,
+      "id_san_pham": 120,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 352,
+      "id_san_pham": 120,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 353,
+      "id_san_pham": 121,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 354,
+      "id_san_pham": 121,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 355,
+      "id_san_pham": 121,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 356,
+      "id_san_pham": 122,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 357,
+      "id_san_pham": 122,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 358,
+      "id_san_pham": 122,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 359,
+      "id_san_pham": 123,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 360,
+      "id_san_pham": 123,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 361,
+      "id_san_pham": 123,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 362,
+      "id_san_pham": 124,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 363,
+      "id_san_pham": 124,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 364,
+      "id_san_pham": 124,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 365,
+      "id_san_pham": 125,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 366,
+      "id_san_pham": 125,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 367,
+      "id_san_pham": 125,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 368,
+      "id_san_pham": 126,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 369,
+      "id_san_pham": 126,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 370,
+      "id_san_pham": 126,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 371,
+      "id_san_pham": 127,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 372,
+      "id_san_pham": 127,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 373,
+      "id_san_pham": 127,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 374,
+      "id_san_pham": 128,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 375,
+      "id_san_pham": 128,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 376,
+      "id_san_pham": 128,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 377,
+      "id_san_pham": 129,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 378,
+      "id_san_pham": 129,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 379,
+      "id_san_pham": 129,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 380,
+      "id_san_pham": 130,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 381,
+      "id_san_pham": 130,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 382,
+      "id_san_pham": 130,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 383,
+      "id_san_pham": 131,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 384,
+      "id_san_pham": 131,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 385,
+      "id_san_pham": 131,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 386,
+      "id_san_pham": 132,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 387,
+      "id_san_pham": 132,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 388,
+      "id_san_pham": 132,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 389,
+      "id_san_pham": 133,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 390,
+      "id_san_pham": 133,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 391,
+      "id_san_pham": 133,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 392,
+      "id_san_pham": 134,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 393,
+      "id_san_pham": 134,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 394,
+      "id_san_pham": 134,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 395,
+      "id_san_pham": 135,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 396,
+      "id_san_pham": 135,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 397,
+      "id_san_pham": 135,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 398,
+      "id_san_pham": 136,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 399,
+      "id_san_pham": 136,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 400,
+      "id_san_pham": 136,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 401,
+      "id_san_pham": 137,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 402,
+      "id_san_pham": 137,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 403,
+      "id_san_pham": 137,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 404,
+      "id_san_pham": 138,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 405,
+      "id_san_pham": 138,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 406,
+      "id_san_pham": 138,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 407,
+      "id_san_pham": 139,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 408,
+      "id_san_pham": 139,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 409,
+      "id_san_pham": 139,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 410,
+      "id_san_pham": 140,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 411,
+      "id_san_pham": 140,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 412,
+      "id_san_pham": 140,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 413,
+      "id_san_pham": 141,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 414,
+      "id_san_pham": 141,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 415,
+      "id_san_pham": 141,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 416,
+      "id_san_pham": 142,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 417,
+      "id_san_pham": 142,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 418,
+      "id_san_pham": 142,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 419,
+      "id_san_pham": 143,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 420,
+      "id_san_pham": 143,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 421,
+      "id_san_pham": 143,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 422,
+      "id_san_pham": 144,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 423,
+      "id_san_pham": 144,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 424,
+      "id_san_pham": 144,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 425,
+      "id_san_pham": 145,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 426,
+      "id_san_pham": 145,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 427,
+      "id_san_pham": 145,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 428,
+      "id_san_pham": 146,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 429,
+      "id_san_pham": 146,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 430,
+      "id_san_pham": 146,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 431,
+      "id_san_pham": 147,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 432,
+      "id_san_pham": 147,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 433,
+      "id_san_pham": 147,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 434,
+      "id_san_pham": 148,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 435,
+      "id_san_pham": 148,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 436,
+      "id_san_pham": 148,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 437,
+      "id_san_pham": 149,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 438,
+      "id_san_pham": 149,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 439,
+      "id_san_pham": 149,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 440,
+      "id_san_pham": 150,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 441,
+      "id_san_pham": 150,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 442,
+      "id_san_pham": 150,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 443,
+      "id_san_pham": 151,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 444,
+      "id_san_pham": 151,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 445,
+      "id_san_pham": 151,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 446,
+      "id_san_pham": 152,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 447,
+      "id_san_pham": 152,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 448,
+      "id_san_pham": 152,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 449,
+      "id_san_pham": 153,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 450,
+      "id_san_pham": 153,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 451,
+      "id_san_pham": 153,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 452,
+      "id_san_pham": 154,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 453,
+      "id_san_pham": 154,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 454,
+      "id_san_pham": 154,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 455,
+      "id_san_pham": 155,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 456,
+      "id_san_pham": 155,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 457,
+      "id_san_pham": 155,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 458,
+      "id_san_pham": 156,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 459,
+      "id_san_pham": 156,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 460,
+      "id_san_pham": 156,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 461,
+      "id_san_pham": 157,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 462,
+      "id_san_pham": 157,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 463,
+      "id_san_pham": 157,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 467,
+      "id_san_pham": 159,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 468,
+      "id_san_pham": 159,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 469,
+      "id_san_pham": 159,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 470,
+      "id_san_pham": 160,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 471,
+      "id_san_pham": 160,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 472,
+      "id_san_pham": 160,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 473,
+      "id_san_pham": 161,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 474,
+      "id_san_pham": 161,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 475,
+      "id_san_pham": 161,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 476,
+      "id_san_pham": 162,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 477,
+      "id_san_pham": 162,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 478,
+      "id_san_pham": 162,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 479,
+      "id_san_pham": 163,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 480,
+      "id_san_pham": 163,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 481,
+      "id_san_pham": 163,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 482,
+      "id_san_pham": 164,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 483,
+      "id_san_pham": 164,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 484,
+      "id_san_pham": 164,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 485,
+      "id_san_pham": 165,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 486,
+      "id_san_pham": 165,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 487,
+      "id_san_pham": 165,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 488,
+      "id_san_pham": 166,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 489,
+      "id_san_pham": 166,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 490,
+      "id_san_pham": 166,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 491,
+      "id_san_pham": 167,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 492,
+      "id_san_pham": 167,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 493,
+      "id_san_pham": 167,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 494,
+      "id_san_pham": 168,
+      "id_anh_san_pham": null
+    },
+    {
+      "id": 500,
+      "id_san_pham": 172,
+      "id_anh_san_pham": 516
+    },
+    {
+      "id": 501,
+      "id_san_pham": 172,
+      "id_anh_san_pham": 516
+    },
+    {
+      "id": 502,
+      "id_san_pham": 172,
+      "id_anh_san_pham": 516
+    },
+    {
+      "id": 503,
+      "id_san_pham": 172,
+      "id_anh_san_pham": 516
+    },
+    {
+      "id": 505,
+      "id_san_pham": 172,
+      "id_anh_san_pham": 515
+    },
+    {
+      "id": 506,
+      "id_san_pham": 172,
+      "id_anh_san_pham": 515
+    },
+    {
+      "id": 507,
+      "id_san_pham": 172,
+      "id_anh_san_pham": 515
+    },
+    {
+      "id": 508,
+      "id_san_pham": 172,
+      "id_anh_san_pham": 515
+    },
+    {
+      "id": 509,
+      "id_san_pham": 172,
+      "id_anh_san_pham": 515
+    }
+  ]
+}

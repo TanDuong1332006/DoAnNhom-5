@@ -1,0 +1,10 @@
+{
+    "passed": true,
+    "database": "doan_nhom_5",
+    "catalog_unchanged": true,
+    "full_order_history_hashes_unchanged": true,
+    "order_image_urls": 23,
+    "order_image_references": 41,
+    "storage_files_unchanged": 187,
+    "env_files_unchanged": true
+}

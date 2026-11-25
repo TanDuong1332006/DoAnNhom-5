@@ -1,0 +1,39 @@
+{
+    "id": 98,
+    "id_cua_hang": null,
+    "id_danh_muc": 5,
+    "id_thuong_hieu": 5,
+    "ma_san_pham": "SFP-AOKHOAC-10",
+    "ten_san_pham": "Áo Khoác Kaki Safari 4 Túi Hộp Quân Đội Đa Dụng",
+    "slug_san_pham": "ao-khoac-kaki-safari-4-tui-hop-quan-doi-da-dung-9uoh",
+    "gia_ban": "750000.00",
+    "gia_khuyen_mai": "630000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+    "mo_ta_ngan": "Lấy cảm hứng từ áo dã ngoại Safari, dây rút eo bên trong giúp tôn eo linh hoạt.",
+    "mo_ta_chi_tiet": "Lấy cảm hứng từ áo dã ngoại Safari, dây rút eo bên trong giúp tôn eo linh hoạt. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 125,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 1488,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:54.000000Z",
+    "updated_at": "2026-09-27T09:05:54.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 187,
+            "id_san_pham": 98,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 188,
+            "id_san_pham": 98,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        }
+    ]
+}

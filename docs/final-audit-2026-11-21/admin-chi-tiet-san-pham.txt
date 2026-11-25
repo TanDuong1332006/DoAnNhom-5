@@ -1,0 +1,68 @@
+Browser tab: 4, Title: "SOFEP STUDIO - Thời Trang Sang Xịn Mịn & Đương Đại 2026", URL: "http://127.0.0.1:5198/admin/chi-tiet-san-pham".
+1 AXWebArea SOFEP STUDIO - Thời Trang Sang Xịn Mịn & Đương Đại 2026, URL: 127.0.0.1:5198/admin/chi-tiet-san-pham
+	2 container
+		3 container
+			4 image
+			5 text SOFEP ✦ ADMIN PORTAL
+			6 combo box (collapsed, settable) Description: Tìm kiếm Admin, Secondary Actions: Expand
+			7 button user avatar SOFEP Demo Admin Quản Trị Viên
+				8 image user avatar
+				9 text SOFEP Demo Admin
+				10 text Quản Trị Viên
+		11 content list
+			12 link Description:  Dashboard, Value: 127.0.0.1:5198/admin
+			13 link (collapsed) Description:  Quản Lý Sản Phẩm, Value: javascript:;, Secondary Actions: Expand
+			14 link Description:  Đơn Hàng & Ưu Đãi, Value: javascript:;
+			15 link Description:  Khách Hàng & Phản Hồi, Value: javascript:;
+			16 link Description:  Báo Cáo & Thống Kê, Value: javascript:;
+		17 text THÊM BIẾN THỂ TỒN KHO
+		18 container
+			19 text Sản phẩm  *
+		20 pop up button (collapsed, settable) Value: -- Chọn sản phẩm --, Secondary Actions: Expand
+			21 menu
+				22 (selected) -- Chọn sản phẩm --
+		23 text Màu sắc
+		24 pop up button (collapsed, settable) Value: -- Không chọn màu --, Secondary Actions: Expand
+			25 menu
+				26 (selected) -- Không chọn màu --
+		27 text Kích thước (Size)
+		28 pop up button (collapsed, settable) Value: -- Không chọn size --, Secondary Actions: Expand
+			29 menu
+				30 (selected) -- Không chọn size --
+		31 container
+			32 text Số lượng tồn kho  *
+		33 stepper (settable, integer) 0
+		34 text Giá chênh lệch (+- VND)
+		35 stepper (settable, integer) 0
+		36 text Trạng thái
+		37 pop up button (collapsed, settable) Value: Đang bán, Secondary Actions: Expand
+			38 menu
+				39 (selected) Đang bán
+				40 Ngừng bán
+		41 button Thêm biến thể
+		42 text DANH SÁCH BIẾN THỂ TỒN KHO (0)
+		43 container
+			44 text 
+			45 text field (settable)
+		46 table
+			47 row
+				48 cell
+					49 text STT
+				50 cell
+					51 text Sản Phẩm
+				52 cell
+					53 text Màu Sắc
+				54 cell
+					55 text Kích Thước
+				56 cell
+					57 text Tồn Kho
+				58 cell
+					59 text Giá Chênh
+				60 cell
+					61 text Trạng thái / Thao tác
+			62 row
+				63 cell
+					64 text Không tìm thấy biến thể nào.
+		65 text © 2026 SOFEP STUDIO. Bản quyền thuộc về thương hiệu thời trang cao cấp.
+
+The focused UI element is 1 AXWebArea SOFEP STUDIO - Thời Trang Sang Xịn Mịn & Đương Đại 2026, URL: 127.0.0.1:5198/admin/chi-tiet-san-pham

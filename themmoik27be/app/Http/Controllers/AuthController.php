@@ -96,58 +96,60 @@ public function dangKy(DangKyRequest $request)    {
             'otp' => 'required|digits:6',
         ]);
 
-        $customer = KhachHang::where('email', $request->email)->first();
+        return DB::transaction(function () use ($request) {
+            $customer = KhachHang::where('email', $request->email)->lockForUpdate()->first();
 
-        if (!$customer) {
+            if (!$customer) {
+                return response()->json([
+                    'status' => 0,
+                    'message' => 'Không tìm thấy tài khoản.',
+                ], 404);
+            }
+
+            if ($customer->is_kich_hoat == 1) {
+                return response()->json([
+                    'status' => 0,
+                    'message' => 'Tài khoản này đã được xác thực.',
+                ], 422);
+            }
+
+            if (
+                !$customer->otp_expires_at ||
+                now()->greaterThanOrEqualTo($customer->otp_expires_at)
+            ) {
+                return response()->json([
+                    'status' => 0,
+                    'message' => 'Mã xác thực đã hết hạn. Vui lòng đăng ký lại.',
+                ], 422);
+            }
+
+            if (
+                !$customer->otp_hash ||
+                !Hash::check($request->otp, $customer->otp_hash)
+            ) {
+                return response()->json([
+                    'status' => 0,
+                    'message' => 'Mã xác thực không chính xác.',
+                ], 422);
+            }
+
+            $customer->is_kich_hoat = 1;
+            $customer->otp_hash = null;
+            $customer->otp_expires_at = null;
+            $customer->save();
+
             return response()->json([
-                'status' => 0,
-                'message' => 'Không tìm thấy tài khoản.',
-            ], 404);
-        }
-
-        if ($customer->is_kich_hoat == 1) {
-            return response()->json([
-                'status' => 0,
-                'message' => 'Tài khoản này đã được xác thực.',
-            ], 422);
-        }
-
-        if (
-            !$customer->otp_expires_at ||
-            now()->greaterThan($customer->otp_expires_at)
-        ) {
-            return response()->json([
-                'status' => 0,
-                'message' => 'Mã xác thực đã hết hạn. Vui lòng đăng ký lại.',
-            ], 422);
-        }
-
-        if (
-            !$customer->otp_hash ||
-            !Hash::check($request->otp, $customer->otp_hash)
-        ) {
-            return response()->json([
-                'status' => 0,
-                'message' => 'Mã xác thực không chính xác.',
-            ], 422);
-        }
-
-        $customer->is_kich_hoat = 1;
-        $customer->otp_hash = null;
-        $customer->otp_expires_at = null;
-        $customer->save();
-
-        return response()->json([
-            'status' => 1,
-            'message' => 'Xác thực email thành công! Bạn có thể đăng nhập.',
-            'data' => [
-                'id' => $customer->id,
-                'ho_va_ten' => $customer->ho_va_ten,
-                'email' => $customer->email,
-                'so_dien_thoai' => $customer->so_dien_thoai,
-                'role' => $customer->role ?? 'customer',
-            ],
-        ]);
+                'status' => 1,
+                'message' => 'Xác thực email thành công! Bạn có thể đăng nhập.',
+                'data' => [
+                    'id' => $customer->id,
+                    'ho_va_ten' => $customer->ho_va_ten,
+                    'email' => $customer->email,
+                    'so_dien_thoai' => $customer->so_dien_thoai,
+                    'role' => $customer->role ?? 'customer',
+                ],
+            ]);
+        });
     }
 
     /**
@@ -155,75 +157,78 @@ public function dangKy(DangKyRequest $request)    {
      */
     public function dangNhap(DangNhapRequest $request)
     {
-        $customer = KhachHang::where('email', $request->email)->first();
+        // Cùng row lock với reset: không cấp token từ hash cũ sau khi reset đã commit.
+        return DB::transaction(function () use ($request) {
+            $customer = KhachHang::where('email', $request->email)->lockForUpdate()->first();
 
-        if ($customer && Hash::check($request->mat_khau, $customer->mat_khau)) {
-            if ($customer->is_kich_hoat == 0) {
+            if ($customer && Hash::check($request->mat_khau, $customer->mat_khau)) {
+                if ($customer->is_kich_hoat == 0) {
+                    return response()->json([
+                        'status' => 0,
+                        'message' => 'Email chưa được xác thực. Vui lòng nhập mã OTP được gửi đến email.',
+                    ], 403);
+                }
+
+                if ($customer->is_khoa == 1) {
+                    return response()->json([
+                        'status' => 0,
+                        'message' => 'Tài khoản đã bị khóa. Vui lòng liên hệ Admin.',
+                    ], 403);
+                }
+
+                $role = $customer->role ?: 'customer';
+
+                // Không cho phép tài khoản trong bảng khách hàng tự nhận quyền admin.
+                if (!in_array($role, ['customer'], true)) {
+                    return response()->json([
+                        'status' => 0,
+                        'message' => 'Vai trò tài khoản không hợp lệ.',
+                    ], 403);
+                }
+
+                $token = $customer->createToken('khach_hang_token')->plainTextToken;
+
+
                 return response()->json([
-                    'status' => 0,
-                    'message' => 'Email chưa được xác thực. Vui lòng nhập mã OTP được gửi đến email.',
-                ], 403);
+                    'status' => 1,
+                    'message' => 'Đăng nhập thành công!',
+                    'token' => $token,
+                    'nguoi_dung' => [
+                        'id' => $customer->id,
+                        'ho_va_ten' => $customer->ho_va_ten,
+                        'email' => $customer->email,
+                        'so_dien_thoai' => $customer->so_dien_thoai,
+                        'role' => $role,
+                        'cua_hang_id' => null,
+                        'trang_thai_cua_hang' => null,
+                    ],
+                ]);
             }
 
-            if ($customer->is_khoa == 1) {
+            // Kiểm tra tài khoản admin trong bảng users.
+            $admin = User::where('email', $request->email)->lockForUpdate()->first();
+
+            if ($admin && Hash::check($request->mat_khau, $admin->password)) {
+                $token = $admin->createToken('admin_token')->plainTextToken;
+
                 return response()->json([
-                    'status' => 0,
-                    'message' => 'Tài khoản đã bị khóa. Vui lòng liên hệ Admin.',
-                ], 403);
+                    'status' => 1,
+                    'message' => 'Đăng nhập quản trị viên thành công!',
+                    'token' => $token,
+                    'nguoi_dung' => [
+                        'id' => $admin->id,
+                        'ho_va_ten' => $admin->name,
+                        'email' => $admin->email,
+                        'role' => 'admin',
+                    ],
+                ]);
             }
-
-            $role = $customer->role ?: 'customer';
-
-            // Không cho phép tài khoản trong bảng khách hàng tự nhận quyền admin.
-            if (!in_array($role, ['customer'], true)) {
-                return response()->json([
-                    'status' => 0,
-                    'message' => 'Vai trò tài khoản không hợp lệ.',
-                ], 403);
-            }
-
-            $token = $customer->createToken('khach_hang_token')->plainTextToken;
-
 
             return response()->json([
-                'status' => 1,
-                'message' => 'Đăng nhập thành công!',
-                'token' => $token,
-                'nguoi_dung' => [
-                    'id' => $customer->id,
-                    'ho_va_ten' => $customer->ho_va_ten,
-                    'email' => $customer->email,
-                    'so_dien_thoai' => $customer->so_dien_thoai,
-                    'role' => $role,
-                    'cua_hang_id' => null,
-                    'trang_thai_cua_hang' => null,
-                ],
-            ]);
-        }
-
-        // Kiểm tra tài khoản admin trong bảng users.
-        $admin = User::where('email', $request->email)->first();
-
-        if ($admin && Hash::check($request->mat_khau, $admin->password)) {
-            $token = $admin->createToken('admin_token')->plainTextToken;
-
-            return response()->json([
-                'status' => 1,
-                'message' => 'Đăng nhập quản trị viên thành công!',
-                'token' => $token,
-                'nguoi_dung' => [
-                    'id' => $admin->id,
-                    'ho_va_ten' => $admin->name,
-                    'email' => $admin->email,
-                    'role' => 'admin',
-                ],
-            ]);
-        }
-
-        return response()->json([
-            'status' => 0,
-            'message' => 'Email hoặc mật khẩu không chính xác.',
-        ], 401);
+                'status' => 0,
+                'message' => 'Email hoặc mật khẩu không chính xác.',
+            ], 401);
+        });
     }
 
     /**

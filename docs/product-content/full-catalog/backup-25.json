@@ -1,0 +1,39 @@
+{
+    "id": 25,
+    "id_cua_hang": null,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": 1,
+    "ma_san_pham": "SFP-AONAM-17",
+    "ten_san_pham": "Áo Thun Nam Form Rộng Thêu Chữ Nổi SOFEP Haute Atelier",
+    "slug_san_pham": "ao-thun-nam-form-rong-theu-chu-noi-sofep-haute-atelier-tgiu",
+    "gia_ban": "370000.00",
+    "gia_khuyen_mai": "320000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+    "mo_ta_ngan": "Chữ thêu vi tính dày 3D sắc nét, đường cắt vai rủ tự do chuẩn aesthetic 2026.",
+    "mo_ta_chi_tiet": "Chữ thêu vi tính dày 3D sắc nét, đường cắt vai rủ tự do chuẩn aesthetic 2026. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 71,
+    "is_noi_bat": 0,
+    "is_flash_sale": 1,
+    "luot_xem": 2571,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:52.000000Z",
+    "updated_at": "2026-09-27T09:05:52.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 41,
+            "id_san_pham": 25,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 42,
+            "id_san_pham": 25,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        }
+    ]
+}

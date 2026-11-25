@@ -12,9 +12,9 @@
     <div v-else-if="product.id" class="row g-5">
       <!-- Image -->
       <div class="col-md-5">
-        <img :src="selectedImage || product.image" class="img-fluid rounded-3 shadow" :alt="product.name" style="width:100%; height: 450px; object-fit: cover;">
+        <ProductImage :src="selectedImage || product.image" class="img-fluid rounded-3 shadow" :alt="product.name" style="width:100%; height: 450px; object-fit: cover;" />
         <div v-if="product.images?.length" class="d-flex gap-2 mt-3">
-          <img v-for="img in product.images" :key="img.id" :src="img.image" class="rounded border" width="70" height="70" style="object-fit:cover; cursor:pointer;" @click="selectedImage = img.image">
+          <ProductImage v-for="img in product.images" :key="img.id" :src="img.image" class="rounded border" width="70" height="70" style="object-fit:cover; cursor:pointer;" @click="selectedImage = img.image" />
         </div>
       </div>
 
@@ -78,6 +78,7 @@
 </template>
 
 <script>
+import ProductImage from '../../components/shared/ProductImage.vue';
 import axiosClient from '@/services/axiosClient'
 import { authStore } from '@/stores/authStore'
 import { cartStore } from '@/stores/cartStore'
@@ -85,7 +86,7 @@ import ProductCard from '@/components/ProductCard.vue'
 
 export default {
   name: 'ProductDetail',
-  components: { ProductCard },
+  components: { ProductImage, ProductCard },
   data() {
     return { product: {}, related: [], loading: true, qty: 1, addingToCart: false, selectedImage: null }
   },

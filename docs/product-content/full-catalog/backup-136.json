@@ -1,0 +1,39 @@
+{
+    "id": 136,
+    "id_cua_hang": null,
+    "id_danh_muc": 7,
+    "id_thuong_hieu": 3,
+    "ma_san_pham": "SFP-TUIXACH-08",
+    "ten_san_pham": "Ví Cầm Tay Nữ Clutch Dạ Hội Đính Hạt Lấp Lánh Khóa Bạc",
+    "slug_san_pham": "vi-cam-tay-nu-clutch-da-hoi-dinh-hat-lap-lanh-khoa-bac-7dkl",
+    "gia_ban": "720000.00",
+    "gia_khuyen_mai": "590000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+    "mo_ta_ngan": "Đính kết pha lê bắt sáng rực rỡ, kèm dây xích đeo chéo tháo rời linh hoạt.",
+    "mo_ta_chi_tiet": "Đính kết pha lê bắt sáng rực rỡ, kèm dây xích đeo chéo tháo rời linh hoạt. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 160,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 950,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:56.000000Z",
+    "updated_at": "2026-09-27T09:05:56.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 263,
+            "id_san_pham": 136,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        },
+        {
+            "id": 264,
+            "id_san_pham": 136,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        }
+    ]
+}

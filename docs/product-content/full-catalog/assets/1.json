@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "sku": "SP-AONAM-01",
+  "name": "Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp",
+  "prompt": "One unique premium ecommerce product studio illustration. Product type and design: Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp. Match exact garment construction, cut, gender, neckline, pattern and sleeve length. Single garment only, full item visible, front view on invisible mannequin against clean light gray background. Choose black, white or navy; obey explicit color named in title. No human, no accessories, no props, no watermark, no text, no external brand logos. Original AI-created SOFEP local demo illustration, not real SKU photography.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; no third-party stock license; not real SKU photography",
+  "file": "assets/1.jpg",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-d11c02ae-6bea-42e8-85a0-8f98f6a83d14.png",
+  "created_at": "2026-10-31T09:45:57.903Z",
+  "review": "approved",
+  "sha256": "18cac68cf57ce6b2bd2794834575343b5dfde1e2bee16bf77084385d01c38afc",
+  "bytes": 105781
+}

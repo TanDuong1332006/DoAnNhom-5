@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "products": 168,
+  "all_http_200": true,
+  "local_image_cors": true,
+  "retained_gallery": 167,
+  "cleanup_candidates": 298
+}

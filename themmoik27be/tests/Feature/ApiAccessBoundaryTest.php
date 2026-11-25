@@ -179,7 +179,7 @@ class ApiAccessBoundaryTest extends IsolatedApiTestCase
         \Illuminate\Support\Facades\Mail::fake();
         $customer = $this->customer('customer');
         $this->callApi('POST', '/api/forgot-password/send-otp', null, ['email' => $customer->email])->assertOk();
-        $otp = \Illuminate\Support\Facades\Cache::get('otp_reset_'.$customer->email);
+        $otp = \Illuminate\Support\Facades\Mail::sent(\App\Mail\SendOtpMail::class)->last()->otp;
         $this->assertNotNull($otp);
         $this->callApi('POST', '/api/forgot-password/verify-otp', null, ['email' => $customer->email, 'otp' => $otp])->assertOk();
         $this->callApi('POST', '/api/forgot-password/reset-password', null, [

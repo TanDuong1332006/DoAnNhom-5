@@ -1,0 +1,5 @@
+{
+  "command": "php -l <file>",
+  "checked": 116,
+  "failures": []
+}

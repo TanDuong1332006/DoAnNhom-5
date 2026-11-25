@@ -1,0 +1,39 @@
+{
+    "id": 30,
+    "id_cua_hang": null,
+    "id_danh_muc": 2,
+    "id_thuong_hieu": 3,
+    "ma_san_pham": "SFP-QUANNAM-02",
+    "ten_san_pham": "Quần Kaki Nam Chino Dáng Tapered Fit Co Giãn Nhẹ",
+    "slug_san_pham": "quan-kaki-nam-chino-dang-tapered-fit-co-gian-nhe-bhba",
+    "gia_ban": "540000.00",
+    "gia_khuyen_mai": "460000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+    "mo_ta_ngan": "Chất vải Kaki Twill dệt chéo bề mặt mịn, cạp quần lót viền chỉ đôi cao cấp.",
+    "mo_ta_chi_tiet": "Chất vải Kaki Twill dệt chéo bề mặt mịn, cạp quần lót viền chỉ đôi cao cấp. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 147,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 869,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:52.000000Z",
+    "updated_at": "2026-09-27T09:05:52.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 51,
+            "id_san_pham": 30,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 52,
+            "id_san_pham": 30,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        }
+    ]
+}

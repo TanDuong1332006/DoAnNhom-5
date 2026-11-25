@@ -1,0 +1,39 @@
+{
+    "id": 148,
+    "id_cua_hang": null,
+    "id_danh_muc": 7,
+    "id_thuong_hieu": 2,
+    "ma_san_pham": "SFP-TUIXACH-20",
+    "ten_san_pham": "Túi Đeo Chéo Mini Trong Suốt Nhựa PVC Đi Lễ Hội Âm Nhạc",
+    "slug_san_pham": "tui-deo-cheo-mini-trong-suot-nhua-pvc-di-le-hoi-am-nhac-v9yw",
+    "gia_ban": "260000.00",
+    "gia_khuyen_mai": "199000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+    "mo_ta_ngan": "Chất liệu PVC chống nước đạt tiêu chuẩn qua cửa an ninh sự kiện, thời trang Y2K.",
+    "mo_ta_chi_tiet": "Chất liệu PVC chống nước đạt tiêu chuẩn qua cửa an ninh sự kiện, thời trang Y2K. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 157,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 513,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:56.000000Z",
+    "updated_at": "2026-09-27T09:05:56.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 287,
+            "id_san_pham": 148,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        },
+        {
+            "id": 288,
+            "id_san_pham": 148,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        }
+    ]
+}

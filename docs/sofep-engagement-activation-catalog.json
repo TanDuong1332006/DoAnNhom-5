@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-11-07T09:48:07.359Z",
+  "products": 168,
+  "samples": [
+    {
+      "id": 172,
+      "slug": "ao-polo",
+      "price": "350000.00",
+      "sale": "300000.00",
+      "variants": 9,
+      "gallery": 2,
+      "primary_image_status": 200
+    },
+    {
+      "id": 84,
+      "slug": "ao-so-mi-nu-tay-lo-vai-dui-moc-mac-toi-gian-v3te",
+      "price": "410000.00",
+      "sale": "340000.00",
+      "variants": 3,
+      "gallery": 4,
+      "primary_image_status": 200
+    },
+    {
+      "id": 1,
+      "slug": "ao-thun-nam-co-tron-cotton-supima",
+      "price": "299000.00",
+      "sale": "249000.00",
+      "variants": 2,
+      "gallery": 4,
+      "primary_image_status": 200
+    }
+  ],
+  "passed": true
+}

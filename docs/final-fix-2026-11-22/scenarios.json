@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "label": "customer login",
+      "path": "/dang-nhap",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "label": "admin login",
+      "path": "/dang-nhap",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "label": "registration creates inactive demo account",
+      "path": "/dang-ky",
+      "status": 201,
+      "expected": 201,
+      "pass": true
+    },
+    {
+      "label": "unverified registration cannot login",
+      "path": "/dang-nhap",
+      "status": 403,
+      "expected": 403,
+      "pass": true
+    },
+    {
+      "label": "create synthetic voucher",
+      "path": "/admin/ma-giam-gia/create",
+      "status": 201,
+      "expected": 201,
+      "pass": true
+    },
+    {
+      "label": "quote valid voucher",
+      "path": "/client/kiem-tra-voucher",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "label": "quote amount reduced",
+      "pass": true
+    },
+    {
+      "label": "quote invalid voucher",
+      "path": "/client/kiem-tra-voucher",
+      "status": 422,
+      "expected": 422,
+      "pass": true
+    },
+    {
+      "label": "checkout valid voucher",
+      "path": "/client/dat-hang",
+      "status": 201,
+      "expected": 201,
+      "pass": true
+    },
+    {
+      "label": "invalid order jump blocked",
+      "path": "/admin/don-hang/update-status",
+      "status": 409,
+      "expected": 409,
+      "pass": true
+    },
+    {
+      "label": "cancel unpaid synthetic order",
+      "path": "/admin/don-hang/update-status",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "label": "repeat cancel idempotent",
+      "path": "/admin/don-hang/update-status",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "label": "variants for out of stock",
+      "path": "/admin/chi-tiet-san-pham/get-data",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "label": "out of stock rejected",
+      "path": "/client/dat-hang",
+      "status": 422,
+      "expected": 422,
+      "pass": true
+    }
+  ],
+  "scope": "Synthetic UAT fixtures only; array mailer; real delivery/positive browser OTP not tested."
+}

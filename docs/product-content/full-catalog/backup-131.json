@@ -1,0 +1,39 @@
+{
+    "id": 131,
+    "id_cua_hang": null,
+    "id_danh_muc": 7,
+    "id_thuong_hieu": 2,
+    "ma_san_pham": "SFP-TUIXACH-03",
+    "ten_san_pham": "Túi Tote Vải Canvas Dày Dặn Đựng Vừa Hồ Sơ Laptop A4",
+    "slug_san_pham": "tui-tote-vai-canvas-day-dan-dung-vua-ho-so-laptop-a4-ozq4",
+    "gia_ban": "290000.00",
+    "gia_khuyen_mai": "220000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+    "mo_ta_ngan": "Vải canvas dệt mật độ cao chịu lực đến 15kg, có ngăn con có khóa kéo an toàn.",
+    "mo_ta_chi_tiet": "Vải canvas dệt mật độ cao chịu lực đến 15kg, có ngăn con có khóa kéo an toàn. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 133,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 1584,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:55.000000Z",
+    "updated_at": "2026-09-27T09:05:55.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 253,
+            "id_san_pham": 131,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        },
+        {
+            "id": 254,
+            "id_san_pham": 131,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        }
+    ]
+}

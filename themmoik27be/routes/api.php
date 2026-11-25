@@ -9,7 +9,6 @@ use App\Http\Controllers\Admin\ChiTietSanPhamController;
 use App\Http\Controllers\Admin\KhachHangController;
 use App\Http\Controllers\Admin\MaGiamGiaController;
 use App\Http\Controllers\Admin\DonHangController;
-use App\Http\Controllers\Admin\DanhGiaController;
 use App\Http\Controllers\Admin\ThongKeController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ClientController;
@@ -25,36 +24,38 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Auth (Đăng ký, Đăng nhập, Kiểm tra đăng nhập, Đăng xuất, Quên mật khẩu)
-Route::post('/dang-ky',             [AuthController::class, 'dangKy']);
-Route::post('/xac-thuc-otp',         [AuthController::class, 'xacThucOtp']);
-Route::post('/dang-nhap',           [AuthController::class, 'dangNhap']);
+Route::post('/dang-ky',             [AuthController::class, 'dangKy'])->middleware('throttle:auth-register');
+Route::post('/xac-thuc-otp',         [AuthController::class, 'xacThucOtp'])->middleware('throttle:auth-register-otp');
+Route::post('/dang-nhap',           [AuthController::class, 'dangNhap'])->middleware('throttle:auth-login');
 Route::get('/kiem-tra-dang-nhap',   [AuthController::class, 'kiemTraDangNhap'])->middleware('auth:sanctum');
 Route::post('/dang-xuat',           [AuthController::class, 'dangXuat']);
-Route::post('/admin-login',         [AuthController::class, 'dangNhap']);
-Route::post('/auth/admin-login',    [AuthController::class, 'dangNhap']);
+Route::post('/admin-login',         [AuthController::class, 'dangNhap'])->middleware('throttle:auth-login');
+Route::post('/auth/admin-login',    [AuthController::class, 'dangNhap'])->middleware('throttle:auth-login');
 
 // THÊM ROUTES QUÊN MẬT KHẨU Ở ĐÂY:
-Route::post('/forgot-password/send-otp', [ForgotPasswordController::class, 'sendOtp']);
-Route::post('/forgot-password/verify-otp', [ForgotPasswordController::class, 'verifyOtp']);
-Route::post('/forgot-password/reset-password', [ForgotPasswordController::class, 'resetPassword']);
+Route::post('/forgot-password/send-otp', [ForgotPasswordController::class, 'sendOtp'])->middleware('throttle:auth-reset-send');
+Route::post('/forgot-password/verify-otp', [ForgotPasswordController::class, 'verifyOtp'])->middleware('throttle:auth-reset-otp');
+Route::post('/forgot-password/reset-password', [ForgotPasswordController::class, 'resetPassword'])->middleware('throttle:auth-reset-otp');
 
 // Giao Dịch MB Bank & Thanh Toán Tự Động
-Route::any('/giao-dich',                         [giaoDichController::class, 'getData']);
-Route::post('/giao-dich/mo-phong',               [giaoDichController::class, 'moPhongThanhToan']);
-Route::get('/kiem-tra-thanh-toan/{ma_hoa_don}',  [giaoDichController::class, 'kiemTraThanhToan']);
+Route::any('/giao-dich',                         [giaoDichController::class, 'getData'])->middleware(['auth:sanctum', 'admin']);
+Route::post('/giao-dich/mo-phong',               [giaoDichController::class, 'moPhongThanhToan'])->middleware(['auth:sanctum', \App\Http\Middleware\RequireCustomer::class]);
+Route::get('/kiem-tra-thanh-toan/{ma_hoa_don}',  [giaoDichController::class, 'kiemTraThanhToan'])->middleware(['auth:sanctum', \App\Http\Middleware\RequireCustomer::class]);
 
 // File ảnh raster do Admin tải lên, không thực thi nội dung upload.
 Route::get('/product-images/{product}/{filename}', [\App\Http\Controllers\Admin\ProductImageController::class, 'image'])->whereNumber('product');
 
 // Public Client API
 Route::prefix('client')->middleware(\App\Http\Middleware\RejectLegacySeller::class)->group(function () {
+    Route::get('/don-hang', [\App\Http\Controllers\CustomerOrderController::class, 'index'])->middleware(['auth:sanctum', \App\Http\Middleware\RequireCustomer::class]);
+    Route::get('/don-hang/{id}', [\App\Http\Controllers\CustomerOrderController::class, 'show'])->whereNumber('id')->middleware(['auth:sanctum', \App\Http\Middleware\RequireCustomer::class]);
     Route::get('/demo/san-pham/{slug}', [\App\Http\Controllers\ProductDetailController::class, 'show']);
     Route::get('/danh-mucs',              [ClientController::class, 'getDanhMucs']);
     Route::get('/tuy-chon-san-pham',      [ClientController::class, 'getTuyChonSanPham']);
     Route::get('/home-data',              [ClientController::class, 'getHomeData']);
     Route::get('/san-phams',              [ClientController::class, 'getSanPhams']);
     Route::get('/san-pham/{slug}',        [ClientController::class, 'getChiTietSanPham']);
-    Route::post('/dat-hang',              [ClientController::class, 'datHang']);
+    Route::post('/dat-hang',              [ClientController::class, 'datHang'])->middleware(['auth:sanctum', \App\Http\Middleware\RequireCustomer::class]);
     Route::post('/kiem-tra-voucher',      [ClientController::class, 'kiemTraVoucher']);
 });
 
@@ -142,11 +143,6 @@ Route::prefix('admin')->middleware(['auth:sanctum', 'admin'])->group(function ()
     });
 
     // Đánh Giá
-    Route::prefix('danh-gia')->group(function () {
-        Route::get('/get-data',       [DanhGiaController::class, 'getData']);
-        Route::post('/change-status', [DanhGiaController::class, 'doiTrangThai']);
-        Route::post('/destroy',       [DanhGiaController::class, 'destroy']);
-    });
 
     // Thống Kê & Chart Views
     Route::prefix('thong-ke')->group(function () {
@@ -160,5 +156,30 @@ Route::prefix('admin')->middleware(['auth:sanctum', 'admin'])->group(function ()
     Route::prefix('giao-dich')->group(function () {
         Route::get('/get-data',       [giaoDichController::class, 'layDanhSachGiaoDich']);
         Route::post('/sync',          [giaoDichController::class, 'getData']);
+    });
+});
+
+// Customer engagement: chỉ kích hoạt sau migration được phê duyệt trên đúng database.
+Route::group([], function () {
+    Route::post('/client/gop-y', [\App\Http\Controllers\FeedbackController::class, 'store'])->middleware([\App\Http\Middleware\EngagementReady::class, 'throttle:feedback']);
+    Route::prefix('client')->middleware(['auth:sanctum', \App\Http\Middleware\RequireCustomer::class, \App\Http\Middleware\EngagementReady::class])->group(function () {
+        Route::get('/thong-bao/count', [\App\Http\Controllers\CustomerInboxController::class, 'count']);
+        Route::get('/thong-bao', [\App\Http\Controllers\CustomerInboxController::class, 'index']);
+        Route::post('/thong-bao/doc-tat-ca', [\App\Http\Controllers\CustomerInboxController::class, 'readAll']);
+        Route::post('/thong-bao/{id}/da-doc', [\App\Http\Controllers\CustomerInboxController::class, 'read'])->whereNumber('id');
+        Route::match(['get','put'], '/tuy-chon-thong-bao', [\App\Http\Controllers\CustomerInboxController::class, 'preferences']);
+        Route::get('/vi-uu-dai', [\App\Http\Controllers\CustomerInboxController::class, 'wallet']);
+        Route::post('/vi-uu-dai/{id}/luu', [\App\Http\Controllers\CustomerInboxController::class, 'save'])->whereNumber('id');
+    });
+    Route::prefix('admin')->middleware(['auth:sanctum','admin', \App\Http\Middleware\EngagementReady::class])->group(function () {
+        Route::get('/gop-y', [\App\Http\Controllers\FeedbackController::class, 'index']);
+        Route::get('/gop-y/{id}', [\App\Http\Controllers\FeedbackController::class, 'show'])->whereNumber('id');
+        Route::patch('/gop-y/{id}', [\App\Http\Controllers\FeedbackController::class, 'update'])->whereNumber('id');
+        Route::get('/gop-y/{id}/anh/{image}', [\App\Http\Controllers\FeedbackController::class, 'image'])->whereNumber(['id','image']);
+        Route::post('/gop-y/{id}/phan-hoi', [\App\Http\Controllers\FeedbackController::class, 'reply'])->whereNumber('id');
+        Route::get('/chien-dich', [\App\Http\Controllers\Admin\CustomerCampaignController::class, 'index']);
+        Route::post('/chien-dich/xem-truoc', [\App\Http\Controllers\Admin\CustomerCampaignController::class, 'preview']);
+        Route::post('/chien-dich', [\App\Http\Controllers\Admin\CustomerCampaignController::class, 'store']);
+        Route::post('/chien-dich/giao-lo', [\App\Http\Controllers\Admin\CustomerCampaignController::class, 'dispatch']);
     });
 });

@@ -1,0 +1,15 @@
+{
+  "id": 84,
+  "sku": "SFP-AONU-16",
+  "name": "Áo Sơ Mi Nữ Tay Lỡ Vải Đũi Mộc Mạc Tối Giản",
+  "prompt": "One unique premium ecommerce product studio illustration. Product type and design: Áo Sơ Mi Nữ Tay Lỡ Vải Đũi Mộc Mạc Tối Giản. Match exact garment construction, cut, gender, neckline, pattern and sleeve length. Single garment only, full item visible, front view on invisible mannequin against clean light gray background. Choose black, white or navy; obey explicit color named in title. No human, no accessories, no props, no watermark, no text, no external brand logos. Original AI-created SOFEP local demo illustration, not real SKU photography.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; no third-party stock license; not real SKU photography",
+  "file": "assets/84.jpg",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-43287f18-9c99-44a5-8f80-b250a1d502de.png",
+  "created_at": "2026-10-31T09:53:05.02Z",
+  "review": "approved",
+  "sha256": "9d306044a220848e085cc6b97bc6c7e8ee8f8e0e334f3f28508b9bec6f4a3016",
+  "bytes": 123283
+}

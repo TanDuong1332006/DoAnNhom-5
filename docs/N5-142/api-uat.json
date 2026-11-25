@@ -1,0 +1,235 @@
+{
+    "database": "sofep_security_uat_20261118_d588ff07a906",
+    "cache_prefix": "n5142-f4971d:",
+    "passed": true,
+    "checks": [
+        {
+            "case": "Guest create order denied",
+            "expected": 401,
+            "actual": 401,
+            "passed": true
+        },
+        {
+            "case": "Seller create order denied",
+            "expected": 403,
+            "actual": 403,
+            "passed": true
+        },
+        {
+            "case": "Admin create Customer order denied",
+            "expected": 403,
+            "actual": 403,
+            "passed": true
+        },
+        {
+            "case": "Customer admin API denied",
+            "expected": 403,
+            "actual": 403,
+            "passed": true
+        },
+        {
+            "case": "Out of stock rolls back",
+            "expected": 422,
+            "actual": 422,
+            "passed": true
+        },
+        {
+            "case": "Invalid voucher rolls back",
+            "expected": 422,
+            "actual": 422,
+            "passed": true
+        },
+        {
+            "case": "Missing shipping address rejected",
+            "expected": 422,
+            "actual": 422,
+            "passed": true
+        },
+        {
+            "case": "Failed checkouts preserve stock and voucher",
+            "passed": true
+        },
+        {
+            "case": "Quote valid voucher",
+            "expected": 200,
+            "actual": 200,
+            "passed": true
+        },
+        {
+            "case": "Server total 440000 - 44000 + 30000",
+            "passed": true
+        },
+        {
+            "case": "Quote does not reserve resources",
+            "passed": true
+        },
+        {
+            "case": "Create valid simulated order",
+            "expected": 201,
+            "actual": 201,
+            "passed": true
+        },
+        {
+            "case": "Idempotent retry returns same order",
+            "expected": 201,
+            "actual": 201,
+            "passed": true
+        },
+        {
+            "case": "Repeated checkout consumes stock\/voucher once",
+            "passed": true
+        },
+        {
+            "case": "Key reused for changed cart rejected",
+            "expected": 409,
+            "actual": 409,
+            "passed": true
+        },
+        {
+            "case": "Other Customer cannot read order",
+            "expected": 403,
+            "actual": 403,
+            "passed": true
+        },
+        {
+            "case": "Other Customer cannot simulate payment",
+            "expected": 403,
+            "actual": 403,
+            "passed": true
+        },
+        {
+            "case": "Failed payment simulation",
+            "expected": 200,
+            "actual": 200,
+            "passed": true
+        },
+        {
+            "case": "Failed payment remains unpaid",
+            "passed": true
+        },
+        {
+            "case": "Successful payment simulation",
+            "expected": 200,
+            "actual": 200,
+            "passed": true
+        },
+        {
+            "case": "Repeated payment simulation",
+            "expected": 200,
+            "actual": 200,
+            "passed": true
+        },
+        {
+            "case": "Payment retry does not consume resources again",
+            "passed": true
+        },
+        {
+            "case": "Cannot skip order lifecycle",
+            "expected": 409,
+            "actual": 409,
+            "passed": true
+        },
+        {
+            "case": "Admin transitions da_xac_nhan",
+            "expected": 200,
+            "actual": 200,
+            "passed": true
+        },
+        {
+            "case": "Owner reads da_xac_nhan",
+            "expected": 200,
+            "actual": 200,
+            "passed": true
+        },
+        {
+            "case": "Owner status matches da_xac_nhan",
+            "passed": true
+        },
+        {
+            "case": "Admin transitions dang_giao",
+            "expected": 200,
+            "actual": 200,
+            "passed": true
+        },
+        {
+            "case": "Owner reads dang_giao",
+            "expected": 200,
+            "actual": 200,
+            "passed": true
+        },
+        {
+            "case": "Owner status matches dang_giao",
+            "passed": true
+        },
+        {
+            "case": "Admin transitions da_giao",
+            "expected": 200,
+            "actual": 200,
+            "passed": true
+        },
+        {
+            "case": "Owner reads da_giao",
+            "expected": 200,
+            "actual": 200,
+            "passed": true
+        },
+        {
+            "case": "Owner status matches da_giao",
+            "passed": true
+        },
+        {
+            "case": "Cannot cancel paid order",
+            "expected": 409,
+            "actual": 409,
+            "passed": true
+        },
+        {
+            "case": "Create COD",
+            "expected": 201,
+            "actual": 201,
+            "passed": true
+        },
+        {
+            "case": "COD starts unpaid",
+            "passed": true
+        },
+        {
+            "case": "COD cannot use bank simulation",
+            "expected": 409,
+            "actual": 409,
+            "passed": true
+        },
+        {
+            "case": "Cannot complete unpaid COD",
+            "expected": 409,
+            "actual": 409,
+            "passed": true
+        },
+        {
+            "case": "Admin cancels unpaid order",
+            "expected": 200,
+            "actual": 200,
+            "passed": true
+        },
+        {
+            "case": "Repeat cancellation is safe",
+            "expected": 200,
+            "actual": 200,
+            "passed": true
+        },
+        {
+            "case": "Cancellation restores stock\/voucher exactly once",
+            "passed": true
+        },
+        {
+            "case": "Customer cannot cancel via Admin API",
+            "expected": 403,
+            "actual": 403,
+            "passed": true
+        }
+    ],
+    "stock_before": 10,
+    "stock_after": 8,
+    "voucher_before": 0,
+    "voucher_after": 1
+}

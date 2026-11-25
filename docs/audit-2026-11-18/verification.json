@@ -1,0 +1,63 @@
+{
+  "audit_date": "2026-11-18",
+  "branch": "nhanh-cua-duong",
+  "head": "ece155286b4dbbd59903c1484d71fe26bc7616d5",
+  "frontend": {
+    "command": "node --test tests/*.test.mjs",
+    "cwd": "Fe",
+    "exit_code": 0,
+    "tests": 59,
+    "passed": 59,
+    "failed": 0,
+    "skipped": 0,
+    "limitation": "Mock/component harness, not complete browser UAT"
+  },
+  "backend": {
+    "command": "php vendor/bin/phpunit --no-progress --do-not-cache-result",
+    "cwd": "themmoik27be",
+    "exit_code": 0,
+    "tests": 72,
+    "passed": 70,
+    "skipped": 2,
+    "assertions": 1183,
+    "reported_duration_ms": 54949,
+    "database": "SQLite :memory: with IsolatedApiTestCase guard",
+    "external_mail": "fake/array",
+    "skip_reason": "Two optional fixture exporters require SOFEP_UAT_DIR"
+  },
+  "build": {
+    "command": "npm run build -- --outDir ../docs/audit-2026-11-18/build-check",
+    "cwd": "Fe",
+    "exit_code": 0,
+    "modules": 168,
+    "vite": "4.4.8",
+    "largest_js_kB": 408.4,
+    "largest_js_gzip_kB": 130.77,
+    "output": "Retained generated build-check directory; cleanup rejected by automatic approval review; existing Fe/dist untouched"
+  },
+  "php_lint": {
+    "command": "php -l <file>",
+    "checked": 116,
+    "failures": []
+  },
+  "git_diff_check": {
+    "exit_code": 0,
+    "warnings": "Existing CRLF files; no formatting performed"
+  },
+  "source_hashes_checked": 206,
+  "source_hashes_changed_after_snapshot": [],
+  "proposal": {
+    "path": "IS432CIS-Proposal_SOFEP .docx",
+    "bytes": 1723856,
+    "sha256": "c50d0a8949fee3925de98911b1a2d79a66e516813f3623c97fe83a0228293dfa",
+    "body_extracted": true,
+    "embedded_diagrams_inspected": [
+      "image2.png",
+      "image3.png"
+    ],
+    "full_page_rendered": false
+  },
+  "live_uat_today": false,
+  "mysql_write_tests_today": false,
+  "db_env_dependencies_git_jira_mutations": false
+}

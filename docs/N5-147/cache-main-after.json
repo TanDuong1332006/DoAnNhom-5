@@ -1,0 +1,259 @@
+{
+    "checked_at_utc": "2026-11-18T09:58:49+00:00",
+    "mode": "PDO START TRANSACTION READ ONLY; SELECT only; no Cache API",
+    "database": "doan_nhom_5",
+    "expected_runtime_keys": 26,
+    "rows_found": 24,
+    "active_rows": 8,
+    "matched_rows_sha256": "3f248cf86439004613579bf6a92fefc65809ee6155fc874d31966a85d0f48379",
+    "keys": [
+        {
+            "limiter": "auth-register",
+            "scope": "fixture-account",
+            "kind": "counter",
+            "key_sha256": "89398b4250491edd92831badf0fca8bb7d4fd291c14c502bb2d048a1f3647efb",
+            "present": true,
+            "expiration_utc": "2026-11-18T10:30:23+00:00",
+            "active": true,
+            "counter": 1
+        },
+        {
+            "limiter": "auth-register",
+            "scope": "fixture-account",
+            "kind": "timer",
+            "key_sha256": "a5329f0ab5e450c18684229ca9a9f38a8e9b7c18935591017a14c700d59400d8",
+            "present": true,
+            "expiration_utc": "2026-11-18T10:30:23+00:00",
+            "active": true
+        },
+        {
+            "limiter": "auth-register",
+            "scope": "fixture-ip",
+            "kind": "counter",
+            "key_sha256": "e1a371f36c1954ca039475262e3784281c6e6ddee2c05dbddfc98ae86c559baf",
+            "present": true,
+            "expiration_utc": "2026-11-18T10:30:23+00:00",
+            "active": true,
+            "counter": 1
+        },
+        {
+            "limiter": "auth-register",
+            "scope": "fixture-ip",
+            "kind": "timer",
+            "key_sha256": "83c2b3d42adb870e0f87afcd805d944a0837605bee7ae2c6d061fbf5199f975c",
+            "present": true,
+            "expiration_utc": "2026-11-18T10:30:23+00:00",
+            "active": true
+        },
+        {
+            "limiter": "auth-register-otp",
+            "scope": "fixture-account",
+            "kind": "counter",
+            "key_sha256": "21a4af1d382438a031085f1c976b5d2dd67f7db930bbf9c00480514c2ecd6638",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:40:30+00:00",
+            "active": false,
+            "counter": 3
+        },
+        {
+            "limiter": "auth-register-otp",
+            "scope": "fixture-account",
+            "kind": "timer",
+            "key_sha256": "b982446069438ba60775bc1deaf4c48ea3f0b5717e260032f9445257304726ff",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:40:30+00:00",
+            "active": false
+        },
+        {
+            "limiter": "auth-register-otp",
+            "scope": "fixture-ip",
+            "kind": "counter",
+            "key_sha256": "ec59d07fac7a22934e1f81297ada3e40d56770080e2a983c153c0f17189d7cee",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:40:30+00:00",
+            "active": false,
+            "counter": 3
+        },
+        {
+            "limiter": "auth-register-otp",
+            "scope": "fixture-ip",
+            "kind": "timer",
+            "key_sha256": "c5ef2328047e56a7ca24ddfc1873963c7fa267bb53e30f99ec539e9f6ea263ba",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:40:30+00:00",
+            "active": false
+        },
+        {
+            "limiter": "auth-login",
+            "scope": "fixture-account",
+            "kind": "counter",
+            "key_sha256": "3f1661c98c68151a027e17cd1ba4c6a8c72ed14263ae54dea5c1cb37b29e35d7",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:31:30+00:00",
+            "active": false,
+            "counter": 4
+        },
+        {
+            "limiter": "auth-login",
+            "scope": "fixture-account",
+            "kind": "timer",
+            "key_sha256": "0d1c217bd1fb30ecd105b7987687fc07f6fb6469731fdc0288e2a4924b8817d8",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:31:30+00:00",
+            "active": false
+        },
+        {
+            "limiter": "auth-login",
+            "scope": "fixture-account",
+            "kind": "counter",
+            "key_sha256": "24669d50499346f6edb30096c36be88475fba08c9c0781e2115e55ec68642cb4",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:31:33+00:00",
+            "active": false,
+            "counter": 1
+        },
+        {
+            "limiter": "auth-login",
+            "scope": "fixture-account",
+            "kind": "timer",
+            "key_sha256": "ddbf7ad642475d9e848e1a398ff5443175703bc2716f7a5a39297ee64dd5bc95",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:31:33+00:00",
+            "active": false
+        },
+        {
+            "limiter": "auth-login",
+            "scope": "fixture-ip",
+            "kind": "counter",
+            "key_sha256": "58a9aab85ea418d4cdd1617c1fd18d06a92053f4fceb192150b547c1fca0ba9b",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:31:30+00:00",
+            "active": false,
+            "counter": 5
+        },
+        {
+            "limiter": "auth-login",
+            "scope": "fixture-ip",
+            "kind": "timer",
+            "key_sha256": "6d3048aefbea1ecc70fbc9fede73f4b160330c709e320faf0247e38c3089dc4b",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:31:30+00:00",
+            "active": false
+        },
+        {
+            "limiter": "auth-reset-send",
+            "scope": "fixture-account",
+            "kind": "counter",
+            "key_sha256": "1498050b482b79954bf4431f84d937e48f9ec29089f65917ff6f16281ded5051",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:31:34+00:00",
+            "active": false,
+            "counter": 1
+        },
+        {
+            "limiter": "auth-reset-send",
+            "scope": "fixture-account",
+            "kind": "timer",
+            "key_sha256": "d8f9c1b23ecebcbb63b8ec3f547a744d84c4e173ee0632686eec8e193e2a9b82",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:31:34+00:00",
+            "active": false
+        },
+        {
+            "limiter": "auth-reset-send",
+            "scope": "fixture-account",
+            "kind": "counter",
+            "key_sha256": "8f01febc6430cbea7367a51bd43a9f8e1e4fe38b64fc44d44cc29e33ac3c9dc8",
+            "present": true,
+            "expiration_utc": "2026-11-18T10:30:34+00:00",
+            "active": true,
+            "counter": 1
+        },
+        {
+            "limiter": "auth-reset-send",
+            "scope": "fixture-account",
+            "kind": "timer",
+            "key_sha256": "5dc043d6e38183468cb72b531915dd7e0be344e8408e7805349ef284fb2e1b98",
+            "present": true,
+            "expiration_utc": "2026-11-18T10:30:34+00:00",
+            "active": true
+        },
+        {
+            "limiter": "auth-reset-send",
+            "scope": "fixture-ip",
+            "kind": "counter",
+            "key_sha256": "b24fe78b6cb184aa6f839ff02c88b2e3db52d540799b17765e204ba683ebf79a",
+            "present": true,
+            "expiration_utc": "2026-11-18T10:30:35+00:00",
+            "active": true,
+            "counter": 1
+        },
+        {
+            "limiter": "auth-reset-send",
+            "scope": "fixture-ip",
+            "kind": "timer",
+            "key_sha256": "741f619e3e6174d70005ad3521f579d0a48458a43ea561ee89b63f63cbfc2d77",
+            "present": true,
+            "expiration_utc": "2026-11-18T10:30:35+00:00",
+            "active": true
+        },
+        {
+            "limiter": "auth-reset-otp",
+            "scope": "fixture-account",
+            "kind": "counter",
+            "key_sha256": "107d122b083b83204202ea78ec35ecc07fdb7f0239befba2bbc4919443c08a2d",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:35:35+00:00",
+            "active": false,
+            "counter": 5
+        },
+        {
+            "limiter": "auth-reset-otp",
+            "scope": "fixture-account",
+            "kind": "timer",
+            "key_sha256": "8c0bb5b34128ef7612c01b51ac36fc97eb9ee8dffe44a1a994936086c3da830c",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:35:35+00:00",
+            "active": false
+        },
+        {
+            "limiter": "auth-reset-otp",
+            "scope": "fixture-ip",
+            "kind": "counter",
+            "key_sha256": "d96557671166552a304af0919bd6e45d8de18d52fdd77fa9b4be03bf8a4efa25",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:35:35+00:00",
+            "active": false,
+            "counter": 5
+        },
+        {
+            "limiter": "auth-reset-otp",
+            "scope": "fixture-ip",
+            "kind": "timer",
+            "key_sha256": "4eda97fa406cbf1a2bf5fbd223e557692d4dfd123a30eb2be6d014ffae3deef2",
+            "present": true,
+            "expiration_utc": "2026-11-18T09:35:35+00:00",
+            "active": false
+        },
+        {
+            "limiter": "PasswordResetOtp",
+            "scope": "fixture-account",
+            "kind": "otp-record",
+            "key_sha256": "2fe55f761de53cbbaa379b5c13a84e3ab82a456567945b0a4f1fe2dd600bd573",
+            "present": false
+        },
+        {
+            "limiter": "legacy-otp",
+            "scope": "fixture-account",
+            "kind": "legacy-record",
+            "key_sha256": "0ebed8cfc242508623646d8b308ab6b0ed2eb9471eb1f46c8fb8fe75d2858609",
+            "present": false
+        }
+    ],
+    "fixture_lock_present": false,
+    "fixture_lock_active": false,
+    "current_browser_uat_prefix_rows_on_main": 0,
+    "main_writes": 0,
+    "real_login_requests_sent_to_main": 0,
+    "impact": "Keys derive only from .example.test fixtures and 127.0.0.147; real account identities not inspected. Expired keys are not effective limiter blocks. Main HTTP auth was not called because it would write counters."
+}

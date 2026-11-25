@@ -1,0 +1,15 @@
+{
+  "id": 11,
+  "sku": "SFP-AONAM-03",
+  "name": "Áo Polo Nam Dệt Kim Mercerized Cotton Ánh Kim",
+  "prompt": "One unique premium ecommerce product studio illustration. Product type and design: Áo Polo Nam Dệt Kim Mercerized Cotton Ánh Kim. Match exact garment construction, cut, gender, neckline, pattern and sleeve length. Single garment only, full item visible, front view on invisible mannequin against clean light gray background. Choose black, white or navy; obey explicit color named in title. No human, no accessories, no props, no watermark, no text, no external brand logos. Original AI-created SOFEP local demo illustration, not real SKU photography.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; no third-party stock license; not real SKU photography",
+  "file": "assets/11.jpg",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-3be086a3-750b-4322-838a-04a54015e00d.png",
+  "created_at": "2026-10-31T09:46:50.014Z",
+  "review": "approved",
+  "sha256": "918a88d7c61c70a02dad9b9e1ca0a918e94dab2fababb1b35e3765a99667629e",
+  "bytes": 259609
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "change": "deleted",
+    "path": "Fe/src/components/Admin/DanhGia/index.vue"
+  },
+  {
+    "change": "modified",
+    "path": "Fe/src/components/Admin/DanhMuc/index.vue"
+  },
+  {
+    "change": "modified",
+    "path": "Fe/src/layout/components/MenuRocker.vue"
+  },
+  {
+    "change": "modified",
+    "path": "Fe/src/router/index.js"
+  },
+  {
+    "change": "added",
+    "path": "Fe/tests/submission-safety.test.mjs"
+  },
+  {
+    "change": "deleted",
+    "path": "themmoik27be/app/Http/Controllers/Admin/DanhGiaController.php"
+  },
+  {
+    "change": "modified",
+    "path": "themmoik27be/app/Http/Controllers/Admin/DanhMucController.php"
+  },
+  {
+    "change": "modified",
+    "path": "themmoik27be/routes/api.php"
+  },
+  {
+    "change": "added",
+    "path": "themmoik27be/tests/Feature/CategoryDeletionSafetyTest.php"
+  },
+  {
+    "change": "added",
+    "path": "themmoik27be/tests/Feature/LegacyReviewRetirementTest.php"
+  }
+]

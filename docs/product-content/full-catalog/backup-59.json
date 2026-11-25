@@ -1,0 +1,39 @@
+{
+    "id": 59,
+    "id_cua_hang": null,
+    "id_danh_muc": 3,
+    "id_thuong_hieu": 4,
+    "ma_san_pham": "SFP-VAYDAM-11",
+    "ten_san_pham": "Đầm Sơ Mi Nữ Kèm Thắt Lưng Bản Nhỏ Thời Thượng",
+    "slug_san_pham": "dam-so-mi-nu-kem-that-lung-ban-nho-thoi-thuong-kjl8",
+    "gia_ban": "590000.00",
+    "gia_khuyen_mai": "499000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+    "mo_ta_ngan": "Cổ sơ mi thanh lịch kết hợp cùng tùng đầm suông, diện đi làm hay cà phê đều đẹp.",
+    "mo_ta_chi_tiet": "Cổ sơ mi thanh lịch kết hợp cùng tùng đầm suông, diện đi làm hay cà phê đều đẹp. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 145,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 2171,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:53.000000Z",
+    "updated_at": "2026-09-27T09:05:53.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 109,
+            "id_san_pham": 59,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        },
+        {
+            "id": 110,
+            "id_san_pham": 59,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        }
+    ]
+}

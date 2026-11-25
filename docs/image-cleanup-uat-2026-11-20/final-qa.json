@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "reviewed": 298,
+  "delete": 227,
+  "keep": 71,
+  "baseline": 465,
+  "remaining": 238,
+  "http_illustrations": 167,
+  "placeholder": 1,
+  "all_other_tables_unchanged": true,
+  "protected_ids_present": true
+}

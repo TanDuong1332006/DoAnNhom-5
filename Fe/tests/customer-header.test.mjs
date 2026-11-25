@@ -1,3 +1,4 @@
+import { apiUrl } from '../src/services/apiConfig.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
@@ -11,7 +12,7 @@ function storage() {
 function header(axios = { get: async () => ({data:{status:1,nguoi_dung:{role:'customer',ho_va_ten:'Khách test'}}}), post: async () => ({data:{status:1}}) }) {
   const local = storage(), session = storage(), paths = [], messages = [];
   const code = readFileSync(new URL('../src/layout/wrapper/ClientLayout.vue',import.meta.url),'utf8').match(/<script>([\s\S]*?)<\/script>/)[1].replace(/^import .*;\r?\n/gm,'').replace('export default','globalThis.definition =');
-  const context = { axios, localStorage:local, sessionStorage:session, cartStore:{items:[{id:1}],count:1}, SizeAdvisorModal:{}, CheckoutModal:{}, customerSession:()=>customerSession(local), clearCustomerSession:token=>clearCustomerSession(token,local), document:{activeElement:null} };
+  const context = {apiUrl, ProductImage: {},  axios, localStorage:local, sessionStorage:session, cartStore:{items:[{id:1}],count:1}, SizeAdvisorModal:{}, CheckoutModal:{}, NotificationBell:{}, customerSession:()=>customerSession(local), clearCustomerSession:token=>clearCustomerSession(token,local), document:{activeElement:null} };
   vm.runInNewContext(code,context);
   const definition=context.definition, state={...definition.data(),$refs:{},$router:{push:async path=>paths.push(path)},$toast:{success:m=>messages.push(m),warning:m=>messages.push(m)},$nextTick:fn=>fn()};
   for(const [key,fn] of Object.entries(definition.methods)) state[key]=fn.bind(state);
@@ -74,7 +75,7 @@ test('Axios giữ Authorization tường minh khi xác minh phiên hoặc đăng
   const source=readFileSync(new URL('../src/main.js',import.meta.url),'utf8');
   const body=source.match(/axios\.interceptors\.request\.use\(\(config\) => \{([\s\S]*?)\n\}\);/)[1].replaceAll('import.meta.env.VITE_API_URL',"'http://api.test/api'");
   const s=storage();saveSession('admin',{role:'admin'},s);saveSession('customer',{role:'customer'},s);
-  const context={requestToken:url=>requestToken(url,s),resolveApiUrl:url=>url};vm.runInNewContext('globalThis.intercept = config => {'+body+'}',context);
+  const context={apiUrl, ProductImage: {}, requestToken:url=>requestToken(url,s),resolveApiUrl:url=>url};vm.runInNewContext('globalThis.intercept = config => {'+body+'}',context);
   const result=context.intercept({url:'http://api.test/api/kiem-tra-dang-nhap',headers:{Authorization:'Bearer admin'}});
   assert.equal(result.headers.Authorization,'Bearer admin');
 });

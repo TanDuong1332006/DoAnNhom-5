@@ -1,0 +1,19 @@
+{
+    "passed": true,
+    "database": "sofep_demo_20261122_a1fec473a820",
+    "storage_root": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-final-install-b297de044aec4ae98af6019a5278e819/themmoik27be/storage/app/public",
+    "image_files_original_167_unchanged": true,
+    "counts_after_tests": {
+        "danh_mucs": 8,
+        "san_phams": 168,
+        "anh_san_phams": 167,
+        "chi_tiet_san_phams": 501,
+        "khach_hangs": 1,
+        "users": 1,
+        "don_hangs": 3,
+        "chi_tiet_don_hangs": 3
+    },
+    "foreign_key_relationships": 20,
+    "fk_orphans": 0,
+    "orders_are_synthetic_UAT_only": true
+}

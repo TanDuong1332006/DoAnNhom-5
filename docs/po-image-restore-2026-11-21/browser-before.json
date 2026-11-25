@@ -1,0 +1,871 @@
+{
+  "error": false,
+  "photos": [
+    {
+      "loaded": true,
+      "name": "Áo polo",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Ô Dù Cầm Tay Mini Gấp Gọn Chống Tia Cực Tím UV99% Lớp Đen",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Ghim Cài Áo Vest Nam Nữ Kim Loại Mạ Vàng Khảm Xà Cừ",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Kẹp Tóc Nữ Đính Đá Càng Cua Phong Cách Hàn Quốc Cao Cấp",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo polo",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Ô Dù Cầm Tay Mini Gấp Gọn Chống Tia Cực Tím UV99% Lớp Đen",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Ghim Cài Áo Vest Nam Nữ Kim Loại Mạ Vàng Khảm Xà Cừ",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Kẹp Tóc Nữ Đính Đá Càng Cua Phong Cách Hàn Quốc Cao Cấp",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Hộp 5 Đôi Vớ Tất Cổ Cao Nam Nữ Dệt Kim Kháng Khuẩn Bạc",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Khăn Bandana Lụa Vuông Cột Cổ & Quai Túi Thời Trang",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Găng Tay Da Cừu Nam Lót Lông Cảm Ứng Điện Thoại Mùa Đông",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Vòng Cổ Nữ Choker Ren Quyến Rũ Dự Tiệc Tối",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Cà Vạt Nam Lụa Dệt Thoi Kèm Kẹp Cà Vạt Mạ Vàng Cao Cấp",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Mũ Len Beanie Unisex Giữ Ấm Mùa Đông Dệt Rib",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Kính Râm Gọng Mắt Mèo Nữ Cá Tính Phong Cách Milan",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Bông Tai Nữ Ngọc Trai Nước Ngọt Chuôi Bạc Ý Tinh Khôi",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Dây Chuyền Nam Titan Mặt Khắc Hình Học Geometric Cá Tính",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Mũ Lưỡi Trai Unisex Thêu Chữ SOFEP Haute Atelier Vải Cotton",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Vòng Tay Bạc Ý 925 Đính Đá Zirconia Sang Trọng Cho Nữ",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Khăn Choàng Cổ Lụa Tơ Tằm Họa Tiết Hội Họa Cổ Điển",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Mũ Nồi Beret Nữ Vải Dạ Thời Trang Phong Cách Cổ Điển",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Thắt Lưng Nam Da Bò Thật Khóa Tự Động Mạ Vàng 18K",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Kính Mát Unisex Phi Công Aviator Tròng Phân Cực Polarized",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Đồng Hồ Nam Dây Da Kính Sapphire Máy Cơ Tự Động SOFEP",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Túi Đeo Chéo Mini Trong Suốt Nhựa PVC Đi Lễ Hội Âm Nhạc",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Ví Nữ Dáng Dài Hai Khóa Kéo Kèm Dây Đeo Cổ Tay",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Túi Xách Nữ Hobo Da Mềm Đeo Vai Phong Cách Tối Giản",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Túi Du Lịch Xách Tay Da Trống Tập Gym Thể Thao Cao Cấp",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Ví Đựng Thẻ Card Holder Mini Da Bò Thật Mạ Logo SOFEP",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Túi Xách Nữ Công Sở Đựng Tài Liệu A4 Da Thật Khóa Số",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Túi Đeo Hông Chạy Bộ Chống Thấm Mồ Hôi Co Giãn",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Balo Mini Nữ Da PU Nơ Nhỏ Dễ Thương Đi Học & Dạo Phố",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Túi Bucket Da Dây Rút Miệng Thời Trang Phong Cách Pháp",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Ví Da Nam Dáng Đứng Nhiều Ngăn Thẻ Tích Hợp Chặn RFID",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Túi Đựng Laptop Chống Sốc Phối Quai Da Doanh Nhân",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Túi Đeo Chéo Nữ Dáng Tròn Mini Đựng Son Phấn Xinh Xắn",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Ví Cầm Tay Nữ Clutch Dạ Hội Đính Hạt Lấp Lánh Khóa Bạc",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Balo Du Lịch Đa Năng Cỡ Lớn Chống Thấm 40L Mở Vali",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Túi Xách Nữ Kẹp Nách Da Vân Cá Sấu Thời Thượng Paris",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Túi Đeo Chéo Nam Nữ Bao Tử Thể Thao Chống Trộm Siêu Nhẹ",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Ví Da Nam Dáng Ngang Da Bò Thật Khắc Tên Thủ Công",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Túi Tote Vải Canvas Dày Dặn Đựng Vừa Hồ Sơ Laptop A4",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Balo Da Nam Đựng Laptop 15.6 Inch Chống Nước Doanh Nhân",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Túi Xách Da Nữ Đeo Chéo Khóa Mạ Vàng Cao Cấp SOFEP Atelier",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Thể Thao Cầu Lông Tennis Chuyên Dụng Bọc Mũi",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Slip-On Nữ Vải Canvas Thêu Họa Tiết Hoa Nhỏ",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Da Nữ Derby Cột Dây Đế Răng Cưa Phong Cách Cổ Điển",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Chunky Sneaker Đế Khủng Tăng Chiều Cao 5cm",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Lười Nam Moccasin Da Lộn Mềm Mại Thắt Dây Da",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Cao Gót Nữ Quai Trong Suốt Mũi Vuông Độc Đáo",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Sandal Nam Quai Dù Đế Cao Su Êm Ái Đi Mưa",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Sneaker Retro Vintage 1980s Đế Bánh Mì Dày Dặn",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Boots Nữ Cổ Cao Qua Gối Da Thuộc Tôn Chân",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Chelsea Boots Nam Da Lộn Cổ Thun Phong Cách Rocker",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Búp Bê Nữ Nơ Nhỏ Đế Bệt Êm Chân Da Cừu",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Thể Thao Tập Gym Nam Nữ Đế Bám Chống Trượt Chuyên Nghiệp",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Mule Sục Da Nữ Mũi Vuông Thanh Lịch Tiện Dụng",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Sneaker Cổ Cao High-Top Canvas Bụi Bặm Vintage",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Da Nam Oxford Buộc Dây Công Sở Da Bóng Cao Cấp",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Sandal Nữ Dây Mảnh Quai Đan Đế Vuông 5cm",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Sneaker Chạy Bộ Siêu Nhẹ Thoáng Khí Breathable Pro",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Cao Gót Nữ Mũi Nhọn 7cm Đính Đá Dự Tiệc Quý Phái",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Lười Da Bò Nam Loafer Khóa Mạ Vàng Sang Trọng",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Sneaker Thấp Cổ Low-Top Trắng Chunky Sole SOFEP",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Blazer Nữ Không Tay Dáng Dài Vest Gilet Thanh Lịch",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Kimono Cách Điệu Vải Gấm Sang Trọng Dạo Phố",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Nỉ Hoodie Zip 2 Chiều Form Rộng Streetwear",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Nhựa Dù Trong Suốt Thời Trang Độc Lạ Y2K",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Blazer Nam Linen Không Đệm Vai Thoáng Mát Mùa Hè",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Gió Nam Nữ Trượt Nước Đi Mưa Có Phản Quang",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Trench Coat Dáng Dài Phong Cách London Cổ Điển",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Varsity Jacket Phối Tay Da Học Đường Trẻ Trung",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Phao Lông Vũ Dáng Ngắn Siêu Nhẹ 800FP",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Blazer Nữ Kẻ Caro Houndstooth Nanh Sói Hoàng Gia",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Kaki Safari 4 Túi Hộp Quân Đội Đa Dụng",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Cardigan Len Vặn Thừng Dáng Rộng Vintage",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Da Biker Da Cừu Cao Cấp Khóa Xéo Đinh Tán",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Blazer Nam Form Rộng Relaxed Fit Smart Casual",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Gió Thể Thao Chống Nước Có Mũ Trùm Đa Năng",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Măng Tô Dạ Dáng Dài Thu Đông Đẳng Cấp",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Denim Bò Unisex Lót Lông Cừu Ấm Áp Mùa Đông",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Blazer Nữ Cắt Lửng Cropped Thời Thượng",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Bomber Dù 2 Lớp Chống Gió Chống Nước",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Blazer Nam 2 Hàng Khuy Double-Breasted SOFEP",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Thun Nữ Body Cổ Khóa Half-Zip Thể Thao Cao Cấp",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Peplum Nữ Che Khuyết Điểm Bụng Tôn Vóc Dáng",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Dệt Kim Nữ Cộc Tay Cổ Polo Trẻ Trung Năng Động",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Corset Nữ Định Hình Eo Gợi Cảm Phối Ren",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Sơ Mi Nữ Tay Lỡ Vải Đũi Mộc Mạc Tối Giản",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Thun Nữ Cổ Tim Vải Tencel Mát Mịn Thấm Hút",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Kiểu Nữ Thắt Nơ Lưng Hở Vai Gợi Cảm Đi Tiệc",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Croptop Nữ Dài Tay Khóa Kéo Hai Đầu Sành Điệu",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Len Nữ Cardigan Nút Cài Ngọc Trai Vintage",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Sơ Mi Nữ Trắng Cổ Đức Basic Vải Kate Lụa",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Nỉ Nữ Hoodie Form Rộng Phong Cách Ulzzang Hàn Quốc",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Ba Lỗ Nữ Dệt Rib Co Giãn Tôn Dáng Thể Thao",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Kiểu Nữ Cổ Vuông Tay Nhún Điệu Đà Tiểu Thư",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Sơ Mi Nữ Voan Kẻ Sọc Dáng Rộng Dạo Phố",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Hai Dây Nữ Lụa Satin Viền Ren Cổ V Gợi Cảm",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Thun Nữ Oversized In Hình Chữ Nổi Minimalist",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Len Nữ Cổ Lọ Dệt Kim Giữ Ấm Mùa Đông",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Kiểu Nữ Trễ Vai Tay Bồng Bo Chun Nữ Tính",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Sơ Mi Nữ Lụa Cổ Nơ Phong Cách Công Sở Paris",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Croptop Nữ Tay Ngắn Cổ Tròn Ôm Body Cotton SOFEP",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Váy Suông Nữ Thể Thao Phối Sọc Năng Động Trẻ Trung",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Đầm Ren Trắng Nữ Tinh Khôi Dáng Xòe Lót Lụa",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Chân Váy Xếp Tầng Tutu Phối Lưới Thời Thượng Paris",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Đầm Ôm Body Cổ Yếm Khoét Lưng Dự Tiệc Quyến Rũ",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Váy Nhún Bèo Tầng Vải Chiffon Bay Bổng Lãng Mạn",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Đầm Suông Đuôi Cá Nữ Dự Tiệc Màu Trắng Ngọc Trai",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Chân Váy Jean Dáng Dài Xẻ Trước Phong Cách Ulzzang",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Đầm Babydoll Nữ Tay Lỡ Xinh Xắn Ngọt Ngào",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Chân Váy Chữ A Nữ Da PU Cao Cấp Khóa Bạc Cá Tính",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Đầm Sơ Mi Nữ Kèm Thắt Lưng Bản Nhỏ Thời Thượng",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Chân Váy Bút Chì Công Sở Co Giãn Ôm Tôn Dáng",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Đầm Dạ Hội Trễ Vai Đính Đá Pha Lê Cao Cấp SOFEP",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Váy Yếm Nữ Vải Kaki Vintage Dễ Phối Đồ Dạo Phố",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Đầm Maxi Đi Biển Hoạ Tiết Hoa Nhí Bohemian Mùa Hè",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Chân Váy Midi Xẻ Tà Nữ Tính Dáng Dài Thanh Lịch",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Đầm Suông Nữ Vải Đũi Linen Thắt Nơ Eo Tinh Tế",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Chân Váy Chữ A Xếp Ly Phong Cách Tennis Năng Động",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Đầm Bodycon Dệt Kim Gân Tăm Ôm Sát Tôn Đường Cong",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Váy Xòe Nữ Cổ Vuông Tay Bồng Tiểu Thư Dự Tiệc",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Đầm Lụa Satin Hai Dây Dáng Dài Hở Lưng Quyến Rũ SOFEP",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Tây Nam Họa Tiết Kẻ Sọc Pinstripe Cổ Điển",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Short Nam Jean Denim Cắt Gấu Tua Rua Bụi Bặm",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Kaki Nam Xếp Ly Baggy Dáng Rộng Tự Do",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Jean Nam Ống Loe Bootcut Phong Cách Retro Y2K",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Nỉ Nam Sweatpants Bo Gấu Dày Dặn 380GSM",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Short Nam Vải Đũi Linen Đi Biển & Du Lịch",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Tây Nam Co Giãn 4 Chiều Công Sở Không Nhăn",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Jean Nam Màu Đen Obsidian Wash Nhẹ Chống Bụi",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Túi Hộp Nam Cargo Pants Vải Ripstop Quân Đội",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Kaki Nam Ống Đứng Regular Fit Chuẩn Công Sở",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Jean Nam Slimfit Màu Xanh Chàm Indigo Tối Giản",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Short Nam Thể Thao 2 Lớp Chạy Bộ Kháng Nước",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Tây Nam Cạp Gurkha Khóa Kim Loại Sang Trọng",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Jogger Nam Vải Dù 2 Lớp Kháng Gió Đô Thị",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Jean Nam Rách Gối Xước Nhẹ Phong Cách Streetwear",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Short Nam Kaki Túi Chéo Năng Động Dạo Phố",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Parachute Nam Utility Cargo Túi Hộp Dây Rút",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Tây Nam Xếp Ly Phong Cách Sartorial Hàn Quốc",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Kaki Nam Chino Dáng Tapered Fit Co Giãn Nhẹ",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Jean Nam Ống Suông Wide-Leg Vintage Wash SOFEP",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Polo Nam Pique Cotton Kháng Khuẩn Khử Mùi Active",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Thun Nam Cổ Tim V-Neck Co Giãn Sợi Modal Thoáng Khí",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Sơ Mi Nam Cổ Trụ Mandarin Tối Giản Đương Đại",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Thun Nam Form Rộng Thêu Chữ Nổi SOFEP Haute Atelier",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Sơ Mi Nam Lụa Satin Trơn Dự Tiệc Sang Trọng",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Thun Nam Drop-Shoulder Acid Wash Vintage Streetwear",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Sơ Mi Nam Flannel Kẻ Caro Phong Cách Grunge",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Polo Nam Bo Cổ Dệt Họa Tiết Houndstooth",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Thun Nam Raglan Tay Phối Màu Phong Cách Retro",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Sơ Mi Nam Denim Chambray Cổ Bẻ Nam Tính",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Ba Lỗ Nam Tanktop Ribbed Co Giãn Tôn Thể Hình",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Thun Nam Cổ Tròn Clean Fit Trơn Màu Đen Obsidian",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Sơ Mi Nam Vải Đũi Linen Thoáng Mát Tự Nhiên",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Polo Nam Zip Collar Khóa Kéo Kim Loại Sang Trọng",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Thun Nam Tay Dài Waffle Knit Tổ Ong Thu Đông",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Sơ Mi Nam Cuban Collar Hoạ Tiết Minimalist",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Thun Nam Graphic Oversized SOFEP Studio 2026",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Polo Nam Dệt Kim Mercerized Cotton Ánh Kim",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Sơ Mi Nam Oxford Cổ Button-Down Relaxed Fit",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Thun Nam Boxy Heavyweight Cotton Supima SOFEP",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Túi Xách Da Nữ Đeo Chéo Khóa Mạ Vàng",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Giày Sneaker Nam Nữ Thể Thao Air Cushion",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Khoác Blazer Nam 2 Lớp Form Rộng Hiện Đại",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Len Dệt Kim Cổ Tim Phong Cách Hàn Quốc",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Đầm Xòe Nữ Cổ Vuông Thanh Lịch Dự Tiệc",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Quần Jean Nam Slimfit Denim Co Giãn Nhẹ",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Sơ Mi Nam Tay Dài Oxford Form Regular",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "name": "Ảnh sản phẩm",
+      "src": "http://localhost:5173/product-placeholder.svg"
+    }
+  ],
+  "url": "http://localhost:5173/"
+}

@@ -1,0 +1,39 @@
+{
+    "id": 113,
+    "id_cua_hang": null,
+    "id_danh_muc": 6,
+    "id_thuong_hieu": 3,
+    "ma_san_pham": "SFP-GIAY-05",
+    "ten_san_pham": "Giày Sandal Nữ Dây Mảnh Quai Đan Đế Vuông 5cm",
+    "slug_san_pham": "giay-sandal-nu-day-manh-quai-dan-de-vuong-5cm-fjh7",
+    "gia_ban": "490000.00",
+    "gia_khuyen_mai": "399000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+    "mo_ta_ngan": "Quai mảnh đan chéo thanh thoát tôn bàn chân thon thả, đế vuông vững chãi.",
+    "mo_ta_chi_tiet": "Quai mảnh đan chéo thanh thoát tôn bàn chân thon thả, đế vuông vững chãi. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 90,
+    "is_noi_bat": 0,
+    "is_flash_sale": 1,
+    "luot_xem": 1012,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:55.000000Z",
+    "updated_at": "2026-09-27T09:05:55.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 217,
+            "id_san_pham": 113,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        },
+        {
+            "id": 218,
+            "id_san_pham": 113,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        }
+    ]
+}

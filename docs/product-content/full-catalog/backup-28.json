@@ -1,0 +1,47 @@
+{
+    "id": 28,
+    "id_cua_hang": null,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": 4,
+    "ma_san_pham": "SFP-AONAM-20",
+    "ten_san_pham": "Áo Polo Nam Pique Cotton Kháng Khuẩn Khử Mùi Active",
+    "slug_san_pham": "ao-polo-nam-pique-cotton-khang-khuan-khu-mui-active-kesm",
+    "gia_ban": "490000.00",
+    "gia_khuyen_mai": "410000.00",
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/28/illustration-cb4cf634-ea89-4e4b-9e8a-de3cac7a1c7f.jpg",
+    "mo_ta_ngan": "Cấu trúc dệt mắt chim tổ ong pique thoát nhiệt nhanh, phù hợp cho ngày hè năng động.",
+    "mo_ta_chi_tiet": "Cấu trúc dệt mắt chim tổ ong pique thoát nhiệt nhanh, phù hợp cho ngày hè năng động. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 45,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 351,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:52.000000Z",
+    "updated_at": "2026-10-30T16:47:17.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 47,
+            "id_san_pham": 28,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 48,
+            "id_san_pham": 28,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 339,
+            "id_san_pham": 28,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/28/illustration-cb4cf634-ea89-4e4b-9e8a-de3cac7a1c7f.jpg",
+            "thu_tu": 0,
+            "created_at": null,
+            "updated_at": null
+        }
+    ]
+}

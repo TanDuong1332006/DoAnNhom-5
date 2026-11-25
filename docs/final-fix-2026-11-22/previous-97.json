@@ -1,0 +1,778 @@
+[
+  {
+    "path": "Fe/src/App.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Admin/ChiTietSanPham/index.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Admin/DanhGia/index.vue",
+    "old_status": " M",
+    "current_status": " D",
+    "in_candidate": false,
+    "exists": false,
+    "decision": "Gỡ code đánh giá cũ theo PO duyệt"
+  },
+  {
+    "path": "Fe/src/components/Admin/DanhMuc/index.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Admin/Dashboard/index.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Admin/DonHang/index.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Admin/KhachHang/index.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Admin/KichThuoc/index.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Admin/MaGiamGia/index.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Admin/MauSac/index.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Admin/SanPham/ProductImages.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Admin/SanPham/ProductVariants.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Admin/SanPham/index.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Admin/ThongKe/DoanhThuTheoNam.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Admin/ThongKe/DoanhThuTheoThang.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Admin/ThongKe/SanPhamTheoDanhMuc.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Admin/ThuongHieu/index.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Client/CheckoutModal.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Client/ChiTietSanPham.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Client/TimKiem.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Client/TrangChu.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/DangKy/index.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/DangNhap/index.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/ProductCard.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/QuenMatKhau/index.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/shared/ProductImage.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/layout/components/AdminSearch.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/layout/components/HeaderRocker.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/layout/components/MenuRocker.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/layout/wrapper/ClientLayout.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/main.js",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/pages/admin/AdminProducts.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/pages/client/Cart.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/pages/client/Checkout.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/pages/client/MyOrders.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/pages/client/ProductDetail.vue",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/router/checkLogin.js",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/router/index.js",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/services/adminSearch.js",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/services/authSessions.js",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/services/axiosClient.js",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/services/productImages.js",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/services/resolveApiUrl.js",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/stores/cartStore.js",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/tests/admin-login.test.mjs",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/tests/catalog-session.test.mjs",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/tests/checkout-flow.test.mjs",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/tests/customer-header.test.mjs",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/tests/product-images.test.mjs",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/MaGiamGiaController.php",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Api/ForgotPasswordController.php",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/AuthController.php",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/giaoDichController.php",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Http/Requests/MaGiamGiaRequest.php",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Models/MaGiamGia.php",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Providers/AppServiceProvider.php",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Services/CheckoutService.php",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Services/DemoPayment.php",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/config/cors.php",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/routes/api.php",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/routes/console.php",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/ApiAccessBoundaryTest.php",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/CheckoutIntegrityTest.php",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/ProductDetailDemoTest.php",
+    "old_status": " M",
+    "current_status": " M",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/assets/css/engagement.css",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Engagement/AdminCampaigns.vue",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Engagement/AdminFeedback.vue",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Engagement/CampaignVoucherForm.vue",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Engagement/CustomerCenter.vue",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Engagement/FeedbackPage.vue",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/components/Engagement/NotificationBell.vue",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/services/apiConfig.js",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/services/engagement.js",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/src/services/legacyProductImageHolds.js",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/tests/api-config.test.mjs",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/tests/customer-engagement.test.mjs",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/tests/password-reset-security.test.mjs",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "Fe/tests/sprint34.test.mjs",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/CustomerCampaignController.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/CustomerInboxController.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/CustomerOrderController.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/FeedbackController.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Http/Middleware/EngagementReady.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Http/Middleware/RequireCustomer.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Http/Requests/CampaignRequest.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Services/CustomerCampaigns.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Services/LoyaltyAudience.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Services/PasswordResetOtp.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/app/Services/VoucherWallet.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/config/engagement.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_11_06_000001_create_customer_engagement_tables.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_11_18_000001_add_customer_role_baseline.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/AuthSecurityTest.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/CorsConfigurationTest.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/CustomerEngagementTest.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/CustomerOrderHistoryTest.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/MigrationBaselineTest.php",
+    "old_status": "??",
+    "current_status": "??",
+    "in_candidate": true,
+    "exists": true,
+    "decision": "Giữ source/test, chưa commit/push"
+  }
+]

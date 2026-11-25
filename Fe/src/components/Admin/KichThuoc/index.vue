@@ -147,6 +147,7 @@
 </template>
 
 <script>
+import { apiUrl } from '../../../services/apiConfig.js';
 import axios from 'axios';
 
 export default {
@@ -172,7 +173,7 @@ export default {
     },
     methods: {
         loadData() {
-            axios.get('http://127.0.0.1:8000/api/admin/kich-thuoc/get-data')
+            axios.get(apiUrl('/admin/kich-thuoc/get-data'))
                 .then(res => { this.list_kich_thuoc = res.data.data; });
         },
         themKichThuoc() {
@@ -180,7 +181,7 @@ export default {
                 this.$toast.error('Vui lòng nhập tên size');
                 return;
             }
-            axios.post('http://127.0.0.1:8000/api/admin/kich-thuoc/create', this.create_KichThuoc)
+            axios.post(apiUrl('/admin/kich-thuoc/create'), this.create_KichThuoc)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -190,7 +191,7 @@ export default {
                 });
         },
         capNhatKichThuoc() {
-            axios.post('http://127.0.0.1:8000/api/admin/kich-thuoc/update', this.update_KichThuoc)
+            axios.post(apiUrl('/admin/kich-thuoc/update'), this.update_KichThuoc)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -199,7 +200,7 @@ export default {
                 });
         },
         xoaKichThuoc() {
-            axios.post('http://127.0.0.1:8000/api/admin/kich-thuoc/destroy', this.delete_KichThuoc)
+            axios.post(apiUrl('/admin/kich-thuoc/destroy'), this.delete_KichThuoc)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -208,7 +209,7 @@ export default {
                 });
         },
         changeStatus(item) {
-            axios.post('http://127.0.0.1:8000/api/admin/kich-thuoc/change-status', { id: item.id })
+            axios.post(apiUrl('/admin/kich-thuoc/change-status'), { id: item.id })
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);

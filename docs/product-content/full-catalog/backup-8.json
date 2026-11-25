@@ -1,0 +1,31 @@
+{
+    "id": 8,
+    "id_cua_hang": null,
+    "id_danh_muc": 7,
+    "id_thuong_hieu": 2,
+    "ma_san_pham": "SP-TUIXACH-01",
+    "ten_san_pham": "Túi Xách Da Nữ Đeo Chéo Khóa Mạ Vàng",
+    "slug_san_pham": "tui-xach-da-nu-deo-cheo",
+    "gia_ban": "550000.00",
+    "gia_khuyen_mai": "450000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+    "mo_ta_ngan": "Chất da PU nhân tạo cao cấp chống trầy xước.",
+    "mo_ta_chi_tiet": "Kích thước vừa vặn đựng được điện thoại, son phấn và ví tiền nhỏ.",
+    "so_luong_ton": 50,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 646,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:49.000000Z",
+    "updated_at": "2026-09-27T09:05:49.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 8,
+            "id_san_pham": 8,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:49.000000Z",
+            "updated_at": "2026-09-27T09:05:49.000000Z"
+        }
+    ]
+}

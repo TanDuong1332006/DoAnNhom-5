@@ -1,3 +1,4 @@
+import { apiUrl } from '../src/services/apiConfig.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -23,7 +24,7 @@ function setup(response, error) {
     .replace('export default', 'globalThis.component =')
     .replaceAll('import.meta.env.VITE_API_URL', JSON.stringify('http://api.test/api'));
   const storageApi = { getItem: key => storage.get(key), setItem: (key, value) => storage.set(key, value), removeItem: key => storage.delete(key) };
-  const context = { axios, localStorage: storageApi, saveSession: (token, user) => saveSession(token, user, storageApi) };
+  const context = {apiUrl: path => apiUrl(path, 'http://api.test/api'), ProductImage: {},  axios, sessionStorage: storageApi, localStorage: storageApi, saveSession: (token, user) => saveSession(token, user, storageApi) };
   vm.runInNewContext(script, context);
   const component = context.component;
   const instance = {
@@ -60,4 +61,34 @@ test('API trả 401: hiện lỗi và không lưu phiên hoặc điều hướng
   assert.deepEqual(state.destinations, []);
   assert.deepEqual(state.messages, ['Sai thông tin đăng nhập']);
   assert.equal(state.instance.loading, false);
+});
+
+test('API trả 429: hiện thông báo giới hạn, không tạo phiên và mở lại nút đăng nhập', async () => {
+  const state = setup(undefined, { response: { status: 429, data: { message: 'Bạn đã thử quá nhiều lần. Vui lòng thử lại sau.' } } });
+  await state.component.methods.dangnhapTK.call(state.instance);
+  assert.equal(state.storage.size, 0);
+  assert.deepEqual(state.destinations, []);
+  assert.deepEqual(state.messages, ['Bạn đã thử quá nhiều lần. Vui lòng thử lại sau.']);
+  assert.equal(state.instance.loading, false);
+});
+
+
+test('Customer đăng nhập quay về checkout đã lưu mà không xóa giỏ', async () => {
+  const state = setup({ status: 1, token: 'test-customer-token', nguoi_dung: { id: 2, role: 'customer' } });
+  state.storage.set('sofep_checkout_return', '/san-pham/ao-so-mi');
+  state.storage.set('fashion_store_cart', '[{"id":3,"id_chi_tiet_san_pham":15,"so_luong":2}]');
+  await state.component.methods.dangnhapTK.call(state.instance);
+  assert.deepEqual(state.destinations, ['/san-pham/ao-so-mi']);
+  assert.equal(JSON.parse(state.storage.get('fashion_store_cart'))[0].so_luong, 2);
+  assert.equal(state.storage.get('sofep_checkout_return'), '/san-pham/ao-so-mi');
+});
+
+
+test('Customer đăng nhập từ trung tâm thông báo quay lại đúng trang, không tạo ý định checkout', async () => {
+  const state = setup({ status: 1, token: 'test-inbox-token', nguoi_dung: { id: 2, role: 'customer' } });
+  state.storage.set('sofep_customer_return', '/thong-bao');
+  await state.component.methods.dangnhapTK.call(state.instance);
+  assert.deepEqual(state.destinations, ['/thong-bao']);
+  assert.equal(state.storage.has('sofep_customer_return'), false);
+  assert.equal(state.storage.has('sofep_checkout_return'), false);
 });

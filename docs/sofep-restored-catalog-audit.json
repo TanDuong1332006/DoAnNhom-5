@@ -1,0 +1,6761 @@
+{
+  "checked_at": "2026-11-06T08:44:33.873Z",
+  "api": "http://127.0.0.1:8000",
+  "products": 168,
+  "details_ok": 168,
+  "visible_variants": 500,
+  "gallery_references": 514,
+  "valid_primary": 168,
+  "unique_images": 275,
+  "valid_images": 275,
+  "failures": [],
+  "invalid_images": [],
+  "samples": [
+    {
+      "id": 172,
+      "name": "Áo polo",
+      "slug": "ao-polo",
+      "price": 350000,
+      "sale": 300000,
+      "variants": 9,
+      "gallery": 2
+    },
+    {
+      "id": 168,
+      "name": "Ô Dù Cầm Tay Mini Gấp Gọn Chống Tia Cực Tím UV99% Lớp Đen",
+      "slug": "o-du-cam-tay-mini-gap-gon-chong-tia-cuc-tim-uv99-lop-den-md1r",
+      "price": 280000,
+      "sale": 220000,
+      "variants": 1,
+      "gallery": 3
+    },
+    {
+      "id": 167,
+      "name": "Ghim Cài Áo Vest Nam Nữ Kim Loại Mạ Vàng Khảm Xà Cừ",
+      "slug": "ghim-cai-ao-vest-nam-nu-kim-loai-ma-vang-kham-xa-cu-6x0r",
+      "price": 310000,
+      "sale": 240000,
+      "variants": 3,
+      "gallery": 3
+    }
+  ],
+  "details": [
+    {
+      "id": 172,
+      "name": "Áo polo",
+      "slug": "ao-polo",
+      "price": 350000,
+      "sale": 300000,
+      "variants": 9,
+      "gallery": 2
+    },
+    {
+      "id": 168,
+      "name": "Ô Dù Cầm Tay Mini Gấp Gọn Chống Tia Cực Tím UV99% Lớp Đen",
+      "slug": "o-du-cam-tay-mini-gap-gon-chong-tia-cuc-tim-uv99-lop-den-md1r",
+      "price": 280000,
+      "sale": 220000,
+      "variants": 1,
+      "gallery": 3
+    },
+    {
+      "id": 167,
+      "name": "Ghim Cài Áo Vest Nam Nữ Kim Loại Mạ Vàng Khảm Xà Cừ",
+      "slug": "ghim-cai-ao-vest-nam-nu-kim-loai-ma-vang-kham-xa-cu-6x0r",
+      "price": 310000,
+      "sale": 240000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 166,
+      "name": "Kẹp Tóc Nữ Đính Đá Càng Cua Phong Cách Hàn Quốc Cao Cấp",
+      "slug": "kep-toc-nu-dinh-da-cang-cua-phong-cach-han-quoc-cao-cap-bgk5",
+      "price": 160000,
+      "sale": 120000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 165,
+      "name": "Hộp 5 Đôi Vớ Tất Cổ Cao Nam Nữ Dệt Kim Kháng Khuẩn Bạc",
+      "slug": "hop-5-doi-vo-tat-co-cao-nam-nu-det-kim-khang-khuan-bac-sdug",
+      "price": 199000,
+      "sale": 159000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 164,
+      "name": "Khăn Bandana Lụa Vuông Cột Cổ & Quai Túi Thời Trang",
+      "slug": "khan-bandana-lua-vuong-cot-co-quai-tui-thoi-trang-mwu9",
+      "price": 190000,
+      "sale": 140000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 163,
+      "name": "Găng Tay Da Cừu Nam Lót Lông Cảm Ứng Điện Thoại Mùa Đông",
+      "slug": "gang-tay-da-cuu-nam-lot-long-cam-ung-dien-thoai-mua-dong-jnhj",
+      "price": 480000,
+      "sale": 380000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 162,
+      "name": "Vòng Cổ Nữ Choker Ren Quyến Rũ Dự Tiệc Tối",
+      "slug": "vong-co-nu-choker-ren-quyen-ru-du-tiec-toi-cbxn",
+      "price": 210000,
+      "sale": 160000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 161,
+      "name": "Cà Vạt Nam Lụa Dệt Thoi Kèm Kẹp Cà Vạt Mạ Vàng Cao Cấp",
+      "slug": "ca-vat-nam-lua-det-thoi-kem-kep-ca-vat-ma-vang-cao-cap-y6fi",
+      "price": 460000,
+      "sale": 370000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 160,
+      "name": "Mũ Len Beanie Unisex Giữ Ấm Mùa Đông Dệt Rib",
+      "slug": "mu-len-beanie-unisex-giu-am-mua-dong-det-rib-tb3m",
+      "price": 220000,
+      "sale": 170000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 159,
+      "name": "Kính Râm Gọng Mắt Mèo Nữ Cá Tính Phong Cách Milan",
+      "slug": "kinh-ram-gong-mat-meo-nu-ca-tinh-phong-cach-milan-ehfi",
+      "price": 520000,
+      "sale": 410000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 157,
+      "name": "Bông Tai Nữ Ngọc Trai Nước Ngọt Chuôi Bạc Ý Tinh Khôi",
+      "slug": "bong-tai-nu-ngoc-trai-nuoc-ngot-chuoi-bac-y-tinh-khoi-ox6n",
+      "price": 420000,
+      "sale": 340000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 156,
+      "name": "Dây Chuyền Nam Titan Mặt Khắc Hình Học Geometric Cá Tính",
+      "slug": "day-chuyen-nam-titan-mat-khac-hinh-hoc-geometric-ca-tinh-jvn0",
+      "price": 340000,
+      "sale": 270000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 155,
+      "name": "Mũ Lưỡi Trai Unisex Thêu Chữ SOFEP Haute Atelier Vải Cotton",
+      "slug": "mu-luoi-trai-unisex-theu-chu-sofep-haute-atelier-vai-cotton-lomp",
+      "price": 250000,
+      "sale": 199000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 154,
+      "name": "Vòng Tay Bạc Ý 925 Đính Đá Zirconia Sang Trọng Cho Nữ",
+      "slug": "vong-tay-bac-y-925-dinh-da-zirconia-sang-trong-cho-nu-0cqx",
+      "price": 620000,
+      "sale": 499000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 153,
+      "name": "Khăn Choàng Cổ Lụa Tơ Tằm Họa Tiết Hội Họa Cổ Điển",
+      "slug": "khan-choang-co-lua-to-tam-hoa-tiet-hoi-hoa-co-dien-ftrv",
+      "price": 550000,
+      "sale": 440000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 152,
+      "name": "Mũ Nồi Beret Nữ Vải Dạ Thời Trang Phong Cách Cổ Điển",
+      "slug": "mu-noi-beret-nu-vai-da-thoi-trang-phong-cach-co-dien-i30n",
+      "price": 290000,
+      "sale": 230000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 151,
+      "name": "Thắt Lưng Nam Da Bò Thật Khóa Tự Động Mạ Vàng 18K",
+      "slug": "that-lung-nam-da-bo-that-khoa-tu-dong-ma-vang-18k-fejb",
+      "price": 480000,
+      "sale": 390000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 150,
+      "name": "Kính Mát Unisex Phi Công Aviator Tròng Phân Cực Polarized",
+      "slug": "kinh-mat-unisex-phi-cong-aviator-trong-phan-cuc-polarized-resv",
+      "price": 590000,
+      "sale": 470000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 149,
+      "name": "Đồng Hồ Nam Dây Da Kính Sapphire Máy Cơ Tự Động SOFEP",
+      "slug": "dong-ho-nam-day-da-kinh-sapphire-may-co-tu-dong-sofep-wdyb",
+      "price": 1890000,
+      "sale": 1490000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 148,
+      "name": "Túi Đeo Chéo Mini Trong Suốt Nhựa PVC Đi Lễ Hội Âm Nhạc",
+      "slug": "tui-deo-cheo-mini-trong-suot-nhua-pvc-di-le-hoi-am-nhac-v9yw",
+      "price": 260000,
+      "sale": 199000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 147,
+      "name": "Ví Nữ Dáng Dài Hai Khóa Kéo Kèm Dây Đeo Cổ Tay",
+      "slug": "vi-nu-dang-dai-hai-khoa-keo-kem-day-deo-co-tay-xior",
+      "price": 490000,
+      "sale": 399000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 146,
+      "name": "Túi Xách Nữ Hobo Da Mềm Đeo Vai Phong Cách Tối Giản",
+      "slug": "tui-xach-nu-hobo-da-mem-deo-vai-phong-cach-toi-gian-yqae",
+      "price": 610000,
+      "sale": 499000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 145,
+      "name": "Túi Du Lịch Xách Tay Da Trống Tập Gym Thể Thao Cao Cấp",
+      "slug": "tui-du-lich-xach-tay-da-trong-tap-gym-the-thao-cao-cap-rftn",
+      "price": 780000,
+      "sale": 640000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 144,
+      "name": "Ví Đựng Thẻ Card Holder Mini Da Bò Thật Mạ Logo SOFEP",
+      "slug": "vi-dung-the-card-holder-mini-da-bo-that-ma-logo-sofep-qmis",
+      "price": 280000,
+      "sale": 210000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 143,
+      "name": "Túi Xách Nữ Công Sở Đựng Tài Liệu A4 Da Thật Khóa Số",
+      "slug": "tui-xach-nu-cong-so-dung-tai-lieu-a4-da-that-khoa-so-d9q1",
+      "price": 1100000,
+      "sale": 890000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 142,
+      "name": "Túi Đeo Hông Chạy Bộ Chống Thấm Mồ Hôi Co Giãn",
+      "slug": "tui-deo-hong-chay-bo-chong-tham-mo-hoi-co-gian-d93a",
+      "price": 220000,
+      "sale": 170000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 141,
+      "name": "Balo Mini Nữ Da PU Nơ Nhỏ Dễ Thương Đi Học & Dạo Phố",
+      "slug": "balo-mini-nu-da-pu-no-nho-de-thuong-di-hoc-dao-pho-fsvw",
+      "price": 450000,
+      "sale": 360000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 140,
+      "name": "Túi Bucket Da Dây Rút Miệng Thời Trang Phong Cách Pháp",
+      "slug": "tui-bucket-da-day-rut-mieng-thoi-trang-phong-cach-phap-57b0",
+      "price": 560000,
+      "sale": 460000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 139,
+      "name": "Ví Da Nam Dáng Đứng Nhiều Ngăn Thẻ Tích Hợp Chặn RFID",
+      "slug": "vi-da-nam-dang-dung-nhieu-ngan-the-tich-hop-chan-rfid-qugu",
+      "price": 490000,
+      "sale": 390000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 138,
+      "name": "Túi Đựng Laptop Chống Sốc Phối Quai Da Doanh Nhân",
+      "slug": "tui-dung-laptop-chong-soc-phoi-quai-da-doanh-nhan-4drq",
+      "price": 420000,
+      "sale": 340000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 137,
+      "name": "Túi Đeo Chéo Nữ Dáng Tròn Mini Đựng Son Phấn Xinh Xắn",
+      "slug": "tui-deo-cheo-nu-dang-tron-mini-dung-son-phan-xinh-xan-snzz",
+      "price": 380000,
+      "sale": 299000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 136,
+      "name": "Ví Cầm Tay Nữ Clutch Dạ Hội Đính Hạt Lấp Lánh Khóa Bạc",
+      "slug": "vi-cam-tay-nu-clutch-da-hoi-dinh-hat-lap-lanh-khoa-bac-7dkl",
+      "price": 720000,
+      "sale": 590000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 135,
+      "name": "Balo Du Lịch Đa Năng Cỡ Lớn Chống Thấm 40L Mở Vali",
+      "slug": "balo-du-lich-da-nang-co-lon-chong-tham-40l-mo-vali-k8lr",
+      "price": 950000,
+      "sale": 799000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 134,
+      "name": "Túi Xách Nữ Kẹp Nách Da Vân Cá Sấu Thời Thượng Paris",
+      "slug": "tui-xach-nu-kep-nach-da-van-ca-sau-thoi-thuong-paris-4lku",
+      "price": 580000,
+      "sale": 470000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 133,
+      "name": "Túi Đeo Chéo Nam Nữ Bao Tử Thể Thao Chống Trộm Siêu Nhẹ",
+      "slug": "tui-deo-cheo-nam-nu-bao-tu-the-thao-chong-trom-sieu-nhe-jntw",
+      "price": 350000,
+      "sale": 280000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 132,
+      "name": "Ví Da Nam Dáng Ngang Da Bò Thật Khắc Tên Thủ Công",
+      "slug": "vi-da-nam-dang-ngang-da-bo-that-khac-ten-thu-cong-w2kg",
+      "price": 450000,
+      "sale": 360000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 131,
+      "name": "Túi Tote Vải Canvas Dày Dặn Đựng Vừa Hồ Sơ Laptop A4",
+      "slug": "tui-tote-vai-canvas-day-dan-dung-vua-ho-so-laptop-a4-ozq4",
+      "price": 290000,
+      "sale": 220000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 130,
+      "name": "Balo Da Nam Đựng Laptop 15.6 Inch Chống Nước Doanh Nhân",
+      "slug": "balo-da-nam-dung-laptop-156-inch-chong-nuoc-doanh-nhan-mpya",
+      "price": 890000,
+      "sale": 750000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 129,
+      "name": "Túi Xách Da Nữ Đeo Chéo Khóa Mạ Vàng Cao Cấp SOFEP Atelier",
+      "slug": "tui-xach-da-nu-deo-cheo-khoa-ma-vang-cao-cap-sofep-atelier-n0cj",
+      "price": 650000,
+      "sale": 520000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 128,
+      "name": "Giày Thể Thao Cầu Lông Tennis Chuyên Dụng Bọc Mũi",
+      "slug": "giay-the-thao-cau-long-tennis-chuyen-dung-boc-mui-ysgd",
+      "price": 850000,
+      "sale": 699000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 127,
+      "name": "Giày Slip-On Nữ Vải Canvas Thêu Họa Tiết Hoa Nhỏ",
+      "slug": "giay-slip-on-nu-vai-canvas-theu-hoa-tiet-hoa-nho-naok",
+      "price": 420000,
+      "sale": 340000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 126,
+      "name": "Giày Da Nữ Derby Cột Dây Đế Răng Cưa Phong Cách Cổ Điển",
+      "slug": "giay-da-nu-derby-cot-day-de-rang-cua-phong-cach-co-dien-ibbh",
+      "price": 780000,
+      "sale": 640000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 125,
+      "name": "Giày Chunky Sneaker Đế Khủng Tăng Chiều Cao 5cm",
+      "slug": "giay-chunky-sneaker-de-khung-tang-chieu-cao-5cm-nsj8",
+      "price": 920000,
+      "sale": 760000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 124,
+      "name": "Giày Lười Nam Moccasin Da Lộn Mềm Mại Thắt Dây Da",
+      "slug": "giay-luoi-nam-moccasin-da-lon-mem-mai-that-day-da-xvma",
+      "price": 880000,
+      "sale": 720000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 123,
+      "name": "Giày Cao Gót Nữ Quai Trong Suốt Mũi Vuông Độc Đáo",
+      "slug": "giay-cao-got-nu-quai-trong-suot-mui-vuong-doc-dao-imz7",
+      "price": 620000,
+      "sale": 499000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 122,
+      "name": "Giày Sandal Nam Quai Dù Đế Cao Su Êm Ái Đi Mưa",
+      "slug": "giay-sandal-nam-quai-du-de-cao-su-em-ai-di-mua-hyir",
+      "price": 390000,
+      "sale": 310000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 121,
+      "name": "Giày Sneaker Retro Vintage 1980s Đế Bánh Mì Dày Dặn",
+      "slug": "giay-sneaker-retro-vintage-1980s-de-banh-mi-day-dan-eftu",
+      "price": 890000,
+      "sale": 720000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 120,
+      "name": "Giày Boots Nữ Cổ Cao Qua Gối Da Thuộc Tôn Chân",
+      "slug": "giay-boots-nu-co-cao-qua-goi-da-thuoc-ton-chan-hopp",
+      "price": 1290000,
+      "sale": 1050000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 119,
+      "name": "Giày Chelsea Boots Nam Da Lộn Cổ Thun Phong Cách Rocker",
+      "slug": "giay-chelsea-boots-nam-da-lon-co-thun-phong-cach-rocker-3bta",
+      "price": 1350000,
+      "sale": 1090000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 118,
+      "name": "Giày Búp Bê Nữ Nơ Nhỏ Đế Bệt Êm Chân Da Cừu",
+      "slug": "giay-bup-be-nu-no-nho-de-bet-em-chan-da-cuu-vflj",
+      "price": 460000,
+      "sale": 370000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 117,
+      "name": "Giày Thể Thao Tập Gym Nam Nữ Đế Bám Chống Trượt Chuyên Nghiệp",
+      "slug": "giay-the-thao-tap-gym-nam-nu-de-bam-chong-truot-chuyen-nghiep-nyzg",
+      "price": 780000,
+      "sale": 640000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 116,
+      "name": "Giày Mule Sục Da Nữ Mũi Vuông Thanh Lịch Tiện Dụng",
+      "slug": "giay-mule-suc-da-nu-mui-vuong-thanh-lich-tien-dung-n7ii",
+      "price": 550000,
+      "sale": 450000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 115,
+      "name": "Giày Sneaker Cổ Cao High-Top Canvas Bụi Bặm Vintage",
+      "slug": "giay-sneaker-co-cao-high-top-canvas-bui-bam-vintage-y9t0",
+      "price": 620000,
+      "sale": 499000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 114,
+      "name": "Giày Da Nam Oxford Buộc Dây Công Sở Da Bóng Cao Cấp",
+      "slug": "giay-da-nam-oxford-buoc-day-cong-so-da-bong-cao-cap-bkl0",
+      "price": 1450000,
+      "sale": 1190000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 113,
+      "name": "Giày Sandal Nữ Dây Mảnh Quai Đan Đế Vuông 5cm",
+      "slug": "giay-sandal-nu-day-manh-quai-dan-de-vuong-5cm-fjh7",
+      "price": 490000,
+      "sale": 399000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 112,
+      "name": "Giày Sneaker Chạy Bộ Siêu Nhẹ Thoáng Khí Breathable Pro",
+      "slug": "giay-sneaker-chay-bo-sieu-nhe-thoang-khi-breathable-pro-skvi",
+      "price": 750000,
+      "sale": 599000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 111,
+      "name": "Giày Cao Gót Nữ Mũi Nhọn 7cm Đính Đá Dự Tiệc Quý Phái",
+      "slug": "giay-cao-got-nu-mui-nhon-7cm-dinh-da-du-tiec-quy-phai-wd4z",
+      "price": 850000,
+      "sale": 690000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 110,
+      "name": "Giày Lười Da Bò Nam Loafer Khóa Mạ Vàng Sang Trọng",
+      "slug": "giay-luoi-da-bo-nam-loafer-khoa-ma-vang-sang-trong-q9lt",
+      "price": 1250000,
+      "sale": 990000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 109,
+      "name": "Giày Sneaker Thấp Cổ Low-Top Trắng Chunky Sole SOFEP",
+      "slug": "giay-sneaker-thap-co-low-top-trang-chunky-sole-sofep-avox",
+      "price": 950000,
+      "sale": 790000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 108,
+      "name": "Áo Blazer Nữ Không Tay Dáng Dài Vest Gilet Thanh Lịch",
+      "slug": "ao-blazer-nu-khong-tay-dang-dai-vest-gilet-thanh-lich-8o0d",
+      "price": 640000,
+      "sale": 540000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 107,
+      "name": "Áo Khoác Kimono Cách Điệu Vải Gấm Sang Trọng Dạo Phố",
+      "slug": "ao-khoac-kimono-cach-dieu-vai-gam-sang-trong-dao-pho-0rba",
+      "price": 720000,
+      "sale": 599000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 106,
+      "name": "Áo Khoác Nỉ Hoodie Zip 2 Chiều Form Rộng Streetwear",
+      "slug": "ao-khoac-ni-hoodie-zip-2-chieu-form-rong-streetwear-ymbx",
+      "price": 580000,
+      "sale": 480000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 105,
+      "name": "Áo Khoác Nhựa Dù Trong Suốt Thời Trang Độc Lạ Y2K",
+      "slug": "ao-khoac-nhua-du-trong-suot-thoi-trang-doc-la-y2k-zxyo",
+      "price": 490000,
+      "sale": 399000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 104,
+      "name": "Áo Blazer Nam Linen Không Đệm Vai Thoáng Mát Mùa Hè",
+      "slug": "ao-blazer-nam-linen-khong-dem-vai-thoang-mat-mua-he-sdur",
+      "price": 890000,
+      "sale": 750000,
+      "variants": 3,
+      "gallery": 4
+    },
+    {
+      "id": 103,
+      "name": "Áo Khoác Gió Nam Nữ Trượt Nước Đi Mưa Có Phản Quang",
+      "slug": "ao-khoac-gio-nam-nu-truot-nuoc-di-mua-co-phan-quang-gisa",
+      "price": 450000,
+      "sale": 380000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 102,
+      "name": "Áo Khoác Trench Coat Dáng Dài Phong Cách London Cổ Điển",
+      "slug": "ao-khoac-trench-coat-dang-dai-phong-cach-london-co-dien-z4pv",
+      "price": 1550000,
+      "sale": 1290000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 101,
+      "name": "Áo Khoác Varsity Jacket Phối Tay Da Học Đường Trẻ Trung",
+      "slug": "ao-khoac-varsity-jacket-phoi-tay-da-hoc-duong-tre-trung-epcp",
+      "price": 820000,
+      "sale": 690000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 100,
+      "name": "Áo Khoác Phao Lông Vũ Dáng Ngắn Siêu Nhẹ 800FP",
+      "slug": "ao-khoac-phao-long-vu-dang-ngan-sieu-nhe-800fp-cxxn",
+      "price": 1290000,
+      "sale": 1050000,
+      "variants": 3,
+      "gallery": 4
+    },
+    {
+      "id": 99,
+      "name": "Áo Blazer Nữ Kẻ Caro Houndstooth Nanh Sói Hoàng Gia",
+      "slug": "ao-blazer-nu-ke-caro-houndstooth-nanh-soi-hoang-gia-vmip",
+      "price": 850000,
+      "sale": 720000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 98,
+      "name": "Áo Khoác Kaki Safari 4 Túi Hộp Quân Đội Đa Dụng",
+      "slug": "ao-khoac-kaki-safari-4-tui-hop-quan-doi-da-dung-9uoh",
+      "price": 750000,
+      "sale": 630000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 97,
+      "name": "Áo Khoác Cardigan Len Vặn Thừng Dáng Rộng Vintage",
+      "slug": "ao-khoac-cardigan-len-van-thung-dang-rong-vintage-etk1",
+      "price": 620000,
+      "sale": 520000,
+      "variants": 3,
+      "gallery": 4
+    },
+    {
+      "id": 96,
+      "name": "Áo Khoác Da Biker Da Cừu Cao Cấp Khóa Xéo Đinh Tán",
+      "slug": "ao-khoac-da-biker-da-cuu-cao-cap-khoa-xeo-dinh-tan-liwr",
+      "price": 1850000,
+      "sale": 1490000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 95,
+      "name": "Áo Khoác Blazer Nam Form Rộng Relaxed Fit Smart Casual",
+      "slug": "ao-khoac-blazer-nam-form-rong-relaxed-fit-smart-casual-pz3i",
+      "price": 980000,
+      "sale": 820000,
+      "variants": 3,
+      "gallery": 4
+    },
+    {
+      "id": 94,
+      "name": "Áo Khoác Gió Thể Thao Chống Nước Có Mũ Trùm Đa Năng",
+      "slug": "ao-khoac-gio-the-thao-chong-nuoc-co-mu-trum-da-nang-8gxv",
+      "price": 520000,
+      "sale": 430000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 93,
+      "name": "Áo Khoác Măng Tô Dạ Dáng Dài Thu Đông Đẳng Cấp",
+      "slug": "ao-khoac-mang-to-da-dang-dai-thu-dong-dang-cap-qqrn",
+      "price": 1450000,
+      "sale": 1190000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 92,
+      "name": "Áo Khoác Denim Bò Unisex Lót Lông Cừu Ấm Áp Mùa Đông",
+      "slug": "ao-khoac-denim-bo-unisex-lot-long-cuu-am-ap-mua-dong-xmmc",
+      "price": 890000,
+      "sale": 760000,
+      "variants": 3,
+      "gallery": 4
+    },
+    {
+      "id": 91,
+      "name": "Áo Khoác Blazer Nữ Cắt Lửng Cropped Thời Thượng",
+      "slug": "ao-khoac-blazer-nu-cat-lung-cropped-thoi-thuong-uard",
+      "price": 780000,
+      "sale": 650000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 90,
+      "name": "Áo Khoác Bomber Dù 2 Lớp Chống Gió Chống Nước",
+      "slug": "ao-khoac-bomber-du-2-lop-chong-gio-chong-nuoc-elfl",
+      "price": 690000,
+      "sale": 580000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 89,
+      "name": "Áo Khoác Blazer Nam 2 Hàng Khuy Double-Breasted SOFEP",
+      "slug": "ao-khoac-blazer-nam-2-hang-khuy-double-breasted-sofep-7g1d",
+      "price": 1150000,
+      "sale": 950000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 88,
+      "name": "Áo Thun Nữ Body Cổ Khóa Half-Zip Thể Thao Cao Cấp",
+      "slug": "ao-thun-nu-body-co-khoa-half-zip-the-thao-cao-cap-auiv",
+      "price": 360000,
+      "sale": 299000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 87,
+      "name": "Áo Peplum Nữ Che Khuyết Điểm Bụng Tôn Vóc Dáng",
+      "slug": "ao-peplum-nu-che-khuyet-diem-bung-ton-voc-dang-2yfh",
+      "price": 470000,
+      "sale": 399000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 86,
+      "name": "Áo Dệt Kim Nữ Cộc Tay Cổ Polo Trẻ Trung Năng Động",
+      "slug": "ao-det-kim-nu-coc-tay-co-polo-tre-trung-nang-dong-dyai",
+      "price": 370000,
+      "sale": 310000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 85,
+      "name": "Áo Corset Nữ Định Hình Eo Gợi Cảm Phối Ren",
+      "slug": "ao-corset-nu-dinh-hinh-eo-goi-cam-phoi-ren-qedf",
+      "price": 490000,
+      "sale": 410000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 84,
+      "name": "Áo Sơ Mi Nữ Tay Lỡ Vải Đũi Mộc Mạc Tối Giản",
+      "slug": "ao-so-mi-nu-tay-lo-vai-dui-moc-mac-toi-gian-v3te",
+      "price": 410000,
+      "sale": 340000,
+      "variants": 3,
+      "gallery": 4
+    },
+    {
+      "id": 83,
+      "name": "Áo Thun Nữ Cổ Tim Vải Tencel Mát Mịn Thấm Hút",
+      "slug": "ao-thun-nu-co-tim-vai-tencel-mat-min-tham-hut-iitz",
+      "price": 280000,
+      "sale": 220000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 82,
+      "name": "Áo Kiểu Nữ Thắt Nơ Lưng Hở Vai Gợi Cảm Đi Tiệc",
+      "slug": "ao-kieu-nu-that-no-lung-ho-vai-goi-cam-di-tiec-x0mu",
+      "price": 430000,
+      "sale": 360000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 81,
+      "name": "Áo Croptop Nữ Dài Tay Khóa Kéo Hai Đầu Sành Điệu",
+      "slug": "ao-croptop-nu-dai-tay-khoa-keo-hai-dau-sanh-dieu-vdc3",
+      "price": 350000,
+      "sale": 290000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 80,
+      "name": "Áo Len Nữ Cardigan Nút Cài Ngọc Trai Vintage",
+      "slug": "ao-len-nu-cardigan-nut-cai-ngoc-trai-vintage-llzp",
+      "price": 520000,
+      "sale": 430000,
+      "variants": 3,
+      "gallery": 4
+    },
+    {
+      "id": 79,
+      "name": "Áo Sơ Mi Nữ Trắng Cổ Đức Basic Vải Kate Lụa",
+      "slug": "ao-so-mi-nu-trang-co-duc-basic-vai-kate-lua-kooa",
+      "price": 390000,
+      "sale": 330000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 78,
+      "name": "Áo Nỉ Nữ Hoodie Form Rộng Phong Cách Ulzzang Hàn Quốc",
+      "slug": "ao-ni-nu-hoodie-form-rong-phong-cach-ulzzang-han-quoc-qqrf",
+      "price": 490000,
+      "sale": 410000,
+      "variants": 3,
+      "gallery": 4
+    },
+    {
+      "id": 77,
+      "name": "Áo Ba Lỗ Nữ Dệt Rib Co Giãn Tôn Dáng Thể Thao",
+      "slug": "ao-ba-lo-nu-det-rib-co-gian-ton-dang-the-thao-xfvq",
+      "price": 230000,
+      "sale": 180000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 76,
+      "name": "Áo Kiểu Nữ Cổ Vuông Tay Nhún Điệu Đà Tiểu Thư",
+      "slug": "ao-kieu-nu-co-vuong-tay-nhun-dieu-da-tieu-thu-utax",
+      "price": 410000,
+      "sale": 340000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 75,
+      "name": "Áo Sơ Mi Nữ Voan Kẻ Sọc Dáng Rộng Dạo Phố",
+      "slug": "ao-so-mi-nu-voan-ke-soc-dang-rong-dao-pho-no2k",
+      "price": 450000,
+      "sale": 380000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 74,
+      "name": "Áo Hai Dây Nữ Lụa Satin Viền Ren Cổ V Gợi Cảm",
+      "slug": "ao-hai-day-nu-lua-satin-vien-ren-co-v-goi-cam-kn7p",
+      "price": 290000,
+      "sale": 230000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 73,
+      "name": "Áo Thun Nữ Oversized In Hình Chữ Nổi Minimalist",
+      "slug": "ao-thun-nu-oversized-in-hinh-chu-noi-minimalist-x6sx",
+      "price": 320000,
+      "sale": 260000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 72,
+      "name": "Áo Len Nữ Cổ Lọ Dệt Kim Giữ Ấm Mùa Đông",
+      "slug": "ao-len-nu-co-lo-det-kim-giu-am-mua-dong-qcyg",
+      "price": 460000,
+      "sale": 380000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 71,
+      "name": "Áo Kiểu Nữ Trễ Vai Tay Bồng Bo Chun Nữ Tính",
+      "slug": "ao-kieu-nu-tre-vai-tay-bong-bo-chun-nu-tinh-d1x6",
+      "price": 390000,
+      "sale": 320000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 70,
+      "name": "Áo Sơ Mi Nữ Lụa Cổ Nơ Phong Cách Công Sở Paris",
+      "slug": "ao-so-mi-nu-lua-co-no-phong-cach-cong-so-paris-33cr",
+      "price": 480000,
+      "sale": 410000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 69,
+      "name": "Áo Croptop Nữ Tay Ngắn Cổ Tròn Ôm Body Cotton SOFEP",
+      "slug": "ao-croptop-nu-tay-ngan-co-tron-om-body-cotton-sofep-rpll",
+      "price": 260000,
+      "sale": 210000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 68,
+      "name": "Váy Suông Nữ Thể Thao Phối Sọc Năng Động Trẻ Trung",
+      "slug": "vay-suong-nu-the-thao-phoi-soc-nang-dong-tre-trung-2tfc",
+      "price": 390000,
+      "sale": 320000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 67,
+      "name": "Đầm Ren Trắng Nữ Tinh Khôi Dáng Xòe Lót Lụa",
+      "slug": "dam-ren-trang-nu-tinh-khoi-dang-xoe-lot-lua-qw0h",
+      "price": 820000,
+      "sale": 699000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 66,
+      "name": "Chân Váy Xếp Tầng Tutu Phối Lưới Thời Thượng Paris",
+      "slug": "chan-vay-xep-tang-tutu-phoi-luoi-thoi-thuong-paris-ktkd",
+      "price": 510000,
+      "sale": 430000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 65,
+      "name": "Đầm Ôm Body Cổ Yếm Khoét Lưng Dự Tiệc Quyến Rũ",
+      "slug": "dam-om-body-co-yem-khoet-lung-du-tiec-quyen-ru-ftxl",
+      "price": 680000,
+      "sale": 570000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 64,
+      "name": "Váy Nhún Bèo Tầng Vải Chiffon Bay Bổng Lãng Mạn",
+      "slug": "vay-nhun-beo-tang-vai-chiffon-bay-bong-lang-man-pfht",
+      "price": 560000,
+      "sale": 470000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 63,
+      "name": "Đầm Suông Đuôi Cá Nữ Dự Tiệc Màu Trắng Ngọc Trai",
+      "slug": "dam-suong-duoi-ca-nu-du-tiec-mau-trang-ngoc-trai-8lpy",
+      "price": 740000,
+      "sale": 630000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 62,
+      "name": "Chân Váy Jean Dáng Dài Xẻ Trước Phong Cách Ulzzang",
+      "slug": "chan-vay-jean-dang-dai-xe-truoc-phong-cach-ulzzang-ol8g",
+      "price": 520000,
+      "sale": 440000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 61,
+      "name": "Đầm Babydoll Nữ Tay Lỡ Xinh Xắn Ngọt Ngào",
+      "slug": "dam-babydoll-nu-tay-lo-xinh-xan-ngot-ngao-7olz",
+      "price": 430000,
+      "sale": 360000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 60,
+      "name": "Chân Váy Chữ A Nữ Da PU Cao Cấp Khóa Bạc Cá Tính",
+      "slug": "chan-vay-chu-a-nu-da-pu-cao-cap-khoa-bac-ca-tinh-qiak",
+      "price": 480000,
+      "sale": 410000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 59,
+      "name": "Đầm Sơ Mi Nữ Kèm Thắt Lưng Bản Nhỏ Thời Thượng",
+      "slug": "dam-so-mi-nu-kem-that-lung-ban-nho-thoi-thuong-kjl8",
+      "price": 590000,
+      "sale": 499000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 58,
+      "name": "Chân Váy Bút Chì Công Sở Co Giãn Ôm Tôn Dáng",
+      "slug": "chan-vay-but-chi-cong-so-co-gian-om-ton-dang-eept",
+      "price": 420000,
+      "sale": 350000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 57,
+      "name": "Đầm Dạ Hội Trễ Vai Đính Đá Pha Lê Cao Cấp SOFEP",
+      "slug": "dam-da-hoi-tre-vai-dinh-da-pha-le-cao-cap-sofep-zmec",
+      "price": 1250000,
+      "sale": 990000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 56,
+      "name": "Váy Yếm Nữ Vải Kaki Vintage Dễ Phối Đồ Dạo Phố",
+      "slug": "vay-yem-nu-vai-kaki-vintage-de-phoi-do-dao-pho-mhkz",
+      "price": 450000,
+      "sale": 380000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 55,
+      "name": "Đầm Maxi Đi Biển Hoạ Tiết Hoa Nhí Bohemian Mùa Hè",
+      "slug": "dam-maxi-di-bien-hoa-tiet-hoa-nhi-bohemian-mua-he-mbfh",
+      "price": 690000,
+      "sale": 590000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 54,
+      "name": "Chân Váy Midi Xẻ Tà Nữ Tính Dáng Dài Thanh Lịch",
+      "slug": "chan-vay-midi-xe-ta-nu-tinh-dang-dai-thanh-lich-xmvi",
+      "price": 460000,
+      "sale": 390000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 53,
+      "name": "Đầm Suông Nữ Vải Đũi Linen Thắt Nơ Eo Tinh Tế",
+      "slug": "dam-suong-nu-vai-dui-linen-that-no-eo-tinh-te-r27n",
+      "price": 580000,
+      "sale": 490000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 52,
+      "name": "Chân Váy Chữ A Xếp Ly Phong Cách Tennis Năng Động",
+      "slug": "chan-vay-chu-a-xep-ly-phong-cach-tennis-nang-dong-a0xo",
+      "price": 380000,
+      "sale": 310000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 51,
+      "name": "Đầm Bodycon Dệt Kim Gân Tăm Ôm Sát Tôn Đường Cong",
+      "slug": "dam-bodycon-det-kim-gan-tam-om-sat-ton-duong-cong-mfxm",
+      "price": 520000,
+      "sale": 430000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 50,
+      "name": "Váy Xòe Nữ Cổ Vuông Tay Bồng Tiểu Thư Dự Tiệc",
+      "slug": "vay-xoe-nu-co-vuong-tay-bong-tieu-thu-du-tiec-h22z",
+      "price": 650000,
+      "sale": 550000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 49,
+      "name": "Đầm Lụa Satin Hai Dây Dáng Dài Hở Lưng Quyến Rũ SOFEP",
+      "slug": "dam-lua-satin-hai-day-dang-dai-ho-lung-quyen-ru-sofep-6mxa",
+      "price": 790000,
+      "sale": 680000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 48,
+      "name": "Quần Tây Nam Họa Tiết Kẻ Sọc Pinstripe Cổ Điển",
+      "slug": "quan-tay-nam-hoa-tiet-ke-soc-pinstripe-co-dien-8vwq",
+      "price": 690000,
+      "sale": 590000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 47,
+      "name": "Quần Short Nam Jean Denim Cắt Gấu Tua Rua Bụi Bặm",
+      "slug": "quan-short-nam-jean-denim-cat-gau-tua-rua-bui-bam-k9rx",
+      "price": 410000,
+      "sale": 350000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 46,
+      "name": "Quần Kaki Nam Xếp Ly Baggy Dáng Rộng Tự Do",
+      "slug": "quan-kaki-nam-xep-ly-baggy-dang-rong-tu-do-g20n",
+      "price": 560000,
+      "sale": 480000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 45,
+      "name": "Quần Jean Nam Ống Loe Bootcut Phong Cách Retro Y2K",
+      "slug": "quan-jean-nam-ong-loe-bootcut-phong-cach-retro-y2k-kf3w",
+      "price": 710000,
+      "sale": 610000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 44,
+      "name": "Quần Nỉ Nam Sweatpants Bo Gấu Dày Dặn 380GSM",
+      "slug": "quan-ni-nam-sweatpants-bo-gau-day-dan-380gsm-o8mu",
+      "price": 450000,
+      "sale": 390000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 43,
+      "name": "Quần Short Nam Vải Đũi Linen Đi Biển & Du Lịch",
+      "slug": "quan-short-nam-vai-dui-linen-di-bien-du-lich-ptg5",
+      "price": 360000,
+      "sale": 299000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 42,
+      "name": "Quần Tây Nam Co Giãn 4 Chiều Công Sở Không Nhăn",
+      "slug": "quan-tay-nam-co-gian-4-chieu-cong-so-khong-nhan-wq1n",
+      "price": 670000,
+      "sale": 580000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 41,
+      "name": "Quần Jean Nam Màu Đen Obsidian Wash Nhẹ Chống Bụi",
+      "slug": "quan-jean-nam-mau-den-obsidian-wash-nhe-chong-bui-6riz",
+      "price": 610000,
+      "sale": 530000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 40,
+      "name": "Quần Túi Hộp Nam Cargo Pants Vải Ripstop Quân Đội",
+      "slug": "quan-tui-hop-nam-cargo-pants-vai-ripstop-quan-doi-fg02",
+      "price": 680000,
+      "sale": 580000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 39,
+      "name": "Quần Kaki Nam Ống Đứng Regular Fit Chuẩn Công Sở",
+      "slug": "quan-kaki-nam-ong-dung-regular-fit-chuan-cong-so-ncpu",
+      "price": 520000,
+      "sale": 450000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 38,
+      "name": "Quần Jean Nam Slimfit Màu Xanh Chàm Indigo Tối Giản",
+      "slug": "quan-jean-nam-slimfit-mau-xanh-cham-indigo-toi-gian-turo",
+      "price": 620000,
+      "sale": 520000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 37,
+      "name": "Quần Short Nam Thể Thao 2 Lớp Chạy Bộ Kháng Nước",
+      "slug": "quan-short-nam-the-thao-2-lop-chay-bo-khang-nuoc-f9lz",
+      "price": 350000,
+      "sale": 290000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 36,
+      "name": "Quần Tây Nam Cạp Gurkha Khóa Kim Loại Sang Trọng",
+      "slug": "quan-tay-nam-cap-gurkha-khoa-kim-loai-sang-trong-wiew",
+      "price": 720000,
+      "sale": 620000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 35,
+      "name": "Quần Jogger Nam Vải Dù 2 Lớp Kháng Gió Đô Thị",
+      "slug": "quan-jogger-nam-vai-du-2-lop-khang-gio-do-thi-yxll",
+      "price": 490000,
+      "sale": 420000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 34,
+      "name": "Quần Jean Nam Rách Gối Xước Nhẹ Phong Cách Streetwear",
+      "slug": "quan-jean-nam-rach-goi-xuoc-nhe-phong-cach-streetwear-equ2",
+      "price": 640000,
+      "sale": 550000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 33,
+      "name": "Quần Short Nam Kaki Túi Chéo Năng Động Dạo Phố",
+      "slug": "quan-short-nam-kaki-tui-cheo-nang-dong-dao-pho-uyp9",
+      "price": 380000,
+      "sale": 320000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 32,
+      "name": "Quần Parachute Nam Utility Cargo Túi Hộp Dây Rút",
+      "slug": "quan-parachute-nam-utility-cargo-tui-hop-day-rut-0ivb",
+      "price": 590000,
+      "sale": 499000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 31,
+      "name": "Quần Tây Nam Xếp Ly Phong Cách Sartorial Hàn Quốc",
+      "slug": "quan-tay-nam-xep-ly-phong-cach-sartorial-han-quoc-mxvk",
+      "price": 650000,
+      "sale": 550000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 30,
+      "name": "Quần Kaki Nam Chino Dáng Tapered Fit Co Giãn Nhẹ",
+      "slug": "quan-kaki-nam-chino-dang-tapered-fit-co-gian-nhe-bhba",
+      "price": 540000,
+      "sale": 460000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 29,
+      "name": "Quần Jean Nam Ống Suông Wide-Leg Vintage Wash SOFEP",
+      "slug": "quan-jean-nam-ong-suong-wide-leg-vintage-wash-sofep-2mrd",
+      "price": 690000,
+      "sale": 590000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 28,
+      "name": "Áo Polo Nam Pique Cotton Kháng Khuẩn Khử Mùi Active",
+      "slug": "ao-polo-nam-pique-cotton-khang-khuan-khu-mui-active-kesm",
+      "price": 490000,
+      "sale": 410000,
+      "variants": 3,
+      "gallery": 4
+    },
+    {
+      "id": 27,
+      "name": "Áo Thun Nam Cổ Tim V-Neck Co Giãn Sợi Modal Thoáng Khí",
+      "slug": "ao-thun-nam-co-tim-v-neck-co-gian-soi-modal-thoang-khi-yeer",
+      "price": 320000,
+      "sale": 270000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 26,
+      "name": "Áo Sơ Mi Nam Cổ Trụ Mandarin Tối Giản Đương Đại",
+      "slug": "ao-so-mi-nam-co-tru-mandarin-toi-gian-duong-dai-hizy",
+      "price": 470000,
+      "sale": 399000,
+      "variants": 3,
+      "gallery": 4
+    },
+    {
+      "id": 25,
+      "name": "Áo Thun Nam Form Rộng Thêu Chữ Nổi SOFEP Haute Atelier",
+      "slug": "ao-thun-nam-form-rong-theu-chu-noi-sofep-haute-atelier-tgiu",
+      "price": 370000,
+      "sale": 320000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 24,
+      "name": "Áo Sơ Mi Nam Lụa Satin Trơn Dự Tiệc Sang Trọng",
+      "slug": "ao-so-mi-nam-lua-satin-tron-du-tiec-sang-trong-554s",
+      "price": 620000,
+      "sale": 540000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 23,
+      "name": "Áo Thun Nam Drop-Shoulder Acid Wash Vintage Streetwear",
+      "slug": "ao-thun-nam-drop-shoulder-acid-wash-vintage-streetwear-urij",
+      "price": 390000,
+      "sale": 330000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 22,
+      "name": "Áo Sơ Mi Nam Flannel Kẻ Caro Phong Cách Grunge",
+      "slug": "ao-so-mi-nam-flannel-ke-caro-phong-cach-grunge-n0kb",
+      "price": 510000,
+      "sale": 430000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 21,
+      "name": "Áo Polo Nam Bo Cổ Dệt Họa Tiết Houndstooth",
+      "slug": "ao-polo-nam-bo-co-det-hoa-tiet-houndstooth-xx3u",
+      "price": 530000,
+      "sale": 460000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 20,
+      "name": "Áo Thun Nam Raglan Tay Phối Màu Phong Cách Retro",
+      "slug": "ao-thun-nam-raglan-tay-phoi-mau-phong-cach-retro-xksl",
+      "price": 340000,
+      "sale": 280000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 19,
+      "name": "Áo Sơ Mi Nam Denim Chambray Cổ Bẻ Nam Tính",
+      "slug": "ao-so-mi-nam-denim-chambray-co-be-nam-tinh-gdjj",
+      "price": 580000,
+      "sale": 499000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 18,
+      "name": "Áo Ba Lỗ Nam Tanktop Ribbed Co Giãn Tôn Thể Hình",
+      "slug": "ao-ba-lo-nam-tanktop-ribbed-co-gian-ton-the-hinh-uhki",
+      "price": 250000,
+      "sale": 199000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 17,
+      "name": "Áo Thun Nam Cổ Tròn Clean Fit Trơn Màu Đen Obsidian",
+      "slug": "ao-thun-nam-co-tron-clean-fit-tron-mau-den-obsidian-17zc",
+      "price": 290000,
+      "sale": 240000,
+      "variants": 3,
+      "gallery": 5
+    },
+    {
+      "id": 16,
+      "name": "Áo Sơ Mi Nam Vải Đũi Linen Thoáng Mát Tự Nhiên",
+      "slug": "ao-so-mi-nam-vai-dui-linen-thoang-mat-tu-nhien-i1k9",
+      "price": 480000,
+      "sale": 410000,
+      "variants": 3,
+      "gallery": 4
+    },
+    {
+      "id": 15,
+      "name": "Áo Polo Nam Zip Collar Khóa Kéo Kim Loại Sang Trọng",
+      "slug": "ao-polo-nam-zip-collar-khoa-keo-kim-loai-sang-trong-jbkp",
+      "price": 550000,
+      "sale": 470000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 14,
+      "name": "Áo Thun Nam Tay Dài Waffle Knit Tổ Ong Thu Đông",
+      "slug": "ao-thun-nam-tay-dai-waffle-knit-to-ong-thu-dong-7iyy",
+      "price": 420000,
+      "sale": 360000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 13,
+      "name": "Áo Sơ Mi Nam Cuban Collar Hoạ Tiết Minimalist",
+      "slug": "ao-so-mi-nam-cuban-collar-hoa-tiet-minimalist-atgw",
+      "price": 460000,
+      "sale": 390000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 12,
+      "name": "Áo Thun Nam Graphic Oversized SOFEP Studio 2026",
+      "slug": "ao-thun-nam-graphic-oversized-sofep-studio-2026-mrwd",
+      "price": 380000,
+      "sale": 310000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 11,
+      "name": "Áo Polo Nam Dệt Kim Mercerized Cotton Ánh Kim",
+      "slug": "ao-polo-nam-det-kim-mercerized-cotton-anh-kim-4daj",
+      "price": 520000,
+      "sale": 450000,
+      "variants": 3,
+      "gallery": 4
+    },
+    {
+      "id": 10,
+      "name": "Áo Sơ Mi Nam Oxford Cổ Button-Down Relaxed Fit",
+      "slug": "ao-so-mi-nam-oxford-co-button-down-relaxed-fit-tvli",
+      "price": 490000,
+      "sale": 420000,
+      "variants": 3,
+      "gallery": 3
+    },
+    {
+      "id": 9,
+      "name": "Áo Thun Nam Boxy Heavyweight Cotton Supima SOFEP",
+      "slug": "ao-thun-nam-boxy-heavyweight-cotton-supima-sofep-n3qe",
+      "price": 350000,
+      "sale": 290000,
+      "variants": 3,
+      "gallery": 5
+    },
+    {
+      "id": 8,
+      "name": "Túi Xách Da Nữ Đeo Chéo Khóa Mạ Vàng",
+      "slug": "tui-xach-da-nu-deo-cheo",
+      "price": 550000,
+      "sale": 450000,
+      "variants": 2,
+      "gallery": 2
+    },
+    {
+      "id": 7,
+      "name": "Giày Sneaker Nam Nữ Thể Thao Air Cushion",
+      "slug": "giay-sneaker-the-thao-air-cushion",
+      "price": 1250000,
+      "sale": 999000,
+      "variants": 2,
+      "gallery": 2
+    },
+    {
+      "id": 6,
+      "name": "Áo Khoác Blazer Nam 2 Lớp Form Rộng Hiện Đại",
+      "slug": "ao-khoac-blazer-nam-2-lop",
+      "price": 890000,
+      "sale": 750000,
+      "variants": 2,
+      "gallery": 3
+    },
+    {
+      "id": 5,
+      "name": "Áo Len Dệt Kim Cổ Tim Phong Cách Hàn Quốc",
+      "slug": "ao-len-det-kim-co-tim-han-quoc",
+      "price": 380000,
+      "sale": 299000,
+      "variants": 2,
+      "gallery": 2
+    },
+    {
+      "id": 4,
+      "name": "Đầm Xòe Nữ Cổ Vuông Thanh Lịch Dự Tiệc",
+      "slug": "dam-xoe-nu-co-vuong-thanh-lich",
+      "price": 650000,
+      "sale": 520000,
+      "variants": 2,
+      "gallery": 2
+    },
+    {
+      "id": 3,
+      "name": "Quần Jean Nam Slimfit Denim Co Giãn Nhẹ",
+      "slug": "quan-jean-nam-slimfit-denim",
+      "price": 590000,
+      "sale": 499000,
+      "variants": 2,
+      "gallery": 2
+    },
+    {
+      "id": 2,
+      "name": "Áo Sơ Mi Nam Tay Dài Oxford Form Regular",
+      "slug": "ao-so-mi-nam-tay-dai-oxford",
+      "price": 450000,
+      "sale": 399000,
+      "variants": 2,
+      "gallery": 2
+    },
+    {
+      "id": 1,
+      "name": "Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp",
+      "slug": "ao-thun-nam-co-tron-cotton-supima",
+      "price": 299000,
+      "sale": 249000,
+      "variants": 2,
+      "gallery": 4
+    }
+  ],
+  "images": [
+    {
+      "url": "https://thoitrangbigsize.vn/wp-content/uploads/2025/03/den-3.jpg",
+      "references": [
+        {
+          "id": 172,
+          "kind": "primary"
+        },
+        {
+          "id": 172,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 69556,
+      "sha256": "9caf2e564373e1090f02d9cccfffd7963374af78dd4772c727cc4e022de20743"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/168/illustration-c3a0cd1d-f71d-4806-9022-038d34eb4e28.jpg",
+      "references": [
+        {
+          "id": 168,
+          "kind": "primary"
+        },
+        {
+          "id": 168,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 107685,
+      "sha256": "5e3eeefa3269867c97964878c64a539593c1fdec84c36bb6fce4cc387f16102a"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/167/illustration-f619deb7-3ea7-4f1a-bc57-b91c80ee2fc8.jpg",
+      "references": [
+        {
+          "id": 167,
+          "kind": "primary"
+        },
+        {
+          "id": 167,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 122654,
+      "sha256": "80e9047a381de673bea3d19fa63f9661d202fe9d1d2592553f3a10f14bb4cb68"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/166/illustration-c54e0455-222b-4aea-a175-fd04ed6aefb4.jpg",
+      "references": [
+        {
+          "id": 166,
+          "kind": "primary"
+        },
+        {
+          "id": 166,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 214745,
+      "sha256": "c3f8119f91e618d775957fcbea8cd03554068e131f97803cdfda0d21d9428a18"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/172/dd7b32f3-7ee8-4f6e-b7f0-e256ee801dc9.jpg",
+      "references": [
+        {
+          "id": 172,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 159718,
+      "sha256": "550c24c51dfdeeb125109c34f53f0a8786a1c972c9530571da82bceca2d683b5"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/165/illustration-928b067e-0007-4df7-b77a-72b2df7c0c80.jpg",
+      "references": [
+        {
+          "id": 165,
+          "kind": "primary"
+        },
+        {
+          "id": 165,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 213734,
+      "sha256": "64150b1e7fc96b5c2e8624609c8682bdb344d363c7ca74005a50a83365bebdff"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?w=700",
+      "references": [
+        {
+          "id": 168,
+          "kind": "gallery"
+        },
+        {
+          "id": 168,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 126145,
+      "sha256": "703a5f58d0dc97f641c9fa6fe550a148243a90d429fbd1a49833b34c76994fe1"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/164/illustration-497169e9-c6ff-418f-bca5-6197e4d9d63a.jpg",
+      "references": [
+        {
+          "id": 164,
+          "kind": "primary"
+        },
+        {
+          "id": 164,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 222721,
+      "sha256": "c57d9dedb4f53d58abd0cbda1897a8cf0a91719ac8941a54c7c5ddd5f05de55c"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=700",
+      "references": [
+        {
+          "id": 167,
+          "kind": "gallery"
+        },
+        {
+          "id": 167,
+          "kind": "gallery"
+        },
+        {
+          "id": 154,
+          "kind": "gallery"
+        },
+        {
+          "id": 154,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 100799,
+      "sha256": "cd678648f225ab931fd7cd3f4af2030dc1632b32ccd44f2d55a1fb5ae588b897"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/163/illustration-bd0dd32c-6dd1-4f22-85d1-aa455b1afb26.jpg",
+      "references": [
+        {
+          "id": 163,
+          "kind": "primary"
+        },
+        {
+          "id": 163,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 299330,
+      "sha256": "08d0749ec02da897511bbc2e3962293614d0e15a5b0ae09331758749cd2e4c9a"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+      "references": [
+        {
+          "id": 166,
+          "kind": "gallery"
+        },
+        {
+          "id": 166,
+          "kind": "gallery"
+        },
+        {
+          "id": 157,
+          "kind": "gallery"
+        },
+        {
+          "id": 157,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 180484,
+      "sha256": "0f76caf34075ccbc98e71fb23ea2af7def8358b82fd10f99a0158e156b7fcb18"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/162/illustration-24504b98-e45d-4460-9930-c3665a65c4e8.jpg",
+      "references": [
+        {
+          "id": 162,
+          "kind": "primary"
+        },
+        {
+          "id": 162,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 206335,
+      "sha256": "07e037e0dfc3059ccebb3a4d9fbb55a4f62462993820954a6c995b04667e8ff2"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1582966772680-860e372bb558?w=700",
+      "references": [
+        {
+          "id": 165,
+          "kind": "gallery"
+        },
+        {
+          "id": 165,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 194413,
+      "sha256": "062e78fad51eb8bb8602981a886f16e6283bfc8f2709a6a63032774b1200e974"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/161/illustration-e31c891f-e722-433d-96bd-c54b797ab726.jpg",
+      "references": [
+        {
+          "id": 161,
+          "kind": "primary"
+        },
+        {
+          "id": 161,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 281388,
+      "sha256": "14edb4cee4ca592837d52bf35e2d5a50069c7321c1d9aecad4617023d6c546be"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+      "references": [
+        {
+          "id": 164,
+          "kind": "gallery"
+        },
+        {
+          "id": 164,
+          "kind": "gallery"
+        },
+        {
+          "id": 153,
+          "kind": "gallery"
+        },
+        {
+          "id": 153,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 59395,
+      "sha256": "2863c46157ac099e20d00ff3a77bc6a50d471ba91f2a9e5d95ca5393c8319a30"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/160/illustration-7fb90a57-f42d-4470-b510-2dc9c06c35d6.jpg",
+      "references": [
+        {
+          "id": 160,
+          "kind": "primary"
+        },
+        {
+          "id": 160,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 204202,
+      "sha256": "90cc516e01856dc9a4ec5cfe5d0996f59c7a1870a718d33d0bffacd691972649"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=700",
+      "references": [
+        {
+          "id": 163,
+          "kind": "gallery"
+        },
+        {
+          "id": 163,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 57633,
+      "sha256": "2dee4b6ed2b1b8dd86d6a627151e1faaa3eee51397d2b7a439f7a80a0b1e6a8d"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/159/illustration-867a993e-87c1-41dd-9ad3-1411c55dcf0e.jpg",
+      "references": [
+        {
+          "id": 159,
+          "kind": "primary"
+        },
+        {
+          "id": 159,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 80853,
+      "sha256": "567e174ba27b12ffab6a66156218e40c1a5fcf4cbb8df56b193e67637fe8856d"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700",
+      "references": [
+        {
+          "id": 162,
+          "kind": "gallery"
+        },
+        {
+          "id": 162,
+          "kind": "gallery"
+        },
+        {
+          "id": 156,
+          "kind": "gallery"
+        },
+        {
+          "id": 156,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 96230,
+      "sha256": "0f3dd67730879f276b958918d9d533dabc452083a06cbc22a05493bb29244532"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/157/illustration-da2de699-2197-4750-930d-32039d65c734.jpg",
+      "references": [
+        {
+          "id": 157,
+          "kind": "primary"
+        },
+        {
+          "id": 157,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 94743,
+      "sha256": "db910ca49291c83e453b7ceaaa01eb269b660578becd4c5a9af3655688ebffe3"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1589756823695-278bc923f962?w=700",
+      "references": [
+        {
+          "id": 161,
+          "kind": "gallery"
+        },
+        {
+          "id": 161,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 258004,
+      "sha256": "a0f66c7ff334aefa48b2e8902feae4d383496e3d37523cac5db2cb18338dd0ef"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/156/illustration-d790179a-9499-438d-bc12-a663cd036d42.jpg",
+      "references": [
+        {
+          "id": 156,
+          "kind": "primary"
+        },
+        {
+          "id": 156,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 108278,
+      "sha256": "c900fef900d27ef6904b95ec19617caff4d4d81dc26271b22ff324a8e4111c98"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=700",
+      "references": [
+        {
+          "id": 160,
+          "kind": "gallery"
+        },
+        {
+          "id": 160,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 233394,
+      "sha256": "ebb9f3f9cadeb106b47d8764bb66db6d97a98f2733c320df2e8a8e1b34e9a463"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/155/illustration-449725e1-2242-487b-b328-7fffd489c004.jpg",
+      "references": [
+        {
+          "id": 155,
+          "kind": "primary"
+        },
+        {
+          "id": 155,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 224544,
+      "sha256": "b8550947ed17ae041e4b3731dd26d896ee032cc7cd76d0dd0eebde1489eaaa87"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=700",
+      "references": [
+        {
+          "id": 159,
+          "kind": "gallery"
+        },
+        {
+          "id": 159,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 40124,
+      "sha256": "79f865682bc5548771e398b999197431575c9bd665214d21c50859b8db040b35"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/154/illustration-47240542-bfc9-4147-81f8-f167f5f1d7a5.jpg",
+      "references": [
+        {
+          "id": 154,
+          "kind": "primary"
+        },
+        {
+          "id": 154,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 103297,
+      "sha256": "74c1218139cc1dde9234a20d46ae30c1c43c040684acf9af2bda1a1b69446e45"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/153/illustration-2ea87da5-0378-495f-b3d3-82e26fbaaa5c.jpg",
+      "references": [
+        {
+          "id": 153,
+          "kind": "primary"
+        },
+        {
+          "id": 153,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 253147,
+      "sha256": "0c58d3d4dea5b42635db174ce8eb90bc708c544093ff3f98601ca110e6204364"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/152/illustration-3073b90c-54c5-4abf-b702-2944710b653b.jpg",
+      "references": [
+        {
+          "id": 152,
+          "kind": "primary"
+        },
+        {
+          "id": 152,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 157769,
+      "sha256": "8ac76d46f481db2851324bf6c48906cb547a204bba6ff05ef36306596d297aa9"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=700",
+      "references": [
+        {
+          "id": 155,
+          "kind": "gallery"
+        },
+        {
+          "id": 155,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 44584,
+      "sha256": "7dc7b2deaf8908aa7c141c3ddcc148a8c1120a2f12a504398ec30fae625a7181"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/151/illustration-5a5bd945-6c5d-4807-82e1-3fe65f278274.jpg",
+      "references": [
+        {
+          "id": 151,
+          "kind": "primary"
+        },
+        {
+          "id": 151,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 229248,
+      "sha256": "81da54282d0e4d5479690cf2419d93650908cf938a2728f7afca93f680e60472"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/150/illustration-ab54ba65-7241-48aa-b0f5-bec3230a969c.jpg",
+      "references": [
+        {
+          "id": 150,
+          "kind": "primary"
+        },
+        {
+          "id": 150,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 79127,
+      "sha256": "fdac6128e3ae243951665f696075babeca32767cb4216c5fde37195b91970e6f"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/149/illustration-13f2d83c-5aa6-4daa-809c-6395d7501e19.jpg",
+      "references": [
+        {
+          "id": 149,
+          "kind": "primary"
+        },
+        {
+          "id": 149,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 186797,
+      "sha256": "04a8d5567bfb3c501de0f0bb4bbba806f79f092cbd298c319d8a8fdf6eb0124c"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?w=700",
+      "references": [
+        {
+          "id": 152,
+          "kind": "gallery"
+        },
+        {
+          "id": 152,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 69432,
+      "sha256": "5c235d563a14de1de8bdef97284956423d10e5d9237ac4318f315241f3216304"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/148/illustration-9a5faa48-89f8-4d36-bdc4-8e8c6c6ff16b.jpg",
+      "references": [
+        {
+          "id": 148,
+          "kind": "primary"
+        },
+        {
+          "id": 148,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 176718,
+      "sha256": "d04d122a875e45a03d36a98d41b1eb17e1494966aae19b5cd837267087495c59"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+      "references": [
+        {
+          "id": 151,
+          "kind": "gallery"
+        },
+        {
+          "id": 151,
+          "kind": "gallery"
+        },
+        {
+          "id": 145,
+          "kind": "gallery"
+        },
+        {
+          "id": 145,
+          "kind": "gallery"
+        },
+        {
+          "id": 138,
+          "kind": "gallery"
+        },
+        {
+          "id": 138,
+          "kind": "gallery"
+        },
+        {
+          "id": 135,
+          "kind": "gallery"
+        },
+        {
+          "id": 135,
+          "kind": "gallery"
+        },
+        {
+          "id": 130,
+          "kind": "gallery"
+        },
+        {
+          "id": 130,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 63737,
+      "sha256": "0db1af8854c190948cb93b74d967570b9bfdca2d5e3dc092923f479acad0fb24"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/147/illustration-107cf7bf-5f7c-4d40-8bdc-5a67f95f5215.jpg",
+      "references": [
+        {
+          "id": 147,
+          "kind": "primary"
+        },
+        {
+          "id": 147,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 222194,
+      "sha256": "cf863dbb9e2ebb95327e55545bb19f784ef726ff30d90e3a8eb49a9d84b5b269"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=700",
+      "references": [
+        {
+          "id": 150,
+          "kind": "gallery"
+        },
+        {
+          "id": 150,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 25404,
+      "sha256": "ac2ff1bc7f2fed618c51a64b0a8c36a6e8f3592abd7caf145a45d49e0c9e38b1"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/146/illustration-c0043ba3-0662-4c65-a4f1-37ba7c620584.jpg",
+      "references": [
+        {
+          "id": 146,
+          "kind": "primary"
+        },
+        {
+          "id": 146,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 141450,
+      "sha256": "0ba04202ec523737fe7a5ae2b0f9b1635a55bb0f684cf64fac06fd82d325dae2"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=700",
+      "references": [
+        {
+          "id": 149,
+          "kind": "gallery"
+        },
+        {
+          "id": 149,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 20952,
+      "sha256": "2999450da6747efb70871adeebd5b75b3c4366b5a47d85b920e7d916efd9ef70"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/145/illustration-1fdb6c4d-4147-4005-9e29-777720e761d9.jpg",
+      "references": [
+        {
+          "id": 145,
+          "kind": "primary"
+        },
+        {
+          "id": 145,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 191643,
+      "sha256": "2a58be2cd99e79fd6ae63ae7f66659cdc7e98244263b83c357b202cbd8af76f0"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+      "references": [
+        {
+          "id": 148,
+          "kind": "gallery"
+        },
+        {
+          "id": 148,
+          "kind": "gallery"
+        },
+        {
+          "id": 131,
+          "kind": "gallery"
+        },
+        {
+          "id": 131,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 71730,
+      "sha256": "8ebe4be454a7c9f94564041b45c282818b3356b6c4aa05e96ef0d14c9c5c7eea"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/144/illustration-3bfd3f13-f734-445c-a3f2-3405b0d556a0.jpg",
+      "references": [
+        {
+          "id": 144,
+          "kind": "primary"
+        },
+        {
+          "id": 144,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 246834,
+      "sha256": "9a15e4eabfdd4b4ec911d1a0412c6f31946641c65c6fa453fa1d06a9dd5b70ad"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+      "references": [
+        {
+          "id": 147,
+          "kind": "gallery"
+        },
+        {
+          "id": 147,
+          "kind": "gallery"
+        },
+        {
+          "id": 136,
+          "kind": "gallery"
+        },
+        {
+          "id": 136,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 30016,
+      "sha256": "e963ea3efc78a212f70a78f319bd843d13549a93153a22d54b0762759cbe9f20"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/143/illustration-3fdedba6-a139-4bd4-ac85-97b9c7264b95.jpg",
+      "references": [
+        {
+          "id": 143,
+          "kind": "primary"
+        },
+        {
+          "id": 143,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 251237,
+      "sha256": "8e5ec52a1888750825060da325ee9e07deb5f2be493cd527a911d94b2d173d23"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700",
+      "references": [
+        {
+          "id": 146,
+          "kind": "gallery"
+        },
+        {
+          "id": 146,
+          "kind": "gallery"
+        },
+        {
+          "id": 140,
+          "kind": "gallery"
+        },
+        {
+          "id": 140,
+          "kind": "gallery"
+        },
+        {
+          "id": 129,
+          "kind": "gallery"
+        },
+        {
+          "id": 129,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 49639,
+      "sha256": "8109acd63e8db9b52deb5356e018c2f06a0ae20fbeef91386dc3accb1de6d124"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/142/illustration-dcc43e9e-571e-44c1-9951-1dd500138c95.jpg",
+      "references": [
+        {
+          "id": 142,
+          "kind": "primary"
+        },
+        {
+          "id": 142,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 125006,
+      "sha256": "86bb3c5d8a1ca1304ac3c6fd482bfd9abd368942d1dc34ee9c04bb21e8313a98"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/141/illustration-daad1627-5b36-48f4-9e00-389a5c8623a2.jpg",
+      "references": [
+        {
+          "id": 141,
+          "kind": "primary"
+        },
+        {
+          "id": 141,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 222312,
+      "sha256": "ddc091a49adab751bd00612bb6fec55516426a26f72610b3b87562cf1c2b576b"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=700",
+      "references": [
+        {
+          "id": 144,
+          "kind": "gallery"
+        },
+        {
+          "id": 144,
+          "kind": "gallery"
+        },
+        {
+          "id": 139,
+          "kind": "gallery"
+        },
+        {
+          "id": 139,
+          "kind": "gallery"
+        },
+        {
+          "id": 132,
+          "kind": "gallery"
+        },
+        {
+          "id": 132,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 91061,
+      "sha256": "3e83e0fceeedd64cb6f272f78b4b326a47f644da669fe981fe1c3afaef3fe282"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/140/illustration-dd1455f9-dfd9-4f40-ad8e-861b4c5c8c54.jpg",
+      "references": [
+        {
+          "id": 140,
+          "kind": "primary"
+        },
+        {
+          "id": 140,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 175001,
+      "sha256": "d3d9eb91892fc90910355bb64f5e48d5a2c375d02390dde6d9f110825797f643"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+      "references": [
+        {
+          "id": 143,
+          "kind": "gallery"
+        },
+        {
+          "id": 143,
+          "kind": "gallery"
+        },
+        {
+          "id": 137,
+          "kind": "gallery"
+        },
+        {
+          "id": 137,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 108588,
+      "sha256": "c52384658fba10c4ff7e1dec2161d518142c7e23eb197398b8102aab2b776357"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/139/illustration-7c39665f-35fe-4939-9f15-19c2c410956b.jpg",
+      "references": [
+        {
+          "id": 139,
+          "kind": "primary"
+        },
+        {
+          "id": 139,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 237332,
+      "sha256": "2973bd545b9f2d21e84e586088e9f73531d778a2503c0aa8beafdc38fec93614"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1577733966973-d680bffd2e80?w=700",
+      "references": [
+        {
+          "id": 142,
+          "kind": "gallery"
+        },
+        {
+          "id": 142,
+          "kind": "gallery"
+        },
+        {
+          "id": 133,
+          "kind": "gallery"
+        },
+        {
+          "id": 133,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 75663,
+      "sha256": "128602dba5e5d9e726e4ab6b365bf65ba38a253e93a282696b329e993987702f"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/138/illustration-7cf3d452-03dd-4a34-b67d-993fe0b48570.jpg",
+      "references": [
+        {
+          "id": 138,
+          "kind": "primary"
+        },
+        {
+          "id": 138,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 199370,
+      "sha256": "99526cf880b9efe285935101f9d10bd5f1e18e3ff579c5f9681a2bbb08d892f5"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=700",
+      "references": [
+        {
+          "id": 141,
+          "kind": "gallery"
+        },
+        {
+          "id": 141,
+          "kind": "gallery"
+        },
+        {
+          "id": 134,
+          "kind": "gallery"
+        },
+        {
+          "id": 134,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 90104,
+      "sha256": "3ea41c77caed8276e53b5620d8d0595745023327c4d93720237844b3ff9ece7c"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/137/illustration-ab3cc375-070c-4ee7-a03f-c68059d2e472.jpg",
+      "references": [
+        {
+          "id": 137,
+          "kind": "primary"
+        },
+        {
+          "id": 137,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 189703,
+      "sha256": "d0ddc163c315c29dab45d82502a0580ea2d7a27737978912527c9ae65dbf7759"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/136/illustration-f0feedd6-e4a4-4cf5-99f6-c180d1e3acfa.jpg",
+      "references": [
+        {
+          "id": 136,
+          "kind": "primary"
+        },
+        {
+          "id": 136,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 307897,
+      "sha256": "3ecf310d824a9edb83944381ae3a29068694eaad3f64c73e79f650c435b959de"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/135/illustration-69e3cd26-1fb1-440f-9e20-0629c1a5415b.jpg",
+      "references": [
+        {
+          "id": 135,
+          "kind": "primary"
+        },
+        {
+          "id": 135,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 157998,
+      "sha256": "1f59aded660ed25874ab15c7786ee37898c2a8dc9f8cf97486701ee68357cfc4"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/134/illustration-94251939-8a41-4940-b3c6-ccf9c21ec638.jpg",
+      "references": [
+        {
+          "id": 134,
+          "kind": "primary"
+        },
+        {
+          "id": 134,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 178344,
+      "sha256": "373952db3654c9b8cd78799a4780e0feb3fb862cb11ac89917892b18273c067d"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/133/illustration-0f8e73da-edf8-4a79-bf40-b97775e28081.jpg",
+      "references": [
+        {
+          "id": 133,
+          "kind": "primary"
+        },
+        {
+          "id": 133,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 140098,
+      "sha256": "7456e4e05eae651d875cddbae5dc849fed95bbb876ef9e6e4c3ff5576fba0440"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/132/illustration-0c93af49-1407-49ed-a75a-3d32d6b470ba.jpg",
+      "references": [
+        {
+          "id": 132,
+          "kind": "primary"
+        },
+        {
+          "id": 132,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 209414,
+      "sha256": "bc7b6fbaaf38e435f8e893e3ea21681db152872e4cc4c8d97d2db348b3d6da1d"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/131/illustration-9543b6b7-2cae-4c75-9c8f-f0fd2587d930.jpg",
+      "references": [
+        {
+          "id": 131,
+          "kind": "primary"
+        },
+        {
+          "id": 131,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 224579,
+      "sha256": "6c54108b78e3bae9e03675207fabde7804707365166b3a29387020ae5e6876aa"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/130/illustration-2087b2cc-1a70-45bd-a2bb-a1a94e8daac2.jpg",
+      "references": [
+        {
+          "id": 130,
+          "kind": "primary"
+        },
+        {
+          "id": 130,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 236279,
+      "sha256": "f5bc42159d19d34d321c807a5426d44d7fde494106e3186374601c3e6eb41e10"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/129/illustration-44750f0e-47e9-4eab-8f15-822feb7a7be7.jpg",
+      "references": [
+        {
+          "id": 129,
+          "kind": "primary"
+        },
+        {
+          "id": 129,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 170234,
+      "sha256": "5a390ca0854f1e9d5fb2b54acd9595fd8e09f0e7e3f72e881ae4821bc9deb62c"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/128/illustration-6f020175-8b58-45f5-8be8-c38667843dee.jpg",
+      "references": [
+        {
+          "id": 128,
+          "kind": "primary"
+        },
+        {
+          "id": 128,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 174310,
+      "sha256": "f4f38c8ad9960fc1f468127579dd3799ffcbbe341372ad5043e7f8cb80efde1b"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/127/illustration-14b874cd-406d-49b0-8f1c-7a543a323a53.jpg",
+      "references": [
+        {
+          "id": 127,
+          "kind": "primary"
+        },
+        {
+          "id": 127,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 176370,
+      "sha256": "a1427bd379982804f2342f9093c02245236191a9f99d9c920f16d64d7e1b55b2"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/126/illustration-eadcfa3b-e48e-4b7c-8fe1-11d928e1e501.jpg",
+      "references": [
+        {
+          "id": 126,
+          "kind": "primary"
+        },
+        {
+          "id": 126,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 169521,
+      "sha256": "72ef0272e2115f6c85d663947ae89a20eb694ef7c644fa42caf08fceb3655860"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/125/illustration-459c7ecb-fca5-4bf1-a789-4c303ae94205.jpg",
+      "references": [
+        {
+          "id": 125,
+          "kind": "primary"
+        },
+        {
+          "id": 125,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 184059,
+      "sha256": "8238a9301ca3c87651a9cf4c724a506be1be09eb97bac436e8e6ceebc6ae6f0b"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+      "references": [
+        {
+          "id": 128,
+          "kind": "gallery"
+        },
+        {
+          "id": 128,
+          "kind": "gallery"
+        },
+        {
+          "id": 117,
+          "kind": "gallery"
+        },
+        {
+          "id": 117,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 39011,
+      "sha256": "e4537b4b355d05f2385500a2769b7bbbd15987049e7af44e20b6c60a7e688165"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/124/illustration-197b4dd4-8716-4226-99ea-2a7cf2c82f19.jpg",
+      "references": [
+        {
+          "id": 124,
+          "kind": "primary"
+        },
+        {
+          "id": 124,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 155442,
+      "sha256": "a2e648015d8c7e917f5bc2c86b83d680cd8e065b7e0674b90bfeb926c65ac554"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+      "references": [
+        {
+          "id": 127,
+          "kind": "gallery"
+        },
+        {
+          "id": 127,
+          "kind": "gallery"
+        },
+        {
+          "id": 115,
+          "kind": "gallery"
+        },
+        {
+          "id": 115,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 12547,
+      "sha256": "c0a959cda752b136dd372f47a3c2dcdcf8c8799ddc43ddf01ee8e5f1ce5c16d2"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/123/illustration-9bc73f6a-19e2-4163-8107-a95e2117c837.jpg",
+      "references": [
+        {
+          "id": 123,
+          "kind": "primary"
+        },
+        {
+          "id": 123,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 147415,
+      "sha256": "a10fce1fbfb2901dfebf130eecdc7801938c280f97ac39c5dc3ff6709a6f2068"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+      "references": [
+        {
+          "id": 126,
+          "kind": "gallery"
+        },
+        {
+          "id": 126,
+          "kind": "gallery"
+        },
+        {
+          "id": 119,
+          "kind": "gallery"
+        },
+        {
+          "id": 119,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 57890,
+      "sha256": "11cffc5aeb2dcdcf98fc8990da0be228361bc181eca05b44a11ffc320943dd3d"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/122/illustration-cc1576af-6e37-4f3f-a5c0-fcb79728a05b.jpg",
+      "references": [
+        {
+          "id": 122,
+          "kind": "primary"
+        },
+        {
+          "id": 122,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 190058,
+      "sha256": "d7139363bfec1d30284e1d259b03d0efdf497d2cc0f1299a8d4a26e64ab4e8c8"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700",
+      "references": [
+        {
+          "id": 125,
+          "kind": "gallery"
+        },
+        {
+          "id": 125,
+          "kind": "gallery"
+        },
+        {
+          "id": 112,
+          "kind": "gallery"
+        },
+        {
+          "id": 112,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 66457,
+      "sha256": "cfab030b95599f3f671c3b9d62ccf3f9a4edd405636c799985e75d722702dbc9"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/121/illustration-b8e3ba84-c4f7-4660-9785-dd7cb877c94a.jpg",
+      "references": [
+        {
+          "id": 121,
+          "kind": "primary"
+        },
+        {
+          "id": 121,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 169459,
+      "sha256": "d91926cc59ea12178db9b558c1afaf329866ad9e69045ce952dbbac94a837fbc"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+      "references": [
+        {
+          "id": 124,
+          "kind": "gallery"
+        },
+        {
+          "id": 124,
+          "kind": "gallery"
+        },
+        {
+          "id": 114,
+          "kind": "gallery"
+        },
+        {
+          "id": 114,
+          "kind": "gallery"
+        },
+        {
+          "id": 110,
+          "kind": "gallery"
+        },
+        {
+          "id": 110,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 52113,
+      "sha256": "e75d775c5a6b3ea48261835582c94d98fe5f6e5a71f3f665d4757976dc622f0d"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/120/illustration-1993d29c-aea1-4742-9dd4-3cc5184a8b69.jpg",
+      "references": [
+        {
+          "id": 120,
+          "kind": "primary"
+        },
+        {
+          "id": 120,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 82619,
+      "sha256": "a6a8d70153439d2e2ce386c98b1d19d831c5fc4462948fa9e5cd33d76fed745a"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+      "references": [
+        {
+          "id": 123,
+          "kind": "gallery"
+        },
+        {
+          "id": 123,
+          "kind": "gallery"
+        },
+        {
+          "id": 120,
+          "kind": "gallery"
+        },
+        {
+          "id": 120,
+          "kind": "gallery"
+        },
+        {
+          "id": 116,
+          "kind": "gallery"
+        },
+        {
+          "id": 116,
+          "kind": "gallery"
+        },
+        {
+          "id": 111,
+          "kind": "gallery"
+        },
+        {
+          "id": 111,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 94069,
+      "sha256": "46221fa437df9bb9225917853f5ef28447f17fcbf2fc88a2ca7875479e378546"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/119/illustration-6644fe3e-55f2-410e-a7f0-a609473f294c.jpg",
+      "references": [
+        {
+          "id": 119,
+          "kind": "primary"
+        },
+        {
+          "id": 119,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 147198,
+      "sha256": "1076ba5c315c1481ef020a734e5d896179e51800a5802042fa701c2ea5489202"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+      "references": [
+        {
+          "id": 122,
+          "kind": "gallery"
+        },
+        {
+          "id": 122,
+          "kind": "gallery"
+        },
+        {
+          "id": 118,
+          "kind": "gallery"
+        },
+        {
+          "id": 118,
+          "kind": "gallery"
+        },
+        {
+          "id": 113,
+          "kind": "gallery"
+        },
+        {
+          "id": 113,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 66333,
+      "sha256": "e9bd6b456ebf801c14ca060e0384cf686bbc223751197ff80be86e715cad2829"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/118/illustration-b77c1833-9cc5-4c05-9eae-928e983156e2.jpg",
+      "references": [
+        {
+          "id": 118,
+          "kind": "primary"
+        },
+        {
+          "id": 118,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 133241,
+      "sha256": "e99d918c37708e23260168f5a50dee8e60169e7b8e00a3b86d0031903a6a0e5c"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700",
+      "references": [
+        {
+          "id": 121,
+          "kind": "gallery"
+        },
+        {
+          "id": 121,
+          "kind": "gallery"
+        },
+        {
+          "id": 109,
+          "kind": "gallery"
+        },
+        {
+          "id": 109,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 47151,
+      "sha256": "7c7be84fe6449f22e14a775bcb251c7b49bc58dc242544ee3d38c9e46653eaeb"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/117/illustration-9d9d5213-511c-477f-be75-ef0c61a43774.jpg",
+      "references": [
+        {
+          "id": 117,
+          "kind": "primary"
+        },
+        {
+          "id": 117,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 211681,
+      "sha256": "1e7695fc00d62bd54ab64e1c9ce497f14df2fc715fc7289118f958a0a83e440a"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/116/illustration-7e2a8ce0-764a-4281-a66c-c626c81abe13.jpg",
+      "references": [
+        {
+          "id": 116,
+          "kind": "primary"
+        },
+        {
+          "id": 116,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 112235,
+      "sha256": "96496f5351ef8885ebcd4840b81ec26e8bb4192cc473ae8c85142982dff93637"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/115/illustration-12aa8da7-8034-49f2-ac17-34dbb1db26d7.jpg",
+      "references": [
+        {
+          "id": 115,
+          "kind": "primary"
+        },
+        {
+          "id": 115,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 212864,
+      "sha256": "7f47a10c3c7eaeece949d8ea32187df3a30f4b016805fe0f65694b32450a2c2f"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/114/illustration-e111b5b3-80e6-444c-9b78-0eacb7de022b.jpg",
+      "references": [
+        {
+          "id": 114,
+          "kind": "primary"
+        },
+        {
+          "id": 114,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 150058,
+      "sha256": "ce75319aa5fa46a501dd4fe80300495d9c9b0167ce6efe8b218f7281446b1f4d"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/113/illustration-899730d3-3461-4702-a3db-a11e6a622ae9.jpg",
+      "references": [
+        {
+          "id": 113,
+          "kind": "primary"
+        },
+        {
+          "id": 113,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 124700,
+      "sha256": "f9e295857dee1bfda98b0ff3d2543707887cda0854fee17718a609e43ea45b81"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/112/illustration-46c914a3-8ea3-4d51-93a0-d8a8f377302b.jpg",
+      "references": [
+        {
+          "id": 112,
+          "kind": "primary"
+        },
+        {
+          "id": 112,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 169005,
+      "sha256": "5e0c48fbb846742c461ca04899ef48502525381b8f3bc103e4cd8a85013007f3"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/111/illustration-d7ba3972-2a9c-47ed-b176-c6dca94635e1.jpg",
+      "references": [
+        {
+          "id": 111,
+          "kind": "primary"
+        },
+        {
+          "id": 111,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 156418,
+      "sha256": "8d8414d4095838bdae87ea356988dc90d182e967325810bcc4e43256c8fcd554"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/110/illustration-4662868d-9071-450c-b718-9d311587fa64.jpg",
+      "references": [
+        {
+          "id": 110,
+          "kind": "primary"
+        },
+        {
+          "id": 110,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 199173,
+      "sha256": "5524d6b935b6451784ae2eb16e788d686a9f0f98a1afe9957293eb1b6b8c12a8"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/109/illustration-46a4a868-8eb1-432c-8ffc-9286abd1079e.jpg",
+      "references": [
+        {
+          "id": 109,
+          "kind": "primary"
+        },
+        {
+          "id": 109,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 133887,
+      "sha256": "41652d7ce5a746d947cc27960fe0253e877928ccdc98ca83b229f123f7a6abd5"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/108/illustration-b8ce1f96-4d60-4932-8106-820b5ef2c4ff.jpg",
+      "references": [
+        {
+          "id": 108,
+          "kind": "primary"
+        },
+        {
+          "id": 108,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 95925,
+      "sha256": "824c13c6adc5d05be0fd0f0f412585af458b074248da69e0647e66b07c147e4f"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/107/illustration-ca8d327a-7d33-44ab-a53b-235f2de13967.jpg",
+      "references": [
+        {
+          "id": 107,
+          "kind": "primary"
+        },
+        {
+          "id": 107,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 285966,
+      "sha256": "c03e445c5c84b533e88d9138f5784b3f1a2e6dfef26826f4e83f538123f3dfd3"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/106/illustration-329d8837-c61f-4d54-b93b-05a879722162.jpg",
+      "references": [
+        {
+          "id": 106,
+          "kind": "primary"
+        },
+        {
+          "id": 106,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 143292,
+      "sha256": "ff40f99b46bf59253a46ea96cec38a09f24e02c8f10b8aa0e7f3674c190de420"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/105/illustration-470a2830-0429-4607-ad16-04607332a3f0.jpg",
+      "references": [
+        {
+          "id": 105,
+          "kind": "primary"
+        },
+        {
+          "id": 105,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 213648,
+      "sha256": "013eb0f14565d57d7ddcbfaf3ee94e60ae33433c18a135343b57142295da015d"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+      "references": [
+        {
+          "id": 108,
+          "kind": "gallery"
+        },
+        {
+          "id": 108,
+          "kind": "gallery"
+        },
+        {
+          "id": 99,
+          "kind": "gallery"
+        },
+        {
+          "id": 99,
+          "kind": "gallery"
+        },
+        {
+          "id": 91,
+          "kind": "gallery"
+        },
+        {
+          "id": 91,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 78307,
+      "sha256": "7ef4128ed8bd036386871e977945c1f8f7be1fd1f8bc8e0b3cca46794e6bf7eb"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/104/illustration-e52b574e-4068-4850-95d5-e5cc4e3f3c35.jpg",
+      "references": [
+        {
+          "id": 104,
+          "kind": "primary"
+        },
+        {
+          "id": 104,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 178445,
+      "sha256": "7fafb67c2ff410897fe209aebf6a1cdfd0a576fc76859cbe3fb2a497a0a77bda"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700",
+      "references": [
+        {
+          "id": 107,
+          "kind": "gallery"
+        },
+        {
+          "id": 107,
+          "kind": "gallery"
+        },
+        {
+          "id": 96,
+          "kind": "gallery"
+        },
+        {
+          "id": 96,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 139057,
+      "sha256": "b4defa2b0af3da00b4422bc99fb90da61c2c40c954ab3d30730bdc4095fcb5f7"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/103/illustration-5889565c-3e43-4f3e-9205-ce226e9db7c2.jpg",
+      "references": [
+        {
+          "id": 103,
+          "kind": "primary"
+        },
+        {
+          "id": 103,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 148904,
+      "sha256": "7be8eddc2182e9bbc26095d5def87c7a87aba5c194ee0d16fbee48366874f958"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+      "references": [
+        {
+          "id": 106,
+          "kind": "gallery"
+        },
+        {
+          "id": 106,
+          "kind": "gallery"
+        },
+        {
+          "id": 92,
+          "kind": "gallery"
+        },
+        {
+          "id": 92,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 33692,
+      "sha256": "b9842432709f85bd937c4b480bcc38a3fcff274b1e05fd0f954d6d4a2b81294a"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/102/illustration-fa445adb-0302-4014-ab6b-5ff5a208cd93.jpg",
+      "references": [
+        {
+          "id": 102,
+          "kind": "primary"
+        },
+        {
+          "id": 102,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 98360,
+      "sha256": "d721b22f1b5fc711d28709fede08fbb12f02ca0fc4418381b788cd97ce8f28f8"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+      "references": [
+        {
+          "id": 105,
+          "kind": "gallery"
+        },
+        {
+          "id": 105,
+          "kind": "gallery"
+        },
+        {
+          "id": 98,
+          "kind": "gallery"
+        },
+        {
+          "id": 98,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 82635,
+      "sha256": "2824737cd71e38be9eafeacaf9149dc7b0bc43f9278debb91fac63e62eb9d238"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/101/illustration-2a661cc3-06b7-4e96-9432-4e7aee6f4593.jpg",
+      "references": [
+        {
+          "id": 101,
+          "kind": "primary"
+        },
+        {
+          "id": 101,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 202824,
+      "sha256": "e4df51c939722216a3378c8538db4b470c15c13463f274f796d17b76df9c3c57"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/104/illustration-c38a2f37-bf98-4cfd-bb50-ec2e1d7257d5.jpg",
+      "references": [
+        {
+          "id": 104,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 150600,
+      "sha256": "6db50036a395568accc891edd1c0cabe7450cbc51d688253a3514b69330f9f60"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+      "references": [
+        {
+          "id": 104,
+          "kind": "gallery"
+        },
+        {
+          "id": 104,
+          "kind": "gallery"
+        },
+        {
+          "id": 95,
+          "kind": "gallery"
+        },
+        {
+          "id": 95,
+          "kind": "gallery"
+        },
+        {
+          "id": 89,
+          "kind": "gallery"
+        },
+        {
+          "id": 89,
+          "kind": "gallery"
+        },
+        {
+          "id": 36,
+          "kind": "gallery"
+        },
+        {
+          "id": 36,
+          "kind": "gallery"
+        },
+        {
+          "id": 24,
+          "kind": "gallery"
+        },
+        {
+          "id": 24,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 53503,
+      "sha256": "a85a72b22b28f65733dd5677d82a58d18b7e948d22a9bd95d17d753a58a9e7d9"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/100/illustration-d9a24d22-003b-458c-8f21-6f2ff6076d73.jpg",
+      "references": [
+        {
+          "id": 100,
+          "kind": "primary"
+        },
+        {
+          "id": 100,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 149737,
+      "sha256": "8be1558702efdb772e1d74cca518ff442d9bceeceb673e5862e86fe5bbf9ba87"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+      "references": [
+        {
+          "id": 103,
+          "kind": "gallery"
+        },
+        {
+          "id": 103,
+          "kind": "gallery"
+        },
+        {
+          "id": 100,
+          "kind": "gallery"
+        },
+        {
+          "id": 100,
+          "kind": "gallery"
+        },
+        {
+          "id": 94,
+          "kind": "gallery"
+        },
+        {
+          "id": 94,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 92578,
+      "sha256": "c20dee792e6e9f0626e2b0303e4cf22a492e0a4bed05cd79efaf01a8905fad6e"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/99/illustration-07d6690b-cba1-4ada-9e35-716b84efdf61.jpg",
+      "references": [
+        {
+          "id": 99,
+          "kind": "primary"
+        },
+        {
+          "id": 99,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 453447,
+      "sha256": "186e196903ba74cd5679441c35556f418e69df639c5cebfab5069c91e84f9650"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+      "references": [
+        {
+          "id": 102,
+          "kind": "gallery"
+        },
+        {
+          "id": 102,
+          "kind": "gallery"
+        },
+        {
+          "id": 93,
+          "kind": "gallery"
+        },
+        {
+          "id": 93,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 79875,
+      "sha256": "c68a3818a8a94e252656fcd426ff3cde12bea9d87c891ade685b73f506f03558"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/98/illustration-0d108778-3f6b-416f-a06d-7e19083b219e.jpg",
+      "references": [
+        {
+          "id": 98,
+          "kind": "primary"
+        },
+        {
+          "id": 98,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 147355,
+      "sha256": "0144514aa88bdb5fe4433eac85370882a539a1b48c5c49c2640c784649afc6f2"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+      "references": [
+        {
+          "id": 101,
+          "kind": "gallery"
+        },
+        {
+          "id": 101,
+          "kind": "gallery"
+        },
+        {
+          "id": 90,
+          "kind": "gallery"
+        },
+        {
+          "id": 90,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 96226,
+      "sha256": "454cdc166f709d319d8846e9b36e425db548b3a59c190db4dba72749b326f1a2"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/97/illustration-4ac14b30-776b-4ab4-9877-186a71348bb9.jpg",
+      "references": [
+        {
+          "id": 97,
+          "kind": "primary"
+        },
+        {
+          "id": 97,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 228029,
+      "sha256": "71d9bf8b8064d6e1dd9b809554b8b1bbeae41dea9c89d8df4de0712679131a26"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/100/illustration-67a113b5-5f6b-4237-8f71-15b4ad3379fc.jpg",
+      "references": [
+        {
+          "id": 100,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 134905,
+      "sha256": "b1a13d64c52ec239d7b21351087d5e2ec52184cc869fc339293c649ceb6e80b8"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/96/illustration-a65efa80-262a-42b5-af10-21e5696c5b7f.jpg",
+      "references": [
+        {
+          "id": 96,
+          "kind": "primary"
+        },
+        {
+          "id": 96,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 194164,
+      "sha256": "3006545584a48d2a3245f44f7e9f575287e14b96bf92fb4daa52a25ef9e7f353"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/95/illustration-33ea8bce-a4e5-45e5-9c8f-fe0e02e25a78.jpg",
+      "references": [
+        {
+          "id": 95,
+          "kind": "primary"
+        },
+        {
+          "id": 95,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 128780,
+      "sha256": "9a59bc332a3cb33cf7d1edf38ab2d940314a07e77618f9c609628266170f273a"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/94/illustration-7d3884c9-72f7-4336-af57-faf8a379729a.jpg",
+      "references": [
+        {
+          "id": 94,
+          "kind": "primary"
+        },
+        {
+          "id": 94,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 137214,
+      "sha256": "75069c3b7ebeb9ed099530801f68aeea9762b647cf75653cd4bad91fad70dce5"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/97/illustration-5ad4f7dc-1e6a-49a8-81f4-4ec4e1e83a81.jpg",
+      "references": [
+        {
+          "id": 97,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 237585,
+      "sha256": "b1892e76c9c2b2ba02b9dfbd0954b90057e245ac494edb5ffe7327f4c425b16a"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+      "references": [
+        {
+          "id": 97,
+          "kind": "gallery"
+        },
+        {
+          "id": 97,
+          "kind": "gallery"
+        },
+        {
+          "id": 80,
+          "kind": "gallery"
+        },
+        {
+          "id": 80,
+          "kind": "gallery"
+        },
+        {
+          "id": 72,
+          "kind": "gallery"
+        },
+        {
+          "id": 72,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 142087,
+      "sha256": "b40d331721b06170624dcbbd16c05755c29defaf774e17258459486a93a1ac3a"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/93/illustration-6f44d48e-5e59-442d-897b-be3450dd51b4.jpg",
+      "references": [
+        {
+          "id": 93,
+          "kind": "primary"
+        },
+        {
+          "id": 93,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 130063,
+      "sha256": "9e9477dc0c97c403617d9a01e111cabbefa97b1677cf9f259f05bb4473d8339c"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/92/illustration-140155d9-5286-4d6d-80a8-dabb3169906a.jpg",
+      "references": [
+        {
+          "id": 92,
+          "kind": "primary"
+        },
+        {
+          "id": 92,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 264185,
+      "sha256": "7e3b8b2d7933dd0c8ffaf392714e8ee43ee02dfe2c4482e16dda5484cec673e2"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/95/illustration-3fe146b1-0b5b-453d-b1f2-de71c9f0efa1.jpg",
+      "references": [
+        {
+          "id": 95,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 150600,
+      "sha256": "6db50036a395568accc891edd1c0cabe7450cbc51d688253a3514b69330f9f60"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/91/illustration-e149fd06-2d44-4652-a715-55351d0a5ef2.jpg",
+      "references": [
+        {
+          "id": 91,
+          "kind": "primary"
+        },
+        {
+          "id": 91,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 121739,
+      "sha256": "010a4afde66285a4c6a45089051e6bf9affa57e52c0a6257d1da95c97af2e461"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/90/illustration-d13ba2dc-97a6-4965-a028-ec21fd66dcbc.jpg",
+      "references": [
+        {
+          "id": 90,
+          "kind": "primary"
+        },
+        {
+          "id": 90,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 130915,
+      "sha256": "7f8a11d8f0e2efb95e1bc51c67a58223d8141b94c4260c082701e3455244424e"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/89/illustration-a9e0d416-2984-417b-98b2-727c60579a51.jpg",
+      "references": [
+        {
+          "id": 89,
+          "kind": "primary"
+        },
+        {
+          "id": 89,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 148046,
+      "sha256": "40399fa1e275771ca7898d7bbcdd1c5fd74737c54798039e684bae27fba202a8"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/92/illustration-56426be1-1877-43e6-a475-5e6c24c138c7.jpg",
+      "references": [
+        {
+          "id": 92,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 849417,
+      "sha256": "75bb82afbd3eae6fb59c6036d8f72986ba677bb729db993154778dd2d5c6a59f"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/88/illustration-747c88f8-33ba-4cdd-b607-947907980040.jpg",
+      "references": [
+        {
+          "id": 88,
+          "kind": "primary"
+        },
+        {
+          "id": 88,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 124921,
+      "sha256": "86597e7b34887ef89b4d77a6585e4d1fae51c1a47bcec18314c9d5a470ae3321"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/87/illustration-1de22a9c-97e9-4a82-a7c3-603b12b19bd1.jpg",
+      "references": [
+        {
+          "id": 87,
+          "kind": "primary"
+        },
+        {
+          "id": 87,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 102808,
+      "sha256": "fa427ee5301a651a582ea48806b28ea9f26d28fac6dd3c5b37f41587f86cdd13"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/86/illustration-847d4fbd-d37c-4a4f-aeab-83941ab8d793.jpg",
+      "references": [
+        {
+          "id": 86,
+          "kind": "primary"
+        },
+        {
+          "id": 86,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 186862,
+      "sha256": "e80b157da59d08046288ad472dfea1f8b8f183dd48415005d17bd8181f63fbcc"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/85/illustration-6e65eebe-e6cf-4771-8e5f-3bf61b368dcd.jpg",
+      "references": [
+        {
+          "id": 85,
+          "kind": "primary"
+        },
+        {
+          "id": 85,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 255326,
+      "sha256": "e37bbeacbc8219d9dbf775dc1eb8afe64e7e59e45f5184428d0d05c7104f6a8c"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=700",
+      "references": [
+        {
+          "id": 88,
+          "kind": "gallery"
+        },
+        {
+          "id": 88,
+          "kind": "gallery"
+        },
+        {
+          "id": 78,
+          "kind": "gallery"
+        },
+        {
+          "id": 78,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 32511,
+      "sha256": "47051feb4e0b9a6675660f7434b58ee51f417b659882d9fa54139ca8a5ad9290"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/84/illustration-e63120b4-4ac1-4d9d-93c3-05d6a7223602.jpg",
+      "references": [
+        {
+          "id": 84,
+          "kind": "primary"
+        },
+        {
+          "id": 84,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 123283,
+      "sha256": "9d306044a220848e085cc6b97bc6c7e8ee8f8e0e334f3f28508b9bec6f4a3016"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+      "references": [
+        {
+          "id": 87,
+          "kind": "gallery"
+        },
+        {
+          "id": 87,
+          "kind": "gallery"
+        },
+        {
+          "id": 77,
+          "kind": "gallery"
+        },
+        {
+          "id": 77,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 96781,
+      "sha256": "cbd1c2735838c834a25503f0b81872586d8ad83afdae7c967f6ccae5baad3569"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/83/illustration-ca862522-0b91-4c1d-913b-a1ebf441d0e4.jpg",
+      "references": [
+        {
+          "id": 83,
+          "kind": "primary"
+        },
+        {
+          "id": 83,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 120075,
+      "sha256": "8de16a8d1a59076bd7bba7f6713a0433f5f3a8cddce73298eee8d66ab4ea2c63"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+      "references": [
+        {
+          "id": 86,
+          "kind": "gallery"
+        },
+        {
+          "id": 86,
+          "kind": "gallery"
+        },
+        {
+          "id": 76,
+          "kind": "gallery"
+        },
+        {
+          "id": 76,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 145187,
+      "sha256": "05f39fdf8acef0341e48b9f0df81c607cecf7999c9589ea6d129fc807698e2d4"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/82/illustration-abfbc2e1-7806-4baf-9557-f3eba79e029c.jpg",
+      "references": [
+        {
+          "id": 82,
+          "kind": "primary"
+        },
+        {
+          "id": 82,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 133957,
+      "sha256": "aec563857bafecc194b20954dc67af779e0988bf3fbade11efb6eca2f0afcbf1"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+      "references": [
+        {
+          "id": 85,
+          "kind": "gallery"
+        },
+        {
+          "id": 85,
+          "kind": "gallery"
+        },
+        {
+          "id": 74,
+          "kind": "gallery"
+        },
+        {
+          "id": 74,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 134528,
+      "sha256": "75193db5efb9e14acf69b823de8e245cb5abf3007e7c6c856dbc7c1da87d6bb2"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/81/illustration-3ed0747b-ef6a-4768-862b-b9e65ce2eef9.jpg",
+      "references": [
+        {
+          "id": 81,
+          "kind": "primary"
+        },
+        {
+          "id": 81,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 131887,
+      "sha256": "a0e0e3a7a88aa3f3639cb6d7c0002d3758c5b6f190c3641ee49f216d1999b4c2"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/84/illustration-d7f7dcb9-dc4a-4670-b900-b4c1da64748f.jpg",
+      "references": [
+        {
+          "id": 84,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 218597,
+      "sha256": "5c2dace42fc10e01bb20eb4b693123aa90c03868b2f58cb95e61394529a9af11"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+      "references": [
+        {
+          "id": 84,
+          "kind": "gallery"
+        },
+        {
+          "id": 84,
+          "kind": "gallery"
+        },
+        {
+          "id": 75,
+          "kind": "gallery"
+        },
+        {
+          "id": 75,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 113922,
+      "sha256": "c7ba0403e0a6597cf7f509ea4532f820852ecbab51653f2c11d1bba8963e5c51"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/80/illustration-51a92118-87c1-442a-a9e3-5284528ed023.jpg",
+      "references": [
+        {
+          "id": 80,
+          "kind": "primary"
+        },
+        {
+          "id": 80,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 206099,
+      "sha256": "61c88ce62aa0f3a09d420bd36a29189e7d57769a2c2f43fb58219a77bc57a90e"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+      "references": [
+        {
+          "id": 83,
+          "kind": "gallery"
+        },
+        {
+          "id": 83,
+          "kind": "gallery"
+        },
+        {
+          "id": 73,
+          "kind": "gallery"
+        },
+        {
+          "id": 73,
+          "kind": "gallery"
+        },
+        {
+          "id": 15,
+          "kind": "gallery"
+        },
+        {
+          "id": 15,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 62767,
+      "sha256": "7e03e3c35e644882b7793e0771ca698b6681abec94255b3f515fb027eebb28c2"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/79/illustration-3a108cc0-abee-4865-9e3c-ed89d32053fe.jpg",
+      "references": [
+        {
+          "id": 79,
+          "kind": "primary"
+        },
+        {
+          "id": 79,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 75053,
+      "sha256": "343304345743404c4166d023ea75f6721a4a551614fc66ffdd94312a2c2808e5"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+      "references": [
+        {
+          "id": 82,
+          "kind": "gallery"
+        },
+        {
+          "id": 82,
+          "kind": "gallery"
+        },
+        {
+          "id": 71,
+          "kind": "gallery"
+        },
+        {
+          "id": 71,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 72925,
+      "sha256": "e5f9d390f9509a053f669e3fb119684090aade174b8b23b45cb1b04fa6f54d5a"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/78/illustration-59d38262-46a7-4089-8f3b-85188accc68f.jpg",
+      "references": [
+        {
+          "id": 78,
+          "kind": "primary"
+        },
+        {
+          "id": 78,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 126014,
+      "sha256": "b43637cd561b47beee8bdabdd02bf3ace6a0daccdc97d233297f0de915e78cd2"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+      "references": [
+        {
+          "id": 81,
+          "kind": "gallery"
+        },
+        {
+          "id": 81,
+          "kind": "gallery"
+        },
+        {
+          "id": 69,
+          "kind": "gallery"
+        },
+        {
+          "id": 69,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 58486,
+      "sha256": "71c9776fff644ef5aa10a15a587c3c0d59f33adec2b475a7529349b9aaa5e63c"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/77/illustration-0455b6d0-a9c2-4ffe-803d-54a6a5da21a5.jpg",
+      "references": [
+        {
+          "id": 77,
+          "kind": "primary"
+        },
+        {
+          "id": 77,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 120749,
+      "sha256": "09f083eca6c7c30338a4d3b25842a13a259b0b6ca966a474551387f1aa3b344f"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/80/illustration-ed3f6b70-7eb7-42eb-8b4f-295e2f3d9c2b.jpg",
+      "references": [
+        {
+          "id": 80,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 237585,
+      "sha256": "b1892e76c9c2b2ba02b9dfbd0954b90057e245ac494edb5ffe7327f4c425b16a"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/76/illustration-3afa7e40-2a56-4811-8c3d-414149471e49.jpg",
+      "references": [
+        {
+          "id": 76,
+          "kind": "primary"
+        },
+        {
+          "id": 76,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 118507,
+      "sha256": "5ff9717204ac7b59e959518d54d08f8c8e6b4d8e89d120afa938926a45a310b8"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+      "references": [
+        {
+          "id": 79,
+          "kind": "gallery"
+        },
+        {
+          "id": 79,
+          "kind": "gallery"
+        },
+        {
+          "id": 70,
+          "kind": "gallery"
+        },
+        {
+          "id": 70,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 124134,
+      "sha256": "ffafade61f113e29a4f1523e21bb2236f991a57551ec04dd6bbc8df756a96c55"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/75/illustration-10bd86b8-8f0f-483b-9cf4-a95176916e06.jpg",
+      "references": [
+        {
+          "id": 75,
+          "kind": "primary"
+        },
+        {
+          "id": 75,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 208063,
+      "sha256": "f35807be04e49a37b4c9ae38294a36fecdec760e091bda1d9e639ce35950a5c4"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/78/illustration-cdf3a0ea-01be-4abf-a342-5cff82e4e725.jpg",
+      "references": [
+        {
+          "id": 78,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 49226,
+      "sha256": "eee0ac525d9431acfea000c724ee5d2fac41c8cc7b7328fbdc715d380e0646d6"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/74/illustration-19b7738b-82f7-44b3-9f0b-b1fcacbc7bd1.jpg",
+      "references": [
+        {
+          "id": 74,
+          "kind": "primary"
+        },
+        {
+          "id": 74,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 123751,
+      "sha256": "59c04785db40956069d5cbd6d9fe57af4adfbb6c3c938ef5bec63aac6f2968a6"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/73/illustration-b6241a9a-1fd7-440b-9473-ea902296622f.jpg",
+      "references": [
+        {
+          "id": 73,
+          "kind": "primary"
+        },
+        {
+          "id": 73,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 129076,
+      "sha256": "61e06e95f2742652fbc8cf1ca20cfc61160602029bdc26aafce482083b035b30"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/72/illustration-db23629b-f189-4130-ae05-245d641d7a02.jpg",
+      "references": [
+        {
+          "id": 72,
+          "kind": "primary"
+        },
+        {
+          "id": 72,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 234533,
+      "sha256": "6643967dde1de8cce79d3a5d14e63576b5bd7a7c4e4c9be9178f91bd1c5e3034"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/71/illustration-a460e738-8134-4a0d-ba34-99e8ade92213.jpg",
+      "references": [
+        {
+          "id": 71,
+          "kind": "primary"
+        },
+        {
+          "id": 71,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 133719,
+      "sha256": "87edaef8444dadc335128b3a97f1b1e6528e9a5c564cfce28bc25e0acf133d0e"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/70/illustration-55d46b11-7d21-4979-ade5-5670ec7e762a.jpg",
+      "references": [
+        {
+          "id": 70,
+          "kind": "primary"
+        },
+        {
+          "id": 70,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 135371,
+      "sha256": "be8fa9469753d51424a7aba63a8bacc8c1541a6c164418552c88f6932c941181"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/69/illustration-5be18770-fbb2-4a73-b8b4-6ccf18df8ad1.jpg",
+      "references": [
+        {
+          "id": 69,
+          "kind": "primary"
+        },
+        {
+          "id": 69,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 147904,
+      "sha256": "71dd8693f879204fb2a2fab4d9257d248974335134954d6cebb098f15956bd84"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/68/illustration-addbf706-b4fa-426d-89e9-f5dd6c1202b9.jpg",
+      "references": [
+        {
+          "id": 68,
+          "kind": "primary"
+        },
+        {
+          "id": 68,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 105327,
+      "sha256": "2e5a3e7f9638411c2e73debe0aa081591de084d16e7b18f20f274d2d18973af9"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/67/illustration-ed757848-95c8-4aea-aaf4-edabfdc38051.jpg",
+      "references": [
+        {
+          "id": 67,
+          "kind": "primary"
+        },
+        {
+          "id": 67,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 159469,
+      "sha256": "e5751d5f54aca77a06ee5962fdeb231cb42effde22657184eb9c911e8fe169ba"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/66/illustration-665a86a0-2188-4692-a6b8-994fe279c4a0.jpg",
+      "references": [
+        {
+          "id": 66,
+          "kind": "primary"
+        },
+        {
+          "id": 66,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 203813,
+      "sha256": "fd8b61f37cd65a1a3b3d49853f0e414af05a96a30fafd705488f772543d51751"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/65/illustration-23ac3168-2e49-4341-aced-47df790c8bc5.jpg",
+      "references": [
+        {
+          "id": 65,
+          "kind": "primary"
+        },
+        {
+          "id": 65,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 73995,
+      "sha256": "3b72837d8e46a57cf189ea29f6f833c27d94af264b05b3d28f46dcf27540be9a"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+      "references": [
+        {
+          "id": 68,
+          "kind": "gallery"
+        },
+        {
+          "id": 68,
+          "kind": "gallery"
+        },
+        {
+          "id": 60,
+          "kind": "gallery"
+        },
+        {
+          "id": 60,
+          "kind": "gallery"
+        },
+        {
+          "id": 52,
+          "kind": "gallery"
+        },
+        {
+          "id": 52,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 90707,
+      "sha256": "9f3b613dffe00ab1fb50b775bb2660ce0fb85c2e1270ba0b741626516e7016c4"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/64/illustration-9de3d6c6-693c-4eb7-b89b-f411258df131.jpg",
+      "references": [
+        {
+          "id": 64,
+          "kind": "primary"
+        },
+        {
+          "id": 64,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 108931,
+      "sha256": "039138209bf7fc87d6a96ee170dc0761237d9224335b81ddd8dd9d6d4948c5c5"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+      "references": [
+        {
+          "id": 67,
+          "kind": "gallery"
+        },
+        {
+          "id": 67,
+          "kind": "gallery"
+        },
+        {
+          "id": 57,
+          "kind": "gallery"
+        },
+        {
+          "id": 57,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 72767,
+      "sha256": "d73a8109395a1761e8a40b044a1c2399e200973e0ac16c6d642f9547a14e5359"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/63/illustration-2586bb94-f5bb-4947-92e6-e31424c48a8a.jpg",
+      "references": [
+        {
+          "id": 63,
+          "kind": "primary"
+        },
+        {
+          "id": 63,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 103159,
+      "sha256": "ebc0f7271d5a3fcc1a69d41d4f9e690b16491e3da0d13241f934f221104a5684"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=700",
+      "references": [
+        {
+          "id": 66,
+          "kind": "gallery"
+        },
+        {
+          "id": 66,
+          "kind": "gallery"
+        },
+        {
+          "id": 56,
+          "kind": "gallery"
+        },
+        {
+          "id": 56,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 72119,
+      "sha256": "24427bfaa7d300da1f87da6057b10fb7ee4380457e5a8a318d08753575fcd40a"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/62/illustration-35b2c9cc-c6eb-4c75-a180-8e3383159ca8.jpg",
+      "references": [
+        {
+          "id": 62,
+          "kind": "primary"
+        },
+        {
+          "id": 62,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 155191,
+      "sha256": "ad30e79139a27939b6855d4528c16229eae6d6db03169ae3ff6e2ddbaa840d40"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=700",
+      "references": [
+        {
+          "id": 65,
+          "kind": "gallery"
+        },
+        {
+          "id": 65,
+          "kind": "gallery"
+        },
+        {
+          "id": 49,
+          "kind": "gallery"
+        },
+        {
+          "id": 49,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 157095,
+      "sha256": "892747438a971cd1d67a4214a2b6050225ece03c4444d4b198ad0fc77fa5e904"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/61/illustration-7932beb2-a6bd-41a4-9fc7-14f6b2dc5a01.jpg",
+      "references": [
+        {
+          "id": 61,
+          "kind": "primary"
+        },
+        {
+          "id": 61,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 125874,
+      "sha256": "8307f30d91cb527adf8281d9e8db6ffd92207716cb6ae762c6c5f41ebcdf6899"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+      "references": [
+        {
+          "id": 64,
+          "kind": "gallery"
+        },
+        {
+          "id": 64,
+          "kind": "gallery"
+        },
+        {
+          "id": 55,
+          "kind": "gallery"
+        },
+        {
+          "id": 55,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 64746,
+      "sha256": "9160d64c751d6bad63a199c2aee9f23f69d9a084dea2741a47af0d326e26e1c9"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/60/illustration-69ea3e72-b296-4665-9488-a6e430f4d369.jpg",
+      "references": [
+        {
+          "id": 60,
+          "kind": "primary"
+        },
+        {
+          "id": 60,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 194898,
+      "sha256": "bef084a9f5acd988efeaf860ca13cd491f370e693a3041c6e16ded67def17ad4"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=700",
+      "references": [
+        {
+          "id": 63,
+          "kind": "gallery"
+        },
+        {
+          "id": 63,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 49509,
+      "sha256": "94baeccd65c4aaeb68e371966221b14b99f24c30830abb3ffb4223110efbbd32"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/59/illustration-44f474ef-a734-41f7-8ce2-a990211f6ef5.jpg",
+      "references": [
+        {
+          "id": 59,
+          "kind": "primary"
+        },
+        {
+          "id": 59,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 101605,
+      "sha256": "60493dee3b09a1df531bce79fc8c24f7f696d6d4f339258ed0a9b7d266766b9a"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+      "references": [
+        {
+          "id": 62,
+          "kind": "gallery"
+        },
+        {
+          "id": 62,
+          "kind": "gallery"
+        },
+        {
+          "id": 51,
+          "kind": "gallery"
+        },
+        {
+          "id": 51,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 163165,
+      "sha256": "67ce1f3faf2a44c44227df3956cdf95d39f8bc725bca8fac9a011d174f344d17"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/58/illustration-6da6c68b-4b98-4d76-88e6-6445f5f18ae6.jpg",
+      "references": [
+        {
+          "id": 58,
+          "kind": "primary"
+        },
+        {
+          "id": 58,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 97967,
+      "sha256": "613dc0b724af5115f96d1e0fe82806e644c335281744cca4cfd6cdd6bdb8f6a7"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=700",
+      "references": [
+        {
+          "id": 61,
+          "kind": "gallery"
+        },
+        {
+          "id": 61,
+          "kind": "gallery"
+        },
+        {
+          "id": 50,
+          "kind": "gallery"
+        },
+        {
+          "id": 50,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 101657,
+      "sha256": "7746c4e0f605de3a14ed3083b650cdf5096918ee2482c428f38bccdc9c41547a"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/57/illustration-43960e4a-dc39-497e-bcbb-710e4bb621d8.jpg",
+      "references": [
+        {
+          "id": 57,
+          "kind": "primary"
+        },
+        {
+          "id": 57,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 187188,
+      "sha256": "145401839f1f602107e21a19138e7b68ac4e9e6afdea04067c831aabf3f42657"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/56/illustration-c5b20a11-7827-496f-86fa-10af01d7f013.jpg",
+      "references": [
+        {
+          "id": 56,
+          "kind": "primary"
+        },
+        {
+          "id": 56,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 120718,
+      "sha256": "0668fc58e78fb604b41d488fd18862fba525cda4a29811437b00219bf22bdbbf"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+      "references": [
+        {
+          "id": 59,
+          "kind": "gallery"
+        },
+        {
+          "id": 59,
+          "kind": "gallery"
+        },
+        {
+          "id": 53,
+          "kind": "gallery"
+        },
+        {
+          "id": 53,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 98986,
+      "sha256": "4209723fc3bc9d23c8dd1951473e43631f30cf55473e9e4c55d3bf3ceed59eca"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/55/illustration-473818d9-5398-46f6-8028-041afea22fd8.jpg",
+      "references": [
+        {
+          "id": 55,
+          "kind": "primary"
+        },
+        {
+          "id": 55,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 227170,
+      "sha256": "355a841c6a13c44bd520b7c622f9df5b196d2615d45a5f1da290dae33b413265"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+      "references": [
+        {
+          "id": 58,
+          "kind": "gallery"
+        },
+        {
+          "id": 58,
+          "kind": "gallery"
+        },
+        {
+          "id": 54,
+          "kind": "gallery"
+        },
+        {
+          "id": 54,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 70125,
+      "sha256": "b417f057cb8ad8a5f84f52bd775e518e071e2754e032e162bb77834b1715664d"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/54/illustration-f1623a5a-bf48-4e51-9436-fa4c757bd5fc.jpg",
+      "references": [
+        {
+          "id": 54,
+          "kind": "primary"
+        },
+        {
+          "id": 54,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 101528,
+      "sha256": "c05c8aca98f3cee113b355f2ff98c2cc93f0e58c723775ca3ee9ad1cbb7bb215"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/53/illustration-31489b95-2de5-4783-bef0-2cad7066e527.jpg",
+      "references": [
+        {
+          "id": 53,
+          "kind": "primary"
+        },
+        {
+          "id": 53,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 129205,
+      "sha256": "bc4a935bced9029de92940bc0fa6136cb9d60107f85c3502d51790d9e9718f9e"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/52/illustration-15773f86-9004-4bc6-b90f-2cccd9c27b5e.jpg",
+      "references": [
+        {
+          "id": 52,
+          "kind": "primary"
+        },
+        {
+          "id": 52,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 104010,
+      "sha256": "92e0baaaf4a11b089da0feca4e506ab1cdebdcae12ddd840f492c8a410464480"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/51/illustration-57ac3340-8c8a-4245-9a60-af5526819ef3.jpg",
+      "references": [
+        {
+          "id": 51,
+          "kind": "primary"
+        },
+        {
+          "id": 51,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 99566,
+      "sha256": "88697d7c3587631cee1267d44105cdf04ae37e2024438ee6e5f3e7a424750076"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/50/illustration-5861341e-070d-4f70-9239-e17c32e87730.jpg",
+      "references": [
+        {
+          "id": 50,
+          "kind": "primary"
+        },
+        {
+          "id": 50,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 137122,
+      "sha256": "819ec8d5b34cbb03aabb7f6c4757e0ae01ee0f3a5d378963c55c8d738e539186"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/49/illustration-03e91436-d926-4495-84c6-36c33273935d.jpg",
+      "references": [
+        {
+          "id": 49,
+          "kind": "primary"
+        },
+        {
+          "id": 49,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 75969,
+      "sha256": "1ab8d0ffbab1911286c4f26444979f43e69badb6c4360a7986686a665c48414d"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/48/illustration-4ad30eda-6ec3-47ba-800e-1f602c06e0ad.jpg",
+      "references": [
+        {
+          "id": 48,
+          "kind": "primary"
+        },
+        {
+          "id": 48,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 103622,
+      "sha256": "b671457da5d9f00b6f35663e9f546be7b8374b65405f60c23e9b903b8c9e6299"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/47/illustration-eeccd65d-d201-410e-93f1-405c0867b005.jpg",
+      "references": [
+        {
+          "id": 47,
+          "kind": "primary"
+        },
+        {
+          "id": 47,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 268204,
+      "sha256": "91b1377d57e22e7cd6cc349746d2413969309858e6d8d90ab5b029120e81448b"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/46/illustration-be0bc7f4-9313-45fd-be54-7400934f7f0b.jpg",
+      "references": [
+        {
+          "id": 46,
+          "kind": "primary"
+        },
+        {
+          "id": 46,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 102751,
+      "sha256": "69d7058b7b5cacac5d9628b52622c260617ae337b8e95bccd824586a2f7e5373"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/45/illustration-6d3c21f9-5c22-4bbf-8633-87c9e7df2632.jpg",
+      "references": [
+        {
+          "id": 45,
+          "kind": "primary"
+        },
+        {
+          "id": 45,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 144997,
+      "sha256": "870c3248fa9ab64330423479ea2cc0577462d9de03cc1c45036fa6d12159e99f"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+      "references": [
+        {
+          "id": 48,
+          "kind": "gallery"
+        },
+        {
+          "id": 48,
+          "kind": "gallery"
+        },
+        {
+          "id": 42,
+          "kind": "gallery"
+        },
+        {
+          "id": 42,
+          "kind": "gallery"
+        },
+        {
+          "id": 31,
+          "kind": "gallery"
+        },
+        {
+          "id": 31,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 72604,
+      "sha256": "e84a952bbc42a3d7c82df64f5a09b977b3b301410b0357112a939fd68cf635c7"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/44/illustration-5a110fac-ac00-457b-b9f3-5095d46940d0.jpg",
+      "references": [
+        {
+          "id": 44,
+          "kind": "primary"
+        },
+        {
+          "id": 44,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 101303,
+      "sha256": "697a98f5e94b2834efd8dfec94fda43a310f25e636132198316ee917df01cdd6"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+      "references": [
+        {
+          "id": 47,
+          "kind": "gallery"
+        },
+        {
+          "id": 47,
+          "kind": "gallery"
+        },
+        {
+          "id": 41,
+          "kind": "gallery"
+        },
+        {
+          "id": 41,
+          "kind": "gallery"
+        },
+        {
+          "id": 38,
+          "kind": "gallery"
+        },
+        {
+          "id": 38,
+          "kind": "gallery"
+        },
+        {
+          "id": 34,
+          "kind": "gallery"
+        },
+        {
+          "id": 34,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 49040,
+      "sha256": "096b06fb01b58ba27b5b39548f4dcc68b1b30dca2a9231e55dc0073422f7e890"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/43/illustration-cf48d348-e596-4167-8661-905ec510a9d3.jpg",
+      "references": [
+        {
+          "id": 43,
+          "kind": "primary"
+        },
+        {
+          "id": 43,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 207479,
+      "sha256": "050e9481891209fcb4a22449d2776230e255509c7df6267c4fc2827662594778"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+      "references": [
+        {
+          "id": 46,
+          "kind": "gallery"
+        },
+        {
+          "id": 46,
+          "kind": "gallery"
+        },
+        {
+          "id": 39,
+          "kind": "gallery"
+        },
+        {
+          "id": 39,
+          "kind": "gallery"
+        },
+        {
+          "id": 30,
+          "kind": "gallery"
+        },
+        {
+          "id": 30,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 136847,
+      "sha256": "19d6c99ba6d16d982321eb61e84cfd09a0f51c2cabeffcfaddbe9a405b7ccb2a"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/42/illustration-7dcea417-37e6-4464-ab13-a6423df58667.jpg",
+      "references": [
+        {
+          "id": 42,
+          "kind": "primary"
+        },
+        {
+          "id": 42,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 86075,
+      "sha256": "59188f7693b3a9ae1962cd910ea8b6d0a83eedd037829eceaae7cc446766fdce"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+      "references": [
+        {
+          "id": 45,
+          "kind": "gallery"
+        },
+        {
+          "id": 45,
+          "kind": "gallery"
+        },
+        {
+          "id": 29,
+          "kind": "gallery"
+        },
+        {
+          "id": 29,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 99598,
+      "sha256": "4f3cfd4428d0d301100670210f492c2b17a683026a19e806b33cfe94ed3e349c"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/41/illustration-6ded153e-78df-4d74-84dd-8ce115c8f1a4.jpg",
+      "references": [
+        {
+          "id": 41,
+          "kind": "primary"
+        },
+        {
+          "id": 41,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 133543,
+      "sha256": "c28e119aab36b059be50172382c8b59e5d2ea6648bd0af95f003f3c8ce628cfd"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=700",
+      "references": [
+        {
+          "id": 44,
+          "kind": "gallery"
+        },
+        {
+          "id": 44,
+          "kind": "gallery"
+        },
+        {
+          "id": 35,
+          "kind": "gallery"
+        },
+        {
+          "id": 35,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 208288,
+      "sha256": "fe962e64b18904163cb1b3c90b59bc84eadbc13404c5acaeb32b0c87d2992ce8"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/40/illustration-8f638e8e-021a-43ad-ba42-181372716725.jpg",
+      "references": [
+        {
+          "id": 40,
+          "kind": "primary"
+        },
+        {
+          "id": 40,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 124276,
+      "sha256": "fb01e4d205ddd9cee56691d2b9336bce39f0da874fac589b3c898ebf9ecd5862"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+      "references": [
+        {
+          "id": 43,
+          "kind": "gallery"
+        },
+        {
+          "id": 43,
+          "kind": "gallery"
+        },
+        {
+          "id": 37,
+          "kind": "gallery"
+        },
+        {
+          "id": 37,
+          "kind": "gallery"
+        },
+        {
+          "id": 33,
+          "kind": "gallery"
+        },
+        {
+          "id": 33,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 89109,
+      "sha256": "62f56243963e3a1f6b3bf2e6fcd797dcb5bd44ed94b8bae7d51a121cd567cfa2"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/39/illustration-5f058c91-b989-44e6-ab1f-0bd5a9fc0ef6.jpg",
+      "references": [
+        {
+          "id": 39,
+          "kind": "primary"
+        },
+        {
+          "id": 39,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 88346,
+      "sha256": "01b917ba58cbee1e206e85d54fb1587e4bc3ca733528750674eef3f9265d3109"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/38/illustration-fa5bfc7e-8f72-4c60-ad09-50f74f905acb.jpg",
+      "references": [
+        {
+          "id": 38,
+          "kind": "primary"
+        },
+        {
+          "id": 38,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 134526,
+      "sha256": "79bd4556835a4abd04ee23f7615367ed942a75376b7c19364f0b7452729d5ecf"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/37/illustration-9712624c-c640-4d9a-a545-754ba3075a6a.jpg",
+      "references": [
+        {
+          "id": 37,
+          "kind": "primary"
+        },
+        {
+          "id": 37,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 154543,
+      "sha256": "70bff642bb53fd6365f90558f5fa6dcdd3a0b0f4037eed743b1a5784da63937f"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=700",
+      "references": [
+        {
+          "id": 40,
+          "kind": "gallery"
+        },
+        {
+          "id": 40,
+          "kind": "gallery"
+        },
+        {
+          "id": 32,
+          "kind": "gallery"
+        },
+        {
+          "id": 32,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 131544,
+      "sha256": "9ba3ca8805f87670051ba3dbf820f1f41611783384635be9070122a1a695632c"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/36/illustration-17d0e70c-5a0d-4ba4-b916-dac32e3b0327.jpg",
+      "references": [
+        {
+          "id": 36,
+          "kind": "primary"
+        },
+        {
+          "id": 36,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 93530,
+      "sha256": "b77356403f74f57aca307425dd08d0fa4c52d64531ceb7c9f02f38eb961c17e1"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/35/illustration-4232949c-7d76-4898-966a-1e6d64890480.jpg",
+      "references": [
+        {
+          "id": 35,
+          "kind": "primary"
+        },
+        {
+          "id": 35,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 108481,
+      "sha256": "b8081e38262b0cf5efcfe9b54fb8445c6a8a88cbae18903f0fb91b9a5cb98579"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/34/illustration-554ee32c-3c78-4e56-b86e-be470c415321.jpg",
+      "references": [
+        {
+          "id": 34,
+          "kind": "primary"
+        },
+        {
+          "id": 34,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 139914,
+      "sha256": "7113ddeda7a52f34b484a4458406f02f1cf8ff4b0abc40f5de06b1fe06c6c521"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/33/illustration-5fc0a0e4-a759-4504-b8a1-af7ae8423e5e.jpg",
+      "references": [
+        {
+          "id": 33,
+          "kind": "primary"
+        },
+        {
+          "id": 33,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 158023,
+      "sha256": "2e224fde5241e66dde375ca740ab48e24eeb9d8a5559281645703aaf99dd2a40"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/32/illustration-4f759b34-8857-44b8-8004-6d59d71ac5da.jpg",
+      "references": [
+        {
+          "id": 32,
+          "kind": "primary"
+        },
+        {
+          "id": 32,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 110630,
+      "sha256": "7d9f965f4516806175cd59716dde3a7efe17d69b1acfad122d7298830ae90b21"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/31/illustration-74cc653d-1444-48e6-be9d-5521c626361a.jpg",
+      "references": [
+        {
+          "id": 31,
+          "kind": "primary"
+        },
+        {
+          "id": 31,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 92056,
+      "sha256": "3556e882f9a177b1a29e9b99acb50cddd0862e2bd3b766a03c45ed37d3835143"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/30/illustration-d8cb8172-f3c1-4838-a863-12a627eaf695.jpg",
+      "references": [
+        {
+          "id": 30,
+          "kind": "primary"
+        },
+        {
+          "id": 30,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 85993,
+      "sha256": "f4e7666b819d722e59aa33b7da4aad82e633c4a78acd8c6d56943831b84e8e74"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/29/illustration-8e8a0e60-f92f-4e3c-a299-b6979cf95438.jpg",
+      "references": [
+        {
+          "id": 29,
+          "kind": "primary"
+        },
+        {
+          "id": 29,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 183343,
+      "sha256": "97c7e01ea69520706f8b6ca16088048b1e6de5bdd6a8c73cf2a8ced6a65e43d4"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/28/illustration-0c518b69-bef7-4c01-9703-c970a592ed15.jpg",
+      "references": [
+        {
+          "id": 28,
+          "kind": "primary"
+        },
+        {
+          "id": 28,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 243789,
+      "sha256": "35af4d914fe099e823c3fe356b8dd85d9a933be020ac722f744bd13addc37a7b"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/27/illustration-0cc085e3-9f98-401f-893e-1ef66ea44890.jpg",
+      "references": [
+        {
+          "id": 27,
+          "kind": "primary"
+        },
+        {
+          "id": 27,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 116360,
+      "sha256": "02282866cd43cb4ef83cc9df7cd6837782328b78f15409fecd979392e44e77af"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/26/illustration-76d4e9c8-2eb6-496d-8593-4940c6d109df.jpg",
+      "references": [
+        {
+          "id": 26,
+          "kind": "primary"
+        },
+        {
+          "id": 26,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 114128,
+      "sha256": "14ed46806bd67fa537364b0f60b37e40bc257163bad38195e4265f655bf193ee"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/25/illustration-98c07397-f86e-4ba6-a9f4-8312b57df65a.jpg",
+      "references": [
+        {
+          "id": 25,
+          "kind": "primary"
+        },
+        {
+          "id": 25,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 139960,
+      "sha256": "c5a834d9b59e80517991164ec1f4e9f62a06ca21d1150985a5f92056965d53cb"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/28/illustration-cb4cf634-ea89-4e4b-9e8a-de3cac7a1c7f.jpg",
+      "references": [
+        {
+          "id": 28,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 126234,
+      "sha256": "c5fe720083c135a42d618f1c6a4d5ce5798a83ab5e82d529db632823980ad9cf"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+      "references": [
+        {
+          "id": 28,
+          "kind": "gallery"
+        },
+        {
+          "id": 28,
+          "kind": "gallery"
+        },
+        {
+          "id": 11,
+          "kind": "gallery"
+        },
+        {
+          "id": 11,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 33263,
+      "sha256": "1247ba0dcc0a83060aef40eb799e7299665864c6fd5d534e62234d1c195be1f3"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/24/illustration-516b5b56-a13c-462d-a3eb-665bd3aa6b90.jpg",
+      "references": [
+        {
+          "id": 24,
+          "kind": "primary"
+        },
+        {
+          "id": 24,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 149497,
+      "sha256": "f9a4b8aab0b10df607ba9746ed28961a169024810c37bc4b4d817d6752c25aea"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=700",
+      "references": [
+        {
+          "id": 27,
+          "kind": "gallery"
+        },
+        {
+          "id": 27,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 51424,
+      "sha256": "0462bb54c64c8c51ebb74e48049727a0c439fd5a7bb625d7907d3cc8f4026f78"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/23/illustration-42c9aa1c-9b7e-4e03-a96b-7bef83e58aaf.jpg",
+      "references": [
+        {
+          "id": 23,
+          "kind": "primary"
+        },
+        {
+          "id": 23,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 243039,
+      "sha256": "d9c74a9fc42d3722ef4781508c19dacef652d7272219be57a0de08455f1ff640"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/26/illustration-4dd94cb8-f3ab-4a93-99e2-a0301beefcfd.jpg",
+      "references": [
+        {
+          "id": 26,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 163440,
+      "sha256": "866a603f7588671e55fde6977a57a61107813b659081dfe54d8c37d221bc0880"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+      "references": [
+        {
+          "id": 26,
+          "kind": "gallery"
+        },
+        {
+          "id": 26,
+          "kind": "gallery"
+        },
+        {
+          "id": 10,
+          "kind": "gallery"
+        },
+        {
+          "id": 10,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 68383,
+      "sha256": "42a1eab10f9cda3f0c572f1551433f86ea38f3989806e6207ccabdbd3f2ce764"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/22/illustration-6abdb532-5aac-45b0-9c9d-c8c909ee3939.jpg",
+      "references": [
+        {
+          "id": 22,
+          "kind": "primary"
+        },
+        {
+          "id": 22,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 414729,
+      "sha256": "5126acfabe7439ebdf11d3e396a1cba0d25420caa521c77ad2c7752d331f1923"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+      "references": [
+        {
+          "id": 25,
+          "kind": "gallery"
+        },
+        {
+          "id": 25,
+          "kind": "gallery"
+        },
+        {
+          "id": 17,
+          "kind": "gallery"
+        },
+        {
+          "id": 17,
+          "kind": "gallery"
+        },
+        {
+          "id": 9,
+          "kind": "gallery"
+        },
+        {
+          "id": 9,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 105687,
+      "sha256": "589102957c6584772543a73c4527a890a1648f4756b423e840a2f9b44820def7"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/21/illustration-82b032e2-0a67-4eab-8132-b917ce7f6074.jpg",
+      "references": [
+        {
+          "id": 21,
+          "kind": "primary"
+        },
+        {
+          "id": 21,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 179222,
+      "sha256": "d121e4c1556018c6e6d8f65a5fca39cc59748b7e59e4ebefb305ab4d06bce90b"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/20/illustration-e86dba73-b187-4236-86ad-6976dbe03cd1.jpg",
+      "references": [
+        {
+          "id": 20,
+          "kind": "primary"
+        },
+        {
+          "id": 20,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 132248,
+      "sha256": "699224fa737e62285d64acc0993403c4033e69bf30ee1a76186619b7e7ba9840"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=700",
+      "references": [
+        {
+          "id": 23,
+          "kind": "gallery"
+        },
+        {
+          "id": 23,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 65894,
+      "sha256": "0e55f4dff8ab3a3b89840f171c7d4a66488e85fbcc3776aceae4442f5718eb7e"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/19/illustration-ce775b1e-afac-4283-a9a2-dca909367f9a.jpg",
+      "references": [
+        {
+          "id": 19,
+          "kind": "primary"
+        },
+        {
+          "id": 19,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 282676,
+      "sha256": "4cfd23e4acf12ed1d5bd270ff2bd961c99dfcbef71905c808a1b8ca3b56b8311"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=700",
+      "references": [
+        {
+          "id": 22,
+          "kind": "gallery"
+        },
+        {
+          "id": 22,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 41283,
+      "sha256": "372281fe65f8afed790510a6024934c3aa604d34e4b08f3076c3683e2472c174"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/18/illustration-bd7668d8-c0b2-4ad9-b3f1-8f9962b2f6eb.jpg",
+      "references": [
+        {
+          "id": 18,
+          "kind": "primary"
+        },
+        {
+          "id": 18,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 143038,
+      "sha256": "b04a10d44ddd340d42ffcc8b42ba67ed3cf22ad361094ea36312317a023ef19f"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=700",
+      "references": [
+        {
+          "id": 21,
+          "kind": "gallery"
+        },
+        {
+          "id": 21,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 59845,
+      "sha256": "66c66c752d09c4061cdc604c07479017877c23c7761d9b3740d6ff4e6d528a13"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/17/illustration-6ceefdc5-00f2-480a-b86e-ac2c33eb5244.jpg",
+      "references": [
+        {
+          "id": 17,
+          "kind": "primary"
+        },
+        {
+          "id": 17,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 101177,
+      "sha256": "4be41bf48f9bf8bd6b5a79561f35066947947d76ddafe89389d9eb1a82c146b9"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=700",
+      "references": [
+        {
+          "id": 20,
+          "kind": "gallery"
+        },
+        {
+          "id": 20,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 93272,
+      "sha256": "03fd666060ae6194dcf3a4da191d4157a70e022bc02ff777660ef91c658c6820"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/16/illustration-02fb8a1d-3ac6-4414-9e04-e74fed582eb9.jpg",
+      "references": [
+        {
+          "id": 16,
+          "kind": "primary"
+        },
+        {
+          "id": 16,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 207559,
+      "sha256": "ffd5fd2c879d449ca50ebc7730ab28d3dfba3f563f2604457310c9ee6a95f23f"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=700",
+      "references": [
+        {
+          "id": 19,
+          "kind": "gallery"
+        },
+        {
+          "id": 19,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 118692,
+      "sha256": "0f3d5cc9c8b9d29a4e1c4af2ed48ca08e46ada5e215ccd33ad81c4907f107abd"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/15/illustration-888df565-6501-4cb8-875a-b10697b87d49.jpg",
+      "references": [
+        {
+          "id": 15,
+          "kind": "primary"
+        },
+        {
+          "id": 15,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 156012,
+      "sha256": "2410d05091392a3bb0c54a9fe9dc4942885742d54450439c0cccfde5300f1430"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=700",
+      "references": [
+        {
+          "id": 18,
+          "kind": "gallery"
+        },
+        {
+          "id": 18,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 62084,
+      "sha256": "cb09cb5448491a875188198e1512c3df9b56be2e9b3ac1ce1105e5e21576b14f"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/14/illustration-386de4a6-45ae-4313-bc3b-84cfd3825595.jpg",
+      "references": [
+        {
+          "id": 14,
+          "kind": "primary"
+        },
+        {
+          "id": 14,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 249173,
+      "sha256": "64c5cf7024a7c2454a2170071327c8522036e198e6da27154aee3695529904b0"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/17/illustration-6c217c35-3301-41ea-a315-25652ab570a7.jpg",
+      "references": [
+        {
+          "id": 17,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 50459,
+      "sha256": "95ec7b7763b6e870435afd75341c3297521d3175bf0b61fc443d70ff13c59116"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/17/illustration-faecf8f4-082e-46a8-be75-0943e86d61c2.jpg",
+      "references": [
+        {
+          "id": 17,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 21973,
+      "sha256": "dfa02ee873a47203aa327a9b5d633ab4f71b189bad793bf553caf2526f1bc830"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/13/illustration-de15e877-9610-4053-b3ed-3c637f1cb0b5.jpg",
+      "references": [
+        {
+          "id": 13,
+          "kind": "primary"
+        },
+        {
+          "id": 13,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 160106,
+      "sha256": "494e5f00c5fa17bc90339b049f89290c3cebca0923c58791dd4879c1685a4080"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/16/illustration-a26d6e9c-6173-4822-a901-63b15897da6d.jpg",
+      "references": [
+        {
+          "id": 16,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 163440,
+      "sha256": "866a603f7588671e55fde6977a57a61107813b659081dfe54d8c37d221bc0880"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=700",
+      "references": [
+        {
+          "id": 16,
+          "kind": "gallery"
+        },
+        {
+          "id": 16,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 180908,
+      "sha256": "0907fe5a0b315b7bd412512222672a3620532c394f40fbe94dc373e051286157"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/12/illustration-26b57c66-ab3d-488d-9a64-7d4ec33cfd8b.jpg",
+      "references": [
+        {
+          "id": 12,
+          "kind": "primary"
+        },
+        {
+          "id": 12,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 164755,
+      "sha256": "f9aa9fc8fd330f6165817f5dd17696e24588fc0160ff1b5745da13f3b452f9a4"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/11/illustration-216367c4-d8e8-45a8-9914-f78ce229c077.jpg",
+      "references": [
+        {
+          "id": 11,
+          "kind": "primary"
+        },
+        {
+          "id": 11,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 259609,
+      "sha256": "918a88d7c61c70a02dad9b9e1ca0a918e94dab2fababb1b35e3765a99667629e"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=700",
+      "references": [
+        {
+          "id": 14,
+          "kind": "gallery"
+        },
+        {
+          "id": 14,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 79362,
+      "sha256": "2aebcea7c43c3da84c81f31ec9d22043e7d677a17d221687c9be28ad2cb398f2"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/10/illustration-7f188457-9329-4ea1-8d3e-e7e8e6143aa0.jpg",
+      "references": [
+        {
+          "id": 10,
+          "kind": "primary"
+        },
+        {
+          "id": 10,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 149474,
+      "sha256": "83d206c9ff49e2b3f3ae7115e51df0817d5df13418d0048ec900a4242281e184"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=700",
+      "references": [
+        {
+          "id": 13,
+          "kind": "gallery"
+        },
+        {
+          "id": 13,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 77086,
+      "sha256": "8caba6bcded2931bc52ed5bc741ac4fc2034899769fcd9ef10b15b142a90c1b4"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/9/illustration-c1ceeba7-cc08-42e7-bca9-9edd4e551488.jpg",
+      "references": [
+        {
+          "id": 9,
+          "kind": "primary"
+        },
+        {
+          "id": 9,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 117422,
+      "sha256": "b2f4b3f86418aaef172a12928ec031ad9e5a0e8060a9121e774e2b80b46f5e16"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=700",
+      "references": [
+        {
+          "id": 12,
+          "kind": "gallery"
+        },
+        {
+          "id": 12,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 66537,
+      "sha256": "f7512c70af2a7c88395354ba500fcb3b7c2ec7aac372e5c14905cc1fd185f669"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/8/illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg",
+      "references": [
+        {
+          "id": 8,
+          "kind": "primary"
+        },
+        {
+          "id": 8,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 204941,
+      "sha256": "ecd5d0627488b0dc7bdbe3979583218124d374f15dd4b8ce4d57eed723e72dad"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/11/illustration-e1aedd09-50d5-45fc-b174-a2e10227cd84.jpg",
+      "references": [
+        {
+          "id": 11,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 126234,
+      "sha256": "c5fe720083c135a42d618f1c6a4d5ce5798a83ab5e82d529db632823980ad9cf"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/7/illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg",
+      "references": [
+        {
+          "id": 7,
+          "kind": "primary"
+        },
+        {
+          "id": 7,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 204261,
+      "sha256": "436d47c65c245774a8aae2dc945a8f743309af581caeced9acebb77a65fb574f"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/6/illustration-346e8b55-89a4-4cd8-a2b1-9f6d5325bc67.jpg",
+      "references": [
+        {
+          "id": 6,
+          "kind": "primary"
+        },
+        {
+          "id": 6,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 123564,
+      "sha256": "1529c809a38c1876365adf47812f1441450a7627cf28ff17e03613a57e5bc887"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/9/illustration-38dfb9fe-e82f-405f-bb69-76758b3a87f2.jpg",
+      "references": [
+        {
+          "id": 9,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 50459,
+      "sha256": "95ec7b7763b6e870435afd75341c3297521d3175bf0b61fc443d70ff13c59116"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/9/illustration-43c41f19-b93f-4e5e-b010-ff4533bcdb5c.jpg",
+      "references": [
+        {
+          "id": 9,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 21973,
+      "sha256": "dfa02ee873a47203aa327a9b5d633ab4f71b189bad793bf553caf2526f1bc830"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/5/illustration-19767726-ec36-48f1-a837-6e5b4918f083.jpg",
+      "references": [
+        {
+          "id": 5,
+          "kind": "primary"
+        },
+        {
+          "id": 5,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 261051,
+      "sha256": "4407d34bed9d6e23a2a1e395cea4add99dec23cfdf301730085ecdbf08b2e9f7"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+      "references": [
+        {
+          "id": 8,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 52126,
+      "sha256": "5f4ec0db8c5e5612da11ca2ab33252bf58ea6b76a03509ca6ab1bc8886b2893d"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/4/illustration-4a74edd6-e428-46a3-87ed-afb7eeefaba4.jpg",
+      "references": [
+        {
+          "id": 4,
+          "kind": "primary"
+        },
+        {
+          "id": 4,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 98441,
+      "sha256": "f069a29af1c3e8bca5b4d743ba9ad2eff6d8dc18bf09ffc5aff8d8e5a2ea857f"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+      "references": [
+        {
+          "id": 7,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 26410,
+      "sha256": "54d4f47195acfe556b325bf257b470461e0a0a72bf8a64b186fe2430803fcb93"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/3/illustration-cc8516e1-45f2-4d7e-aa31-7ed16d81e21e.jpg",
+      "references": [
+        {
+          "id": 3,
+          "kind": "primary"
+        },
+        {
+          "id": 3,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 152410,
+      "sha256": "82a5c4b2a065f4ea032109baa2098d3a311775ef2558cc62d2c19fd18fb7387e"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/6/illustration-a4d91bd8-e53f-4091-95b8-36de5b848c45.jpg",
+      "references": [
+        {
+          "id": 6,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 150600,
+      "sha256": "6db50036a395568accc891edd1c0cabe7450cbc51d688253a3514b69330f9f60"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500",
+      "references": [
+        {
+          "id": 6,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 34493,
+      "sha256": "bc68d32d287186d7fabf936938829bc5c8a367a1033065c6e1c3f6e9acde5169"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/2/illustration-62bdc116-408e-4f3a-b1af-2c5af8e24cfa.jpg",
+      "references": [
+        {
+          "id": 2,
+          "kind": "primary"
+        },
+        {
+          "id": 2,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 139606,
+      "sha256": "e37eaff7b88135c16037c3ad6dbf4e288bb8e74f72d0b8f33dc199d0e3fb37e3"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500",
+      "references": [
+        {
+          "id": 5,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 74084,
+      "sha256": "a2f0a96f6153e9c6abaa7f72d1dbf6351576e27b86162cf8effea5f561c5fec0"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+      "references": [
+        {
+          "id": 1,
+          "kind": "primary"
+        },
+        {
+          "id": 1,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 105781,
+      "sha256": "18cac68cf57ce6b2bd2794834575343b5dfde1e2bee16bf77084385d01c38afc"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500",
+      "references": [
+        {
+          "id": 4,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 59011,
+      "sha256": "3e4997f23b4cdd127a3feeb6287083111020043cd2c95fbe1bc4defe58c079d8"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500",
+      "references": [
+        {
+          "id": 3,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 27545,
+      "sha256": "a87f4fcd11deee6ee737fd1fabdef5a471a09bb481b7b25118e2ef29d7e4c044"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500",
+      "references": [
+        {
+          "id": 2,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 38488,
+      "sha256": "b2ae66b1412b2bdde7ba60feaef0a85cd3807204c8030473151f10cdb7fec5dd"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/1/illustration-c083c263-33d5-4832-9472-e3c243dc1aeb.jpg",
+      "references": [
+        {
+          "id": 1,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 50459,
+      "sha256": "95ec7b7763b6e870435afd75341c3297521d3175bf0b61fc443d70ff13c59116"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/1/illustration-c32bbb37-92e1-412c-af55-be2f2a9f8471.jpg",
+      "references": [
+        {
+          "id": 1,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 21973,
+      "sha256": "dfa02ee873a47203aa327a9b5d633ab4f71b189bad793bf553caf2526f1bc830"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500",
+      "references": [
+        {
+          "id": 1,
+          "kind": "gallery"
+        }
+      ],
+      "status": 200,
+      "valid": true,
+      "bytes": 61837,
+      "sha256": "a18a5eecd7ed495338dc1593413aeb6e5e583d1c4399aad8f30c02cd1c5e409f"
+    }
+  ]
+}

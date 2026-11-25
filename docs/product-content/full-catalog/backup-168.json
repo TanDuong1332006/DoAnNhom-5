@@ -1,0 +1,39 @@
+{
+    "id": 168,
+    "id_cua_hang": null,
+    "id_danh_muc": 8,
+    "id_thuong_hieu": 2,
+    "ma_san_pham": "SFP-PHUKIEN-20",
+    "ten_san_pham": "Ô Dù Cầm Tay Mini Gấp Gọn Chống Tia Cực Tím UV99% Lớp Đen",
+    "slug_san_pham": "o-du-cam-tay-mini-gap-gon-chong-tia-cuc-tim-uv99-lop-den-md1r",
+    "gia_ban": "280000.00",
+    "gia_khuyen_mai": "220000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?w=700",
+    "mo_ta_ngan": "Khung nan sợi thủy tinh chống lật khi gió to, phủ lớp keo vinyl đen cản 99% tia UV.",
+    "mo_ta_chi_tiet": "Khung nan sợi thủy tinh chống lật khi gió to, phủ lớp keo vinyl đen cản 99% tia UV. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 76,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 419,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:57.000000Z",
+    "updated_at": "2026-10-30T15:56:17.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 327,
+            "id_san_pham": 168,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:57.000000Z",
+            "updated_at": "2026-09-27T09:05:57.000000Z"
+        },
+        {
+            "id": 328,
+            "id_san_pham": 168,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:57.000000Z",
+            "updated_at": "2026-09-27T09:05:57.000000Z"
+        }
+    ]
+}

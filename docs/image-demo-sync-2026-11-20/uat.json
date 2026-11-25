@@ -1,0 +1,9 @@
+{
+  "runtime": "C:\\Users\\dn133\\AppData\\Local\\Temp/sofep-handoff-runtime-8d59ba8ebec1",
+  "database": "sofep_image_restore_20261120_6675ee602cd4",
+  "storage": "C:\\Users\\dn133\\AppData\\Local\\Temp/sofep-handoff-runtime-8d59ba8ebec1/storage/app/public",
+  "port": 8043,
+  "pid": 25444,
+  "from_zip": true,
+  "fe_root": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-handoff-runtime-8d59ba8ebec1\\frontend"
+}

@@ -1,0 +1,128 @@
+[
+    {
+        "TABLE_NAME": "anh_san_phams",
+        "COLUMN_NAME": "id_san_pham",
+        "REFERENCED_TABLE_NAME": "san_phams",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "chi_tiet_don_hangs",
+        "COLUMN_NAME": "id_chi_tiet_san_pham",
+        "REFERENCED_TABLE_NAME": "chi_tiet_san_phams",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "chi_tiet_don_hangs",
+        "COLUMN_NAME": "id_don_hang",
+        "REFERENCED_TABLE_NAME": "don_hangs",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "chi_tiet_don_hangs",
+        "COLUMN_NAME": "id_san_pham",
+        "REFERENCED_TABLE_NAME": "san_phams",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "chi_tiet_gio_hangs",
+        "COLUMN_NAME": "id_chi_tiet_san_pham",
+        "REFERENCED_TABLE_NAME": "chi_tiet_san_phams",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "chi_tiet_gio_hangs",
+        "COLUMN_NAME": "id_gio_hang",
+        "REFERENCED_TABLE_NAME": "gio_hangs",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "chi_tiet_gio_hangs",
+        "COLUMN_NAME": "id_san_pham",
+        "REFERENCED_TABLE_NAME": "san_phams",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "chi_tiet_san_phams",
+        "COLUMN_NAME": "id_anh_san_pham",
+        "REFERENCED_TABLE_NAME": "anh_san_phams",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "chi_tiet_san_phams",
+        "COLUMN_NAME": "id_kich_thuoc",
+        "REFERENCED_TABLE_NAME": "kich_thuocs",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "chi_tiet_san_phams",
+        "COLUMN_NAME": "id_mau_sac",
+        "REFERENCED_TABLE_NAME": "mau_sacs",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "chi_tiet_san_phams",
+        "COLUMN_NAME": "id_san_pham",
+        "REFERENCED_TABLE_NAME": "san_phams",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "danh_gia_san_phams",
+        "COLUMN_NAME": "id_khach_hang",
+        "REFERENCED_TABLE_NAME": "khach_hangs",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "danh_gia_san_phams",
+        "COLUMN_NAME": "id_san_pham",
+        "REFERENCED_TABLE_NAME": "san_phams",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "dia_chi_nhan_hangs",
+        "COLUMN_NAME": "id_khach_hang",
+        "REFERENCED_TABLE_NAME": "khach_hangs",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "don_hangs",
+        "COLUMN_NAME": "id_khach_hang",
+        "REFERENCED_TABLE_NAME": "khach_hangs",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "gio_hangs",
+        "COLUMN_NAME": "id_khach_hang",
+        "REFERENCED_TABLE_NAME": "khach_hangs",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "san_phams",
+        "COLUMN_NAME": "id_danh_muc",
+        "REFERENCED_TABLE_NAME": "danh_mucs",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    },
+    {
+        "TABLE_NAME": "san_phams",
+        "COLUMN_NAME": "id_thuong_hieu",
+        "REFERENCED_TABLE_NAME": "thuong_hieus",
+        "REFERENCED_COLUMN_NAME": "id",
+        "orphans": 0
+    }
+]

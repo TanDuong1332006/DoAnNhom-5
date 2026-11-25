@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-11-06T08:44:20.978Z",
+  "database": "sofep_uat_20261103_0552eb8e0b6d",
+  "catalog": 167,
+  "guest_401": true,
+  "admin_403": true,
+  "server_owner": true,
+  "server_price_voucher": true,
+  "idempotent_order": true,
+  "failed_unpaid": true,
+  "success_paid": true,
+  "repeated_payment_stock_once": true,
+  "cod_unpaid": true,
+  "admin_sees_orders": true,
+  "order_ids": [
+    2,
+    3
+  ],
+  "passed": true
+}

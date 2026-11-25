@@ -159,6 +159,7 @@
 </template>
 
 <script>
+import { apiUrl } from '../../../services/apiConfig.js';
 import axios from 'axios';
 
 export default {
@@ -184,7 +185,7 @@ export default {
     },
     methods: {
         loadData() {
-            axios.get('http://127.0.0.1:8000/api/admin/mau-sac/get-data')
+            axios.get(apiUrl('/admin/mau-sac/get-data'))
                 .then(res => { this.list_mau_sac = res.data.data; });
         },
         themMauSac() {
@@ -192,7 +193,7 @@ export default {
                 this.$toast.error('Vui lòng nhập tên màu');
                 return;
             }
-            axios.post('http://127.0.0.1:8000/api/admin/mau-sac/create', this.create_MauSac)
+            axios.post(apiUrl('/admin/mau-sac/create'), this.create_MauSac)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -202,7 +203,7 @@ export default {
                 });
         },
         capNhatMauSac() {
-            axios.post('http://127.0.0.1:8000/api/admin/mau-sac/update', this.update_MauSac)
+            axios.post(apiUrl('/admin/mau-sac/update'), this.update_MauSac)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -211,7 +212,7 @@ export default {
                 });
         },
         xoaMauSac() {
-            axios.post('http://127.0.0.1:8000/api/admin/mau-sac/destroy', this.delete_MauSac)
+            axios.post(apiUrl('/admin/mau-sac/destroy'), this.delete_MauSac)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -220,7 +221,7 @@ export default {
                 });
         },
         changeStatus(item) {
-            axios.post('http://127.0.0.1:8000/api/admin/mau-sac/change-status', { id: item.id })
+            axios.post(apiUrl('/admin/mau-sac/change-status'), { id: item.id })
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);

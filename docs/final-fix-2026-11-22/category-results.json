@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "label": "customer login",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "label": "admin login",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "label": "category with catalog/history rejected",
+      "status": 409,
+      "expected": 409,
+      "pass": true
+    },
+    {
+      "label": "clear conflict message",
+      "pass": true
+    },
+    {
+      "label": "invalid category id",
+      "status": 422,
+      "expected": 422,
+      "pass": true
+    },
+    {
+      "label": "guest denied",
+      "status": 401,
+      "expected": 401,
+      "pass": true
+    },
+    {
+      "label": "customer denied",
+      "status": 403,
+      "expected": 403,
+      "pass": true
+    },
+    {
+      "label": "retired get-data",
+      "status": 404,
+      "expected": 404,
+      "pass": true
+    },
+    {
+      "label": "retired change-status",
+      "status": 404,
+      "expected": 404,
+      "pass": true
+    },
+    {
+      "label": "retired destroy",
+      "status": 404,
+      "expected": 404,
+      "pass": true
+    },
+    {
+      "label": "catalog variants gallery history unchanged after rejection",
+      "pass": true
+    },
+    {
+      "label": "create disposable category",
+      "status": 201,
+      "expected": 201,
+      "pass": true
+    },
+    {
+      "label": "find disposable category",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "label": "concurrent child insert prevents category deletion",
+      "status": 409,
+      "expected": 409,
+      "pass": true
+    },
+    {
+      "label": "observed lock wait",
+      "milliseconds": 1469,
+      "pass": true
+    },
+    {
+      "label": "concurrent child committed safely",
+      "pass": true
+    },
+    {
+      "label": "remove disposable product only",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "label": "delete now-empty disposable category",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "label": "catalog restored to 168",
+      "status": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "label": "only original 168 products remain",
+      "pass": true
+    }
+  ],
+  "scope": "New isolated MySQL only; disposable category/product; no physical files deleted"
+}

@@ -1,0 +1,39 @@
+{
+    "id": 50,
+    "id_cua_hang": null,
+    "id_danh_muc": 3,
+    "id_thuong_hieu": 1,
+    "ma_san_pham": "SFP-VAYDAM-02",
+    "ten_san_pham": "Váy Xòe Nữ Cổ Vuông Tay Bồng Tiểu Thư Dự Tiệc",
+    "slug_san_pham": "vay-xoe-nu-co-vuong-tay-bong-tieu-thu-du-tiec-h22z",
+    "gia_ban": "650000.00",
+    "gia_khuyen_mai": "550000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=700",
+    "mo_ta_ngan": "Cổ vuông khoe xương quai xanh tinh tế, tùng váy xếp ly bồng bềnh công chúa.",
+    "mo_ta_chi_tiet": "Cổ vuông khoe xương quai xanh tinh tế, tùng váy xếp ly bồng bềnh công chúa. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 154,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 2659,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:52.000000Z",
+    "updated_at": "2026-09-27T09:05:52.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 91,
+            "id_san_pham": 50,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 92,
+            "id_san_pham": 50,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        }
+    ]
+}

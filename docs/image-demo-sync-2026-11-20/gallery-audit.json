@@ -1,0 +1,7013 @@
+[
+  {
+    "id": 436,
+    "product_id": 1,
+    "url": "http://127.0.0.1:8000/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      436
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 329,
+    "product_id": 1,
+    "url": "http://127.0.0.1:8000/api/product-images/1/illustration-c083c263-33d5-4832-9472-e3c243dc1aeb.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      329
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 330,
+    "product_id": 1,
+    "url": "http://127.0.0.1:8000/api/product-images/1/illustration-c32bbb37-92e1-412c-af55-be2f2a9f8471.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      330
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 1,
+    "product_id": 1,
+    "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 2,
+    "duplicate_ids": [
+      1
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 355,
+    "product_id": 2,
+    "url": "http://127.0.0.1:8000/api/product-images/2/illustration-62bdc116-408e-4f3a-b1af-2c5af8e24cfa.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      355
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 2,
+    "product_id": 2,
+    "url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      2
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 364,
+    "product_id": 3,
+    "url": "http://127.0.0.1:8000/api/product-images/3/illustration-cc8516e1-45f2-4d7e-aa31-7ed16d81e21e.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      364
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 3,
+    "product_id": 3,
+    "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 2,
+    "duplicate_ids": [
+      3
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 409,
+    "product_id": 4,
+    "url": "http://127.0.0.1:8000/api/product-images/4/illustration-4a74edd6-e428-46a3-87ed-afb7eeefaba4.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      409
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 4,
+    "product_id": 4,
+    "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      4
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 381,
+    "product_id": 5,
+    "url": "http://127.0.0.1:8000/api/product-images/5/illustration-19767726-ec36-48f1-a837-6e5b4918f083.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      381
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 5,
+    "product_id": 5,
+    "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      5
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 453,
+    "product_id": 6,
+    "url": "http://127.0.0.1:8000/api/product-images/6/illustration-346e8b55-89a4-4cd8-a2b1-9f6d5325bc67.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      453
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 331,
+    "product_id": 6,
+    "url": "http://127.0.0.1:8000/api/product-images/6/illustration-a4d91bd8-e53f-4091-95b8-36de5b848c45.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      331
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 6,
+    "product_id": 6,
+    "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      6
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 382,
+    "product_id": 7,
+    "url": "http://127.0.0.1:8000/api/product-images/7/illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      382
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 7,
+    "product_id": 7,
+    "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 4,
+    "duplicate_ids": [
+      7
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 383,
+    "product_id": 8,
+    "url": "http://127.0.0.1:8000/api/product-images/8/illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      383
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 8,
+    "product_id": 8,
+    "url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      8
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 454,
+    "product_id": 9,
+    "url": "http://127.0.0.1:8000/api/product-images/9/illustration-c1ceeba7-cc08-42e7-bca9-9edd4e551488.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      454
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 332,
+    "product_id": 9,
+    "url": "http://127.0.0.1:8000/api/product-images/9/illustration-38dfb9fe-e82f-405f-bb69-76758b3a87f2.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      332
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 333,
+    "product_id": 9,
+    "url": "http://127.0.0.1:8000/api/product-images/9/illustration-43c41f19-b93f-4e5e-b010-ff4533bcdb5c.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      333
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 9,
+    "product_id": 9,
+    "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      9,
+      10
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 10,
+    "product_id": 9,
+    "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      9,
+      10
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 348,
+    "product_id": 10,
+    "url": "http://127.0.0.1:8000/api/product-images/10/illustration-7f188457-9329-4ea1-8d3e-e7e8e6143aa0.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      348
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 11,
+    "product_id": 10,
+    "url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      11,
+      12
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 12,
+    "product_id": 10,
+    "url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      11,
+      12
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 442,
+    "product_id": 11,
+    "url": "http://127.0.0.1:8000/api/product-images/11/illustration-216367c4-d8e8-45a8-9914-f78ce229c077.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      442
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 334,
+    "product_id": 11,
+    "url": "http://127.0.0.1:8000/api/product-images/11/illustration-e1aedd09-50d5-45fc-b174-a2e10227cd84.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      334
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 13,
+    "product_id": 11,
+    "url": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      13,
+      14
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 14,
+    "product_id": 11,
+    "url": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      13,
+      14
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 349,
+    "product_id": 12,
+    "url": "http://127.0.0.1:8000/api/product-images/12/illustration-26b57c66-ab3d-488d-9a64-7d4ec33cfd8b.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      349
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 15,
+    "product_id": 12,
+    "url": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      15,
+      16
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 16,
+    "product_id": 12,
+    "url": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      15,
+      16
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 350,
+    "product_id": 13,
+    "url": "http://127.0.0.1:8000/api/product-images/13/illustration-de15e877-9610-4053-b3ed-3c637f1cb0b5.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      350
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 17,
+    "product_id": 13,
+    "url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      17,
+      18
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 18,
+    "product_id": 13,
+    "url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      17,
+      18
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 351,
+    "product_id": 14,
+    "url": "http://127.0.0.1:8000/api/product-images/14/illustration-386de4a6-45ae-4313-bc3b-84cfd3825595.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      351
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 19,
+    "product_id": 14,
+    "url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      19,
+      20
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 20,
+    "product_id": 14,
+    "url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      19,
+      20
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 352,
+    "product_id": 15,
+    "url": "http://127.0.0.1:8000/api/product-images/15/illustration-888df565-6501-4cb8-875a-b10697b87d49.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      352
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 21,
+    "product_id": 15,
+    "url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 3,
+    "duplicate_ids": [
+      21,
+      22
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 22,
+    "product_id": 15,
+    "url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 3,
+    "duplicate_ids": [
+      21,
+      22
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 451,
+    "product_id": 16,
+    "url": "http://127.0.0.1:8000/api/product-images/16/illustration-02fb8a1d-3ac6-4414-9e04-e74fed582eb9.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      451
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 335,
+    "product_id": 16,
+    "url": "http://127.0.0.1:8000/api/product-images/16/illustration-a26d6e9c-6173-4822-a901-63b15897da6d.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      335
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 23,
+    "product_id": 16,
+    "url": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      23,
+      24
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 24,
+    "product_id": 16,
+    "url": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      23,
+      24
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 452,
+    "product_id": 17,
+    "url": "http://127.0.0.1:8000/api/product-images/17/illustration-6ceefdc5-00f2-480a-b86e-ac2c33eb5244.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      452
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 336,
+    "product_id": 17,
+    "url": "http://127.0.0.1:8000/api/product-images/17/illustration-6c217c35-3301-41ea-a315-25652ab570a7.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      336
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 337,
+    "product_id": 17,
+    "url": "http://127.0.0.1:8000/api/product-images/17/illustration-faecf8f4-082e-46a8-be75-0943e86d61c2.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      337
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 25,
+    "product_id": 17,
+    "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      25,
+      26
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 26,
+    "product_id": 17,
+    "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      25,
+      26
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 353,
+    "product_id": 18,
+    "url": "http://127.0.0.1:8000/api/product-images/18/illustration-bd7668d8-c0b2-4ad9-b3f1-8f9962b2f6eb.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      353
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 27,
+    "product_id": 18,
+    "url": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      27,
+      28
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 28,
+    "product_id": 18,
+    "url": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      27,
+      28
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 354,
+    "product_id": 19,
+    "url": "http://127.0.0.1:8000/api/product-images/19/illustration-ce775b1e-afac-4283-a9a2-dca909367f9a.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      354
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 29,
+    "product_id": 19,
+    "url": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      29,
+      30
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 30,
+    "product_id": 19,
+    "url": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      29,
+      30
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 356,
+    "product_id": 20,
+    "url": "http://127.0.0.1:8000/api/product-images/20/illustration-e86dba73-b187-4236-86ad-6976dbe03cd1.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      356
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 31,
+    "product_id": 20,
+    "url": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      31,
+      32
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 32,
+    "product_id": 20,
+    "url": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      31,
+      32
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 357,
+    "product_id": 21,
+    "url": "http://127.0.0.1:8000/api/product-images/21/illustration-82b032e2-0a67-4eab-8132-b917ce7f6074.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      357
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 33,
+    "product_id": 21,
+    "url": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      33,
+      34
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 34,
+    "product_id": 21,
+    "url": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      33,
+      34
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 358,
+    "product_id": 22,
+    "url": "http://127.0.0.1:8000/api/product-images/22/illustration-6abdb532-5aac-45b0-9c9d-c8c909ee3939.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      358
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 35,
+    "product_id": 22,
+    "url": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      35,
+      36
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 36,
+    "product_id": 22,
+    "url": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      35,
+      36
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 359,
+    "product_id": 23,
+    "url": "http://127.0.0.1:8000/api/product-images/23/illustration-42c9aa1c-9b7e-4e03-a96b-7bef83e58aaf.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      359
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 37,
+    "product_id": 23,
+    "url": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      37,
+      38
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 38,
+    "product_id": 23,
+    "url": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      37,
+      38
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 360,
+    "product_id": 24,
+    "url": "http://127.0.0.1:8000/api/product-images/24/illustration-516b5b56-a13c-462d-a3eb-665bd3aa6b90.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      360
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 39,
+    "product_id": 24,
+    "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      39,
+      40
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 40,
+    "product_id": 24,
+    "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      39,
+      40
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 361,
+    "product_id": 25,
+    "url": "http://127.0.0.1:8000/api/product-images/25/illustration-98c07397-f86e-4ba6-a9f4-8312b57df65a.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      361
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 41,
+    "product_id": 25,
+    "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      41,
+      42
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 42,
+    "product_id": 25,
+    "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      41,
+      42
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 507,
+    "product_id": 26,
+    "url": "http://127.0.0.1:8000/api/product-images/26/illustration-76d4e9c8-2eb6-496d-8593-4940c6d109df.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      507
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 338,
+    "product_id": 26,
+    "url": "http://127.0.0.1:8000/api/product-images/26/illustration-4dd94cb8-f3ab-4a93-99e2-a0301beefcfd.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      338
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 43,
+    "product_id": 26,
+    "url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      43,
+      44
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 44,
+    "product_id": 26,
+    "url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      43,
+      44
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 362,
+    "product_id": 27,
+    "url": "http://127.0.0.1:8000/api/product-images/27/illustration-0cc085e3-9f98-401f-893e-1ef66ea44890.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      362
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 45,
+    "product_id": 27,
+    "url": "https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      45,
+      46
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 46,
+    "product_id": 27,
+    "url": "https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      45,
+      46
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 508,
+    "product_id": 28,
+    "url": "http://127.0.0.1:8000/api/product-images/28/illustration-0c518b69-bef7-4c01-9703-c970a592ed15.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      508
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 339,
+    "product_id": 28,
+    "url": "http://127.0.0.1:8000/api/product-images/28/illustration-cb4cf634-ea89-4e4b-9e8a-de3cac7a1c7f.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      339
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 47,
+    "product_id": 28,
+    "url": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      47,
+      48
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 48,
+    "product_id": 28,
+    "url": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      47,
+      48
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 363,
+    "product_id": 29,
+    "url": "http://127.0.0.1:8000/api/product-images/29/illustration-8e8a0e60-f92f-4e3c-a299-b6979cf95438.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      363
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 49,
+    "product_id": 29,
+    "url": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      49,
+      50
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 50,
+    "product_id": 29,
+    "url": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      49,
+      50
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 365,
+    "product_id": 30,
+    "url": "http://127.0.0.1:8000/api/product-images/30/illustration-d8cb8172-f3c1-4838-a863-12a627eaf695.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      365
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 51,
+    "product_id": 30,
+    "url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      51,
+      52
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 52,
+    "product_id": 30,
+    "url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      51,
+      52
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 366,
+    "product_id": 31,
+    "url": "http://127.0.0.1:8000/api/product-images/31/illustration-74cc653d-1444-48e6-be9d-5521c626361a.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      366
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 53,
+    "product_id": 31,
+    "url": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      53,
+      54
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 54,
+    "product_id": 31,
+    "url": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      53,
+      54
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 367,
+    "product_id": 32,
+    "url": "http://127.0.0.1:8000/api/product-images/32/illustration-4f759b34-8857-44b8-8004-6d59d71ac5da.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      367
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 55,
+    "product_id": 32,
+    "url": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      55,
+      56
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 56,
+    "product_id": 32,
+    "url": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      55,
+      56
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 368,
+    "product_id": 33,
+    "url": "http://127.0.0.1:8000/api/product-images/33/illustration-5fc0a0e4-a759-4504-b8a1-af7ae8423e5e.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      368
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 57,
+    "product_id": 33,
+    "url": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      57,
+      58
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 58,
+    "product_id": 33,
+    "url": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      57,
+      58
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 369,
+    "product_id": 34,
+    "url": "http://127.0.0.1:8000/api/product-images/34/illustration-554ee32c-3c78-4e56-b86e-be470c415321.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      369
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 59,
+    "product_id": 34,
+    "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      59,
+      60
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 60,
+    "product_id": 34,
+    "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      59,
+      60
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 370,
+    "product_id": 35,
+    "url": "http://127.0.0.1:8000/api/product-images/35/illustration-4232949c-7d76-4898-966a-1e6d64890480.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      370
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 61,
+    "product_id": 35,
+    "url": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      61,
+      62
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 62,
+    "product_id": 35,
+    "url": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      61,
+      62
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 371,
+    "product_id": 36,
+    "url": "http://127.0.0.1:8000/api/product-images/36/illustration-17d0e70c-5a0d-4ba4-b916-dac32e3b0327.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      371
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 63,
+    "product_id": 36,
+    "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      63,
+      64
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 64,
+    "product_id": 36,
+    "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      63,
+      64
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 372,
+    "product_id": 37,
+    "url": "http://127.0.0.1:8000/api/product-images/37/illustration-9712624c-c640-4d9a-a545-754ba3075a6a.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      372
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 65,
+    "product_id": 37,
+    "url": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      65,
+      66
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 66,
+    "product_id": 37,
+    "url": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      65,
+      66
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 373,
+    "product_id": 38,
+    "url": "http://127.0.0.1:8000/api/product-images/38/illustration-fa5bfc7e-8f72-4c60-ad09-50f74f905acb.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      373
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 67,
+    "product_id": 38,
+    "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      67,
+      68
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 68,
+    "product_id": 38,
+    "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      67,
+      68
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 374,
+    "product_id": 39,
+    "url": "http://127.0.0.1:8000/api/product-images/39/illustration-5f058c91-b989-44e6-ab1f-0bd5a9fc0ef6.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      374
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 69,
+    "product_id": 39,
+    "url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      69,
+      70
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 70,
+    "product_id": 39,
+    "url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      69,
+      70
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 375,
+    "product_id": 40,
+    "url": "http://127.0.0.1:8000/api/product-images/40/illustration-8f638e8e-021a-43ad-ba42-181372716725.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      375
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 71,
+    "product_id": 40,
+    "url": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      71,
+      72
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 72,
+    "product_id": 40,
+    "url": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      71,
+      72
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 376,
+    "product_id": 41,
+    "url": "http://127.0.0.1:8000/api/product-images/41/illustration-6ded153e-78df-4d74-84dd-8ce115c8f1a4.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      376
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 73,
+    "product_id": 41,
+    "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      73,
+      74
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 74,
+    "product_id": 41,
+    "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      73,
+      74
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 384,
+    "product_id": 42,
+    "url": "http://127.0.0.1:8000/api/product-images/42/illustration-7dcea417-37e6-4464-ab13-a6423df58667.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      384
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 75,
+    "product_id": 42,
+    "url": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      75,
+      76
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 76,
+    "product_id": 42,
+    "url": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      75,
+      76
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 377,
+    "product_id": 43,
+    "url": "http://127.0.0.1:8000/api/product-images/43/illustration-cf48d348-e596-4167-8661-905ec510a9d3.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      377
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 77,
+    "product_id": 43,
+    "url": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      77,
+      78
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 78,
+    "product_id": 43,
+    "url": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      77,
+      78
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 378,
+    "product_id": 44,
+    "url": "http://127.0.0.1:8000/api/product-images/44/illustration-5a110fac-ac00-457b-b9f3-5095d46940d0.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      378
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 79,
+    "product_id": 44,
+    "url": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      79,
+      80
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 80,
+    "product_id": 44,
+    "url": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      79,
+      80
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 385,
+    "product_id": 45,
+    "url": "http://127.0.0.1:8000/api/product-images/45/illustration-6d3c21f9-5c22-4bbf-8633-87c9e7df2632.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      385
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 81,
+    "product_id": 45,
+    "url": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      81,
+      82
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 82,
+    "product_id": 45,
+    "url": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      81,
+      82
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 386,
+    "product_id": 46,
+    "url": "http://127.0.0.1:8000/api/product-images/46/illustration-be0bc7f4-9313-45fd-be54-7400934f7f0b.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      386
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 83,
+    "product_id": 46,
+    "url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      83,
+      84
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 84,
+    "product_id": 46,
+    "url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      83,
+      84
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 379,
+    "product_id": 47,
+    "url": "http://127.0.0.1:8000/api/product-images/47/illustration-eeccd65d-d201-410e-93f1-405c0867b005.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      379
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 85,
+    "product_id": 47,
+    "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      85,
+      86
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 86,
+    "product_id": 47,
+    "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      85,
+      86
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 380,
+    "product_id": 48,
+    "url": "http://127.0.0.1:8000/api/product-images/48/illustration-4ad30eda-6ec3-47ba-800e-1f602c06e0ad.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      380
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 87,
+    "product_id": 48,
+    "url": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      87,
+      88
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 88,
+    "product_id": 48,
+    "url": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      87,
+      88
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 387,
+    "product_id": 49,
+    "url": "http://127.0.0.1:8000/api/product-images/49/illustration-03e91436-d926-4495-84c6-36c33273935d.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      387
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 89,
+    "product_id": 49,
+    "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      89,
+      90
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 90,
+    "product_id": 49,
+    "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      89,
+      90
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 388,
+    "product_id": 50,
+    "url": "http://127.0.0.1:8000/api/product-images/50/illustration-5861341e-070d-4f70-9239-e17c32e87730.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      388
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 91,
+    "product_id": 50,
+    "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      91,
+      92
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 92,
+    "product_id": 50,
+    "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      91,
+      92
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 389,
+    "product_id": 51,
+    "url": "http://127.0.0.1:8000/api/product-images/51/illustration-57ac3340-8c8a-4245-9a60-af5526819ef3.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      389
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 93,
+    "product_id": 51,
+    "url": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      93,
+      94
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 94,
+    "product_id": 51,
+    "url": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      93,
+      94
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 390,
+    "product_id": 52,
+    "url": "http://127.0.0.1:8000/api/product-images/52/illustration-15773f86-9004-4bc6-b90f-2cccd9c27b5e.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      390
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 95,
+    "product_id": 52,
+    "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      95,
+      96
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 96,
+    "product_id": 52,
+    "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      95,
+      96
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 391,
+    "product_id": 53,
+    "url": "http://127.0.0.1:8000/api/product-images/53/illustration-31489b95-2de5-4783-bef0-2cad7066e527.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      391
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 97,
+    "product_id": 53,
+    "url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      97,
+      98
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 98,
+    "product_id": 53,
+    "url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      97,
+      98
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 392,
+    "product_id": 54,
+    "url": "http://127.0.0.1:8000/api/product-images/54/illustration-f1623a5a-bf48-4e51-9436-fa4c757bd5fc.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      392
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 99,
+    "product_id": 54,
+    "url": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      99,
+      100
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 100,
+    "product_id": 54,
+    "url": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      99,
+      100
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 393,
+    "product_id": 55,
+    "url": "http://127.0.0.1:8000/api/product-images/55/illustration-473818d9-5398-46f6-8028-041afea22fd8.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      393
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 101,
+    "product_id": 55,
+    "url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      101,
+      102
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 102,
+    "product_id": 55,
+    "url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      101,
+      102
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 394,
+    "product_id": 56,
+    "url": "http://127.0.0.1:8000/api/product-images/56/illustration-c5b20a11-7827-496f-86fa-10af01d7f013.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      394
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 103,
+    "product_id": 56,
+    "url": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      103,
+      104
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 104,
+    "product_id": 56,
+    "url": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      103,
+      104
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 395,
+    "product_id": 57,
+    "url": "http://127.0.0.1:8000/api/product-images/57/illustration-43960e4a-dc39-497e-bcbb-710e4bb621d8.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      395
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 105,
+    "product_id": 57,
+    "url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      105,
+      106
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 106,
+    "product_id": 57,
+    "url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      105,
+      106
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 410,
+    "product_id": 58,
+    "url": "http://127.0.0.1:8000/api/product-images/58/illustration-6da6c68b-4b98-4d76-88e6-6445f5f18ae6.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      410
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 107,
+    "product_id": 58,
+    "url": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      107,
+      108
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 108,
+    "product_id": 58,
+    "url": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      107,
+      108
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 396,
+    "product_id": 59,
+    "url": "http://127.0.0.1:8000/api/product-images/59/illustration-44f474ef-a734-41f7-8ce2-a990211f6ef5.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      396
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 109,
+    "product_id": 59,
+    "url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      109,
+      110
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 110,
+    "product_id": 59,
+    "url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      109,
+      110
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 397,
+    "product_id": 60,
+    "url": "http://127.0.0.1:8000/api/product-images/60/illustration-69ea3e72-b296-4665-9488-a6e430f4d369.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      397
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 111,
+    "product_id": 60,
+    "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      111,
+      112
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 112,
+    "product_id": 60,
+    "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      111,
+      112
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 398,
+    "product_id": 61,
+    "url": "http://127.0.0.1:8000/api/product-images/61/illustration-7932beb2-a6bd-41a4-9fc7-14f6b2dc5a01.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      398
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 113,
+    "product_id": 61,
+    "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      113,
+      114
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 114,
+    "product_id": 61,
+    "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      113,
+      114
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 399,
+    "product_id": 62,
+    "url": "http://127.0.0.1:8000/api/product-images/62/illustration-35b2c9cc-c6eb-4c75-a180-8e3383159ca8.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      399
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 115,
+    "product_id": 62,
+    "url": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      115,
+      116
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 116,
+    "product_id": 62,
+    "url": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      115,
+      116
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 400,
+    "product_id": 63,
+    "url": "http://127.0.0.1:8000/api/product-images/63/illustration-2586bb94-f5bb-4947-92e6-e31424c48a8a.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      400
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 117,
+    "product_id": 63,
+    "url": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      117,
+      118
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 118,
+    "product_id": 63,
+    "url": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      117,
+      118
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 401,
+    "product_id": 64,
+    "url": "http://127.0.0.1:8000/api/product-images/64/illustration-9de3d6c6-693c-4eb7-b89b-f411258df131.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      401
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 119,
+    "product_id": 64,
+    "url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      119,
+      120
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 120,
+    "product_id": 64,
+    "url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      119,
+      120
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 402,
+    "product_id": 65,
+    "url": "http://127.0.0.1:8000/api/product-images/65/illustration-23ac3168-2e49-4341-aced-47df790c8bc5.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      402
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 121,
+    "product_id": 65,
+    "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      121,
+      122
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 122,
+    "product_id": 65,
+    "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      121,
+      122
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 403,
+    "product_id": 66,
+    "url": "http://127.0.0.1:8000/api/product-images/66/illustration-665a86a0-2188-4692-a6b8-994fe279c4a0.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      403
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 123,
+    "product_id": 66,
+    "url": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      123,
+      124
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 124,
+    "product_id": 66,
+    "url": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      123,
+      124
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 404,
+    "product_id": 67,
+    "url": "http://127.0.0.1:8000/api/product-images/67/illustration-ed757848-95c8-4aea-aaf4-edabfdc38051.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      404
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 125,
+    "product_id": 67,
+    "url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      125,
+      126
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 126,
+    "product_id": 67,
+    "url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      125,
+      126
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 405,
+    "product_id": 68,
+    "url": "http://127.0.0.1:8000/api/product-images/68/illustration-addbf706-b4fa-426d-89e9-f5dd6c1202b9.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      405
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 127,
+    "product_id": 68,
+    "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      127,
+      128
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 128,
+    "product_id": 68,
+    "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      127,
+      128
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 411,
+    "product_id": 69,
+    "url": "http://127.0.0.1:8000/api/product-images/69/illustration-5be18770-fbb2-4a73-b8b4-6ccf18df8ad1.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      411
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 129,
+    "product_id": 69,
+    "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      129,
+      130
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 130,
+    "product_id": 69,
+    "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      129,
+      130
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 412,
+    "product_id": 70,
+    "url": "http://127.0.0.1:8000/api/product-images/70/illustration-55d46b11-7d21-4979-ade5-5670ec7e762a.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      412
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 131,
+    "product_id": 70,
+    "url": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      131,
+      132
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 132,
+    "product_id": 70,
+    "url": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      131,
+      132
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 413,
+    "product_id": 71,
+    "url": "http://127.0.0.1:8000/api/product-images/71/illustration-a460e738-8134-4a0d-ba34-99e8ade92213.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      413
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 133,
+    "product_id": 71,
+    "url": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      133,
+      134
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 134,
+    "product_id": 71,
+    "url": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      133,
+      134
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 414,
+    "product_id": 72,
+    "url": "http://127.0.0.1:8000/api/product-images/72/illustration-db23629b-f189-4130-ae05-245d641d7a02.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      414
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 135,
+    "product_id": 72,
+    "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      135,
+      136
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 136,
+    "product_id": 72,
+    "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      135,
+      136
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 415,
+    "product_id": 73,
+    "url": "http://127.0.0.1:8000/api/product-images/73/illustration-b6241a9a-1fd7-440b-9473-ea902296622f.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      415
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 137,
+    "product_id": 73,
+    "url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 3,
+    "duplicate_ids": [
+      137,
+      138
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 138,
+    "product_id": 73,
+    "url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 3,
+    "duplicate_ids": [
+      137,
+      138
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 416,
+    "product_id": 74,
+    "url": "http://127.0.0.1:8000/api/product-images/74/illustration-19b7738b-82f7-44b3-9f0b-b1fcacbc7bd1.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      416
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 139,
+    "product_id": 74,
+    "url": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      139,
+      140
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 140,
+    "product_id": 74,
+    "url": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      139,
+      140
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 417,
+    "product_id": 75,
+    "url": "http://127.0.0.1:8000/api/product-images/75/illustration-10bd86b8-8f0f-483b-9cf4-a95176916e06.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      417
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 141,
+    "product_id": 75,
+    "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      141,
+      142
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 142,
+    "product_id": 75,
+    "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      141,
+      142
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 418,
+    "product_id": 76,
+    "url": "http://127.0.0.1:8000/api/product-images/76/illustration-3afa7e40-2a56-4811-8c3d-414149471e49.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      418
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 143,
+    "product_id": 76,
+    "url": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      143,
+      144
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 144,
+    "product_id": 76,
+    "url": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      143,
+      144
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 419,
+    "product_id": 77,
+    "url": "http://127.0.0.1:8000/api/product-images/77/illustration-0455b6d0-a9c2-4ffe-803d-54a6a5da21a5.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      419
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 145,
+    "product_id": 77,
+    "url": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      145,
+      146
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 146,
+    "product_id": 77,
+    "url": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      145,
+      146
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 509,
+    "product_id": 78,
+    "url": "http://127.0.0.1:8000/api/product-images/78/illustration-59d38262-46a7-4089-8f3b-85188accc68f.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      509
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 340,
+    "product_id": 78,
+    "url": "http://127.0.0.1:8000/api/product-images/78/illustration-cdf3a0ea-01be-4abf-a342-5cff82e4e725.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      340
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 147,
+    "product_id": 78,
+    "url": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 3,
+    "duplicate_ids": [
+      147,
+      148
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 148,
+    "product_id": 78,
+    "url": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 3,
+    "duplicate_ids": [
+      147,
+      148
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 420,
+    "product_id": 79,
+    "url": "http://127.0.0.1:8000/api/product-images/79/illustration-3a108cc0-abee-4865-9e3c-ed89d32053fe.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      420
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 149,
+    "product_id": 79,
+    "url": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      149,
+      150
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 150,
+    "product_id": 79,
+    "url": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      149,
+      150
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 510,
+    "product_id": 80,
+    "url": "http://127.0.0.1:8000/api/product-images/80/illustration-51a92118-87c1-442a-a9e3-5284528ed023.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      510
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 341,
+    "product_id": 80,
+    "url": "http://127.0.0.1:8000/api/product-images/80/illustration-ed3f6b70-7eb7-42eb-8b4f-295e2f3d9c2b.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      341
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 151,
+    "product_id": 80,
+    "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      151,
+      152
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 152,
+    "product_id": 80,
+    "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      151,
+      152
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 421,
+    "product_id": 81,
+    "url": "http://127.0.0.1:8000/api/product-images/81/illustration-3ed0747b-ef6a-4768-862b-b9e65ce2eef9.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      421
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 153,
+    "product_id": 81,
+    "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      153,
+      154
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 154,
+    "product_id": 81,
+    "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      153,
+      154
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 422,
+    "product_id": 82,
+    "url": "http://127.0.0.1:8000/api/product-images/82/illustration-abfbc2e1-7806-4baf-9557-f3eba79e029c.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      422
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 155,
+    "product_id": 82,
+    "url": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      155,
+      156
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 156,
+    "product_id": 82,
+    "url": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      155,
+      156
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 423,
+    "product_id": 83,
+    "url": "http://127.0.0.1:8000/api/product-images/83/illustration-ca862522-0b91-4c1d-913b-a1ebf441d0e4.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      423
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 157,
+    "product_id": 83,
+    "url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 3,
+    "duplicate_ids": [
+      157,
+      158
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 158,
+    "product_id": 83,
+    "url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 3,
+    "duplicate_ids": [
+      157,
+      158
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 511,
+    "product_id": 84,
+    "url": "http://127.0.0.1:8000/api/product-images/84/illustration-e63120b4-4ac1-4d9d-93c3-05d6a7223602.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      511
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 342,
+    "product_id": 84,
+    "url": "http://127.0.0.1:8000/api/product-images/84/illustration-d7f7dcb9-dc4a-4670-b900-b4c1da64748f.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      342
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 159,
+    "product_id": 84,
+    "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      159,
+      160
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 160,
+    "product_id": 84,
+    "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      159,
+      160
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 424,
+    "product_id": 85,
+    "url": "http://127.0.0.1:8000/api/product-images/85/illustration-6e65eebe-e6cf-4771-8e5f-3bf61b368dcd.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      424
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 161,
+    "product_id": 85,
+    "url": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      161,
+      162
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 162,
+    "product_id": 85,
+    "url": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      161,
+      162
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 425,
+    "product_id": 86,
+    "url": "http://127.0.0.1:8000/api/product-images/86/illustration-847d4fbd-d37c-4a4f-aeab-83941ab8d793.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      425
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 163,
+    "product_id": 86,
+    "url": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      163,
+      164
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 164,
+    "product_id": 86,
+    "url": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      163,
+      164
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 426,
+    "product_id": 87,
+    "url": "http://127.0.0.1:8000/api/product-images/87/illustration-1de22a9c-97e9-4a82-a7c3-603b12b19bd1.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      426
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 165,
+    "product_id": 87,
+    "url": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      165,
+      166
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 166,
+    "product_id": 87,
+    "url": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      165,
+      166
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 427,
+    "product_id": 88,
+    "url": "http://127.0.0.1:8000/api/product-images/88/illustration-747c88f8-33ba-4cdd-b607-947907980040.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      427
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 167,
+    "product_id": 88,
+    "url": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 3,
+    "duplicate_ids": [
+      167,
+      168
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 168,
+    "product_id": 88,
+    "url": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 3,
+    "duplicate_ids": [
+      167,
+      168
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 428,
+    "product_id": 89,
+    "url": "http://127.0.0.1:8000/api/product-images/89/illustration-a9e0d416-2984-417b-98b2-727c60579a51.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      428
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 169,
+    "product_id": 89,
+    "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      169,
+      170
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 170,
+    "product_id": 89,
+    "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      169,
+      170
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 429,
+    "product_id": 90,
+    "url": "http://127.0.0.1:8000/api/product-images/90/illustration-d13ba2dc-97a6-4965-a028-ec21fd66dcbc.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      429
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 171,
+    "product_id": 90,
+    "url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      171,
+      172
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 172,
+    "product_id": 90,
+    "url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      171,
+      172
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 430,
+    "product_id": 91,
+    "url": "http://127.0.0.1:8000/api/product-images/91/illustration-e149fd06-2d44-4652-a715-55351d0a5ef2.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      430
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 173,
+    "product_id": 91,
+    "url": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      173,
+      174
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 174,
+    "product_id": 91,
+    "url": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      173,
+      174
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 512,
+    "product_id": 92,
+    "url": "http://127.0.0.1:8000/api/product-images/92/illustration-140155d9-5286-4d6d-80a8-dabb3169906a.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      512
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 343,
+    "product_id": 92,
+    "url": "http://127.0.0.1:8000/api/product-images/92/illustration-56426be1-1877-43e6-a475-5e6c24c138c7.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      343
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 175,
+    "product_id": 92,
+    "url": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      175,
+      176
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 176,
+    "product_id": 92,
+    "url": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      175,
+      176
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 431,
+    "product_id": 93,
+    "url": "http://127.0.0.1:8000/api/product-images/93/illustration-6f44d48e-5e59-442d-897b-be3450dd51b4.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      431
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 177,
+    "product_id": 93,
+    "url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      177,
+      178
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 178,
+    "product_id": 93,
+    "url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      177,
+      178
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 432,
+    "product_id": 94,
+    "url": "http://127.0.0.1:8000/api/product-images/94/illustration-7d3884c9-72f7-4336-af57-faf8a379729a.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      432
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 179,
+    "product_id": 94,
+    "url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      179,
+      180
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 180,
+    "product_id": 94,
+    "url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      179,
+      180
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 513,
+    "product_id": 95,
+    "url": "http://127.0.0.1:8000/api/product-images/95/illustration-33ea8bce-a4e5-45e5-9c8f-fe0e02e25a78.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      513
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 344,
+    "product_id": 95,
+    "url": "http://127.0.0.1:8000/api/product-images/95/illustration-3fe146b1-0b5b-453d-b1f2-de71c9f0efa1.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      344
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 181,
+    "product_id": 95,
+    "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      181,
+      182
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 182,
+    "product_id": 95,
+    "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      181,
+      182
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 433,
+    "product_id": 96,
+    "url": "http://127.0.0.1:8000/api/product-images/96/illustration-a65efa80-262a-42b5-af10-21e5696c5b7f.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      433
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 183,
+    "product_id": 96,
+    "url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      183,
+      184
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 184,
+    "product_id": 96,
+    "url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      183,
+      184
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 514,
+    "product_id": 97,
+    "url": "http://127.0.0.1:8000/api/product-images/97/illustration-4ac14b30-776b-4ab4-9877-186a71348bb9.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      514
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 345,
+    "product_id": 97,
+    "url": "http://127.0.0.1:8000/api/product-images/97/illustration-5ad4f7dc-1e6a-49a8-81f4-4ec4e1e83a81.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      345
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 185,
+    "product_id": 97,
+    "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      185,
+      186
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 186,
+    "product_id": 97,
+    "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      185,
+      186
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 434,
+    "product_id": 98,
+    "url": "http://127.0.0.1:8000/api/product-images/98/illustration-0d108778-3f6b-416f-a06d-7e19083b219e.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      434
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 187,
+    "product_id": 98,
+    "url": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      187,
+      188
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 188,
+    "product_id": 98,
+    "url": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      187,
+      188
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 435,
+    "product_id": 99,
+    "url": "http://127.0.0.1:8000/api/product-images/99/illustration-07d6690b-cba1-4ada-9e35-716b84efdf61.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      435
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 189,
+    "product_id": 99,
+    "url": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      189,
+      190
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 190,
+    "product_id": 99,
+    "url": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      189,
+      190
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 455,
+    "product_id": 100,
+    "url": "http://127.0.0.1:8000/api/product-images/100/illustration-d9a24d22-003b-458c-8f21-6f2ff6076d73.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      455
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 346,
+    "product_id": 100,
+    "url": "http://127.0.0.1:8000/api/product-images/100/illustration-67a113b5-5f6b-4237-8f71-15b4ad3379fc.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      346
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 191,
+    "product_id": 100,
+    "url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      191,
+      192
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 192,
+    "product_id": 100,
+    "url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      191,
+      192
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 406,
+    "product_id": 101,
+    "url": "http://127.0.0.1:8000/api/product-images/101/illustration-2a661cc3-06b7-4e96-9432-4e7aee6f4593.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      406
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 193,
+    "product_id": 101,
+    "url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      193,
+      194
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 194,
+    "product_id": 101,
+    "url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      193,
+      194
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 437,
+    "product_id": 102,
+    "url": "http://127.0.0.1:8000/api/product-images/102/illustration-fa445adb-0302-4014-ab6b-5ff5a208cd93.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      437
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 195,
+    "product_id": 102,
+    "url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      195,
+      196
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 196,
+    "product_id": 102,
+    "url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      195,
+      196
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 438,
+    "product_id": 103,
+    "url": "http://127.0.0.1:8000/api/product-images/103/illustration-5889565c-3e43-4f3e-9205-ce226e9db7c2.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      438
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 197,
+    "product_id": 103,
+    "url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      197,
+      198
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 198,
+    "product_id": 103,
+    "url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      197,
+      198
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 456,
+    "product_id": 104,
+    "url": "http://127.0.0.1:8000/api/product-images/104/illustration-e52b574e-4068-4850-95d5-e5cc4e3f3c35.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      456
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 347,
+    "product_id": 104,
+    "url": "http://127.0.0.1:8000/api/product-images/104/illustration-c38a2f37-bf98-4cfd-bb50-ec2e1d7257d5.jpg",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      347
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 199,
+    "product_id": 104,
+    "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      199,
+      200
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 200,
+    "product_id": 104,
+    "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      199,
+      200
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 407,
+    "product_id": 105,
+    "url": "http://127.0.0.1:8000/api/product-images/105/illustration-470a2830-0429-4607-ad16-04607332a3f0.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      407
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 201,
+    "product_id": 105,
+    "url": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      201,
+      202
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 202,
+    "product_id": 105,
+    "url": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      201,
+      202
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 408,
+    "product_id": 106,
+    "url": "http://127.0.0.1:8000/api/product-images/106/illustration-329d8837-c61f-4d54-b93b-05a879722162.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      408
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 203,
+    "product_id": 106,
+    "url": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      203,
+      204
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 204,
+    "product_id": 106,
+    "url": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      203,
+      204
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 439,
+    "product_id": 107,
+    "url": "http://127.0.0.1:8000/api/product-images/107/illustration-ca8d327a-7d33-44ab-a53b-235f2de13967.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      439
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 205,
+    "product_id": 107,
+    "url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      205,
+      206
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 206,
+    "product_id": 107,
+    "url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      205,
+      206
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 440,
+    "product_id": 108,
+    "url": "http://127.0.0.1:8000/api/product-images/108/illustration-b8ce1f96-4d60-4932-8106-820b5ef2c4ff.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      440
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 207,
+    "product_id": 108,
+    "url": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      207,
+      208
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 208,
+    "product_id": 108,
+    "url": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      207,
+      208
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 441,
+    "product_id": 109,
+    "url": "http://127.0.0.1:8000/api/product-images/109/illustration-46a4a868-8eb1-432c-8ffc-9286abd1079e.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      441
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 209,
+    "product_id": 109,
+    "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      209,
+      210
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 210,
+    "product_id": 109,
+    "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      209,
+      210
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 443,
+    "product_id": 110,
+    "url": "http://127.0.0.1:8000/api/product-images/110/illustration-4662868d-9071-450c-b718-9d311587fa64.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      443
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 211,
+    "product_id": 110,
+    "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      211,
+      212
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 212,
+    "product_id": 110,
+    "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      211,
+      212
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 444,
+    "product_id": 111,
+    "url": "http://127.0.0.1:8000/api/product-images/111/illustration-d7ba3972-2a9c-47ed-b176-c6dca94635e1.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      444
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 213,
+    "product_id": 111,
+    "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      213,
+      214
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 214,
+    "product_id": 111,
+    "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      213,
+      214
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 445,
+    "product_id": 112,
+    "url": "http://127.0.0.1:8000/api/product-images/112/illustration-46c914a3-8ea3-4d51-93a0-d8a8f377302b.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      445
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 215,
+    "product_id": 112,
+    "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      215,
+      216
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 216,
+    "product_id": 112,
+    "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      215,
+      216
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 446,
+    "product_id": 113,
+    "url": "http://127.0.0.1:8000/api/product-images/113/illustration-899730d3-3461-4702-a3db-a11e6a622ae9.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      446
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 217,
+    "product_id": 113,
+    "url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      217,
+      218
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 218,
+    "product_id": 113,
+    "url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      217,
+      218
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 447,
+    "product_id": 114,
+    "url": "http://127.0.0.1:8000/api/product-images/114/illustration-e111b5b3-80e6-444c-9b78-0eacb7de022b.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      447
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 219,
+    "product_id": 114,
+    "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      219,
+      220
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 220,
+    "product_id": 114,
+    "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      219,
+      220
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 448,
+    "product_id": 115,
+    "url": "http://127.0.0.1:8000/api/product-images/115/illustration-12aa8da7-8034-49f2-ac17-34dbb1db26d7.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      448
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 221,
+    "product_id": 115,
+    "url": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      221,
+      222
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 222,
+    "product_id": 115,
+    "url": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      221,
+      222
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 449,
+    "product_id": 116,
+    "url": "http://127.0.0.1:8000/api/product-images/116/illustration-7e2a8ce0-764a-4281-a66c-c626c81abe13.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      449
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 223,
+    "product_id": 116,
+    "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      223,
+      224
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 224,
+    "product_id": 116,
+    "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      223,
+      224
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 457,
+    "product_id": 117,
+    "url": "http://127.0.0.1:8000/api/product-images/117/illustration-9d9d5213-511c-477f-be75-ef0c61a43774.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      457
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 225,
+    "product_id": 117,
+    "url": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      225,
+      226
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 226,
+    "product_id": 117,
+    "url": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      225,
+      226
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 450,
+    "product_id": 118,
+    "url": "http://127.0.0.1:8000/api/product-images/118/illustration-b77c1833-9cc5-4c05-9eae-928e983156e2.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      450
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 227,
+    "product_id": 118,
+    "url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      227,
+      228
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 228,
+    "product_id": 118,
+    "url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      227,
+      228
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 458,
+    "product_id": 119,
+    "url": "http://127.0.0.1:8000/api/product-images/119/illustration-6644fe3e-55f2-410e-a7f0-a609473f294c.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      458
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 229,
+    "product_id": 119,
+    "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      229,
+      230
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 230,
+    "product_id": 119,
+    "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      229,
+      230
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 459,
+    "product_id": 120,
+    "url": "http://127.0.0.1:8000/api/product-images/120/illustration-1993d29c-aea1-4742-9dd4-3cc5184a8b69.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      459
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 231,
+    "product_id": 120,
+    "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      231,
+      232
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 232,
+    "product_id": 120,
+    "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      231,
+      232
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 460,
+    "product_id": 121,
+    "url": "http://127.0.0.1:8000/api/product-images/121/illustration-b8e3ba84-c4f7-4660-9785-dd7cb877c94a.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      460
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 233,
+    "product_id": 121,
+    "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      233,
+      234
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 234,
+    "product_id": 121,
+    "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      233,
+      234
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 461,
+    "product_id": 122,
+    "url": "http://127.0.0.1:8000/api/product-images/122/illustration-cc1576af-6e37-4f3f-a5c0-fcb79728a05b.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      461
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 235,
+    "product_id": 122,
+    "url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      235,
+      236
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 236,
+    "product_id": 122,
+    "url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      235,
+      236
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 462,
+    "product_id": 123,
+    "url": "http://127.0.0.1:8000/api/product-images/123/illustration-9bc73f6a-19e2-4163-8107-a95e2117c837.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      462
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 237,
+    "product_id": 123,
+    "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      237,
+      238
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 238,
+    "product_id": 123,
+    "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      237,
+      238
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 463,
+    "product_id": 124,
+    "url": "http://127.0.0.1:8000/api/product-images/124/illustration-197b4dd4-8716-4226-99ea-2a7cf2c82f19.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      463
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 239,
+    "product_id": 124,
+    "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      239,
+      240
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 240,
+    "product_id": 124,
+    "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      239,
+      240
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 464,
+    "product_id": 125,
+    "url": "http://127.0.0.1:8000/api/product-images/125/illustration-459c7ecb-fca5-4bf1-a789-4c303ae94205.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      464
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 241,
+    "product_id": 125,
+    "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      241,
+      242
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 242,
+    "product_id": 125,
+    "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      241,
+      242
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 465,
+    "product_id": 126,
+    "url": "http://127.0.0.1:8000/api/product-images/126/illustration-eadcfa3b-e48e-4b7c-8fe1-11d928e1e501.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      465
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 243,
+    "product_id": 126,
+    "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      243,
+      244
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 244,
+    "product_id": 126,
+    "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      243,
+      244
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 466,
+    "product_id": 127,
+    "url": "http://127.0.0.1:8000/api/product-images/127/illustration-14b874cd-406d-49b0-8f1c-7a543a323a53.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      466
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 245,
+    "product_id": 127,
+    "url": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      245,
+      246
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 246,
+    "product_id": 127,
+    "url": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      245,
+      246
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 467,
+    "product_id": 128,
+    "url": "http://127.0.0.1:8000/api/product-images/128/illustration-6f020175-8b58-45f5-8be8-c38667843dee.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      467
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 247,
+    "product_id": 128,
+    "url": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      247,
+      248
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 248,
+    "product_id": 128,
+    "url": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      247,
+      248
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 468,
+    "product_id": 129,
+    "url": "http://127.0.0.1:8000/api/product-images/129/illustration-44750f0e-47e9-4eab-8f15-822feb7a7be7.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      468
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 249,
+    "product_id": 129,
+    "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      249,
+      250
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 250,
+    "product_id": 129,
+    "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      249,
+      250
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 469,
+    "product_id": 130,
+    "url": "http://127.0.0.1:8000/api/product-images/130/illustration-2087b2cc-1a70-45bd-a2bb-a1a94e8daac2.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      469
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 251,
+    "product_id": 130,
+    "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      251,
+      252
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 252,
+    "product_id": 130,
+    "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      251,
+      252
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 470,
+    "product_id": 131,
+    "url": "http://127.0.0.1:8000/api/product-images/131/illustration-9543b6b7-2cae-4c75-9c8f-f0fd2587d930.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      470
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 253,
+    "product_id": 131,
+    "url": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      253,
+      254
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 254,
+    "product_id": 131,
+    "url": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      253,
+      254
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 471,
+    "product_id": 132,
+    "url": "http://127.0.0.1:8000/api/product-images/132/illustration-0c93af49-1407-49ed-a75a-3d32d6b470ba.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      471
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 255,
+    "product_id": 132,
+    "url": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      255,
+      256
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 256,
+    "product_id": 132,
+    "url": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      255,
+      256
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 472,
+    "product_id": 133,
+    "url": "http://127.0.0.1:8000/api/product-images/133/illustration-0f8e73da-edf8-4a79-bf40-b97775e28081.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      472
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 257,
+    "product_id": 133,
+    "url": "https://images.unsplash.com/photo-1577733966973-d680bffd2e80?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      257,
+      258
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 258,
+    "product_id": 133,
+    "url": "https://images.unsplash.com/photo-1577733966973-d680bffd2e80?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      257,
+      258
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 473,
+    "product_id": 134,
+    "url": "http://127.0.0.1:8000/api/product-images/134/illustration-94251939-8a41-4940-b3c6-ccf9c21ec638.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      473
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 259,
+    "product_id": 134,
+    "url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      259,
+      260
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 260,
+    "product_id": 134,
+    "url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      259,
+      260
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 474,
+    "product_id": 135,
+    "url": "http://127.0.0.1:8000/api/product-images/135/illustration-69e3cd26-1fb1-440f-9e20-0629c1a5415b.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      474
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 261,
+    "product_id": 135,
+    "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      261,
+      262
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 262,
+    "product_id": 135,
+    "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      261,
+      262
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 475,
+    "product_id": 136,
+    "url": "http://127.0.0.1:8000/api/product-images/136/illustration-f0feedd6-e4a4-4cf5-99f6-c180d1e3acfa.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      475
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 263,
+    "product_id": 136,
+    "url": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      263,
+      264
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 264,
+    "product_id": 136,
+    "url": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      263,
+      264
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 476,
+    "product_id": 137,
+    "url": "http://127.0.0.1:8000/api/product-images/137/illustration-ab3cc375-070c-4ee7-a03f-c68059d2e472.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      476
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 265,
+    "product_id": 137,
+    "url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      265,
+      266
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 266,
+    "product_id": 137,
+    "url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      265,
+      266
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 477,
+    "product_id": 138,
+    "url": "http://127.0.0.1:8000/api/product-images/138/illustration-7cf3d452-03dd-4a34-b67d-993fe0b48570.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      477
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 267,
+    "product_id": 138,
+    "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      267,
+      268
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 268,
+    "product_id": 138,
+    "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      267,
+      268
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 478,
+    "product_id": 139,
+    "url": "http://127.0.0.1:8000/api/product-images/139/illustration-7c39665f-35fe-4939-9f15-19c2c410956b.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      478
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 269,
+    "product_id": 139,
+    "url": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      269,
+      270
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 270,
+    "product_id": 139,
+    "url": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      269,
+      270
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 479,
+    "product_id": 140,
+    "url": "http://127.0.0.1:8000/api/product-images/140/illustration-dd1455f9-dfd9-4f40-ad8e-861b4c5c8c54.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      479
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 271,
+    "product_id": 140,
+    "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      271,
+      272
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 272,
+    "product_id": 140,
+    "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      271,
+      272
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 480,
+    "product_id": 141,
+    "url": "http://127.0.0.1:8000/api/product-images/141/illustration-daad1627-5b36-48f4-9e00-389a5c8623a2.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      480
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 273,
+    "product_id": 141,
+    "url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      273,
+      274
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 274,
+    "product_id": 141,
+    "url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      273,
+      274
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 481,
+    "product_id": 142,
+    "url": "http://127.0.0.1:8000/api/product-images/142/illustration-dcc43e9e-571e-44c1-9951-1dd500138c95.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      481
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 275,
+    "product_id": 142,
+    "url": "https://images.unsplash.com/photo-1577733966973-d680bffd2e80?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      275,
+      276
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 276,
+    "product_id": 142,
+    "url": "https://images.unsplash.com/photo-1577733966973-d680bffd2e80?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      275,
+      276
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 482,
+    "product_id": 143,
+    "url": "http://127.0.0.1:8000/api/product-images/143/illustration-3fdedba6-a139-4bd4-ac85-97b9c7264b95.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      482
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 277,
+    "product_id": 143,
+    "url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      277,
+      278
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 278,
+    "product_id": 143,
+    "url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      277,
+      278
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 483,
+    "product_id": 144,
+    "url": "http://127.0.0.1:8000/api/product-images/144/illustration-3bfd3f13-f734-445c-a3f2-3405b0d556a0.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      483
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 279,
+    "product_id": 144,
+    "url": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      279,
+      280
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 280,
+    "product_id": 144,
+    "url": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      279,
+      280
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 484,
+    "product_id": 145,
+    "url": "http://127.0.0.1:8000/api/product-images/145/illustration-1fdb6c4d-4147-4005-9e29-777720e761d9.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      484
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 281,
+    "product_id": 145,
+    "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      281,
+      282
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 282,
+    "product_id": 145,
+    "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      281,
+      282
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 485,
+    "product_id": 146,
+    "url": "http://127.0.0.1:8000/api/product-images/146/illustration-c0043ba3-0662-4c65-a4f1-37ba7c620584.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      485
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 283,
+    "product_id": 146,
+    "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      283,
+      284
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 284,
+    "product_id": 146,
+    "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      283,
+      284
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 486,
+    "product_id": 147,
+    "url": "http://127.0.0.1:8000/api/product-images/147/illustration-107cf7bf-5f7c-4d40-8bdc-5a67f95f5215.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      486
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 285,
+    "product_id": 147,
+    "url": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      285,
+      286
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 286,
+    "product_id": 147,
+    "url": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      285,
+      286
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 487,
+    "product_id": 148,
+    "url": "http://127.0.0.1:8000/api/product-images/148/illustration-9a5faa48-89f8-4d36-bdc4-8e8c6c6ff16b.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      487
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 287,
+    "product_id": 148,
+    "url": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      287,
+      288
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 288,
+    "product_id": 148,
+    "url": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      287,
+      288
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 488,
+    "product_id": 149,
+    "url": "http://127.0.0.1:8000/api/product-images/149/illustration-13f2d83c-5aa6-4daa-809c-6395d7501e19.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      488
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 289,
+    "product_id": 149,
+    "url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      289,
+      290
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 290,
+    "product_id": 149,
+    "url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      289,
+      290
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 489,
+    "product_id": 150,
+    "url": "http://127.0.0.1:8000/api/product-images/150/illustration-ab54ba65-7241-48aa-b0f5-bec3230a969c.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      489
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 291,
+    "product_id": 150,
+    "url": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      291,
+      292
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 292,
+    "product_id": 150,
+    "url": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      291,
+      292
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 490,
+    "product_id": 151,
+    "url": "http://127.0.0.1:8000/api/product-images/151/illustration-5a5bd945-6c5d-4807-82e1-3fe65f278274.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      490
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 293,
+    "product_id": 151,
+    "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      293,
+      294
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 294,
+    "product_id": 151,
+    "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      293,
+      294
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 491,
+    "product_id": 152,
+    "url": "http://127.0.0.1:8000/api/product-images/152/illustration-3073b90c-54c5-4abf-b702-2944710b653b.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      491
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 295,
+    "product_id": 152,
+    "url": "https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      295,
+      296
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 296,
+    "product_id": 152,
+    "url": "https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      295,
+      296
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 492,
+    "product_id": 153,
+    "url": "http://127.0.0.1:8000/api/product-images/153/illustration-2ea87da5-0378-495f-b3d3-82e26fbaaa5c.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      492
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 297,
+    "product_id": 153,
+    "url": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      297,
+      298
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 298,
+    "product_id": 153,
+    "url": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      297,
+      298
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 493,
+    "product_id": 154,
+    "url": "http://127.0.0.1:8000/api/product-images/154/illustration-47240542-bfc9-4147-81f8-f167f5f1d7a5.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      493
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 299,
+    "product_id": 154,
+    "url": "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      299,
+      300
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 300,
+    "product_id": 154,
+    "url": "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      299,
+      300
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 494,
+    "product_id": 155,
+    "url": "http://127.0.0.1:8000/api/product-images/155/illustration-449725e1-2242-487b-b328-7fffd489c004.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      494
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 301,
+    "product_id": 155,
+    "url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      301,
+      302
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 302,
+    "product_id": 155,
+    "url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      301,
+      302
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 495,
+    "product_id": 156,
+    "url": "http://127.0.0.1:8000/api/product-images/156/illustration-d790179a-9499-438d-bc12-a663cd036d42.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      495
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 303,
+    "product_id": 156,
+    "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      303,
+      304
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 304,
+    "product_id": 156,
+    "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      303,
+      304
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 496,
+    "product_id": 157,
+    "url": "http://127.0.0.1:8000/api/product-images/157/illustration-da2de699-2197-4750-930d-32039d65c734.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      496
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 305,
+    "product_id": 157,
+    "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      305,
+      306
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 306,
+    "product_id": 157,
+    "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      305,
+      306
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 497,
+    "product_id": 159,
+    "url": "http://127.0.0.1:8000/api/product-images/159/illustration-867a993e-87c1-41dd-9ad3-1411c55dcf0e.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      497
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 309,
+    "product_id": 159,
+    "url": "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      309,
+      310
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 310,
+    "product_id": 159,
+    "url": "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      309,
+      310
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 498,
+    "product_id": 160,
+    "url": "http://127.0.0.1:8000/api/product-images/160/illustration-7fb90a57-f42d-4470-b510-2dc9c06c35d6.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      498
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 311,
+    "product_id": 160,
+    "url": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      311,
+      312
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 312,
+    "product_id": 160,
+    "url": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      311,
+      312
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 499,
+    "product_id": 161,
+    "url": "http://127.0.0.1:8000/api/product-images/161/illustration-e31c891f-e722-433d-96bd-c54b797ab726.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      499
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 313,
+    "product_id": 161,
+    "url": "https://images.unsplash.com/photo-1589756823695-278bc923f962?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      313,
+      314
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 314,
+    "product_id": 161,
+    "url": "https://images.unsplash.com/photo-1589756823695-278bc923f962?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      313,
+      314
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 500,
+    "product_id": 162,
+    "url": "http://127.0.0.1:8000/api/product-images/162/illustration-24504b98-e45d-4460-9930-c3665a65c4e8.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      500
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 315,
+    "product_id": 162,
+    "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      315,
+      316
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 316,
+    "product_id": 162,
+    "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      315,
+      316
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 501,
+    "product_id": 163,
+    "url": "http://127.0.0.1:8000/api/product-images/163/illustration-bd0dd32c-6dd1-4f22-85d1-aa455b1afb26.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      501
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 317,
+    "product_id": 163,
+    "url": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      317,
+      318
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 318,
+    "product_id": 163,
+    "url": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      317,
+      318
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 502,
+    "product_id": 164,
+    "url": "http://127.0.0.1:8000/api/product-images/164/illustration-497169e9-c6ff-418f-bca5-6197e4d9d63a.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      502
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 319,
+    "product_id": 164,
+    "url": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      319,
+      320
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 320,
+    "product_id": 164,
+    "url": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      319,
+      320
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 503,
+    "product_id": 165,
+    "url": "http://127.0.0.1:8000/api/product-images/165/illustration-928b067e-0007-4df7-b77a-72b2df7c0c80.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      503
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 321,
+    "product_id": 165,
+    "url": "https://images.unsplash.com/photo-1582966772680-860e372bb558?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      321,
+      322
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 322,
+    "product_id": 165,
+    "url": "https://images.unsplash.com/photo-1582966772680-860e372bb558?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      321,
+      322
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 504,
+    "product_id": 166,
+    "url": "http://127.0.0.1:8000/api/product-images/166/illustration-c54e0455-222b-4aea-a175-fd04ed6aefb4.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      504
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 323,
+    "product_id": 166,
+    "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      323,
+      324
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 324,
+    "product_id": 166,
+    "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 0,
+    "duplicate_ids": [
+      323,
+      324
+    ],
+    "in_demo": false,
+    "decision": "Đề xuất bỏ khỏi catalog demo; vẫn còn tham chiếu gallery chính"
+  },
+  {
+    "id": 505,
+    "product_id": 167,
+    "url": "http://127.0.0.1:8000/api/product-images/167/illustration-f619deb7-3ea7-4f1a-bc57-b91c80ee2fc8.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 3,
+    "duplicate_ids": [
+      505
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 325,
+    "product_id": 167,
+    "url": "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      325,
+      326
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 326,
+    "product_id": 167,
+    "url": "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      325,
+      326
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 506,
+    "product_id": 168,
+    "url": "http://127.0.0.1:8000/api/product-images/168/illustration-c3a0cd1d-f71d-4806-9022-038d34eb4e28.jpg",
+    "main_reference": true,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      506
+    ],
+    "in_demo": true,
+    "decision": "Giữ trong demo"
+  },
+  {
+    "id": 327,
+    "product_id": 168,
+    "url": "https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      327,
+      328
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 328,
+    "product_id": 168,
+    "url": "https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?w=700",
+    "main_reference": false,
+    "variant_ids": [],
+    "order_references": 1,
+    "duplicate_ids": [
+      327,
+      328
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 515,
+    "product_id": 172,
+    "url": "http://127.0.0.1:8000/api/product-images/172/dd7b32f3-7ee8-4f6e-b7f0-e256ee801dc9.jpg",
+    "main_reference": false,
+    "variant_ids": [
+      505,
+      506,
+      507,
+      508,
+      509
+    ],
+    "order_references": 0,
+    "duplicate_ids": [
+      515
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  },
+  {
+    "id": 516,
+    "product_id": 172,
+    "url": "https://thoitrangbigsize.vn/wp-content/uploads/2025/03/den-3.jpg",
+    "main_reference": true,
+    "variant_ids": [
+      500,
+      501,
+      502,
+      503
+    ],
+    "order_references": 8,
+    "duplicate_ids": [
+      516
+    ],
+    "in_demo": false,
+    "decision": "Bảo toàn tham chiếu nguồn; không xóa chính"
+  }
+]

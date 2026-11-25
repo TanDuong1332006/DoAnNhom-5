@@ -1,0 +1,39 @@
+{
+    "id": 153,
+    "id_cua_hang": null,
+    "id_danh_muc": 8,
+    "id_thuong_hieu": 3,
+    "ma_san_pham": "SFP-PHUKIEN-05",
+    "ten_san_pham": "Khăn Choàng Cổ Lụa Tơ Tằm Họa Tiết Hội Họa Cổ Điển",
+    "slug_san_pham": "khan-choang-co-lua-to-tam-hoa-tiet-hoi-hoa-co-dien-ftrv",
+    "gia_ban": "550000.00",
+    "gia_khuyen_mai": "440000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+    "mo_ta_ngan": "100% tơ tằm dệt tay mượt mà mát lạnh mùa hè ấm áp mùa đông, viền cuộn mép thủ công.",
+    "mo_ta_chi_tiet": "100% tơ tằm dệt tay mượt mà mát lạnh mùa hè ấm áp mùa đông, viền cuộn mép thủ công. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 107,
+    "is_noi_bat": 0,
+    "is_flash_sale": 1,
+    "luot_xem": 1387,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:56.000000Z",
+    "updated_at": "2026-09-27T09:05:56.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 297,
+            "id_san_pham": 153,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        },
+        {
+            "id": 298,
+            "id_san_pham": 153,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        }
+    ]
+}

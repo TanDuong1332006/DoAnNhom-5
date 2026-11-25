@@ -1,0 +1,209 @@
+{
+  "database": "sofep_security_uat_20261118_d588ff07a906",
+  "cache_prefix": "s34-316be3bb:",
+  "passed": true,
+  "checks": [
+    {
+      "case": "stock exactly one order",
+      "passed": true
+    },
+    {
+      "case": "stock stock once",
+      "passed": true
+    },
+    {
+      "case": "stock voucher once",
+      "passed": true
+    },
+    {
+      "case": "stock cancel 1",
+      "passed": true
+    },
+    {
+      "case": "stock cancel 2",
+      "passed": true
+    },
+    {
+      "case": "stock restored stock once",
+      "passed": true
+    },
+    {
+      "case": "stock restored voucher once",
+      "passed": true
+    },
+    {
+      "case": "coupon exactly one order",
+      "passed": true
+    },
+    {
+      "case": "coupon stock once",
+      "passed": true
+    },
+    {
+      "case": "coupon voucher once",
+      "passed": true
+    },
+    {
+      "case": "coupon cancel 1",
+      "passed": true
+    },
+    {
+      "case": "coupon cancel 2",
+      "passed": true
+    },
+    {
+      "case": "coupon restored stock once",
+      "passed": true
+    },
+    {
+      "case": "coupon restored voucher once",
+      "passed": true
+    },
+    {
+      "case": "duplicate exactly one order",
+      "passed": true
+    },
+    {
+      "case": "duplicate stock once",
+      "passed": true
+    },
+    {
+      "case": "duplicate voucher once",
+      "passed": true
+    },
+    {
+      "case": "duplicate cancel 1",
+      "passed": true
+    },
+    {
+      "case": "duplicate cancel 2",
+      "passed": true
+    },
+    {
+      "case": "duplicate restored stock once",
+      "passed": true
+    },
+    {
+      "case": "duplicate restored voucher once",
+      "passed": true
+    },
+    {
+      "case": "per_customer exactly one order",
+      "passed": true
+    },
+    {
+      "case": "per_customer stock once",
+      "passed": true
+    },
+    {
+      "case": "per_customer voucher once",
+      "passed": true
+    },
+    {
+      "case": "per_customer cancel 1",
+      "passed": true
+    },
+    {
+      "case": "per_customer cancel 2",
+      "passed": true
+    },
+    {
+      "case": "per_customer restored stock once",
+      "passed": true
+    },
+    {
+      "case": "per_customer restored voucher once",
+      "passed": true
+    },
+    {
+      "case": "History MySQL owner list",
+      "passed": true
+    },
+    {
+      "case": "History MySQL owner detail",
+      "passed": true
+    },
+    {
+      "case": "History MySQL other customer 404",
+      "passed": true
+    },
+    {
+      "case": "History MySQL Guest 401",
+      "passed": true
+    },
+    {
+      "case": "History MySQL Admin 403",
+      "passed": true
+    }
+  ],
+  "races": [
+    {
+      "case": "stock",
+      "workers": [
+        {
+          "status": 422,
+          "order": null,
+          "message": "Sản phẩm không đủ tồn kho."
+        },
+        {
+          "status": 201,
+          "order": 8,
+          "message": "Tạo đơn hàng demo thành công!"
+        }
+      ],
+      "passed": true,
+      "barrier_epoch": 1795095154.099054
+    },
+    {
+      "case": "coupon",
+      "workers": [
+        {
+          "status": 422,
+          "order": null,
+          "message": "Mã giảm giá đã hết lượt."
+        },
+        {
+          "status": 201,
+          "order": 9,
+          "message": "Tạo đơn hàng demo thành công!"
+        }
+      ],
+      "passed": true,
+      "barrier_epoch": 1795095156.3215177
+    },
+    {
+      "case": "duplicate",
+      "workers": [
+        {
+          "status": 201,
+          "order": 10,
+          "message": "Tạo đơn hàng demo thành công!"
+        },
+        {
+          "status": 201,
+          "order": 10,
+          "message": "Tạo đơn hàng demo thành công!"
+        }
+      ],
+      "passed": true,
+      "barrier_epoch": 1795095158.5927837
+    },
+    {
+      "case": "per_customer",
+      "workers": [
+        {
+          "status": 201,
+          "order": 11,
+          "message": "Tạo đơn hàng demo thành công!"
+        },
+        {
+          "status": 422,
+          "order": null,
+          "message": "Bạn đã dùng hết lượt mã giảm giá này."
+        }
+      ],
+      "passed": true,
+      "barrier_epoch": 1795095160.7711968
+    }
+  ]
+}

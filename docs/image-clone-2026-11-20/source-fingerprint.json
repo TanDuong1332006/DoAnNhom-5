@@ -1,0 +1,14 @@
+{
+    "sha256": "7df35c18180988963a4b8ec0eb9b17a41cd776f2aa709fbe8b61abc423c82c6d",
+    "captured_at": "2026-11-20T07:49:58+00:00",
+    "catalog_tables": {
+        "danh_mucs": 8,
+        "thuong_hieus": 6,
+        "mau_sacs": 7,
+        "kich_thuocs": 6,
+        "san_phams": 168,
+        "anh_san_phams": 514,
+        "chi_tiet_san_phams": 500
+    },
+    "order_image_urls": 23
+}

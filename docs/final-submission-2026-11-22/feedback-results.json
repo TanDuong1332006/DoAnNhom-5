@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "label": "customer login",
+      "path": "/dang-nhap",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "label": "admin login",
+      "path": "/dang-nhap",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "label": "legacy reviews empty",
+      "path": "/admin/danh-gia/get-data",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "label": "new install review count zero",
+      "pass": true
+    },
+    {
+      "label": "customer private platform feedback",
+      "path": "/client/gop-y",
+      "status": 201,
+      "pass": true
+    },
+    {
+      "label": "admin sees private feedback",
+      "path": "/admin/gop-y/1",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "label": "customer cannot read admin feedback",
+      "path": "/admin/gop-y/1",
+      "status": 403,
+      "pass": true
+    },
+    {
+      "label": "admin in-app reply",
+      "path": "/admin/gop-y/1/phan-hoi",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "label": "customer receives reply",
+      "path": "/client/thong-bao",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "label": "reply linked to own inbox",
+      "pass": true
+    },
+    {
+      "label": "customer marks reply read",
+      "path": "/client/thong-bao/1/da-doc",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "label": "legacy review unaffected",
+      "path": "/admin/danh-gia/get-data",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "label": "feedback is not a product review",
+      "pass": true
+    },
+    {
+      "label": "catalog detail contract remains",
+      "path": "/client/demo/san-pham/1",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "label": "reviews rating keys preserved",
+      "pass": true
+    }
+  ],
+  "scope": "New isolated MySQL UAT; synthetic feedback/reply/notification only, no real email"
+}

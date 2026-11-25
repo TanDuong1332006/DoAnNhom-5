@@ -1,0 +1,32 @@
+PHPUnit Started (PHPUnit 12.5.33 using PHP 8.3.24 (cli) on WINNT)
+Test Runner Configured
+Bootstrap Finished (D:\do_an_nhom\code_chinh\DoAnNhom-5-GITHUB\themmoik27be\vendor/autoload.php)
+Event Facade Sealed
+Test Suite Loaded (97 tests)
+Test Runner Started
+Test Suite Sorted
+Test Suite Filtered (1 test)
+Test Runner Execution Started (1 test)
+Test Suite Started (D:\do_an_nhom\code_chinh\DoAnNhom-5-GITHUB\themmoik27be\phpunit.xml, 1 test)
+Test Suite Started (Feature, 1 test)
+Test Suite Started (Tests\Feature\LegacyReviewRetirementTest, 1 test)
+Test Preparation Started (Tests\Feature\LegacyReviewRetirementTest::test_removed_admin_review_routes_return_404_and_never_mutate_history)
+Before Test Method Called (Tests\Feature\LegacyReviewRetirementTest::setUp)
+Before Test Method Finished:
+- Tests\Feature\LegacyReviewRetirementTest::setUp
+Test Prepared (Tests\Feature\LegacyReviewRetirementTest::test_removed_admin_review_routes_return_404_and_never_mutate_history)
+After Test Method Called (Tests\Feature\LegacyReviewRetirementTest::tearDown)
+After Test Method Finished:
+- Tests\Feature\LegacyReviewRetirementTest::tearDown
+Test Passed (Tests\Feature\LegacyReviewRetirementTest::test_removed_admin_review_routes_return_404_and_never_mutate_history)
+Test Finished (Tests\Feature\LegacyReviewRetirementTest::test_removed_admin_review_routes_return_404_and_never_mutate_history)
+After Last Test Method Called (Tests\Feature\LegacyReviewRetirementTest::tearDownAfterClass)
+After Last Test Method Finished:
+- Tests\Feature\LegacyReviewRetirementTest::tearDownAfterClass
+Test Suite Finished (Tests\Feature\LegacyReviewRetirementTest, 1 test)
+Test Suite Finished (Feature, 1 test)
+Test Suite Finished (D:\do_an_nhom\code_chinh\DoAnNhom-5-GITHUB\themmoik27be\phpunit.xml, 1 test)
+Test Runner Execution Finished
+Test Runner Finished
+PHPUnit Finished (Shell Exit Code: 0)
+{"tool":"phpunit","result":"passed","tests":1,"passed":1,"assertions":10,"duration_ms":203}

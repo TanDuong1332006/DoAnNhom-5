@@ -1,0 +1,39 @@
+{
+    "id": 37,
+    "id_cua_hang": null,
+    "id_danh_muc": 2,
+    "id_thuong_hieu": 6,
+    "ma_san_pham": "SFP-QUANNAM-09",
+    "ten_san_pham": "Quần Short Nam Thể Thao 2 Lớp Chạy Bộ Kháng Nước",
+    "slug_san_pham": "quan-short-nam-the-thao-2-lop-chay-bo-khang-nuoc-f9lz",
+    "gia_ban": "350000.00",
+    "gia_khuyen_mai": "290000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+    "mo_ta_ngan": "Lớp lót trong nén cơ bắp chống ma sát, lớp ngoài xẻ tà tăng biên độ vận động.",
+    "mo_ta_chi_tiet": "Lớp lót trong nén cơ bắp chống ma sát, lớp ngoài xẻ tà tăng biên độ vận động. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 168,
+    "is_noi_bat": 0,
+    "is_flash_sale": 1,
+    "luot_xem": 714,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:52.000000Z",
+    "updated_at": "2026-09-27T09:05:52.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 65,
+            "id_san_pham": 37,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 66,
+            "id_san_pham": 37,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "id": 10,
+    "id_cua_hang": null,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": 5,
+    "ma_san_pham": "SFP-AONAM-02",
+    "ten_san_pham": "Áo Sơ Mi Nam Oxford Cổ Button-Down Relaxed Fit",
+    "slug_san_pham": "ao-so-mi-nam-oxford-co-button-down-relaxed-fit-tvli",
+    "gia_ban": "490000.00",
+    "gia_khuyen_mai": "420000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+    "mo_ta_ngan": "Vải dệt thoi Oxford chống nhăn, cổ áo đính cúc thanh lịch cho chàng trai năng động.",
+    "mo_ta_chi_tiet": "Vải dệt thoi Oxford chống nhăn, cổ áo đính cúc thanh lịch cho chàng trai năng động. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 137,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 1623,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:51.000000Z",
+    "updated_at": "2026-09-27T09:05:51.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 11,
+            "id_san_pham": 10,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        },
+        {
+            "id": 12,
+            "id_san_pham": 10,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        }
+    ]
+}

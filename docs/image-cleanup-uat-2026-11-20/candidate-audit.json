@@ -1,0 +1,4024 @@
+[
+    {
+        "id": 329,
+        "product_id": 1,
+        "url": "http://127.0.0.1:8000/api/product-images/1/illustration-c083c263-33d5-4832-9472-e3c243dc1aeb.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 330,
+        "product_id": 1,
+        "url": "http://127.0.0.1:8000/api/product-images/1/illustration-c32bbb37-92e1-412c-af55-be2f2a9f8471.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 331,
+        "product_id": 6,
+        "url": "http://127.0.0.1:8000/api/product-images/6/illustration-a4d91bd8-e53f-4091-95b8-36de5b848c45.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 8,
+        "product_id": 8,
+        "url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 332,
+        "product_id": 9,
+        "url": "http://127.0.0.1:8000/api/product-images/9/illustration-38dfb9fe-e82f-405f-bb69-76758b3a87f2.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 333,
+        "product_id": 9,
+        "url": "http://127.0.0.1:8000/api/product-images/9/illustration-43c41f19-b93f-4e5e-b010-ff4533bcdb5c.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 9,
+        "product_id": 9,
+        "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 2
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 10,
+        "product_id": 9,
+        "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 2
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 11,
+        "product_id": 10,
+        "url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 12,
+        "product_id": 10,
+        "url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 334,
+        "product_id": 11,
+        "url": "http://127.0.0.1:8000/api/product-images/11/illustration-e1aedd09-50d5-45fc-b174-a2e10227cd84.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 13,
+        "product_id": 11,
+        "url": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 14,
+        "product_id": 11,
+        "url": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 15,
+        "product_id": 12,
+        "url": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 16,
+        "product_id": 12,
+        "url": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 17,
+        "product_id": 13,
+        "url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 18,
+        "product_id": 13,
+        "url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 19,
+        "product_id": 14,
+        "url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 20,
+        "product_id": 14,
+        "url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 335,
+        "product_id": 16,
+        "url": "http://127.0.0.1:8000/api/product-images/16/illustration-a26d6e9c-6173-4822-a901-63b15897da6d.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 23,
+        "product_id": 16,
+        "url": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 24,
+        "product_id": 16,
+        "url": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 336,
+        "product_id": 17,
+        "url": "http://127.0.0.1:8000/api/product-images/17/illustration-6c217c35-3301-41ea-a315-25652ab570a7.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 337,
+        "product_id": 17,
+        "url": "http://127.0.0.1:8000/api/product-images/17/illustration-faecf8f4-082e-46a8-be75-0943e86d61c2.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 25,
+        "product_id": 17,
+        "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 2
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 26,
+        "product_id": 17,
+        "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 2
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 27,
+        "product_id": 18,
+        "url": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 28,
+        "product_id": 18,
+        "url": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 29,
+        "product_id": 19,
+        "url": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 30,
+        "product_id": 19,
+        "url": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 31,
+        "product_id": 20,
+        "url": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 32,
+        "product_id": 20,
+        "url": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 33,
+        "product_id": 21,
+        "url": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 34,
+        "product_id": 21,
+        "url": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 35,
+        "product_id": 22,
+        "url": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 36,
+        "product_id": 22,
+        "url": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 37,
+        "product_id": 23,
+        "url": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 38,
+        "product_id": 23,
+        "url": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 39,
+        "product_id": 24,
+        "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 40,
+        "product_id": 24,
+        "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 41,
+        "product_id": 25,
+        "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 2
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 42,
+        "product_id": 25,
+        "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 2
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 338,
+        "product_id": 26,
+        "url": "http://127.0.0.1:8000/api/product-images/26/illustration-4dd94cb8-f3ab-4a93-99e2-a0301beefcfd.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 43,
+        "product_id": 26,
+        "url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 44,
+        "product_id": 26,
+        "url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 45,
+        "product_id": 27,
+        "url": "https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 46,
+        "product_id": 27,
+        "url": "https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 339,
+        "product_id": 28,
+        "url": "http://127.0.0.1:8000/api/product-images/28/illustration-cb4cf634-ea89-4e4b-9e8a-de3cac7a1c7f.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 47,
+        "product_id": 28,
+        "url": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 48,
+        "product_id": 28,
+        "url": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 49,
+        "product_id": 29,
+        "url": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 50,
+        "product_id": 29,
+        "url": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 51,
+        "product_id": 30,
+        "url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 52,
+        "product_id": 30,
+        "url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 53,
+        "product_id": 31,
+        "url": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 54,
+        "product_id": 31,
+        "url": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 55,
+        "product_id": 32,
+        "url": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 56,
+        "product_id": 32,
+        "url": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 57,
+        "product_id": 33,
+        "url": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 58,
+        "product_id": 33,
+        "url": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 59,
+        "product_id": 34,
+        "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 2
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 60,
+        "product_id": 34,
+        "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 2
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 61,
+        "product_id": 35,
+        "url": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 62,
+        "product_id": 35,
+        "url": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 63,
+        "product_id": 36,
+        "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 64,
+        "product_id": 36,
+        "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 65,
+        "product_id": 37,
+        "url": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 66,
+        "product_id": 37,
+        "url": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 67,
+        "product_id": 38,
+        "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 2
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 68,
+        "product_id": 38,
+        "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 2
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 69,
+        "product_id": 39,
+        "url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 70,
+        "product_id": 39,
+        "url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 71,
+        "product_id": 40,
+        "url": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 72,
+        "product_id": 40,
+        "url": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 73,
+        "product_id": 41,
+        "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 2
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 74,
+        "product_id": 41,
+        "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 2
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 75,
+        "product_id": 42,
+        "url": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 76,
+        "product_id": 42,
+        "url": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 77,
+        "product_id": 43,
+        "url": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 78,
+        "product_id": 43,
+        "url": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 79,
+        "product_id": 44,
+        "url": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 80,
+        "product_id": 44,
+        "url": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 81,
+        "product_id": 45,
+        "url": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 82,
+        "product_id": 45,
+        "url": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 83,
+        "product_id": 46,
+        "url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 84,
+        "product_id": 46,
+        "url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 85,
+        "product_id": 47,
+        "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 2
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 86,
+        "product_id": 47,
+        "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 2
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 87,
+        "product_id": 48,
+        "url": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 88,
+        "product_id": 48,
+        "url": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 89,
+        "product_id": 49,
+        "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 90,
+        "product_id": 49,
+        "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 91,
+        "product_id": 50,
+        "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 92,
+        "product_id": 50,
+        "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 93,
+        "product_id": 51,
+        "url": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 94,
+        "product_id": 51,
+        "url": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 95,
+        "product_id": 52,
+        "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 96,
+        "product_id": 52,
+        "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 97,
+        "product_id": 53,
+        "url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 98,
+        "product_id": 53,
+        "url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 99,
+        "product_id": 54,
+        "url": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 100,
+        "product_id": 54,
+        "url": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 101,
+        "product_id": 55,
+        "url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 102,
+        "product_id": 55,
+        "url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 103,
+        "product_id": 56,
+        "url": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 104,
+        "product_id": 56,
+        "url": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 105,
+        "product_id": 57,
+        "url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 106,
+        "product_id": 57,
+        "url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 107,
+        "product_id": 58,
+        "url": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 108,
+        "product_id": 58,
+        "url": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 109,
+        "product_id": 59,
+        "url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 110,
+        "product_id": 59,
+        "url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 111,
+        "product_id": 60,
+        "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 112,
+        "product_id": 60,
+        "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 113,
+        "product_id": 61,
+        "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 114,
+        "product_id": 61,
+        "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 115,
+        "product_id": 62,
+        "url": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 116,
+        "product_id": 62,
+        "url": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 117,
+        "product_id": 63,
+        "url": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 118,
+        "product_id": 63,
+        "url": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 119,
+        "product_id": 64,
+        "url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 120,
+        "product_id": 64,
+        "url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 121,
+        "product_id": 65,
+        "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 122,
+        "product_id": 65,
+        "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 123,
+        "product_id": 66,
+        "url": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 124,
+        "product_id": 66,
+        "url": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 125,
+        "product_id": 67,
+        "url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 126,
+        "product_id": 67,
+        "url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 127,
+        "product_id": 68,
+        "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 128,
+        "product_id": 68,
+        "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 129,
+        "product_id": 69,
+        "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 130,
+        "product_id": 69,
+        "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 131,
+        "product_id": 70,
+        "url": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 132,
+        "product_id": 70,
+        "url": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 133,
+        "product_id": 71,
+        "url": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 134,
+        "product_id": 71,
+        "url": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 135,
+        "product_id": 72,
+        "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 136,
+        "product_id": 72,
+        "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 139,
+        "product_id": 74,
+        "url": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 140,
+        "product_id": 74,
+        "url": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 141,
+        "product_id": 75,
+        "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 142,
+        "product_id": 75,
+        "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 143,
+        "product_id": 76,
+        "url": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 144,
+        "product_id": 76,
+        "url": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 145,
+        "product_id": 77,
+        "url": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 146,
+        "product_id": 77,
+        "url": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 340,
+        "product_id": 78,
+        "url": "http://127.0.0.1:8000/api/product-images/78/illustration-cdf3a0ea-01be-4abf-a342-5cff82e4e725.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 149,
+        "product_id": 79,
+        "url": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 150,
+        "product_id": 79,
+        "url": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 341,
+        "product_id": 80,
+        "url": "http://127.0.0.1:8000/api/product-images/80/illustration-ed3f6b70-7eb7-42eb-8b4f-295e2f3d9c2b.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 151,
+        "product_id": 80,
+        "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 152,
+        "product_id": 80,
+        "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 153,
+        "product_id": 81,
+        "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 154,
+        "product_id": 81,
+        "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 155,
+        "product_id": 82,
+        "url": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 156,
+        "product_id": 82,
+        "url": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 342,
+        "product_id": 84,
+        "url": "http://127.0.0.1:8000/api/product-images/84/illustration-d7f7dcb9-dc4a-4670-b900-b4c1da64748f.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 159,
+        "product_id": 84,
+        "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 160,
+        "product_id": 84,
+        "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 161,
+        "product_id": 85,
+        "url": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 162,
+        "product_id": 85,
+        "url": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 163,
+        "product_id": 86,
+        "url": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 164,
+        "product_id": 86,
+        "url": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 165,
+        "product_id": 87,
+        "url": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 166,
+        "product_id": 87,
+        "url": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 169,
+        "product_id": 89,
+        "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 170,
+        "product_id": 89,
+        "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 171,
+        "product_id": 90,
+        "url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 172,
+        "product_id": 90,
+        "url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 173,
+        "product_id": 91,
+        "url": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 174,
+        "product_id": 91,
+        "url": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 343,
+        "product_id": 92,
+        "url": "http://127.0.0.1:8000/api/product-images/92/illustration-56426be1-1877-43e6-a475-5e6c24c138c7.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 175,
+        "product_id": 92,
+        "url": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 176,
+        "product_id": 92,
+        "url": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 177,
+        "product_id": 93,
+        "url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 178,
+        "product_id": 93,
+        "url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 179,
+        "product_id": 94,
+        "url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 180,
+        "product_id": 94,
+        "url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 344,
+        "product_id": 95,
+        "url": "http://127.0.0.1:8000/api/product-images/95/illustration-3fe146b1-0b5b-453d-b1f2-de71c9f0efa1.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 181,
+        "product_id": 95,
+        "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 182,
+        "product_id": 95,
+        "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 345,
+        "product_id": 97,
+        "url": "http://127.0.0.1:8000/api/product-images/97/illustration-5ad4f7dc-1e6a-49a8-81f4-4ec4e1e83a81.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 185,
+        "product_id": 97,
+        "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 186,
+        "product_id": 97,
+        "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 187,
+        "product_id": 98,
+        "url": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 188,
+        "product_id": 98,
+        "url": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 189,
+        "product_id": 99,
+        "url": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 190,
+        "product_id": 99,
+        "url": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 346,
+        "product_id": 100,
+        "url": "http://127.0.0.1:8000/api/product-images/100/illustration-67a113b5-5f6b-4237-8f71-15b4ad3379fc.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 191,
+        "product_id": 100,
+        "url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 192,
+        "product_id": 100,
+        "url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 193,
+        "product_id": 101,
+        "url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 194,
+        "product_id": 101,
+        "url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 195,
+        "product_id": 102,
+        "url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 196,
+        "product_id": 102,
+        "url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 197,
+        "product_id": 103,
+        "url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 198,
+        "product_id": 103,
+        "url": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 347,
+        "product_id": 104,
+        "url": "http://127.0.0.1:8000/api/product-images/104/illustration-c38a2f37-bf98-4cfd-bb50-ec2e1d7257d5.jpg",
+        "source": "Pexels (hồ sơ lịch sử)",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 199,
+        "product_id": 104,
+        "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 200,
+        "product_id": 104,
+        "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 201,
+        "product_id": 105,
+        "url": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 202,
+        "product_id": 105,
+        "url": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 203,
+        "product_id": 106,
+        "url": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 204,
+        "product_id": 106,
+        "url": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 207,
+        "product_id": 108,
+        "url": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 208,
+        "product_id": 108,
+        "url": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 209,
+        "product_id": 109,
+        "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 4
+            },
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 210,
+        "product_id": 109,
+        "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 4
+            },
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 211,
+        "product_id": 110,
+        "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 212,
+        "product_id": 110,
+        "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 213,
+        "product_id": 111,
+        "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 214,
+        "product_id": 111,
+        "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 215,
+        "product_id": 112,
+        "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 216,
+        "product_id": 112,
+        "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 217,
+        "product_id": 113,
+        "url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 218,
+        "product_id": 113,
+        "url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 219,
+        "product_id": 114,
+        "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 220,
+        "product_id": 114,
+        "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 221,
+        "product_id": 115,
+        "url": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 222,
+        "product_id": 115,
+        "url": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 223,
+        "product_id": 116,
+        "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 224,
+        "product_id": 116,
+        "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 225,
+        "product_id": 117,
+        "url": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 226,
+        "product_id": 117,
+        "url": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 227,
+        "product_id": 118,
+        "url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 228,
+        "product_id": 118,
+        "url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 229,
+        "product_id": 119,
+        "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 230,
+        "product_id": 119,
+        "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 231,
+        "product_id": 120,
+        "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 232,
+        "product_id": 120,
+        "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 233,
+        "product_id": 121,
+        "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 4
+            },
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 234,
+        "product_id": 121,
+        "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "chi_tiet_don_hangs",
+                "column": "hinh_anh",
+                "count": 4
+            },
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 235,
+        "product_id": 122,
+        "url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 236,
+        "product_id": 122,
+        "url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 237,
+        "product_id": 123,
+        "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 238,
+        "product_id": 123,
+        "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 239,
+        "product_id": 124,
+        "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 240,
+        "product_id": 124,
+        "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 241,
+        "product_id": 125,
+        "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 242,
+        "product_id": 125,
+        "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 243,
+        "product_id": 126,
+        "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 244,
+        "product_id": 126,
+        "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 245,
+        "product_id": 127,
+        "url": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 246,
+        "product_id": 127,
+        "url": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 247,
+        "product_id": 128,
+        "url": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 248,
+        "product_id": 128,
+        "url": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 249,
+        "product_id": 129,
+        "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 250,
+        "product_id": 129,
+        "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 253,
+        "product_id": 131,
+        "url": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 254,
+        "product_id": 131,
+        "url": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 257,
+        "product_id": 133,
+        "url": "https://images.unsplash.com/photo-1577733966973-d680bffd2e80?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 258,
+        "product_id": 133,
+        "url": "https://images.unsplash.com/photo-1577733966973-d680bffd2e80?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 263,
+        "product_id": 136,
+        "url": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 264,
+        "product_id": 136,
+        "url": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 265,
+        "product_id": 137,
+        "url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 266,
+        "product_id": 137,
+        "url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 271,
+        "product_id": 140,
+        "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 272,
+        "product_id": 140,
+        "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 275,
+        "product_id": 142,
+        "url": "https://images.unsplash.com/photo-1577733966973-d680bffd2e80?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 276,
+        "product_id": 142,
+        "url": "https://images.unsplash.com/photo-1577733966973-d680bffd2e80?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 277,
+        "product_id": 143,
+        "url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 278,
+        "product_id": 143,
+        "url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 283,
+        "product_id": 146,
+        "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 284,
+        "product_id": 146,
+        "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 285,
+        "product_id": 147,
+        "url": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 286,
+        "product_id": 147,
+        "url": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 287,
+        "product_id": 148,
+        "url": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 288,
+        "product_id": 148,
+        "url": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 289,
+        "product_id": 149,
+        "url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 290,
+        "product_id": 149,
+        "url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [
+            {
+                "table": "danh_mucs",
+                "column": "hinh_anh",
+                "count": 1
+            }
+        ],
+        "foreign_key_references": [],
+        "decision": "Phải giữ; có tham chiếu"
+    },
+    {
+        "id": 291,
+        "product_id": 150,
+        "url": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 292,
+        "product_id": 150,
+        "url": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 295,
+        "product_id": 152,
+        "url": "https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 296,
+        "product_id": 152,
+        "url": "https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 297,
+        "product_id": 153,
+        "url": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 298,
+        "product_id": 153,
+        "url": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 301,
+        "product_id": 155,
+        "url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 302,
+        "product_id": 155,
+        "url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 303,
+        "product_id": 156,
+        "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 304,
+        "product_id": 156,
+        "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 305,
+        "product_id": 157,
+        "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 306,
+        "product_id": 157,
+        "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 309,
+        "product_id": 159,
+        "url": "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 310,
+        "product_id": 159,
+        "url": "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 311,
+        "product_id": 160,
+        "url": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 312,
+        "product_id": 160,
+        "url": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 313,
+        "product_id": 161,
+        "url": "https://images.unsplash.com/photo-1589756823695-278bc923f962?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 314,
+        "product_id": 161,
+        "url": "https://images.unsplash.com/photo-1589756823695-278bc923f962?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 315,
+        "product_id": 162,
+        "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 316,
+        "product_id": 162,
+        "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 317,
+        "product_id": 163,
+        "url": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 318,
+        "product_id": 163,
+        "url": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 319,
+        "product_id": 164,
+        "url": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 320,
+        "product_id": 164,
+        "url": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 321,
+        "product_id": 165,
+        "url": "https://images.unsplash.com/photo-1582966772680-860e372bb558?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 322,
+        "product_id": 165,
+        "url": "https://images.unsplash.com/photo-1582966772680-860e372bb558?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 323,
+        "product_id": 166,
+        "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    },
+    {
+        "id": 324,
+        "product_id": 166,
+        "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+        "source": "Unsplash",
+        "is_gallery_in_main": true,
+        "main_reference": false,
+        "variant_ids": [],
+        "other_url_references": [],
+        "foreign_key_references": [],
+        "decision": "Có thể loại trong kịch bản demo"
+    }
+]

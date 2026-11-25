@@ -1,0 +1,39 @@
+{
+    "id": 127,
+    "id_cua_hang": null,
+    "id_danh_muc": 6,
+    "id_thuong_hieu": 5,
+    "ma_san_pham": "SFP-GIAY-19",
+    "ten_san_pham": "Giày Slip-On Nữ Vải Canvas Thêu Họa Tiết Hoa Nhỏ",
+    "slug_san_pham": "giay-slip-on-nu-vai-canvas-theu-hoa-tiet-hoa-nho-naok",
+    "gia_ban": "420000.00",
+    "gia_khuyen_mai": "340000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+    "mo_ta_ngan": "Giày lười tiện lợi không cần buộc dây, lót đệm hoạt tính thấm hút mồ hôi chân.",
+    "mo_ta_chi_tiet": "Giày lười tiện lợi không cần buộc dây, lót đệm hoạt tính thấm hút mồ hôi chân. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 45,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 1297,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:55.000000Z",
+    "updated_at": "2026-09-27T09:05:55.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 245,
+            "id_san_pham": 127,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        },
+        {
+            "id": 246,
+            "id_san_pham": 127,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        }
+    ]
+}

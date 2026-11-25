@@ -1,0 +1,31 @@
+{
+    "id": 3,
+    "id_cua_hang": null,
+    "id_danh_muc": 2,
+    "id_thuong_hieu": 2,
+    "ma_san_pham": "SP-QUANNAM-01",
+    "ten_san_pham": "Quần Jean Nam Slimfit Denim Co Giãn Nhẹ",
+    "slug_san_pham": "quan-jean-nam-slimfit-denim",
+    "gia_ban": "590000.00",
+    "gia_khuyen_mai": "499000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500",
+    "mo_ta_ngan": "Thiết kế tôn dáng, đường may chỉ kép chắc chắn.",
+    "mo_ta_chi_tiet": "Chất denim cotton pha spandex tạo cảm giác thoải mái khi vận động.",
+    "so_luong_ton": 95,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 647,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:49.000000Z",
+    "updated_at": "2026-09-27T09:05:49.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 3,
+            "id_san_pham": 3,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:49.000000Z",
+            "updated_at": "2026-09-27T09:05:49.000000Z"
+        }
+    ]
+}

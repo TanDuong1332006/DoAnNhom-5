@@ -1,0 +1,7 @@
+{
+  "phase": "before",
+  "initial_attempt": "TimeoutError at 20000ms while browser concurrently requested many product images",
+  "interpretation": "Không coi timeout này là bằng chứng ảnh hỏng; dev server có hàng đợi request đồng thời",
+  "followup": "Chạy lại baseline tuần tự với timeout 45000ms, không đổi dữ liệu/URL; 21 request đạt",
+  "raw_initial_error": "DOMException [TimeoutError]: The operation was aborted due to timeout"
+}

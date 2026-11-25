@@ -1,0 +1,39 @@
+{
+    "id": 20,
+    "id_cua_hang": null,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": 6,
+    "ma_san_pham": "SFP-AONAM-12",
+    "ten_san_pham": "Áo Thun Nam Raglan Tay Phối Màu Phong Cách Retro",
+    "slug_san_pham": "ao-thun-nam-raglan-tay-phoi-mau-phong-cach-retro-xksl",
+    "gia_ban": "340000.00",
+    "gia_khuyen_mai": "280000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=700",
+    "mo_ta_ngan": "Tay áo cắt xéo Raglan kinh điển bóng chày Mỹ, tạo cảm giác bờ vai rộng vạm vỡ.",
+    "mo_ta_chi_tiet": "Tay áo cắt xéo Raglan kinh điển bóng chày Mỹ, tạo cảm giác bờ vai rộng vạm vỡ. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 113,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 1479,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:51.000000Z",
+    "updated_at": "2026-09-27T09:05:51.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 31,
+            "id_san_pham": 20,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        },
+        {
+            "id": 32,
+            "id_san_pham": 20,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "database": "doan_nhom_5",
+    "connection": "mysql",
+    "public_storage": "D:\\do_an_nhom\\code_chinh\\DoAnNhom-5-GITHUB\\themmoik27be\\storage\\app/public",
+    "config_cached": false,
+    "cors_origins": [
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "http://localhost:3000"
+    ],
+    "frontend_api_url": "http://127.0.0.1:8000/api",
+    "frontend_demo_flag_in_env": false
+}

@@ -1,0 +1,39 @@
+{
+    "id": 14,
+    "id_cua_hang": null,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": 5,
+    "ma_san_pham": "SFP-AONAM-06",
+    "ten_san_pham": "Áo Thun Nam Tay Dài Waffle Knit Tổ Ong Thu Đông",
+    "slug_san_pham": "ao-thun-nam-tay-dai-waffle-knit-to-ong-thu-dong-7iyy",
+    "gia_ban": "420000.00",
+    "gia_khuyen_mai": "360000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=700",
+    "mo_ta_ngan": "Cấu trúc dệt tổ ong thoáng khí, giữ ấm nhẹ nhàng, bo tay áo tinh tế.",
+    "mo_ta_chi_tiet": "Cấu trúc dệt tổ ong thoáng khí, giữ ấm nhẹ nhàng, bo tay áo tinh tế. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 86,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 2399,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:51.000000Z",
+    "updated_at": "2026-09-27T09:05:51.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 19,
+            "id_san_pham": 14,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        },
+        {
+            "id": 20,
+            "id_san_pham": 14,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        }
+    ]
+}

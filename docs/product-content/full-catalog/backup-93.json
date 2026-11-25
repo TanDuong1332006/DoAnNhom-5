@@ -1,0 +1,39 @@
+{
+    "id": 93,
+    "id_cua_hang": null,
+    "id_danh_muc": 5,
+    "id_thuong_hieu": 4,
+    "ma_san_pham": "SFP-AOKHOAC-05",
+    "ten_san_pham": "Áo Khoác Măng Tô Dạ Dáng Dài Thu Đông Đẳng Cấp",
+    "slug_san_pham": "ao-khoac-mang-to-da-dang-dai-thu-dong-dang-cap-qqrn",
+    "gia_ban": "1450000.00",
+    "gia_khuyen_mai": "1190000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+    "mo_ta_ngan": "Chất dạ lông cừu ép nhiệt mềm mượt, ve áo chữ K bản rộng sang trọng vượt thời gian.",
+    "mo_ta_chi_tiet": "Chất dạ lông cừu ép nhiệt mềm mượt, ve áo chữ K bản rộng sang trọng vượt thời gian. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 141,
+    "is_noi_bat": 0,
+    "is_flash_sale": 1,
+    "luot_xem": 1730,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:54.000000Z",
+    "updated_at": "2026-09-27T09:05:54.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 177,
+            "id_san_pham": 93,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 178,
+            "id_san_pham": 93,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        }
+    ]
+}

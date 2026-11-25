@@ -1,0 +1,39 @@
+{
+    "id": 43,
+    "id_cua_hang": null,
+    "id_danh_muc": 2,
+    "id_thuong_hieu": 4,
+    "ma_san_pham": "SFP-QUANNAM-15",
+    "ten_san_pham": "Quần Short Nam Vải Đũi Linen Đi Biển & Du Lịch",
+    "slug_san_pham": "quan-short-nam-vai-dui-linen-di-bien-du-lich-ptg5",
+    "gia_ban": "360000.00",
+    "gia_khuyen_mai": "299000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+    "mo_ta_ngan": "Sợi lanh tự nhiên mộc mạc thoáng mát, dây rút thắt nơ kiểu Ý năng động.",
+    "mo_ta_chi_tiet": "Sợi lanh tự nhiên mộc mạc thoáng mát, dây rút thắt nơ kiểu Ý năng động. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 86,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 2563,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:52.000000Z",
+    "updated_at": "2026-09-27T09:05:52.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 77,
+            "id_san_pham": 43,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 78,
+            "id_san_pham": 43,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        }
+    ]
+}

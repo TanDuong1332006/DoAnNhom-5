@@ -1,0 +1,39 @@
+{
+    "id": 152,
+    "id_cua_hang": null,
+    "id_danh_muc": 8,
+    "id_thuong_hieu": 3,
+    "ma_san_pham": "SFP-PHUKIEN-04",
+    "ten_san_pham": "Mũ Nồi Beret Nữ Vải Dạ Thời Trang Phong Cách Cổ Điển",
+    "slug_san_pham": "mu-noi-beret-nu-vai-da-thoi-trang-phong-cach-co-dien-i30n",
+    "gia_ban": "290000.00",
+    "gia_khuyen_mai": "230000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?w=700",
+    "mo_ta_ngan": "Chất dạ len mềm giữ phom tròn đầy đặn, tạo điểm nhấn nghệ thuật cho gương mặt.",
+    "mo_ta_chi_tiet": "Chất dạ len mềm giữ phom tròn đầy đặn, tạo điểm nhấn nghệ thuật cho gương mặt. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 74,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 2425,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:56.000000Z",
+    "updated_at": "2026-09-27T09:05:56.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 295,
+            "id_san_pham": 152,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        },
+        {
+            "id": 296,
+            "id_san_pham": 152,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "id": 144,
+    "id_cua_hang": null,
+    "id_danh_muc": 7,
+    "id_thuong_hieu": 4,
+    "ma_san_pham": "SFP-TUIXACH-16",
+    "ten_san_pham": "Ví Đựng Thẻ Card Holder Mini Da Bò Thật Mạ Logo SOFEP",
+    "slug_san_pham": "vi-dung-the-card-holder-mini-da-bo-that-ma-logo-sofep-qmis",
+    "gia_ban": "280000.00",
+    "gia_khuyen_mai": "210000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=700",
+    "mo_ta_ngan": "Siêu mỏng chỉ 0.4cm, bỏ túi quần áo không bị cộm, chứa được 6 thẻ và tiền gập.",
+    "mo_ta_chi_tiet": "Siêu mỏng chỉ 0.4cm, bỏ túi quần áo không bị cộm, chứa được 6 thẻ và tiền gập. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 131,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 2067,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:56.000000Z",
+    "updated_at": "2026-09-27T09:05:56.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 279,
+            "id_san_pham": 144,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        },
+        {
+            "id": 280,
+            "id_san_pham": 144,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        }
+    ]
+}

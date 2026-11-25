@@ -1,0 +1,59 @@
+Browser tab: 4, Title: "SOFEP STUDIO - Thời Trang Sang Xịn Mịn & Đương Đại 2026", URL: "http://127.0.0.1:5198/admin/danh-muc".
+1 AXWebArea SOFEP STUDIO - Thời Trang Sang Xịn Mịn & Đương Đại 2026, URL: 127.0.0.1:5198/admin/danh-muc
+	2 container
+		3 container
+			4 image
+			5 text SOFEP ✦ ADMIN PORTAL
+			6 combo box (collapsed, settable) Description: Tìm kiếm Admin, Secondary Actions: Expand
+			7 button user avatar SOFEP Demo Admin Quản Trị Viên
+				8 image user avatar
+				9 text SOFEP Demo Admin
+				10 text Quản Trị Viên
+		11 content list
+			12 link Description:  Dashboard, Value: 127.0.0.1:5198/admin
+			13 link (collapsed) Description:  Quản Lý Sản Phẩm, Value: javascript:;, Secondary Actions: Expand
+			14 link Description:  Đơn Hàng & Ưu Đãi, Value: javascript:;
+			15 link Description:  Khách Hàng & Phản Hồi, Value: javascript:;
+			16 link Description:  Báo Cáo & Thống Kê, Value: javascript:;
+		17 text THÊM MỚI DANH MỤC
+		18 container
+			19 text Tên danh mục  *
+		20 text field (settable)
+		21 text Hình ảnh (URL)
+		22 text field (settable)
+		23 text Mô tả
+		24 text entry area (settable)
+		25 text Trạng thái
+		26 pop up button (collapsed, settable) Value: Hiển thị, Secondary Actions: Expand
+			27 menu
+				28 (selected) Hiển thị
+				29 Tạm tắt
+		30 button  Thêm Danh Mục
+			31 text 
+			32 text  Thêm Danh Mục
+		33 text DANH SÁCH DANH MỤC (0)
+		34 container
+			35 text 
+			36 text field (settable)
+		37 table
+			38 row
+				39 cell
+					40 text STT
+				41 cell
+					42 text Ảnh
+				43 cell
+					44 text Tên Danh Mục
+				45 cell
+					46 text Slug
+				47 cell
+					48 text Số Sản Phẩm
+				49 cell
+					50 text Trạng Thái
+				51 cell
+					52 text Action
+			53 row
+				54 cell
+					55 text Không tìm thấy danh mục nào.
+		56 text © 2026 SOFEP STUDIO. Bản quyền thuộc về thương hiệu thời trang cao cấp.
+
+The focused UI element is 1 AXWebArea SOFEP STUDIO - Thời Trang Sang Xịn Mịn & Đương Đại 2026, URL: 127.0.0.1:5198/admin/danh-muc

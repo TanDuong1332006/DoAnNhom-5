@@ -1,0 +1,39 @@
+{
+    "id": 89,
+    "id_cua_hang": null,
+    "id_danh_muc": 5,
+    "id_thuong_hieu": 1,
+    "ma_san_pham": "SFP-AOKHOAC-01",
+    "ten_san_pham": "Áo Khoác Blazer Nam 2 Hàng Khuy Double-Breasted SOFEP",
+    "slug_san_pham": "ao-khoac-blazer-nam-2-hang-khuy-double-breasted-sofep-7g1d",
+    "gia_ban": "1150000.00",
+    "gia_khuyen_mai": "950000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+    "mo_ta_ngan": "Thiết kế 6 khuy cổ điển phong cách quý tộc Ý, vải wool pha đứng form hoàn hảo.",
+    "mo_ta_chi_tiet": "Thiết kế 6 khuy cổ điển phong cách quý tộc Ý, vải wool pha đứng form hoàn hảo. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 56,
+    "is_noi_bat": 1,
+    "is_flash_sale": 1,
+    "luot_xem": 2130,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:54.000000Z",
+    "updated_at": "2026-09-27T09:05:54.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 169,
+            "id_san_pham": 89,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 170,
+            "id_san_pham": 89,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        }
+    ]
+}

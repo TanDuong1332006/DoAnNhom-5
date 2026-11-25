@@ -1,0 +1,6005 @@
+{
+  "checked": 999,
+  "different": [],
+  "redacted_files": [
+    "Fe/src/components/Client/CheckoutModal.vue",
+    "Fe/src/layout/ClientLayout.vue",
+    "Fe/src/layout/wrapper/ClientLayout.vue"
+  ],
+  "files": [
+    {
+      "path": "Fe/src/App.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/css/app.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/css/bootstrap-extended.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/css/bootstrap.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/css/bootstrap.min.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/css/dark-theme.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/css/engagement.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/css/header-colors.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/css/icons.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/css/pace.min.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/css/semi-dark.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/css/urbn-wear.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/css_js_template.txt",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ad.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ae.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/af.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ag.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ai.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/al.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/am.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ao.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/aq.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ar.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/as.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/at.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/au.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/aw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ax.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/az.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ba.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bb.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bd.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/be.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bh.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bi.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bj.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bl.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bo.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bq.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/br.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bs.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bt.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bv.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/by.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/bz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ca.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/cc.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/cd.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/cf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/cg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ch.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ci.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ck.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/cl.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/cm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/cn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/co.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/cr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/cu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/cv.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/cw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/cx.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/cy.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/cz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/de.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/dj.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/dk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/dm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/do.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/dz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ec.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ee.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/eg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/eh.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/er.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/es-ct.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/es.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/et.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/eu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/fi.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/fj.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/fk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/fm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/fo.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/fr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ga.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gb-eng.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gb-nir.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gb-sct.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gb-wls.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gb.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gd.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ge.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gh.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gi.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gl.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gp.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gq.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gs.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gt.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/gy.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/hk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/hm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/hn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/hr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ht.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/hu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/id.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ie.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/il.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/im.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/in.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/io.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/iq.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ir.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/is.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/it.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/je.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/jm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/jo.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/jp.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ke.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/kg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/kh.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ki.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/km.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/kn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/kp.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/kr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/kw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ky.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/kz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/la.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/lb.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/lc.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/li.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/lk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/lr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ls.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/lt.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/lu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/lv.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ly.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ma.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mc.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/md.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/me.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mh.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ml.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mo.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mp.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mq.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ms.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mt.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mv.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mx.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/my.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/mz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/na.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/nc.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ne.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/nf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ng.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ni.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/nl.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/no.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/np.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/nr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/nu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/nz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/om.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/pa.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/pe.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/pf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/pg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ph.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/pk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/pl.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/pm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/pn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/pr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ps.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/pt.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/pw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/py.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/qa.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/re.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ro.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/rs.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ru.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/rw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sa.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sb.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sc.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sd.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/se.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sh.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/si.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sj.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sl.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/so.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ss.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/st.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sv.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sx.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sy.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/sz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/tc.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/td.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/tf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/tg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/th.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/tj.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/tk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/tl.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/tm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/tn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/to.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/tr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/tt.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/tv.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/tw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/tz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ua.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ug.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/um.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/un.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/us.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/uy.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/uz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/va.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/vc.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ve.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/vg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/vi.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/vn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/vu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/wf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ws.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/ye.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/yt.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/za.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/zm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/1x1/zw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ad.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ae.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/af.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ag.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ai.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/al.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/am.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ao.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/aq.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ar.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/as.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/at.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/au.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/aw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ax.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/az.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ba.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bb.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bd.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/be.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bh.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bi.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bj.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bl.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bo.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bq.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/br.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bs.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bt.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bv.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/by.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/bz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ca.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/cc.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/cd.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/cf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/cg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ch.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ci.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ck.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/cl.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/cm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/cn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/co.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/cr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/cu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/cv.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/cw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/cx.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/cy.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/cz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/de.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/dj.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/dk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/dm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/do.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/dz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ec.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ee.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/eg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/eh.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/er.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/es-ct.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/es.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/et.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/eu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/fi.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/fj.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/fk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/fm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/fo.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/fr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ga.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gb-eng.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gb-nir.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gb-sct.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gb-wls.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gb.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gd.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ge.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gh.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gi.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gl.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gp.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gq.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gs.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gt.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/gy.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/hk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/hm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/hn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/hr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ht.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/hu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/id.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ie.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/il.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/im.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/in.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/io.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/iq.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ir.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/is.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/it.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/je.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/jm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/jo.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/jp.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ke.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/kg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/kh.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ki.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/km.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/kn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/kp.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/kr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/kw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ky.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/kz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/la.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/lb.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/lc.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/li.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/lk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/lr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ls.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/lt.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/lu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/lv.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ly.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ma.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mc.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/md.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/me.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mh.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ml.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mo.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mp.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mq.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ms.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mt.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mv.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mx.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/my.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/mz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/na.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/nc.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ne.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/nf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ng.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ni.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/nl.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/no.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/np.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/nr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/nu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/nz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/om.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/pa.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/pe.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/pf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/pg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ph.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/pk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/pl.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/pm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/pn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/pr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ps.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/pt.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/pw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/py.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/qa.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/re.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ro.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/rs.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ru.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/rw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sa.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sb.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sc.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sd.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/se.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sh.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/si.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sj.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sl.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/so.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ss.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/st.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sv.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sx.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sy.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/sz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/tc.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/td.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/tf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/tg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/th.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/tj.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/tk.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/tl.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/tm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/tn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/to.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/tr.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/tt.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/tv.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/tw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/tz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ua.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ug.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/um.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/un.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/us.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/uy.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/uz.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/va.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/vc.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ve.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/vg.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/vi.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/vn.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/vu.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/wf.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ws.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/ye.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/yt.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/za.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/zm.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/flags/4x3/zw.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/fonts/boxicons.eot",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/fonts/boxicons.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/fonts/boxicons.ttf",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/fonts/boxicons.woff",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/fonts/boxicons.woff2",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/fonts/LineIcons.eot",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/fonts/LineIcons.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/fonts/LineIcons.ttf",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/fonts/LineIcons.woff",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/fonts/LineIcons.woff2",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-1.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-10.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-11.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-12.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-13.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-14.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-15.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-16.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-17.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-18.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-19.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-2.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-20.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-21.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-22.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-23.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-24.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-25.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-3.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-4.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-5.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-6.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-7.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-8.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/avatars/avatar-9.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/errors-images/404-error.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/errors-images/505-error.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/favicon-32x32.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/01.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/02.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/03.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/04.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/05.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/06.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/07.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/08.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/09.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/10.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/11.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/12.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/13.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/14.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/15.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/16.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/17.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/18.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/19.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/20.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/21.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/22.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/23.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/24.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/25.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/26.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/27.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/28.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/29.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/30.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/31.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/32.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/33.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/34.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/35.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/36.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/gallery/37.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/icons/chair.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/icons/chair.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/icons/forgot-2.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/icons/headphones.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/icons/idea.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/icons/search.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/icons/shoes.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/icons/tshirt.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/icons/user-interface.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/icons/user.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/icons/watch.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/login-images/bg-forgot-password.jpg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/login-images/bg-lock-screen.jpg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/login-images/bg-login-img.jpg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/login-images/forgot-password-frent-img.jpg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/logo-icon.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/logo-img.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/01.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/02.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/03.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/04.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/05.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/06.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/07.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/08.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/09.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/10.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/11.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/12.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/13.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/14.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/15.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/16.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/17.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/18.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/images/products/19.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/js/app.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/js/bootstrap.bundle.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/js/index.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/js/index2.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/js/index3.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/js/jquery.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/js/pace.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/js/widgets.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/apexcharts-bundle/css/apexcharts.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/apexcharts-bundle/js/apex-custom.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/apexcharts-bundle/js/apexcharts.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/apexcharts-bundle/js/apexcharts.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.min.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/bootstrap-material-datetimepicker/js/moment.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/chartjs/js/Chart.extension.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/chartjs/js/Chart.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/chartjs/js/chartjs-custom.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/datatable/css/dataTables.bootstrap5.min.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/datatable/js/dataTables.bootstrap5.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/datatable/js/jquery.dataTables.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/datetimepicker/css/classic.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/datetimepicker/css/classic.date.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/datetimepicker/css/classic.time.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/datetimepicker/js/legacy.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/datetimepicker/js/picker.date.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/datetimepicker/js/picker.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/datetimepicker/js/picker.time.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fancy-file-uploader/cors/jquery.postmessage-transport.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fancy-file-uploader/cors/jquery.xdr-transport.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fancy-file-uploader/fancy_fileupload.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fancy-file-uploader/fancy_microphone.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fancy-file-uploader/fancy_okay.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fancy-file-uploader/fancy_remove.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fancy-file-uploader/fancy_upload.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fancy-file-uploader/fancy_webcam.png",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fancy-file-uploader/jquery.fancy-fileupload.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fancy-file-uploader/jquery.fileupload.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fancy-file-uploader/jquery.iframe-transport.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fancy-file-uploader/jquery.ui.widget.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fullcalendar/css/main.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fullcalendar/css/main.min.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fullcalendar/js/main.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/fullcalendar/js/main.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/gmaps/map-custom-script.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/css/dark-unica.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/css/grid-light.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/css/highcharts-white.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/css/highcharts.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/css/sand-signika.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/js/accessibility.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/js/cylinder.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/js/export-data.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/js/exporting.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/js/funnel3d.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/js/highcharts-3d.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/js/highcharts-custom.script.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/js/highcharts-more.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/js/highcharts.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/js/solid-gauge.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/highcharts/js/variable-pie.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/input-tags/css/tagsinput.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/input-tags/js/tagsinput.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/jquery-knob/excanvas.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/jquery-knob/jquery.knob.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/jquery.easy-pie-chart/easy-pie-chart.init.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/jquery.easy-pie-chart/easypiechart.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/jquery.easy-pie-chart/jquery.easypiechart.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/metismenu/css/metisMenu.min.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/metismenu/js/metisMenu.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/morris/css/morris.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/morris/js/morris-data.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/morris/js/morris.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/morris/js/morris.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/css/lobibox.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/css/lobibox.min.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/img/1.jpg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/img/2.jpg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/img/3.jpg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/img/4.jpg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/img/5.jpg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/img/6.jpg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/js/lobibox.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/js/lobibox.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/js/messageboxes.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/js/messageboxes.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/js/notification-custom-script.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/js/notifications.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/js/notifications.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/sounds/sound1.ogg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/sounds/sound2.ogg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/sounds/sound3.ogg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/sounds/sound4.ogg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/sounds/sound5.ogg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/notifications/sounds/sound6.ogg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/raphael/raphael-min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/select2/css/select2-bootstrap4.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/select2/css/select2.min.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/select2/js/select2.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/simplebar/css/simplebar.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/simplebar/js/simplebar.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/smart-wizard/css/smart_wizard_all.min.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/smart-wizard/js/jquery.smartWizard.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/sparkline-charts/apex-sparkline-charts.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/sparkline-charts/jquery.sparkline.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/sparkline-charts/sparkline-chart-script.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/vectormap/jquery-jvectormap-2.0.2.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/vectormap/jquery-jvectormap-au-mill.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/vectormap/jquery-jvectormap-in-mill.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/vectormap/jquery-jvectormap-uk-mill-en.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/vectormap/jquery-jvectormap-us-aea-en.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/assets/plugins/vectormap/jvectormap.custom.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/ChiTietSanPham/index.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/DanhGia/index.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/DanhMuc/index.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/Dashboard/index.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/DonHang/index.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/KhachHang/index.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/KichThuoc/index.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/MaGiamGia/index.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/MauSac/index.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/SanPham/index.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/SanPham/ProductImages.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/SanPham/ProductVariants.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/ThongKe/DoanhThuTheoNam.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/ThongKe/DoanhThuTheoThang.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/ThongKe/SanPhamTheoDanhMuc.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Admin/ThuongHieu/index.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Client/CheckoutModal.vue",
+      "in_zip": true,
+      "redacted_in_zip": true,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Client/ChiTietSanPham.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Client/ProductPurchase.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Client/SizeAdvisorModal.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Client/TimKiem.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Client/TrangChu.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Common/SofepLogo.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/DangKy/index.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/DangNhap/index.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Engagement/AdminCampaigns.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Engagement/AdminFeedback.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Engagement/CampaignVoucherForm.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Engagement/CustomerCenter.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Engagement/FeedbackPage.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/Engagement/NotificationBell.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/list_page.txt",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/ProductCard.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/QuenMatKhau/index.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/components/shared/ProductImage.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/layout/AdminLayout.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/layout/BlankLayout.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/layout/ClientLayout.vue",
+      "in_zip": true,
+      "redacted_in_zip": true,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/layout/components/AdminSearch.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/layout/components/FooterRocker.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/layout/components/HeaderRocker.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/layout/components/header_footer_menu.txt",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/layout/components/MenuRocker.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/layout/wrapper/blank.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/layout/wrapper/ClientLayout.vue",
+      "in_zip": true,
+      "redacted_in_zip": true,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/layout/wrapper/index.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/layout/wrapper/master_page.txt",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/main.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/admin/AdminCategories.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/admin/AdminCoupons.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/admin/AdminCustomers.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/admin/AdminLogin.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/admin/AdminOrders.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/admin/AdminProducts.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/admin/Dashboard.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/client/Cart.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/client/Checkout.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/client/Home.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/client/Login.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/client/MyOrders.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/client/OrderSuccess.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/client/ProductDetail.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/client/Profile.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/client/Register.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/pages/client/Shop.vue",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/router/checkLogin.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/router/index.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/services/adminSearch.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/services/apiConfig.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/services/authSessions.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/services/axiosClient.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/services/engagement.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/services/legacyProductImageHolds.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/services/productCatalog.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/services/productDetail.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/services/productImages.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/services/resolveApiUrl.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/stores/authStore.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/stores/cartStore.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/style.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/src/utils/dialog.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/public/product-placeholder.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/public/sofep_logo_horizontal.jpg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/public/sofep_logo_luxury.jpg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/public/sofep_logo_square.jpg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/public/vite.svg",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/index.html",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/vite.config.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/package.json",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/package-lock.json",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/AdminCategoryController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/AdminCouponController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/AdminCustomerController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/AdminDashboardController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/AdminOrderController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/AdminProductController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/ChiTietSanPhamController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/CustomerCampaignController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/DanhGiaController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/DanhMucController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/DonHangController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/KhachHangController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/KichThuocController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/MaGiamGiaController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/MauSacController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/ProductImageController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/SanPhamController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/ThongKeController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Admin/ThuongHieuController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Api/ForgotPasswordController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/AuthController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/CartController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/CategoryController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/ClientController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Controller.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/CouponController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/CustomerInboxController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/CustomerOrderController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/FeedbackController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/giaoDichController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/OrderController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/ProductController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/ProductDetailController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/ProfileController.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Middleware/AdminMiddleware.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Middleware/EngagementReady.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Middleware/RejectLegacySeller.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Middleware/RequireCustomer.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Requests/CampaignRequest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Requests/DangKyRequest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Requests/DangNhapRequest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Requests/MaGiamGiaRequest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Http/Requests/SanPhamRequest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Mail/SendOtpMail.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/AnhSanPham.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/ChiTietDonHang.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/ChiTietGioHang.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/ChiTietSanPham.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/CuaHang.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/DanhGiaSanPham.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/DanhMuc.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/DiaChiNhanHang.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/DonHang.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/GiaoDich.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/GioHang.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/HoaDon.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/KhachHang.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/KichThuoc.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/MaGiamGia.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/MauSac.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/SanPham.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/ThuongHieu.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Models/User.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Providers/AppServiceProvider.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Services/CheckoutService.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Services/CustomerCampaigns.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Services/DemoPayment.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Services/LoyaltyAudience.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Services/OrderLifecycle.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Services/PasswordResetOtp.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/app/Services/VoucherWallet.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/config/app.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/config/auth.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/config/cache.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/config/cors.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/config/database.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/config/engagement.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/config/filesystems.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/config/logging.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/config/mail.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/config/queue.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/config/sanctum.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/config/services.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/config/session.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/routes/api.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/routes/console.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/routes/web.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/resources/css/app.css",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/resources/js/app.js",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/resources/views/emails/otp.blade.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/resources/views/mail/xac_thuc_tai_khoan.blade.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/resources/views/welcome.blade.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/public/.htaccess",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/public/favicon.ico",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/public/index.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/public/robots.txt",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/0001_01_01_000000_create_users_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/0001_01_01_000001_create_cache_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/0001_01_01_000002_create_jobs_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000000_create_personal_access_tokens_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000001_create_danh_mucs_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000002_create_thuong_hieus_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000003_create_mau_sacs_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000004_create_kich_thuocs_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000005_create_san_phams_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000006_create_chi_tiet_san_phams_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000007_create_anh_san_phams_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000008_create_khach_hangs_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000009_create_dia_chi_nhan_hangs_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000010_create_gio_hangs_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000011_create_chi_tiet_gio_hangs_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000012_create_ma_giam_gias_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000013_create_don_hangs_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000014_create_chi_tiet_don_hangs_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000015_create_danh_gia_san_phams_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_23_000016_create_hoa_dons_and_giao_diches_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_09_29_000001_add_google_and_otp_to_khach_hangs_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_10_23_132110_add_id_cua_hang_to_san_phams_table.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_11_03_000001_add_voucher_eligibility_and_order_reservations.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_11_04_000001_add_image_to_product_variants.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_11_06_000001_create_customer_engagement_tables.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_11_18_000001_add_customer_role_baseline.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/database/factories/UserFactory.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/bootstrap/app.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/bootstrap/providers.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/artisan",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/composer.json",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/composer.lock",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/phpunit.xml",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/tests/Feature/ApiAccessBoundaryTest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/tests/Feature/AuthSecurityTest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/tests/Feature/BrowserUatPreparationTest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/tests/Feature/CheckoutIntegrityTest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/tests/Feature/CorsConfigurationTest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/tests/Feature/CustomerEngagementTest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/tests/Feature/CustomerOrderHistoryTest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/tests/Feature/ExampleTest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/tests/Feature/MigrationBaselineTest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/tests/Feature/ProductCatalogPhaseTwoTest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/tests/Feature/ProductDetailDemoTest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/tests/Feature/ProductImagesTest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/tests/Unit/ExampleTest.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/tests/TestCase.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "themmoik27be/tests/Support/IsolatedApiTestCase.php",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/tests/admin-login.test.mjs",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/tests/admin-search.test.mjs",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/tests/admin-startup.test.mjs",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/tests/api-base-url.test.mjs",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/tests/api-config.test.mjs",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/tests/catalog-session.test.mjs",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/tests/checkout-flow.test.mjs",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/tests/customer-engagement.test.mjs",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/tests/customer-header.test.mjs",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/tests/password-reset-security.test.mjs",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/tests/product-detail-demo.test.mjs",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/tests/product-images.test.mjs",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    },
+    {
+      "path": "Fe/tests/sprint34.test.mjs",
+      "in_zip": true,
+      "redacted_in_zip": false,
+      "working_tree_matches_original": true
+    }
+  ]
+}

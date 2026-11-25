@@ -83,14 +83,11 @@
                         <div class="menu-title">Khách Hàng &amp; Phản Hồi</div>
                     </a>
                     <ul class="dropdown-menu">
+                        <li><router-link class="dropdown-item" to="/admin/gop-y"><i class="bx bx-right-arrow-alt"></i>Góp ý riêng</router-link></li>
+                        <li><router-link class="dropdown-item" to="/admin/thong-bao"><i class="bx bx-right-arrow-alt"></i>Thông báo &amp; chiến dịch</router-link></li>
                         <li>
                             <router-link class="dropdown-item" to="/admin/khach-hang">
                                 <i class="bx bx-right-arrow-alt"></i>Danh Sách Khách Hàng
-                            </router-link>
-                        </li>
-                        <li>
-                            <router-link class="dropdown-item" to="/admin/danh-gia">
-                                <i class="bx bx-right-arrow-alt"></i>Đánh Giá Sản Phẩm
                             </router-link>
                         </li>
                     </ul>

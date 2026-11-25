@@ -19,7 +19,7 @@ import { CustomSwal, showConfirm, showDeleteConfirm, showAlert } from './utils/d
 
 // Cấu hình axios tự động gắn Bearer token
 axios.interceptors.request.use((config) => {
-    config.url = resolveApiUrl(config.url, import.meta.env.VITE_API_URL);
+    config.url = resolveApiUrl(config.url);
     const token = requestToken(config.url);
     if (token && !config.headers.Authorization && !config.headers.authorization) {
         config.headers.Authorization = `Bearer ${token}`;

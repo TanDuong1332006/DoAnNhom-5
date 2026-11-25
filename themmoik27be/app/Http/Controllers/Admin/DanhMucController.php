@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\DanhMuc;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\DB;
 
 class DanhMucController extends Controller
 {
@@ -78,14 +79,25 @@ class DanhMucController extends Controller
 
     public function destroy(Request $request)
     {
-        $request->validate(['id' => 'required|exists:danh_mucs,id']);
+        $request->validate(['id' => 'required|integer|exists:danh_mucs,id']);
 
-        DanhMuc::where('id', $request->id)->delete();
+        return DB::transaction(function () use ($request) {
+            $category = DanhMuc::lockForUpdate()->findOrFail($request->id);
+            // Khóa parent trước để FK chặn insert sản phẩm trong lúc kiểm tra/xóa.
+            if ($category->sanPhams()->lockForUpdate()->first(['id'])) {
+                return response()->json([
+                    'status' => 0,
+                    'message' => 'Danh mục còn sản phẩm. Hãy tạm ẩn thay vì xóa.',
+                ], 409);
+            }
 
-        return response()->json([
-            'status'  => 1,
-            'message' => 'Xóa danh mục thành công',
-        ]);
+            $category->delete();
+
+            return response()->json([
+                'status' => 1,
+                'message' => 'Xóa danh mục thành công',
+            ]);
+        }, 3);
     }
 
     public function doiTrangThai(Request $request)

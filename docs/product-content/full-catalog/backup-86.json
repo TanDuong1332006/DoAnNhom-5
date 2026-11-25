@@ -1,0 +1,39 @@
+{
+    "id": 86,
+    "id_cua_hang": null,
+    "id_danh_muc": 4,
+    "id_thuong_hieu": 5,
+    "ma_san_pham": "SFP-AONU-18",
+    "ten_san_pham": "Áo Dệt Kim Nữ Cộc Tay Cổ Polo Trẻ Trung Năng Động",
+    "slug_san_pham": "ao-det-kim-nu-coc-tay-co-polo-tre-trung-nang-dong-dyai",
+    "gia_ban": "370000.00",
+    "gia_khuyen_mai": "310000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+    "mo_ta_ngan": "Dệt jacquard họa tiết xương cá thanh mảnh, cổ bẻ phối màu nhã nhặn.",
+    "mo_ta_chi_tiet": "Dệt jacquard họa tiết xương cá thanh mảnh, cổ bẻ phối màu nhã nhặn. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 71,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 2809,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:54.000000Z",
+    "updated_at": "2026-09-27T09:05:54.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 163,
+            "id_san_pham": 86,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 164,
+            "id_san_pham": 86,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        }
+    ]
+}

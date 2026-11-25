@@ -1,0 +1,39 @@
+{
+    "id": 106,
+    "id_cua_hang": null,
+    "id_danh_muc": 5,
+    "id_thuong_hieu": 5,
+    "ma_san_pham": "SFP-AOKHOAC-18",
+    "ten_san_pham": "Áo Khoác Nỉ Hoodie Zip 2 Chiều Form Rộng Streetwear",
+    "slug_san_pham": "ao-khoac-ni-hoodie-zip-2-chieu-form-rong-streetwear-ymbx",
+    "gia_ban": "580000.00",
+    "gia_khuyen_mai": "480000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+    "mo_ta_ngan": "Khóa kéo hai chiều tiện lợi, vải nỉ bông dày 400GSM siêu đầm tay.",
+    "mo_ta_chi_tiet": "Khóa kéo hai chiều tiện lợi, vải nỉ bông dày 400GSM siêu đầm tay. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 68,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 2709,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:55.000000Z",
+    "updated_at": "2026-09-27T09:05:55.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 203,
+            "id_san_pham": 106,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        },
+        {
+            "id": 204,
+            "id_san_pham": 106,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        }
+    ]
+}

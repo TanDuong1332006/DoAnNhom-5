@@ -1,0 +1,39 @@
+{
+    "id": 36,
+    "id_cua_hang": null,
+    "id_danh_muc": 2,
+    "id_thuong_hieu": 3,
+    "ma_san_pham": "SFP-QUANNAM-08",
+    "ten_san_pham": "Quần Tây Nam Cạp Gurkha Khóa Kim Loại Sang Trọng",
+    "slug_san_pham": "quan-tay-nam-cap-gurkha-khoa-kim-loai-sang-trong-wiew",
+    "gia_ban": "720000.00",
+    "gia_khuyen_mai": "620000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+    "mo_ta_ngan": "Lấy cảm hứng từ quân phục Gurkha truyền thống, khóa bên hông tùy chỉnh không cần thắt lưng.",
+    "mo_ta_chi_tiet": "Lấy cảm hứng từ quân phục Gurkha truyền thống, khóa bên hông tùy chỉnh không cần thắt lưng. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 161,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 1827,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:52.000000Z",
+    "updated_at": "2026-09-27T09:05:52.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 63,
+            "id_san_pham": 36,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 64,
+            "id_san_pham": 36,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        }
+    ]
+}

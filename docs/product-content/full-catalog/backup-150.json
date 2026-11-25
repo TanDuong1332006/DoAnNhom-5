@@ -1,0 +1,39 @@
+{
+    "id": 150,
+    "id_cua_hang": null,
+    "id_danh_muc": 8,
+    "id_thuong_hieu": 4,
+    "ma_san_pham": "SFP-PHUKIEN-02",
+    "ten_san_pham": "Kính Mát Unisex Phi Công Aviator Tròng Phân Cực Polarized",
+    "slug_san_pham": "kinh-mat-unisex-phi-cong-aviator-trong-phan-cuc-polarized-resv",
+    "gia_ban": "590000.00",
+    "gia_khuyen_mai": "470000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=700",
+    "mo_ta_ngan": "Khung viền hợp kim titan siêu nhẹ không gỉ sét, tròng chống tia UV400 bảo vệ mắt.",
+    "mo_ta_chi_tiet": "Khung viền hợp kim titan siêu nhẹ không gỉ sét, tròng chống tia UV400 bảo vệ mắt. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 170,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 900,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:56.000000Z",
+    "updated_at": "2026-09-27T09:05:56.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 291,
+            "id_san_pham": 150,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        },
+        {
+            "id": 292,
+            "id_san_pham": 150,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        }
+    ]
+}

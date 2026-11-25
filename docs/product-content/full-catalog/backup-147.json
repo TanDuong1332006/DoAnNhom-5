@@ -1,0 +1,39 @@
+{
+    "id": 147,
+    "id_cua_hang": null,
+    "id_danh_muc": 7,
+    "id_thuong_hieu": 1,
+    "ma_san_pham": "SFP-TUIXACH-19",
+    "ten_san_pham": "Ví Nữ Dáng Dài Hai Khóa Kéo Kèm Dây Đeo Cổ Tay",
+    "slug_san_pham": "vi-nu-dang-dai-hai-khoa-keo-kem-day-deo-co-tay-xior",
+    "gia_ban": "490000.00",
+    "gia_khuyen_mai": "399000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+    "mo_ta_ngan": "Đựng vừa tất cả các dòng điện thoại thông minh cỡ lớn, ngăn đựng tiền phẳng phiu.",
+    "mo_ta_chi_tiet": "Đựng vừa tất cả các dòng điện thoại thông minh cỡ lớn, ngăn đựng tiền phẳng phiu. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 134,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 805,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:56.000000Z",
+    "updated_at": "2026-09-27T09:05:56.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 285,
+            "id_san_pham": 147,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        },
+        {
+            "id": 286,
+            "id_san_pham": 147,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        }
+    ]
+}

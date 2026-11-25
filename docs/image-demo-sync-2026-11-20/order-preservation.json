@@ -1,0 +1,218 @@
+[
+  {
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/128/illustration-6f020175-8b58-45f5-8be8-c38667843dee.jpg",
+    "reference_count": 1,
+    "main_reference": true,
+    "gallery_ids": [
+      467
+    ]
+  },
+  {
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/150/illustration-ab54ba65-7241-48aa-b0f5-bec3230a969c.jpg",
+    "reference_count": 1,
+    "main_reference": true,
+    "gallery_ids": [
+      489
+    ]
+  },
+  {
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/151/illustration-5a5bd945-6c5d-4807-82e1-3fe65f278274.jpg",
+    "reference_count": 1,
+    "main_reference": true,
+    "gallery_ids": [
+      490
+    ]
+  },
+  {
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/163/illustration-bd0dd32c-6dd1-4f22-85d1-aa455b1afb26.jpg",
+    "reference_count": 1,
+    "main_reference": true,
+    "gallery_ids": [
+      501
+    ]
+  },
+  {
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/166/illustration-c54e0455-222b-4aea-a175-fd04ed6aefb4.jpg",
+    "reference_count": 1,
+    "main_reference": true,
+    "gallery_ids": [
+      504
+    ]
+  },
+  {
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/167/illustration-f619deb7-3ea7-4f1a-bc57-b91c80ee2fc8.jpg",
+    "reference_count": 3,
+    "main_reference": true,
+    "gallery_ids": [
+      505
+    ]
+  },
+  {
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/168/illustration-c3a0cd1d-f71d-4806-9022-038d34eb4e28.jpg",
+    "reference_count": 1,
+    "main_reference": true,
+    "gallery_ids": [
+      506
+    ]
+  },
+  {
+    "hinh_anh": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500",
+    "reference_count": 1,
+    "main_reference": false,
+    "gallery_ids": [
+      5
+    ]
+  },
+  {
+    "hinh_anh": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=700",
+    "reference_count": 3,
+    "main_reference": false,
+    "gallery_ids": [
+      147,
+      148,
+      167,
+      168
+    ]
+  },
+  {
+    "hinh_anh": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+    "reference_count": 3,
+    "main_reference": false,
+    "gallery_ids": [
+      21,
+      22,
+      137,
+      138,
+      157,
+      158
+    ]
+  },
+  {
+    "hinh_anh": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500",
+    "reference_count": 1,
+    "main_reference": false,
+    "gallery_ids": [
+      6
+    ]
+  },
+  {
+    "hinh_anh": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500",
+    "reference_count": 2,
+    "main_reference": false,
+    "gallery_ids": [
+      1
+    ]
+  },
+  {
+    "hinh_anh": "https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?w=700",
+    "reference_count": 1,
+    "main_reference": false,
+    "gallery_ids": [
+      327,
+      328
+    ]
+  },
+  {
+    "hinh_anh": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500",
+    "reference_count": 2,
+    "main_reference": false,
+    "gallery_ids": [
+      3
+    ]
+  },
+  {
+    "hinh_anh": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+    "reference_count": 4,
+    "main_reference": false,
+    "gallery_ids": [
+      7
+    ]
+  },
+  {
+    "hinh_anh": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700",
+    "reference_count": 1,
+    "main_reference": false,
+    "gallery_ids": [
+      183,
+      184,
+      205,
+      206
+    ]
+  },
+  {
+    "hinh_anh": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+    "reference_count": 1,
+    "main_reference": false,
+    "gallery_ids": [
+      251,
+      252,
+      261,
+      262,
+      267,
+      268,
+      281,
+      282,
+      293,
+      294
+    ]
+  },
+  {
+    "hinh_anh": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500",
+    "reference_count": 1,
+    "main_reference": false,
+    "gallery_ids": [
+      4
+    ]
+  },
+  {
+    "hinh_anh": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=700",
+    "reference_count": 1,
+    "main_reference": false,
+    "gallery_ids": [
+      259,
+      260,
+      273,
+      274
+    ]
+  },
+  {
+    "hinh_anh": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500",
+    "reference_count": 1,
+    "main_reference": false,
+    "gallery_ids": [
+      2
+    ]
+  },
+  {
+    "hinh_anh": "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=700",
+    "reference_count": 1,
+    "main_reference": false,
+    "gallery_ids": [
+      299,
+      300,
+      325,
+      326
+    ]
+  },
+  {
+    "hinh_anh": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=700",
+    "reference_count": 1,
+    "main_reference": false,
+    "gallery_ids": [
+      255,
+      256,
+      269,
+      270,
+      279,
+      280
+    ]
+  },
+  {
+    "hinh_anh": "https://thoitrangbigsize.vn/wp-content/uploads/2025/03/den-3.jpg",
+    "reference_count": 8,
+    "main_reference": true,
+    "gallery_ids": [
+      516
+    ]
+  }
+]

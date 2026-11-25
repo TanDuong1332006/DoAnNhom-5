@@ -1,0 +1,83 @@
+{
+  "database": "sofep_uat_20261103_bb3ce6b8e317",
+  "checked_at": "2026-11-03T08:30:38.768Z",
+  "stockRace": [
+    {
+      "status": 422,
+      "order": null,
+      "total": null,
+      "message": "Sản phẩm không đủ tồn kho."
+    },
+    {
+      "status": 201,
+      "order": 1,
+      "total": 235000,
+      "message": "Tạo đơn hàng demo thành công!"
+    }
+  ],
+  "couponRace": [
+    {
+      "status": 201,
+      "order": 2,
+      "total": 214500,
+      "message": "Tạo đơn hàng demo thành công!"
+    },
+    {
+      "status": 422,
+      "order": null,
+      "total": null,
+      "message": "Mã giảm giá đã hết lượt."
+    }
+  ],
+  "duplicateRace": [
+    {
+      "status": 201,
+      "order": 3,
+      "total": "235000.00",
+      "message": "Tạo đơn hàng demo thành công!"
+    },
+    {
+      "status": 201,
+      "order": 3,
+      "total": 235000,
+      "message": "Tạo đơn hàng demo thành công!"
+    }
+  ],
+  "perCustomerRace": [
+    {
+      "status": 422,
+      "order": null,
+      "total": null,
+      "message": "Bạn đã dùng hết lượt mã giảm giá này."
+    },
+    {
+      "status": 201,
+      "order": 4,
+      "total": 225000,
+      "message": "Tạo đơn hàng demo thành công!"
+    }
+  ],
+  "afterRace": {
+    "orders": 3,
+    "stock": {
+      "1": 0,
+      "2": 19,
+      "3": 20,
+      "4": 19,
+      "5": 20,
+      "6": 20
+    },
+    "coupons": {
+      "LAST": 1,
+      "DEMO10": 0,
+      "CANCEL": 0,
+      "ONCE": 0
+    }
+  },
+  "lifecycle": {
+    "cancellation_restored_once": true,
+    "voucher_reusable_after_cancel": true,
+    "demo_payment_repeatable": true
+  },
+  "passed": true
+}

@@ -1,0 +1,15 @@
+{
+  "id": 8,
+  "sku": "SP-TUIXACH-01",
+  "name": "Túi Xách Da Nữ Đeo Chéo Khóa Mạ Vàng",
+  "prompt": "Use case: product-mockup. Create ONE unique ecommerce catalog product illustration for a local Vietnamese SOFEP demo. Subject (Vietnamese product title, preserve exact garment/accessory type and construction): Túi Xách Da Nữ Đeo Chéo Khóa Mạ Vàng. Additional type information: Chất da PU nhân tạo cao cấp chống trầy xước.. Choose black, white or deep navy; obey any explicit color in the title. Entire single product visible, premium realistic studio rendering, isolated on clean warm light gray background, centered square composition, soft shadow. Clothing on invisible mannequin or flat lay, shoes three-quarter side view, accessories clear close product view. No people, no other products, no scenery, no watermark, no external brand logos. This is an original AI demo illustration, not a photograph of the actual SKU. Do not add text except SOFEP when title specifically requests embroidered brand. Each image must reflect the specific product silhouette and details.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; not a third-party stock photo; no claim of real SKU photography",
+  "file": "assets/8.jpg",
+  "created_at": "2026-10-31T09:29:50.918Z",
+  "review": "approved",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-aa164ed5-a27a-4a15-b5a5-4dffee001760.png",
+  "sha256": "ecd5d0627488b0dc7bdbe3979583218124d374f15dd4b8ce4d57eed723e72dad",
+  "bytes": 204941
+}

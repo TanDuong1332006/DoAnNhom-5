@@ -1,0 +1,21 @@
+{
+    "database": "sofep_image_restore_20261120_fda6e65a359c",
+    "counts": {
+        "danh_mucs": 8,
+        "thuong_hieus": 6,
+        "mau_sacs": 7,
+        "kich_thuocs": 6,
+        "san_phams": 168,
+        "anh_san_phams": 167,
+        "chi_tiet_san_phams": 501
+    },
+    "restored_images": 167,
+    "customer_order_token_user_rows": 0,
+    "migrations": 24,
+    "fixture_variant": {
+        "id": 510,
+        "product_id": 1,
+        "image_id": 436,
+        "synthetic": true
+    }
+}

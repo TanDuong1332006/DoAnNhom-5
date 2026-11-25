@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "issues": [],
+  "files": 1179,
+  "source_files": 1000,
+  "images": 167,
+  "products": 168,
+  "gallery": 167,
+  "zip_sha256": "44380aa0dc4a742e85223d380a8478c1e52802baf9c9213a87e55be894365d36",
+  "report_5_chapters": "MISSING; only placeholder notice included",
+  "templates_safe": true,
+  "previous_97": {
+    "total": 97,
+    "retained": 96,
+    "removed": [
+      "Fe/src/components/Admin/DanhGia/index.vue"
+    ]
+  },
+  "runtime_credentials_not_in_archive": true,
+  "scope": "Pattern and allowlist checks; synthetic test strings and public asset credits retained."
+}

@@ -1,0 +1,39 @@
+{
+    "id": 145,
+    "id_cua_hang": null,
+    "id_danh_muc": 7,
+    "id_thuong_hieu": 4,
+    "ma_san_pham": "SFP-TUIXACH-17",
+    "ten_san_pham": "Túi Du Lịch Xách Tay Da Trống Tập Gym Thể Thao Cao Cấp",
+    "slug_san_pham": "tui-du-lich-xach-tay-da-trong-tap-gym-the-thao-cao-cap-rftn",
+    "gia_ban": "780000.00",
+    "gia_khuyen_mai": "640000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+    "mo_ta_ngan": "Dáng trống thể thao dung tích 35L, quai xách bọc đệm êm kèm quai đeo chéo vai.",
+    "mo_ta_chi_tiet": "Dáng trống thể thao dung tích 35L, quai xách bọc đệm êm kèm quai đeo chéo vai. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 126,
+    "is_noi_bat": 0,
+    "is_flash_sale": 1,
+    "luot_xem": 1005,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:56.000000Z",
+    "updated_at": "2026-10-05T03:57:46.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 281,
+            "id_san_pham": 145,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        },
+        {
+            "id": 282,
+            "id_san_pham": 145,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        }
+    ]
+}

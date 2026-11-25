@@ -1,0 +1,6 @@
+{
+    "database": "doan_nhom_5",
+    "review_rows": 0,
+    "approved_review_rows": 0,
+    "scope": "Only aggregate SELECT; no customer\/review\/feedback contents exported"
+}

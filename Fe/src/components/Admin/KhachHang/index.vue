@@ -81,6 +81,7 @@
 </template>
 
 <script>
+import { apiUrl } from '../../../services/apiConfig.js';
 import axios from 'axios';
 
 export default {
@@ -107,11 +108,11 @@ export default {
     },
     methods: {
         loadData() {
-            axios.get('http://127.0.0.1:8000/api/admin/khach-hang/get-data')
+            axios.get(apiUrl('/admin/khach-hang/get-data'))
                 .then(res => { this.list_khach_hang = res.data.data; });
         },
         changeStatus(item) {
-            axios.post('http://127.0.0.1:8000/api/admin/khach-hang/change-status', { id: item.id })
+            axios.post(apiUrl('/admin/khach-hang/change-status'), { id: item.id })
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -120,7 +121,7 @@ export default {
                 });
         },
         toggleBlock(item) {
-            axios.post('http://127.0.0.1:8000/api/admin/khach-hang/toggle-block', { id: item.id })
+            axios.post(apiUrl('/admin/khach-hang/toggle-block'), { id: item.id })
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);

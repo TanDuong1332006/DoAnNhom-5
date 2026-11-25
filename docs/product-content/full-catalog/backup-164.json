@@ -1,0 +1,39 @@
+{
+    "id": 164,
+    "id_cua_hang": null,
+    "id_danh_muc": 8,
+    "id_thuong_hieu": 4,
+    "ma_san_pham": "SFP-PHUKIEN-16",
+    "ten_san_pham": "Khăn Bandana Lụa Vuông Cột Cổ & Quai Túi Thời Trang",
+    "slug_san_pham": "khan-bandana-lua-vuong-cot-co-quai-tui-thoi-trang-mwu9",
+    "gia_ban": "190000.00",
+    "gia_khuyen_mai": "140000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+    "mo_ta_ngan": "Kích thước 70x70cm, đa năng làm khăn quàng cổ, băng đô tóc hoặc thắt nơ quai túi xách.",
+    "mo_ta_chi_tiet": "Kích thước 70x70cm, đa năng làm khăn quàng cổ, băng đô tóc hoặc thắt nơ quai túi xách. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 80,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 2076,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:57.000000Z",
+    "updated_at": "2026-09-27T09:05:57.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 319,
+            "id_san_pham": 164,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:57.000000Z",
+            "updated_at": "2026-09-27T09:05:57.000000Z"
+        },
+        {
+            "id": 320,
+            "id_san_pham": 164,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:57.000000Z",
+            "updated_at": "2026-09-27T09:05:57.000000Z"
+        }
+    ]
+}

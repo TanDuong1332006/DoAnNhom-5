@@ -97,9 +97,11 @@
 </template>
 
 <script setup>
+import { apiUrl } from '../../services/apiConfig.js';
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import axios from 'axios';
+import { customerSession, clearCustomerSession } from '../../services/authSessions';
 
 const router = useRouter();
 const step = ref(1);
@@ -110,7 +112,7 @@ const passwordConfirmation = ref('');
 const isLoading = ref(false);
 const errorMessage = ref('');
 
-const API_BASE_URL = 'http://localhost:8000/api'; 
+const API_BASE_URL = apiUrl('');
 
 const handleSendOtp = async () => {
   try {
@@ -155,6 +157,10 @@ const handleResetPassword = async () => {
       password: password.value,
       password_confirmation: passwordConfirmation.value
     });
+    const session = customerSession();
+    if (session?.user.email?.trim().toLowerCase() === email.value.trim().toLowerCase()) {
+      clearCustomerSession(session.token);
+    }
     alert("Đổi mật khẩu thành công! Vui lòng đăng nhập lại.");
     router.push('/dang-nhap');
   } catch (error) {

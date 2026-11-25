@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "ten_san_pham": "Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp",
+    "hinh_anh": "/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+    "gallery_id": 436,
+    "duong_dan_anh": "/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+    "file": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-submission-install-v2-e6414f61ef524a88ad1e65d0190c5cd2/themmoik27be/storage/app/public/products/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+    "url": "http://127.0.0.1:8045/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+    "http_status": 200,
+    "http_storage_checksum_match": true,
+    "gallery_http_storage_match": true,
+    "website_home_image_loaded": true
+  },
+  {
+    "id": 1,
+    "ten_san_pham": "Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp",
+    "hinh_anh": "/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+    "gallery_id": 515,
+    "duong_dan_anh": "http://127.0.0.1:8045/api/product-images/1/illustration-45e37174-e089-4c73-a65e-78c1501c7c73.jpg",
+    "file": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-submission-install-v2-e6414f61ef524a88ad1e65d0190c5cd2/themmoik27be/storage/app/public/products/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+    "url": "http://127.0.0.1:8045/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+    "http_status": 200,
+    "http_storage_checksum_match": true,
+    "gallery_http_storage_match": true,
+    "website_home_image_loaded": true
+  },
+  {
+    "id": 22,
+    "ten_san_pham": "Áo Sơ Mi Nam Flannel Kẻ Caro Phong Cách Grunge",
+    "hinh_anh": "/api/product-images/22/illustration-6abdb532-5aac-45b0-9c9d-c8c909ee3939.jpg",
+    "gallery_id": 358,
+    "duong_dan_anh": "/api/product-images/22/illustration-6abdb532-5aac-45b0-9c9d-c8c909ee3939.jpg",
+    "file": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-submission-install-v2-e6414f61ef524a88ad1e65d0190c5cd2/themmoik27be/storage/app/public/products/22/illustration-6abdb532-5aac-45b0-9c9d-c8c909ee3939.jpg",
+    "url": "http://127.0.0.1:8045/api/product-images/22/illustration-6abdb532-5aac-45b0-9c9d-c8c909ee3939.jpg",
+    "http_status": 200,
+    "http_storage_checksum_match": true,
+    "gallery_http_storage_match": true,
+    "website_home_image_loaded": true
+  },
+  {
+    "id": 43,
+    "ten_san_pham": "Quần Short Nam Vải Đũi Linen Đi Biển & Du Lịch",
+    "hinh_anh": "/api/product-images/43/illustration-cf48d348-e596-4167-8661-905ec510a9d3.jpg",
+    "gallery_id": 377,
+    "duong_dan_anh": "/api/product-images/43/illustration-cf48d348-e596-4167-8661-905ec510a9d3.jpg",
+    "file": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-submission-install-v2-e6414f61ef524a88ad1e65d0190c5cd2/themmoik27be/storage/app/public/products/43/illustration-cf48d348-e596-4167-8661-905ec510a9d3.jpg",
+    "url": "http://127.0.0.1:8045/api/product-images/43/illustration-cf48d348-e596-4167-8661-905ec510a9d3.jpg",
+    "http_status": 200,
+    "http_storage_checksum_match": true,
+    "gallery_http_storage_match": true,
+    "website_home_image_loaded": true
+  },
+  {
+    "id": 85,
+    "ten_san_pham": "Áo Corset Nữ Định Hình Eo Gợi Cảm Phối Ren",
+    "hinh_anh": "/api/product-images/85/illustration-6e65eebe-e6cf-4771-8e5f-3bf61b368dcd.jpg",
+    "gallery_id": 424,
+    "duong_dan_anh": "/api/product-images/85/illustration-6e65eebe-e6cf-4771-8e5f-3bf61b368dcd.jpg",
+    "file": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-submission-install-v2-e6414f61ef524a88ad1e65d0190c5cd2/themmoik27be/storage/app/public/products/85/illustration-6e65eebe-e6cf-4771-8e5f-3bf61b368dcd.jpg",
+    "url": "http://127.0.0.1:8045/api/product-images/85/illustration-6e65eebe-e6cf-4771-8e5f-3bf61b368dcd.jpg",
+    "http_status": 200,
+    "http_storage_checksum_match": true,
+    "gallery_http_storage_match": true,
+    "website_home_image_loaded": true
+  },
+  {
+    "id": 127,
+    "ten_san_pham": "Giày Slip-On Nữ Vải Canvas Thêu Họa Tiết Hoa Nhỏ",
+    "hinh_anh": "/api/product-images/127/illustration-14b874cd-406d-49b0-8f1c-7a543a323a53.jpg",
+    "gallery_id": 466,
+    "duong_dan_anh": "/api/product-images/127/illustration-14b874cd-406d-49b0-8f1c-7a543a323a53.jpg",
+    "file": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-submission-install-v2-e6414f61ef524a88ad1e65d0190c5cd2/themmoik27be/storage/app/public/products/127/illustration-14b874cd-406d-49b0-8f1c-7a543a323a53.jpg",
+    "url": "http://127.0.0.1:8045/api/product-images/127/illustration-14b874cd-406d-49b0-8f1c-7a543a323a53.jpg",
+    "http_status": 200,
+    "http_storage_checksum_match": true,
+    "gallery_http_storage_match": true,
+    "website_home_image_loaded": true
+  },
+  {
+    "id": 172,
+    "ten_san_pham": "Áo polo",
+    "hinh_anh": "/product-placeholder.svg",
+    "gallery_id": null,
+    "duong_dan_anh": null,
+    "file": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-submission-install-v2-e6414f61ef524a88ad1e65d0190c5cd2/themmoik27be/public/product-placeholder.svg",
+    "url": "http://127.0.0.1:8045/product-placeholder.svg",
+    "http_status": 200,
+    "http_storage_checksum_match": true,
+    "gallery_http_storage_match": true,
+    "website_home_image_loaded": true
+  }
+]

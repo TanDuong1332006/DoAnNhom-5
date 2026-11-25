@@ -1,0 +1,39 @@
+{
+    "id": 73,
+    "id_cua_hang": null,
+    "id_danh_muc": 4,
+    "id_thuong_hieu": 6,
+    "ma_san_pham": "SFP-AONU-05",
+    "ten_san_pham": "Áo Thun Nữ Oversized In Hình Chữ Nổi Minimalist",
+    "slug_san_pham": "ao-thun-nu-oversized-in-hinh-chu-noi-minimalist-x6sx",
+    "gia_ban": "320000.00",
+    "gia_khuyen_mai": "260000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+    "mo_ta_ngan": "Form rộng giấu quần sành điệu, chất vải cotton 100% thoáng mát tự nhiên.",
+    "mo_ta_chi_tiet": "Form rộng giấu quần sành điệu, chất vải cotton 100% thoáng mát tự nhiên. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 45,
+    "is_noi_bat": 0,
+    "is_flash_sale": 1,
+    "luot_xem": 184,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:53.000000Z",
+    "updated_at": "2026-09-27T09:05:53.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 137,
+            "id_san_pham": 73,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        },
+        {
+            "id": 138,
+            "id_san_pham": 73,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        }
+    ]
+}

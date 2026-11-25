@@ -1,0 +1,8 @@
+{
+    "passed": true,
+    "main_catalog_and_gallery_and_variant_links_unchanged": true,
+    "main_order_urls_unchanged": 23,
+    "main_order_references_unchanged": 41,
+    "main_files_unchanged": 187,
+    "uat_images_unchanged": 167
+}

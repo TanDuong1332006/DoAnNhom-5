@@ -1,0 +1,47 @@
+{
+    "id": 11,
+    "id_cua_hang": null,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": 6,
+    "ma_san_pham": "SFP-AONAM-03",
+    "ten_san_pham": "Áo Polo Nam Dệt Kim Mercerized Cotton Ánh Kim",
+    "slug_san_pham": "ao-polo-nam-det-kim-mercerized-cotton-anh-kim-4daj",
+    "gia_ban": "520000.00",
+    "gia_khuyen_mai": "450000.00",
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/11/illustration-e1aedd09-50d5-45fc-b174-a2e10227cd84.jpg",
+    "mo_ta_ngan": "Sợi bông chải kỹ bóng mượt tự nhiên, viền cổ dệt sọc Jacquard sang trọng.",
+    "mo_ta_chi_tiet": "Sợi bông chải kỹ bóng mượt tự nhiên, viền cổ dệt sọc Jacquard sang trọng. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 136,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 1281,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:51.000000Z",
+    "updated_at": "2026-10-30T16:47:05.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 13,
+            "id_san_pham": 11,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        },
+        {
+            "id": 14,
+            "id_san_pham": 11,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        },
+        {
+            "id": 334,
+            "id_san_pham": 11,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/11/illustration-e1aedd09-50d5-45fc-b174-a2e10227cd84.jpg",
+            "thu_tu": 0,
+            "created_at": null,
+            "updated_at": null
+        }
+    ]
+}

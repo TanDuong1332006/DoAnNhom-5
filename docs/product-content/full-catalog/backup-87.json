@@ -1,0 +1,39 @@
+{
+    "id": 87,
+    "id_cua_hang": null,
+    "id_danh_muc": 4,
+    "id_thuong_hieu": 5,
+    "ma_san_pham": "SFP-AONU-19",
+    "ten_san_pham": "Áo Peplum Nữ Che Khuyết Điểm Bụng Tôn Vóc Dáng",
+    "slug_san_pham": "ao-peplum-nu-che-khuyet-diem-bung-ton-voc-dang-2yfh",
+    "gia_ban": "470000.00",
+    "gia_khuyen_mai": "399000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+    "mo_ta_ngan": "Chiết eo cao và xòe nhẹ phần đuôi áo giúp tạo ảo giác vòng eo con kiến.",
+    "mo_ta_chi_tiet": "Chiết eo cao và xòe nhẹ phần đuôi áo giúp tạo ảo giác vòng eo con kiến. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 123,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 2202,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:54.000000Z",
+    "updated_at": "2026-09-27T09:05:54.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 165,
+            "id_san_pham": 87,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 166,
+            "id_san_pham": 87,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        }
+    ]
+}

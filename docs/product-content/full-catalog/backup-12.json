@@ -1,0 +1,39 @@
+{
+    "id": 12,
+    "id_cua_hang": null,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": 5,
+    "ma_san_pham": "SFP-AONAM-04",
+    "ten_san_pham": "Áo Thun Nam Graphic Oversized SOFEP Studio 2026",
+    "slug_san_pham": "ao-thun-nam-graphic-oversized-sofep-studio-2026-mrwd",
+    "gia_ban": "380000.00",
+    "gia_khuyen_mai": "310000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=700",
+    "mo_ta_ngan": "In họa tiết hình học trừu tượng công nghệ in lụa thủ công cao cấp không bong tróc.",
+    "mo_ta_chi_tiet": "In họa tiết hình học trừu tượng công nghệ in lụa thủ công cao cấp không bong tróc. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 165,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 1569,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:51.000000Z",
+    "updated_at": "2026-09-27T09:05:51.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 15,
+            "id_san_pham": 12,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        },
+        {
+            "id": 16,
+            "id_san_pham": 12,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 143,
+  "sku": "SFP-TUIXACH-15",
+  "name": "Túi Xách Nữ Công Sở Đựng Tài Liệu A4 Da Thật Khóa Số",
+  "prompt": "Use case: product-mockup. ONE unique ecommerce product illustration for a Vietnamese SOFEP local demo. Subject: Túi Xách Nữ Công Sở Đựng Tài Liệu A4 Da Thật Khóa Số. Match exact clothing or accessory type, silhouette, neckline, sleeve length, cut, pattern and special construction in this Vietnamese title. Choose black, white or deep navy, obey explicit color named in title. SINGLE product only, ENTIRE item visible with margins, centered square composition, premium realistic studio render isolated on clean warm light gray background. Clothing on invisible mannequin or flat lay. Shoes: one shoe three-quarter side view. Accessories: single object close studio product view. NO people, NO additional objects or styling accessories, NO text, NO scenery, NO watermark, NO external brand marks. Original AI demo illustration, not a photo of a real SKU.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; no third-party stock license; not real SKU photography",
+  "file": "assets/143.jpg",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-a906d4ed-d72c-406c-af61-347ce929f03b.png",
+  "created_at": "2026-10-31T09:50:57.479Z",
+  "review": "approved",
+  "sha256": "8e5ec52a1888750825060da325ee9e07deb5f2be493cd527a911d94b2d173d23",
+  "bytes": 251237
+}

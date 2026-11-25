@@ -1,0 +1,2063 @@
+{
+  "passed": true,
+  "scope": "real Laravel HTTP on clean local source; no remote machine or browser assertion",
+  "database": "sofep_image_restore_20261120_fda6e65a359c",
+  "products": 168,
+  "restored_images": 167,
+  "main_gallery_pairs": 167,
+  "synthetic_variant_image_verified": true,
+  "excluded_original_variant_images": 9,
+  "placeholder_172": true,
+  "expected_404s": 2,
+  "guest_upload_status": 401,
+  "all_demo_resource_urls_relative": true,
+  "offline": "No external resource in preview/catalog; OS/browser Internet disconnect not performed",
+  "checks": [
+    {
+      "url": "/__demo/status",
+      "status": 200,
+      "ms": 2448,
+      "bytes": 241
+    },
+    {
+      "url": "/api/client/san-phams?all=1",
+      "status": 200,
+      "ms": 18953,
+      "bytes": 463647
+    },
+    {
+      "url": "/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+      "status": 200,
+      "ms": 948,
+      "bytes": 105781
+    },
+    {
+      "url": "/api/client/demo/san-pham/1",
+      "status": 200,
+      "ms": 789,
+      "bytes": 12670
+    },
+    {
+      "url": "/api/product-images/2/illustration-62bdc116-408e-4f3a-b1af-2c5af8e24cfa.jpg",
+      "status": 200,
+      "ms": 299,
+      "bytes": 139606
+    },
+    {
+      "url": "/api/client/demo/san-pham/2",
+      "status": 200,
+      "ms": 412,
+      "bytes": 12670
+    },
+    {
+      "url": "/api/product-images/3/illustration-cc8516e1-45f2-4d7e-aa31-7ed16d81e21e.jpg",
+      "status": 200,
+      "ms": 344,
+      "bytes": 152410
+    },
+    {
+      "url": "/api/client/demo/san-pham/3",
+      "status": 200,
+      "ms": 1396,
+      "bytes": 13425
+    },
+    {
+      "url": "/api/product-images/4/illustration-4a74edd6-e428-46a3-87ed-afb7eeefaba4.jpg",
+      "status": 200,
+      "ms": 1076,
+      "bytes": 98441
+    },
+    {
+      "url": "/api/client/demo/san-pham/4",
+      "status": 200,
+      "ms": 580,
+      "bytes": 13834
+    },
+    {
+      "url": "/api/product-images/5/illustration-19767726-ec36-48f1-a837-6e5b4918f083.jpg",
+      "status": 200,
+      "ms": 997,
+      "bytes": 261051
+    },
+    {
+      "url": "/api/client/demo/san-pham/5",
+      "status": 200,
+      "ms": 1216,
+      "bytes": 13339
+    },
+    {
+      "url": "/api/product-images/6/illustration-346e8b55-89a4-4cd8-a2b1-9f6d5325bc67.jpg",
+      "status": 200,
+      "ms": 1154,
+      "bytes": 123564
+    },
+    {
+      "url": "/api/client/demo/san-pham/6",
+      "status": 200,
+      "ms": 2308,
+      "bytes": 13627
+    },
+    {
+      "url": "/api/product-images/7/illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg",
+      "status": 200,
+      "ms": 1948,
+      "bytes": 204261
+    },
+    {
+      "url": "/api/client/demo/san-pham/7",
+      "status": 200,
+      "ms": 2139,
+      "bytes": 13634
+    },
+    {
+      "url": "/api/product-images/8/illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg",
+      "status": 200,
+      "ms": 1571,
+      "bytes": 204941
+    },
+    {
+      "url": "/api/client/demo/san-pham/8",
+      "status": 200,
+      "ms": 2029,
+      "bytes": 13721
+    },
+    {
+      "url": "/api/product-images/9/illustration-c1ceeba7-cc08-42e7-bca9-9edd4e551488.jpg",
+      "status": 200,
+      "ms": 1693,
+      "bytes": 117422
+    },
+    {
+      "url": "/api/client/demo/san-pham/9",
+      "status": 200,
+      "ms": 1444,
+      "bytes": 12670
+    },
+    {
+      "url": "/api/product-images/10/illustration-7f188457-9329-4ea1-8d3e-e7e8e6143aa0.jpg",
+      "status": 200,
+      "ms": 992,
+      "bytes": 149474
+    },
+    {
+      "url": "/api/client/demo/san-pham/10",
+      "status": 200,
+      "ms": 1340,
+      "bytes": 12672
+    },
+    {
+      "url": "/api/product-images/11/illustration-216367c4-d8e8-45a8-9914-f78ce229c077.jpg",
+      "status": 200,
+      "ms": 1203,
+      "bytes": 259609
+    },
+    {
+      "url": "/api/client/demo/san-pham/11",
+      "status": 200,
+      "ms": 1391,
+      "bytes": 12672
+    },
+    {
+      "url": "/api/product-images/12/illustration-26b57c66-ab3d-488d-9a64-7d4ec33cfd8b.jpg",
+      "status": 200,
+      "ms": 1334,
+      "bytes": 164755
+    },
+    {
+      "url": "/api/client/demo/san-pham/12",
+      "status": 200,
+      "ms": 1273,
+      "bytes": 12700
+    },
+    {
+      "url": "/api/product-images/13/illustration-de15e877-9610-4053-b3ed-3c637f1cb0b5.jpg",
+      "status": 200,
+      "ms": 1479,
+      "bytes": 160106
+    },
+    {
+      "url": "/api/client/demo/san-pham/13",
+      "status": 200,
+      "ms": 1193,
+      "bytes": 12674
+    },
+    {
+      "url": "/api/product-images/14/illustration-386de4a6-45ae-4313-bc3b-84cfd3825595.jpg",
+      "status": 200,
+      "ms": 1371,
+      "bytes": 249173
+    },
+    {
+      "url": "/api/client/demo/san-pham/14",
+      "status": 200,
+      "ms": 1699,
+      "bytes": 12662
+    },
+    {
+      "url": "/api/product-images/15/illustration-888df565-6501-4cb8-875a-b10697b87d49.jpg",
+      "status": 200,
+      "ms": 1727,
+      "bytes": 156012
+    },
+    {
+      "url": "/api/client/demo/san-pham/15",
+      "status": 200,
+      "ms": 2023,
+      "bytes": 12719
+    },
+    {
+      "url": "/api/product-images/16/illustration-02fb8a1d-3ac6-4414-9e04-e74fed582eb9.jpg",
+      "status": 200,
+      "ms": 1957,
+      "bytes": 207559
+    },
+    {
+      "url": "/api/client/demo/san-pham/16",
+      "status": 200,
+      "ms": 1633,
+      "bytes": 12728
+    },
+    {
+      "url": "/api/product-images/17/illustration-6ceefdc5-00f2-480a-b86e-ac2c33eb5244.jpg",
+      "status": 200,
+      "ms": 1393,
+      "bytes": 101177
+    },
+    {
+      "url": "/api/client/demo/san-pham/17",
+      "status": 200,
+      "ms": 1694,
+      "bytes": 12731
+    },
+    {
+      "url": "/api/product-images/18/illustration-bd7668d8-c0b2-4ad9-b3f1-8f9962b2f6eb.jpg",
+      "status": 200,
+      "ms": 1036,
+      "bytes": 143038
+    },
+    {
+      "url": "/api/client/demo/san-pham/18",
+      "status": 200,
+      "ms": 1234,
+      "bytes": 12741
+    },
+    {
+      "url": "/api/product-images/19/illustration-ce775b1e-afac-4283-a9a2-dca909367f9a.jpg",
+      "status": 200,
+      "ms": 3479,
+      "bytes": 282676
+    },
+    {
+      "url": "/api/client/demo/san-pham/19",
+      "status": 200,
+      "ms": 4684,
+      "bytes": 12636
+    },
+    {
+      "url": "/api/product-images/20/illustration-e86dba73-b187-4236-86ad-6976dbe03cd1.jpg",
+      "status": 200,
+      "ms": 9447,
+      "bytes": 132248
+    },
+    {
+      "url": "/api/client/demo/san-pham/20",
+      "status": 200,
+      "ms": 4540,
+      "bytes": 12704
+    },
+    {
+      "url": "/api/product-images/21/illustration-82b032e2-0a67-4eab-8132-b917ce7f6074.jpg",
+      "status": 200,
+      "ms": 1677,
+      "bytes": 179222
+    },
+    {
+      "url": "/api/client/demo/san-pham/21",
+      "status": 200,
+      "ms": 2025,
+      "bytes": 12682
+    },
+    {
+      "url": "/api/product-images/22/illustration-6abdb532-5aac-45b0-9c9d-c8c909ee3939.jpg",
+      "status": 200,
+      "ms": 1921,
+      "bytes": 414729
+    },
+    {
+      "url": "/api/client/demo/san-pham/22",
+      "status": 200,
+      "ms": 1840,
+      "bytes": 12733
+    },
+    {
+      "url": "/api/product-images/23/illustration-42c9aa1c-9b7e-4e03-a96b-7bef83e58aaf.jpg",
+      "status": 200,
+      "ms": 1640,
+      "bytes": 243039
+    },
+    {
+      "url": "/api/client/demo/san-pham/23",
+      "status": 200,
+      "ms": 2307,
+      "bytes": 12728
+    },
+    {
+      "url": "/api/product-images/24/illustration-516b5b56-a13c-462d-a3eb-665bd3aa6b90.jpg",
+      "status": 200,
+      "ms": 2331,
+      "bytes": 149497
+    },
+    {
+      "url": "/api/client/demo/san-pham/24",
+      "status": 200,
+      "ms": 1343,
+      "bytes": 12756
+    },
+    {
+      "url": "/api/product-images/25/illustration-98c07397-f86e-4ba6-a9f4-8312b57df65a.jpg",
+      "status": 200,
+      "ms": 1955,
+      "bytes": 139960
+    },
+    {
+      "url": "/api/client/demo/san-pham/25",
+      "status": 200,
+      "ms": 2330,
+      "bytes": 12697
+    },
+    {
+      "url": "/api/product-images/26/illustration-76d4e9c8-2eb6-496d-8593-4940c6d109df.jpg",
+      "status": 200,
+      "ms": 2452,
+      "bytes": 114128
+    },
+    {
+      "url": "/api/client/demo/san-pham/26",
+      "status": 200,
+      "ms": 2460,
+      "bytes": 12820
+    },
+    {
+      "url": "/api/product-images/27/illustration-0cc085e3-9f98-401f-893e-1ef66ea44890.jpg",
+      "status": 200,
+      "ms": 1830,
+      "bytes": 116360
+    },
+    {
+      "url": "/api/client/demo/san-pham/27",
+      "status": 200,
+      "ms": 2091,
+      "bytes": 12719
+    },
+    {
+      "url": "/api/product-images/28/illustration-0c518b69-bef7-4c01-9703-c970a592ed15.jpg",
+      "status": 200,
+      "ms": 1376,
+      "bytes": 243789
+    },
+    {
+      "url": "/api/client/demo/san-pham/28",
+      "status": 200,
+      "ms": 1384,
+      "bytes": 12721
+    },
+    {
+      "url": "/api/product-images/29/illustration-8e8a0e60-f92f-4e3c-a299-b6979cf95438.jpg",
+      "status": 200,
+      "ms": 1959,
+      "bytes": 183343
+    },
+    {
+      "url": "/api/client/demo/san-pham/29",
+      "status": 200,
+      "ms": 2635,
+      "bytes": 13427
+    },
+    {
+      "url": "/api/product-images/30/illustration-d8cb8172-f3c1-4838-a863-12a627eaf695.jpg",
+      "status": 200,
+      "ms": 2136,
+      "bytes": 85993
+    },
+    {
+      "url": "/api/client/demo/san-pham/30",
+      "status": 200,
+      "ms": 1743,
+      "bytes": 13427
+    },
+    {
+      "url": "/api/product-images/31/illustration-74cc653d-1444-48e6-be9d-5521c626361a.jpg",
+      "status": 200,
+      "ms": 2068,
+      "bytes": 92056
+    },
+    {
+      "url": "/api/client/demo/san-pham/31",
+      "status": 200,
+      "ms": 1847,
+      "bytes": 13427
+    },
+    {
+      "url": "/api/product-images/32/illustration-4f759b34-8857-44b8-8004-6d59d71ac5da.jpg",
+      "status": 200,
+      "ms": 1391,
+      "bytes": 110630
+    },
+    {
+      "url": "/api/client/demo/san-pham/32",
+      "status": 200,
+      "ms": 2307,
+      "bytes": 13427
+    },
+    {
+      "url": "/api/product-images/33/illustration-5fc0a0e4-a759-4504-b8a1-af7ae8423e5e.jpg",
+      "status": 200,
+      "ms": 1275,
+      "bytes": 158023
+    },
+    {
+      "url": "/api/client/demo/san-pham/33",
+      "status": 200,
+      "ms": 1957,
+      "bytes": 13405
+    },
+    {
+      "url": "/api/product-images/34/illustration-554ee32c-3c78-4e56-b86e-be470c415321.jpg",
+      "status": 200,
+      "ms": 1669,
+      "bytes": 139914
+    },
+    {
+      "url": "/api/client/demo/san-pham/34",
+      "status": 200,
+      "ms": 1927,
+      "bytes": 13461
+    },
+    {
+      "url": "/api/product-images/35/illustration-4232949c-7d76-4898-966a-1e6d64890480.jpg",
+      "status": 200,
+      "ms": 1219,
+      "bytes": 108481
+    },
+    {
+      "url": "/api/client/demo/san-pham/35",
+      "status": 200,
+      "ms": 1471,
+      "bytes": 13421
+    },
+    {
+      "url": "/api/product-images/36/illustration-17d0e70c-5a0d-4ba4-b916-dac32e3b0327.jpg",
+      "status": 200,
+      "ms": 1394,
+      "bytes": 93530
+    },
+    {
+      "url": "/api/client/demo/san-pham/36",
+      "status": 200,
+      "ms": 1401,
+      "bytes": 13467
+    },
+    {
+      "url": "/api/product-images/37/illustration-9712624c-c640-4d9a-a545-754ba3075a6a.jpg",
+      "status": 200,
+      "ms": 1145,
+      "bytes": 154543
+    },
+    {
+      "url": "/api/client/demo/san-pham/37",
+      "status": 200,
+      "ms": 2161,
+      "bytes": 13455
+    },
+    {
+      "url": "/api/product-images/38/illustration-fa5bfc7e-8f72-4c60-ad09-50f74f905acb.jpg",
+      "status": 200,
+      "ms": 1694,
+      "bytes": 134526
+    },
+    {
+      "url": "/api/client/demo/san-pham/38",
+      "status": 200,
+      "ms": 1762,
+      "bytes": 13377
+    },
+    {
+      "url": "/api/product-images/39/illustration-5f058c91-b989-44e6-ab1f-0bd5a9fc0ef6.jpg",
+      "status": 200,
+      "ms": 1585,
+      "bytes": 88346
+    },
+    {
+      "url": "/api/client/demo/san-pham/39",
+      "status": 200,
+      "ms": 1401,
+      "bytes": 13422
+    },
+    {
+      "url": "/api/product-images/40/illustration-8f638e8e-021a-43ad-ba42-181372716725.jpg",
+      "status": 200,
+      "ms": 1874,
+      "bytes": 124276
+    },
+    {
+      "url": "/api/client/demo/san-pham/40",
+      "status": 200,
+      "ms": 1986,
+      "bytes": 13380
+    },
+    {
+      "url": "/api/product-images/41/illustration-6ded153e-78df-4d74-84dd-8ce115c8f1a4.jpg",
+      "status": 200,
+      "ms": 2030,
+      "bytes": 133543
+    },
+    {
+      "url": "/api/client/demo/san-pham/41",
+      "status": 200,
+      "ms": 1718,
+      "bytes": 13394
+    },
+    {
+      "url": "/api/product-images/42/illustration-7dcea417-37e6-4464-ab13-a6423df58667.jpg",
+      "status": 200,
+      "ms": 982,
+      "bytes": 86075
+    },
+    {
+      "url": "/api/client/demo/san-pham/42",
+      "status": 200,
+      "ms": 1377,
+      "bytes": 13425
+    },
+    {
+      "url": "/api/product-images/43/illustration-cf48d348-e596-4167-8661-905ec510a9d3.jpg",
+      "status": 200,
+      "ms": 1561,
+      "bytes": 207479
+    },
+    {
+      "url": "/api/client/demo/san-pham/43",
+      "status": 200,
+      "ms": 1910,
+      "bytes": 13418
+    },
+    {
+      "url": "/api/product-images/44/illustration-5a110fac-ac00-457b-b9f3-5095d46940d0.jpg",
+      "status": 200,
+      "ms": 1581,
+      "bytes": 101303
+    },
+    {
+      "url": "/api/client/demo/san-pham/44",
+      "status": 200,
+      "ms": 1808,
+      "bytes": 13360
+    },
+    {
+      "url": "/api/product-images/45/illustration-6d3c21f9-5c22-4bbf-8633-87c9e7df2632.jpg",
+      "status": 200,
+      "ms": 1843,
+      "bytes": 144997
+    },
+    {
+      "url": "/api/client/demo/san-pham/45",
+      "status": 200,
+      "ms": 1715,
+      "bytes": 13401
+    },
+    {
+      "url": "/api/product-images/46/illustration-be0bc7f4-9313-45fd-be54-7400934f7f0b.jpg",
+      "status": 200,
+      "ms": 1994,
+      "bytes": 102751
+    },
+    {
+      "url": "/api/client/demo/san-pham/46",
+      "status": 200,
+      "ms": 2301,
+      "bytes": 13429
+    },
+    {
+      "url": "/api/product-images/47/illustration-eeccd65d-d201-410e-93f1-405c0867b005.jpg",
+      "status": 200,
+      "ms": 1369,
+      "bytes": 268204
+    },
+    {
+      "url": "/api/client/demo/san-pham/47",
+      "status": 200,
+      "ms": 1675,
+      "bytes": 13344
+    },
+    {
+      "url": "/api/product-images/48/illustration-4ad30eda-6ec3-47ba-800e-1f602c06e0ad.jpg",
+      "status": 200,
+      "ms": 1566,
+      "bytes": 103622
+    },
+    {
+      "url": "/api/client/demo/san-pham/48",
+      "status": 200,
+      "ms": 2564,
+      "bytes": 13453
+    },
+    {
+      "url": "/api/product-images/49/illustration-03e91436-d926-4495-84c6-36c33273935d.jpg",
+      "status": 200,
+      "ms": 1633,
+      "bytes": 75969
+    },
+    {
+      "url": "/api/client/demo/san-pham/49",
+      "status": 200,
+      "ms": 2406,
+      "bytes": 13836
+    },
+    {
+      "url": "/api/product-images/50/illustration-5861341e-070d-4f70-9239-e17c32e87730.jpg",
+      "status": 200,
+      "ms": 1387,
+      "bytes": 137122
+    },
+    {
+      "url": "/api/client/demo/san-pham/50",
+      "status": 200,
+      "ms": 1919,
+      "bytes": 13836
+    },
+    {
+      "url": "/api/product-images/51/illustration-57ac3340-8c8a-4245-9a60-af5526819ef3.jpg",
+      "status": 200,
+      "ms": 1395,
+      "bytes": 99566
+    },
+    {
+      "url": "/api/client/demo/san-pham/51",
+      "status": 200,
+      "ms": 1317,
+      "bytes": 13836
+    },
+    {
+      "url": "/api/product-images/52/illustration-15773f86-9004-4bc6-b90f-2cccd9c27b5e.jpg",
+      "status": 200,
+      "ms": 1652,
+      "bytes": 104010
+    },
+    {
+      "url": "/api/client/demo/san-pham/52",
+      "status": 200,
+      "ms": 2106,
+      "bytes": 13836
+    },
+    {
+      "url": "/api/product-images/53/illustration-31489b95-2de5-4783-bef0-2cad7066e527.jpg",
+      "status": 200,
+      "ms": 1640,
+      "bytes": 129205
+    },
+    {
+      "url": "/api/client/demo/san-pham/53",
+      "status": 200,
+      "ms": 2259,
+      "bytes": 13865
+    },
+    {
+      "url": "/api/product-images/54/illustration-f1623a5a-bf48-4e51-9436-fa4c757bd5fc.jpg",
+      "status": 200,
+      "ms": 1967,
+      "bytes": 101528
+    },
+    {
+      "url": "/api/client/demo/san-pham/54",
+      "status": 200,
+      "ms": 2832,
+      "bytes": 13868
+    },
+    {
+      "url": "/api/product-images/55/illustration-473818d9-5398-46f6-8028-041afea22fd8.jpg",
+      "status": 200,
+      "ms": 1583,
+      "bytes": 227170
+    },
+    {
+      "url": "/api/client/demo/san-pham/55",
+      "status": 200,
+      "ms": 2381,
+      "bytes": 13904
+    },
+    {
+      "url": "/api/product-images/56/illustration-c5b20a11-7827-496f-86fa-10af01d7f013.jpg",
+      "status": 200,
+      "ms": 1465,
+      "bytes": 120718
+    },
+    {
+      "url": "/api/client/demo/san-pham/56",
+      "status": 200,
+      "ms": 2215,
+      "bytes": 13809
+    },
+    {
+      "url": "/api/product-images/57/illustration-43960e4a-dc39-497e-bcbb-710e4bb621d8.jpg",
+      "status": 200,
+      "ms": 1446,
+      "bytes": 187188
+    },
+    {
+      "url": "/api/client/demo/san-pham/57",
+      "status": 200,
+      "ms": 1906,
+      "bytes": 13904
+    },
+    {
+      "url": "/api/product-images/58/illustration-6da6c68b-4b98-4d76-88e6-6445f5f18ae6.jpg",
+      "status": 200,
+      "ms": 1229,
+      "bytes": 97967
+    },
+    {
+      "url": "/api/client/demo/san-pham/58",
+      "status": 200,
+      "ms": 1479,
+      "bytes": 13842
+    },
+    {
+      "url": "/api/product-images/59/illustration-44f474ef-a734-41f7-8ce2-a990211f6ef5.jpg",
+      "status": 200,
+      "ms": 1185,
+      "bytes": 101605
+    },
+    {
+      "url": "/api/client/demo/san-pham/59",
+      "status": 200,
+      "ms": 1384,
+      "bytes": 13905
+    },
+    {
+      "url": "/api/product-images/60/illustration-69ea3e72-b296-4665-9488-a6e430f4d369.jpg",
+      "status": 200,
+      "ms": 1511,
+      "bytes": 194898
+    },
+    {
+      "url": "/api/client/demo/san-pham/60",
+      "status": 200,
+      "ms": 1509,
+      "bytes": 13846
+    },
+    {
+      "url": "/api/product-images/61/illustration-7932beb2-a6bd-41a4-9fc7-14f6b2dc5a01.jpg",
+      "status": 200,
+      "ms": 1400,
+      "bytes": 125874
+    },
+    {
+      "url": "/api/client/demo/san-pham/61",
+      "status": 200,
+      "ms": 1565,
+      "bytes": 13807
+    },
+    {
+      "url": "/api/product-images/62/illustration-35b2c9cc-c6eb-4c75-a180-8e3383159ca8.jpg",
+      "status": 200,
+      "ms": 1125,
+      "bytes": 155191
+    },
+    {
+      "url": "/api/client/demo/san-pham/62",
+      "status": 200,
+      "ms": 1427,
+      "bytes": 13824
+    },
+    {
+      "url": "/api/product-images/63/illustration-2586bb94-f5bb-4947-92e6-e31424c48a8a.jpg",
+      "status": 200,
+      "ms": 1459,
+      "bytes": 103159
+    },
+    {
+      "url": "/api/client/demo/san-pham/63",
+      "status": 200,
+      "ms": 1638,
+      "bytes": 13892
+    },
+    {
+      "url": "/api/product-images/64/illustration-9de3d6c6-693c-4eb7-b89b-f411258df131.jpg",
+      "status": 200,
+      "ms": 1610,
+      "bytes": 108931
+    },
+    {
+      "url": "/api/client/demo/san-pham/64",
+      "status": 200,
+      "ms": 1653,
+      "bytes": 13800
+    },
+    {
+      "url": "/api/product-images/65/illustration-23ac3168-2e49-4341-aced-47df790c8bc5.jpg",
+      "status": 200,
+      "ms": 1454,
+      "bytes": 73995
+    },
+    {
+      "url": "/api/client/demo/san-pham/65",
+      "status": 200,
+      "ms": 1162,
+      "bytes": 13830
+    },
+    {
+      "url": "/api/product-images/66/illustration-665a86a0-2188-4692-a6b8-994fe279c4a0.jpg",
+      "status": 200,
+      "ms": 1469,
+      "bytes": 203813
+    },
+    {
+      "url": "/api/client/demo/san-pham/66",
+      "status": 200,
+      "ms": 2634,
+      "bytes": 13873
+    },
+    {
+      "url": "/api/product-images/67/illustration-ed757848-95c8-4aea-aaf4-edabfdc38051.jpg",
+      "status": 200,
+      "ms": 1620,
+      "bytes": 159469
+    },
+    {
+      "url": "/api/client/demo/san-pham/67",
+      "status": 200,
+      "ms": 1870,
+      "bytes": 13829
+    },
+    {
+      "url": "/api/product-images/68/illustration-addbf706-b4fa-426d-89e9-f5dd6c1202b9.jpg",
+      "status": 200,
+      "ms": 1650,
+      "bytes": 105327
+    },
+    {
+      "url": "/api/client/demo/san-pham/68",
+      "status": 200,
+      "ms": 1724,
+      "bytes": 13840
+    },
+    {
+      "url": "/api/product-images/69/illustration-5be18770-fbb2-4a73-b8b4-6ccf18df8ad1.jpg",
+      "status": 200,
+      "ms": 1861,
+      "bytes": 147904
+    },
+    {
+      "url": "/api/client/demo/san-pham/69",
+      "status": 200,
+      "ms": 2683,
+      "bytes": 13341
+    },
+    {
+      "url": "/api/product-images/70/illustration-55d46b11-7d21-4979-ade5-5670ec7e762a.jpg",
+      "status": 200,
+      "ms": 2018,
+      "bytes": 135371
+    },
+    {
+      "url": "/api/client/demo/san-pham/70",
+      "status": 200,
+      "ms": 2705,
+      "bytes": 13341
+    },
+    {
+      "url": "/api/product-images/71/illustration-a460e738-8134-4a0d-ba34-99e8ade92213.jpg",
+      "status": 200,
+      "ms": 2475,
+      "bytes": 133719
+    },
+    {
+      "url": "/api/client/demo/san-pham/71",
+      "status": 200,
+      "ms": 1716,
+      "bytes": 13341
+    },
+    {
+      "url": "/api/product-images/72/illustration-db23629b-f189-4130-ae05-245d641d7a02.jpg",
+      "status": 200,
+      "ms": 1398,
+      "bytes": 234533
+    },
+    {
+      "url": "/api/client/demo/san-pham/72",
+      "status": 200,
+      "ms": 2555,
+      "bytes": 13341
+    },
+    {
+      "url": "/api/product-images/73/illustration-b6241a9a-1fd7-440b-9473-ea902296622f.jpg",
+      "status": 200,
+      "ms": 1822,
+      "bytes": 129076
+    },
+    {
+      "url": "/api/client/demo/san-pham/73",
+      "status": 200,
+      "ms": 1201,
+      "bytes": 13309
+    },
+    {
+      "url": "/api/product-images/74/illustration-19b7738b-82f7-44b3-9f0b-b1fcacbc7bd1.jpg",
+      "status": 200,
+      "ms": 403,
+      "bytes": 123751
+    },
+    {
+      "url": "/api/client/demo/san-pham/74",
+      "status": 200,
+      "ms": 419,
+      "bytes": 13332
+    },
+    {
+      "url": "/api/product-images/75/illustration-10bd86b8-8f0f-483b-9cf4-a95176916e06.jpg",
+      "status": 200,
+      "ms": 428,
+      "bytes": 208063
+    },
+    {
+      "url": "/api/client/demo/san-pham/75",
+      "status": 200,
+      "ms": 518,
+      "bytes": 13402
+    },
+    {
+      "url": "/api/product-images/76/illustration-3afa7e40-2a56-4811-8c3d-414149471e49.jpg",
+      "status": 200,
+      "ms": 376,
+      "bytes": 118507
+    },
+    {
+      "url": "/api/client/demo/san-pham/76",
+      "status": 200,
+      "ms": 438,
+      "bytes": 13374
+    },
+    {
+      "url": "/api/product-images/77/illustration-0455b6d0-a9c2-4ffe-803d-54a6a5da21a5.jpg",
+      "status": 200,
+      "ms": 677,
+      "bytes": 120749
+    },
+    {
+      "url": "/api/client/demo/san-pham/77",
+      "status": 200,
+      "ms": 574,
+      "bytes": 13371
+    },
+    {
+      "url": "/api/product-images/78/illustration-59d38262-46a7-4089-8f3b-85188accc68f.jpg",
+      "status": 200,
+      "ms": 1599,
+      "bytes": 126014
+    },
+    {
+      "url": "/api/client/demo/san-pham/78",
+      "status": 200,
+      "ms": 1608,
+      "bytes": 13353
+    },
+    {
+      "url": "/api/product-images/79/illustration-3a108cc0-abee-4865-9e3c-ed89d32053fe.jpg",
+      "status": 200,
+      "ms": 1900,
+      "bytes": 75053
+    },
+    {
+      "url": "/api/client/demo/san-pham/79",
+      "status": 200,
+      "ms": 1913,
+      "bytes": 13374
+    },
+    {
+      "url": "/api/product-images/80/illustration-51a92118-87c1-442a-a9e3-5284528ed023.jpg",
+      "status": 200,
+      "ms": 1847,
+      "bytes": 206099
+    },
+    {
+      "url": "/api/client/demo/san-pham/80",
+      "status": 200,
+      "ms": 2550,
+      "bytes": 13327
+    },
+    {
+      "url": "/api/product-images/81/illustration-3ed0747b-ef6a-4768-862b-b9e65ce2eef9.jpg",
+      "status": 200,
+      "ms": 2116,
+      "bytes": 131887
+    },
+    {
+      "url": "/api/client/demo/san-pham/81",
+      "status": 200,
+      "ms": 1566,
+      "bytes": 13411
+    },
+    {
+      "url": "/api/product-images/82/illustration-abfbc2e1-7806-4baf-9557-f3eba79e029c.jpg",
+      "status": 200,
+      "ms": 1432,
+      "bytes": 133957
+    },
+    {
+      "url": "/api/client/demo/san-pham/82",
+      "status": 200,
+      "ms": 2736,
+      "bytes": 13390
+    },
+    {
+      "url": "/api/product-images/83/illustration-ca862522-0b91-4c1d-913b-a1ebf441d0e4.jpg",
+      "status": 200,
+      "ms": 1939,
+      "bytes": 120075
+    },
+    {
+      "url": "/api/client/demo/san-pham/83",
+      "status": 200,
+      "ms": 2114,
+      "bytes": 13395
+    },
+    {
+      "url": "/api/product-images/84/illustration-e63120b4-4ac1-4d9d-93c3-05d6a7223602.jpg",
+      "status": 200,
+      "ms": 1899,
+      "bytes": 123283
+    },
+    {
+      "url": "/api/client/demo/san-pham/84",
+      "status": 200,
+      "ms": 1842,
+      "bytes": 13336
+    },
+    {
+      "url": "/api/product-images/85/illustration-6e65eebe-e6cf-4771-8e5f-3bf61b368dcd.jpg",
+      "status": 200,
+      "ms": 964,
+      "bytes": 255326
+    },
+    {
+      "url": "/api/client/demo/san-pham/85",
+      "status": 200,
+      "ms": 1638,
+      "bytes": 13362
+    },
+    {
+      "url": "/api/product-images/86/illustration-847d4fbd-d37c-4a4f-aeab-83941ab8d793.jpg",
+      "status": 200,
+      "ms": 1504,
+      "bytes": 186862
+    },
+    {
+      "url": "/api/client/demo/san-pham/86",
+      "status": 200,
+      "ms": 1694,
+      "bytes": 13346
+    },
+    {
+      "url": "/api/product-images/87/illustration-1de22a9c-97e9-4a82-a7c3-603b12b19bd1.jpg",
+      "status": 200,
+      "ms": 2509,
+      "bytes": 102808
+    },
+    {
+      "url": "/api/client/demo/san-pham/87",
+      "status": 200,
+      "ms": 3216,
+      "bytes": 13358
+    },
+    {
+      "url": "/api/product-images/88/illustration-747c88f8-33ba-4cdd-b607-947907980040.jpg",
+      "status": 200,
+      "ms": 1764,
+      "bytes": 124921
+    },
+    {
+      "url": "/api/client/demo/san-pham/88",
+      "status": 200,
+      "ms": 1668,
+      "bytes": 13349
+    },
+    {
+      "url": "/api/product-images/89/illustration-a9e0d416-2984-417b-98b2-727c60579a51.jpg",
+      "status": 200,
+      "ms": 1835,
+      "bytes": 148046
+    },
+    {
+      "url": "/api/client/demo/san-pham/89",
+      "status": 200,
+      "ms": 2677,
+      "bytes": 13629
+    },
+    {
+      "url": "/api/product-images/90/illustration-d13ba2dc-97a6-4965-a028-ec21fd66dcbc.jpg",
+      "status": 200,
+      "ms": 1922,
+      "bytes": 130915
+    },
+    {
+      "url": "/api/client/demo/san-pham/90",
+      "status": 200,
+      "ms": 2057,
+      "bytes": 13629
+    },
+    {
+      "url": "/api/product-images/91/illustration-e149fd06-2d44-4652-a715-55351d0a5ef2.jpg",
+      "status": 200,
+      "ms": 1677,
+      "bytes": 121739
+    },
+    {
+      "url": "/api/client/demo/san-pham/91",
+      "status": 200,
+      "ms": 2383,
+      "bytes": 13629
+    },
+    {
+      "url": "/api/product-images/92/illustration-140155d9-5286-4d6d-80a8-dabb3169906a.jpg",
+      "status": 200,
+      "ms": 2243,
+      "bytes": 264185
+    },
+    {
+      "url": "/api/client/demo/san-pham/92",
+      "status": 200,
+      "ms": 1806,
+      "bytes": 13629
+    },
+    {
+      "url": "/api/product-images/93/illustration-6f44d48e-5e59-442d-897b-be3450dd51b4.jpg",
+      "status": 200,
+      "ms": 1810,
+      "bytes": 130063
+    },
+    {
+      "url": "/api/client/demo/san-pham/93",
+      "status": 200,
+      "ms": 1425,
+      "bytes": 13597
+    },
+    {
+      "url": "/api/product-images/94/illustration-7d3884c9-72f7-4336-af57-faf8a379729a.jpg",
+      "status": 200,
+      "ms": 1465,
+      "bytes": 137214
+    },
+    {
+      "url": "/api/client/demo/san-pham/94",
+      "status": 200,
+      "ms": 1526,
+      "bytes": 13618
+    },
+    {
+      "url": "/api/product-images/95/illustration-33ea8bce-a4e5-45e5-9c8f-fe0e02e25a78.jpg",
+      "status": 200,
+      "ms": 1001,
+      "bytes": 128780
+    },
+    {
+      "url": "/api/client/demo/san-pham/95",
+      "status": 200,
+      "ms": 1723,
+      "bytes": 13550
+    },
+    {
+      "url": "/api/product-images/96/illustration-a65efa80-262a-42b5-af10-21e5696c5b7f.jpg",
+      "status": 200,
+      "ms": 1869,
+      "bytes": 194164
+    },
+    {
+      "url": "/api/client/demo/san-pham/96",
+      "status": 200,
+      "ms": 2011,
+      "bytes": 13550
+    },
+    {
+      "url": "/api/product-images/97/illustration-4ac14b30-776b-4ab4-9877-186a71348bb9.jpg",
+      "status": 200,
+      "ms": 1859,
+      "bytes": 228029
+    },
+    {
+      "url": "/api/client/demo/san-pham/97",
+      "status": 200,
+      "ms": 2006,
+      "bytes": 13586
+    },
+    {
+      "url": "/api/product-images/98/illustration-0d108778-3f6b-416f-a06d-7e19083b219e.jpg",
+      "status": 200,
+      "ms": 1322,
+      "bytes": 147355
+    },
+    {
+      "url": "/api/client/demo/san-pham/98",
+      "status": 200,
+      "ms": 1784,
+      "bytes": 13529
+    },
+    {
+      "url": "/api/product-images/99/illustration-07d6690b-cba1-4ada-9e35-716b84efdf61.jpg",
+      "status": 200,
+      "ms": 1614,
+      "bytes": 453447
+    },
+    {
+      "url": "/api/client/demo/san-pham/99",
+      "status": 200,
+      "ms": 2023,
+      "bytes": 13562
+    },
+    {
+      "url": "/api/product-images/100/illustration-d9a24d22-003b-458c-8f21-6f2ff6076d73.jpg",
+      "status": 200,
+      "ms": 1484,
+      "bytes": 149737
+    },
+    {
+      "url": "/api/client/demo/san-pham/100",
+      "status": 200,
+      "ms": 2244,
+      "bytes": 13538
+    },
+    {
+      "url": "/api/product-images/101/illustration-2a661cc3-06b7-4e96-9432-4e7aee6f4593.jpg",
+      "status": 200,
+      "ms": 1472,
+      "bytes": 202824
+    },
+    {
+      "url": "/api/client/demo/san-pham/101",
+      "status": 200,
+      "ms": 1933,
+      "bytes": 13557
+    },
+    {
+      "url": "/api/product-images/102/illustration-fa445adb-0302-4014-ab6b-5ff5a208cd93.jpg",
+      "status": 200,
+      "ms": 2242,
+      "bytes": 98360
+    },
+    {
+      "url": "/api/client/demo/san-pham/102",
+      "status": 200,
+      "ms": 2270,
+      "bytes": 13602
+    },
+    {
+      "url": "/api/product-images/103/illustration-5889565c-3e43-4f3e-9205-ce226e9db7c2.jpg",
+      "status": 200,
+      "ms": 1178,
+      "bytes": 148904
+    },
+    {
+      "url": "/api/client/demo/san-pham/103",
+      "status": 200,
+      "ms": 1570,
+      "bytes": 13583
+    },
+    {
+      "url": "/api/product-images/104/illustration-e52b574e-4068-4850-95d5-e5cc4e3f3c35.jpg",
+      "status": 200,
+      "ms": 1233,
+      "bytes": 178445
+    },
+    {
+      "url": "/api/client/demo/san-pham/104",
+      "status": 200,
+      "ms": 2127,
+      "bytes": 13637
+    },
+    {
+      "url": "/api/product-images/105/illustration-470a2830-0429-4607-ad16-04607332a3f0.jpg",
+      "status": 200,
+      "ms": 2100,
+      "bytes": 213648
+    },
+    {
+      "url": "/api/client/demo/san-pham/105",
+      "status": 200,
+      "ms": 598,
+      "bytes": 13506
+    },
+    {
+      "url": "/api/product-images/106/illustration-329d8837-c61f-4d54-b93b-05a879722162.jpg",
+      "status": 200,
+      "ms": 350,
+      "bytes": 143292
+    },
+    {
+      "url": "/api/client/demo/san-pham/106",
+      "status": 200,
+      "ms": 358,
+      "bytes": 13491
+    },
+    {
+      "url": "/api/product-images/107/illustration-ca8d327a-7d33-44ab-a53b-235f2de13967.jpg",
+      "status": 200,
+      "ms": 359,
+      "bytes": 285966
+    },
+    {
+      "url": "/api/client/demo/san-pham/107",
+      "status": 200,
+      "ms": 408,
+      "bytes": 13533
+    },
+    {
+      "url": "/api/product-images/108/illustration-b8ce1f96-4d60-4932-8106-820b5ef2c4ff.jpg",
+      "status": 200,
+      "ms": 372,
+      "bytes": 95925
+    },
+    {
+      "url": "/api/client/demo/san-pham/108",
+      "status": 200,
+      "ms": 478,
+      "bytes": 13563
+    },
+    {
+      "url": "/api/product-images/109/illustration-46a4a868-8eb1-432c-8ffc-9286abd1079e.jpg",
+      "status": 200,
+      "ms": 481,
+      "bytes": 133887
+    },
+    {
+      "url": "/api/client/demo/san-pham/109",
+      "status": 200,
+      "ms": 1592,
+      "bytes": 13638
+    },
+    {
+      "url": "/api/product-images/110/illustration-4662868d-9071-450c-b718-9d311587fa64.jpg",
+      "status": 200,
+      "ms": 1814,
+      "bytes": 199173
+    },
+    {
+      "url": "/api/client/demo/san-pham/110",
+      "status": 200,
+      "ms": 1898,
+      "bytes": 13638
+    },
+    {
+      "url": "/api/product-images/111/illustration-d7ba3972-2a9c-47ed-b176-c6dca94635e1.jpg",
+      "status": 200,
+      "ms": 2497,
+      "bytes": 156418
+    },
+    {
+      "url": "/api/client/demo/san-pham/111",
+      "status": 200,
+      "ms": 2200,
+      "bytes": 13638
+    },
+    {
+      "url": "/api/product-images/112/illustration-46c914a3-8ea3-4d51-93a0-d8a8f377302b.jpg",
+      "status": 200,
+      "ms": 1734,
+      "bytes": 169005
+    },
+    {
+      "url": "/api/client/demo/san-pham/112",
+      "status": 200,
+      "ms": 2412,
+      "bytes": 13638
+    },
+    {
+      "url": "/api/product-images/113/illustration-899730d3-3461-4702-a3db-a11e6a622ae9.jpg",
+      "status": 200,
+      "ms": 2090,
+      "bytes": 124700
+    },
+    {
+      "url": "/api/client/demo/san-pham/113",
+      "status": 200,
+      "ms": 2660,
+      "bytes": 13528
+    },
+    {
+      "url": "/api/product-images/114/illustration-e111b5b3-80e6-444c-9b78-0eacb7de022b.jpg",
+      "status": 200,
+      "ms": 2636,
+      "bytes": 150058
+    },
+    {
+      "url": "/api/client/demo/san-pham/114",
+      "status": 200,
+      "ms": 2498,
+      "bytes": 13582
+    },
+    {
+      "url": "/api/product-images/115/illustration-12aa8da7-8034-49f2-ac17-34dbb1db26d7.jpg",
+      "status": 200,
+      "ms": 1327,
+      "bytes": 212864
+    },
+    {
+      "url": "/api/client/demo/san-pham/115",
+      "status": 200,
+      "ms": 1952,
+      "bytes": 13505
+    },
+    {
+      "url": "/api/product-images/116/illustration-7e2a8ce0-764a-4281-a66c-c626c81abe13.jpg",
+      "status": 200,
+      "ms": 2748,
+      "bytes": 112235
+    },
+    {
+      "url": "/api/client/demo/san-pham/116",
+      "status": 200,
+      "ms": 2645,
+      "bytes": 13571
+    },
+    {
+      "url": "/api/product-images/117/illustration-9d9d5213-511c-477f-be75-ef0c61a43774.jpg",
+      "status": 200,
+      "ms": 1998,
+      "bytes": 211681
+    },
+    {
+      "url": "/api/client/demo/san-pham/117",
+      "status": 200,
+      "ms": 3198,
+      "bytes": 13606
+    },
+    {
+      "url": "/api/product-images/118/illustration-b77c1833-9cc5-4c05-9eae-928e983156e2.jpg",
+      "status": 200,
+      "ms": 2811,
+      "bytes": 133241
+    },
+    {
+      "url": "/api/client/demo/san-pham/118",
+      "status": 200,
+      "ms": 2685,
+      "bytes": 13567
+    },
+    {
+      "url": "/api/product-images/119/illustration-6644fe3e-55f2-410e-a7f0-a609473f294c.jpg",
+      "status": 200,
+      "ms": 1996,
+      "bytes": 147198
+    },
+    {
+      "url": "/api/client/demo/san-pham/119",
+      "status": 200,
+      "ms": 2768,
+      "bytes": 13559
+    },
+    {
+      "url": "/api/product-images/120/illustration-1993d29c-aea1-4742-9dd4-3cc5184a8b69.jpg",
+      "status": 200,
+      "ms": 3260,
+      "bytes": 82619
+    },
+    {
+      "url": "/api/client/demo/san-pham/120",
+      "status": 200,
+      "ms": 3066,
+      "bytes": 13582
+    },
+    {
+      "url": "/api/product-images/121/illustration-b8e3ba84-c4f7-4660-9785-dd7cb877c94a.jpg",
+      "status": 200,
+      "ms": 2625,
+      "bytes": 169459
+    },
+    {
+      "url": "/api/client/demo/san-pham/121",
+      "status": 200,
+      "ms": 3083,
+      "bytes": 13580
+    },
+    {
+      "url": "/api/product-images/122/illustration-cc1576af-6e37-4f3f-a5c0-fcb79728a05b.jpg",
+      "status": 200,
+      "ms": 2699,
+      "bytes": 190058
+    },
+    {
+      "url": "/api/client/demo/san-pham/122",
+      "status": 200,
+      "ms": 3127,
+      "bytes": 13521
+    },
+    {
+      "url": "/api/product-images/123/illustration-9bc73f6a-19e2-4163-8107-a95e2117c837.jpg",
+      "status": 200,
+      "ms": 2609,
+      "bytes": 147415
+    },
+    {
+      "url": "/api/client/demo/san-pham/123",
+      "status": 200,
+      "ms": 1735,
+      "bytes": 13539
+    },
+    {
+      "url": "/api/product-images/124/illustration-197b4dd4-8716-4226-99ea-2a7cf2c82f19.jpg",
+      "status": 200,
+      "ms": 1565,
+      "bytes": 155442
+    },
+    {
+      "url": "/api/client/demo/san-pham/124",
+      "status": 200,
+      "ms": 2507,
+      "bytes": 13567
+    },
+    {
+      "url": "/api/product-images/125/illustration-459c7ecb-fca5-4bf1-a789-4c303ae94205.jpg",
+      "status": 200,
+      "ms": 2384,
+      "bytes": 184059
+    },
+    {
+      "url": "/api/client/demo/san-pham/125",
+      "status": 200,
+      "ms": 2160,
+      "bytes": 13558
+    },
+    {
+      "url": "/api/product-images/126/illustration-eadcfa3b-e48e-4b7c-8fe1-11d928e1e501.jpg",
+      "status": 200,
+      "ms": 2583,
+      "bytes": 169521
+    },
+    {
+      "url": "/api/client/demo/san-pham/126",
+      "status": 200,
+      "ms": 2087,
+      "bytes": 13586
+    },
+    {
+      "url": "/api/product-images/127/illustration-14b874cd-406d-49b0-8f1c-7a543a323a53.jpg",
+      "status": 200,
+      "ms": 2008,
+      "bytes": 176370
+    },
+    {
+      "url": "/api/client/demo/san-pham/127",
+      "status": 200,
+      "ms": 2214,
+      "bytes": 13599
+    },
+    {
+      "url": "/api/product-images/128/illustration-6f020175-8b58-45f5-8be8-c38667843dee.jpg",
+      "status": 200,
+      "ms": 1222,
+      "bytes": 174310
+    },
+    {
+      "url": "/api/client/demo/san-pham/128",
+      "status": 200,
+      "ms": 1500,
+      "bytes": 13615
+    },
+    {
+      "url": "/api/product-images/129/illustration-44750f0e-47e9-4eab-8f15-822feb7a7be7.jpg",
+      "status": 200,
+      "ms": 1512,
+      "bytes": 170234
+    },
+    {
+      "url": "/api/client/demo/san-pham/129",
+      "status": 200,
+      "ms": 1805,
+      "bytes": 13725
+    },
+    {
+      "url": "/api/product-images/130/illustration-2087b2cc-1a70-45bd-a2bb-a1a94e8daac2.jpg",
+      "status": 200,
+      "ms": 2369,
+      "bytes": 236279
+    },
+    {
+      "url": "/api/client/demo/san-pham/130",
+      "status": 200,
+      "ms": 2932,
+      "bytes": 13725
+    },
+    {
+      "url": "/api/product-images/131/illustration-9543b6b7-2cae-4c75-9c8f-f0fd2587d930.jpg",
+      "status": 200,
+      "ms": 1169,
+      "bytes": 224579
+    },
+    {
+      "url": "/api/client/demo/san-pham/131",
+      "status": 200,
+      "ms": 1108,
+      "bytes": 13725
+    },
+    {
+      "url": "/api/product-images/132/illustration-0c93af49-1407-49ed-a75a-3d32d6b470ba.jpg",
+      "status": 200,
+      "ms": 976,
+      "bytes": 209414
+    },
+    {
+      "url": "/api/client/demo/san-pham/132",
+      "status": 200,
+      "ms": 1239,
+      "bytes": 13725
+    },
+    {
+      "url": "/api/product-images/133/illustration-0f8e73da-edf8-4a79-bf40-b97775e28081.jpg",
+      "status": 200,
+      "ms": 1026,
+      "bytes": 140098
+    },
+    {
+      "url": "/api/client/demo/san-pham/133",
+      "status": 200,
+      "ms": 1333,
+      "bytes": 13719
+    },
+    {
+      "url": "/api/product-images/134/illustration-94251939-8a41-4940-b3c6-ccf9c21ec638.jpg",
+      "status": 200,
+      "ms": 1828,
+      "bytes": 178344
+    },
+    {
+      "url": "/api/client/demo/san-pham/134",
+      "status": 200,
+      "ms": 1966,
+      "bytes": 13662
+    },
+    {
+      "url": "/api/product-images/135/illustration-69e3cd26-1fb1-440f-9e20-0629c1a5415b.jpg",
+      "status": 200,
+      "ms": 1564,
+      "bytes": 157998
+    },
+    {
+      "url": "/api/client/demo/san-pham/135",
+      "status": 200,
+      "ms": 2790,
+      "bytes": 13673
+    },
+    {
+      "url": "/api/product-images/136/illustration-f0feedd6-e4a4-4cf5-99f6-c180d1e3acfa.jpg",
+      "status": 200,
+      "ms": 2092,
+      "bytes": 307897
+    },
+    {
+      "url": "/api/client/demo/san-pham/136",
+      "status": 200,
+      "ms": 2214,
+      "bytes": 13709
+    },
+    {
+      "url": "/api/product-images/137/illustration-ab3cc375-070c-4ee7-a03f-c68059d2e472.jpg",
+      "status": 200,
+      "ms": 1851,
+      "bytes": 189703
+    },
+    {
+      "url": "/api/client/demo/san-pham/137",
+      "status": 200,
+      "ms": 1598,
+      "bytes": 13715
+    },
+    {
+      "url": "/api/product-images/138/illustration-7cf3d452-03dd-4a34-b67d-993fe0b48570.jpg",
+      "status": 200,
+      "ms": 1480,
+      "bytes": 199370
+    },
+    {
+      "url": "/api/client/demo/san-pham/138",
+      "status": 200,
+      "ms": 1519,
+      "bytes": 13688
+    },
+    {
+      "url": "/api/product-images/139/illustration-7c39665f-35fe-4939-9f15-19c2c410956b.jpg",
+      "status": 200,
+      "ms": 1510,
+      "bytes": 237332
+    },
+    {
+      "url": "/api/client/demo/san-pham/139",
+      "status": 200,
+      "ms": 2094,
+      "bytes": 13686
+    },
+    {
+      "url": "/api/product-images/140/illustration-dd1455f9-dfd9-4f40-ad8e-861b4c5c8c54.jpg",
+      "status": 200,
+      "ms": 1445,
+      "bytes": 175001
+    },
+    {
+      "url": "/api/client/demo/san-pham/140",
+      "status": 200,
+      "ms": 1787,
+      "bytes": 13692
+    },
+    {
+      "url": "/api/product-images/141/illustration-daad1627-5b36-48f4-9e00-389a5c8623a2.jpg",
+      "status": 200,
+      "ms": 1955,
+      "bytes": 222312
+    },
+    {
+      "url": "/api/client/demo/san-pham/141",
+      "status": 200,
+      "ms": 1199,
+      "bytes": 13633
+    },
+    {
+      "url": "/api/product-images/142/illustration-dcc43e9e-571e-44c1-9951-1dd500138c95.jpg",
+      "status": 200,
+      "ms": 1046,
+      "bytes": 125006
+    },
+    {
+      "url": "/api/client/demo/san-pham/142",
+      "status": 200,
+      "ms": 1588,
+      "bytes": 13641
+    },
+    {
+      "url": "/api/product-images/143/illustration-3fdedba6-a139-4bd4-ac85-97b9c7264b95.jpg",
+      "status": 200,
+      "ms": 1306,
+      "bytes": 251237
+    },
+    {
+      "url": "/api/client/demo/san-pham/143",
+      "status": 200,
+      "ms": 1813,
+      "bytes": 13722
+    },
+    {
+      "url": "/api/product-images/144/illustration-3bfd3f13-f734-445c-a3f2-3405b0d556a0.jpg",
+      "status": 200,
+      "ms": 1820,
+      "bytes": 246834
+    },
+    {
+      "url": "/api/client/demo/san-pham/144",
+      "status": 200,
+      "ms": 2058,
+      "bytes": 13715
+    },
+    {
+      "url": "/api/product-images/145/illustration-1fdb6c4d-4147-4005-9e29-777720e761d9.jpg",
+      "status": 200,
+      "ms": 1232,
+      "bytes": 191643
+    },
+    {
+      "url": "/api/client/demo/san-pham/145",
+      "status": 200,
+      "ms": 1966,
+      "bytes": 13658
+    },
+    {
+      "url": "/api/product-images/146/illustration-c0043ba3-0662-4c65-a4f1-37ba7c620584.jpg",
+      "status": 200,
+      "ms": 2381,
+      "bytes": 141450
+    },
+    {
+      "url": "/api/client/demo/san-pham/146",
+      "status": 200,
+      "ms": 1762,
+      "bytes": 13662
+    },
+    {
+      "url": "/api/product-images/147/illustration-107cf7bf-5f7c-4d40-8bdc-5a67f95f5215.jpg",
+      "status": 200,
+      "ms": 1653,
+      "bytes": 222194
+    },
+    {
+      "url": "/api/client/demo/san-pham/147",
+      "status": 200,
+      "ms": 1898,
+      "bytes": 13717
+    },
+    {
+      "url": "/api/product-images/148/illustration-9a5faa48-89f8-4d36-bdc4-8e8c6c6ff16b.jpg",
+      "status": 200,
+      "ms": 2491,
+      "bytes": 176718
+    },
+    {
+      "url": "/api/client/demo/san-pham/148",
+      "status": 200,
+      "ms": 3095,
+      "bytes": 13688
+    },
+    {
+      "url": "/api/product-images/149/illustration-13f2d83c-5aa6-4daa-809c-6395d7501e19.jpg",
+      "status": 200,
+      "ms": 2244,
+      "bytes": 186797
+    },
+    {
+      "url": "/api/client/demo/san-pham/149",
+      "status": 200,
+      "ms": 2929,
+      "bytes": 14894
+    },
+    {
+      "url": "/api/product-images/150/illustration-ab54ba65-7241-48aa-b0f5-bec3230a969c.jpg",
+      "status": 200,
+      "ms": 2366,
+      "bytes": 79127
+    },
+    {
+      "url": "/api/client/demo/san-pham/150",
+      "status": 200,
+      "ms": 2701,
+      "bytes": 14894
+    },
+    {
+      "url": "/api/product-images/151/illustration-5a5bd945-6c5d-4807-82e1-3fe65f278274.jpg",
+      "status": 200,
+      "ms": 3018,
+      "bytes": 229248
+    },
+    {
+      "url": "/api/client/demo/san-pham/151",
+      "status": 200,
+      "ms": 3367,
+      "bytes": 14894
+    },
+    {
+      "url": "/api/product-images/152/illustration-3073b90c-54c5-4abf-b702-2944710b653b.jpg",
+      "status": 200,
+      "ms": 2733,
+      "bytes": 157769
+    },
+    {
+      "url": "/api/client/demo/san-pham/152",
+      "status": 200,
+      "ms": 2553,
+      "bytes": 14894
+    },
+    {
+      "url": "/api/product-images/153/illustration-2ea87da5-0378-495f-b3d3-82e26fbaaa5c.jpg",
+      "status": 200,
+      "ms": 1497,
+      "bytes": 253147
+    },
+    {
+      "url": "/api/client/demo/san-pham/153",
+      "status": 200,
+      "ms": 2379,
+      "bytes": 14894
+    },
+    {
+      "url": "/api/product-images/154/illustration-47240542-bfc9-4147-81f8-f167f5f1d7a5.jpg",
+      "status": 200,
+      "ms": 1841,
+      "bytes": 103297
+    },
+    {
+      "url": "/api/client/demo/san-pham/154",
+      "status": 200,
+      "ms": 1843,
+      "bytes": 14834
+    },
+    {
+      "url": "/api/product-images/155/illustration-449725e1-2242-487b-b328-7fffd489c004.jpg",
+      "status": 200,
+      "ms": 1445,
+      "bytes": 224544
+    },
+    {
+      "url": "/api/client/demo/san-pham/155",
+      "status": 200,
+      "ms": 1551,
+      "bytes": 14826
+    },
+    {
+      "url": "/api/product-images/156/illustration-d790179a-9499-438d-bc12-a663cd036d42.jpg",
+      "status": 200,
+      "ms": 1484,
+      "bytes": 108278
+    },
+    {
+      "url": "/api/client/demo/san-pham/156",
+      "status": 200,
+      "ms": 1316,
+      "bytes": 14847
+    },
+    {
+      "url": "/api/product-images/157/illustration-da2de699-2197-4750-930d-32039d65c734.jpg",
+      "status": 200,
+      "ms": 1243,
+      "bytes": 94743
+    },
+    {
+      "url": "/api/client/demo/san-pham/157",
+      "status": 200,
+      "ms": 1623,
+      "bytes": 14824
+    },
+    {
+      "url": "/api/product-images/159/illustration-867a993e-87c1-41dd-9ad3-1411c55dcf0e.jpg",
+      "status": 200,
+      "ms": 2006,
+      "bytes": 80853
+    },
+    {
+      "url": "/api/client/demo/san-pham/159",
+      "status": 200,
+      "ms": 2878,
+      "bytes": 14857
+    },
+    {
+      "url": "/api/product-images/160/illustration-7fb90a57-f42d-4470-b510-2dc9c06c35d6.jpg",
+      "status": 200,
+      "ms": 2565,
+      "bytes": 204202
+    },
+    {
+      "url": "/api/client/demo/san-pham/160",
+      "status": 200,
+      "ms": 2166,
+      "bytes": 14809
+    },
+    {
+      "url": "/api/product-images/161/illustration-e31c891f-e722-433d-96bd-c54b797ab726.jpg",
+      "status": 200,
+      "ms": 1593,
+      "bytes": 281388
+    },
+    {
+      "url": "/api/client/demo/san-pham/161",
+      "status": 200,
+      "ms": 1646,
+      "bytes": 14853
+    },
+    {
+      "url": "/api/product-images/162/illustration-24504b98-e45d-4460-9930-c3665a65c4e8.jpg",
+      "status": 200,
+      "ms": 1024,
+      "bytes": 206335
+    },
+    {
+      "url": "/api/client/demo/san-pham/162",
+      "status": 200,
+      "ms": 887,
+      "bytes": 14795
+    },
+    {
+      "url": "/api/product-images/163/illustration-bd0dd32c-6dd1-4f22-85d1-aa455b1afb26.jpg",
+      "status": 200,
+      "ms": 660,
+      "bytes": 299330
+    },
+    {
+      "url": "/api/client/demo/san-pham/163",
+      "status": 200,
+      "ms": 854,
+      "bytes": 14872
+    },
+    {
+      "url": "/api/product-images/164/illustration-497169e9-c6ff-418f-bca5-6197e4d9d63a.jpg",
+      "status": 200,
+      "ms": 617,
+      "bytes": 222721
+    },
+    {
+      "url": "/api/client/demo/san-pham/164",
+      "status": 200,
+      "ms": 928,
+      "bytes": 14849
+    },
+    {
+      "url": "/api/product-images/165/illustration-928b067e-0007-4df7-b77a-72b2df7c0c80.jpg",
+      "status": 200,
+      "ms": 622,
+      "bytes": 213734
+    },
+    {
+      "url": "/api/client/demo/san-pham/165",
+      "status": 200,
+      "ms": 6499,
+      "bytes": 14823
+    },
+    {
+      "url": "/api/product-images/166/illustration-c54e0455-222b-4aea-a175-fd04ed6aefb4.jpg",
+      "status": 200,
+      "ms": 12380,
+      "bytes": 214745
+    },
+    {
+      "url": "/api/client/demo/san-pham/166",
+      "status": 200,
+      "ms": 12291,
+      "bytes": 14862
+    },
+    {
+      "url": "/api/product-images/167/illustration-f619deb7-3ea7-4f1a-bc57-b91c80ee2fc8.jpg",
+      "status": 200,
+      "ms": 11116,
+      "bytes": 122654
+    },
+    {
+      "url": "/api/client/demo/san-pham/167",
+      "status": 200,
+      "ms": 11039,
+      "bytes": 14813
+    },
+    {
+      "url": "/api/product-images/168/illustration-c3a0cd1d-f71d-4806-9022-038d34eb4e28.jpg",
+      "status": 200,
+      "ms": 2699,
+      "bytes": 107685
+    },
+    {
+      "url": "/api/client/demo/san-pham/168",
+      "status": 200,
+      "ms": 1184,
+      "bytes": 13880
+    },
+    {
+      "url": "/product-placeholder.svg",
+      "status": 200,
+      "ms": 865,
+      "bytes": 399
+    },
+    {
+      "url": "/api/product-images/1/illustration-00000000-0000-0000-0000-000000000000.jpg",
+      "status": 404,
+      "ms": 1486,
+      "bytes": 21
+    },
+    {
+      "url": "/api/product-images/1/invalid.php",
+      "status": 404,
+      "ms": 2033,
+      "bytes": 21
+    },
+    {
+      "url": "/api/admin/san-pham/1/images",
+      "status": 405,
+      "ms": 2381,
+      "bytes": 116
+    },
+    {
+      "url": "/__demo/images",
+      "status": 200,
+      "ms": 1959,
+      "bytes": 38734
+    }
+  ]
+}

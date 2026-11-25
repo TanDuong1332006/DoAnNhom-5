@@ -1,0 +1,31 @@
+{
+    "id": 7,
+    "id_cua_hang": null,
+    "id_danh_muc": 6,
+    "id_thuong_hieu": 6,
+    "ma_san_pham": "SP-GIAY-01",
+    "ten_san_pham": "Giày Sneaker Nam Nữ Thể Thao Air Cushion",
+    "slug_san_pham": "giay-sneaker-the-thao-air-cushion",
+    "gia_ban": "1250000.00",
+    "gia_khuyen_mai": "999000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+    "mo_ta_ngan": "Đế đệm khí êm ái, bảo vệ gót chân khi di chuyển nhiều.",
+    "mo_ta_chi_tiet": "Thiết kế thể thao trẻ trung, độ bám tốt, êm chân suốt ngày dài.",
+    "so_luong_ton": 70,
+    "is_noi_bat": 1,
+    "is_flash_sale": 1,
+    "luot_xem": 376,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:49.000000Z",
+    "updated_at": "2026-10-05T09:54:26.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 7,
+            "id_san_pham": 7,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:49.000000Z",
+            "updated_at": "2026-09-27T09:05:49.000000Z"
+        }
+    ]
+}

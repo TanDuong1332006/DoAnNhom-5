@@ -1,0 +1,15 @@
+{
+  "id": 2,
+  "sku": "SP-AONAM-02",
+  "name": "Áo Sơ Mi Nam Tay Dài Oxford Form Regular",
+  "prompt": "Single men's long sleeve Oxford button down regular fit shirt, black cotton, invisible mannequin, clean gray studio background, no logos. AI demo illustration.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; not a third-party stock photo; no claim of real SKU photography",
+  "file": "assets/2.jpg",
+  "created_at": "2026-10-31T09:27:55.166Z",
+  "review": "approved",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-57054faf-cb9e-40ed-8db4-88070cda95fc.png",
+  "sha256": "e37eaff7b88135c16037c3ad6dbf4e288bb8e74f72d0b8f33dc199d0e3fb37e3",
+  "bytes": 139606
+}

@@ -1,0 +1,39 @@
+{
+    "id": 51,
+    "id_cua_hang": null,
+    "id_danh_muc": 3,
+    "id_thuong_hieu": 2,
+    "ma_san_pham": "SFP-VAYDAM-03",
+    "ten_san_pham": "Đầm Bodycon Dệt Kim Gân Tăm Ôm Sát Tôn Đường Cong",
+    "slug_san_pham": "dam-bodycon-det-kim-gan-tam-om-sat-ton-duong-cong-mfxm",
+    "gia_ban": "520000.00",
+    "gia_khuyen_mai": "430000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+    "mo_ta_ngan": "Sợi dệt co giãn ôm sát 3 vòng hoàn hảo, cổ tròn thanh lịch dễ phối cùng blazer.",
+    "mo_ta_chi_tiet": "Sợi dệt co giãn ôm sát 3 vòng hoàn hảo, cổ tròn thanh lịch dễ phối cùng blazer. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 132,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 2827,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:52.000000Z",
+    "updated_at": "2026-09-27T09:05:52.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 93,
+            "id_san_pham": 51,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 94,
+            "id_san_pham": 51,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        }
+    ]
+}

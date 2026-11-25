@@ -1,0 +1,11 @@
+{
+    "database": "sofep_image_restore_20261120_7dab8307016c",
+    "migrations": 26,
+    "fixture_accounts": 3,
+    "storage": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-handoff-runtime-7059ebd7a070\/storage\/app\/public",
+    "cors": [
+        "http:\/\/127.0.0.1:5173",
+        "http:\/\/localhost:5173",
+        "http:\/\/127.0.0.1:5194"
+    ]
+}

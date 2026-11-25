@@ -1,0 +1,25 @@
+{
+  "frontend_html_http": 200,
+  "uat_csp": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'self' ws://127.0.0.1:5192 http://127.0.0.1:8042; img-src 'self' data: http://127.0.0.1:8042; font-src 'self' data:",
+  "vite_api_url_8042_in_transformed_image_service": true,
+  "components": {
+    "TrangChu": {
+      "http": 200,
+      "hardcoded_old_origin": true
+    },
+    "TimKiem": {
+      "http": 200,
+      "hardcoded_old_origin": true
+    },
+    "ChiTietSanPham": {
+      "http": 200,
+      "hardcoded_old_origin": true
+    }
+  },
+  "laravel_catalog_http": 200,
+  "cors_for_frontend_5192": null,
+  "browser_observation": "IAB localhost:5192 loaded app then showed Không thể tải sản phẩm. Vui lòng thử lại.",
+  "isolation": "CSP forbids port 8000 and external resource access; no old/main backend requests allowed by this test page",
+  "dynamic_frontend_result": "FAIL",
+  "offline_browser_test": "NOT RUN; browser API has no network-offline control; CSP is not proof of Internet disconnect"
+}

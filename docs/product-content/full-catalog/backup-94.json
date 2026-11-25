@@ -1,0 +1,39 @@
+{
+    "id": 94,
+    "id_cua_hang": null,
+    "id_danh_muc": 5,
+    "id_thuong_hieu": 1,
+    "ma_san_pham": "SFP-AOKHOAC-06",
+    "ten_san_pham": "Áo Khoác Gió Thể Thao Chống Nước Có Mũ Trùm Đa Năng",
+    "slug_san_pham": "ao-khoac-gio-the-thao-chong-nuoc-co-mu-trum-da-nang-8gxv",
+    "gia_ban": "520000.00",
+    "gia_khuyen_mai": "430000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+    "mo_ta_ngan": "Chỉ số chống nước 5000mm, đường ép seam chống thấm nước tuyệt đối qua đường may.",
+    "mo_ta_chi_tiet": "Chỉ số chống nước 5000mm, đường ép seam chống thấm nước tuyệt đối qua đường may. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 67,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 2032,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:54.000000Z",
+    "updated_at": "2026-09-27T09:05:54.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 179,
+            "id_san_pham": 94,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 180,
+            "id_san_pham": 94,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        }
+    ]
+}

@@ -1,0 +1,799 @@
+{
+  "checked_at": "2026-11-19T14:04:44.158Z",
+  "database": "sofep_security_uat_20261118_d588ff07a906",
+  "cache_prefix": "final142143-a1ff7601:",
+  "frontend": "http://127.0.0.1:5190",
+  "backend": "http://127.0.0.1:8030",
+  "passed": true,
+  "checks": [
+    {
+      "ticket": "N5-142",
+      "case": "UAT identity",
+      "passed": true,
+      "path": "/__uat/status",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Database/cache/connection isolated",
+      "passed": true
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Admin login",
+      "passed": true,
+      "path": "/api/admin-login",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Customer A login",
+      "passed": true,
+      "path": "/api/dang-nhap",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Customer B login",
+      "passed": true,
+      "path": "/api/dang-nhap",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Guest search catalog",
+      "passed": true,
+      "path": "/api/client/san-phams?all=1&tu_khoa=a1ff7601",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Search matches fixture",
+      "passed": true
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Guest product detail",
+      "passed": true,
+      "path": "/api/client/san-pham/final-uat-a1ff7601",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Variant price and initial stock",
+      "passed": true
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Guest order denied",
+      "passed": true,
+      "path": "/api/client/dat-hang",
+      "expected": 401,
+      "actual": 401
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Customer admin denied",
+      "passed": true,
+      "path": "/api/admin/don-hang/get-data",
+      "expected": 403,
+      "actual": 403
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Create COD 0",
+      "passed": true,
+      "path": "/api/client/dat-hang",
+      "expected": 201,
+      "actual": 201
+    },
+    {
+      "ticket": "N5-142",
+      "case": "COD unpaid 0",
+      "passed": true
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Admin transition COD 0 da_xac_nhan",
+      "passed": true,
+      "path": "/api/admin/don-hang/update-status",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Admin transition COD 0 dang_giao",
+      "passed": true,
+      "path": "/api/admin/don-hang/update-status",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Admin transition COD 0 da_giao",
+      "passed": true,
+      "path": "/api/admin/don-hang/update-status",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Create COD 1",
+      "passed": true,
+      "path": "/api/client/dat-hang",
+      "expected": 201,
+      "actual": 201
+    },
+    {
+      "ticket": "N5-142",
+      "case": "COD unpaid 1",
+      "passed": true
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Admin transition COD 1 da_xac_nhan",
+      "passed": true,
+      "path": "/api/admin/don-hang/update-status",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Admin transition COD 1 dang_giao",
+      "passed": true,
+      "path": "/api/admin/don-hang/update-status",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Admin transition COD 1 da_giao",
+      "passed": true,
+      "path": "/api/admin/don-hang/update-status",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Admin creates PUBLIC",
+      "passed": true,
+      "path": "/api/admin/ma-giam-gia/create",
+      "expected": 201,
+      "actual": 201
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Read PUBLIC",
+      "passed": true,
+      "path": "/api/admin/ma-giam-gia/get-data",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Voucher exists PUBLIC",
+      "passed": true
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Invalid voucher rejected",
+      "passed": true,
+      "path": "/api/client/kiem-tra-voucher",
+      "expected": 422,
+      "actual": 422
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Server quote",
+      "passed": true,
+      "path": "/api/client/kiem-tra-voucher",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Server total ignores forged prices",
+      "passed": true
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Create simulated order",
+      "passed": true,
+      "path": "/api/client/dat-hang",
+      "expected": 201,
+      "actual": 201
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Repeat checkout same key",
+      "passed": true,
+      "path": "/api/client/dat-hang",
+      "expected": 201,
+      "actual": 201
+    },
+    {
+      "ticket": "N5-142",
+      "case": "No duplicate order",
+      "passed": true
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Other customer payment status forbidden",
+      "passed": true,
+      "path": "/api/kiem-tra-thanh-toan/HD_83CF9CE3C30618B275BB8C8915109ED7",
+      "expected": 403,
+      "actual": 403
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Payment failure simulation",
+      "passed": true,
+      "path": "/api/giao-dich/mo-phong",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Read failed payment",
+      "passed": true,
+      "path": "/api/kiem-tra-thanh-toan/HD_83CF9CE3C30618B275BB8C8915109ED7",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Failed simulation remains unpaid",
+      "passed": true
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Payment success",
+      "passed": true,
+      "path": "/api/giao-dich/mo-phong",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Payment success retry",
+      "passed": true,
+      "path": "/api/giao-dich/mo-phong",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Admin simulated lifecycle da_xac_nhan",
+      "passed": true,
+      "path": "/api/admin/don-hang/update-status",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Admin simulated lifecycle dang_giao",
+      "passed": true,
+      "path": "/api/admin/don-hang/update-status",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Admin simulated lifecycle da_giao",
+      "passed": true,
+      "path": "/api/admin/don-hang/update-status",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Customer history",
+      "passed": true,
+      "path": "/api/client/don-hang",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "History exactly three owned orders",
+      "passed": true
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Owner detail latest status",
+      "passed": true,
+      "path": "/api/client/don-hang/14",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "History reflects delivered and paid",
+      "passed": true
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Other customer detail 404",
+      "passed": true,
+      "path": "/api/client/don-hang/14",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Other customer own list",
+      "passed": true,
+      "path": "/api/client/don-hang",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Other history empty",
+      "passed": true
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Stock after checkout retries",
+      "passed": true,
+      "path": "/api/client/san-pham/final-uat-a1ff7601",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-142",
+      "case": "Stock decremented exactly four",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Customer private feedback with attachment",
+      "passed": true,
+      "path": "/api/client/gop-y",
+      "expected": 201,
+      "actual": 201
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Admin reads feedback",
+      "passed": true,
+      "path": "/api/admin/gop-y/1",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Feedback belongs to A and attachment exists",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Private feedback access denied Guest",
+      "passed": true,
+      "path": "/api/admin/gop-y/1",
+      "expected": 401,
+      "actual": 401
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Private attachment denied Guest",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Private feedback access denied A",
+      "passed": true,
+      "path": "/api/admin/gop-y/1",
+      "expected": 403,
+      "actual": 403
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Private attachment denied A",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Private feedback access denied B",
+      "passed": true,
+      "path": "/api/admin/gop-y/1",
+      "expected": 403,
+      "actual": 403
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Private attachment denied B",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Admin image private response",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Admin processes feedback",
+      "passed": true,
+      "path": "/api/admin/gop-y/1",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Admin resolves feedback",
+      "passed": true,
+      "path": "/api/admin/gop-y/1",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Admin reply in-app",
+      "passed": true,
+      "path": "/api/admin/gop-y/1/phan-hoi",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "A inbox private reply",
+      "passed": true,
+      "path": "/api/client/thong-bao",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Reply delivered to A",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "B inbox no private reply",
+      "passed": true,
+      "path": "/api/client/thong-bao",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "B cannot see reply",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Admin creates PRIVATE",
+      "passed": true,
+      "path": "/api/admin/ma-giam-gia/create",
+      "expected": 201,
+      "actual": 201
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Read PRIVATE",
+      "passed": true,
+      "path": "/api/admin/ma-giam-gia/get-data",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Voucher exists PRIVATE",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Preview eligible audience",
+      "passed": true,
+      "path": "/api/admin/chien-dich/xem-truoc",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Preview selects exactly one fixture",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Create campaign",
+      "passed": true,
+      "path": "/api/admin/chien-dich",
+      "expected": 201,
+      "actual": 201
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Recipient count one",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Campaign idempotency",
+      "passed": true,
+      "path": "/api/admin/chien-dich",
+      "expected": 201,
+      "actual": 201
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Create retry same campaign",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Customer cannot dispatch",
+      "passed": true,
+      "path": "/api/admin/chien-dich/giao-lo",
+      "expected": 403,
+      "actual": 403
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Dispatch campaign",
+      "passed": true,
+      "path": "/api/admin/chien-dich/giao-lo",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Dispatch one eligible recipient",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Dispatch retry",
+      "passed": true,
+      "path": "/api/admin/chien-dich/giao-lo",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Dispatch retry no duplicates",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "A receives campaign",
+      "passed": true,
+      "path": "/api/client/thong-bao",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Private voucher notification exists",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "B notifications isolated",
+      "passed": true,
+      "path": "/api/client/thong-bao",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "B receives no private voucher",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "B cannot mark A notification read",
+      "passed": true,
+      "path": "/api/client/thong-bao/2/da-doc",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "ticket": "N5-143",
+      "case": "B cannot save private voucher",
+      "passed": true,
+      "path": "/api/client/vi-uu-dai/8/luu",
+      "expected": 422,
+      "actual": 422
+    },
+    {
+      "ticket": "N5-143",
+      "case": "A saves voucher",
+      "passed": true,
+      "path": "/api/client/vi-uu-dai/8/luu",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "A saves voucher retry",
+      "passed": true,
+      "path": "/api/client/vi-uu-dai/8/luu",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "A wallet",
+      "passed": true,
+      "path": "/api/client/vi-uu-dai",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Saved once and available",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "B wallet",
+      "passed": true,
+      "path": "/api/client/vi-uu-dai",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "B wallet isolated",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "B private quote rejected",
+      "passed": true,
+      "path": "/api/client/kiem-tra-voucher",
+      "expected": 422,
+      "actual": 422
+    },
+    {
+      "ticket": "N5-143",
+      "case": "A private quote valid",
+      "passed": true,
+      "path": "/api/client/kiem-tra-voucher",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Private server quote 228000",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "A uses granted voucher",
+      "passed": true,
+      "path": "/api/client/dat-hang",
+      "expected": 201,
+      "actual": 201
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Wallet after use",
+      "passed": true,
+      "path": "/api/client/vi-uu-dai",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Wallet used state",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Per customer private quota rejected",
+      "passed": true,
+      "path": "/api/client/kiem-tra-voucher",
+      "expected": 422,
+      "actual": 422
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Cancel private order 0",
+      "passed": true,
+      "path": "/api/admin/don-hang/update-status",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Cancel private order 1",
+      "passed": true,
+      "path": "/api/admin/don-hang/update-status",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Wallet restored",
+      "passed": true,
+      "path": "/api/client/vi-uu-dai",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Wallet available after cancellation",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Voucher counters final",
+      "passed": true,
+      "path": "/api/admin/ma-giam-gia/get-data",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Public usage once/private usage restored",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "A read all notifications",
+      "passed": true,
+      "path": "/api/client/thong-bao/doc-tat-ca",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "A unread count",
+      "passed": true,
+      "path": "/api/client/thong-bao/count",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "A unread zero",
+      "passed": true
+    },
+    {
+      "ticket": "N5-143",
+      "case": "B opt-out",
+      "passed": true,
+      "path": "/api/client/tuy-chon-thong-bao",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "B marketing preference",
+      "passed": true,
+      "path": "/api/client/tuy-chon-thong-bao",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "ticket": "N5-143",
+      "case": "Opt-out persisted",
+      "passed": true
+    }
+  ],
+  "summary": {
+    "N5142": {
+      "order": 14,
+      "code": "HD_83CF9CE3C30618B275BB8C8915109ED7",
+      "total": 426000,
+      "stock": 26
+    },
+    "N5143": {
+      "feedback": 1,
+      "campaign": 1,
+      "voucher": 8,
+      "notification": 2,
+      "privateOrder": 15
+    }
+  },
+  "external_mail_sent": false,
+  "type": "HTTP API MySQL UAT; not browser"
+}

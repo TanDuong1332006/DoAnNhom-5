@@ -1,0 +1,826 @@
+[
+  {
+    "path": "Fe/src/App.vue",
+    "sha256": "a70e5c9a3dc7cbe3f15d7d3521ecb3a61e8cf4c61be4bd096bf9cc2884334c6e"
+  },
+  {
+    "path": "Fe/src/components/Admin/ChiTietSanPham/index.vue",
+    "sha256": "a7205e5eb98b2e98687ec997866f5fdaf91af9809fe4f2ec29e9263086c70568"
+  },
+  {
+    "path": "Fe/src/components/Admin/DanhGia/index.vue",
+    "sha256": "41f647dda8f778528034754a162776f0879fa729265b7728cf1180b21d684aeb"
+  },
+  {
+    "path": "Fe/src/components/Admin/DanhMuc/index.vue",
+    "sha256": "9d7ab885142f42c372cd77c6f4f4e67b78ba4f8f26e0d634e684f34b8aa93db6"
+  },
+  {
+    "path": "Fe/src/components/Admin/Dashboard/index.vue",
+    "sha256": "73cda5b8023f28160b709dd135b75540298e3f0123530c11d27e5b1e982fe898"
+  },
+  {
+    "path": "Fe/src/components/Admin/DonHang/index.vue",
+    "sha256": "4b77a1e356ccb97de72088bf2cc2976cb0867445d75aee8833616bbf2980ddab"
+  },
+  {
+    "path": "Fe/src/components/Admin/KhachHang/index.vue",
+    "sha256": "88f86a508e5f00ba907b2c96be7d07c0ff67290f45b1790001601136c0939ffe"
+  },
+  {
+    "path": "Fe/src/components/Admin/KichThuoc/index.vue",
+    "sha256": "5c9d0d67dd8365c38e017cef0b83269add7c9da639141a468324f1d4d1ea0909"
+  },
+  {
+    "path": "Fe/src/components/Admin/MaGiamGia/index.vue",
+    "sha256": "26824ea5fffb4ddf7d8b76a7b7a368e39d45309a3c4664ba2d9c860a9343ee63"
+  },
+  {
+    "path": "Fe/src/components/Admin/MauSac/index.vue",
+    "sha256": "c17f30e71337e761231cbfb50f31a9cd19f1b5adeab24c8f0b109a9e79e20aed"
+  },
+  {
+    "path": "Fe/src/components/Admin/SanPham/index.vue",
+    "sha256": "e9452f595bb4f3ebe1ce95cbddff43760aa87a3b530b48514daecc8807143231"
+  },
+  {
+    "path": "Fe/src/components/Admin/SanPham/ProductImages.vue",
+    "sha256": "9752f9fd23aea530bec0012d4017f9bd2cc366cc3e21f630b7b722503c8d3c82"
+  },
+  {
+    "path": "Fe/src/components/Admin/SanPham/ProductVariants.vue",
+    "sha256": "365eae9d6fcd0a3954cf38885009a4d9114d14679a877c4063cc96470e93a7b2"
+  },
+  {
+    "path": "Fe/src/components/Admin/ThongKe/DoanhThuTheoNam.vue",
+    "sha256": "928abc501637af6fb72981099a00838f120b57d67c8f16e1a8d5014b30213dc2"
+  },
+  {
+    "path": "Fe/src/components/Admin/ThongKe/DoanhThuTheoThang.vue",
+    "sha256": "be78fe2b39a06ea8056bcb727372ebb088ffe711134c074b8579f2e587fa9876"
+  },
+  {
+    "path": "Fe/src/components/Admin/ThongKe/SanPhamTheoDanhMuc.vue",
+    "sha256": "2ca5c3d468d6b9e21f947b4c850d19f79ef7a39cbdf51be4aa5612c532295c54"
+  },
+  {
+    "path": "Fe/src/components/Admin/ThuongHieu/index.vue",
+    "sha256": "e3072e2dbaf8590c5297cbb5f266440b48198b8b9dca9167671e7e87a4ce99b8"
+  },
+  {
+    "path": "Fe/src/components/Client/CheckoutModal.vue",
+    "sha256": "4199bd25f94183882193a8f6e98bb31c07aa5ba5cb0617df026ab64b1e9d412f"
+  },
+  {
+    "path": "Fe/src/components/Client/ChiTietSanPham.vue",
+    "sha256": "333a9950c9557ae674318e2e87b763bb172ed16014474e3adcf43e89c49942b6"
+  },
+  {
+    "path": "Fe/src/components/Client/ProductPurchase.vue",
+    "sha256": "dee54e12e718e8544b733ff58bdda399123ab7200550b35a375b513e8671912e"
+  },
+  {
+    "path": "Fe/src/components/Client/SizeAdvisorModal.vue",
+    "sha256": "4b7cc31eefe3712225bf5a45d66d64480c57f6351dd5118f4b71d56ac7296331"
+  },
+  {
+    "path": "Fe/src/components/Client/TimKiem.vue",
+    "sha256": "72afc30350142ae3dac31faccbece77f09c0c73042971ee24f370e34f6e77be6"
+  },
+  {
+    "path": "Fe/src/components/Client/TrangChu.vue",
+    "sha256": "17d2ec7e1b6c7b88763f304a51be1963501bc7aa995bb350b35f155e61a5e10e"
+  },
+  {
+    "path": "Fe/src/components/Common/SofepLogo.vue",
+    "sha256": "03ab221fa2f90f77d0ad918e51138ee162465e449ab403936c0e5c7545413682"
+  },
+  {
+    "path": "Fe/src/components/DangKy/index.vue",
+    "sha256": "bf53297e607924dc8aa4a591e18a84e276a68b3cfd25bd67548ee39fd90d5d30"
+  },
+  {
+    "path": "Fe/src/components/DangNhap/index.vue",
+    "sha256": "79945082ad2ee0421f2745665bc4550204b0bb7af618ab1cf119a6151cadae04"
+  },
+  {
+    "path": "Fe/src/components/Engagement/AdminCampaigns.vue",
+    "sha256": "ba3dffe117ce7416bd947c03a9e821cc8a4e687242738ad7195bf7ad3733b4c7"
+  },
+  {
+    "path": "Fe/src/components/Engagement/AdminFeedback.vue",
+    "sha256": "27f0bcca55a178a80dec6baeb70238d29c3dd16405395e5c6a1764dbd38fe7cf"
+  },
+  {
+    "path": "Fe/src/components/Engagement/CampaignVoucherForm.vue",
+    "sha256": "5c569a98b52aa831fd1da0c3cd5692e773aa1cb38d601810eb5fbb70c2d18854"
+  },
+  {
+    "path": "Fe/src/components/Engagement/CustomerCenter.vue",
+    "sha256": "b15cd66d1031e4a3de49b7dc7756bd2951ef2816e0a5325771f3df63e10c9ad9"
+  },
+  {
+    "path": "Fe/src/components/Engagement/FeedbackPage.vue",
+    "sha256": "427cb53d3b2c6b3b7681fb29e15cddbd1913116d2baef93fa035231e41bca60e"
+  },
+  {
+    "path": "Fe/src/components/Engagement/NotificationBell.vue",
+    "sha256": "bb015bf48a1d403d75434282fa017aff0f38724deb403a55e8be6a216593b63d"
+  },
+  {
+    "path": "Fe/src/components/ProductCard.vue",
+    "sha256": "21bd9f579f78c1f274a8fa5578eacdfa2f3e7ac410d45ebaf7623bcf0d416cb3"
+  },
+  {
+    "path": "Fe/src/components/QuenMatKhau/index.vue",
+    "sha256": "ac49ed714a71916e2e918954a65cbe9335b02c93941a7fdc1103aedc770096b7"
+  },
+  {
+    "path": "Fe/src/components/shared/ProductImage.vue",
+    "sha256": "c9e991bfff079ce16fc51360b8cd3c720a616fd8431c72deb078c48899a30bba"
+  },
+  {
+    "path": "Fe/src/layout/AdminLayout.vue",
+    "sha256": "b40b6d492dfde08d432c4424f59403c081192e3ee1c061dd9cb481edef8595c3"
+  },
+  {
+    "path": "Fe/src/layout/BlankLayout.vue",
+    "sha256": "1541558d50f2cad4815ccafdea1ef61329d05d4c462cb0844195c55e854a0b89"
+  },
+  {
+    "path": "Fe/src/layout/ClientLayout.vue",
+    "sha256": "bca314405a14faddc28572490c7223818c3d49318e437ab65de4ef099790fa53"
+  },
+  {
+    "path": "Fe/src/layout/components/AdminSearch.vue",
+    "sha256": "a5e83fbefb831fe6fc5febcf34b2b0a96713c0b1ef7e7cb853deaddef24893fb"
+  },
+  {
+    "path": "Fe/src/layout/components/FooterRocker.vue",
+    "sha256": "fed7c86ee396c1c8eb9925844d918eed09d84cd97487812d8b521284c707f581"
+  },
+  {
+    "path": "Fe/src/layout/components/HeaderRocker.vue",
+    "sha256": "a0bdbcda8a79b146e61a1190182cc3d50da8a546ca8f811c17d859ddd51a168d"
+  },
+  {
+    "path": "Fe/src/layout/components/MenuRocker.vue",
+    "sha256": "24513cec27daaea97f6ef00ec19d595f33d7399ab4dde07c465f4b1df703c10d"
+  },
+  {
+    "path": "Fe/src/layout/wrapper/blank.vue",
+    "sha256": "d7051f80b880c0d41fcd71bfe59f82e737f08f1c3667abc5ade136e8217d8cdd"
+  },
+  {
+    "path": "Fe/src/layout/wrapper/ClientLayout.vue",
+    "sha256": "334d4dc68025db37d588649d1cbcacae0e88474c7f0810a08e7c772006c8d3b3"
+  },
+  {
+    "path": "Fe/src/layout/wrapper/index.vue",
+    "sha256": "8ed80178163f3fae4ce74055289ce1604423be31c94df871d37c5471ba9638da"
+  },
+  {
+    "path": "Fe/src/main.js",
+    "sha256": "33a5a73a99712d63a640cfac699e5a979f0e0f46d4fd74fa0a594c2df62cfa89"
+  },
+  {
+    "path": "Fe/src/pages/admin/AdminCategories.vue",
+    "sha256": "ee98be2dd84754b80bb851a367eb8e86633ce6d19a7207f664aa9e6bea0718fb"
+  },
+  {
+    "path": "Fe/src/pages/admin/AdminCoupons.vue",
+    "sha256": "ff269e3c13e861a1d5c855d89d6336485fb7a60713cc702706bd43711c03c67e"
+  },
+  {
+    "path": "Fe/src/pages/admin/AdminCustomers.vue",
+    "sha256": "9a99b922bc6fcdf2ef1c74f250e23336fd54f62519d59376a48a560e148d571d"
+  },
+  {
+    "path": "Fe/src/pages/admin/AdminLogin.vue",
+    "sha256": "bf2356cdda1a612d6f4957a92d426eee2753f723cfdff72885978bed8315136c"
+  },
+  {
+    "path": "Fe/src/pages/admin/AdminOrders.vue",
+    "sha256": "e1df6fc55dcb2d7c2ebddf68c9f36611c816fbae75b3bf53b302ac39d531fd8d"
+  },
+  {
+    "path": "Fe/src/pages/admin/AdminProducts.vue",
+    "sha256": "374b7fb1ccd46e8b107fb82d964494c5e46ef11f6f959c290486e6b496d5a433"
+  },
+  {
+    "path": "Fe/src/pages/admin/Dashboard.vue",
+    "sha256": "9a1189434ae9e66ac61a2dcb31c116ec1bd4900587ce24b048f022896e206dd4"
+  },
+  {
+    "path": "Fe/src/pages/client/Cart.vue",
+    "sha256": "5460b34897b60524c93e5306903ffba3b7579f189a456a5e7ddcbd6e0f0e76ca"
+  },
+  {
+    "path": "Fe/src/pages/client/Checkout.vue",
+    "sha256": "6340aa50eecea7adb231261fd28251b78d534f55c3c5ccdf8dc77f80ccd60b3c"
+  },
+  {
+    "path": "Fe/src/pages/client/Home.vue",
+    "sha256": "081559b37f731bc8b618194a2f83b8d695cf2715ee3ae24626f91955bd0f6616"
+  },
+  {
+    "path": "Fe/src/pages/client/Login.vue",
+    "sha256": "e687f1d77dfed8ffac36c02c04849699c55011458752a146e2b3aca3ae037a3d"
+  },
+  {
+    "path": "Fe/src/pages/client/MyOrders.vue",
+    "sha256": "4e37635e697c335df41eabd7151ffdafc0ee6bd702b3aed64086023aad9a9a3f"
+  },
+  {
+    "path": "Fe/src/pages/client/OrderSuccess.vue",
+    "sha256": "5367c13223d87362c09920ce846c8d277ee2a3e7ef6971a4a9319202028f2661"
+  },
+  {
+    "path": "Fe/src/pages/client/ProductDetail.vue",
+    "sha256": "e4e25ba1166e079eb56762620d2f278317ca0c17e69771063b502667853ab055"
+  },
+  {
+    "path": "Fe/src/pages/client/Profile.vue",
+    "sha256": "ffee705c9966e79dc00364b4b467cca905015a803c8741c48573b15eaceb9b5e"
+  },
+  {
+    "path": "Fe/src/pages/client/Register.vue",
+    "sha256": "50afa45be2bc46f7c08262057187e22fef899ce953d5612067be36824d6021a9"
+  },
+  {
+    "path": "Fe/src/pages/client/Shop.vue",
+    "sha256": "52c638e24560e592f42c6aca6c5b0001135392a04772757457806dd74c703a27"
+  },
+  {
+    "path": "Fe/src/router/checkLogin.js",
+    "sha256": "cc5acd39e604114ad38e44d07ad7d50cdd0e43924f2a1f600da515823340dd22"
+  },
+  {
+    "path": "Fe/src/router/index.js",
+    "sha256": "f604c2fe49e568fdeb0f181afcf70bc1d26e2755c2832b5af90faf930a5d26dc"
+  },
+  {
+    "path": "Fe/src/services/adminSearch.js",
+    "sha256": "08799b89b62b0caa8df17394f2e2045fb52b4ffc9e8c45f26c1711cd9981f36c"
+  },
+  {
+    "path": "Fe/src/services/authSessions.js",
+    "sha256": "f7307a2fa1bdedf9ad705b3a797517b996aea2a3eb02175d6597843320050254"
+  },
+  {
+    "path": "Fe/src/services/axiosClient.js",
+    "sha256": "474f0874ec6b93ed6bbf37e5e30887812d175f946bf2bc30560c0a2a1a2e433e"
+  },
+  {
+    "path": "Fe/src/services/engagement.js",
+    "sha256": "90174fb229e00fccb037548de794b4b7ec93fe182c7a4e8bc45138f8cd96bc26"
+  },
+  {
+    "path": "Fe/src/services/productCatalog.js",
+    "sha256": "e020a0df1086c72ca24a2ac578bceb486a408533ec0f791954758c30ca55b095"
+  },
+  {
+    "path": "Fe/src/services/productDetail.js",
+    "sha256": "fa35df59575dc0eae99d2f3cef0a9ca2c0fd5c13ceb4de95f06de9df04f611d9"
+  },
+  {
+    "path": "Fe/src/services/productImages.js",
+    "sha256": "71cfe2e95e94793063e01b8d234c953ce66eb99120ccb020ebd51e646b905edb"
+  },
+  {
+    "path": "Fe/src/services/resolveApiUrl.js",
+    "sha256": "139ed2a548edbbb362f3cefecec1f717b16c00b3f1b7973b33097718ce3aafc0"
+  },
+  {
+    "path": "Fe/src/stores/authStore.js",
+    "sha256": "0996a71c52e52ba57051a17880d7fd9b06a875b9a4a552b253fe7931b2ae32aa"
+  },
+  {
+    "path": "Fe/src/stores/cartStore.js",
+    "sha256": "4de571bff49e57a069591b0415f508f27156278300449d14ef4082d3b7bdc1c9"
+  },
+  {
+    "path": "Fe/src/utils/dialog.js",
+    "sha256": "0c0d40b0c59f882f1fffc0b0cbe45b2f5bddd2bbe31198a5045b9afdb3ebfe59"
+  },
+  {
+    "path": "Fe/tests/admin-login.test.mjs",
+    "sha256": "84f4919cdf733c9d8a39f9f5fbea193c534b7db71f74bd5d655cf007e98e73bd"
+  },
+  {
+    "path": "Fe/tests/admin-search.test.mjs",
+    "sha256": "30386af244ce26bd3e9ca3a1bb28b2f584f0427f2b4d06ca0c3d4c701df64832"
+  },
+  {
+    "path": "Fe/tests/admin-startup.test.mjs",
+    "sha256": "9f332838d922a37bc9d5f925053d0f0a0710e645dadc38095dbd8f3ca69df0b2"
+  },
+  {
+    "path": "Fe/tests/api-base-url.test.mjs",
+    "sha256": "be7de4319a01f502878e05a5174cf965dcf9c36e0c2b89b5b5a94a55fa91e335"
+  },
+  {
+    "path": "Fe/tests/catalog-session.test.mjs",
+    "sha256": "3595b533ebb6581aa95b288ed16969feca8c9ed83683663dc1bfaccc490703a4"
+  },
+  {
+    "path": "Fe/tests/checkout-flow.test.mjs",
+    "sha256": "118525082eddec801afa1cd7a461c0a25ea8e8ed100df8ee2c6c07d4da13374c"
+  },
+  {
+    "path": "Fe/tests/customer-engagement.test.mjs",
+    "sha256": "ac5b61f7bce67b1857963442c55e175ebb6dd4e6edb074b65bd187b0d9c3d7a1"
+  },
+  {
+    "path": "Fe/tests/customer-header.test.mjs",
+    "sha256": "8d2ea49e3d9ea4cd80264d1927ec9106e403ab2314e8b9b78357960a6a8bb021"
+  },
+  {
+    "path": "Fe/tests/http-uat-smoke.mjs",
+    "sha256": "aad9cd019b737b90b3f43605929c6e6fa8dfa0d10d6dc49ac76504289469a7b6"
+  },
+  {
+    "path": "Fe/tests/performance-build.config.mjs",
+    "sha256": "da72192db0f9688032c74d6a1d4894616d9ff0195acf5a5c66d6422a717aad4b"
+  },
+  {
+    "path": "Fe/tests/product-detail-demo.test.mjs",
+    "sha256": "094b1ca0d6d9c9be587a8acc357d5df3064748f1ca90a4b4c42495217186bfd7"
+  },
+  {
+    "path": "Fe/tests/product-images.test.mjs",
+    "sha256": "25567a8c1cff00bf6b50735172ebab54c75b7260bbbe4628bfc290949e4affb8"
+  },
+  {
+    "path": "Fe/tests/serve-performance.mjs",
+    "sha256": "0d3a5ef57b3a5cca5821610c5fb60328b6dce27bb3601f946ae5db5bc44f4bcc"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/AdminCategoryController.php",
+    "sha256": "580c89cec68c7136e9a56675b2f1cea16b12cbc212b166b011d273df5550d145"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/AdminCouponController.php",
+    "sha256": "c7c13db842f4f736ed93cf0fe4e5634406cc2ec11eceb3606eb5507bc34328b9"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/AdminCustomerController.php",
+    "sha256": "1f9bbb72b5a6b6271a8cf82eb27bff024124a32a51fdb408be623316c723200c"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/AdminDashboardController.php",
+    "sha256": "f1062b695d71e8ef2fff21f17b21f34abbf128137ea81b65e23e04f1e901fe93"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/AdminOrderController.php",
+    "sha256": "e8c5d9e572e4361c923691d22f03e8706495be7f984627133bd1873db8ea0761"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/AdminProductController.php",
+    "sha256": "a8d48fc752503f62d345f808e8e24a91656effc5dede81e7a14e5fe6b014ca0a"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/ChiTietSanPhamController.php",
+    "sha256": "6f43d39351b92bf3329220682c4b99a1150ed780f41b6108f6cfefdefb6e9e3c"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/CustomerCampaignController.php",
+    "sha256": "199406458889ac6bb1db7d10452dd2b47065d8e095e900114c807b0864b515eb"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/DanhGiaController.php",
+    "sha256": "96f545b3b5426201fd110e149077ca54a39ab5ffa460db668858a4095795b23c"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/DanhMucController.php",
+    "sha256": "423d3a62bfdad7712ff2bf9006635035d05f072e0deeed4fe4800a9039ebb91b"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/DonHangController.php",
+    "sha256": "0361edc7efb1ff2ea846871c6033174c9f48222da98db276ea9f7104dc828471"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/KhachHangController.php",
+    "sha256": "bd6c158a3e757197086242c847b53f8c7461e9ebcd69e023b8789d88f835b948"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/KichThuocController.php",
+    "sha256": "72699e0554648f6dc9bfb5e7588ad11689caef807d08f8e13edba1007a8d2e1d"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/MaGiamGiaController.php",
+    "sha256": "a2883685f836ba3961c68204058808d945eed8c3f35da14ec15026c0c082ade0"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/MauSacController.php",
+    "sha256": "9ec8691266019bf20f86cf6d84d59ad2caab6651fc4972c56e6dfa4c4a4b0cea"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/ProductImageController.php",
+    "sha256": "c56a34c0d89344a53443198ffd4f6a734a8bd258fb5290700aeba388625e8cc0"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/SanPhamController.php",
+    "sha256": "a38cf96c7f4393c23dda3fb787051067c79290a4bafd5d1a01fb2278edc0194f"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/ThongKeController.php",
+    "sha256": "d7aa5062c5fe4a4c3e71e97fa0bae5f426b2ad19fc854e94a87a33860aa1eae5"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Admin/ThuongHieuController.php",
+    "sha256": "788575390e508fcfa1aa877ad34b3de14dbdb86821d6c0efdbc7d6c929e6b50d"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Api/ForgotPasswordController.php",
+    "sha256": "e7f51fc4b0d45d0af0ed7d6b2b5fddf026761a04246ef87408d7b9494b2d5071"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/AuthController.php",
+    "sha256": "ed48a1207e90afa39f9d8c3152b2bbddb0964e57ddce635e7a5284676899f53b"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/CartController.php",
+    "sha256": "7fce0471bdb5fc6e6996f03745138a65abe1789397eba5fe84d46f1c8958a7a1"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/CategoryController.php",
+    "sha256": "6c2ec1571a6bd18743295a30a056145b3ee6db2e296f1b202bf7af2f562fa39c"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/ClientController.php",
+    "sha256": "00847c4e74ea4c2ff945025842c29670369a605f0d1b290c664b467df4a22e02"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Controller.php",
+    "sha256": "25d1c1ef8e6cc8a376553faacfba2b07d9dfaee9bdbb84f14f77517580e9deb1"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/CouponController.php",
+    "sha256": "82ca21b1d99365c61f1ad12f1f2fc11f16997eb70f46f78eec0e392415b33f83"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/CustomerInboxController.php",
+    "sha256": "47cc8c6d123ff2d5570b35842c7a1182cef74e412b7d8b60d8bf1fa8cea8b39c"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/FeedbackController.php",
+    "sha256": "13efa7d7d9e41ff4b5ca72b8f01ad91ad671e4186bc96dd4db52caff7705e248"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/giaoDichController.php",
+    "sha256": "4cd9bb865f8c9e7661409219ea297c15694c7722f0889c3daf56f5e1fa9c4db2"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/OrderController.php",
+    "sha256": "2316e411d1d66e99827287d2cb43d74aac269cbdfe0cc2ab8a2c4f20376f1fa8"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/ProductController.php",
+    "sha256": "f7c0e592f4fcfae8a80e0e97dbb059f5bd8f5ac27324c0f077eddd4ad2f13782"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/ProductDetailController.php",
+    "sha256": "4d6c39e0939c59d5812fb01f0c4a7939595bfdb006fa864c4c1f90544d8dda0c"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/ProfileController.php",
+    "sha256": "7b270630187098219ca24774180730be24701deb3c0371dd4c70d1efd5ca47d9"
+  },
+  {
+    "path": "themmoik27be/app/Http/Middleware/AdminMiddleware.php",
+    "sha256": "4ba58c0a9ed8aff7aca506b93f182b9fdc36fa126b7b766b72cee34717143f3d"
+  },
+  {
+    "path": "themmoik27be/app/Http/Middleware/EngagementReady.php",
+    "sha256": "29ee51dbd1eb558ee3be3e58d9839f8ac6a59c1db4dfdd7a66fc64076dd83b3c"
+  },
+  {
+    "path": "themmoik27be/app/Http/Middleware/RejectLegacySeller.php",
+    "sha256": "83d28e4c64af2e8fdf8c3f509a2b7ec73c2c873475434b90eb46f97e2edb262f"
+  },
+  {
+    "path": "themmoik27be/app/Http/Middleware/RequireCustomer.php",
+    "sha256": "3b9c5f1e39db4315a288c665f716d0fcc6267cd123983b2c1f915feef6227e64"
+  },
+  {
+    "path": "themmoik27be/app/Http/Requests/CampaignRequest.php",
+    "sha256": "3630f77573ec160203561835cf62395090e884a4aed9993e80757779c8391a93"
+  },
+  {
+    "path": "themmoik27be/app/Http/Requests/DangKyRequest.php",
+    "sha256": "cc425381a6537fd664f6d6aeec6fe97303ebd8fe353bf632433750bf7b9efc5b"
+  },
+  {
+    "path": "themmoik27be/app/Http/Requests/DangNhapRequest.php",
+    "sha256": "f8a7632c87b915f33b9c47cf24a0027b85f83eeaabe8cb6992ab23d58c880cbe"
+  },
+  {
+    "path": "themmoik27be/app/Http/Requests/MaGiamGiaRequest.php",
+    "sha256": "a8cd237a45f7b33ad115d86f16499af1c3d61c97ec6482b08ad6d07ccb4483c5"
+  },
+  {
+    "path": "themmoik27be/app/Http/Requests/SanPhamRequest.php",
+    "sha256": "e185c9a23d1b00a81773f13ac8dda845c9714ab3991f566874bb2547c32384bf"
+  },
+  {
+    "path": "themmoik27be/app/Mail/SendOtpMail.php",
+    "sha256": "b898c5861e279b312830e0ec32f80cc91bdc01dc97db365e1f70b8a5f9b338ad"
+  },
+  {
+    "path": "themmoik27be/app/Models/AnhSanPham.php",
+    "sha256": "f6310e22f1fcc58ce311710ea26404a365e83413bbb8da8254fb424f94207a88"
+  },
+  {
+    "path": "themmoik27be/app/Models/ChiTietDonHang.php",
+    "sha256": "19550cff685776496c41af039fa6c0c474e2f9fb43ca10ba6db98db9e602662d"
+  },
+  {
+    "path": "themmoik27be/app/Models/ChiTietGioHang.php",
+    "sha256": "73256dd8bf5c1bb87f0563844b833f13c601290798ec459ac809dfd2b337984d"
+  },
+  {
+    "path": "themmoik27be/app/Models/ChiTietSanPham.php",
+    "sha256": "224da88f312eb1de6e19a8992627be14969e593ab2ede9f923f779b9051ddea9"
+  },
+  {
+    "path": "themmoik27be/app/Models/CuaHang.php",
+    "sha256": "e2cc206dac0425b564ad78fd541834c46341e3da09ed4838ca9c7ec600c67b61"
+  },
+  {
+    "path": "themmoik27be/app/Models/DanhGiaSanPham.php",
+    "sha256": "9a530c6bfca7860a7eee2fa8b932f810f44d6df9d9e889d88daf67b325d0b496"
+  },
+  {
+    "path": "themmoik27be/app/Models/DanhMuc.php",
+    "sha256": "057563b53195e0d720b3675b31b34cc8665200b204ed656bb889e4e9bf7faca2"
+  },
+  {
+    "path": "themmoik27be/app/Models/DiaChiNhanHang.php",
+    "sha256": "7d3bdc5f725c6c4e4587b979d8596dd6a56f1f016443b2f7f03a951e3ef733dd"
+  },
+  {
+    "path": "themmoik27be/app/Models/DonHang.php",
+    "sha256": "bc9f6238beff5fbdb5bf19ba37f87a75e309d19bf610dc26f1a7a741273a7de2"
+  },
+  {
+    "path": "themmoik27be/app/Models/GiaoDich.php",
+    "sha256": "7a740576e7dfd33d77d561876649af3127dd4d943bd670451461ac01fe7b4b55"
+  },
+  {
+    "path": "themmoik27be/app/Models/GioHang.php",
+    "sha256": "906ab6b05cdbc61bf136b64fc80230c285138825ecfb0f08f03d71ea727149bd"
+  },
+  {
+    "path": "themmoik27be/app/Models/HoaDon.php",
+    "sha256": "f7c5590295fe54d691a26e213e77a957e20c65052a2aaea815607aafb50e6dd8"
+  },
+  {
+    "path": "themmoik27be/app/Models/KhachHang.php",
+    "sha256": "eac8989a040e11c2cd10eb9a31030fa2840614a0cddce6dc9c4791298d41b4f5"
+  },
+  {
+    "path": "themmoik27be/app/Models/KichThuoc.php",
+    "sha256": "8455bdcc01f5fa2340287520e537205b465dc1f40aff45d7ac1b6e5753951acc"
+  },
+  {
+    "path": "themmoik27be/app/Models/MaGiamGia.php",
+    "sha256": "0a1c148b69f8fc2cde6df473d8f7b62dfa1f19c939ac218e1faa82b1340ffb3c"
+  },
+  {
+    "path": "themmoik27be/app/Models/MauSac.php",
+    "sha256": "6e55b9a8cc2caae5ad265e177f3122d7de76d134734b106377dcec7d82e41056"
+  },
+  {
+    "path": "themmoik27be/app/Models/SanPham.php",
+    "sha256": "586dda07f90d0c65701ed3f33c020bb11a4fa82c3f9519adabae2d2887e16704"
+  },
+  {
+    "path": "themmoik27be/app/Models/ThuongHieu.php",
+    "sha256": "82498097cbf7802162a50aa55504bf226fa524b2b28dd2417bbf1acdf74690da"
+  },
+  {
+    "path": "themmoik27be/app/Models/User.php",
+    "sha256": "d323459741136a6308c95897b6f95d39d038fd4445cbadb3306b7ffb2e1d30ed"
+  },
+  {
+    "path": "themmoik27be/app/Providers/AppServiceProvider.php",
+    "sha256": "436a47d9d329e622aaade1f09b63a5feb84d047da83d3bbe851dc7c8e98c02f5"
+  },
+  {
+    "path": "themmoik27be/app/Services/CheckoutService.php",
+    "sha256": "e45b19a05f85bad41be7317b17d564de0e06b09c3a16570a93f41604bb5e2f9e"
+  },
+  {
+    "path": "themmoik27be/app/Services/CustomerCampaigns.php",
+    "sha256": "176f1ad69d1dac076d01db7bbb2f55ae9f66be8b2ee2c0d6f3a98abb2244b4a9"
+  },
+  {
+    "path": "themmoik27be/app/Services/DemoPayment.php",
+    "sha256": "124c8164754da4ee6304a657366655f43af31596f09591d91bd3fddd0325f06c"
+  },
+  {
+    "path": "themmoik27be/app/Services/LoyaltyAudience.php",
+    "sha256": "4a604cd259d207fc31d736f19cbfed3431f698b0a0abbb21ac4dcf04d4bcb884"
+  },
+  {
+    "path": "themmoik27be/app/Services/OrderLifecycle.php",
+    "sha256": "a081f27ad0f75711069748b6f462bc0355542d22430f6c2479c2ca4a7e83befd"
+  },
+  {
+    "path": "themmoik27be/app/Services/VoucherWallet.php",
+    "sha256": "8449da67551c025bd12986eeaf2ae78135b77b4a16c80bc0efd804e81065151e"
+  },
+  {
+    "path": "themmoik27be/database/migrations/0001_01_01_000000_create_users_table.php",
+    "sha256": "10d79883bc08ce46510f9ad8b1830b4d06d586dc56ae2c8bac3b3e491f69a90f"
+  },
+  {
+    "path": "themmoik27be/database/migrations/0001_01_01_000001_create_cache_table.php",
+    "sha256": "fbb4665e5a977e71df4e74ec75b3c06ca4f17ad0de7138fe9786639189978e77"
+  },
+  {
+    "path": "themmoik27be/database/migrations/0001_01_01_000002_create_jobs_table.php",
+    "sha256": "df4910687180313a14a3f96a8bddd808ae145ed1b107cd772caf865c0dc2b746"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000000_create_personal_access_tokens_table.php",
+    "sha256": "bbba289473ac05d474f0d51f705aaf894b8bb252f2fa2433437560dc10ddeb38"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000001_create_danh_mucs_table.php",
+    "sha256": "1174ef0615702273a08de43ab70be7d68182a5e9334884bde62b0bf4704076f6"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000002_create_thuong_hieus_table.php",
+    "sha256": "11074e4611ecdefcb9b7f760b8d5857d64f1645d22ed9640a42a48d938d0cec2"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000003_create_mau_sacs_table.php",
+    "sha256": "256c078bc3fef21299a23f186dea3dc46271ec6ea4b5e7eab8231c092b0630fb"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000004_create_kich_thuocs_table.php",
+    "sha256": "a10f10828854fabb9080f9b38971d3342414042b798c160fc06b24bf5cc16f3a"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000005_create_san_phams_table.php",
+    "sha256": "bdc7315ed9e5194e3993f87cdba5d6e4554d9ae7e7ab848d9ced58e239a73d58"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000006_create_chi_tiet_san_phams_table.php",
+    "sha256": "d90c36284628efe8ef2c99c95c6ee1cdec15c2f59b544e73456fa165d4d9f2dc"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000007_create_anh_san_phams_table.php",
+    "sha256": "d0b052d3f51bc17c67ce241f671075b7ee61dd4ac9dda7b7d860974d812854b7"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000008_create_khach_hangs_table.php",
+    "sha256": "89d887e573bef998ead1ce5d578107743febe3e4da5f3937d609b19e3f5c1c5c"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000009_create_dia_chi_nhan_hangs_table.php",
+    "sha256": "6843e7f281f9c6fcdfdfea9494a09ddff0b6d07e25454c016f6ae49a85df2452"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000010_create_gio_hangs_table.php",
+    "sha256": "561d3a099202ee0158fed17cf0ab165ec290475c7c10fe49f6c6a203d293ca58"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000011_create_chi_tiet_gio_hangs_table.php",
+    "sha256": "bb31af935519f0cd99721ca19be00631b6de3f93906ac1f683ae998f05901403"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000012_create_ma_giam_gias_table.php",
+    "sha256": "6400543a3a94dbc10e63d4683bbe7a670871dd59e13382665be92e57d5e9161a"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000013_create_don_hangs_table.php",
+    "sha256": "ae8ad0f43c35e287ec6d25fe79459f034d43c71984edc7947786c155cc9c3b62"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000014_create_chi_tiet_don_hangs_table.php",
+    "sha256": "2099ec33d131eb289d45e8b811fab7224fc1676afe2e5c681ccd1111cb9ab16d"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000015_create_danh_gia_san_phams_table.php",
+    "sha256": "90becfd3b30d49f6c36a3e9f21daefc16278605b7f4b0ce0c85cea60aa2455e5"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_23_000016_create_hoa_dons_and_giao_diches_table.php",
+    "sha256": "cd852eda09322320e445d81de2f996ea85e22aed4297cd0ee9afd239f35ad2db"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_09_29_000001_add_google_and_otp_to_khach_hangs_table.php",
+    "sha256": "b89c70f18c2c48e91c79eae56c30f42c384fd1d56510edb7cd384457c16352e7"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_10_23_132110_add_id_cua_hang_to_san_phams_table.php",
+    "sha256": "3b590ac9ef704f1c04eaa455ef9d4f6db170d8661086fbb1abb3d4b06372a615"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_11_03_000001_add_voucher_eligibility_and_order_reservations.php",
+    "sha256": "7a9ad717004bd8b350b9c958ebd6c2dc9d6407c2180cf263a959f3ed4a3512a6"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_11_04_000001_add_image_to_product_variants.php",
+    "sha256": "1a93a5cb8bc9545042b4e0a7761cdad7aa06f6bfaf4171c8eed9302edcc30849"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_11_06_000001_create_customer_engagement_tables.php",
+    "sha256": "3c25a9a9306f3215e214e3eac8df9d022e3e71cb8564171871e3f9690d5407ee"
+  },
+  {
+    "path": "themmoik27be/routes/api.php",
+    "sha256": "5d6fb34326e4a1be494ac81006693e0c382193c64da85b421c893ebd074a3856"
+  },
+  {
+    "path": "themmoik27be/routes/console.php",
+    "sha256": "62c94da9dc69aed93786354dfaa1bb62d836acc97e7409a4ffea920f03bdc81d"
+  },
+  {
+    "path": "themmoik27be/routes/web.php",
+    "sha256": "015f45b294109094f16ad81ea2dbfcf58f3ee20819cf128fdf49a278ccabc19e"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/ApiAccessBoundaryTest.php",
+    "sha256": "9f1f62c78797ed81641dd3843500c10e2b5109894f8d76085ada3de365454e0e"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/BrowserUatPreparationTest.php",
+    "sha256": "3ff979640cb041c7c5a80e59c3a7a46bd3438306f3e475e838cf45a5b0649bfd"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/CheckoutIntegrityTest.php",
+    "sha256": "181935aee971bfe3bc9334ca15b50da4704be81a992e44a2de94d2f7d4717b2b"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/CustomerEngagementTest.php",
+    "sha256": "2922c2136100a56f38dd0e753ba0ad3cb82b12a84b21a0e2092382da46884f47"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/ExampleTest.php",
+    "sha256": "aaa4a192fb4aa96d4e81eda06a29968da3d9a73b71026b87a67297e66dd985b8"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/ProductCatalogPhaseTwoTest.php",
+    "sha256": "d612b57d054c7a077a2bc64eb3504c18054b2929459314c987cdc42c01bbe4b2"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/ProductDetailDemoTest.php",
+    "sha256": "a7cd48b68f67b3418c7c37bceb5c420ef93f50b4e4780322945d773297385ae7"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/ProductImagesTest.php",
+    "sha256": "2e13d7a266b9eb8d350df2decbc859e3d1d3afda45a40ef1d987cab0a28093d1"
+  },
+  {
+    "path": "themmoik27be/tests/mysql-uat.mjs",
+    "sha256": "a230f45f819fe16502087f21bf12a2718bc318a686615589f9e89219946981f9"
+  },
+  {
+    "path": "themmoik27be/tests/Support/browser-uat-router.php",
+    "sha256": "536416f705e167bb2f375beddb76e81cc651b2447d9f6fcde3fb2f1d56f54931"
+  },
+  {
+    "path": "themmoik27be/tests/Support/checkout-browser-router.php",
+    "sha256": "7de26d5f777f5f394a885217a5e08a7a5faaddadb8f2ce2d5c253da2cb07d796"
+  },
+  {
+    "path": "themmoik27be/tests/Support/EngagementUatRouter.php",
+    "sha256": "573a8f269b1350b1bc100474b98136bf4cc06e5eac35d07b35f74439b2d43f49"
+  },
+  {
+    "path": "themmoik27be/tests/Support/EngagementUatWorker.php",
+    "sha256": "db2d0f7e0b2704185616f2b821972616bdab5bea8cfa7753e9eceed692cf0752"
+  },
+  {
+    "path": "themmoik27be/tests/Support/IsolatedApiTestCase.php",
+    "sha256": "106f591b80b62df21b369ebeecfbb169a08e6c36bf1a882d0de03fce5dc818c3"
+  },
+  {
+    "path": "themmoik27be/tests/Support/MySqlUat.php",
+    "sha256": "9cdb515746a2748cc32554c9371be4dc752c8a9c49cfc416bc1532b68d060178"
+  },
+  {
+    "path": "themmoik27be/tests/Support/MySqlUatRouter.php",
+    "sha256": "cee5c48f78ffb36587c7cc7309d98fd378928cc30fa48740b9dfd1da7ef14254"
+  },
+  {
+    "path": "themmoik27be/tests/Support/PrepareCatalogDemo.php",
+    "sha256": "3a28cfa671535192b5d7d3d12b301b716099fa23893c0e7942017876e2ebfd18"
+  },
+  {
+    "path": "themmoik27be/tests/Support/PrepareEngagementUat.php",
+    "sha256": "4500e29e94e2e96c55e8d995c61608425bea9c05a187046e58d4a56920046675"
+  },
+  {
+    "path": "themmoik27be/tests/TestCase.php",
+    "sha256": "c7c209f5579c42647c1f7b2a79ac828e8b54ac62a98442045a6e94fa2c0d0ebc"
+  },
+  {
+    "path": "themmoik27be/tests/Unit/ExampleTest.php",
+    "sha256": "ffacae5c1a2a44c809420af5b3b404910da1b12167d58764dac6d10b8ba8cfaf"
+  }
+]

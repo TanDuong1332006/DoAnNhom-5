@@ -1,0 +1,39 @@
+{
+    "id": 58,
+    "id_cua_hang": null,
+    "id_danh_muc": 3,
+    "id_thuong_hieu": 5,
+    "ma_san_pham": "SFP-VAYDAM-10",
+    "ten_san_pham": "Chân Váy Bút Chì Công Sở Co Giãn Ôm Tôn Dáng",
+    "slug_san_pham": "chan-vay-but-chi-cong-so-co-gian-om-ton-dang-eept",
+    "gia_ban": "420000.00",
+    "gia_khuyen_mai": "350000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+    "mo_ta_ngan": "Chân váy chuẩn mực cho quý cô văn phòng, xẻ sau nhẹ nhàng bước đi linh hoạt.",
+    "mo_ta_chi_tiet": "Chân váy chuẩn mực cho quý cô văn phòng, xẻ sau nhẹ nhàng bước đi linh hoạt. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 54,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 1751,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:53.000000Z",
+    "updated_at": "2026-09-27T09:05:53.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 107,
+            "id_san_pham": 58,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        },
+        {
+            "id": 108,
+            "id_san_pham": 58,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        }
+    ]
+}

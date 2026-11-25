@@ -1,0 +1,763 @@
+[
+  {
+    "id": 1,
+    "sku": "SP-AONAM-01",
+    "name": "Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp",
+    "slug": "ao-thun-nam-co-tron-cotton-supima",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "black-crew-tee",
+      "white-crew-tee"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 2,
+    "sku": "SP-AONAM-02",
+    "name": "Áo Sơ Mi Nam Tay Dài Oxford Form Regular",
+    "slug": "ao-so-mi-nam-tay-dai-oxford",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 5,
+    "sku": "SP-AONU-01",
+    "name": "Áo Len Dệt Kim Cổ Tim Phong Cách Hàn Quốc",
+    "slug": "ao-len-det-kim-co-tim-han-quoc",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 6,
+    "sku": "SP-AOKHOAC-01",
+    "name": "Áo Khoác Blazer Nam 2 Lớp Form Rộng Hiện Đại",
+    "slug": "ao-khoac-blazer-nam-2-lop",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "blazer-cream"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 9,
+    "sku": "SFP-AONAM-01",
+    "name": "Áo Thun Nam Boxy Heavyweight Cotton Supima SOFEP",
+    "slug": "ao-thun-nam-boxy-heavyweight-cotton-supima-sofep-n3qe",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "black-crew-tee",
+      "white-crew-tee"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 10,
+    "sku": "SFP-AONAM-02",
+    "name": "Áo Sơ Mi Nam Oxford Cổ Button-Down Relaxed Fit",
+    "slug": "ao-so-mi-nam-oxford-co-button-down-relaxed-fit-tvli",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 11,
+    "sku": "SFP-AONAM-03",
+    "name": "Áo Polo Nam Dệt Kim Mercerized Cotton Ánh Kim",
+    "slug": "ao-polo-nam-det-kim-mercerized-cotton-anh-kim-4daj",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "polo-model"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 12,
+    "sku": "SFP-AONAM-04",
+    "name": "Áo Thun Nam Graphic Oversized SOFEP Studio 2026",
+    "slug": "ao-thun-nam-graphic-oversized-sofep-studio-2026-mrwd",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 13,
+    "sku": "SFP-AONAM-05",
+    "name": "Áo Sơ Mi Nam Cuban Collar Hoạ Tiết Minimalist",
+    "slug": "ao-so-mi-nam-cuban-collar-hoa-tiet-minimalist-atgw",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 14,
+    "sku": "SFP-AONAM-06",
+    "name": "Áo Thun Nam Tay Dài Waffle Knit Tổ Ong Thu Đông",
+    "slug": "ao-thun-nam-tay-dai-waffle-knit-to-ong-thu-dong-7iyy",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 15,
+    "sku": "SFP-AONAM-07",
+    "name": "Áo Polo Nam Zip Collar Khóa Kéo Kim Loại Sang Trọng",
+    "slug": "ao-polo-nam-zip-collar-khoa-keo-kim-loai-sang-trong-jbkp",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 16,
+    "sku": "SFP-AONAM-08",
+    "name": "Áo Sơ Mi Nam Vải Đũi Linen Thoáng Mát Tự Nhiên",
+    "slug": "ao-so-mi-nam-vai-dui-linen-thoang-mat-tu-nhien-i1k9",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "white-collared-shirt"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 17,
+    "sku": "SFP-AONAM-09",
+    "name": "Áo Thun Nam Cổ Tròn Clean Fit Trơn Màu Đen Obsidian",
+    "slug": "ao-thun-nam-co-tron-clean-fit-tron-mau-den-obsidian-17zc",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "black-crew-tee",
+      "white-crew-tee"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 18,
+    "sku": "SFP-AONAM-10",
+    "name": "Áo Ba Lỗ Nam Tanktop Ribbed Co Giãn Tôn Thể Hình",
+    "slug": "ao-ba-lo-nam-tanktop-ribbed-co-gian-ton-the-hinh-uhki",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 19,
+    "sku": "SFP-AONAM-11",
+    "name": "Áo Sơ Mi Nam Denim Chambray Cổ Bẻ Nam Tính",
+    "slug": "ao-so-mi-nam-denim-chambray-co-be-nam-tinh-gdjj",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 20,
+    "sku": "SFP-AONAM-12",
+    "name": "Áo Thun Nam Raglan Tay Phối Màu Phong Cách Retro",
+    "slug": "ao-thun-nam-raglan-tay-phoi-mau-phong-cach-retro-xksl",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 21,
+    "sku": "SFP-AONAM-13",
+    "name": "Áo Polo Nam Bo Cổ Dệt Họa Tiết Houndstooth",
+    "slug": "ao-polo-nam-bo-co-det-hoa-tiet-houndstooth-xx3u",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 22,
+    "sku": "SFP-AONAM-14",
+    "name": "Áo Sơ Mi Nam Flannel Kẻ Caro Phong Cách Grunge",
+    "slug": "ao-so-mi-nam-flannel-ke-caro-phong-cach-grunge-n0kb",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 23,
+    "sku": "SFP-AONAM-15",
+    "name": "Áo Thun Nam Drop-Shoulder Acid Wash Vintage Streetwear",
+    "slug": "ao-thun-nam-drop-shoulder-acid-wash-vintage-streetwear-urij",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 24,
+    "sku": "SFP-AONAM-16",
+    "name": "Áo Sơ Mi Nam Lụa Satin Trơn Dự Tiệc Sang Trọng",
+    "slug": "ao-so-mi-nam-lua-satin-tron-du-tiec-sang-trong-554s",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 25,
+    "sku": "SFP-AONAM-17",
+    "name": "Áo Thun Nam Form Rộng Thêu Chữ Nổi SOFEP Haute Atelier",
+    "slug": "ao-thun-nam-form-rong-theu-chu-noi-sofep-haute-atelier-tgiu",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 26,
+    "sku": "SFP-AONAM-18",
+    "name": "Áo Sơ Mi Nam Cổ Trụ Mandarin Tối Giản Đương Đại",
+    "slug": "ao-so-mi-nam-co-tru-mandarin-toi-gian-duong-dai-hizy",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "white-collared-shirt"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 27,
+    "sku": "SFP-AONAM-19",
+    "name": "Áo Thun Nam Cổ Tim V-Neck Co Giãn Sợi Modal Thoáng Khí",
+    "slug": "ao-thun-nam-co-tim-v-neck-co-gian-soi-modal-thoang-khi-yeer",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 28,
+    "sku": "SFP-AONAM-20",
+    "name": "Áo Polo Nam Pique Cotton Kháng Khuẩn Khử Mùi Active",
+    "slug": "ao-polo-nam-pique-cotton-khang-khuan-khu-mui-active-kesm",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "polo-model"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 69,
+    "sku": "SFP-AONU-01",
+    "name": "Áo Croptop Nữ Tay Ngắn Cổ Tròn Ôm Body Cotton SOFEP",
+    "slug": "ao-croptop-nu-tay-ngan-co-tron-om-body-cotton-sofep-rpll",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 70,
+    "sku": "SFP-AONU-02",
+    "name": "Áo Sơ Mi Nữ Lụa Cổ Nơ Phong Cách Công Sở Paris",
+    "slug": "ao-so-mi-nu-lua-co-no-phong-cach-cong-so-paris-33cr",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 71,
+    "sku": "SFP-AONU-03",
+    "name": "Áo Kiểu Nữ Trễ Vai Tay Bồng Bo Chun Nữ Tính",
+    "slug": "ao-kieu-nu-tre-vai-tay-bong-bo-chun-nu-tinh-d1x6",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 72,
+    "sku": "SFP-AONU-04",
+    "name": "Áo Len Nữ Cổ Lọ Dệt Kim Giữ Ấm Mùa Đông",
+    "slug": "ao-len-nu-co-lo-det-kim-giu-am-mua-dong-qcyg",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 73,
+    "sku": "SFP-AONU-05",
+    "name": "Áo Thun Nữ Oversized In Hình Chữ Nổi Minimalist",
+    "slug": "ao-thun-nu-oversized-in-hinh-chu-noi-minimalist-x6sx",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 74,
+    "sku": "SFP-AONU-06",
+    "name": "Áo Hai Dây Nữ Lụa Satin Viền Ren Cổ V Gợi Cảm",
+    "slug": "ao-hai-day-nu-lua-satin-vien-ren-co-v-goi-cam-kn7p",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 75,
+    "sku": "SFP-AONU-07",
+    "name": "Áo Sơ Mi Nữ Voan Kẻ Sọc Dáng Rộng Dạo Phố",
+    "slug": "ao-so-mi-nu-voan-ke-soc-dang-rong-dao-pho-no2k",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 76,
+    "sku": "SFP-AONU-08",
+    "name": "Áo Kiểu Nữ Cổ Vuông Tay Nhún Điệu Đà Tiểu Thư",
+    "slug": "ao-kieu-nu-co-vuong-tay-nhun-dieu-da-tieu-thu-utax",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 77,
+    "sku": "SFP-AONU-09",
+    "name": "Áo Ba Lỗ Nữ Dệt Rib Co Giãn Tôn Dáng Thể Thao",
+    "slug": "ao-ba-lo-nu-det-rib-co-gian-ton-dang-the-thao-xfvq",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 78,
+    "sku": "SFP-AONU-10",
+    "name": "Áo Nỉ Nữ Hoodie Form Rộng Phong Cách Ulzzang Hàn Quốc",
+    "slug": "ao-ni-nu-hoodie-form-rong-phong-cach-ulzzang-han-quoc-qqrf",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "hoodie-black"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 79,
+    "sku": "SFP-AONU-11",
+    "name": "Áo Sơ Mi Nữ Trắng Cổ Đức Basic Vải Kate Lụa",
+    "slug": "ao-so-mi-nu-trang-co-duc-basic-vai-kate-lua-kooa",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 80,
+    "sku": "SFP-AONU-12",
+    "name": "Áo Len Nữ Cardigan Nút Cài Ngọc Trai Vintage",
+    "slug": "ao-len-nu-cardigan-nut-cai-ngoc-trai-vintage-llzp",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "knit-cardigan-white"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 81,
+    "sku": "SFP-AONU-13",
+    "name": "Áo Croptop Nữ Dài Tay Khóa Kéo Hai Đầu Sành Điệu",
+    "slug": "ao-croptop-nu-dai-tay-khoa-keo-hai-dau-sanh-dieu-vdc3",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 82,
+    "sku": "SFP-AONU-14",
+    "name": "Áo Kiểu Nữ Thắt Nơ Lưng Hở Vai Gợi Cảm Đi Tiệc",
+    "slug": "ao-kieu-nu-that-no-lung-ho-vai-goi-cam-di-tiec-x0mu",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 83,
+    "sku": "SFP-AONU-15",
+    "name": "Áo Thun Nữ Cổ Tim Vải Tencel Mát Mịn Thấm Hút",
+    "slug": "ao-thun-nu-co-tim-vai-tencel-mat-min-tham-hut-iitz",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 84,
+    "sku": "SFP-AONU-16",
+    "name": "Áo Sơ Mi Nữ Tay Lỡ Vải Đũi Mộc Mạc Tối Giản",
+    "slug": "ao-so-mi-nu-tay-lo-vai-dui-moc-mac-toi-gian-v3te",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "white-shirt-hanger"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 85,
+    "sku": "SFP-AONU-17",
+    "name": "Áo Corset Nữ Định Hình Eo Gợi Cảm Phối Ren",
+    "slug": "ao-corset-nu-dinh-hinh-eo-goi-cam-phoi-ren-qedf",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 86,
+    "sku": "SFP-AONU-18",
+    "name": "Áo Dệt Kim Nữ Cộc Tay Cổ Polo Trẻ Trung Năng Động",
+    "slug": "ao-det-kim-nu-coc-tay-co-polo-tre-trung-nang-dong-dyai",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 87,
+    "sku": "SFP-AONU-19",
+    "name": "Áo Peplum Nữ Che Khuyết Điểm Bụng Tôn Vóc Dáng",
+    "slug": "ao-peplum-nu-che-khuyet-diem-bung-ton-voc-dang-2yfh",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 88,
+    "sku": "SFP-AONU-20",
+    "name": "Áo Thun Nữ Body Cổ Khóa Half-Zip Thể Thao Cao Cấp",
+    "slug": "ao-thun-nu-body-co-khoa-half-zip-the-thao-cao-cap-auiv",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 89,
+    "sku": "SFP-AOKHOAC-01",
+    "name": "Áo Khoác Blazer Nam 2 Hàng Khuy Double-Breasted SOFEP",
+    "slug": "ao-khoac-blazer-nam-2-hang-khuy-double-breasted-sofep-7g1d",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 90,
+    "sku": "SFP-AOKHOAC-02",
+    "name": "Áo Khoác Bomber Dù 2 Lớp Chống Gió Chống Nước",
+    "slug": "ao-khoac-bomber-du-2-lop-chong-gio-chong-nuoc-elfl",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 91,
+    "sku": "SFP-AOKHOAC-03",
+    "name": "Áo Khoác Blazer Nữ Cắt Lửng Cropped Thời Thượng",
+    "slug": "ao-khoac-blazer-nu-cat-lung-cropped-thoi-thuong-uard",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 92,
+    "sku": "SFP-AOKHOAC-04",
+    "name": "Áo Khoác Denim Bò Unisex Lót Lông Cừu Ấm Áp Mùa Đông",
+    "slug": "ao-khoac-denim-bo-unisex-lot-long-cuu-am-ap-mua-dong-xmmc",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "denim-neutral"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 93,
+    "sku": "SFP-AOKHOAC-05",
+    "name": "Áo Khoác Măng Tô Dạ Dáng Dài Thu Đông Đẳng Cấp",
+    "slug": "ao-khoac-mang-to-da-dang-dai-thu-dong-dang-cap-qqrn",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 94,
+    "sku": "SFP-AOKHOAC-06",
+    "name": "Áo Khoác Gió Thể Thao Chống Nước Có Mũ Trùm Đa Năng",
+    "slug": "ao-khoac-gio-the-thao-chong-nuoc-co-mu-trum-da-nang-8gxv",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 95,
+    "sku": "SFP-AOKHOAC-07",
+    "name": "Áo Khoác Blazer Nam Form Rộng Relaxed Fit Smart Casual",
+    "slug": "ao-khoac-blazer-nam-form-rong-relaxed-fit-smart-casual-pz3i",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "blazer-cream"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 96,
+    "sku": "SFP-AOKHOAC-08",
+    "name": "Áo Khoác Da Biker Da Cừu Cao Cấp Khóa Xéo Đinh Tán",
+    "slug": "ao-khoac-da-biker-da-cuu-cao-cap-khoa-xeo-dinh-tan-liwr",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 97,
+    "sku": "SFP-AOKHOAC-09",
+    "name": "Áo Khoác Cardigan Len Vặn Thừng Dáng Rộng Vintage",
+    "slug": "ao-khoac-cardigan-len-van-thung-dang-rong-vintage-etk1",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "knit-cardigan-white"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 98,
+    "sku": "SFP-AOKHOAC-10",
+    "name": "Áo Khoác Kaki Safari 4 Túi Hộp Quân Đội Đa Dụng",
+    "slug": "ao-khoac-kaki-safari-4-tui-hop-quan-doi-da-dung-9uoh",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 99,
+    "sku": "SFP-AOKHOAC-11",
+    "name": "Áo Blazer Nữ Kẻ Caro Houndstooth Nanh Sói Hoàng Gia",
+    "slug": "ao-blazer-nu-ke-caro-houndstooth-nanh-soi-hoang-gia-vmip",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 100,
+    "sku": "SFP-AOKHOAC-12",
+    "name": "Áo Khoác Phao Lông Vũ Dáng Ngắn Siêu Nhẹ 800FP",
+    "slug": "ao-khoac-phao-long-vu-dang-ngan-sieu-nhe-800fp-cxxn",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "black-jacket"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 101,
+    "sku": "SFP-AOKHOAC-13",
+    "name": "Áo Khoác Varsity Jacket Phối Tay Da Học Đường Trẻ Trung",
+    "slug": "ao-khoac-varsity-jacket-phoi-tay-da-hoc-duong-tre-trung-epcp",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 102,
+    "sku": "SFP-AOKHOAC-14",
+    "name": "Áo Khoác Trench Coat Dáng Dài Phong Cách London Cổ Điển",
+    "slug": "ao-khoac-trench-coat-dang-dai-phong-cach-london-co-dien-z4pv",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 103,
+    "sku": "SFP-AOKHOAC-15",
+    "name": "Áo Khoác Gió Nam Nữ Trượt Nước Đi Mưa Có Phản Quang",
+    "slug": "ao-khoac-gio-nam-nu-truot-nuoc-di-mua-co-phan-quang-gisa",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 104,
+    "sku": "SFP-AOKHOAC-16",
+    "name": "Áo Blazer Nam Linen Không Đệm Vai Thoáng Mát Mùa Hè",
+    "slug": "ao-blazer-nam-linen-khong-dem-vai-thoang-mat-mua-he-sdur",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [
+      "blazer-cream"
+    ],
+    "status": "ready",
+    "reason": "Minh họa loại áo; không phải ảnh thực tế, không xác nhận chất liệu/họa tiết/màu từng biến thể."
+  },
+  {
+    "id": 105,
+    "sku": "SFP-AOKHOAC-17",
+    "name": "Áo Khoác Nhựa Dù Trong Suốt Thời Trang Độc Lạ Y2K",
+    "slug": "ao-khoac-nhua-du-trong-suot-thoi-trang-doc-la-y2k-zxyo",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 106,
+    "sku": "SFP-AOKHOAC-18",
+    "name": "Áo Khoác Nỉ Hoodie Zip 2 Chiều Form Rộng Streetwear",
+    "slug": "ao-khoac-ni-hoodie-zip-2-chieu-form-rong-streetwear-ymbx",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 107,
+    "sku": "SFP-AOKHOAC-19",
+    "name": "Áo Khoác Kimono Cách Điệu Vải Gấm Sang Trọng Dạo Phố",
+    "slug": "ao-khoac-kimono-cach-dieu-vai-gam-sang-trong-dao-pho-0rba",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 108,
+    "sku": "SFP-AOKHOAC-20",
+    "name": "Áo Blazer Nữ Không Tay Dáng Dài Vest Gilet Thanh Lịch",
+    "slug": "ao-blazer-nu-khong-tay-dang-dai-vest-gilet-thanh-lich-8o0d",
+    "status_before": 1,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 170,
+    "sku": "SELLER-1ZHMS2SVFJ",
+    "name": "Áo thun",
+    "slug": "ao-thun-sstmnzox",
+    "status_before": 0,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  },
+  {
+    "id": 171,
+    "sku": "SELLER-ETBOUZX7M6",
+    "name": "Áo Công Trình",
+    "slug": "ao-cong-trinh-k9ggmyzr",
+    "status_before": 0,
+    "kind": "illustration",
+    "assets": [],
+    "status": "pending",
+    "reason": "Chưa chọn được ảnh đủ phù hợp hoặc thiếu mô tả; giữ nguyên dữ liệu, không gán ảnh sai."
+  }
+]

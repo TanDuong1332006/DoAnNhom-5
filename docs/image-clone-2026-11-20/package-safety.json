@@ -1,0 +1,17 @@
+{
+  "catalog_tables": [
+    "danh_mucs",
+    "thuong_hieus",
+    "mau_sacs",
+    "kich_thuocs",
+    "san_phams",
+    "anh_san_phams",
+    "chi_tiet_san_phams"
+  ],
+  "account_order_token_tables_in_package": 0,
+  "absolute_origins_or_machine_paths_in_catalog_manifest": 0,
+  "exif_images": 167,
+  "exif_review": "Only constant byte/numeric tags 20752, 20753, 20754; no GPS/author/string tags",
+  "corrupt_catalog_blocked_before_database_setup": true,
+  "images": 167
+}

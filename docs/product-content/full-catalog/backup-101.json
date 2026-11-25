@@ -1,0 +1,39 @@
+{
+    "id": 101,
+    "id_cua_hang": null,
+    "id_danh_muc": 5,
+    "id_thuong_hieu": 1,
+    "ma_san_pham": "SFP-AOKHOAC-13",
+    "ten_san_pham": "Áo Khoác Varsity Jacket Phối Tay Da Học Đường Trẻ Trung",
+    "slug_san_pham": "ao-khoac-varsity-jacket-phoi-tay-da-hoc-duong-tre-trung-epcp",
+    "gia_ban": "820000.00",
+    "gia_khuyen_mai": "690000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+    "mo_ta_ngan": "Thân dạ phối tay da tổng hợp cao cấp, logo chữ thêu khăn xù nổi bật ngực áo.",
+    "mo_ta_chi_tiet": "Thân dạ phối tay da tổng hợp cao cấp, logo chữ thêu khăn xù nổi bật ngực áo. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 172,
+    "is_noi_bat": 1,
+    "is_flash_sale": 1,
+    "luot_xem": 2349,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:54.000000Z",
+    "updated_at": "2026-09-27T09:05:54.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 193,
+            "id_san_pham": 101,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 194,
+            "id_san_pham": 101,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        }
+    ]
+}

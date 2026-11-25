@@ -1,0 +1,11 @@
+{
+  "xlsx_rows": [
+    168,
+    500,
+    355
+  ],
+  "sheets": 4,
+  "dropdowns": 3,
+  "freeze_panes": true,
+  "test_approvals_absent": true
+}

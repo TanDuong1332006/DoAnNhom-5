@@ -1,0 +1,47 @@
+{
+    "id": 84,
+    "id_cua_hang": null,
+    "id_danh_muc": 4,
+    "id_thuong_hieu": 6,
+    "ma_san_pham": "SFP-AONU-16",
+    "ten_san_pham": "Áo Sơ Mi Nữ Tay Lỡ Vải Đũi Mộc Mạc Tối Giản",
+    "slug_san_pham": "ao-so-mi-nu-tay-lo-vai-dui-moc-mac-toi-gian-v3te",
+    "gia_ban": "410000.00",
+    "gia_khuyen_mai": "340000.00",
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/84/illustration-d7f7dcb9-dc4a-4670-b900-b4c1da64748f.jpg",
+    "mo_ta_ngan": "Tay lỡ duyên dáng, cúc áo bằng gỗ dừa thân thiện môi trường.",
+    "mo_ta_chi_tiet": "Tay lỡ duyên dáng, cúc áo bằng gỗ dừa thân thiện môi trường. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 114,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 1211,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:54.000000Z",
+    "updated_at": "2026-10-30T16:47:25.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 159,
+            "id_san_pham": 84,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 160,
+            "id_san_pham": 84,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 342,
+            "id_san_pham": 84,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/84/illustration-d7f7dcb9-dc4a-4670-b900-b4c1da64748f.jpg",
+            "thu_tu": 0,
+            "created_at": null,
+            "updated_at": null
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "images": [
+      {
+        "alt": "Ảnh 1",
+        "loaded": true,
+        "src": "http://127.0.0.1:8000/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg"
+      },
+      {
+        "alt": "Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp",
+        "loaded": true,
+        "src": "http://127.0.0.1:8000/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg"
+      },
+      {
+        "alt": "Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp",
+        "loaded": true,
+        "src": "http://127.0.0.1:8000/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg"
+      }
+    ],
+    "labels": true,
+    "title": "Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp",
+    "url": "http://localhost:5173/san-pham/ao-thun-nam-co-tron-cotton-supima"
+  },
+  {
+    "id": 3,
+    "images": [
+      {
+        "alt": "Ảnh 1",
+        "loaded": true,
+        "src": "http://127.0.0.1:8000/api/product-images/3/illustration-cc8516e1-45f2-4d7e-aa31-7ed16d81e21e.jpg"
+      },
+      {
+        "alt": "Quần Jean Nam Slimfit Denim Co Giãn Nhẹ",
+        "loaded": true,
+        "src": "http://127.0.0.1:8000/api/product-images/3/illustration-cc8516e1-45f2-4d7e-aa31-7ed16d81e21e.jpg"
+      },
+      {
+        "alt": "Quần Jean Nam Slimfit Denim Co Giãn Nhẹ",
+        "loaded": true,
+        "src": "http://127.0.0.1:8000/api/product-images/3/illustration-cc8516e1-45f2-4d7e-aa31-7ed16d81e21e.jpg"
+      }
+    ],
+    "labels": true,
+    "title": "Quần Jean Nam Slimfit Denim Co Giãn Nhẹ",
+    "url": "http://localhost:5173/san-pham/quan-jean-nam-slimfit-denim"
+  },
+  {
+    "id": 4,
+    "images": [
+      {
+        "alt": "Ảnh 1",
+        "loaded": true,
+        "src": "http://127.0.0.1:8000/api/product-images/4/illustration-4a74edd6-e428-46a3-87ed-afb7eeefaba4.jpg"
+      },
+      {
+        "alt": "Đầm Xòe Nữ Cổ Vuông Thanh Lịch Dự Tiệc",
+        "loaded": true,
+        "src": "http://127.0.0.1:8000/api/product-images/4/illustration-4a74edd6-e428-46a3-87ed-afb7eeefaba4.jpg"
+      },
+      {
+        "alt": "Đầm Xòe Nữ Cổ Vuông Thanh Lịch Dự Tiệc",
+        "loaded": true,
+        "src": "http://127.0.0.1:8000/api/product-images/4/illustration-4a74edd6-e428-46a3-87ed-afb7eeefaba4.jpg"
+      }
+    ],
+    "labels": true,
+    "title": "Đầm Xòe Nữ Cổ Vuông Thanh Lịch Dự Tiệc",
+    "url": "http://localhost:5173/san-pham/dam-xoe-nu-co-vuong-thanh-lich"
+  },
+  {
+    "id": 7,
+    "images": [
+      {
+        "alt": "Ảnh 1",
+        "loaded": true,
+        "src": "http://127.0.0.1:8000/api/product-images/7/illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg"
+      },
+      {
+        "alt": "Giày Sneaker Nam Nữ Thể Thao Air Cushion",
+        "loaded": true,
+        "src": "http://127.0.0.1:8000/api/product-images/7/illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg"
+      },
+      {
+        "alt": "Giày Sneaker Nam Nữ Thể Thao Air Cushion",
+        "loaded": true,
+        "src": "http://127.0.0.1:8000/api/product-images/7/illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg"
+      }
+    ],
+    "labels": true,
+    "title": "Giày Sneaker Nam Nữ Thể Thao Air Cushion",
+    "url": "http://localhost:5173/san-pham/giay-sneaker-the-thao-air-cushion"
+  },
+  {
+    "id": 8,
+    "images": [
+      {
+        "alt": "Ảnh 1",
+        "loaded": true,
+        "src": "http://127.0.0.1:8000/api/product-images/8/illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg"
+      },
+      {
+        "alt": "Túi Xách Da Nữ Đeo Chéo Khóa Mạ Vàng",
+        "loaded": true,
+        "src": "http://127.0.0.1:8000/api/product-images/8/illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg"
+      },
+      {
+        "alt": "Túi Xách Da Nữ Đeo Chéo Khóa Mạ Vàng",
+        "loaded": true,
+        "src": "http://127.0.0.1:8000/api/product-images/8/illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg"
+      }
+    ],
+    "labels": true,
+    "title": "Túi Xách Da Nữ Đeo Chéo Khóa Mạ Vàng",
+    "url": "http://localhost:5173/san-pham/tui-xach-da-nu-deo-cheo"
+  }
+]

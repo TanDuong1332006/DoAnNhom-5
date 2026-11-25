@@ -88,6 +88,7 @@
 </template>
 
 <script>
+import { apiUrl } from '../../../services/apiConfig.js';
 import { Line } from 'vue-chartjs';
 import { Chart as ChartJS, Title, Tooltip, Legend, LineElement, PointElement, CategoryScale, LinearScale, Filler } from 'chart.js';
 import axios from 'axios';
@@ -162,7 +163,7 @@ export default {
         },
         loadData() {
             this.is_load = false;
-            axios.get(`http://127.0.0.1:8000/api/admin/thong-ke/doanh-thu-theo-thang?nam=${this.nam_chon}`)
+            axios.get(apiUrl(`/admin/thong-ke/doanh-thu-theo-thang?nam=${this.nam_chon}`))
                 .then(res => {
                     if (res.data.status) {
                         this.list_data = res.data.data;

@@ -1,0 +1,201 @@
+Browser tab: 4, Title: "SOFEP STUDIO - Thời Trang Sang Xịn Mịn & Đương Đại 2026", URL: "http://127.0.0.1:5198/admin/don-hang".
+1 AXWebArea SOFEP STUDIO - Thời Trang Sang Xịn Mịn & Đương Đại 2026, URL: 127.0.0.1:5198/admin/don-hang
+	2 container
+		3 container
+			4 image
+			5 text SOFEP ✦ ADMIN PORTAL
+			6 combo box (collapsed, settable) Description: Tìm kiếm Admin, Secondary Actions: Expand
+			7 button user avatar SOFEP Demo Admin Quản Trị Viên
+				8 image user avatar
+				9 text SOFEP Demo Admin
+				10 text Quản Trị Viên
+		11 content list
+			12 link Description:  Dashboard, Value: 127.0.0.1:5198/admin
+			13 link (collapsed) Description:  Quản Lý Sản Phẩm, Value: javascript:;, Secondary Actions: Expand
+			14 link Description:  Đơn Hàng & Ưu Đãi, Value: javascript:;
+			15 link Description:  Khách Hàng & Phản Hồi, Value: javascript:;
+			16 link Description:  Báo Cáo & Thống Kê, Value: javascript:;
+		17 heading  QUẢN LÝ ĐƠN HÀNG (7), Value: 5
+			18 text 
+			19 text  QUẢN LÝ ĐƠN HÀNG (7)
+		20 container
+			21 text 
+			22 text field (settable)
+		23 pop up button (collapsed, settable) Value: -- Tất cả trạng thái --, Secondary Actions: Expand
+			24 menu
+				25 (selected) -- Tất cả trạng thái --
+				26 Chờ xác nhận
+				27 Đã xác nhận
+				28 Đang giao hàng
+				29 Đã giao thành công
+				30 Đã hủy
+		31 table
+			32 row
+				33 cell
+					34 text STT
+				35 cell
+					36 text Mã Đơn
+				37 cell
+					38 text Khách Hàng
+				39 cell
+					40 text Số Điện Thoại
+				41 cell
+					42 text Tổng Tiền
+				43 cell
+					44 text Thanh Toán
+				45 cell
+					46 text Trạng Thái Đơn
+				47 cell
+					48 text Ngày Tạo
+				49 cell
+					50 text Action
+			51 row
+				52 cell
+					53 text 1
+				54 cell
+					55 text HD_4F9E17D126508C32A0FC1FD8A02DA3E0
+				56 cell
+					57 text SOFEP Audit Voucher
+				58 cell
+					59 text 0900000000
+				60 cell
+					61 text 269.000 đ
+				62 cell
+					63 text Chưa TT
+				64 cell
+					65 text Đã hủy
+				66 cell
+					67 text 2026-11-21
+				68 cell
+					69 button  Chi tiết
+						70 text 
+						71 text  Chi tiết
+			72 row
+				73 cell
+					74 text 2
+				75 cell
+					76 text HD_39EDC17CF212C55CC2FF910DFCFE2E34
+				77 cell
+					78 text SOFEP Audit Voucher
+				79 cell
+					80 text 0900000000
+				81 cell
+					82 text 279.000 đ
+				83 cell
+					84 text Chưa TT
+				85 cell
+					86 text Đã hủy
+				87 cell
+					88 text 2026-11-21
+				89 cell
+					90 button  Chi tiết
+						91 text 
+						92 text  Chi tiết
+			93 row
+				94 cell
+					95 text 3
+				96 cell
+					97 text HD_FA1F46B2F083DF4B0E854CC343BEA4D7
+				98 cell
+					99 text SOFEP Browser Final Audit
+				100 cell
+					101 text 0900000000
+				102 cell
+					103 text 279.000 đ
+				104 cell
+					105 text Đã TT
+				106 cell
+					107 text Chờ xác nhận
+				108 cell
+					109 text 2026-11-21
+				110 cell
+					111 button  Chi tiết
+						112 text 
+						113 text  Chi tiết
+			114 row
+				115 cell
+					116 text 4
+				117 cell
+					118 text HD_FFD62A49427CE72CD76A8539D23218E8
+				119 cell
+					120 text SOFEP Final Audit
+				121 cell
+					122 text 0900000000
+				123 cell
+					124 text 279.000 đ
+				125 cell
+					126 text Đã TT
+				127 cell
+					128 text Chờ xác nhận
+				129 cell
+					130 text 2026-11-21
+				131 cell
+					132 button  Chi tiết
+						133 text 
+						134 text  Chi tiết
+			135 row
+				136 cell
+					137 text 5
+				138 cell
+					139 text HD_9ABED09452D560B006BF0699537D0DAB
+				140 cell
+					141 text SOFEP Final Audit
+				142 cell
+					143 text 0900000000
+				144 cell
+					145 text 279.000 đ
+				146 cell
+					147 text Chưa TT
+				148 cell
+					149 text Chờ xác nhận
+				150 cell
+					151 text 2026-11-21
+				152 cell
+					153 button  Chi tiết
+						154 text 
+						155 text  Chi tiết
+			156 row
+				157 cell
+					158 text 6
+				159 cell
+					160 text HD_F139CD5B34A5DA410F7B5228DD28C510
+				161 cell
+					162 text SOFEP Browser Demo
+				163 cell
+					164 text 0900000000
+				165 cell
+					166 text 279.000 đ
+				167 cell
+					168 text Chưa TT
+				169 cell
+					170 text Chờ xác nhận
+				171 cell
+					172 text 2026-11-21
+				173 cell
+					174 button  Chi tiết
+						175 text 
+						176 text  Chi tiết
+			177 row
+				178 cell
+					179 text 7
+				180 cell
+					181 text HD_6B3E1A81C28F413F065B58B2E9D4D584
+				182 cell
+					183 text SOFEP UAT Customer
+				184 cell
+					185 text 0900000000
+				186 cell
+					187 text 279.000 đ
+				188 cell
+					189 text Chưa TT
+				190 cell
+					191 text Chờ xác nhận
+				192 cell
+					193 text 2026-11-21
+				194 cell
+					195 button  Chi tiết
+						196 text 
+						197 text  Chi tiết
+		198 text © 2026 SOFEP STUDIO. Bản quyền thuộc về thương hiệu thời trang cao cấp.
+
+The focused UI element is 1 AXWebArea SOFEP STUDIO - Thời Trang Sang Xịn Mịn & Đương Đại 2026, URL: 127.0.0.1:5198/admin/don-hang

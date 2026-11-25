@@ -1,0 +1,55 @@
+{
+    "id": 9,
+    "id_cua_hang": null,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": 2,
+    "ma_san_pham": "SFP-AONAM-01",
+    "ten_san_pham": "Áo Thun Nam Boxy Heavyweight Cotton Supima SOFEP",
+    "slug_san_pham": "ao-thun-nam-boxy-heavyweight-cotton-supima-sofep-n3qe",
+    "gia_ban": "350000.00",
+    "gia_khuyen_mai": "290000.00",
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/9/illustration-38dfb9fe-e82f-405f-bb69-76758b3a87f2.jpg",
+    "mo_ta_ngan": "Chất vải 100% Cotton Supima 320GSM dày dặn, phom Boxy chuẩn mực đường phố đương đại.",
+    "mo_ta_chi_tiet": "Chất vải 100% Cotton Supima 320GSM dày dặn, phom Boxy chuẩn mực đường phố đương đại. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 140,
+    "is_noi_bat": 1,
+    "is_flash_sale": 1,
+    "luot_xem": 2366,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:51.000000Z",
+    "updated_at": "2026-10-30T16:47:02.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 9,
+            "id_san_pham": 9,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        },
+        {
+            "id": 10,
+            "id_san_pham": 9,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+            "thu_tu": 3,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        },
+        {
+            "id": 332,
+            "id_san_pham": 9,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/9/illustration-38dfb9fe-e82f-405f-bb69-76758b3a87f2.jpg",
+            "thu_tu": 0,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 333,
+            "id_san_pham": 9,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/9/illustration-43c41f19-b93f-4e5e-b010-ff4533bcdb5c.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        }
+    ]
+}

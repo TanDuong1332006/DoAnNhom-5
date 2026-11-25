@@ -1,0 +1,1 @@
+import{_ as e,i as t,o as n,s as r}from"./index-6dbb06a6.js";const s={name:"BlankLayout"};function a(c,_,p,i,u,f){const o=t("router-view");return n(),r(o)}const m=e(s,[["render",a]]);export{m as default};

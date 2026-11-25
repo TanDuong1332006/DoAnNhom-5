@@ -1,0 +1,2 @@
+{"kind":"table","sheet":"Tong_quan","address":"A10:H18","rows":9,"cols":8,"values":[["Đợt","Danh mục","Sản phẩm","Biến thể","Placeholder","Có bằng chứng SKU","Ảnh PO xác nhận","Chờ phê duyệt nhập"],["D01","Áo Nam",23,73,23,0,0,0],["D02","Quần Nam",21,62,21,0,0,0],["D03","Váy & Đầm Nữ",21,62,21,0,0,0],["D04","Áo Nữ",21,62,21,0,0,0],["D05","Áo Khoác & Blazer",21,62,21,0,0,0],["D06","Giày & Sneaker",21,62,21,0,0,0],["D07","Túi Xách & Ví",21,62,21,0,0,0],["D08","Phụ Kiện Thời Trang",19,55,19,0,0,0]]}
+{"kind":"notice","message":"Cell search matched 0 entries."}

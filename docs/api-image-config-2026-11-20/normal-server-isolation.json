@@ -1,0 +1,11 @@
+{
+    "database": "sofep_image_restore_20261120_7dab8307016c",
+    "storage": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-api-config-1662ab2319454167937fbe319b19fdbd\\app\\storage\\app\/public",
+    "connection": "mysql",
+    "cors": [
+        "http:\/\/127.0.0.1:5173",
+        "http:\/\/localhost:5173",
+        "http:\/\/127.0.0.1:5194"
+    ],
+    "passed": true
+}

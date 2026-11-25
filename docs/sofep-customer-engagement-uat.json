@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-11-07T09:42:29.267Z",
+  "database": "sofep_uat_20261103_0552eb8e0b6d",
+  "feedback_private": true,
+  "admin_image_access": true,
+  "catalog_images_current_origin": true,
+  "preview_count": 1,
+  "campaign_id": 4,
+  "duplicate_retry_safe": true,
+  "private_grant_idor_protected": true,
+  "wallet_saved_once": true,
+  "save_did_not_consume": true,
+  "server_discount": 22000,
+  "server_total": 228000,
+  "order_id": 10,
+  "cancellation_restored_once": true,
+  "read_persisted": true,
+  "external_email_sms_sent": false,
+  "passed": true
+}

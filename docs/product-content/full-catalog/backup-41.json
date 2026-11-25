@@ -1,0 +1,39 @@
+{
+    "id": 41,
+    "id_cua_hang": null,
+    "id_danh_muc": 2,
+    "id_thuong_hieu": 3,
+    "ma_san_pham": "SFP-QUANNAM-13",
+    "ten_san_pham": "Quần Jean Nam Màu Đen Obsidian Wash Nhẹ Chống Bụi",
+    "slug_san_pham": "quan-jean-nam-mau-den-obsidian-wash-nhe-chong-bui-6riz",
+    "gia_ban": "610000.00",
+    "gia_khuyen_mai": "530000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+    "mo_ta_ngan": "Sắc đen huyền bí Obsidian nhuộm lưu huỳnh giữ màu cực tốt qua nhiều mùa.",
+    "mo_ta_chi_tiet": "Sắc đen huyền bí Obsidian nhuộm lưu huỳnh giữ màu cực tốt qua nhiều mùa. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 168,
+    "is_noi_bat": 1,
+    "is_flash_sale": 1,
+    "luot_xem": 770,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:52.000000Z",
+    "updated_at": "2026-09-27T09:05:52.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 73,
+            "id_san_pham": 41,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 74,
+            "id_san_pham": 41,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+  "old_timeout_origins": {
+    "http://127.0.0.1:8000": 169
+  },
+  "old_concurrency": 8,
+  "old_timeout_ms": 8000,
+  "recheck_concurrency": 1,
+  "recheck_timeout_ms": 20000,
+  "checks": [
+    {
+      "label": "known-good",
+      "url": "http://127.0.0.1:8000/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+      "status": 200,
+      "ms": 703,
+      "bytes": 105781,
+      "sha256": "18cac68cf57ce6b2bd2794834575343b5dfde1e2bee16bf77084385d01c38afc"
+    },
+    {
+      "label": "old-timeout-0",
+      "url": "http://127.0.0.1:8000/api/product-images/5/illustration-19767726-ec36-48f1-a837-6e5b4918f083.jpg",
+      "status": 200,
+      "ms": 899,
+      "bytes": 261051,
+      "sha256": "4407d34bed9d6e23a2a1e395cea4add99dec23cfdf301730085ecdbf08b2e9f7"
+    },
+    {
+      "label": "old-timeout-1",
+      "url": "http://127.0.0.1:8000/api/product-images/6/illustration-346e8b55-89a4-4cd8-a2b1-9f6d5325bc67.jpg",
+      "status": 200,
+      "ms": 1469,
+      "bytes": 123564,
+      "sha256": "1529c809a38c1876365adf47812f1441450a7627cf28ff17e03613a57e5bc887"
+    },
+    {
+      "label": "old-timeout-2",
+      "url": "http://127.0.0.1:8000/api/product-images/6/illustration-a4d91bd8-e53f-4091-95b8-36de5b848c45.jpg",
+      "status": 200,
+      "ms": 1054,
+      "bytes": 150600,
+      "sha256": "6db50036a395568accc891edd1c0cabe7450cbc51d688253a3514b69330f9f60"
+    },
+    {
+      "label": "old-timeout-3",
+      "url": "http://127.0.0.1:8000/api/product-images/7/illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg",
+      "status": 200,
+      "ms": 1686,
+      "bytes": 204261,
+      "sha256": "436d47c65c245774a8aae2dc945a8f743309af581caeced9acebb77a65fb574f"
+    },
+    {
+      "label": "old-timeout-4",
+      "url": "http://127.0.0.1:8000/api/product-images/8/illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg",
+      "status": 200,
+      "ms": 1550,
+      "bytes": 204941,
+      "sha256": "ecd5d0627488b0dc7bdbe3979583218124d374f15dd4b8ce4d57eed723e72dad"
+    },
+    {
+      "label": "health",
+      "url": "http://127.0.0.1:8000/up",
+      "status": 200,
+      "ms": 1676,
+      "bytes": 1830,
+      "sha256": "41f165016eae329267e1668dcc28483c9ed909fdfd98c5107cb7bb5a08e625fd"
+    },
+    {
+      "label": "missing-route",
+      "url": "http://127.0.0.1:8000/__image_diagnostic_missing",
+      "status": 404,
+      "ms": 1718,
+      "bytes": 6586,
+      "sha256": "9ab203220eceaba031c9aa41b4b2d9aa6709c751b43bee4c084f7b41200364cf"
+    }
+  ]
+}

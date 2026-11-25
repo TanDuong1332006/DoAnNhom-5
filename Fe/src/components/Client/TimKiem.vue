@@ -321,6 +321,7 @@
 </template>
 
 <script>
+import { apiUrl } from '../../services/apiConfig.js';
 import { cartStore } from '../../stores/cartStore';
 import axios from 'axios';
 import ProductImage from '../shared/ProductImage.vue';
@@ -486,7 +487,7 @@ export default {
       }
     },
     taiDanhMucs() {
-      axios.get('http://127.0.0.1:8000/api/client/danh-mucs')
+      axios.get(apiUrl('/client/danh-mucs'))
         .then(res => {
           if (res.data.status) {
             this.danh_mucs = res.data.data;
@@ -498,7 +499,7 @@ export default {
       const request=++this.requestId;
       this.loading=true;this.error='';this.products=[];
       try {
-        const response=await axios.get('http://127.0.0.1:8000/api/client/san-phams?all=1');
+        const response=await axios.get(apiUrl('/client/san-phams?all=1'));
         if(request!==this.requestId)return;
         if(!response.data.status||!Array.isArray(response.data.data))throw new Error('Invalid response');
         this.products=response.data.data;

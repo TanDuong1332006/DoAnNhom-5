@@ -1,0 +1,47 @@
+{
+    "id": 26,
+    "id_cua_hang": null,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": 4,
+    "ma_san_pham": "SFP-AONAM-18",
+    "ten_san_pham": "Áo Sơ Mi Nam Cổ Trụ Mandarin Tối Giản Đương Đại",
+    "slug_san_pham": "ao-so-mi-nam-co-tru-mandarin-toi-gian-duong-dai-hizy",
+    "gia_ban": "470000.00",
+    "gia_khuyen_mai": "399000.00",
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/26/illustration-4dd94cb8-f3ab-4a93-99e2-a0301beefcfd.jpg",
+    "mo_ta_ngan": "Thiết kế cổ tàu hiện đại lược bỏ lá cổ rườm rà, tạo vẻ ngoài tri thức và gọn gàng.",
+    "mo_ta_chi_tiet": "Thiết kế cổ tàu hiện đại lược bỏ lá cổ rườm rà, tạo vẻ ngoài tri thức và gọn gàng. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 61,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 1388,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:52.000000Z",
+    "updated_at": "2026-10-30T16:47:14.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 43,
+            "id_san_pham": 26,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 44,
+            "id_san_pham": 26,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 338,
+            "id_san_pham": 26,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/26/illustration-4dd94cb8-f3ab-4a93-99e2-a0301beefcfd.jpg",
+            "thu_tu": 0,
+            "created_at": null,
+            "updated_at": null
+        }
+    ]
+}

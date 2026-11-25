@@ -1,0 +1,12 @@
+<?php
+require __DIR__.'/../../themmoik27be/vendor/autoload.php';
+$e=Dotenv\Dotenv::parse(file_get_contents(__DIR__.'/../../themmoik27be/.env'));
+if(!in_array($e['DB_HOST']??'',['127.0.0.1','localhost'],true)||!empty($e['DB_URL']))throw new RuntimeException('Local only');
+$p=new PDO('mysql:host='.$e['DB_HOST'].';port='.($e['DB_PORT']??3306).';dbname=doan_nhom_5;charset=utf8mb4',$e['DB_USERNAME'],$e['DB_PASSWORD']??'',[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION]);
+$b=json_decode(file_get_contents(__DIR__.'/source-reference-baseline.json'),true);$p->exec('START TRANSACTION READ ONLY');
+$now=['products'=>$p->query('SELECT id,hinh_anh,ten_san_pham FROM san_phams ORDER BY id')->fetchAll(PDO::FETCH_ASSOC),'gallery'=>$p->query('SELECT * FROM anh_san_phams ORDER BY id')->fetchAll(PDO::FETCH_ASSOC),'variants'=>$p->query('SELECT id,id_san_pham,id_anh_san_pham FROM chi_tiet_san_phams ORDER BY id')->fetchAll(PDO::FETCH_ASSOC),'order_images'=>$p->query('SELECT hinh_anh,COUNT(*) AS reference_count FROM chi_tiet_don_hangs WHERE hinh_anh IS NOT NULL GROUP BY hinh_anh ORDER BY hinh_anh')->fetchAll(PDO::FETCH_ASSOC)];$p->rollBack();
+foreach($now as $key=>$rows)if($rows!==$b[$key])throw new RuntimeException('Source changed: '.$key);
+$prior=json_decode(file_get_contents(__DIR__.'/../image-demo-sync-2026-11-20/storage-audit.json'),true);
+$root=realpath(__DIR__.'/../../themmoik27be/storage/app/public');$count=0;foreach($prior['files'] as $f){$file=$root.'/'.$f['file'];if(!is_file($file)||hash_file('sha256',$file)!==$f['sha256'])throw new RuntimeException('Main physical file changed');$count++;}
+$s=json_decode(file_get_contents(__DIR__.'/state.json'),true);$manifest=json_decode(file_get_contents(__DIR__.'/../image-demo-sync-2026-11-20/inputs.json'),true);$manifest=json_decode(file_get_contents($manifest['extracted'].'/manifest.json'),true);foreach($manifest['images'] as $i)if(hash_file('sha256',$s['storage'].'/'.$i['path'])!==$i['sha256'])throw new RuntimeException('UAT image changed');
+$out=['passed'=>true,'main_catalog_and_gallery_and_variant_links_unchanged'=>true,'main_order_urls_unchanged'=>count($now['order_images']),'main_order_references_unchanged'=>array_sum(array_column($now['order_images'],'reference_count')),'main_files_unchanged'=>$count,'uat_images_unchanged'=>count($manifest['images'])];file_put_contents(__DIR__.'/preservation.json',json_encode($out,JSON_PRETTY_PRINT));echo json_encode($out).PHP_EOL;

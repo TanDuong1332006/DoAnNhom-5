@@ -1,0 +1,39 @@
+{
+    "id": 45,
+    "id_cua_hang": null,
+    "id_danh_muc": 2,
+    "id_thuong_hieu": 6,
+    "ma_san_pham": "SFP-QUANNAM-17",
+    "ten_san_pham": "Quần Jean Nam Ống Loe Bootcut Phong Cách Retro Y2K",
+    "slug_san_pham": "quan-jean-nam-ong-loe-bootcut-phong-cach-retro-y2k-kf3w",
+    "gia_ban": "710000.00",
+    "gia_khuyen_mai": "610000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+    "mo_ta_ngan": "Ống loe nhẹ từ đầu gối xuống cổ chân, phối hoàn hảo cùng chelsea boot hay sneaker.",
+    "mo_ta_chi_tiet": "Ống loe nhẹ từ đầu gối xuống cổ chân, phối hoàn hảo cùng chelsea boot hay sneaker. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 150,
+    "is_noi_bat": 0,
+    "is_flash_sale": 1,
+    "luot_xem": 1916,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:52.000000Z",
+    "updated_at": "2026-09-27T09:05:52.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 81,
+            "id_san_pham": 45,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 82,
+            "id_san_pham": 45,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        }
+    ]
+}

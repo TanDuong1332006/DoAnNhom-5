@@ -36,7 +36,8 @@ class CheckoutService
             || (config('sanctum.expiration') && $token->created_at->lte(now()->subMinutes(config('sanctum.expiration')))))) {
             abort(401, 'Phiên đăng nhập đã hết hạn.');
         }
-        $user = $token?->tokenable;
+        $user = $request->user('sanctum');
+        if (!$quote) abort_unless($user, 401, 'Vui lòng đăng nhập để tiếp tục thanh toán.');
         if ($user && (!$user instanceof KhachHang || ($user->role ?: 'customer') !== 'customer' || $user->is_khoa || !$user->is_kich_hoat)) {
             abort(403, 'Tài khoản không được đặt hàng.');
         }

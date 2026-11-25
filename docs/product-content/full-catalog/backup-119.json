@@ -1,0 +1,39 @@
+{
+    "id": 119,
+    "id_cua_hang": null,
+    "id_danh_muc": 6,
+    "id_thuong_hieu": 3,
+    "ma_san_pham": "SFP-GIAY-11",
+    "ten_san_pham": "Giày Chelsea Boots Nam Da Lộn Cổ Thun Phong Cách Rocker",
+    "slug_san_pham": "giay-chelsea-boots-nam-da-lon-co-thun-phong-cach-rocker-3bta",
+    "gia_ban": "1350000.00",
+    "gia_khuyen_mai": "1090000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+    "mo_ta_ngan": "Da lộn chải mịn sẫm màu, cổ thun đàn hồi dễ mang tháo, phom mũi thon gọn nam tính.",
+    "mo_ta_chi_tiet": "Da lộn chải mịn sẫm màu, cổ thun đàn hồi dễ mang tháo, phom mũi thon gọn nam tính. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 96,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 640,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:55.000000Z",
+    "updated_at": "2026-09-27T09:05:55.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 229,
+            "id_san_pham": 119,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        },
+        {
+            "id": 230,
+            "id_san_pham": 119,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        }
+    ]
+}

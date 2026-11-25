@@ -1,0 +1,39 @@
+{
+    "id": 29,
+    "id_cua_hang": null,
+    "id_danh_muc": 2,
+    "id_thuong_hieu": 3,
+    "ma_san_pham": "SFP-QUANNAM-01",
+    "ten_san_pham": "Quần Jean Nam Ống Suông Wide-Leg Vintage Wash SOFEP",
+    "slug_san_pham": "quan-jean-nam-ong-suong-wide-leg-vintage-wash-sofep-2mrd",
+    "gia_ban": "690000.00",
+    "gia_khuyen_mai": "590000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+    "mo_ta_ngan": "Denim 14oz dày dặn đứng phom, ống suông rủ tự nhiên che khuyết điểm chân hoàn hảo.",
+    "mo_ta_chi_tiet": "Denim 14oz dày dặn đứng phom, ống suông rủ tự nhiên che khuyết điểm chân hoàn hảo. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 67,
+    "is_noi_bat": 1,
+    "is_flash_sale": 1,
+    "luot_xem": 293,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:52.000000Z",
+    "updated_at": "2026-09-27T09:05:52.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 49,
+            "id_san_pham": 29,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 50,
+            "id_san_pham": 29,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        }
+    ]
+}

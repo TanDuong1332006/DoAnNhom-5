@@ -1,0 +1,15 @@
+{
+  "id": 3,
+  "sku": "SP-QUANNAM-01",
+  "name": "Quần Jean Nam Slimfit Denim Co Giãn Nhẹ",
+  "prompt": "Use case: product-mockup. Create ONE unique ecommerce catalog product illustration for a local Vietnamese SOFEP demo. Subject (Vietnamese product title, preserve exact garment/accessory type and construction): Quần Jean Nam Slimfit Denim Co Giãn Nhẹ. Additional type information: Thiết kế tôn dáng, đường may chỉ kép chắc chắn.. Choose black, white or deep navy; obey any explicit color in the title. Entire single product visible, premium realistic studio rendering, isolated on clean warm light gray background, centered square composition, soft shadow. Clothing on invisible mannequin or flat lay, shoes three-quarter side view, accessories clear close product view. No people, no other products, no scenery, no watermark, no external brand logos. This is an original AI demo illustration, not a photograph of the actual SKU. Do not add text except SOFEP when title specifically requests embroidered brand. Each image must reflect the specific product silhouette and details.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; not a third-party stock photo; no claim of real SKU photography",
+  "file": "assets/3.jpg",
+  "created_at": "2026-10-31T09:28:12.16Z",
+  "review": "approved",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-449eacc3-0000-41c7-a2cc-874c2809db1b.png",
+  "sha256": "82a5c4b2a065f4ea032109baa2098d3a311775ef2558cc62d2c19fd18fb7387e",
+  "bytes": 152410
+}

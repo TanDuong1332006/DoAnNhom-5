@@ -1,0 +1,2240 @@
+[
+    {
+        "id": 1,
+        "sku": "SP-AONAM-01",
+        "name": "Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp",
+        "slug": "ao-thun-nam-co-tron-cotton-supima",
+        "category": "Áo Nam",
+        "description": "Chất liệu 100% cotton Supima mềm mịn, co giãn 4 chiều.",
+        "details": "Áo thun cotton Supima cao cấp thấm hút mồ hôi cực tốt, bền màu qua nhiều lần giặt.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500",
+        "gallery": [
+            "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500"
+        ],
+        "variants": [
+            {
+                "id": 1,
+                "color": "Đen",
+                "size": "M",
+                "stock": 40
+            },
+            {
+                "id": 2,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 35
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "sku": "SP-AONAM-02",
+        "name": "Áo Sơ Mi Nam Tay Dài Oxford Form Regular",
+        "slug": "ao-so-mi-nam-tay-dai-oxford",
+        "category": "Áo Nam",
+        "description": "Vải Oxford dệt thoi dày dặn, đứng form và thoáng khí.",
+        "details": "Phong cách lịch lãm công sở hoặc dạo phố trẻ trung.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500",
+        "gallery": [
+            "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500"
+        ],
+        "variants": [
+            {
+                "id": 3,
+                "color": "Đen",
+                "size": "M",
+                "stock": 40
+            },
+            {
+                "id": 4,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 35
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "sku": "SP-AONU-01",
+        "name": "Áo Len Dệt Kim Cổ Tim Phong Cách Hàn Quốc",
+        "slug": "ao-len-det-kim-co-tim-han-quoc",
+        "category": "Áo Nữ",
+        "description": "Sợi len dệt êm dịu không gây dặm ngứa.",
+        "details": "Thiết kế cổ tim nhẹ nhàng nữ tính, phối cùng chân váy hay quần jean đều rất đẹp.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500",
+        "gallery": [
+            "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500"
+        ],
+        "variants": [
+            {
+                "id": 9,
+                "color": "Đen",
+                "size": "M",
+                "stock": 40
+            },
+            {
+                "id": 10,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 35
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "sku": "SP-AOKHOAC-01",
+        "name": "Áo Khoác Blazer Nam 2 Lớp Form Rộng Hiện Đại",
+        "slug": "ao-khoac-blazer-nam-2-lop",
+        "category": "Áo Khoác & Blazer",
+        "description": "Chất vải wool pha đứng form, lớp lót lụa cao cấp.",
+        "details": "Áo blazer chuẩn phong cách smart-casual tinh tế cho chàng trai năng động.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500",
+        "gallery": [
+            "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500"
+        ],
+        "variants": [
+            {
+                "id": 11,
+                "color": "Đen",
+                "size": "M",
+                "stock": 40
+            },
+            {
+                "id": 12,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 35
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "sku": "SFP-AONAM-01",
+        "name": "Áo Thun Nam Boxy Heavyweight Cotton Supima SOFEP",
+        "slug": "ao-thun-nam-boxy-heavyweight-cotton-supima-sofep-n3qe",
+        "category": "Áo Nam",
+        "description": "Chất vải 100% Cotton Supima 320GSM dày dặn, phom Boxy chuẩn mực đường phố đương đại.",
+        "details": "Chất vải 100% Cotton Supima 320GSM dày dặn, phom Boxy chuẩn mực đường phố đương đại. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+            "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700"
+        ],
+        "variants": [
+            {
+                "id": 17,
+                "color": "Đen",
+                "size": "XL",
+                "stock": 28
+            },
+            {
+                "id": 18,
+                "color": "Trắng",
+                "size": "S",
+                "stock": 26
+            },
+            {
+                "id": 19,
+                "color": "Xanh Navy",
+                "size": "M",
+                "stock": 25
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "sku": "SFP-AONAM-02",
+        "name": "Áo Sơ Mi Nam Oxford Cổ Button-Down Relaxed Fit",
+        "slug": "ao-so-mi-nam-oxford-co-button-down-relaxed-fit-tvli",
+        "category": "Áo Nam",
+        "description": "Vải dệt thoi Oxford chống nhăn, cổ áo đính cúc thanh lịch cho chàng trai năng động.",
+        "details": "Vải dệt thoi Oxford chống nhăn, cổ áo đính cúc thanh lịch cho chàng trai năng động. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+            "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700"
+        ],
+        "variants": [
+            {
+                "id": 20,
+                "color": "Đen",
+                "size": "S",
+                "stock": 48
+            },
+            {
+                "id": 21,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 30
+            },
+            {
+                "id": 22,
+                "color": "Xanh Navy",
+                "size": "S",
+                "stock": 22
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "sku": "SFP-AONAM-03",
+        "name": "Áo Polo Nam Dệt Kim Mercerized Cotton Ánh Kim",
+        "slug": "ao-polo-nam-det-kim-mercerized-cotton-anh-kim-4daj",
+        "category": "Áo Nam",
+        "description": "Sợi bông chải kỹ bóng mượt tự nhiên, viền cổ dệt sọc Jacquard sang trọng.",
+        "details": "Sợi bông chải kỹ bóng mượt tự nhiên, viền cổ dệt sọc Jacquard sang trọng. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+            "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700"
+        ],
+        "variants": [
+            {
+                "id": 23,
+                "color": "Đen",
+                "size": "L",
+                "stock": 34
+            },
+            {
+                "id": 24,
+                "color": "Trắng",
+                "size": "S",
+                "stock": 41
+            },
+            {
+                "id": 25,
+                "color": "Xanh Navy",
+                "size": "XXL",
+                "stock": 27
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "sku": "SFP-AONAM-04",
+        "name": "Áo Thun Nam Graphic Oversized SOFEP Studio 2026",
+        "slug": "ao-thun-nam-graphic-oversized-sofep-studio-2026-mrwd",
+        "category": "Áo Nam",
+        "description": "In họa tiết hình học trừu tượng công nghệ in lụa thủ công cao cấp không bong tróc.",
+        "details": "In họa tiết hình học trừu tượng công nghệ in lụa thủ công cao cấp không bong tróc. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=700",
+            "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=700"
+        ],
+        "variants": [
+            {
+                "id": 26,
+                "color": "Đen",
+                "size": "L",
+                "stock": 26
+            },
+            {
+                "id": 27,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 21
+            },
+            {
+                "id": 28,
+                "color": "Xanh Navy",
+                "size": "S",
+                "stock": 25
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "sku": "SFP-AONAM-05",
+        "name": "Áo Sơ Mi Nam Cuban Collar Hoạ Tiết Minimalist",
+        "slug": "ao-so-mi-nam-cuban-collar-hoa-tiet-minimalist-atgw",
+        "category": "Áo Nam",
+        "description": "Cổ bẻ Cuba phóng khoáng, chất vải rayon lụa mát lịm cho mùa hè và du lịch.",
+        "details": "Cổ bẻ Cuba phóng khoáng, chất vải rayon lụa mát lịm cho mùa hè và du lịch. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=700",
+            "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=700"
+        ],
+        "variants": [
+            {
+                "id": 29,
+                "color": "Đen",
+                "size": "M",
+                "stock": 31
+            },
+            {
+                "id": 30,
+                "color": "Trắng",
+                "size": "M",
+                "stock": 48
+            },
+            {
+                "id": 31,
+                "color": "Xanh Navy",
+                "size": "M",
+                "stock": 36
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "sku": "SFP-AONAM-06",
+        "name": "Áo Thun Nam Tay Dài Waffle Knit Tổ Ong Thu Đông",
+        "slug": "ao-thun-nam-tay-dai-waffle-knit-to-ong-thu-dong-7iyy",
+        "category": "Áo Nam",
+        "description": "Cấu trúc dệt tổ ong thoáng khí, giữ ấm nhẹ nhàng, bo tay áo tinh tế.",
+        "details": "Cấu trúc dệt tổ ong thoáng khí, giữ ấm nhẹ nhàng, bo tay áo tinh tế. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=700",
+            "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=700"
+        ],
+        "variants": [
+            {
+                "id": 32,
+                "color": "Đen",
+                "size": "L",
+                "stock": 39
+            },
+            {
+                "id": 33,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 33
+            },
+            {
+                "id": 34,
+                "color": "Xanh Navy",
+                "size": "L",
+                "stock": 34
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "sku": "SFP-AONAM-07",
+        "name": "Áo Polo Nam Zip Collar Khóa Kéo Kim Loại Sang Trọng",
+        "slug": "ao-polo-nam-zip-collar-khoa-keo-kim-loai-sang-trong-jbkp",
+        "category": "Áo Nam",
+        "description": "Khóa kéo mạ crom bạc cao cấp thay thế cúc bấm truyền thống, phong cách Milan hiện đại.",
+        "details": "Khóa kéo mạ crom bạc cao cấp thay thế cúc bấm truyền thống, phong cách Milan hiện đại. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+            "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700"
+        ],
+        "variants": [
+            {
+                "id": 35,
+                "color": "Đen",
+                "size": "S",
+                "stock": 44
+            },
+            {
+                "id": 36,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 47
+            },
+            {
+                "id": 37,
+                "color": "Xanh Navy",
+                "size": "XXL",
+                "stock": 25
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "sku": "SFP-AONAM-08",
+        "name": "Áo Sơ Mi Nam Vải Đũi Linen Thoáng Mát Tự Nhiên",
+        "slug": "ao-so-mi-nam-vai-dui-linen-thoang-mat-tu-nhien-i1k9",
+        "category": "Áo Nam",
+        "description": "Sợi lanh tự nhiên mộc mạc, thấm hút mồ hôi tối đa, tôn vẻ nam tính lãng tử.",
+        "details": "Sợi lanh tự nhiên mộc mạc, thấm hút mồ hôi tối đa, tôn vẻ nam tính lãng tử. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=700",
+            "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=700"
+        ],
+        "variants": [
+            {
+                "id": 38,
+                "color": "Đen",
+                "size": "XXL",
+                "stock": 32
+            },
+            {
+                "id": 39,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 48
+            },
+            {
+                "id": 40,
+                "color": "Xanh Navy",
+                "size": "S",
+                "stock": 35
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "sku": "SFP-AONAM-09",
+        "name": "Áo Thun Nam Cổ Tròn Clean Fit Trơn Màu Đen Obsidian",
+        "slug": "ao-thun-nam-co-tron-clean-fit-tron-mau-den-obsidian-17zc",
+        "category": "Áo Nam",
+        "description": "Món đồ basic không thể thiếu trong tủ đồ, may viền móc xích đôi chống bai dão.",
+        "details": "Món đồ basic không thể thiếu trong tủ đồ, may viền móc xích đôi chống bai dão. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+            "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700"
+        ],
+        "variants": [
+            {
+                "id": 41,
+                "color": "Đen",
+                "size": "XL",
+                "stock": 20
+            },
+            {
+                "id": 42,
+                "color": "Trắng",
+                "size": "XXL",
+                "stock": 30
+            },
+            {
+                "id": 43,
+                "color": "Xanh Navy",
+                "size": "XL",
+                "stock": 37
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "sku": "SFP-AONAM-10",
+        "name": "Áo Ba Lỗ Nam Tanktop Ribbed Co Giãn Tôn Thể Hình",
+        "slug": "ao-ba-lo-nam-tanktop-ribbed-co-gian-ton-the-hinh-uhki",
+        "category": "Áo Nam",
+        "description": "Vải dệt gân tăm ôm nhẹ cơ thể, thông thoáng cho các hoạt động thể thao dạo phố.",
+        "details": "Vải dệt gân tăm ôm nhẹ cơ thể, thông thoáng cho các hoạt động thể thao dạo phố. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=700",
+            "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=700"
+        ],
+        "variants": [
+            {
+                "id": 44,
+                "color": "Đen",
+                "size": "S",
+                "stock": 25
+            },
+            {
+                "id": 45,
+                "color": "Trắng",
+                "size": "S",
+                "stock": 39
+            },
+            {
+                "id": 46,
+                "color": "Xanh Navy",
+                "size": "S",
+                "stock": 42
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "sku": "SFP-AONAM-11",
+        "name": "Áo Sơ Mi Nam Denim Chambray Cổ Bẻ Nam Tính",
+        "slug": "ao-so-mi-nam-denim-chambray-co-be-nam-tinh-gdjj",
+        "category": "Áo Nam",
+        "description": "Chất vải denim mỏng dệt sợi xanh chàm indigo, wash nhẹ theo phong cách Workwear.",
+        "details": "Chất vải denim mỏng dệt sợi xanh chàm indigo, wash nhẹ theo phong cách Workwear. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=700",
+            "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=700"
+        ],
+        "variants": [
+            {
+                "id": 47,
+                "color": "Đen",
+                "size": "M",
+                "stock": 38
+            },
+            {
+                "id": 48,
+                "color": "Trắng",
+                "size": "M",
+                "stock": 39
+            },
+            {
+                "id": 49,
+                "color": "Xanh Navy",
+                "size": "XL",
+                "stock": 49
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "sku": "SFP-AONAM-12",
+        "name": "Áo Thun Nam Raglan Tay Phối Màu Phong Cách Retro",
+        "slug": "ao-thun-nam-raglan-tay-phoi-mau-phong-cach-retro-xksl",
+        "category": "Áo Nam",
+        "description": "Tay áo cắt xéo Raglan kinh điển bóng chày Mỹ, tạo cảm giác bờ vai rộng vạm vỡ.",
+        "details": "Tay áo cắt xéo Raglan kinh điển bóng chày Mỹ, tạo cảm giác bờ vai rộng vạm vỡ. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=700",
+            "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=700"
+        ],
+        "variants": [
+            {
+                "id": 50,
+                "color": "Đen",
+                "size": "M",
+                "stock": 34
+            },
+            {
+                "id": 51,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 34
+            },
+            {
+                "id": 52,
+                "color": "Xanh Navy",
+                "size": "XXL",
+                "stock": 38
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "sku": "SFP-AONAM-13",
+        "name": "Áo Polo Nam Bo Cổ Dệt Họa Tiết Houndstooth",
+        "slug": "ao-polo-nam-bo-co-det-hoa-tiet-houndstooth-xx3u",
+        "category": "Áo Nam",
+        "description": "Điểm nhấn nẹp cổ họa tiết nanh sói tinh tế, logo SOFEP thêu tỉ mỉ ngực trái.",
+        "details": "Điểm nhấn nẹp cổ họa tiết nanh sói tinh tế, logo SOFEP thêu tỉ mỉ ngực trái. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=700",
+            "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=700"
+        ],
+        "variants": [
+            {
+                "id": 53,
+                "color": "Đen",
+                "size": "M",
+                "stock": 21
+            },
+            {
+                "id": 54,
+                "color": "Trắng",
+                "size": "XXL",
+                "stock": 38
+            },
+            {
+                "id": 55,
+                "color": "Xanh Navy",
+                "size": "L",
+                "stock": 35
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "sku": "SFP-AONAM-14",
+        "name": "Áo Sơ Mi Nam Flannel Kẻ Caro Phong Cách Grunge",
+        "slug": "ao-so-mi-nam-flannel-ke-caro-phong-cach-grunge-n0kb",
+        "category": "Áo Nam",
+        "description": "Bề mặt vải dạ nỉ cào lông ấm áp, đường may caro khớp nối tỉ mỉ từng chi tiết.",
+        "details": "Bề mặt vải dạ nỉ cào lông ấm áp, đường may caro khớp nối tỉ mỉ từng chi tiết. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=700",
+            "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=700"
+        ],
+        "variants": [
+            {
+                "id": 56,
+                "color": "Đen",
+                "size": "L",
+                "stock": 26
+            },
+            {
+                "id": 57,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 24
+            },
+            {
+                "id": 58,
+                "color": "Xanh Navy",
+                "size": "XL",
+                "stock": 48
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "sku": "SFP-AONAM-15",
+        "name": "Áo Thun Nam Drop-Shoulder Acid Wash Vintage Streetwear",
+        "slug": "ao-thun-nam-drop-shoulder-acid-wash-vintage-streetwear-urij",
+        "category": "Áo Nam",
+        "description": "Kỹ thuật giặt xả acid wash tạo hiệu ứng màu loang cổ điển độc bản không trùng lặp.",
+        "details": "Kỹ thuật giặt xả acid wash tạo hiệu ứng màu loang cổ điển độc bản không trùng lặp. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=700",
+            "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=700"
+        ],
+        "variants": [
+            {
+                "id": 59,
+                "color": "Đen",
+                "size": "L",
+                "stock": 26
+            },
+            {
+                "id": 60,
+                "color": "Trắng",
+                "size": "XXL",
+                "stock": 33
+            },
+            {
+                "id": 61,
+                "color": "Xanh Navy",
+                "size": "XL",
+                "stock": 37
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "sku": "SFP-AONAM-16",
+        "name": "Áo Sơ Mi Nam Lụa Satin Trơn Dự Tiệc Sang Trọng",
+        "slug": "ao-so-mi-nam-lua-satin-tron-du-tiec-sang-trong-554s",
+        "category": "Áo Nam",
+        "description": "Chất lụa satin bắt sáng nhẹ dưới ánh đèn tiệc tối, rũ tự nhiên, chuẩn mực quý ông.",
+        "details": "Chất lụa satin bắt sáng nhẹ dưới ánh đèn tiệc tối, rũ tự nhiên, chuẩn mực quý ông. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+            "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700"
+        ],
+        "variants": [
+            {
+                "id": 62,
+                "color": "Đen",
+                "size": "XXL",
+                "stock": 50
+            },
+            {
+                "id": 63,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 21
+            },
+            {
+                "id": 64,
+                "color": "Xanh Navy",
+                "size": "XXL",
+                "stock": 48
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "sku": "SFP-AONAM-17",
+        "name": "Áo Thun Nam Form Rộng Thêu Chữ Nổi SOFEP Haute Atelier",
+        "slug": "ao-thun-nam-form-rong-theu-chu-noi-sofep-haute-atelier-tgiu",
+        "category": "Áo Nam",
+        "description": "Chữ thêu vi tính dày 3D sắc nét, đường cắt vai rủ tự do chuẩn aesthetic 2026.",
+        "details": "Chữ thêu vi tính dày 3D sắc nét, đường cắt vai rủ tự do chuẩn aesthetic 2026. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+            "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700"
+        ],
+        "variants": [
+            {
+                "id": 65,
+                "color": "Đen",
+                "size": "S",
+                "stock": 26
+            },
+            {
+                "id": 66,
+                "color": "Trắng",
+                "size": "XXL",
+                "stock": 26
+            },
+            {
+                "id": 67,
+                "color": "Xanh Navy",
+                "size": "M",
+                "stock": 36
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "sku": "SFP-AONAM-18",
+        "name": "Áo Sơ Mi Nam Cổ Trụ Mandarin Tối Giản Đương Đại",
+        "slug": "ao-so-mi-nam-co-tru-mandarin-toi-gian-duong-dai-hizy",
+        "category": "Áo Nam",
+        "description": "Thiết kế cổ tàu hiện đại lược bỏ lá cổ rườm rà, tạo vẻ ngoài tri thức và gọn gàng.",
+        "details": "Thiết kế cổ tàu hiện đại lược bỏ lá cổ rườm rà, tạo vẻ ngoài tri thức và gọn gàng. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+            "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700"
+        ],
+        "variants": [
+            {
+                "id": 68,
+                "color": "Đen",
+                "size": "XL",
+                "stock": 20
+            },
+            {
+                "id": 69,
+                "color": "Trắng",
+                "size": "S",
+                "stock": 28
+            },
+            {
+                "id": 70,
+                "color": "Xanh Navy",
+                "size": "S",
+                "stock": 33
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "sku": "SFP-AONAM-19",
+        "name": "Áo Thun Nam Cổ Tim V-Neck Co Giãn Sợi Modal Thoáng Khí",
+        "slug": "ao-thun-nam-co-tim-v-neck-co-gian-soi-modal-thoang-khi-yeer",
+        "category": "Áo Nam",
+        "description": "Sợi gỗ sồi Modal siêu mềm mượt, kháng khuẩn tự nhiên, nhẹ như không mặc.",
+        "details": "Sợi gỗ sồi Modal siêu mềm mượt, kháng khuẩn tự nhiên, nhẹ như không mặc. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=700",
+            "https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=700"
+        ],
+        "variants": [
+            {
+                "id": 71,
+                "color": "Đen",
+                "size": "M",
+                "stock": 31
+            },
+            {
+                "id": 72,
+                "color": "Trắng",
+                "size": "M",
+                "stock": 33
+            },
+            {
+                "id": 73,
+                "color": "Xanh Navy",
+                "size": "M",
+                "stock": 34
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "sku": "SFP-AONAM-20",
+        "name": "Áo Polo Nam Pique Cotton Kháng Khuẩn Khử Mùi Active",
+        "slug": "ao-polo-nam-pique-cotton-khang-khuan-khu-mui-active-kesm",
+        "category": "Áo Nam",
+        "description": "Cấu trúc dệt mắt chim tổ ong pique thoát nhiệt nhanh, phù hợp cho ngày hè năng động.",
+        "details": "Cấu trúc dệt mắt chim tổ ong pique thoát nhiệt nhanh, phù hợp cho ngày hè năng động. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+            "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700"
+        ],
+        "variants": [
+            {
+                "id": 74,
+                "color": "Đen",
+                "size": "L",
+                "stock": 22
+            },
+            {
+                "id": 75,
+                "color": "Trắng",
+                "size": "M",
+                "stock": 25
+            },
+            {
+                "id": 76,
+                "color": "Xanh Navy",
+                "size": "M",
+                "stock": 22
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "sku": "SFP-AONU-01",
+        "name": "Áo Croptop Nữ Tay Ngắn Cổ Tròn Ôm Body Cotton SOFEP",
+        "slug": "ao-croptop-nu-tay-ngan-co-tron-om-body-cotton-sofep-rpll",
+        "category": "Áo Nữ",
+        "description": "Chất vải thun cotton spandex co giãn 4 chiều mềm mịn, tôn trọn vẹn eo thon.",
+        "details": "Chất vải thun cotton spandex co giãn 4 chiều mềm mịn, tôn trọn vẹn eo thon. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700"
+        ],
+        "variants": [
+            {
+                "id": 197,
+                "color": "Đen",
+                "size": "S",
+                "stock": 37
+            },
+            {
+                "id": 198,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 36
+            },
+            {
+                "id": 199,
+                "color": "Xanh Navy",
+                "size": "L",
+                "stock": 45
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "sku": "SFP-AONU-02",
+        "name": "Áo Sơ Mi Nữ Lụa Cổ Nơ Phong Cách Công Sở Paris",
+        "slug": "ao-so-mi-nu-lua-co-no-phong-cach-cong-so-paris-33cr",
+        "category": "Áo Nữ",
+        "description": "Dải nơ cổ thắt mềm rủ thanh lịch, chất lụa cao cấp không nhăn khi làm việc.",
+        "details": "Dải nơ cổ thắt mềm rủ thanh lịch, chất lụa cao cấp không nhăn khi làm việc. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+            "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700"
+        ],
+        "variants": [
+            {
+                "id": 200,
+                "color": "Đen",
+                "size": "M",
+                "stock": 30
+            },
+            {
+                "id": 201,
+                "color": "Trắng",
+                "size": "XXL",
+                "stock": 45
+            },
+            {
+                "id": 202,
+                "color": "Xanh Navy",
+                "size": "S",
+                "stock": 33
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "sku": "SFP-AONU-03",
+        "name": "Áo Kiểu Nữ Trễ Vai Tay Bồng Bo Chun Nữ Tính",
+        "slug": "ao-kieu-nu-tre-vai-tay-bong-bo-chun-nu-tinh-d1x6",
+        "category": "Áo Nữ",
+        "description": "Bo chun trễ vai êm ái không hằn da, khoe trọn vẹn bờ vai trần quyến rũ.",
+        "details": "Bo chun trễ vai êm ái không hằn da, khoe trọn vẹn bờ vai trần quyến rũ. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+            "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700"
+        ],
+        "variants": [
+            {
+                "id": 203,
+                "color": "Đen",
+                "size": "S",
+                "stock": 29
+            },
+            {
+                "id": 204,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 35
+            },
+            {
+                "id": 205,
+                "color": "Xanh Navy",
+                "size": "XXL",
+                "stock": 22
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "sku": "SFP-AONU-04",
+        "name": "Áo Len Nữ Cổ Lọ Dệt Kim Giữ Ấm Mùa Đông",
+        "slug": "ao-len-nu-co-lo-det-kim-giu-am-mua-dong-qcyg",
+        "category": "Áo Nữ",
+        "description": "Len dệt mịn sợi nhỏ không dặm ngứa, phom ôm nhẹ ấm áp mùa gió lạnh.",
+        "details": "Len dệt mịn sợi nhỏ không dặm ngứa, phom ôm nhẹ ấm áp mùa gió lạnh. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+            "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700"
+        ],
+        "variants": [
+            {
+                "id": 206,
+                "color": "Đen",
+                "size": "XXL",
+                "stock": 39
+            },
+            {
+                "id": 207,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 25
+            },
+            {
+                "id": 208,
+                "color": "Xanh Navy",
+                "size": "XL",
+                "stock": 43
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "sku": "SFP-AONU-05",
+        "name": "Áo Thun Nữ Oversized In Hình Chữ Nổi Minimalist",
+        "slug": "ao-thun-nu-oversized-in-hinh-chu-noi-minimalist-x6sx",
+        "category": "Áo Nữ",
+        "description": "Form rộng giấu quần sành điệu, chất vải cotton 100% thoáng mát tự nhiên.",
+        "details": "Form rộng giấu quần sành điệu, chất vải cotton 100% thoáng mát tự nhiên. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+            "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700"
+        ],
+        "variants": [
+            {
+                "id": 209,
+                "color": "Đen",
+                "size": "XXL",
+                "stock": 35
+            },
+            {
+                "id": 210,
+                "color": "Trắng",
+                "size": "XXL",
+                "stock": 45
+            },
+            {
+                "id": 211,
+                "color": "Xanh Navy",
+                "size": "XXL",
+                "stock": 34
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "sku": "SFP-AONU-06",
+        "name": "Áo Hai Dây Nữ Lụa Satin Viền Ren Cổ V Gợi Cảm",
+        "slug": "ao-hai-day-nu-lua-satin-vien-ren-co-v-goi-cam-kn7p",
+        "category": "Áo Nữ",
+        "description": "Viền ren tinh tế trước ngực, dây áo tùy chỉnh độ dài linh hoạt.",
+        "details": "Viền ren tinh tế trước ngực, dây áo tùy chỉnh độ dài linh hoạt. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+            "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700"
+        ],
+        "variants": [
+            {
+                "id": 212,
+                "color": "Đen",
+                "size": "S",
+                "stock": 22
+            },
+            {
+                "id": 213,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 23
+            },
+            {
+                "id": 214,
+                "color": "Xanh Navy",
+                "size": "L",
+                "stock": 47
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "sku": "SFP-AONU-07",
+        "name": "Áo Sơ Mi Nữ Voan Kẻ Sọc Dáng Rộng Dạo Phố",
+        "slug": "ao-so-mi-nu-voan-ke-soc-dang-rong-dao-pho-no2k",
+        "category": "Áo Nữ",
+        "description": "Sọc xanh trắng tươi trẻ, mặc đơn hoặc khoác ngoài áo hai dây đều tuyệt đẹp.",
+        "details": "Sọc xanh trắng tươi trẻ, mặc đơn hoặc khoác ngoài áo hai dây đều tuyệt đẹp. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+            "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700"
+        ],
+        "variants": [
+            {
+                "id": 215,
+                "color": "Đen",
+                "size": "M",
+                "stock": 49
+            },
+            {
+                "id": 216,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 31
+            },
+            {
+                "id": 217,
+                "color": "Xanh Navy",
+                "size": "M",
+                "stock": 20
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "sku": "SFP-AONU-08",
+        "name": "Áo Kiểu Nữ Cổ Vuông Tay Nhún Điệu Đà Tiểu Thư",
+        "slug": "ao-kieu-nu-co-vuong-tay-nhun-dieu-da-tieu-thu-utax",
+        "category": "Áo Nữ",
+        "description": "Đường may nhún ngực tinh xảo tôn vòng một, tay bồng nhẹ nhàng nữ tính.",
+        "details": "Đường may nhún ngực tinh xảo tôn vòng một, tay bồng nhẹ nhàng nữ tính. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+            "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700"
+        ],
+        "variants": [
+            {
+                "id": 218,
+                "color": "Đen",
+                "size": "S",
+                "stock": 38
+            },
+            {
+                "id": 219,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 47
+            },
+            {
+                "id": 220,
+                "color": "Xanh Navy",
+                "size": "S",
+                "stock": 42
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "sku": "SFP-AONU-09",
+        "name": "Áo Ba Lỗ Nữ Dệt Rib Co Giãn Tôn Dáng Thể Thao",
+        "slug": "ao-ba-lo-nu-det-rib-co-gian-ton-dang-the-thao-xfvq",
+        "category": "Áo Nữ",
+        "description": "Chất dệt kim gân co giãn ôm dáng, dễ dàng phối cùng quần jean hay áo khoác ngoài.",
+        "details": "Chất dệt kim gân co giãn ôm dáng, dễ dàng phối cùng quần jean hay áo khoác ngoài. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+            "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700"
+        ],
+        "variants": [
+            {
+                "id": 221,
+                "color": "Đen",
+                "size": "M",
+                "stock": 30
+            },
+            {
+                "id": 222,
+                "color": "Trắng",
+                "size": "XXL",
+                "stock": 25
+            },
+            {
+                "id": 223,
+                "color": "Xanh Navy",
+                "size": "S",
+                "stock": 40
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "sku": "SFP-AONU-10",
+        "name": "Áo Nỉ Nữ Hoodie Form Rộng Phong Cách Ulzzang Hàn Quốc",
+        "slug": "ao-ni-nu-hoodie-form-rong-phong-cach-ulzzang-han-quoc-qqrf",
+        "category": "Áo Nữ",
+        "description": "Nón trùm 2 lớp dày dặn, túi kangaroo phía trước rộng rãi tiện dụng.",
+        "details": "Nón trùm 2 lớp dày dặn, túi kangaroo phía trước rộng rãi tiện dụng. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=700",
+            "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=700"
+        ],
+        "variants": [
+            {
+                "id": 224,
+                "color": "Đen",
+                "size": "XL",
+                "stock": 43
+            },
+            {
+                "id": 225,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 23
+            },
+            {
+                "id": 226,
+                "color": "Xanh Navy",
+                "size": "XL",
+                "stock": 27
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "sku": "SFP-AONU-11",
+        "name": "Áo Sơ Mi Nữ Trắng Cổ Đức Basic Vải Kate Lụa",
+        "slug": "ao-so-mi-nu-trang-co-duc-basic-vai-kate-lua-kooa",
+        "category": "Áo Nữ",
+        "description": "Chiếc áo sơ mi trắng tiêu chuẩn cho phái đẹp, form dáng đứng đắn chỉn chu.",
+        "details": "Chiếc áo sơ mi trắng tiêu chuẩn cho phái đẹp, form dáng đứng đắn chỉn chu. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+            "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700"
+        ],
+        "variants": [
+            {
+                "id": 227,
+                "color": "Đen",
+                "size": "S",
+                "stock": 28
+            },
+            {
+                "id": 228,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 42
+            },
+            {
+                "id": 229,
+                "color": "Xanh Navy",
+                "size": "M",
+                "stock": 26
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "sku": "SFP-AONU-12",
+        "name": "Áo Len Nữ Cardigan Nút Cài Ngọc Trai Vintage",
+        "slug": "ao-len-nu-cardigan-nut-cai-ngoc-trai-vintage-llzp",
+        "category": "Áo Nữ",
+        "description": "Hàng nút ngọc trai nhân tạo sang trọng, chất len mềm rủ nhẹ nhàng mùa thu.",
+        "details": "Hàng nút ngọc trai nhân tạo sang trọng, chất len mềm rủ nhẹ nhàng mùa thu. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+            "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700"
+        ],
+        "variants": [
+            {
+                "id": 230,
+                "color": "Đen",
+                "size": "S",
+                "stock": 27
+            },
+            {
+                "id": 231,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 26
+            },
+            {
+                "id": 232,
+                "color": "Xanh Navy",
+                "size": "L",
+                "stock": 42
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "sku": "SFP-AONU-13",
+        "name": "Áo Croptop Nữ Dài Tay Khóa Kéo Hai Đầu Sành Điệu",
+        "slug": "ao-croptop-nu-dai-tay-khoa-keo-hai-dau-sanh-dieu-vdc3",
+        "category": "Áo Nữ",
+        "description": "Khóa kéo hai đầu kim loại cho phép tùy biến kiểu mặc kéo hở trên dưới cá tính.",
+        "details": "Khóa kéo hai đầu kim loại cho phép tùy biến kiểu mặc kéo hở trên dưới cá tính. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700"
+        ],
+        "variants": [
+            {
+                "id": 233,
+                "color": "Đen",
+                "size": "XXL",
+                "stock": 22
+            },
+            {
+                "id": 234,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 24
+            },
+            {
+                "id": 235,
+                "color": "Xanh Navy",
+                "size": "S",
+                "stock": 25
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "sku": "SFP-AONU-14",
+        "name": "Áo Kiểu Nữ Thắt Nơ Lưng Hở Vai Gợi Cảm Đi Tiệc",
+        "slug": "ao-kieu-nu-that-no-lung-ho-vai-goi-cam-di-tiec-x0mu",
+        "category": "Áo Nữ",
+        "description": "Khoét lưng thắt nơ vải tinh xảo, diện cùng quần ống rộng tạo phong thái kiêu kỳ.",
+        "details": "Khoét lưng thắt nơ vải tinh xảo, diện cùng quần ống rộng tạo phong thái kiêu kỳ. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+            "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700"
+        ],
+        "variants": [
+            {
+                "id": 236,
+                "color": "Đen",
+                "size": "XXL",
+                "stock": 34
+            },
+            {
+                "id": 237,
+                "color": "Trắng",
+                "size": "XXL",
+                "stock": 48
+            },
+            {
+                "id": 238,
+                "color": "Xanh Navy",
+                "size": "M",
+                "stock": 25
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "sku": "SFP-AONU-15",
+        "name": "Áo Thun Nữ Cổ Tim Vải Tencel Mát Mịn Thấm Hút",
+        "slug": "ao-thun-nu-co-tim-vai-tencel-mat-min-tham-hut-iitz",
+        "category": "Áo Nữ",
+        "description": "Sợi sinh học Tencel từ bột gỗ thiên nhiên, êm dịu tuyệt đối với làn da nhạy cảm.",
+        "details": "Sợi sinh học Tencel từ bột gỗ thiên nhiên, êm dịu tuyệt đối với làn da nhạy cảm. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+            "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700"
+        ],
+        "variants": [
+            {
+                "id": 239,
+                "color": "Đen",
+                "size": "M",
+                "stock": 21
+            },
+            {
+                "id": 240,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 25
+            },
+            {
+                "id": 241,
+                "color": "Xanh Navy",
+                "size": "L",
+                "stock": 33
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "sku": "SFP-AONU-16",
+        "name": "Áo Sơ Mi Nữ Tay Lỡ Vải Đũi Mộc Mạc Tối Giản",
+        "slug": "ao-so-mi-nu-tay-lo-vai-dui-moc-mac-toi-gian-v3te",
+        "category": "Áo Nữ",
+        "description": "Tay lỡ duyên dáng, cúc áo bằng gỗ dừa thân thiện môi trường.",
+        "details": "Tay lỡ duyên dáng, cúc áo bằng gỗ dừa thân thiện môi trường. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+            "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700"
+        ],
+        "variants": [
+            {
+                "id": 242,
+                "color": "Đen",
+                "size": "L",
+                "stock": 26
+            },
+            {
+                "id": 243,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 39
+            },
+            {
+                "id": 244,
+                "color": "Xanh Navy",
+                "size": "M",
+                "stock": 38
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "sku": "SFP-AONU-17",
+        "name": "Áo Corset Nữ Định Hình Eo Gợi Cảm Phối Ren",
+        "slug": "ao-corset-nu-dinh-hinh-eo-goi-cam-phoi-ren-qedf",
+        "category": "Áo Nữ",
+        "description": "Gọng định hình mềm mại ôm khít đường cong eo mà không gây khó thở.",
+        "details": "Gọng định hình mềm mại ôm khít đường cong eo mà không gây khó thở. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+            "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700"
+        ],
+        "variants": [
+            {
+                "id": 245,
+                "color": "Đen",
+                "size": "L",
+                "stock": 33
+            },
+            {
+                "id": 246,
+                "color": "Trắng",
+                "size": "S",
+                "stock": 42
+            },
+            {
+                "id": 247,
+                "color": "Xanh Navy",
+                "size": "XL",
+                "stock": 21
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "sku": "SFP-AONU-18",
+        "name": "Áo Dệt Kim Nữ Cộc Tay Cổ Polo Trẻ Trung Năng Động",
+        "slug": "ao-det-kim-nu-coc-tay-co-polo-tre-trung-nang-dong-dyai",
+        "category": "Áo Nữ",
+        "description": "Dệt jacquard họa tiết xương cá thanh mảnh, cổ bẻ phối màu nhã nhặn.",
+        "details": "Dệt jacquard họa tiết xương cá thanh mảnh, cổ bẻ phối màu nhã nhặn. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+            "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700"
+        ],
+        "variants": [
+            {
+                "id": 248,
+                "color": "Đen",
+                "size": "XXL",
+                "stock": 36
+            },
+            {
+                "id": 249,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 33
+            },
+            {
+                "id": 250,
+                "color": "Xanh Navy",
+                "size": "XL",
+                "stock": 44
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "sku": "SFP-AONU-19",
+        "name": "Áo Peplum Nữ Che Khuyết Điểm Bụng Tôn Vóc Dáng",
+        "slug": "ao-peplum-nu-che-khuyet-diem-bung-ton-voc-dang-2yfh",
+        "category": "Áo Nữ",
+        "description": "Chiết eo cao và xòe nhẹ phần đuôi áo giúp tạo ảo giác vòng eo con kiến.",
+        "details": "Chiết eo cao và xòe nhẹ phần đuôi áo giúp tạo ảo giác vòng eo con kiến. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+            "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700"
+        ],
+        "variants": [
+            {
+                "id": 251,
+                "color": "Đen",
+                "size": "L",
+                "stock": 44
+            },
+            {
+                "id": 252,
+                "color": "Trắng",
+                "size": "XXL",
+                "stock": 20
+            },
+            {
+                "id": 253,
+                "color": "Xanh Navy",
+                "size": "L",
+                "stock": 44
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "sku": "SFP-AONU-20",
+        "name": "Áo Thun Nữ Body Cổ Khóa Half-Zip Thể Thao Cao Cấp",
+        "slug": "ao-thun-nu-body-co-khoa-half-zip-the-thao-cao-cap-auiv",
+        "category": "Áo Nữ",
+        "description": "Chất liệu thun thể thao co giãn 4 chiều, khóa zip nửa ngực tiện lợi tùy chỉnh.",
+        "details": "Chất liệu thun thể thao co giãn 4 chiều, khóa zip nửa ngực tiện lợi tùy chỉnh. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=700",
+            "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=700"
+        ],
+        "variants": [
+            {
+                "id": 254,
+                "color": "Đen",
+                "size": "L",
+                "stock": 41
+            },
+            {
+                "id": 255,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 38
+            },
+            {
+                "id": 256,
+                "color": "Xanh Navy",
+                "size": "S",
+                "stock": 47
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "sku": "SFP-AOKHOAC-01",
+        "name": "Áo Khoác Blazer Nam 2 Hàng Khuy Double-Breasted SOFEP",
+        "slug": "ao-khoac-blazer-nam-2-hang-khuy-double-breasted-sofep-7g1d",
+        "category": "Áo Khoác & Blazer",
+        "description": "Thiết kế 6 khuy cổ điển phong cách quý tộc Ý, vải wool pha đứng form hoàn hảo.",
+        "details": "Thiết kế 6 khuy cổ điển phong cách quý tộc Ý, vải wool pha đứng form hoàn hảo. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+            "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700"
+        ],
+        "variants": [
+            {
+                "id": 257,
+                "color": "Đen",
+                "size": "S",
+                "stock": 27
+            },
+            {
+                "id": 258,
+                "color": "Trắng",
+                "size": "S",
+                "stock": 20
+            },
+            {
+                "id": 259,
+                "color": "Xanh Navy",
+                "size": "M",
+                "stock": 31
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "sku": "SFP-AOKHOAC-02",
+        "name": "Áo Khoác Bomber Dù 2 Lớp Chống Gió Chống Nước",
+        "slug": "ao-khoac-bomber-du-2-lop-chong-gio-chong-nuoc-elfl",
+        "category": "Áo Khoác & Blazer",
+        "description": "Bo cổ và tay áo dệt thun dày dặn, túi tay áo có khóa zip tiện dụng.",
+        "details": "Bo cổ và tay áo dệt thun dày dặn, túi tay áo có khóa zip tiện dụng. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+            "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700"
+        ],
+        "variants": [
+            {
+                "id": 260,
+                "color": "Đen",
+                "size": "L",
+                "stock": 26
+            },
+            {
+                "id": 261,
+                "color": "Trắng",
+                "size": "S",
+                "stock": 35
+            },
+            {
+                "id": 262,
+                "color": "Xanh Navy",
+                "size": "S",
+                "stock": 31
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "sku": "SFP-AOKHOAC-03",
+        "name": "Áo Khoác Blazer Nữ Cắt Lửng Cropped Thời Thượng",
+        "slug": "ao-khoac-blazer-nu-cat-lung-cropped-thoi-thuong-uard",
+        "category": "Áo Khoác & Blazer",
+        "description": "Dáng croptop ngang eo tôn chiều dài chân, đệm vai nhẹ tạo phom quyền lực.",
+        "details": "Dáng croptop ngang eo tôn chiều dài chân, đệm vai nhẹ tạo phom quyền lực. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+            "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700"
+        ],
+        "variants": [
+            {
+                "id": 263,
+                "color": "Đen",
+                "size": "L",
+                "stock": 28
+            },
+            {
+                "id": 264,
+                "color": "Trắng",
+                "size": "S",
+                "stock": 23
+            },
+            {
+                "id": 265,
+                "color": "Xanh Navy",
+                "size": "M",
+                "stock": 24
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "sku": "SFP-AOKHOAC-04",
+        "name": "Áo Khoác Denim Bò Unisex Lót Lông Cừu Ấm Áp Mùa Đông",
+        "slug": "ao-khoac-denim-bo-unisex-lot-long-cuu-am-ap-mua-dong-xmmc",
+        "category": "Áo Khoác & Blazer",
+        "description": "Cổ áo và thân trong lót lông cừu tổng hợp giữ nhiệt cực tốt, cúc đồng đúc chắc chắn.",
+        "details": "Cổ áo và thân trong lót lông cừu tổng hợp giữ nhiệt cực tốt, cúc đồng đúc chắc chắn. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+            "https://images.unsplash.com/photo-1544441893-675973e31985?w=700"
+        ],
+        "variants": [
+            {
+                "id": 266,
+                "color": "Đen",
+                "size": "S",
+                "stock": 24
+            },
+            {
+                "id": 267,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 45
+            },
+            {
+                "id": 268,
+                "color": "Xanh Navy",
+                "size": "XXL",
+                "stock": 29
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "sku": "SFP-AOKHOAC-05",
+        "name": "Áo Khoác Măng Tô Dạ Dáng Dài Thu Đông Đẳng Cấp",
+        "slug": "ao-khoac-mang-to-da-dang-dai-thu-dong-dang-cap-qqrn",
+        "category": "Áo Khoác & Blazer",
+        "description": "Chất dạ lông cừu ép nhiệt mềm mượt, ve áo chữ K bản rộng sang trọng vượt thời gian.",
+        "details": "Chất dạ lông cừu ép nhiệt mềm mượt, ve áo chữ K bản rộng sang trọng vượt thời gian. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+            "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700"
+        ],
+        "variants": [
+            {
+                "id": 269,
+                "color": "Đen",
+                "size": "M",
+                "stock": 44
+            },
+            {
+                "id": 270,
+                "color": "Trắng",
+                "size": "M",
+                "stock": 30
+            },
+            {
+                "id": 271,
+                "color": "Xanh Navy",
+                "size": "S",
+                "stock": 28
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "sku": "SFP-AOKHOAC-06",
+        "name": "Áo Khoác Gió Thể Thao Chống Nước Có Mũ Trùm Đa Năng",
+        "slug": "ao-khoac-gio-the-thao-chong-nuoc-co-mu-trum-da-nang-8gxv",
+        "category": "Áo Khoác & Blazer",
+        "description": "Chỉ số chống nước 5000mm, đường ép seam chống thấm nước tuyệt đối qua đường may.",
+        "details": "Chỉ số chống nước 5000mm, đường ép seam chống thấm nước tuyệt đối qua đường may. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+            "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700"
+        ],
+        "variants": [
+            {
+                "id": 272,
+                "color": "Đen",
+                "size": "M",
+                "stock": 44
+            },
+            {
+                "id": 273,
+                "color": "Trắng",
+                "size": "M",
+                "stock": 20
+            },
+            {
+                "id": 274,
+                "color": "Xanh Navy",
+                "size": "M",
+                "stock": 28
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "sku": "SFP-AOKHOAC-07",
+        "name": "Áo Khoác Blazer Nam Form Rộng Relaxed Fit Smart Casual",
+        "slug": "ao-khoac-blazer-nam-form-rong-relaxed-fit-smart-casual-pz3i",
+        "category": "Áo Khoác & Blazer",
+        "description": "Không đệm vai cứng nhắc, tạo cảm giác thoải mái tự nhiên khi đi làm hay hẹn hò.",
+        "details": "Không đệm vai cứng nhắc, tạo cảm giác thoải mái tự nhiên khi đi làm hay hẹn hò. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+            "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700"
+        ],
+        "variants": [
+            {
+                "id": 275,
+                "color": "Đen",
+                "size": "S",
+                "stock": 47
+            },
+            {
+                "id": 276,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 31
+            },
+            {
+                "id": 277,
+                "color": "Xanh Navy",
+                "size": "XL",
+                "stock": 43
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "sku": "SFP-AOKHOAC-08",
+        "name": "Áo Khoác Da Biker Da Cừu Cao Cấp Khóa Xéo Đinh Tán",
+        "slug": "ao-khoac-da-biker-da-cuu-cao-cap-khoa-xeo-dinh-tan-liwr",
+        "category": "Áo Khoác & Blazer",
+        "description": "Chất da cừu tự nhiên mềm mại như nhung, khóa kéo kim loại YKK bền bỉ trọn đời.",
+        "details": "Chất da cừu tự nhiên mềm mại như nhung, khóa kéo kim loại YKK bền bỉ trọn đời. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700",
+            "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700"
+        ],
+        "variants": [
+            {
+                "id": 278,
+                "color": "Đen",
+                "size": "S",
+                "stock": 23
+            },
+            {
+                "id": 279,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 46
+            },
+            {
+                "id": 280,
+                "color": "Xanh Navy",
+                "size": "XXL",
+                "stock": 45
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "sku": "SFP-AOKHOAC-09",
+        "name": "Áo Khoác Cardigan Len Vặn Thừng Dáng Rộng Vintage",
+        "slug": "ao-khoac-cardigan-len-van-thung-dang-rong-vintage-etk1",
+        "category": "Áo Khoác & Blazer",
+        "description": "Họa tiết vặn thừng dày nổi 3D, nút sừng bò tự nhiên mang đậm hơi thở đồng quê Anh quốc.",
+        "details": "Họa tiết vặn thừng dày nổi 3D, nút sừng bò tự nhiên mang đậm hơi thở đồng quê Anh quốc. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+            "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700"
+        ],
+        "variants": [
+            {
+                "id": 281,
+                "color": "Đen",
+                "size": "XXL",
+                "stock": 41
+            },
+            {
+                "id": 282,
+                "color": "Trắng",
+                "size": "M",
+                "stock": 50
+            },
+            {
+                "id": 283,
+                "color": "Xanh Navy",
+                "size": "XXL",
+                "stock": 36
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "sku": "SFP-AOKHOAC-10",
+        "name": "Áo Khoác Kaki Safari 4 Túi Hộp Quân Đội Đa Dụng",
+        "slug": "ao-khoac-kaki-safari-4-tui-hop-quan-doi-da-dung-9uoh",
+        "category": "Áo Khoác & Blazer",
+        "description": "Lấy cảm hứng từ áo dã ngoại Safari, dây rút eo bên trong giúp tôn eo linh hoạt.",
+        "details": "Lấy cảm hứng từ áo dã ngoại Safari, dây rút eo bên trong giúp tôn eo linh hoạt. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+            "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700"
+        ],
+        "variants": [
+            {
+                "id": 284,
+                "color": "Đen",
+                "size": "XXL",
+                "stock": 46
+            },
+            {
+                "id": 285,
+                "color": "Trắng",
+                "size": "S",
+                "stock": 50
+            },
+            {
+                "id": 286,
+                "color": "Xanh Navy",
+                "size": "XL",
+                "stock": 33
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "sku": "SFP-AOKHOAC-11",
+        "name": "Áo Blazer Nữ Kẻ Caro Houndstooth Nanh Sói Hoàng Gia",
+        "slug": "ao-blazer-nu-ke-caro-houndstooth-nanh-soi-hoang-gia-vmip",
+        "category": "Áo Khoác & Blazer",
+        "description": "Họa tiết nanh sói đen trắng cổ điển, lớp lót lụa satin mượt mà ôm sát cơ thể.",
+        "details": "Họa tiết nanh sói đen trắng cổ điển, lớp lót lụa satin mượt mà ôm sát cơ thể. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+            "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700"
+        ],
+        "variants": [
+            {
+                "id": 287,
+                "color": "Đen",
+                "size": "M",
+                "stock": 40
+            },
+            {
+                "id": 288,
+                "color": "Trắng",
+                "size": "M",
+                "stock": 24
+            },
+            {
+                "id": 289,
+                "color": "Xanh Navy",
+                "size": "XXL",
+                "stock": 49
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "sku": "SFP-AOKHOAC-12",
+        "name": "Áo Khoác Phao Lông Vũ Dáng Ngắn Siêu Nhẹ 800FP",
+        "slug": "ao-khoac-phao-long-vu-dang-ngan-sieu-nhe-800fp-cxxn",
+        "category": "Áo Khoác & Blazer",
+        "description": "Lõi lông vũ 90/10 siêu nhẹ chỉ 280g, có túi gấp gọn tiện lợi mang đi du lịch.",
+        "details": "Lõi lông vũ 90/10 siêu nhẹ chỉ 280g, có túi gấp gọn tiện lợi mang đi du lịch. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+            "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700"
+        ],
+        "variants": [
+            {
+                "id": 290,
+                "color": "Đen",
+                "size": "M",
+                "stock": 35
+            },
+            {
+                "id": 291,
+                "color": "Trắng",
+                "size": "M",
+                "stock": 46
+            },
+            {
+                "id": 292,
+                "color": "Xanh Navy",
+                "size": "XXL",
+                "stock": 21
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "sku": "SFP-AOKHOAC-13",
+        "name": "Áo Khoác Varsity Jacket Phối Tay Da Học Đường Trẻ Trung",
+        "slug": "ao-khoac-varsity-jacket-phoi-tay-da-hoc-duong-tre-trung-epcp",
+        "category": "Áo Khoác & Blazer",
+        "description": "Thân dạ phối tay da tổng hợp cao cấp, logo chữ thêu khăn xù nổi bật ngực áo.",
+        "details": "Thân dạ phối tay da tổng hợp cao cấp, logo chữ thêu khăn xù nổi bật ngực áo. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+            "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700"
+        ],
+        "variants": [
+            {
+                "id": 293,
+                "color": "Đen",
+                "size": "M",
+                "stock": 50
+            },
+            {
+                "id": 294,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 50
+            },
+            {
+                "id": 295,
+                "color": "Xanh Navy",
+                "size": "L",
+                "stock": 21
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "sku": "SFP-AOKHOAC-14",
+        "name": "Áo Khoác Trench Coat Dáng Dài Phong Cách London Cổ Điển",
+        "slug": "ao-khoac-trench-coat-dang-dai-phong-cach-london-co-dien-z4pv",
+        "category": "Áo Khoác & Blazer",
+        "description": "Vải gabardine dệt mật độ cao chống gió và nước mưa nhẹ, kèm đai thắt eo khóa kim loại.",
+        "details": "Vải gabardine dệt mật độ cao chống gió và nước mưa nhẹ, kèm đai thắt eo khóa kim loại. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+            "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700"
+        ],
+        "variants": [
+            {
+                "id": 296,
+                "color": "Đen",
+                "size": "XXL",
+                "stock": 38
+            },
+            {
+                "id": 297,
+                "color": "Trắng",
+                "size": "M",
+                "stock": 32
+            },
+            {
+                "id": 298,
+                "color": "Xanh Navy",
+                "size": "L",
+                "stock": 30
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "sku": "SFP-AOKHOAC-15",
+        "name": "Áo Khoác Gió Nam Nữ Trượt Nước Đi Mưa Có Phản Quang",
+        "slug": "ao-khoac-gio-nam-nu-truot-nuoc-di-mua-co-phan-quang-gisa",
+        "category": "Áo Khoác & Blazer",
+        "description": "Đường viền phản quang ban đêm an toàn, gấp gọn thành chiếc túi nhỏ đeo hông.",
+        "details": "Đường viền phản quang ban đêm an toàn, gấp gọn thành chiếc túi nhỏ đeo hông. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+            "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700"
+        ],
+        "variants": [
+            {
+                "id": 299,
+                "color": "Đen",
+                "size": "M",
+                "stock": 44
+            },
+            {
+                "id": 300,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 48
+            },
+            {
+                "id": 301,
+                "color": "Xanh Navy",
+                "size": "XXL",
+                "stock": 29
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "sku": "SFP-AOKHOAC-16",
+        "name": "Áo Blazer Nam Linen Không Đệm Vai Thoáng Mát Mùa Hè",
+        "slug": "ao-blazer-nam-linen-khong-dem-vai-thoang-mat-mua-he-sdur",
+        "category": "Áo Khoác & Blazer",
+        "description": "Chất sợi lanh đũi mộc mạc, phù hợp khí hậu nhiệt đới mà vẫn giữ được sự lịch thiệp.",
+        "details": "Chất sợi lanh đũi mộc mạc, phù hợp khí hậu nhiệt đới mà vẫn giữ được sự lịch thiệp. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+            "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700"
+        ],
+        "variants": [
+            {
+                "id": 302,
+                "color": "Đen",
+                "size": "XXL",
+                "stock": 36
+            },
+            {
+                "id": 303,
+                "color": "Trắng",
+                "size": "S",
+                "stock": 49
+            },
+            {
+                "id": 304,
+                "color": "Xanh Navy",
+                "size": "XL",
+                "stock": 33
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "sku": "SFP-AOKHOAC-17",
+        "name": "Áo Khoác Nhựa Dù Trong Suốt Thời Trang Độc Lạ Y2K",
+        "slug": "ao-khoac-nhua-du-trong-suot-thoi-trang-doc-la-y2k-zxyo",
+        "category": "Áo Khoác & Blazer",
+        "description": "Chất liệu TPU mờ chống nước hoàn toàn, khoe trọn outfit mặc bên trong.",
+        "details": "Chất liệu TPU mờ chống nước hoàn toàn, khoe trọn outfit mặc bên trong. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+            "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700"
+        ],
+        "variants": [
+            {
+                "id": 305,
+                "color": "Đen",
+                "size": "L",
+                "stock": 29
+            },
+            {
+                "id": 306,
+                "color": "Trắng",
+                "size": "S",
+                "stock": 26
+            },
+            {
+                "id": 307,
+                "color": "Xanh Navy",
+                "size": "S",
+                "stock": 25
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "sku": "SFP-AOKHOAC-18",
+        "name": "Áo Khoác Nỉ Hoodie Zip 2 Chiều Form Rộng Streetwear",
+        "slug": "ao-khoac-ni-hoodie-zip-2-chieu-form-rong-streetwear-ymbx",
+        "category": "Áo Khoác & Blazer",
+        "description": "Khóa kéo hai chiều tiện lợi, vải nỉ bông dày 400GSM siêu đầm tay.",
+        "details": "Khóa kéo hai chiều tiện lợi, vải nỉ bông dày 400GSM siêu đầm tay. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+            "https://images.unsplash.com/photo-1544441893-675973e31985?w=700"
+        ],
+        "variants": [
+            {
+                "id": 308,
+                "color": "Đen",
+                "size": "M",
+                "stock": 49
+            },
+            {
+                "id": 309,
+                "color": "Trắng",
+                "size": "XL",
+                "stock": 34
+            },
+            {
+                "id": 310,
+                "color": "Xanh Navy",
+                "size": "M",
+                "stock": 48
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "sku": "SFP-AOKHOAC-19",
+        "name": "Áo Khoác Kimono Cách Điệu Vải Gấm Sang Trọng Dạo Phố",
+        "slug": "ao-khoac-kimono-cach-dieu-vai-gam-sang-trong-dao-pho-0rba",
+        "category": "Áo Khoác & Blazer",
+        "description": "Tay áo kimono rộng rãi, hoa văn dệt chìm sang trọng mang cảm hứng Á Đông.",
+        "details": "Tay áo kimono rộng rãi, hoa văn dệt chìm sang trọng mang cảm hứng Á Đông. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700",
+            "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700"
+        ],
+        "variants": [
+            {
+                "id": 311,
+                "color": "Đen",
+                "size": "S",
+                "stock": 27
+            },
+            {
+                "id": 312,
+                "color": "Trắng",
+                "size": "S",
+                "stock": 23
+            },
+            {
+                "id": 313,
+                "color": "Xanh Navy",
+                "size": "S",
+                "stock": 28
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "sku": "SFP-AOKHOAC-20",
+        "name": "Áo Blazer Nữ Không Tay Dáng Dài Vest Gilet Thanh Lịch",
+        "slug": "ao-blazer-nu-khong-tay-dang-dai-vest-gilet-thanh-lich-8o0d",
+        "category": "Áo Khoác & Blazer",
+        "description": "Thiết kế gilet dáng dài che khuyết điểm hông, phối cùng sơ mi trắng hay đầm suông.",
+        "details": "Thiết kế gilet dáng dài che khuyết điểm hông, phối cùng sơ mi trắng hay đầm suông. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+        "status": 1,
+        "main": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+        "gallery": [
+            "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+            "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700"
+        ],
+        "variants": [
+            {
+                "id": 314,
+                "color": "Đen",
+                "size": "S",
+                "stock": 20
+            },
+            {
+                "id": 315,
+                "color": "Trắng",
+                "size": "L",
+                "stock": 37
+            },
+            {
+                "id": 316,
+                "color": "Xanh Navy",
+                "size": "L",
+                "stock": 21
+            }
+        ]
+    },
+    {
+        "id": 170,
+        "sku": "SELLER-1ZHMS2SVFJ",
+        "name": "Áo thun",
+        "slug": "ao-thun-sstmnzox",
+        "category": "Áo Nam",
+        "description": "Áo",
+        "details": null,
+        "status": 0,
+        "main": "https://product.hstatic.net/1000357687/product/__en-basic-teeartboard-7_2a761a04b29a45d29f2270f5636c1d41_master.png",
+        "gallery": [],
+        "variants": []
+    },
+    {
+        "id": 171,
+        "sku": "SELLER-ETBOUZX7M6",
+        "name": "Áo Công Trình",
+        "slug": "ao-cong-trinh-k9ggmyzr",
+        "category": "Phụ Kiện Thời Trang",
+        "description": "Áo chống nước.",
+        "details": null,
+        "status": 0,
+        "main": "https://truongansafety.com/wp-content/uploads/2023/05/ao-poly-mau-cam.jpg",
+        "gallery": [],
+        "variants": []
+    }
+]

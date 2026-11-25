@@ -1,5 +1,11 @@
 <template>
-    <div class="pb-4">
+    <div class="pb-4" :aria-busy="loadingDashboard">
+        <div v-if="loadingDashboard" role="status" class="alert alert-info">Đang tải Dashboard…</div>
+        <div v-else-if="dashboardError" role="alert" class="alert alert-danger">
+            {{ dashboardError }}
+            <button class="btn btn-outline-danger ms-3" @click="loadDashboardData">Tải lại Dashboard</button>
+        </div>
+        <template v-else>
         <!-- Hero Header -->
         <div class="row mb-4">
             <div class="col-12">
@@ -274,16 +280,21 @@
 
             </div>
         </div>
+        </template>
     </div>
 </template>
 
 <script>
+import { apiUrl } from '../../../services/apiConfig.js';
 import axios from 'axios';
 
 export default {
     name: 'DashboardOverview',
     data() {
         return {
+            loadingDashboard: true,
+            dashboardError: '',
+            dashboardRequestStarted: false,
             thong_ke: {
                 tong_doanh_thu: 0,
                 tong_don_hang: 0,
@@ -333,22 +344,26 @@ export default {
                 default: return status;
             }
         },
-        loadDashboardData() {
-            axios.get('http://127.0.0.1:8000/api/admin/thong-ke/tong-quan')
-                .then(res => {
-                    if (res.data.status) {
-                        this.thong_ke = res.data.data;
-                    }
-                })
-                .catch(err => console.error('Lỗi tải tổng quan:', err));
-
-            axios.get('http://127.0.0.1:8000/api/admin/thong-ke/doanh-thu-theo-thang?nam=2026')
-                .then(res => {
-                    if (res.data.status) {
-                        this.chart_thang = res.data.data;
-                    }
-                })
-                .catch(err => console.error('Lỗi tải doanh thu tháng:', err));
+        async loadDashboardData() {
+            if (this.loadingDashboard && this.dashboardRequestStarted) return;
+            this.dashboardRequestStarted = true;
+            this.loadingDashboard = true;
+            this.dashboardError = '';
+            try {
+                const [overview, monthly] = await Promise.all([
+                    axios.get(apiUrl('/admin/thong-ke/tong-quan')),
+                    axios.get(apiUrl('/admin/thong-ke/doanh-thu-theo-thang?nam=') + new Date().getFullYear())
+                ]);
+                if (!overview.data.status || !overview.data.data || !monthly.data.status || !Array.isArray(monthly.data.data)) {
+                    throw new Error('Invalid dashboard response');
+                }
+                this.thong_ke = overview.data.data;
+                this.chart_thang = monthly.data.data;
+            } catch (error) {
+                this.dashboardError = 'Không tải được dữ liệu Dashboard. Vui lòng thử lại; số liệu chưa được xác nhận.';
+            } finally {
+                this.loadingDashboard = false;
+            }
         }
     }
 }

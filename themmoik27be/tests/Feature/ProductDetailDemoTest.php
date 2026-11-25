@@ -81,7 +81,7 @@ class ProductDetailDemoTest extends IsolatedApiTestCase
 
     public function test_existing_checkout_persists_real_optional_variant_id(): void
     {
-        $this->postJson('/api/client/dat-hang', $this->orderPayload())->assertCreated();
+        $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $this->orderPayload())->assertCreated();
         $detail = DB::table('chi_tiet_don_hangs')->first();
         $this->assertSame(50, $detail->id_chi_tiet_san_pham);
         $this->assertSame(1, $detail->id_san_pham);
@@ -90,15 +90,15 @@ class ProductDetailDemoTest extends IsolatedApiTestCase
 
     public function test_checkout_rejects_cross_product_hidden_and_out_of_stock_variant_before_creating_order(): void
     {
-        foreach ([999, 0, -1] as $invalid) $this->postJson('/api/client/dat-hang', $this->orderPayload($invalid))->assertUnprocessable();
+        foreach ([999, 0, -1] as $invalid) $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $this->orderPayload($invalid))->assertUnprocessable();
         $payload = $this->orderPayload();
         $payload['items'][0]['id'] = 2;
-        $this->postJson('/api/client/dat-hang', $payload)->assertUnprocessable();
+        $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $payload)->assertUnprocessable();
         $payload = $this->orderPayload();
         $payload['items'][0]['quantity'] = 5;
-        $this->postJson('/api/client/dat-hang', $payload)->assertUnprocessable();
+        $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $payload)->assertUnprocessable();
         DB::table('chi_tiet_san_phams')->where('id', 50)->update(['trang_thai' => 0]);
-        $this->postJson('/api/client/dat-hang', $this->orderPayload())->assertUnprocessable();
+        $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $this->orderPayload())->assertUnprocessable();
         $this->assertSame(0, DB::table('don_hangs')->count());
     }
 }

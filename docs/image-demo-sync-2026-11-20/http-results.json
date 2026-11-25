@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "products": 168,
+  "illustrations": 167,
+  "placeholders": 1,
+  "restored_images": 167,
+  "gallery": 167,
+  "variant_fixture": {
+    "id": 510,
+    "image_id": 436,
+    "http": 200,
+    "synthetic": true
+  },
+  "original_id172_variant_links_restored": false,
+  "source_gallery": 514,
+  "source_duplicate_extra_rows": 159,
+  "source_non_demo_rows": 347,
+  "cleanup_demo_candidates": 298,
+  "order_urls": 23,
+  "order_references": 41,
+  "sensitive_counts": {
+    "khach_hangs": 0,
+    "don_hangs": 0,
+    "chi_tiet_don_hangs": 0,
+    "personal_access_tokens": 0,
+    "users": 0
+  },
+  "offline": "Chưa ngắt Internet thực tế; CSP chỉ cho local",
+  "main_files_unchanged": 167
+}

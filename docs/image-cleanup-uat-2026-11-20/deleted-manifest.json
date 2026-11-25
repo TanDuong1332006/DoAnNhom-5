@@ -1,0 +1,1824 @@
+{
+    "trial_database": "sofep_image_restore_20261120_078039924064",
+    "table": "anh_san_phams",
+    "rows": [
+        {
+            "id": 329,
+            "id_san_pham": 1,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/1/illustration-c083c263-33d5-4832-9472-e3c243dc1aeb.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 330,
+            "id_san_pham": 1,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/1/illustration-c32bbb37-92e1-412c-af55-be2f2a9f8471.jpg",
+            "thu_tu": 2,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 331,
+            "id_san_pham": 6,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/6/illustration-a4d91bd8-e53f-4091-95b8-36de5b848c45.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 332,
+            "id_san_pham": 9,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/9/illustration-38dfb9fe-e82f-405f-bb69-76758b3a87f2.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 333,
+            "id_san_pham": 9,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/9/illustration-43c41f19-b93f-4e5e-b010-ff4533bcdb5c.jpg",
+            "thu_tu": 2,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 334,
+            "id_san_pham": 11,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/11/illustration-e1aedd09-50d5-45fc-b174-a2e10227cd84.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 15,
+            "id_san_pham": 12,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 16,
+            "id_san_pham": 12,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 17,
+            "id_san_pham": 13,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 18,
+            "id_san_pham": 13,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 19,
+            "id_san_pham": 14,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 20,
+            "id_san_pham": 14,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 335,
+            "id_san_pham": 16,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/16/illustration-a26d6e9c-6173-4822-a901-63b15897da6d.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 23,
+            "id_san_pham": 16,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 24,
+            "id_san_pham": 16,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=700",
+            "thu_tu": 3,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 336,
+            "id_san_pham": 17,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/17/illustration-6c217c35-3301-41ea-a315-25652ab570a7.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 337,
+            "id_san_pham": 17,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/17/illustration-faecf8f4-082e-46a8-be75-0943e86d61c2.jpg",
+            "thu_tu": 2,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 27,
+            "id_san_pham": 18,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 28,
+            "id_san_pham": 18,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 29,
+            "id_san_pham": 19,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 30,
+            "id_san_pham": 19,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 31,
+            "id_san_pham": 20,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 32,
+            "id_san_pham": 20,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 33,
+            "id_san_pham": 21,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 34,
+            "id_san_pham": 21,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 35,
+            "id_san_pham": 22,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 36,
+            "id_san_pham": 22,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 37,
+            "id_san_pham": 23,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 38,
+            "id_san_pham": 23,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:51",
+            "updated_at": "2026-09-27 09:05:51"
+        },
+        {
+            "id": 338,
+            "id_san_pham": 26,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/26/illustration-4dd94cb8-f3ab-4a93-99e2-a0301beefcfd.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 45,
+            "id_san_pham": 27,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 46,
+            "id_san_pham": 27,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 339,
+            "id_san_pham": 28,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/28/illustration-cb4cf634-ea89-4e4b-9e8a-de3cac7a1c7f.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 51,
+            "id_san_pham": 30,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 52,
+            "id_san_pham": 30,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 53,
+            "id_san_pham": 31,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 54,
+            "id_san_pham": 31,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 55,
+            "id_san_pham": 32,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 56,
+            "id_san_pham": 32,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 57,
+            "id_san_pham": 33,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 58,
+            "id_san_pham": 33,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 61,
+            "id_san_pham": 35,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 62,
+            "id_san_pham": 35,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 65,
+            "id_san_pham": 37,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 66,
+            "id_san_pham": 37,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 69,
+            "id_san_pham": 39,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 70,
+            "id_san_pham": 39,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 71,
+            "id_san_pham": 40,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 72,
+            "id_san_pham": 40,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 75,
+            "id_san_pham": 42,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 76,
+            "id_san_pham": 42,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 77,
+            "id_san_pham": 43,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 78,
+            "id_san_pham": 43,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 79,
+            "id_san_pham": 44,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 80,
+            "id_san_pham": 44,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 83,
+            "id_san_pham": 46,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 84,
+            "id_san_pham": 46,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 87,
+            "id_san_pham": 48,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 88,
+            "id_san_pham": 48,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 93,
+            "id_san_pham": 51,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 94,
+            "id_san_pham": 51,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:52",
+            "updated_at": "2026-09-27 09:05:52"
+        },
+        {
+            "id": 95,
+            "id_san_pham": 52,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 96,
+            "id_san_pham": 52,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 97,
+            "id_san_pham": 53,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 98,
+            "id_san_pham": 53,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 99,
+            "id_san_pham": 54,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 100,
+            "id_san_pham": 54,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 101,
+            "id_san_pham": 55,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 102,
+            "id_san_pham": 55,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 103,
+            "id_san_pham": 56,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 104,
+            "id_san_pham": 56,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 105,
+            "id_san_pham": 57,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 106,
+            "id_san_pham": 57,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 107,
+            "id_san_pham": 58,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 108,
+            "id_san_pham": 58,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 109,
+            "id_san_pham": 59,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 110,
+            "id_san_pham": 59,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 111,
+            "id_san_pham": 60,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 112,
+            "id_san_pham": 60,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 115,
+            "id_san_pham": 62,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 116,
+            "id_san_pham": 62,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 117,
+            "id_san_pham": 63,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 118,
+            "id_san_pham": 63,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 119,
+            "id_san_pham": 64,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 120,
+            "id_san_pham": 64,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 123,
+            "id_san_pham": 66,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 124,
+            "id_san_pham": 66,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 125,
+            "id_san_pham": 67,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 126,
+            "id_san_pham": 67,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 127,
+            "id_san_pham": 68,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 128,
+            "id_san_pham": 68,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 131,
+            "id_san_pham": 70,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 132,
+            "id_san_pham": 70,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 133,
+            "id_san_pham": 71,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 134,
+            "id_san_pham": 71,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 139,
+            "id_san_pham": 74,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 140,
+            "id_san_pham": 74,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 141,
+            "id_san_pham": 75,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 142,
+            "id_san_pham": 75,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 143,
+            "id_san_pham": 76,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 144,
+            "id_san_pham": 76,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 145,
+            "id_san_pham": 77,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 146,
+            "id_san_pham": 77,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 340,
+            "id_san_pham": 78,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/78/illustration-cdf3a0ea-01be-4abf-a342-5cff82e4e725.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 149,
+            "id_san_pham": 79,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 150,
+            "id_san_pham": 79,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:53",
+            "updated_at": "2026-09-27 09:05:53"
+        },
+        {
+            "id": 341,
+            "id_san_pham": 80,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/80/illustration-ed3f6b70-7eb7-42eb-8b4f-295e2f3d9c2b.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 155,
+            "id_san_pham": 82,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 156,
+            "id_san_pham": 82,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 342,
+            "id_san_pham": 84,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/84/illustration-d7f7dcb9-dc4a-4670-b900-b4c1da64748f.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 159,
+            "id_san_pham": 84,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 160,
+            "id_san_pham": 84,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+            "thu_tu": 3,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 161,
+            "id_san_pham": 85,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 162,
+            "id_san_pham": 85,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 163,
+            "id_san_pham": 86,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 164,
+            "id_san_pham": 86,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 165,
+            "id_san_pham": 87,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 166,
+            "id_san_pham": 87,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 173,
+            "id_san_pham": 91,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 174,
+            "id_san_pham": 91,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 343,
+            "id_san_pham": 92,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/92/illustration-56426be1-1877-43e6-a475-5e6c24c138c7.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 175,
+            "id_san_pham": 92,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 176,
+            "id_san_pham": 92,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+            "thu_tu": 3,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 177,
+            "id_san_pham": 93,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 178,
+            "id_san_pham": 93,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 179,
+            "id_san_pham": 94,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 180,
+            "id_san_pham": 94,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 344,
+            "id_san_pham": 95,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/95/illustration-3fe146b1-0b5b-453d-b1f2-de71c9f0efa1.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 345,
+            "id_san_pham": 97,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/97/illustration-5ad4f7dc-1e6a-49a8-81f4-4ec4e1e83a81.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 187,
+            "id_san_pham": 98,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 188,
+            "id_san_pham": 98,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 189,
+            "id_san_pham": 99,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 190,
+            "id_san_pham": 99,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 346,
+            "id_san_pham": 100,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/100/illustration-67a113b5-5f6b-4237-8f71-15b4ad3379fc.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 191,
+            "id_san_pham": 100,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 192,
+            "id_san_pham": 100,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+            "thu_tu": 3,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 195,
+            "id_san_pham": 102,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 196,
+            "id_san_pham": 102,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 197,
+            "id_san_pham": 103,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 198,
+            "id_san_pham": 103,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:54",
+            "updated_at": "2026-09-27 09:05:54"
+        },
+        {
+            "id": 347,
+            "id_san_pham": 104,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/104/illustration-c38a2f37-bf98-4cfd-bb50-ec2e1d7257d5.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 201,
+            "id_san_pham": 105,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 202,
+            "id_san_pham": 105,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 203,
+            "id_san_pham": 106,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 204,
+            "id_san_pham": 106,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 207,
+            "id_san_pham": 108,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 208,
+            "id_san_pham": 108,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 211,
+            "id_san_pham": 110,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 212,
+            "id_san_pham": 110,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 213,
+            "id_san_pham": 111,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 214,
+            "id_san_pham": 111,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 215,
+            "id_san_pham": 112,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 216,
+            "id_san_pham": 112,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 217,
+            "id_san_pham": 113,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 218,
+            "id_san_pham": 113,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 219,
+            "id_san_pham": 114,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 220,
+            "id_san_pham": 114,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 221,
+            "id_san_pham": 115,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 222,
+            "id_san_pham": 115,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 223,
+            "id_san_pham": 116,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 224,
+            "id_san_pham": 116,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 225,
+            "id_san_pham": 117,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 226,
+            "id_san_pham": 117,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 227,
+            "id_san_pham": 118,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 228,
+            "id_san_pham": 118,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 229,
+            "id_san_pham": 119,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 230,
+            "id_san_pham": 119,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 231,
+            "id_san_pham": 120,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 232,
+            "id_san_pham": 120,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 235,
+            "id_san_pham": 122,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 236,
+            "id_san_pham": 122,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 237,
+            "id_san_pham": 123,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 238,
+            "id_san_pham": 123,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 239,
+            "id_san_pham": 124,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 240,
+            "id_san_pham": 124,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 241,
+            "id_san_pham": 125,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 242,
+            "id_san_pham": 125,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 243,
+            "id_san_pham": 126,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 244,
+            "id_san_pham": 126,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 245,
+            "id_san_pham": 127,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 246,
+            "id_san_pham": 127,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 247,
+            "id_san_pham": 128,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 248,
+            "id_san_pham": 128,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 253,
+            "id_san_pham": 131,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 254,
+            "id_san_pham": 131,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 257,
+            "id_san_pham": 133,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1577733966973-d680bffd2e80?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 258,
+            "id_san_pham": 133,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1577733966973-d680bffd2e80?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:55",
+            "updated_at": "2026-09-27 09:05:55"
+        },
+        {
+            "id": 263,
+            "id_san_pham": 136,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 264,
+            "id_san_pham": 136,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 265,
+            "id_san_pham": 137,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 266,
+            "id_san_pham": 137,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 275,
+            "id_san_pham": 142,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1577733966973-d680bffd2e80?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 276,
+            "id_san_pham": 142,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1577733966973-d680bffd2e80?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 277,
+            "id_san_pham": 143,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 278,
+            "id_san_pham": 143,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 285,
+            "id_san_pham": 147,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 286,
+            "id_san_pham": 147,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 287,
+            "id_san_pham": 148,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 288,
+            "id_san_pham": 148,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 291,
+            "id_san_pham": 150,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 292,
+            "id_san_pham": 150,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 295,
+            "id_san_pham": 152,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 296,
+            "id_san_pham": 152,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 297,
+            "id_san_pham": 153,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 298,
+            "id_san_pham": 153,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 301,
+            "id_san_pham": 155,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 302,
+            "id_san_pham": 155,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 303,
+            "id_san_pham": 156,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 304,
+            "id_san_pham": 156,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 305,
+            "id_san_pham": 157,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 306,
+            "id_san_pham": 157,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 309,
+            "id_san_pham": 159,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 310,
+            "id_san_pham": 159,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 311,
+            "id_san_pham": 160,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 312,
+            "id_san_pham": 160,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 313,
+            "id_san_pham": 161,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1589756823695-278bc923f962?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 314,
+            "id_san_pham": 161,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1589756823695-278bc923f962?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:56",
+            "updated_at": "2026-09-27 09:05:56"
+        },
+        {
+            "id": 315,
+            "id_san_pham": 162,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:57",
+            "updated_at": "2026-09-27 09:05:57"
+        },
+        {
+            "id": 316,
+            "id_san_pham": 162,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:57",
+            "updated_at": "2026-09-27 09:05:57"
+        },
+        {
+            "id": 317,
+            "id_san_pham": 163,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:57",
+            "updated_at": "2026-09-27 09:05:57"
+        },
+        {
+            "id": 318,
+            "id_san_pham": 163,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:57",
+            "updated_at": "2026-09-27 09:05:57"
+        },
+        {
+            "id": 319,
+            "id_san_pham": 164,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:57",
+            "updated_at": "2026-09-27 09:05:57"
+        },
+        {
+            "id": 320,
+            "id_san_pham": 164,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:57",
+            "updated_at": "2026-09-27 09:05:57"
+        },
+        {
+            "id": 321,
+            "id_san_pham": 165,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1582966772680-860e372bb558?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:57",
+            "updated_at": "2026-09-27 09:05:57"
+        },
+        {
+            "id": 322,
+            "id_san_pham": 165,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1582966772680-860e372bb558?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:57",
+            "updated_at": "2026-09-27 09:05:57"
+        },
+        {
+            "id": 323,
+            "id_san_pham": 166,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27 09:05:57",
+            "updated_at": "2026-09-27 09:05:57"
+        },
+        {
+            "id": 324,
+            "id_san_pham": 166,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27 09:05:57",
+            "updated_at": "2026-09-27 09:05:57"
+        }
+    ],
+    "sha256": "dc0247b67ac28d62f141de98bcba3e0d02ae231ce0de82df4ff3e3abfc7be1bd",
+    "purpose": "UAT recovery only"
+}

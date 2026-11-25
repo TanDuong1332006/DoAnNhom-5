@@ -1,0 +1,195 @@
+{
+  "checked_at_utc": "2026-11-07T16:23:39+07:00",
+  "source_database": "doan_nhom_5",
+  "uat_database": "sofep_uat_20261103_0552eb8e0b6d",
+  "server_version": "8.4.3",
+  "backup_file": "C:\\Users\\dn133\\AppData\\Local\\SOFEP\\backups\\preflight_20261107_c1d5a8edf0/doan_nhom_5.full.sql",
+  "backup_bytes": 292774,
+  "backup_sha256": "d376a21601f783ec01af291ae4e74115103967f2d790d584831f763c1ec84a43",
+  "restore_database": "sofep_restorecheck_20261107_ad344fb88db3",
+  "restore_exit_code": 0,
+  "source_stable_during_verification": false,
+  "all_tables_data_and_schema_match": true,
+  "table_count": 28,
+  "total_rows": 1419,
+  "stored_objects": {
+    "TRIGGERS": 0,
+    "ROUTINES": 0,
+    "EVENTS": 0
+  },
+  "schema_comparison": {
+    "tables_only_main": [
+      "cua_hangs",
+      "migrations"
+    ],
+    "tables_only_uat": [
+      "campaign_recipients",
+      "customer_campaigns",
+      "customer_notifications",
+      "customer_preferences",
+      "feedback_attachments",
+      "private_feedback",
+      "saved_vouchers",
+      "voucher_grants"
+    ],
+    "common_tables": {
+      "chi_tiet_san_phams": {
+        "columns_only_main": [
+          "id_anh_san_pham"
+        ],
+        "columns_only_uat": [],
+        "changed_columns": [],
+        "ddl_equal": false
+      },
+      "don_hangs": {
+        "columns_only_main": [],
+        "columns_only_uat": [
+          "ton_kho_da_giu",
+          "voucher_da_giu",
+          "checkout_fingerprint"
+        ],
+        "changed_columns": [],
+        "ddl_equal": false
+      },
+      "khach_hangs": {
+        "columns_only_main": [],
+        "columns_only_uat": [],
+        "changed_columns": {
+          "role": {
+            "main": {
+              "COLUMN_NAME": "role",
+              "COLUMN_TYPE": "varchar(20)",
+              "IS_NULLABLE": "NO",
+              "COLUMN_DEFAULT": "customer",
+              "EXTRA": "",
+              "COLLATION_NAME": "utf8mb4_unicode_ci"
+            },
+            "uat": {
+              "COLUMN_NAME": "role",
+              "COLUMN_TYPE": "varchar(255)",
+              "IS_NULLABLE": "NO",
+              "COLUMN_DEFAULT": "customer",
+              "EXTRA": "",
+              "COLLATION_NAME": "utf8mb4_unicode_ci"
+            }
+          }
+        },
+        "ddl_equal": false
+      },
+      "ma_giam_gias": {
+        "columns_only_main": [],
+        "columns_only_uat": [
+          "doi_tuong",
+          "gioi_han_moi_khach",
+          "ids_khach_hang",
+          "campaign_restricted",
+          "mo_ta"
+        ],
+        "changed_columns": [],
+        "ddl_equal": false
+      }
+    }
+  },
+  "product_difference": {
+    "main_count": 168,
+    "uat_count": 167,
+    "only_main": [
+      {
+        "id": 172,
+        "ma_san_pham": "SPYKRV3B",
+        "ten_san_pham": "Áo polo",
+        "slug_san_pham": "ao-polo",
+        "gia_ban": "350000.00",
+        "gia_khuyen_mai": "300000.00",
+        "trang_thai": 1,
+        "id_danh_muc": 1,
+        "id_cua_hang": null,
+        "created_at": "2026-11-04 08:21:49",
+        "updated_at": "2026-11-04 09:28:08"
+      }
+    ],
+    "only_uat": [],
+    "common_business_fields_differ_ids": []
+  },
+  "migrations": [
+    {
+      "file": "2026_11_03_000001_add_voucher_eligibility_and_order_reservations.php",
+      "sha256": "7a9ad717004bd8b350b9c958ebd6c2dc9d6407c2180cf263a959f3ed4a3512a6",
+      "recorded_on_main": false,
+      "up_has_destructive_operations": false
+    },
+    {
+      "file": "2026_11_06_000001_create_customer_engagement_tables.php",
+      "sha256": "3c25a9a9306f3215e214e3eac8df9d022e3e71cb8564171871e3f9690d5407ee",
+      "recorded_on_main": false,
+      "up_has_destructive_operations": false
+    }
+  ],
+  "main_migrations_executed": false,
+  "main_data_write_statements": 0,
+  "restore_target_is_new_and_separate": true,
+  "passed": true,
+  "raw_ddl_text_equal": false,
+  "normalization_note": "MySQL re-rendered explicit CHARACTER SET utf8mb4 before unchanged COLLATE utf8mb4_* in restored column DDL. Full information_schema column metadata matches; only that redundant DDL spelling is normalized.",
+  "all_table_row_hashes_match": true,
+  "all_column_metadata_match": true,
+  "all_logical_ddl_match": true,
+  "auto_increment_counters_match": true,
+  "restored_foreign_keys_reference_only_restore_database": true,
+  "verification_completed_at_utc": "2026-11-07T16:28:57+07:00",
+  "innodb_page_size": 16384,
+  "lower_case_table_names": 1,
+  "current_account_has_global_ddl_permissions": true,
+  "temporary_mysql_credentials_file_removed": true,
+  "source_stable_during_backup": true,
+  "runtime_activity_after_backup": {
+    "personal_access_tokens": {
+      "rows_at_backup": 54,
+      "rows_now": 54,
+      "changed_rows": 1,
+      "changed_columns": [
+        "last_used_at",
+        "updated_at"
+      ]
+    }
+  },
+  "required_migration_permissions": {
+    "SELECT": true,
+    "INSERT": true,
+    "CREATE": true,
+    "ALTER": true,
+    "INDEX": true
+  },
+  "restore_verification_passed": true,
+  "table_row_counts": {
+    "anh_san_phams": 514,
+    "cache": 4,
+    "cache_locks": 0,
+    "chi_tiet_don_hangs": 39,
+    "chi_tiet_gio_hangs": 0,
+    "chi_tiet_san_phams": 500,
+    "cua_hangs": 0,
+    "danh_gia_san_phams": 0,
+    "danh_mucs": 8,
+    "dia_chi_nhan_hangs": 0,
+    "don_hangs": 36,
+    "failed_jobs": 0,
+    "giao_dichs": 11,
+    "gio_hangs": 0,
+    "hoa_dons": 26,
+    "job_batches": 0,
+    "jobs": 0,
+    "khach_hangs": 3,
+    "kich_thuocs": 6,
+    "ma_giam_gias": 5,
+    "mau_sacs": 7,
+    "migrations": 23,
+    "password_reset_tokens": 0,
+    "personal_access_tokens": 54,
+    "san_phams": 168,
+    "sessions": 8,
+    "thuong_hieus": 6,
+    "users": 1
+  },
+  "passed_definition": "Backup restore matches the consistent backup snapshot. Live token activity after the snapshot is recorded separately and is not a backup mismatch."
+}

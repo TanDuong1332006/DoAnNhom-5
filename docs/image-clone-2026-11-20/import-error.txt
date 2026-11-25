@@ -1,0 +1,1 @@
+PHP Fatal error:  Cannot redeclare demoBoot() (previously declared in D:\do_an_nhom\code_chinh\DoAnNhom-5-GITHUB\docs\image-clone-2026-11-20\portable-demo\boot.php:3) in D:\do_an_nhom\code_chinh\DoAnNhom-5-GITHUB\docs\image-clone-2026-11-20\portable-demo\boot.php on line 3

@@ -1,0 +1,121 @@
+[
+  {
+    "path": "docs/N5-142/screenshots/admin-orders-1440.jpg",
+    "pixel_width": 1440,
+    "pixel_height": 900,
+    "sha256": "b3d24c71b0e3be92def8b3209599cdd42a888f7336840b1319f600fc7eadb627",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/admin-orders-390.jpg",
+    "pixel_width": 390,
+    "pixel_height": 843,
+    "sha256": "0d3a5dc7ba99e1476463ef1e5d2a834242f45459dc96eb277c952939edfb1377",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/admin-orders-768.jpg",
+    "pixel_width": 474,
+    "pixel_height": 1024,
+    "sha256": "9fd8d6cf1f6cc0adfff0d3d70d00494e0598862241cdbaaa64428545a8ba0597",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/cancelled-final-desktop.jpg",
+    "pixel_width": 1425,
+    "pixel_height": 891,
+    "sha256": "ce2f5ae674db59ffab43df44460ba23c0951fa820f1e4b9d330b35ba69c07104",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/checkout-1440.jpg",
+    "pixel_width": 668,
+    "pixel_height": 891,
+    "sha256": "334116ee71efd6a2d4d144af6889249ed1d829847096fef372114a12572bcf84",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/checkout-768.jpg",
+    "pixel_width": 464,
+    "pixel_height": 1004,
+    "sha256": "9431c972911ea01ab35137f473f9d43c250b8936c1e6fe6d47a5fd9089ea77a7",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/cod-form-desktop.jpg",
+    "pixel_width": 1425,
+    "pixel_height": 891,
+    "sha256": "5b52b8d246103147c6dbcf2983b545e06e6a97fe4d79aca0a47010c7d9042ada",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/customer-cancelled-desktop.jpg",
+    "pixel_width": 1425,
+    "pixel_height": 891,
+    "sha256": "15c8b7295eca0b8c63c4fae065df51fb9b09a13ea93a50ba64f2a873d5519029",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/customer-delivered-1440.jpg",
+    "pixel_width": 1425,
+    "pixel_height": 891,
+    "sha256": "ba9c74a656105ac6d6c77f20609a8cfcd3a99b668cd4bd01b2281a37faadd835",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/customer-delivered-desktop-capture-2.jpg",
+    "pixel_width": 1425,
+    "pixel_height": 891,
+    "sha256": "046339e82c3472d9f1fd14c4d0c723684e7fc3fd2181b5c5f52cb60fb45fd151",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/customer-delivered-desktop-capture-3.jpg",
+    "pixel_width": 1425,
+    "pixel_height": 891,
+    "sha256": "f9c889e56cfa9b34b511cdd6767aed887bf5813f8a963016461853f3d2cfb8c9",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/guest-1440.jpg",
+    "pixel_width": 1425,
+    "pixel_height": 891,
+    "sha256": "3daf7c9e1cdce46d7b99dacb8e30d9b08ca55b8706549a3b8945b2f7f4832d8d",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/guest-390.jpg",
+    "pixel_width": 375,
+    "pixel_height": 500,
+    "sha256": "64f3db9fb1feefed1fb3083c3325ebc7daa1a43afb061fbdcb9c95e761108d63",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/guest-768.jpg",
+    "pixel_width": 753,
+    "pixel_height": 471,
+    "sha256": "9708453d822fcafd1351134f8dd5bdd4cb62fbb7d32f63bc34dc6e161aa01025",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/paid-order-status-1440.jpg",
+    "pixel_width": 1425,
+    "pixel_height": 891,
+    "sha256": "0544910ed2b1831301301d2fcf82987ae1133f78ffdcad82e9d8b45e6464267f",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/search-1440.jpg",
+    "pixel_width": 1425,
+    "pixel_height": 891,
+    "sha256": "015d64d61f8dc545d9016c942c9df3cccacb8be480088a156136b01a29902c03",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  },
+  {
+    "path": "docs/N5-142/screenshots/voucher-error-390.jpg",
+    "pixel_width": 375,
+    "pixel_height": 811,
+    "sha256": "ebcd4bf11a31c1740de84cc8339533a5be1e06bdc865508c10ac8ea861de71f8",
+    "note": "Kich thuoc file anh; anh crop khong chung minh viewport."
+  }
+]

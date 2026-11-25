@@ -1,0 +1,24 @@
+
+
+{
+    "passed": true,
+    "database": "sofep_demo_20261122_a1fec473a820",
+    "backend_port": 8046,
+    "frontend_port": 5199,
+    "catalog_counts": {
+        "danh_mucs": 8,
+        "thuong_hieus": 6,
+        "mau_sacs": 7,
+        "kich_thuocs": 6,
+        "san_phams": 168,
+        "anh_san_phams": 167,
+        "chi_tiet_san_phams": 501
+    },
+    "restored_images": 167,
+    "placeholder_product_id": 172,
+    "orders": 0,
+    "accounts_generated_locally": 2,
+    "tokens": 0,
+    "migrations": 26
+}
+Credentials generated locally: themmoik27be/storage/app/private/demo-access.json (do not share).

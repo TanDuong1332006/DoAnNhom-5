@@ -1,0 +1,15 @@
+{
+  "id": 51,
+  "sku": "SFP-VAYDAM-03",
+  "name": "Đầm Bodycon Dệt Kim Gân Tăm Ôm Sát Tôn Đường Cong",
+  "prompt": "Use case: product-mockup. ONE unique ecommerce product illustration for a Vietnamese SOFEP local demo. Subject: Đầm Bodycon Dệt Kim Gân Tăm Ôm Sát Tôn Đường Cong. Match exact clothing or accessory type, silhouette, neckline, sleeve length, cut, pattern and special construction in this Vietnamese title. Choose black, white or deep navy, obey explicit color named in title. SINGLE product only, ENTIRE item visible with margins, centered square composition, premium realistic studio render isolated on clean warm light gray background. Clothing on invisible mannequin or flat lay. Shoes: one shoe three-quarter side view. Accessories: single object close studio product view. NO people, NO additional objects or styling accessories, NO text, NO scenery, NO watermark, NO external brand marks. Original AI demo illustration, not a photo of a real SKU.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; no third-party stock license; not real SKU photography",
+  "file": "assets/51.jpg",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-4dc3c11b-e4a9-4af1-8225-4c47c5984f59.png",
+  "created_at": "2026-10-31T09:37:08.874Z",
+  "review": "approved",
+  "sha256": "88697d7c3587631cee1267d44105cdf04ae37e2024438ee6e5f3e7a424750076",
+  "bytes": 99566
+}

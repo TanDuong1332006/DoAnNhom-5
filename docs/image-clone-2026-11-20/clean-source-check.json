@@ -1,0 +1,44 @@
+[
+  {
+    "file": "themmoik27be/routes/api.php",
+    "head_blob": "f4110a89bfeee12b0ac1bd80bc56b2f81e8d9cd8",
+    "matches": true,
+    "actual_blob": "f4110a89bfeee12b0ac1bd80bc56b2f81e8d9cd8"
+  },
+  {
+    "file": "themmoik27be/app/Http/Controllers/Admin/ProductImageController.php",
+    "head_blob": "0ef1b3df60a69e3060022d25a4403bef3272bace",
+    "matches": true,
+    "actual_blob": "0ef1b3df60a69e3060022d25a4403bef3272bace"
+  },
+  {
+    "file": "themmoik27be/app/Http/Controllers/ProductDetailController.php",
+    "head_blob": "c9645de6658a98c10d09967d900c14c6c521503e",
+    "matches": true,
+    "actual_blob": "c9645de6658a98c10d09967d900c14c6c521503e"
+  },
+  {
+    "file": "themmoik27be/app/Http/Controllers/ClientController.php",
+    "head_blob": "b30990a08d8f55e315557268d0fd14afd88bb286",
+    "matches": true,
+    "actual_blob": "b30990a08d8f55e315557268d0fd14afd88bb286"
+  },
+  {
+    "file": "themmoik27be/app/Models/SanPham.php",
+    "head_blob": "2d5e3d1e181ac66d6d9e4300f8228014d141e148",
+    "matches": true,
+    "actual_blob": "2d5e3d1e181ac66d6d9e4300f8228014d141e148"
+  },
+  {
+    "file": "themmoik27be/bootstrap/app.php",
+    "head_blob": "3064a5720489169c5d56fee043d338fc71ad62cd",
+    "matches": true,
+    "actual_blob": "3064a5720489169c5d56fee043d338fc71ad62cd"
+  },
+  {
+    "file": "themmoik27be/composer.lock",
+    "head_blob": "4f24c28c80ed228cec4fb19ce9d807f58d3b1b7e",
+    "matches": true,
+    "actual_blob": "4f24c28c80ed228cec4fb19ce9d807f58d3b1b7e"
+  }
+]

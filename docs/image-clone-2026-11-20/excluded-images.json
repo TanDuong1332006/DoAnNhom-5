@@ -1,0 +1,250 @@
+{
+  "local_files": [
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/1/illustration-c083c263-33d5-4832-9472-e3c243dc1aeb.jpg",
+      "product_id": 1,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/1/illustration-c32bbb37-92e1-412c-af55-be2f2a9f8471.jpg",
+      "product_id": 1,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/6/illustration-a4d91bd8-e53f-4091-95b8-36de5b848c45.jpg",
+      "product_id": 6,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/9/illustration-38dfb9fe-e82f-405f-bb69-76758b3a87f2.jpg",
+      "product_id": 9,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/9/illustration-43c41f19-b93f-4e5e-b010-ff4533bcdb5c.jpg",
+      "product_id": 9,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/11/illustration-e1aedd09-50d5-45fc-b174-a2e10227cd84.jpg",
+      "product_id": 11,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/16/illustration-a26d6e9c-6173-4822-a901-63b15897da6d.jpg",
+      "product_id": 16,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/17/illustration-6c217c35-3301-41ea-a315-25652ab570a7.jpg",
+      "product_id": 17,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/17/illustration-faecf8f4-082e-46a8-be75-0943e86d61c2.jpg",
+      "product_id": 17,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/26/illustration-4dd94cb8-f3ab-4a93-99e2-a0301beefcfd.jpg",
+      "product_id": 26,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/28/illustration-cb4cf634-ea89-4e4b-9e8a-de3cac7a1c7f.jpg",
+      "product_id": 28,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/78/illustration-cdf3a0ea-01be-4abf-a342-5cff82e4e725.jpg",
+      "product_id": 78,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/80/illustration-ed3f6b70-7eb7-42eb-8b4f-295e2f3d9c2b.jpg",
+      "product_id": 80,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/84/illustration-d7f7dcb9-dc4a-4670-b900-b4c1da64748f.jpg",
+      "product_id": 84,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/92/illustration-56426be1-1877-43e6-a475-5e6c24c138c7.jpg",
+      "product_id": 92,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/95/illustration-3fe146b1-0b5b-453d-b1f2-de71c9f0efa1.jpg",
+      "product_id": 95,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/97/illustration-5ad4f7dc-1e6a-49a8-81f4-4ec4e1e83a81.jpg",
+      "product_id": 97,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/100/illustration-67a113b5-5f6b-4237-8f71-15b4ad3379fc.jpg",
+      "product_id": 100,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/104/illustration-c38a2f37-bf98-4cfd-bb50-ec2e1d7257d5.jpg",
+      "product_id": 104,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/product-images/172/dd7b32f3-7ee8-4f6e-b7f0-e256ee801dc9.jpg",
+      "product_id": 172,
+      "reason": "not in first-party AI provenance manifest; permission/SKU verification pending"
+    }
+  ],
+  "external_urls": [
+    "https://thoitrangbigsize.vn/wp-content/uploads/2025/03/den-3.jpg",
+    "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500",
+    "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500",
+    "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500",
+    "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500",
+    "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500",
+    "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500",
+    "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+    "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+    "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700",
+    "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=700",
+    "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=700",
+    "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=700",
+    "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=700",
+    "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=700",
+    "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+    "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=700",
+    "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=700",
+    "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=700",
+    "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=700",
+    "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=700",
+    "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=700",
+    "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=700",
+    "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+    "https://images.unsplash.com/photo-1523381294911-8d3cead13475?w=700",
+    "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=700",
+    "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=700",
+    "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+    "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=700",
+    "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=700",
+    "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+    "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=700",
+    "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=700",
+    "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=700",
+    "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+    "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=700",
+    "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700",
+    "https://images.unsplash.com/photo-1550639525-c97d455acf70?w=700",
+    "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+    "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=700",
+    "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+    "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=700",
+    "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+    "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700",
+    "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=700",
+    "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+    "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+    "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700",
+    "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=700",
+    "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700",
+    "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=700",
+    "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700",
+    "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+    "https://images.unsplash.com/photo-1544441893-675973e31985?w=700",
+    "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=700",
+    "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+    "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700",
+    "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700",
+    "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700",
+    "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+    "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=700",
+    "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700",
+    "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700",
+    "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=700",
+    "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+    "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+    "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700",
+    "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+    "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=700",
+    "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=700",
+    "https://images.unsplash.com/photo-1577733966973-d680bffd2e80?w=700",
+    "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=700",
+    "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700",
+    "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+    "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=700",
+    "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=700",
+    "https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?w=700",
+    "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=700",
+    "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=700",
+    "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=700",
+    "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=700",
+    "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+    "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=700",
+    "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=700",
+    "https://images.unsplash.com/photo-1589756823695-278bc923f962?w=700",
+    "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=700",
+    "https://images.unsplash.com/photo-1582966772680-860e372bb558?w=700",
+    "https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?w=700"
+  ],
+  "excluded_variant_links": [
+    {
+      "variant_id": 500,
+      "product_id": 172,
+      "excluded_gallery_id": 516,
+      "uat_fallback": "null image reference; placeholder or product main"
+    },
+    {
+      "variant_id": 501,
+      "product_id": 172,
+      "excluded_gallery_id": 516,
+      "uat_fallback": "null image reference; placeholder or product main"
+    },
+    {
+      "variant_id": 502,
+      "product_id": 172,
+      "excluded_gallery_id": 516,
+      "uat_fallback": "null image reference; placeholder or product main"
+    },
+    {
+      "variant_id": 503,
+      "product_id": 172,
+      "excluded_gallery_id": 516,
+      "uat_fallback": "null image reference; placeholder or product main"
+    },
+    {
+      "variant_id": 505,
+      "product_id": 172,
+      "excluded_gallery_id": 515,
+      "uat_fallback": "null image reference; placeholder or product main"
+    },
+    {
+      "variant_id": 506,
+      "product_id": 172,
+      "excluded_gallery_id": 515,
+      "uat_fallback": "null image reference; placeholder or product main"
+    },
+    {
+      "variant_id": 507,
+      "product_id": 172,
+      "excluded_gallery_id": 515,
+      "uat_fallback": "null image reference; placeholder or product main"
+    },
+    {
+      "variant_id": 508,
+      "product_id": 172,
+      "excluded_gallery_id": 515,
+      "uat_fallback": "null image reference; placeholder or product main"
+    },
+    {
+      "variant_id": 509,
+      "product_id": 172,
+      "excluded_gallery_id": 515,
+      "uat_fallback": "null image reference; placeholder or product main"
+    }
+  ]
+}

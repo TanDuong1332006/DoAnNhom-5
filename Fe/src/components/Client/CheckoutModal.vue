@@ -2,18 +2,18 @@
   <button v-if="!cartStore.isOpenCheckout && currentStep === 'payment' && donHangData" type="button"
     class="btn btn-dark position-fixed bottom-0 end-0 m-3 rounded-pill shadow" style="z-index:1070"
     @click="cartStore.toggleCheckout(true)">Tiếp tục thanh toán demo</button>
-  <div v-if="cartStore.isOpenCheckout" role="dialog" aria-modal="true" aria-labelledby="checkout-heading" class="checkout-modal-backdrop position-fixed top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center p-3" style="background-color: rgba(0,0,0,0.65); z-index: 1080;">
-    <div class="card border-0 rounded-4 shadow-lg bg-white overflow-hidden checkout-modal-card" style="width: 100%; max-width: 680px; max-height: 90vh; display: flex; flex-direction: column;">
+  <div v-if="cartStore.isOpenCheckout" role="dialog" aria-modal="true" :aria-labelledby="currentStep === 'auth' ? 'checkout-auth-heading' : 'checkout-heading'" @keydown.esc.stop.prevent="dongModal" class="checkout-modal-backdrop position-fixed top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center p-3" style="background-color: rgba(0,0,0,0.65); z-index: 1080;">
+    <div :class="{ 'checkout-auth-card': currentStep === 'auth' }" class="card border-0 rounded-4 shadow-lg bg-white overflow-hidden checkout-modal-card" style="width: 100%; max-width: 680px; max-height: 90vh; display: flex; flex-direction: column;">
       
       <!-- Modal Header -->
-      <div class="modal-header border-bottom px-4 py-3 bg-white d-flex align-items-center justify-content-between">
+      <div v-if="currentStep !== 'auth'" class="modal-header border-bottom px-4 py-3 bg-white d-flex align-items-center justify-content-between">
         <div class="d-flex align-items-center gap-2">
           <div class="bg-danger bg-opacity-10 text-danger rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 38px; height: 38px;">
             <i class='bx bx-credit-card-front fs-4'></i>
           </div>
           <div>
             <h5 id="checkout-heading" class="fw-bold text-dark mb-0 font-streetwear fs-6">
-              {{ currentStep === 'payment' ? 'Thanh toán mô phỏng' : (currentStep === 'success' ? 'Đặt Hàng Thành Công' : 'Xác Nhận Đặt Hàng & Thanh Toán') }}
+              {{ currentStep === 'payment' ? 'Thanh toán mô phỏng' : (currentStep === 'success' ? tieuDeKetQuaDonHang : 'Xác Nhận Đặt Hàng & Thanh Toán') }}
             </h5>
             <span class="small text-muted" style="font-size: 11px;">
               {{ currentStep === 'payment' ? 'Demo SOFEP — không chuyển tiền thật' : 'Hệ thống mua sắm trực tuyến chính hãng SOFEP STUDIO' }}
@@ -29,7 +29,21 @@
         <!-- ══════════════════════════════════════════════════════ -->
         <!-- BƯỚC 1: NHẬP THÔNG TIN GIAO HÀNG & CHỌN PHƯƠNG THỨC    -->
         <!-- ══════════════════════════════════════════════════════ -->
-        <div v-if="currentStep === 'form'">
+        <div v-if="authChecking" class="text-center py-4" role="status">Đang xác minh phiên đăng nhập…</div>
+        <div v-else-if="currentStep === 'auth'" class="checkout-auth-content">
+          <svg class="checkout-auth-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M8 8V6a4 4 0 0 1 8 0v2M5 8h14l1 13H4L5 8Z" />
+            <path d="M12 12v5m-2-3 2-2 2 2" />
+          </svg>
+          <h2 id="checkout-auth-heading">Đăng nhập để tiếp tục mua hàng</h2>
+          <p>Giỏ hàng của bạn sẽ được giữ nguyên.</p>
+          <div class="checkout-auth-actions">
+            <button type="button" class="checkout-auth-login" @click="goAuth('/dang-nhap')">Đăng nhập</button>
+            <button type="button" class="checkout-auth-register" @click="goAuth('/dang-ky')">Đăng ký</button>
+            <button type="button" class="checkout-auth-return" @click="dongModal">Quay lại cửa hàng</button>
+          </div>
+        </div>
+        <div v-else-if="currentStep === 'form'">
           
           <!-- Receiver Form -->
           <h6 class="fw-bold text-dark small text-uppercase tracking-wider mb-3 d-flex align-items-center gap-1.5">
@@ -101,6 +115,8 @@
 
           <div class="mb-3">
             <label for="checkout-voucher" class="form-label small fw-semibold">Mã giảm giá (tùy chọn)</label>
+            <select v-if="walletVouchers.length" v-model="voucherCode" class="form-select mb-2" aria-label="Chọn voucher từ ví"><option value="">Chọn mã đã lưu trong Ví ưu đãi</option><option v-for="voucher in walletVouchers" :key="voucher.id" :value="voucher.ma_code" :disabled="voucher.state !== 'available'">{{ voucher.ma_code }} · {{ voucher.ten_giam_gia }}{{ voucher.state !== 'available' ? ' — ' + voucher.reason : '' }}</option></select>
+            <small v-if="walletMessage" class="text-muted d-block">{{ walletMessage }}</small>
             <input id="checkout-voucher" v-model="voucherCode" maxlength="50" class="form-control" placeholder="Nhập mã voucher">
             <button @click="checkVoucher" :disabled="loadingVoucher || loadingTaoDon" class="btn btn-outline-dark btn-sm mt-2">{{ loadingVoucher ? 'Đang kiểm tra…' : 'Kiểm tra mã và tổng tiền' }}</button>
             <div v-if="voucherMessage" class="small mt-2" role="status" :class="quote ? 'text-success' : 'text-danger'">{{ voucherMessage }}</div>
@@ -166,9 +182,10 @@
               <span class="fw-bold text-dark">🧪 Chế độ Demo / Chấm điểm:</span>
               <div class="text-muted" style="font-size: 11px;">Chỉ ghi nhận trạng thái demo, không có giao dịch tiền thật.</div>
             </div>
-            <button :disabled="loadingSimulation" @click="moPhongChuyenKhoan" class="btn btn-warning btn-sm fw-bold text-dark rounded-pill px-3 shadow-xs">
+            <button :disabled="loadingSimulation" @click="moPhongChuyenKhoan('success')" class="btn btn-warning btn-sm fw-bold text-dark rounded-pill px-3 shadow-xs">
               Mô phỏng thanh toán
             </button>
+            <button :disabled="loadingSimulation" @click="moPhongChuyenKhoan('failed')" class="btn btn-outline-dark btn-sm rounded-pill">Mô phỏng thất bại</button>
           </div>
 
         </div>
@@ -181,15 +198,19 @@
           <div class="rounded-circle bg-success bg-opacity-10 text-success d-inline-flex align-items-center justify-content-center p-3 mb-3" style="width: 80px; height: 80px;">
             <i class='bx bx-check-double display-4'></i>
           </div>
-          <h4 class="fw-bold text-dark mb-1 font-streetwear">Đặt Hàng Thành Công!</h4>
+          <h4 class="fw-bold text-dark mb-1 font-streetwear">{{ tieuDeKetQuaDonHang }}!</h4>
           <p class="text-muted small mb-3">
             Mã đơn hàng: <strong class="text-danger font-monospace fs-6">{{ donHangData?.ma_don_hang }}</strong>
           </p>
 
           <div class="p-3 bg-light rounded-3 border text-start small mx-auto mb-4" style="max-width: 480px;">
+            <div class="d-flex justify-content-between mb-1" role="status">
+              <span class="text-muted">Trạng thái đơn hàng:</span>
+              <span class="fw-semibold text-dark">{{ trangThaiDonHang }}</span>
+            </div>
             <div class="d-flex justify-content-between mb-1">
               <span class="text-muted">Trạng thái thanh toán:</span>
-              <span class="badge bg-success text-white fw-bold">{{ form.phuong_thuc === 'COD' ? 'Chờ thanh toán khi nhận hàng' : 'Đã thanh toán mô phỏng' }}</span>
+              <span class="badge bg-success text-white fw-bold">{{ trangThaiThanhToan }}</span>
             </div>
             <div class="d-flex justify-content-between mb-1">
               <span class="text-muted">Phương thức:</span>
@@ -206,6 +227,9 @@
           </div>
 
           <div class="d-flex justify-content-center gap-2">
+            <button type="button" :disabled="loadingCheck" @click="kiemTraGiaoDichNgay" class="btn btn-outline-dark rounded-pill px-3">
+              {{ loadingCheck ? 'Đang cập nhật…' : 'Cập nhật trạng thái đơn' }}
+            </button>
             <button @click="hoanTatMuaHang" class="btn btn-danger rounded-pill px-4 fw-bold">
               Tiếp Tục Mua Sắm
             </button>
@@ -219,8 +243,10 @@
 </template>
 
 <script>
+import { apiUrl } from '../../services/apiConfig.js';
 import { cartStore } from '../../stores/cartStore';
 import axios from 'axios';
+import { customerSession, clearCustomerSession } from '../../services/authSessions';
 import { isNavigationFailure, NavigationFailureType } from 'vue-router';
 
 export default {
@@ -229,6 +255,7 @@ export default {
     return {
       cartStore,
       currentStep: 'form', // 'form', 'payment', 'success'
+      authChecking: false,
       loadingTaoDon: false,
       loadingCheck: false,
       pollInterval: null,
@@ -241,6 +268,7 @@ export default {
       },
       donHangData: null,
       paymentToken: '',
+      walletVouchers: [], walletMessage: '',
       voucherCode: '', quote: null, voucherMessage: '', loadingVoucher: false, loadingSimulation: false,
       cartIssue: null,
       orderKey: '',
@@ -256,6 +284,16 @@ export default {
     };
   },
   computed: {
+    tieuDeKetQuaDonHang() {
+      return this.donHangData?.trang_thai_don_hang === 'da_huy' ? 'Đơn Hàng Đã Hủy' : 'Đặt Hàng Thành Công';
+    },
+    trangThaiThanhToan() {
+      if (this.donHangData?.trang_thai_thanh_toan !== 'da_thanh_toan') return 'Chưa thanh toán';
+      return this.donHangData?.phuong_thuc_thanh_toan === 'MB_BANK' ? 'Đã thanh toán mô phỏng' : 'Đã thanh toán';
+    },
+    trangThaiDonHang() {
+      return { cho_xac_nhan: 'Chờ xác nhận', da_xac_nhan: 'Đã xác nhận', dang_giao: 'Đang giao', da_giao: 'Đã giao', da_huy: 'Đã hủy' }[this.donHangData?.trang_thai_don_hang] || 'Chưa có thông tin';
+    },
     phiVanChuyen() {
       return this.quote?.phi_van_chuyen ?? (this.cartStore.subtotal <= 0 || this.cartStore.subtotal >= 500000 ? 0 : 30000);
     },
@@ -266,24 +304,33 @@ export default {
   watch: {
     voucherCode() { this.quote = null; this.voucherMessage = ''; },
     'cartStore.items': { deep: true, handler() { this.quote = null; this.voucherMessage = ''; this.cartIssue = null; } },
-    'cartStore.isOpenCheckout'(isOpen) {
+    async 'cartStore.isOpenCheckout'(isOpen) {
       if (isOpen) {
-        if (this.currentStep === 'payment' && this.donHangData) { this.batDauPolling(this.donHangData.ma_don_hang); return; }
+        if (!await this.verifyCustomer()) return;
+        if (this.donHangData?.phuong_thuc_thanh_toan === 'MB_BANK' && this.donHangData.trang_thai_thanh_toan !== 'da_thanh_toan') { this.currentStep = 'payment'; this.batDauPolling(this.donHangData.ma_don_hang); return; }
         this.currentStep = 'form';
-        this.orderKey = ''; this.orderFingerprint = ''; this.voucherCode = '';
+        this.orderKey = ''; this.orderFingerprint = ''; this.voucherCode = this.cartStore.selectedVoucherCode || '';
+        this.cartStore.selectedVoucherCode = '';
+        await this.loadVoucherWallet();
         this.fillUserInfo();
       } else {
         this.dungPolling();
       }
     }
   },
-  mounted() {
+  async mounted() {
+    if (sessionStorage.getItem('sofep_checkout_return')) {
+      sessionStorage.removeItem('sofep_checkout_return');
+      this.cartStore.toggleCheckout(true);
+    }
     try {
       const pending = JSON.parse(sessionStorage.getItem('sofep_pending_demo_order') || 'null');
-      if (pending?.code && pending?.token) {
-        this.donHangData = { ma_don_hang: pending.code, tong_thanh_toan: pending.total };
-        this.paymentToken = pending.token; this.currentStep = 'payment'; this.form.phuong_thuc = 'MB_BANK';
-        this.kiemTraTrangThai(pending.code);
+      if (pending?.code) {
+        this.donHangData = { ma_don_hang: pending.code, tong_thanh_toan: pending.total, phuong_thuc_thanh_toan: 'MB_BANK' };
+        this.paymentToken = ''; this.form.phuong_thuc = 'MB_BANK';
+        if (!await this.verifyCustomer()) return;
+        this.currentStep = 'payment';
+        await this.kiemTraTrangThai(pending.code);
       }
     } catch {}
   },
@@ -291,13 +338,38 @@ export default {
     this.dungPolling();
   },
   methods: {
+    async verifyCustomer() {
+      this.authChecking = true;
+      const session = customerSession();
+      try {
+        if (!session) { this.currentStep = 'auth'; return false; }
+        const { data } = await axios.get(apiUrl('/kiem-tra-dang-nhap'), { headers: { Authorization: `Bearer ${session.token}` } });
+        if (data.status !== 1 || data.nguoi_dung?.role !== 'customer') { this.currentStep = 'auth'; return false; }
+        return true;
+      } catch (error) {
+        if (error.response?.status === 401) clearCustomerSession(session?.token);
+        this.currentStep = 'auth';
+        return false;
+      } finally { this.authChecking = false; }
+    },
+    goAuth(path) {
+      sessionStorage.setItem('sofep_checkout_return', this.$route.fullPath);
+      this.dongModal();
+      this.$router.push(path);
+    },
+    handleAuthError(error) {
+      if (![401, 403].includes(error.response?.status)) return false;
+      if (error.response.status === 401) clearCustomerSession(customerSession()?.token);
+      this.dungPolling(); this.currentStep = 'auth';
+      return true;
+    },
     clearPendingDemo() {
       this.dungPolling(); sessionStorage.removeItem('sofep_pending_demo_order');
       this.currentStep = 'form'; this.donHangData = null; this.paymentToken = '';
       this.cartStore.toggleCheckout(false);
     },
     fillUserInfo() {
-      const userStr = localStorage.getItem('user') || localStorage.getItem('nguoi_dung');
+      const userStr = JSON.stringify(customerSession()?.user || null);
       if (userStr) {
         try {
           const user = JSON.parse(userStr);
@@ -348,25 +420,30 @@ export default {
         this.$toast ? this.$toast.info(successMsg) : alert(successMsg);
       }
     },
+    async loadVoucherWallet() {
+      this.walletVouchers = []; this.walletMessage = '';
+      try { const { data } = await axios.get(apiUrl('/client/vi-uu-dai')); this.walletVouchers = data.data?.data || []; }
+      catch (error) { if ([401,403].includes(error.response?.status)) this.handleAuthError(error); else this.walletMessage = 'Có thể nhập mã trực tiếp; Ví ưu đãi hiện chưa sẵn sàng.'; }
+    },
     async checkVoucher() {
       if (this.loadingVoucher || this.loadingTaoDon || !this.cartStore.items.length) return;
       const items = this.cartStore.items.slice();
       const version = JSON.stringify([this.voucherCode, this.cartStore.items]);
       this.loadingVoucher = true; this.quote = null; this.voucherMessage = ''; this.cartIssue = null;
       try {
-        const { data } = await axios.post('http://127.0.0.1:8000/api/client/kiem-tra-voucher', {
+        const { data } = await axios.post(apiUrl('/client/kiem-tra-voucher'), {
           ma_giam_gia_su_dung: this.voucherCode.trim(),
           items: items.map(i => ({ id: i.id, id_chi_tiet_san_pham: i.id_chi_tiet_san_pham || null, quantity: i.so_luong }))
         });
         if (version !== JSON.stringify([this.voucherCode, this.cartStore.items])) return;
-        this.quote = data.data; this.voucherMessage = data.message;
+        this.quote = data.data; this.voucherMessage = data.message + ' Giảm ₫' + this.formatMoney(data.data?.tien_giam_gia) + '.';
       } catch (error) {
         if (version !== JSON.stringify([this.voucherCode, this.cartStore.items]) || this.showCartIssue(error, items)) return;
         this.voucherMessage = Object.values(error.response?.data?.errors || {}).flat()[0] || error.response?.data?.message || 'Không thể kiểm tra voucher.';
       }
       finally { this.loadingVoucher = false; }
     },
-    taoDonHang() {
+    async taoDonHang() {
       if (this.loadingTaoDon || this.loadingVoucher || this.cartIssue || this.currentStep !== 'form') return;
       if (!this.form.ho_ten.trim()) {
         this.$toast ? this.$toast.error('Vui lòng nhập họ và tên người nhận!') : alert('Vui lòng nhập họ tên!');
@@ -386,6 +463,7 @@ export default {
       }
 
       this.loadingTaoDon = true;
+      if (!await this.verifyCustomer()) { this.loadingTaoDon = false; return; }
       const items = this.cartStore.items.slice();
       const cartVersion = JSON.stringify(items);
       const payload = {
@@ -414,7 +492,7 @@ export default {
       if (!this.orderKey || fingerprint !== this.orderFingerprint) {
         this.orderKey = crypto.randomUUID(); this.orderFingerprint = fingerprint;
       }
-      axios.post('http://127.0.0.1:8000/api/client/dat-hang', payload, { headers: { 'Idempotency-Key': this.orderKey } })
+      return axios.post(apiUrl('/client/dat-hang'), payload, { headers: { 'Idempotency-Key': this.orderKey } })
         .then(res => {
           if (res.data.status) {
             this.donHangData = res.data.don_hang;
@@ -426,7 +504,7 @@ export default {
             }
 
             if (this.form.phuong_thuc === 'MB_BANK') {
-              sessionStorage.setItem('sofep_pending_demo_order', JSON.stringify({ code: this.donHangData.ma_don_hang, token: this.paymentToken, total: this.donHangData.tong_thanh_toan }));
+              sessionStorage.setItem('sofep_pending_demo_order', JSON.stringify({ code: this.donHangData.ma_don_hang, total: this.donHangData.tong_thanh_toan }));
               this.currentStep = 'payment';
               this.batDauPolling(this.donHangData.ma_don_hang);
             } else {
@@ -436,6 +514,7 @@ export default {
           }
         })
         .catch(err => {
+          if (this.handleAuthError(err)) return;
           if (cartVersion === JSON.stringify(this.cartStore.items) && this.showCartIssue(err, items)) return;
           const message = Object.values(err.response?.data?.errors || {}).flat()[0] || err.response?.data?.message || 'Không thể tạo đơn hàng.';
           this.$toast ? this.$toast.error(message) : alert(message);
@@ -459,14 +538,16 @@ export default {
     },
     kiemTraTrangThai(maHoaDon) {
       if (!maHoaDon) return;
-      axios.get(`http://127.0.0.1:8000/api/kiem-tra-thanh-toan/${maHoaDon}`, { params: { payment_token: this.paymentToken } })
+      return axios.get(apiUrl(`/kiem-tra-thanh-toan/${encodeURIComponent(maHoaDon)}`))
         .then(res => {
+          const wasPaid = this.donHangData?.trang_thai_thanh_toan === 'da_thanh_toan';
           if (res.data.don_hang) {
             this.donHangData = res.data.don_hang;
             for (const field of ['ho_ten', 'so_dien_thoai', 'dia_chi_giao']) this.form[field] = this.donHangData[field] || '';
             this.form.phuong_thuc = this.donHangData.phuong_thuc_thanh_toan || 'MB_BANK';
             if (this.donHangData.trang_thai_don_hang === 'da_huy') {
-              this.dungPolling(); this.currentStep = 'form';
+              this.dungPolling();
+              if (this.currentStep !== 'success') this.currentStep = 'form';
               sessionStorage.removeItem('sofep_pending_demo_order'); return;
             }
           }
@@ -474,34 +555,34 @@ export default {
             this.dungPolling();
             this.currentStep = 'success';
             sessionStorage.removeItem('sofep_pending_demo_order');
-            if (this.$toast) {
+            if (this.$toast && !wasPaid) {
               this.$toast.success('Đã ghi nhận thanh toán mô phỏng.');
             }
           }
         })
-        .catch(e => console.warn(e));
+        .catch(e => { if (!this.handleAuthError(e)) this.$toast?.error('Không thể kiểm tra trạng thái thanh toán.'); });
     },
     kiemTraGiaoDichNgay() {
-      if (this.donHangData?.ma_don_hang) this.kiemTraTrangThai(this.donHangData.ma_don_hang);
+      if (this.loadingCheck || !this.donHangData?.ma_don_hang) return;
+      this.loadingCheck = true;
+      return this.kiemTraTrangThai(this.donHangData.ma_don_hang).finally(() => { this.loadingCheck = false; });
     },
-    moPhongChuyenKhoan() {
+    moPhongChuyenKhoan(result = 'success') {
       if (!this.donHangData?.ma_don_hang || this.loadingSimulation) return;
       this.loadingSimulation = true;
-      axios.post('http://127.0.0.1:8000/api/giao-dich/mo-phong', {
+      return axios.post(apiUrl('/giao-dich/mo-phong'), {
         ma_hoa_don: this.donHangData.ma_don_hang,
-        payment_token: this.paymentToken
+        ket_qua: result
       })
       .then(res => {
         if (res.data.status) {
           this.dungPolling();
-          this.currentStep = 'success';
-          sessionStorage.removeItem('sofep_pending_demo_order');
-          if (this.$toast) {
-            this.$toast.success('Mô phỏng MB Bank thành công!');
-          }
+          return this.kiemTraTrangThai(this.donHangData.ma_don_hang);
+        } else {
+          this.$toast?.error(res.data.message || 'Thanh toán thất bại. Đơn chưa thanh toán.');
         }
       })
-      .catch(error => this.$toast?.error(error.response?.data?.message || 'Không thể mô phỏng thanh toán.'))
+      .catch(error => { if (!this.handleAuthError(error)) this.$toast?.error(error.response?.data?.message || 'Không thể mô phỏng thanh toán.'); })
       .finally(() => { this.loadingSimulation = false; });
     },
     hoanTatMuaHang() {
@@ -515,6 +596,33 @@ export default {
 <style scoped>
 .checkout-modal-card {
   animation: modalFadeIn 0.25s ease-out;
+}
+.checkout-auth-card {
+  max-width: 460px !important;
+  border: 1px solid #e1e1e1 !important;
+  border-radius: 24px !important;
+}
+.checkout-auth-card .modal-body { padding: 30px 16px 16px !important; }
+.checkout-auth-content { text-align: center; color: #111; }
+.checkout-auth-icon { display: block; margin: 0 auto 16px; }
+.checkout-auth-content h2 { margin: 0; font-size: 20px; font-weight: 600; line-height: 1.4; letter-spacing: -.35px; }
+.checkout-auth-content p { margin: 8px 0 16px; color: #717171; font-size: 14px; line-height: 1.6; }
+.checkout-auth-actions { display: flex; flex-direction: column; gap: 12px; }
+.checkout-auth-actions button { width: 100%; min-height: 46px; border-radius: 999px; font: inherit; font-size: 16px; font-weight: 600; padding: 10px 20px; transition: background-color .18s, border-color .18s; }
+.checkout-auth-login { background: #101010; border: 1px solid #101010; color: #fff; }
+.checkout-auth-login:hover { background: #303030; border-color: #303030; }
+.checkout-auth-register { background: #fff; border: 1px solid #d7d7d7; color: #646464; }
+.checkout-auth-register:hover { background: #f6f6f6; border-color: #aaa; }
+.checkout-auth-return { background: transparent; border: 1px solid transparent; color: #646464; }
+.checkout-auth-return:hover { background: #f6f6f6; }
+.checkout-auth-actions button:focus-visible { outline: 2px solid #111; outline-offset: 3px; }
+@media (max-width: 480px) {
+  .checkout-auth-card .modal-body { padding: 26px 16px 14px !important; }
+  .checkout-auth-content h2 { font-size: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .checkout-modal-card { animation: none; }
+  .checkout-auth-actions button { transition: none; }
 }
 
 @keyframes modalFadeIn {

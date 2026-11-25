@@ -1,3 +1,4 @@
+import { apiUrl } from '../src/services/apiConfig.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
@@ -10,7 +11,7 @@ import { isIllustrativeImage } from '../src/services/productImages.js';
 function component(file, globals = {}) {
   let script = readFileSync(new URL('../src/' + file, import.meta.url), 'utf8').match(/<script>([\s\S]*?)<\/script>/)[1];
   script = script.replace(/^import .*;\r?\n/gm, '').replace('export default', 'globalThis.component =');
-  const context = { ...catalog, ...detail, isIllustrativeImage, $refs: {}, cartStore: { items: [] }, ProductPurchase: {}, ProductImage: {}, ...globals };
+  const context = {apiUrl, ProductImage: {},  ...catalog, ...detail, isIllustrativeImage, $refs: {}, cartStore: { items: [] }, ProductPurchase: {}, ...globals };
   vm.runInNewContext(script, context);
   const definition = context.component;
   const state = definition.data ? definition.data() : {};
@@ -119,7 +120,7 @@ async function guardCase(response, reject = false) {
   const paths = [];
   const source = readFileSync(new URL('../src/router/checkLogin.js', import.meta.url), 'utf8')
     .replace(/^import .*;\r?\n/gm, '').replace('export default function checkLogin', 'globalThis.checkLogin = function');
-  const context = {
+  const context = { apiUrl, ProductImage: {},
     axios: { get: async () => { if (reject) throw response; return { data: response }; } },
     useToast: () => ({ error() {}, warning() {} }),
     localStorage: { getItem: key => stored.get(key), setItem: (key, value) => stored.set(key, value), removeItem: key => stored.delete(key) }

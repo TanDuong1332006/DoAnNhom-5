@@ -40,6 +40,7 @@ class MaGiamGiaController extends Controller
         $request->validate(['id' => 'required|integer|exists:ma_giam_gias,id']);
         return DB::transaction(function () use ($request) {
             $coupon = MaGiamGia::whereKey($request->id)->lockForUpdate()->firstOrFail();
+            abort_if(Schema::hasTable('customer_campaigns') && DB::table('customer_campaigns')->where('voucher_id', $coupon->id)->exists(), 409, 'Voucher có lịch sử chiến dịch; hãy tạm khóa thay vì xóa.');
             abort_if($coupon->so_luong_da_dung > 0 || DonHang::where('ma_giam_gia_su_dung', $coupon->ma_code)->exists(), 409, 'Mã có lịch sử sử dụng; hãy tạm khóa thay vì xóa.');
             $coupon->delete();
             return response()->json(['status' => 1, 'message' => 'Đã xóa mã chưa sử dụng']);

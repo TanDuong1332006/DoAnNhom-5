@@ -1,0 +1,11 @@
+{
+    "database": "sofep_image_uat_20261120_072900_b82465",
+    "counts": {
+        "san_phams": 168,
+        "anh_san_phams": 514,
+        "chi_tiet_san_phams": 500
+    },
+    "customer_tables": 0,
+    "order_tables": 0,
+    "scope": "image catalog fixture only; not full Laravel schema"
+}

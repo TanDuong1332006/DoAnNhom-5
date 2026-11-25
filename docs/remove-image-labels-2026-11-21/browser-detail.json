@@ -1,0 +1,19 @@
+{
+  "badges": 0,
+  "images": [
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg"
+    }
+  ],
+  "labels": false,
+  "url": "http://localhost:5173/san-pham/ao-thun-nam-co-tron-cotton-supima"
+}

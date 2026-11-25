@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "zip_sha256": "972561984c18aed8a24928ab9fad6364def20198b457d845033ab38559b6a7b4",
+  "file_count": 175,
+  "unexpected": [],
+  "missing": [],
+  "checksum_mismatches": [],
+  "bad_catalog_columns": [],
+  "private_data_patterns_in_catalog_manifest": false,
+  "catalog_tables": [
+    "danh_mucs",
+    "thuong_hieus",
+    "mau_sacs",
+    "kich_thuocs",
+    "san_phams",
+    "anh_san_phams",
+    "chi_tiet_san_phams"
+  ],
+  "data_scope": "catalog only; no account/order/auth rows",
+  "images": 167,
+  "main_catalog_snapshot_products": 168,
+  "working_tree_main_snapshot_placeholders": 167,
+  "demo_products": 168,
+  "working_tree_demo_placeholders": 168,
+  "clean_HEAD_demo_placeholders": 1,
+  "clean_HEAD_note": "HEAD accepts illustration filenames; working-tree safety patch is not in HEAD",
+  "demo_id_172": {
+    "id": 172,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": null,
+    "ma_san_pham": "SPYKRV3B",
+    "ten_san_pham": "Áo polo",
+    "slug_san_pham": "ao-polo",
+    "gia_ban": "350000.00",
+    "gia_khuyen_mai": "300000.00",
+    "hinh_anh": "/product-placeholder.svg",
+    "mo_ta_ngan": "Áo polo nam",
+    "mo_ta_chi_tiet": "Rất thích hợp cho người trẻ, vừa pha hòa lẫn giữa lịch sự và phong cách",
+    "so_luong_ton": 50,
+    "is_noi_bat": 1,
+    "is_flash_sale": 1,
+    "trang_thai": 1
+  },
+  "fixture_variant": {
+    "id": 510,
+    "product_id": 1,
+    "image_id": 436,
+    "synthetic": true
+  },
+  "external_image_urls": 0
+}

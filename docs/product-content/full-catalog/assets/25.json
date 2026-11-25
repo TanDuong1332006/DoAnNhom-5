@@ -1,0 +1,15 @@
+{
+  "id": 25,
+  "sku": "SFP-AONAM-17",
+  "name": "Áo Thun Nam Form Rộng Thêu Chữ Nổi SOFEP Haute Atelier",
+  "prompt": "Use case: product-mockup. ONE unique ecommerce product illustration for a Vietnamese SOFEP local demo. Subject: Áo Thun Nam Form Rộng Thêu Chữ Nổi SOFEP Haute Atelier. Match exact clothing or accessory type, silhouette, neckline, sleeve length, cut, pattern and special construction in this Vietnamese title. Choose black, white or deep navy, obey explicit color named in title. SINGLE product only, ENTIRE item visible with margins, centered square composition, premium realistic studio render isolated on clean warm light gray background. Clothing on invisible mannequin or flat lay. Shoes: one shoe three-quarter side view. Accessories: single object close studio product view. NO people, NO additional objects or styling accessories, NO text, NO scenery, NO watermark, NO external brand marks. Original AI demo illustration, not a photo of a real SKU.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; no third-party stock license; not real SKU photography",
+  "file": "assets/25.jpg",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-80b24311-e50b-443a-93cc-bcdf65f1bcb7.png",
+  "created_at": "2026-10-31T09:33:23.136Z",
+  "review": "approved",
+  "sha256": "c5a834d9b59e80517991164ec1f4e9f62a06ca21d1150985a5f92056965d53cb",
+  "bytes": 139960
+}

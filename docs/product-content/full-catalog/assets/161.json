@@ -1,0 +1,15 @@
+{
+  "id": 161,
+  "sku": "SFP-PHUKIEN-13",
+  "name": "Cà Vạt Nam Lụa Dệt Thoi Kèm Kẹp Cà Vạt Mạ Vàng Cao Cấp",
+  "prompt": "Use case: product-mockup. ONE unique ecommerce product illustration for a Vietnamese SOFEP local demo. Subject: Cà Vạt Nam Lụa Dệt Thoi Kèm Kẹp Cà Vạt Mạ Vàng Cao Cấp. Match exact clothing or accessory type, silhouette, neckline, sleeve length, cut, pattern and special construction in this Vietnamese title. Choose black, white or deep navy, obey explicit color named in title. SINGLE product only, ENTIRE item visible with margins, centered square composition, premium realistic studio render isolated on clean warm light gray background. Clothing on invisible mannequin or flat lay. Shoes: one shoe three-quarter side view. Accessories: single object close studio product view. NO people, NO additional objects or styling accessories, NO text, NO scenery, NO watermark, NO external brand marks. Original AI demo illustration, not a photo of a real SKU.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; no third-party stock license; not real SKU photography",
+  "file": "assets/161.jpg",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-2c2f8072-2289-4a6d-9252-67fcb17c0d29.png",
+  "created_at": "2026-10-31T09:55:30.09Z",
+  "review": "approved",
+  "sha256": "14edb4cee4ca592837d52bf35e2d5a50069c7321c1d9aecad4617023d6c546be",
+  "bytes": 281388
+}

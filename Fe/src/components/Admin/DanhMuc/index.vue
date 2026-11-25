@@ -155,7 +155,7 @@
                     <div class="modal-body">
                         <div class="alert alert-warning border-0 mb-0" role="alert">
                             <i class='bx bx-error-circle me-1 fs-5 align-middle'></i>
-                            Bạn có chắc chắn muốn xóa danh mục <strong>{{ delete_DanhMuc.ten_danh_muc }}</strong> không? Hành động này sẽ xóa toàn bộ sản phẩm thuộc danh mục!
+                            Bạn có chắc chắn muốn xóa danh mục <strong>{{ delete_DanhMuc.ten_danh_muc }}</strong> không? Chỉ có thể xóa danh mục không còn sản phẩm. Nếu còn sản phẩm, hãy tạm ẩn danh mục.
                         </div>
                     </div>
                     <div class="modal-footer bg-light">
@@ -170,6 +170,7 @@
 </template>
 
 <script>
+import { apiUrl } from '../../../services/apiConfig.js';
 import axios from 'axios';
 
 export default {
@@ -214,7 +215,7 @@ export default {
     },
     methods: {
         loadData() {
-            axios.get('http://127.0.0.1:8000/api/admin/danh-muc/get-data')
+            axios.get(apiUrl('/admin/danh-muc/get-data'))
                 .then(response => {
                     this.list_danh_muc = response.data.data;
                 })
@@ -227,7 +228,7 @@ export default {
                 this.$toast.error('Vui lòng nhập tên danh mục');
                 return;
             }
-            axios.post('http://127.0.0.1:8000/api/admin/danh-muc/create', this.create_DanhMuc)
+            axios.post(apiUrl('/admin/danh-muc/create'), this.create_DanhMuc)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -243,7 +244,7 @@ export default {
                 });
         },
         capNhatDanhMuc() {
-            axios.post('http://127.0.0.1:8000/api/admin/danh-muc/update', this.update_DanhMuc)
+            axios.post(apiUrl('/admin/danh-muc/update'), this.update_DanhMuc)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -258,7 +259,7 @@ export default {
                 });
         },
         xoaDanhMuc() {
-            axios.post('http://127.0.0.1:8000/api/admin/danh-muc/destroy', this.delete_DanhMuc)
+            axios.post(apiUrl('/admin/danh-muc/destroy'), this.delete_DanhMuc)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -268,12 +269,11 @@ export default {
                     }
                 })
                 .catch(error => {
-                    console.error(error);
-                    this.$toast.error("Có lỗi xảy ra khi xóa!");
+                    this.$toast.error(error.response?.data?.message || "Có lỗi xảy ra khi xóa!");
                 });
         },
         changeStatus(item) {
-            axios.post('http://127.0.0.1:8000/api/admin/danh-muc/change-status', { id: item.id })
+            axios.post(apiUrl('/admin/danh-muc/change-status'), { id: item.id })
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);

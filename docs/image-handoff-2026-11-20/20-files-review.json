@@ -1,0 +1,301 @@
+{
+  "count": 20,
+  "with_historical_source_record": 19,
+  "added_to_package": 0,
+  "rows": [
+    {
+      "product_id": 1,
+      "file": "products/1/illustration-c083c263-33d5-4832-9472-e3c243dc1aeb.jpg",
+      "sha256": "95ec7b7763b6e870435afd75341c3297521d3175bf0b61fc443d70ff13c59116",
+      "exists": true,
+      "source_record": {
+        "key": "black-crew-tee",
+        "source_url": "https://www.pexels.com/photo/a-black-shirt-hanging-on-the-wall-8532616/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 1,
+      "file": "products/1/illustration-c32bbb37-92e1-412c-af55-be2f2a9f8471.jpg",
+      "sha256": "dfa02ee873a47203aa327a9b5d633ab4f71b189bad793bf553caf2526f1bc830",
+      "exists": true,
+      "source_record": {
+        "key": "white-crew-tee",
+        "source_url": "https://www.pexels.com/photo/white-t-shirt-on-white-surface-12039633/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 6,
+      "file": "products/6/illustration-a4d91bd8-e53f-4091-95b8-36de5b848c45.jpg",
+      "sha256": "6db50036a395568accc891edd1c0cabe7450cbc51d688253a3514b69330f9f60",
+      "exists": true,
+      "source_record": {
+        "key": "blazer-cream",
+        "source_url": "https://www.pexels.com/photo/elegant-beige-blazer-hanging-on-hanger-indoors-32427323/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 9,
+      "file": "products/9/illustration-38dfb9fe-e82f-405f-bb69-76758b3a87f2.jpg",
+      "sha256": "95ec7b7763b6e870435afd75341c3297521d3175bf0b61fc443d70ff13c59116",
+      "exists": true,
+      "source_record": {
+        "key": "black-crew-tee",
+        "source_url": "https://www.pexels.com/photo/a-black-shirt-hanging-on-the-wall-8532616/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 9,
+      "file": "products/9/illustration-43c41f19-b93f-4e5e-b010-ff4533bcdb5c.jpg",
+      "sha256": "dfa02ee873a47203aa327a9b5d633ab4f71b189bad793bf553caf2526f1bc830",
+      "exists": true,
+      "source_record": {
+        "key": "white-crew-tee",
+        "source_url": "https://www.pexels.com/photo/white-t-shirt-on-white-surface-12039633/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 11,
+      "file": "products/11/illustration-e1aedd09-50d5-45fc-b174-a2e10227cd84.jpg",
+      "sha256": "c5fe720083c135a42d618f1c6a4d5ce5798a83ab5e82d529db632823980ad9cf",
+      "exists": true,
+      "source_record": {
+        "key": "polo-model",
+        "source_url": "https://www.pexels.com/photo/a-smiling-young-man-wearing-a-black-polo-shirt-10066360/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 16,
+      "file": "products/16/illustration-a26d6e9c-6173-4822-a901-63b15897da6d.jpg",
+      "sha256": "866a603f7588671e55fde6977a57a61107813b659081dfe54d8c37d221bc0880",
+      "exists": true,
+      "source_record": {
+        "key": "white-collared-shirt",
+        "source_url": "https://www.pexels.com/photo/minimalist-white-shirt-hanging-on-hanger-28576622/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 17,
+      "file": "products/17/illustration-6c217c35-3301-41ea-a315-25652ab570a7.jpg",
+      "sha256": "95ec7b7763b6e870435afd75341c3297521d3175bf0b61fc443d70ff13c59116",
+      "exists": true,
+      "source_record": {
+        "key": "black-crew-tee",
+        "source_url": "https://www.pexels.com/photo/a-black-shirt-hanging-on-the-wall-8532616/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 17,
+      "file": "products/17/illustration-faecf8f4-082e-46a8-be75-0943e86d61c2.jpg",
+      "sha256": "dfa02ee873a47203aa327a9b5d633ab4f71b189bad793bf553caf2526f1bc830",
+      "exists": true,
+      "source_record": {
+        "key": "white-crew-tee",
+        "source_url": "https://www.pexels.com/photo/white-t-shirt-on-white-surface-12039633/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 26,
+      "file": "products/26/illustration-4dd94cb8-f3ab-4a93-99e2-a0301beefcfd.jpg",
+      "sha256": "866a603f7588671e55fde6977a57a61107813b659081dfe54d8c37d221bc0880",
+      "exists": true,
+      "source_record": {
+        "key": "white-collared-shirt",
+        "source_url": "https://www.pexels.com/photo/minimalist-white-shirt-hanging-on-hanger-28576622/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 28,
+      "file": "products/28/illustration-cb4cf634-ea89-4e4b-9e8a-de3cac7a1c7f.jpg",
+      "sha256": "c5fe720083c135a42d618f1c6a4d5ce5798a83ab5e82d529db632823980ad9cf",
+      "exists": true,
+      "source_record": {
+        "key": "polo-model",
+        "source_url": "https://www.pexels.com/photo/a-smiling-young-man-wearing-a-black-polo-shirt-10066360/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 78,
+      "file": "products/78/illustration-cdf3a0ea-01be-4abf-a342-5cff82e4e725.jpg",
+      "sha256": "eee0ac525d9431acfea000c724ee5d2fac41c8cc7b7328fbdc715d380e0646d6",
+      "exists": true,
+      "source_record": {
+        "key": "hoodie-black",
+        "source_url": "https://www.pexels.com/photo/man-in-black-hoodie-3799378/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 80,
+      "file": "products/80/illustration-ed3f6b70-7eb7-42eb-8b4f-295e2f3d9c2b.jpg",
+      "sha256": "b1892e76c9c2b2ba02b9dfbd0954b90057e245ac494edb5ffe7327f4c425b16a",
+      "exists": true,
+      "source_record": {
+        "key": "knit-cardigan-white",
+        "source_url": "https://www.pexels.com/photo/a-woman-holding-a-black-hanger-and-white-knitted-jacket-9185789/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 84,
+      "file": "products/84/illustration-d7f7dcb9-dc4a-4670-b900-b4c1da64748f.jpg",
+      "sha256": "5c2dace42fc10e01bb20eb4b693123aa90c03868b2f58cb95e61394529a9af11",
+      "exists": true,
+      "source_record": {
+        "key": "white-shirt-hanger",
+        "source_url": "https://www.pexels.com/photo/a-shirt-on-a-coat-hanger-20129409/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 92,
+      "file": "products/92/illustration-56426be1-1877-43e6-a475-5e6c24c138c7.jpg",
+      "sha256": "75bb82afbd3eae6fb59c6036d8f72986ba677bb729db993154778dd2d5c6a59f",
+      "exists": true,
+      "source_record": {
+        "key": "denim-neutral",
+        "source_url": "https://www.pexels.com/photo/denim-jacket-hanging-on-the-wall-in-close-up-photography-13662505/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 95,
+      "file": "products/95/illustration-3fe146b1-0b5b-453d-b1f2-de71c9f0efa1.jpg",
+      "sha256": "6db50036a395568accc891edd1c0cabe7450cbc51d688253a3514b69330f9f60",
+      "exists": true,
+      "source_record": {
+        "key": "blazer-cream",
+        "source_url": "https://www.pexels.com/photo/elegant-beige-blazer-hanging-on-hanger-indoors-32427323/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 97,
+      "file": "products/97/illustration-5ad4f7dc-1e6a-49a8-81f4-4ec4e1e83a81.jpg",
+      "sha256": "b1892e76c9c2b2ba02b9dfbd0954b90057e245ac494edb5ffe7327f4c425b16a",
+      "exists": true,
+      "source_record": {
+        "key": "knit-cardigan-white",
+        "source_url": "https://www.pexels.com/photo/a-woman-holding-a-black-hanger-and-white-knitted-jacket-9185789/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 100,
+      "file": "products/100/illustration-67a113b5-5f6b-4237-8f71-15b4ad3379fc.jpg",
+      "sha256": "b1a13d64c52ec239d7b21351087d5e2ec52184cc869fc339293c649ceb6e80b8",
+      "exists": true,
+      "source_record": {
+        "key": "black-jacket",
+        "source_url": "https://www.pexels.com/photo/jacket-on-hanger-16341730/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 104,
+      "file": "products/104/illustration-c38a2f37-bf98-4cfd-bb50-ec2e1d7257d5.jpg",
+      "sha256": "6db50036a395568accc891edd1c0cabe7450cbc51d688253a3514b69330f9f60",
+      "exists": true,
+      "source_record": {
+        "key": "blazer-cream",
+        "source_url": "https://www.pexels.com/photo/elegant-beige-blazer-hanging-on-hanger-indoors-32427323/",
+        "recorded_license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "source_sha256_matches": true
+      },
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Tài liệu nguồn lịch sử có sẵn; chưa xác minh lại giấy phép/ánh xạ với PO."
+    },
+    {
+      "product_id": 172,
+      "file": "products/172/dd7b32f3-7ee8-4f6e-b7f0-e256ee801dc9.jpg",
+      "sha256": "550c24c51dfdeeb125109c34f53f0a8786a1c972c9530571da82bceca2d683b5",
+      "exists": true,
+      "source_record": null,
+      "decision": "HOLD — không đưa vào gói; PO xác minh quyền phân phối và đúng SKU",
+      "limitations": "Chưa nối được file với bằng chứng nguồn/giấy phép; không suy từ tên illustration hoặc ảnh giống nhau."
+    }
+  ]
+}

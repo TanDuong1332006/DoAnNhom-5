@@ -1,0 +1,160 @@
+{
+    "database": "sofep_demo_20261121_1862a96c23ee",
+    "delete_rules": [
+        {
+            "TABLE_NAME": "anh_san_phams",
+            "REFERENCED_TABLE_NAME": "san_phams",
+            "DELETE_RULE": "CASCADE"
+        },
+        {
+            "TABLE_NAME": "campaign_recipients",
+            "REFERENCED_TABLE_NAME": "customer_campaigns",
+            "DELETE_RULE": "NO ACTION"
+        },
+        {
+            "TABLE_NAME": "chi_tiet_don_hangs",
+            "REFERENCED_TABLE_NAME": "chi_tiet_san_phams",
+            "DELETE_RULE": "SET NULL"
+        },
+        {
+            "TABLE_NAME": "chi_tiet_don_hangs",
+            "REFERENCED_TABLE_NAME": "don_hangs",
+            "DELETE_RULE": "CASCADE"
+        },
+        {
+            "TABLE_NAME": "chi_tiet_don_hangs",
+            "REFERENCED_TABLE_NAME": "san_phams",
+            "DELETE_RULE": "SET NULL"
+        },
+        {
+            "TABLE_NAME": "chi_tiet_gio_hangs",
+            "REFERENCED_TABLE_NAME": "chi_tiet_san_phams",
+            "DELETE_RULE": "CASCADE"
+        },
+        {
+            "TABLE_NAME": "chi_tiet_gio_hangs",
+            "REFERENCED_TABLE_NAME": "gio_hangs",
+            "DELETE_RULE": "CASCADE"
+        },
+        {
+            "TABLE_NAME": "chi_tiet_gio_hangs",
+            "REFERENCED_TABLE_NAME": "san_phams",
+            "DELETE_RULE": "CASCADE"
+        },
+        {
+            "TABLE_NAME": "chi_tiet_san_phams",
+            "REFERENCED_TABLE_NAME": "anh_san_phams",
+            "DELETE_RULE": "SET NULL"
+        },
+        {
+            "TABLE_NAME": "chi_tiet_san_phams",
+            "REFERENCED_TABLE_NAME": "kich_thuocs",
+            "DELETE_RULE": "SET NULL"
+        },
+        {
+            "TABLE_NAME": "chi_tiet_san_phams",
+            "REFERENCED_TABLE_NAME": "mau_sacs",
+            "DELETE_RULE": "SET NULL"
+        },
+        {
+            "TABLE_NAME": "chi_tiet_san_phams",
+            "REFERENCED_TABLE_NAME": "san_phams",
+            "DELETE_RULE": "CASCADE"
+        },
+        {
+            "TABLE_NAME": "danh_gia_san_phams",
+            "REFERENCED_TABLE_NAME": "khach_hangs",
+            "DELETE_RULE": "CASCADE"
+        },
+        {
+            "TABLE_NAME": "danh_gia_san_phams",
+            "REFERENCED_TABLE_NAME": "san_phams",
+            "DELETE_RULE": "CASCADE"
+        },
+        {
+            "TABLE_NAME": "dia_chi_nhan_hangs",
+            "REFERENCED_TABLE_NAME": "khach_hangs",
+            "DELETE_RULE": "CASCADE"
+        },
+        {
+            "TABLE_NAME": "don_hangs",
+            "REFERENCED_TABLE_NAME": "khach_hangs",
+            "DELETE_RULE": "SET NULL"
+        },
+        {
+            "TABLE_NAME": "feedback_attachments",
+            "REFERENCED_TABLE_NAME": "private_feedback",
+            "DELETE_RULE": "CASCADE"
+        },
+        {
+            "TABLE_NAME": "gio_hangs",
+            "REFERENCED_TABLE_NAME": "khach_hangs",
+            "DELETE_RULE": "CASCADE"
+        },
+        {
+            "TABLE_NAME": "san_phams",
+            "REFERENCED_TABLE_NAME": "danh_mucs",
+            "DELETE_RULE": "CASCADE"
+        },
+        {
+            "TABLE_NAME": "san_phams",
+            "REFERENCED_TABLE_NAME": "thuong_hieus",
+            "DELETE_RULE": "SET NULL"
+        }
+    ],
+    "samples": [
+        {
+            "id": 1,
+            "ten_san_pham": "Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp",
+            "hinh_anh": "/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+            "gallery_id": 436,
+            "duong_dan_anh": "/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg"
+        },
+        {
+            "id": 1,
+            "ten_san_pham": "Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp",
+            "hinh_anh": "/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+            "gallery_id": 515,
+            "duong_dan_anh": "http://127.0.0.1:8045/api/product-images/1/illustration-45e37174-e089-4c73-a65e-78c1501c7c73.jpg"
+        },
+        {
+            "id": 22,
+            "ten_san_pham": "Áo Sơ Mi Nam Flannel Kẻ Caro Phong Cách Grunge",
+            "hinh_anh": "/api/product-images/22/illustration-6abdb532-5aac-45b0-9c9d-c8c909ee3939.jpg",
+            "gallery_id": 358,
+            "duong_dan_anh": "/api/product-images/22/illustration-6abdb532-5aac-45b0-9c9d-c8c909ee3939.jpg"
+        },
+        {
+            "id": 43,
+            "ten_san_pham": "Quần Short Nam Vải Đũi Linen Đi Biển & Du Lịch",
+            "hinh_anh": "/api/product-images/43/illustration-cf48d348-e596-4167-8661-905ec510a9d3.jpg",
+            "gallery_id": 377,
+            "duong_dan_anh": "/api/product-images/43/illustration-cf48d348-e596-4167-8661-905ec510a9d3.jpg"
+        },
+        {
+            "id": 85,
+            "ten_san_pham": "Áo Corset Nữ Định Hình Eo Gợi Cảm Phối Ren",
+            "hinh_anh": "/api/product-images/85/illustration-6e65eebe-e6cf-4771-8e5f-3bf61b368dcd.jpg",
+            "gallery_id": 424,
+            "duong_dan_anh": "/api/product-images/85/illustration-6e65eebe-e6cf-4771-8e5f-3bf61b368dcd.jpg"
+        },
+        {
+            "id": 127,
+            "ten_san_pham": "Giày Slip-On Nữ Vải Canvas Thêu Họa Tiết Hoa Nhỏ",
+            "hinh_anh": "/api/product-images/127/illustration-14b874cd-406d-49b0-8f1c-7a543a323a53.jpg",
+            "gallery_id": 466,
+            "duong_dan_anh": "/api/product-images/127/illustration-14b874cd-406d-49b0-8f1c-7a543a323a53.jpg"
+        },
+        {
+            "id": 172,
+            "ten_san_pham": "Áo polo",
+            "hinh_anh": "/product-placeholder.svg",
+            "gallery_id": null,
+            "duong_dan_anh": null
+        }
+    ],
+    "variant_image_wrong_product": 0,
+    "duplicate_product_url_extra_rows": 0,
+    "mailer": "array",
+    "scope": "READ ONLY transaction; category deletion not executed"
+}

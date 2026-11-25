@@ -1,15 +1,28 @@
 import { galleryOf } from './productCatalog.js';
+import { apiBaseUrl, backendAssetUrl } from './apiConfig.js';
+import { legacyProductImageHolds } from './legacyProductImageHolds.js';
 export const imagePlaceholder = '/product-placeholder.svg';
-export function isProductImage(value) {
-  if (!value || /[<>\x00-\x1f]/.test(value)) return false;
-  try { const url = new URL(value, 'http://localhost'); return ['http:', 'https:'].includes(url.protocol) && !/(^|\.)unsplash\.com$/i.test(url.hostname); }
+// PO duyệt minh họa cho catalog giả lập trên cả website 5173/8000.
+// Mặc định bật; môi trường muốn chặn vẫn có thể đặt false, không đổi URL nguồn.
+export const demoIllustrationsEnabled = import.meta.env?.VITE_DEMO_ILLUSTRATIONS !== 'false';
+// HOLD theo audit image-handoff-2026-11-20: hai nguồn của ID 172 chưa được PO xác minh.
+// Giữ URL gốc trong dữ liệu; ảnh upload mới, đúng SKU được duyệt không bị chặn theo product ID.
+const pendingImageSources = new Set(['https://thoitrangbigsize.vn/wp-content/uploads/2025/03/den-3.jpg']);
+const pendingUploadPaths = new Set([
+  ...legacyProductImageHolds,
+  '/api/product-images/172/dd7b32f3-7ee8-4f6e-b7f0-e256ee801dc9.jpg',
+  '/storage/products/172/dd7b32f3-7ee8-4f6e-b7f0-e256ee801dc9.jpg',
+]);
+export function isProductImage(value, allowIllustrations = demoIllustrationsEnabled) {
+  if (!value || /[<>\x00-\x1f]/.test(value) || (!allowIllustrations && isIllustrativeImage(value))) return false;
+  try { const url = new URL(value, 'http://localhost'); return ['http:', 'https:'].includes(url.protocol) && !/(^|\.)unsplash\.com$/i.test(url.hostname)
+    && !pendingImageSources.has(url.origin + url.pathname) && !pendingUploadPaths.has(url.pathname); }
   catch { return false; }
 }
-export function productImageUrl(value, apiBase = import.meta.env?.VITE_API_URL || 'http://127.0.0.1:8000/api') {
-  if (!isProductImage(value)) return imagePlaceholder;
-  if (/^\/(?:storage|api\/product-images)\//.test(value)) return new URL(value, apiBase).href;
-  return value;
+export function productImageUrl(value, apiBase = apiBaseUrl, allowIllustrations = demoIllustrationsEnabled) {
+  if (!isProductImage(value, allowIllustrations)) return imagePlaceholder;
+  return backendAssetUrl(value, apiBase);
 }
-export function productImageGallery(product) { return galleryOf(product).filter(isProductImage).map(value => productImageUrl(value)); }
+export function productImageGallery(product, allowIllustrations = demoIllustrationsEnabled) { return galleryOf(product).filter(value => isProductImage(value, allowIllustrations)).map(value => productImageUrl(value, apiBaseUrl, allowIllustrations)); }
 
 export function isIllustrativeImage(value) { return /\/illustration-[a-f0-9-]{36}\.(?:jpe?g|png|webp)(?:[?#]|$)/i.test(value || ''); }

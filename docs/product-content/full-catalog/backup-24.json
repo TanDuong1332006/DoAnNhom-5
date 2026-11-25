@@ -1,0 +1,39 @@
+{
+    "id": 24,
+    "id_cua_hang": null,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": 5,
+    "ma_san_pham": "SFP-AONAM-16",
+    "ten_san_pham": "Áo Sơ Mi Nam Lụa Satin Trơn Dự Tiệc Sang Trọng",
+    "slug_san_pham": "ao-so-mi-nam-lua-satin-tron-du-tiec-sang-trong-554s",
+    "gia_ban": "620000.00",
+    "gia_khuyen_mai": "540000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+    "mo_ta_ngan": "Chất lụa satin bắt sáng nhẹ dưới ánh đèn tiệc tối, rũ tự nhiên, chuẩn mực quý ông.",
+    "mo_ta_chi_tiet": "Chất lụa satin bắt sáng nhẹ dưới ánh đèn tiệc tối, rũ tự nhiên, chuẩn mực quý ông. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 56,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 1619,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:51.000000Z",
+    "updated_at": "2026-09-27T09:05:51.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 39,
+            "id_san_pham": 24,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        },
+        {
+            "id": 40,
+            "id_san_pham": 24,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        }
+    ]
+}

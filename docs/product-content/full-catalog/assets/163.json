@@ -1,0 +1,15 @@
+{
+  "id": 163,
+  "sku": "SFP-PHUKIEN-15",
+  "name": "Găng Tay Da Cừu Nam Lót Lông Cảm Ứng Điện Thoại Mùa Đông",
+  "prompt": "Use case: product-mockup. ONE unique ecommerce product illustration for a Vietnamese SOFEP local demo. Subject: Găng Tay Da Cừu Nam Lót Lông Cảm Ứng Điện Thoại Mùa Đông. Match exact clothing or accessory type, silhouette, neckline, sleeve length, cut, pattern and special construction in this Vietnamese title. Choose black, white or deep navy, obey explicit color named in title. SINGLE product only, ENTIRE item visible with margins, centered square composition, premium realistic studio render isolated on clean warm light gray background. Clothing on invisible mannequin or flat lay. Shoes: one shoe three-quarter side view. Accessories: single object close studio product view. NO people, NO additional objects or styling accessories, NO text, NO scenery, NO watermark, NO external brand marks. Original AI demo illustration, not a photo of a real SKU.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; no third-party stock license; not real SKU photography",
+  "file": "assets/163.jpg",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-a4353395-a12b-42a2-a5bf-1315ba53f63a.png",
+  "created_at": "2026-10-31T09:56:09.714Z",
+  "review": "approved",
+  "sha256": "08d0749ec02da897511bbc2e3962293614d0e15a5b0ae09331758749cd2e4c9a",
+  "bytes": 299330
+}

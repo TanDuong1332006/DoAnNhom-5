@@ -1,0 +1,844 @@
+{
+  "date": "2026-11-18",
+  "query": "project = N5 AND key >= N5-1 AND key <= N5-144 ORDER BY key ASC",
+  "isLast": true,
+  "issues": [
+    {
+      "key": "N5-1",
+      "title": "Requirement Analysis",
+      "description": "Analyze system requirements and identify functional and non-functional requirements for the SOFEP e-commerce platform.",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-1"
+    },
+    {
+      "key": "N5-2",
+      "title": "Define Project Scope",
+      "description": "Define project objectives, system boundaries, target users, main features, and expected deliverables.",
+      "assignee": "My Giáng",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-2"
+    },
+    {
+      "key": "N5-3",
+      "title": "Create Proposal Document",
+      "description": "Prepare the project proposal, including objectives, requirements, technology stack, development plan, and risk analysis.",
+      "assignee": "NghiNghi TrầnTrần",
+      "priority": "Medium",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-3"
+    },
+    {
+      "key": "N5-4",
+      "title": "Sprint Planning & Task Assignment",
+      "description": "Plan project sprints, define tasks, assign responsibilities, and estimate workload using Jira.",
+      "assignee": "23Hoàng Sang .Nguyễn Công",
+      "priority": "Medium",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-4"
+    },
+    {
+      "key": "N5-5",
+      "title": "UI/UX Design",
+      "description": "Design user interfaces and user flows for Customer, Merchant, and Admin functionalities.",
+      "assignee": "My Giáng",
+      "priority": "Medium",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-5"
+    },
+    {
+      "key": "N5-6",
+      "title": "System Architecture Design",
+      "description": "Design the system architecture using Vue.js frontend, Laravel backend, REST API, and MySQL database.",
+      "assignee": "Phan văn hoàng",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-6"
+    },
+    {
+      "key": "N5-7",
+      "title": "Database Design",
+      "description": "Design the database structure, define entities, primary keys, foreign keys, and relationships between tables.",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-7"
+    },
+    {
+      "key": "N5-8",
+      "title": "API Design",
+      "description": "Define REST API endpoints, HTTP methods, request parameters, response formats, and authentication requirements.",
+      "assignee": "ngân nguyễn",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-8"
+    },
+    {
+      "key": "N5-9",
+      "title": "Design Database",
+      "description": "Design database tables and relationships for user accounts, authentication, roles, profiles, and preferences.",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-9"
+    },
+    {
+      "key": "N5-10",
+      "title": "UX/UI",
+      "description": "Design user-friendly interfaces for registration, login, profile management, and fashion preferences.",
+      "assignee": "My Giáng",
+      "priority": "Medium",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-10"
+    },
+    {
+      "key": "N5-11",
+      "title": "Front-End",
+      "description": "Develop Vue.js components for user registration, login, profile management, and preference settings.",
+      "assignee": "23Hoàng Sang .Nguyễn Công",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-11"
+    },
+    {
+      "key": "N5-12",
+      "title": "Back-End",
+      "description": "Implement Laravel backend logic for user authentication, account management, and role-based access control.",
+      "assignee": "Phan văn hoàng",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-12"
+    },
+    {
+      "key": "N5-13",
+      "title": "Fetch API",
+      "description": "Integrate frontend and backend APIs for login, registration, user profiles, and preferences using Axios.",
+      "assignee": "ngân nguyễn",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-13"
+    },
+    {
+      "key": "N5-14",
+      "title": "Database Design",
+      "description": "Design MySQL tables, primary keys, foreign keys, and relationships for Product, Category, Inventory, Cart, Cart Item, Order, and Order Item.",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-14"
+    },
+    {
+      "key": "N5-15",
+      "title": "UX/UI",
+      "description": "Design interfaces for product listing, product details, searching, filtering, shopping cart, and checkout.",
+      "assignee": "My Giáng",
+      "priority": "Medium",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-15"
+    },
+    {
+      "key": "N5-16",
+      "title": "Front-End",
+      "description": "Develop Vue.js components for product browsing, searching, filtering, cart management, and checkout.",
+      "assignee": "23Hoàng Sang .Nguyễn Công",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-16"
+    },
+    {
+      "key": "N5-17",
+      "title": "Back-End",
+      "description": "Implement Laravel Models, Migrations, Controllers, and business logic for product, inventory, cart, and order management.",
+      "assignee": "Phan văn hoàng",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-17"
+    },
+    {
+      "key": "N5-18",
+      "title": "REST API Integration",
+      "description": "Integrate REST APIs between Vue.js and Laravel for product retrieval, cart updates, checkout, and order creation.",
+      "assignee": "ngân nguyễn",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-18"
+    },
+    {
+      "key": "N5-19",
+      "title": "Design UX/UI",
+      "description": "Design dashboard interfaces for merchant product management, inventory, promotions, and administrator functions.",
+      "assignee": "My Giáng",
+      "priority": "Highest",
+      "status": "In Progress",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-19"
+    },
+    {
+      "key": "N5-20",
+      "title": "Front-End",
+      "description": "Develop frontend components for merchant product management, inventory control, promotions, and dashboard displays.",
+      "assignee": "23Hoàng Sang .Nguyễn Công",
+      "priority": "Highest",
+      "status": "In Progress",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-20"
+    },
+    {
+      "key": "N5-21",
+      "title": "Back-End",
+      "description": "Implement Laravel backend services for merchant management, inventory control, promotions, and administrator operations.",
+      "assignee": "Phan văn hoàng",
+      "priority": "Highest",
+      "status": "In Progress",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-21"
+    },
+    {
+      "key": "N5-22",
+      "title": "Implement Merchant Approval & Product Content Moderation",
+      "description": "Implement merchant approval workflows and product content moderation to ensure platform security and quality.",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "High",
+      "status": "In Progress",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-22"
+    },
+    {
+      "key": "N5-23",
+      "title": "REST API Integration – Merchant & Admin",
+      "description": "Integrate frontend and backend APIs for merchant management, product administration, inventory, and admin dashboard functions.",
+      "assignee": "ngân nguyễn",
+      "priority": "Highest",
+      "status": "In Progress",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-23"
+    },
+    {
+      "key": "N5-24",
+      "title": "E-commerce System Integration",
+      "description": "Integrate authentication, product management, shopping cart, checkout, order processing, and merchant modules into one system.",
+      "assignee": "Phan văn hoàng",
+      "priority": "Highest",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-24"
+    },
+    {
+      "key": "N5-25",
+      "title": "API Integration & Data Flow Testing",
+      "description": "Test REST API connections and verify data flow between Vue.js frontend, Laravel backend, and MySQL database.",
+      "assignee": "ngân nguyễn",
+      "priority": "High",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-25"
+    },
+    {
+      "key": "N5-26",
+      "title": "Role-based Access & Module Integration",
+      "description": "Implement and verify role-based permissions for Customer, Merchant, and Admin across system modules.",
+      "assignee": "My Giáng",
+      "priority": "Highest",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-26"
+    },
+    {
+      "key": "N5-27",
+      "title": "Database & System Optimization",
+      "description": "Optimize database queries, improve API response times, and enhance overall system performance.",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "High",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-27"
+    },
+    {
+      "key": "N5-29",
+      "title": "Functional & Integration Testing",
+      "description": "Test core system functionalities and verify correct integration between frontend, backend, database, and APIs.",
+      "assignee": "23Hoàng Sang .Nguyễn Công",
+      "priority": "Highest",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-29"
+    },
+    {
+      "key": "N5-30",
+      "title": "Performance & Security Testing",
+      "description": "Evaluate system response times, authentication security, authorization, and database performance.",
+      "assignee": "My Giáng",
+      "priority": "High",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-30"
+    },
+    {
+      "key": "N5-31",
+      "title": "Bug Fixing & System Improvement",
+      "description": "Identify and resolve system bugs, improve stability, and refine functionality based on testing results.",
+      "assignee": "Phan văn hoàng",
+      "priority": "High",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-31"
+    },
+    {
+      "key": "N5-32",
+      "title": "Deployment",
+      "description": "Configure the production environment, deploy the SOFEP application, connect the database, and verify system functionality.",
+      "assignee": "ngân nguyễn",
+      "priority": "Highest",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-32"
+    },
+    {
+      "key": "N5-33",
+      "title": "Documentation & Final Report",
+      "description": "Prepare technical documentation, testing results, deployment instructions, and the final project report.",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "Medium",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-33"
+    },
+    {
+      "key": "N5-38",
+      "title": "ds",
+      "description": "",
+      "assignee": null,
+      "priority": "Medium",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-38"
+    },
+    {
+      "key": "N5-39",
+      "title": "User Story",
+      "description": "",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "Medium",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-39"
+    },
+    {
+      "key": "N5-40",
+      "title": "User Story",
+      "description": "",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "Medium",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-40"
+    },
+    {
+      "key": "N5-41",
+      "title": "User Story",
+      "description": "",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "Medium",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-41"
+    },
+    {
+      "key": "N5-42",
+      "title": "User Story",
+      "description": "",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "Medium",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-42"
+    },
+    {
+      "key": "N5-45",
+      "title": "hight",
+      "description": "",
+      "assignee": null,
+      "priority": "Medium",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-45"
+    },
+    {
+      "key": "N5-81",
+      "title": "Login",
+      "description": "",
+      "assignee": "My Giáng",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-81"
+    },
+    {
+      "key": "N5-82",
+      "title": "Register",
+      "description": "",
+      "assignee": "My Giáng",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-82"
+    },
+    {
+      "key": "N5-83",
+      "title": "Profile",
+      "description": "",
+      "assignee": "My Giáng",
+      "priority": "Medium",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-83"
+    },
+    {
+      "key": "N5-84",
+      "title": "Fashion Preferences",
+      "description": "",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "Medium",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-84"
+    },
+    {
+      "key": "N5-85",
+      "title": "Login",
+      "description": "",
+      "assignee": "23Hoàng Sang .Nguyễn Công",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-85"
+    },
+    {
+      "key": "N5-86",
+      "title": "Register",
+      "description": "",
+      "assignee": "23Hoàng Sang .Nguyễn Công",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-86"
+    },
+    {
+      "key": "N5-87",
+      "title": "Profile",
+      "description": "",
+      "assignee": "ngân nguyễn",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-87"
+    },
+    {
+      "key": "N5-88",
+      "title": "Fashion Preferences",
+      "description": "",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-88"
+    },
+    {
+      "key": "N5-89",
+      "title": "Authentication",
+      "description": "",
+      "assignee": "Phan văn hoàng",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-89"
+    },
+    {
+      "key": "N5-90",
+      "title": "User Management",
+      "description": "",
+      "assignee": "Phan văn hoàng",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-90"
+    },
+    {
+      "key": "N5-91",
+      "title": "Role-based Access",
+      "description": "",
+      "assignee": "Phan văn hoàng",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-91"
+    },
+    {
+      "key": "N5-94",
+      "title": "Authentication",
+      "description": "",
+      "assignee": "ngân nguyễn",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-94"
+    },
+    {
+      "key": "N5-95",
+      "title": "Profile",
+      "description": "",
+      "assignee": "ngân nguyễn",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-95"
+    },
+    {
+      "key": "N5-96",
+      "title": "Preferences",
+      "description": "",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-96"
+    },
+    {
+      "key": "N5-98",
+      "title": "Product",
+      "description": "",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-98"
+    },
+    {
+      "key": "N5-99",
+      "title": "Category",
+      "description": "",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-99"
+    },
+    {
+      "key": "N5-100",
+      "title": "Inventory",
+      "description": "",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-100"
+    },
+    {
+      "key": "N5-101",
+      "title": "Cart",
+      "description": "",
+      "assignee": "NghiNghi TrầnTrần",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-101"
+    },
+    {
+      "key": "N5-102",
+      "title": "Cart Item",
+      "description": "",
+      "assignee": "NghiNghi TrầnTrần",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-102"
+    },
+    {
+      "key": "N5-104",
+      "title": "Product Listing",
+      "description": "",
+      "assignee": "My Giáng",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-104"
+    },
+    {
+      "key": "N5-105",
+      "title": "Product Detail",
+      "description": "",
+      "assignee": "My Giáng",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-105"
+    },
+    {
+      "key": "N5-106",
+      "title": "Search",
+      "description": "",
+      "assignee": "My Giáng",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-106"
+    },
+    {
+      "key": "N5-107",
+      "title": "Filtering",
+      "description": "",
+      "assignee": "My Giáng",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-107"
+    },
+    {
+      "key": "N5-108",
+      "title": "Product listing",
+      "description": "",
+      "assignee": "23Hoàng Sang .Nguyễn Công",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-108"
+    },
+    {
+      "key": "N5-109",
+      "title": "Product detail",
+      "description": "",
+      "assignee": "23Hoàng Sang .Nguyễn Công",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-109"
+    },
+    {
+      "key": "N5-110",
+      "title": "Search",
+      "description": "",
+      "assignee": "23Hoàng Sang .Nguyễn Công",
+      "priority": "Medium",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-110"
+    },
+    {
+      "key": "N5-111",
+      "title": "Filtering",
+      "description": "",
+      "assignee": "23Hoàng Sang .Nguyễn Công",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-111"
+    },
+    {
+      "key": "N5-112",
+      "title": "Shopping Cart",
+      "description": "",
+      "assignee": "Phan văn hoàng",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-112"
+    },
+    {
+      "key": "N5-113",
+      "title": "Checkout",
+      "description": "",
+      "assignee": "Phan văn hoàng",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-113"
+    },
+    {
+      "key": "N5-114",
+      "title": "Product",
+      "description": "",
+      "assignee": "Phan văn hoàng",
+      "priority": "High",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-114"
+    },
+    {
+      "key": "N5-115",
+      "title": "Category",
+      "description": "",
+      "assignee": "Phan văn hoàng",
+      "priority": "Medium",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-115"
+    },
+    {
+      "key": "N5-116",
+      "title": "Inventory",
+      "description": "",
+      "assignee": "Phan văn hoàng",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-116"
+    },
+    {
+      "key": "N5-117",
+      "title": "Cart",
+      "description": "",
+      "assignee": "Phan văn hoàng",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-117"
+    },
+    {
+      "key": "N5-118",
+      "title": "Order Management",
+      "description": "",
+      "assignee": "Phan văn hoàng",
+      "priority": "Highest",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-118"
+    },
+    {
+      "key": "N5-124",
+      "title": "Order ",
+      "description": "",
+      "assignee": "NghiNghi TrầnTrần",
+      "priority": "Medium",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-124"
+    },
+    {
+      "key": "N5-125",
+      "title": "Order Item",
+      "description": "",
+      "assignee": "NghiNghi TrầnTrần",
+      "priority": "Medium",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-125"
+    },
+    {
+      "key": "N5-126",
+      "title": "Shopping Cart",
+      "description": "",
+      "assignee": "Phan văn hoàng",
+      "priority": "Medium",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-126"
+    },
+    {
+      "key": "N5-127",
+      "title": "Checkout",
+      "description": "",
+      "assignee": "Phan văn hoàng",
+      "priority": "Medium",
+      "status": "Done",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-127"
+    },
+    {
+      "key": "N5-128",
+      "title": "Merchant Dashboard",
+      "description": "",
+      "assignee": "My Giáng",
+      "priority": "High",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-128"
+    },
+    {
+      "key": "N5-129",
+      "title": "Admin Dashboard",
+      "description": "",
+      "assignee": "My Giáng",
+      "priority": "Highest",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-129"
+    },
+    {
+      "key": "N5-130",
+      "title": "Product Management",
+      "description": "",
+      "assignee": "23Hoàng Sang .Nguyễn Công",
+      "priority": "Highest",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-130"
+    },
+    {
+      "key": "N5-131",
+      "title": "Inventory",
+      "description": "",
+      "assignee": "23Hoàng Sang .Nguyễn Công",
+      "priority": "High",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-131"
+    },
+    {
+      "key": "N5-132",
+      "title": "Promotions",
+      "description": "",
+      "assignee": "NghiNghi TrầnTrần",
+      "priority": "Medium",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-132"
+    },
+    {
+      "key": "N5-133",
+      "title": "Dashboard",
+      "description": "",
+      "assignee": "NghiNghi TrầnTrần",
+      "priority": "High",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-133"
+    },
+    {
+      "key": "N5-134",
+      "title": "Merchant",
+      "description": "",
+      "assignee": "Nguyễn Tấn Dương___10a2",
+      "priority": "Highest",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-134"
+    },
+    {
+      "key": "N5-135",
+      "title": "Inventory",
+      "description": "",
+      "assignee": "Phan văn hoàng",
+      "priority": "Highest",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-135"
+    },
+    {
+      "key": "N5-136",
+      "title": "Promotions ",
+      "description": "",
+      "assignee": "Phan văn hoàng",
+      "priority": "Medium",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-136"
+    },
+    {
+      "key": "N5-137",
+      "title": "Admin Management",
+      "description": "",
+      "assignee": "Phan văn hoàng",
+      "priority": "High",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-137"
+    },
+    {
+      "key": "N5-138",
+      "title": "Merchant ",
+      "description": "",
+      "assignee": "ngân nguyễn",
+      "priority": "Highest",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-138"
+    },
+    {
+      "key": "N5-139",
+      "title": "Admin Functions",
+      "description": "",
+      "assignee": "ngân nguyễn",
+      "priority": "High",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-139"
+    },
+    {
+      "key": "N5-140",
+      "title": "Cập nhật Proposal SOFEP theo kiến trúc Single-Brand và công nghệ thực tế",
+      "description": "Đối chiếu Proposal Word bản lưu 03/10/2026 với source và các quyết định Product Owner. Sửa phạm vi từ Customer/Merchant/Admin thành Customer/Admin; thay Next.js/FastAPI/MongoDB bằng Vue 3/Laravel/Sanctum/MySQL; rà FR01–FR12, NFR, kế hoạch, kiến trúc, rủi ro và deliverables. Ghi nhận thay đổi phạm vi Seller và các tính năng mới: Product Detail 2.1, authenticated checkout, voucher/loyalty, notification, private feedback. Giữ nguyên thông tin học phần/nhóm và không tự tuyên bố đã làm AI nếu chưa có bằng chứng.\n\nAcceptance: Proposal cập nhật có revision history; bảng đối chiếu FR → module → Jira issue → bằng chứng; được Product Owner xem trước khi thay thế bản cũ.",
+      "assignee": null,
+      "priority": "Highest",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-140"
+    },
+    {
+      "key": "N5-141",
+      "title": "Đối chiếu 88 Jira issues với source, báo cáo Codex và phạm vi SOFEP hiện tại",
+      "description": "Audit các issue N5 hiện có; nhóm trạng thái Verified Done / Implemented-Pending-UAT / In Progress / To Do / Out of Scope, gắn bằng chứng test hoặc screenshot. Đặc biệt audit N5-19..27, N5-29..33, N5-128..139, các issue Merchant cũ và các User Story tên chung. Không đổi trạng thái Done nếu chưa có chứng cứ nghiệm thu. Giữ lịch sử ticket, không xóa hàng loạt.\n\nAcceptance: bảng mapping đầy đủ 88 issues, danh sách cập nhật đề xuất, backlog không trùng và thứ tự ưu tiên rõ ràng.",
+      "assignee": null,
+      "priority": "Highest",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-141"
+    },
+    {
+      "key": "N5-142",
+      "title": "UAT end-to-end SOFEP: Guest → Customer → checkout → voucher → Admin",
+      "description": "Chạy trên MySQL UAT an toàn, không ghi database production. Kiểm tra Guest chỉ xem/thêm giỏ; Login/Register OTP trước checkout; giá/tồn kho/voucher server-side; COD vs thanh toán mô phỏng; Admin xem và hoàn tất đơn; thông báo và ví voucher; góp ý riêng. Kiểm tra mobile/desktop và quyền Customer/Admin.\n\nAcceptance: test cases, kết quả Passed/Failed/Blocked, ảnh bằng chứng, log lỗi, kết quả regression, không bỏ qua trường hợp thất bại.",
+      "assignee": null,
+      "priority": "Highest",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-142"
+    },
+    {
+      "key": "N5-143",
+      "title": "Kiểm thử tính năng Customer Engagement trên tài khoản thật và bảo mật dữ liệu",
+      "description": "Xác minh private feedback, phân quyền ảnh đính kèm, Admin lọc đối tượng theo số đơn và tổng chi tiêu, preview recipient, gửi thông báo nội bộ, opt-out, khách lưu voucher và thông báo lý do áp dụng không hợp lệ. Không gửi marketing hàng loạt đến khách thật trong thử nghiệm.\n\nAcceptance: UAT với tài khoản giới hạn; không rò dữ liệu giữa khách; các trạng thái voucher đúng và test không gửi trùng.",
+      "assignee": null,
+      "priority": "High",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-143"
+    },
+    {
+      "key": "N5-144",
+      "title": "Hoàn thiện tài liệu kỹ thuật, demo và đối chiếu bằng chứng trước bảo vệ đồ án",
+      "description": "Cập nhật README/cài đặt Laragon, Navicat/MySQL, chạy FE/BE, bảng database, kiến trúc Vue/Laravel, use case, phân quyền, checklist demo, test evidence, limitations và trạng thái Git/production. Phân biệt demo local với production.\n\nAcceptance: tài liệu nhất quán Proposal + Jira + source; script demo vận hành được; rủi ro còn mở được ghi rõ.",
+      "assignee": null,
+      "priority": "High",
+      "status": "To Do",
+      "url": "https://nguyentanduong.atlassian.net/browse/N5-144"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "path": "themmoik27be/app/Providers/AppServiceProvider.php",
+    "exit_code": 0,
+    "output": "No syntax errors detected in themmoik27be/app/Providers/AppServiceProvider.php"
+  },
+  {
+    "path": "themmoik27be/routes/api.php",
+    "exit_code": 0,
+    "output": "No syntax errors detected in themmoik27be/routes/api.php"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/AuthController.php",
+    "exit_code": 0,
+    "output": "No syntax errors detected in themmoik27be/app/Http/Controllers/AuthController.php"
+  },
+  {
+    "path": "themmoik27be/app/Http/Controllers/Api/ForgotPasswordController.php",
+    "exit_code": 0,
+    "output": "No syntax errors detected in themmoik27be/app/Http/Controllers/Api/ForgotPasswordController.php"
+  },
+  {
+    "path": "themmoik27be/app/Services/PasswordResetOtp.php",
+    "exit_code": 0,
+    "output": "No syntax errors detected in themmoik27be/app/Services/PasswordResetOtp.php"
+  },
+  {
+    "path": "themmoik27be/database/migrations/2026_11_18_000001_add_customer_role_baseline.php",
+    "exit_code": 0,
+    "output": "No syntax errors detected in themmoik27be/database/migrations/2026_11_18_000001_add_customer_role_baseline.php"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/ApiAccessBoundaryTest.php",
+    "exit_code": 0,
+    "output": "No syntax errors detected in themmoik27be/tests/Feature/ApiAccessBoundaryTest.php"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/AuthSecurityTest.php",
+    "exit_code": 0,
+    "output": "No syntax errors detected in themmoik27be/tests/Feature/AuthSecurityTest.php"
+  },
+  {
+    "path": "themmoik27be/tests/Feature/MigrationBaselineTest.php",
+    "exit_code": 0,
+    "output": "No syntax errors detected in themmoik27be/tests/Feature/MigrationBaselineTest.php"
+  },
+  {
+    "path": "themmoik27be/tests/Support/MySqlSecurityUat.php",
+    "exit_code": 0,
+    "output": "No syntax errors detected in themmoik27be/tests/Support/MySqlSecurityUat.php"
+  }
+]

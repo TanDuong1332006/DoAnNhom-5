@@ -1,0 +1,39 @@
+{
+    "id": 18,
+    "id_cua_hang": null,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": 6,
+    "ma_san_pham": "SFP-AONAM-10",
+    "ten_san_pham": "Áo Ba Lỗ Nam Tanktop Ribbed Co Giãn Tôn Thể Hình",
+    "slug_san_pham": "ao-ba-lo-nam-tanktop-ribbed-co-gian-ton-the-hinh-uhki",
+    "gia_ban": "250000.00",
+    "gia_khuyen_mai": "199000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=700",
+    "mo_ta_ngan": "Vải dệt gân tăm ôm nhẹ cơ thể, thông thoáng cho các hoạt động thể thao dạo phố.",
+    "mo_ta_chi_tiet": "Vải dệt gân tăm ôm nhẹ cơ thể, thông thoáng cho các hoạt động thể thao dạo phố. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 152,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 2667,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:51.000000Z",
+    "updated_at": "2026-09-27T09:05:51.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 27,
+            "id_san_pham": 18,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        },
+        {
+            "id": 28,
+            "id_san_pham": 18,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        }
+    ]
+}

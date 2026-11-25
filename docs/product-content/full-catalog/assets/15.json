@@ -1,0 +1,15 @@
+{
+  "id": 15,
+  "sku": "SFP-AONAM-07",
+  "name": "Áo Polo Nam Zip Collar Khóa Kéo Kim Loại Sang Trọng",
+  "prompt": "Use case: product-mockup. Create ONE unique ecommerce catalog product illustration for a local Vietnamese SOFEP demo. Subject (Vietnamese product title, preserve exact garment/accessory type and construction): Áo Polo Nam Zip Collar Khóa Kéo Kim Loại Sang Trọng. Additional type information: Khóa kéo mạ crom bạc cao cấp thay thế cúc bấm truyền thống, phong cách Milan hiện đại.. Choose black, white or deep navy; obey any explicit color in the title. Entire single product visible, premium realistic studio rendering, isolated on clean warm light gray background, centered square composition, soft shadow. Clothing on invisible mannequin or flat lay, shoes three-quarter side view, accessories clear close product view. No people, no other products, no scenery, no watermark, no external brand logos. This is an original AI demo illustration, not a photograph of the actual SKU. Do not add text except SOFEP when title specifically requests embroidered brand. Each image must reflect the specific product silhouette and details.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; not a third-party stock photo; no claim of real SKU photography",
+  "file": "assets/15.jpg",
+  "created_at": "2026-10-31T09:30:01.651Z",
+  "review": "approved",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-7a42b5b1-e944-4402-a80e-63b080e53f7e.png",
+  "sha256": "2410d05091392a3bb0c54a9fe9dc4942885742d54450439c0cccfde5300f1430",
+  "bytes": 156012
+}

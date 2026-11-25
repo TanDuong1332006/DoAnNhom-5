@@ -1,0 +1,67 @@
+{
+    "database": "sofep_uat_20261103_43ebbecf81ed",
+    "checked_at": "2026-11-03T09:02:46+00:00",
+    "checks": [
+        {
+            "path": "\/api\/admin\/danh-muc\/get-data",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/thuong-hieu\/get-data",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/mau-sac\/get-data",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/kich-thuoc\/get-data",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/san-pham\/get-data",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/chi-tiet-san-pham\/get-data",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/khach-hang\/get-data",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/ma-giam-gia\/get-data",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/don-hang\/get-data",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/danh-gia\/get-data",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/thong-ke\/tong-quan",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/thong-ke\/doanh-thu-theo-thang",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/thong-ke\/doanh-thu-theo-nam",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/thong-ke\/san-pham-theo-danh-muc",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/giao-dich\/get-data",
+            "status": 200
+        }
+    ],
+    "passed": true
+}

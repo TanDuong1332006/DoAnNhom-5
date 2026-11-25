@@ -1,0 +1,15 @@
+{
+  "id": 75,
+  "sku": "SFP-AONU-07",
+  "name": "Áo Sơ Mi Nữ Voan Kẻ Sọc Dáng Rộng Dạo Phố",
+  "prompt": "Use case: product-mockup. ONE unique ecommerce product illustration for a Vietnamese SOFEP local demo. Subject: Áo Sơ Mi Nữ Voan Kẻ Sọc Dáng Rộng Dạo Phố. Match exact clothing or accessory type, silhouette, neckline, sleeve length, cut, pattern and special construction in this Vietnamese title. Choose black, white or deep navy, obey explicit color named in title. SINGLE product only, ENTIRE item visible with margins, centered square composition, premium realistic studio render isolated on clean warm light gray background. Clothing on invisible mannequin or flat lay. Shoes: one shoe three-quarter side view. Accessories: single object close studio product view. NO people, NO additional objects or styling accessories, NO text, NO scenery, NO watermark, NO external brand marks. Original AI demo illustration, not a photo of a real SKU.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; no third-party stock license; not real SKU photography",
+  "file": "assets/75.jpg",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-d2ba9d9e-578e-4294-8254-4f46d4911fa7.png",
+  "created_at": "2026-10-31T09:41:50.65Z",
+  "review": "approved",
+  "sha256": "f35807be04e49a37b4c9ae38294a36fecdec760e091bda1d9e639ce35950a5c4",
+  "bytes": 208063
+}

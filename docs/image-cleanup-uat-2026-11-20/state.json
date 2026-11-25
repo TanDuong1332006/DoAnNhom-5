@@ -1,0 +1,13 @@
+{
+    "backup_database": "sofep_image_restore_20261120_858331c19d01",
+    "trial_database": "sofep_image_restore_20261120_078039924064",
+    "runtime": "C:\\Users\\dn133\\AppData\\Local\\Temp/sofep-cleanup-050d91b89b00de6b",
+    "storage": "C:\\Users\\dn133\\AppData\\Local\\Temp/sofep-cleanup-050d91b89b00de6b/storage/app/public",
+    "fe_root": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-handoff-runtime-8d59ba8ebec1\\frontend",
+    "app_root": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-image-clone-bfd9ec041abc4b0cb32e6718e7fa630f\\source\\themmoik27be",
+    "be_port": 8044,
+    "fe_port": 5196,
+    "copied_files": 167,
+    "original_fingerprint": "d297d59c44bcafd859a23dc1479b59078af433e00910973eff8030e990f9a9ed",
+    "before_fingerprint": "7a16480aa5b87be2dabd894af4a6c1ad94b1ee233fb641e477ea1b61ae3a666e"
+}

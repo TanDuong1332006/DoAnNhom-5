@@ -1,0 +1,39 @@
+{
+    "id": 22,
+    "id_cua_hang": null,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": 6,
+    "ma_san_pham": "SFP-AONAM-14",
+    "ten_san_pham": "Áo Sơ Mi Nam Flannel Kẻ Caro Phong Cách Grunge",
+    "slug_san_pham": "ao-so-mi-nam-flannel-ke-caro-phong-cach-grunge-n0kb",
+    "gia_ban": "510000.00",
+    "gia_khuyen_mai": "430000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=700",
+    "mo_ta_ngan": "Bề mặt vải dạ nỉ cào lông ấm áp, đường may caro khớp nối tỉ mỉ từng chi tiết.",
+    "mo_ta_chi_tiet": "Bề mặt vải dạ nỉ cào lông ấm áp, đường may caro khớp nối tỉ mỉ từng chi tiết. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 68,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 1268,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:51.000000Z",
+    "updated_at": "2026-09-27T09:05:51.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 35,
+            "id_san_pham": 22,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        },
+        {
+            "id": 36,
+            "id_san_pham": 22,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        }
+    ]
+}

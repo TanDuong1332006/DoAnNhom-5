@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "server": "php artisan serve --host=127.0.0.1 --port=8042 --no-reload",
+  "database": "sofep_image_restore_20261120_7dab8307016c",
+  "storage": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-api-config-1662ab2319454167937fbe319b19fdbd\\app\\storage\\app/public",
+  "checks": [
+    {
+      "route": "/api/client/san-phams?all=1",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/1",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "route": "/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "route": "/product-placeholder.svg",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "route": "/api/product-images/1/illustration-00000000-0000-0000-0000-000000000000.jpg",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "route": "/api/product-images/1/invalid.php",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "route": "/api/dang-nhap",
+      "status": 200,
+      "expected": 200
+    }
+  ]
+}

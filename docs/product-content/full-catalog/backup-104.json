@@ -1,0 +1,47 @@
+{
+    "id": 104,
+    "id_cua_hang": null,
+    "id_danh_muc": 5,
+    "id_thuong_hieu": 1,
+    "ma_san_pham": "SFP-AOKHOAC-16",
+    "ten_san_pham": "Áo Blazer Nam Linen Không Đệm Vai Thoáng Mát Mùa Hè",
+    "slug_san_pham": "ao-blazer-nam-linen-khong-dem-vai-thoang-mat-mua-he-sdur",
+    "gia_ban": "890000.00",
+    "gia_khuyen_mai": "750000.00",
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/104/illustration-c38a2f37-bf98-4cfd-bb50-ec2e1d7257d5.jpg",
+    "mo_ta_ngan": "Chất sợi lanh đũi mộc mạc, phù hợp khí hậu nhiệt đới mà vẫn giữ được sự lịch thiệp.",
+    "mo_ta_chi_tiet": "Chất sợi lanh đũi mộc mạc, phù hợp khí hậu nhiệt đới mà vẫn giữ được sự lịch thiệp. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 154,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 1676,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:54.000000Z",
+    "updated_at": "2026-10-30T16:47:37.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 199,
+            "id_san_pham": 104,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 200,
+            "id_san_pham": 104,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 347,
+            "id_san_pham": 104,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/104/illustration-c38a2f37-bf98-4cfd-bb50-ec2e1d7257d5.jpg",
+            "thu_tu": 0,
+            "created_at": null,
+            "updated_at": null
+        }
+    ]
+}

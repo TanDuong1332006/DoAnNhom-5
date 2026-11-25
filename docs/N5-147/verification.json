@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-18",
+  "branch": "nhanh-cua-duong",
+  "backend": {
+    "tool": "phpunit",
+    "result": "passed",
+    "tests": 83,
+    "passed": 81,
+    "assertions": 1304,
+    "duration_ms": 6341,
+    "skipped": 2
+  },
+  "frontend": {
+    "command": "node --test tests/*.test.mjs",
+    "tests": 63,
+    "passed": 63,
+    "failed": 0,
+    "type": "mocked API/component logic, not browser UAT"
+  },
+  "build": {
+    "command": "npm run build -- --outDir ../docs/N5-147/build-check",
+    "exit_code": 0,
+    "modules": 168,
+    "vite": "4.4.8",
+    "duration_seconds": 5.45,
+    "output_retained": "docs/N5-147/build-check"
+  },
+  "php_lint": {
+    "checked": 10,
+    "passed": 10,
+    "details": "php-lint.json"
+  },
+  "mysql": {
+    "command": "php tests/Support/MySqlSecurityUat.php",
+    "passed": true,
+    "checks": 45,
+    "migrations": 26,
+    "version": "8.4.3",
+    "database": "sofep_security_uat_20261118_d588ff07a906",
+    "limiter_cache_isolation_verified": true,
+    "details": "mysql-uat.json"
+  },
+  "first_run_incident": {
+    "details": "mysql-uat-initial-failed.json",
+    "main_rate_limit_cache_written": true,
+    "business_account_writes_target": "new UAT database",
+    "corrected_before_successful_run": true,
+    "main_cache_cleanup_performed": false
+  },
+  "modified_files": [
+    "Fe/src/components/QuenMatKhau/index.vue",
+    "Fe/tests/admin-login.test.mjs",
+    "themmoik27be/app/Http/Controllers/AuthController.php",
+    "themmoik27be/app/Http/Controllers/Api/ForgotPasswordController.php",
+    "themmoik27be/app/Providers/AppServiceProvider.php",
+    "themmoik27be/routes/api.php",
+    "themmoik27be/tests/Feature/ApiAccessBoundaryTest.php"
+  ],
+  "created_source_test_files": [
+    "Fe/tests/password-reset-security.test.mjs",
+    "themmoik27be/app/Services/PasswordResetOtp.php",
+    "themmoik27be/database/migrations/2026_11_18_000001_add_customer_role_baseline.php",
+    "themmoik27be/tests/Feature/AuthSecurityTest.php",
+    "themmoik27be/tests/Feature/MigrationBaselineTest.php",
+    "themmoik27be/tests/Support/MySqlSecurityUat.php"
+  ],
+  "outside_scope_hash_mismatches": [],
+  "hash_snapshot_baseline": "docs/audit-2026-11-18/source-manifest.json",
+  "files": [
+    {
+      "path": "Fe/src/components/QuenMatKhau/index.vue",
+      "sha256": "367b985695ce1a716562287dbfe1d8571bb47f3c720db1d27d14626168412d09"
+    },
+    {
+      "path": "Fe/tests/admin-login.test.mjs",
+      "sha256": "ce48a78496bc5ef7d4c08b06bf6ff4f44471ae2a23423c6a8aa85e34ef17d768"
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/AuthController.php",
+      "sha256": "7ab17fc457bddeeb2d38a9b96786d16a517287429630775944ee3cdbeb213021"
+    },
+    {
+      "path": "themmoik27be/app/Http/Controllers/Api/ForgotPasswordController.php",
+      "sha256": "a64d57cd3a74c3af598d762d8330084607e2f7b6a8c4aa8fcb8943b799363e26"
+    },
+    {
+      "path": "themmoik27be/app/Providers/AppServiceProvider.php",
+      "sha256": "f899af9a8eded7ae1d20dede0b9cd6edfd97ad75c458e573689b716e6feb3c4e"
+    },
+    {
+      "path": "themmoik27be/routes/api.php",
+      "sha256": "964e02080edb9c3a0effe42ea18a24ddde1b0d8de92977a640f22f4c2a05e14a"
+    },
+    {
+      "path": "themmoik27be/tests/Feature/ApiAccessBoundaryTest.php",
+      "sha256": "298f8a844d47ef7f6b0957f54d155f4e22e367be2e533b384d75b960c1681517"
+    },
+    {
+      "path": "Fe/tests/password-reset-security.test.mjs",
+      "sha256": "ea8a2d6ba64bb0d3a02e16398660dd336cf4b0e0bbe1c914f5e2f67dab73090c"
+    },
+    {
+      "path": "themmoik27be/app/Services/PasswordResetOtp.php",
+      "sha256": "02a2b4d273332c473f1a5cdd90f102315ea73eb80e20f82072bcd7d5224b6267"
+    },
+    {
+      "path": "themmoik27be/database/migrations/2026_11_18_000001_add_customer_role_baseline.php",
+      "sha256": "ebdaef8ef3c0655972514ec54eff8e848b21949eccd8b92edc0165e21ac01983"
+    },
+    {
+      "path": "themmoik27be/tests/Feature/AuthSecurityTest.php",
+      "sha256": "d83bb35acb077ee380d80393cbe659df3c8f1211ca98bcca28b61f76f452e1a0"
+    },
+    {
+      "path": "themmoik27be/tests/Feature/MigrationBaselineTest.php",
+      "sha256": "0f8dd786c4c65c5a8f6ca68b8bfcfcf010a08085fd694d5581c097b3805ab26b"
+    },
+    {
+      "path": "themmoik27be/tests/Support/MySqlSecurityUat.php",
+      "sha256": "ff5246b96a62403e77ca8a995f722429922d9b6b20e2fa3170f01cf164e19526"
+    }
+  ],
+  "browser_uat": false,
+  "real_email_sent": false,
+  "main_migrations_run": false,
+  "env_files_modified": false,
+  "dependency_changes": false,
+  "git_commit_push_deploy": false,
+  "jira_mutations": false
+}

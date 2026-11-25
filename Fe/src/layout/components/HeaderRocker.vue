@@ -47,6 +47,7 @@
 </template>
 
 <script>
+import { apiUrl } from '../../services/apiConfig.js';
 import AdminSearch from './AdminSearch.vue';
 import axios from 'axios';
 import { adminToken, clearAdminSession } from '../../services/authSessions';
@@ -78,7 +79,7 @@ export default {
         },
         async dangXuat() {
             const token = adminToken();
-            try { if (token) await axios.post('http://127.0.0.1:8000/api/dang-xuat', {}, { headers: { Authorization: `Bearer ${token}` }, timeout: 8000 }); } catch {}
+            try { if (token) await axios.post(apiUrl('/dang-xuat'), {}, { headers: { Authorization: `Bearer ${token}` }, timeout: 8000 }); } catch {}
             this.isUserMenuOpen = false; // Đóng menu lại khi đăng xuất
             clearAdminSession(token);
             if (this.$toast) {

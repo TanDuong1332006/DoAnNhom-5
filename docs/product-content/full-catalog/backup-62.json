@@ -1,0 +1,39 @@
+{
+    "id": 62,
+    "id_cua_hang": null,
+    "id_danh_muc": 3,
+    "id_thuong_hieu": 5,
+    "ma_san_pham": "SFP-VAYDAM-14",
+    "ten_san_pham": "Chân Váy Jean Dáng Dài Xẻ Trước Phong Cách Ulzzang",
+    "slug_san_pham": "chan-vay-jean-dang-dai-xe-truoc-phong-cach-ulzzang-ol8g",
+    "gia_ban": "520000.00",
+    "gia_khuyen_mai": "440000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+    "mo_ta_ngan": "Chất denim cotton 100% không giãn, đường xẻ giữa ấn tượng tôn chiều cao.",
+    "mo_ta_chi_tiet": "Chất denim cotton 100% không giãn, đường xẻ giữa ấn tượng tôn chiều cao. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 120,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 489,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:53.000000Z",
+    "updated_at": "2026-09-27T09:05:53.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 115,
+            "id_san_pham": 62,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        },
+        {
+            "id": 116,
+            "id_san_pham": 62,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        }
+    ]
+}

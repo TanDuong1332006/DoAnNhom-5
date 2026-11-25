@@ -21,6 +21,7 @@ class MaGiamGiaRequest extends FormRequest
         return [
             'id' => $update ? 'required|integer|exists:ma_giam_gias,id' : 'prohibited',
             'ma_code' => $update ? 'prohibited' : ['required', 'string', 'max:50', 'regex:/^[A-Z0-9_-]+$/', Rule::unique('ma_giam_gias', 'ma_code')],
+            'mo_ta' => \Illuminate\Support\Facades\Schema::hasColumn('ma_giam_gias', 'mo_ta') ? 'nullable|string|max:2000' : 'prohibited',
             'ten_giam_gia' => 'required|string|max:255',
             'loai_giam' => 'required|in:phan_tram,co_dinh',
             'gia_tri' => 'required|numeric|min:0|max:'.($this->loai_giam === 'phan_tram' ? '100' : '9999999999999.99'),

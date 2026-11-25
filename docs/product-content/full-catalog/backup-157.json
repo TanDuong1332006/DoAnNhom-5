@@ -1,0 +1,39 @@
+{
+    "id": 157,
+    "id_cua_hang": null,
+    "id_danh_muc": 8,
+    "id_thuong_hieu": 6,
+    "ma_san_pham": "SFP-PHUKIEN-09",
+    "ten_san_pham": "Bông Tai Nữ Ngọc Trai Nước Ngọt Chuôi Bạc Ý Tinh Khôi",
+    "slug_san_pham": "bong-tai-nu-ngoc-trai-nuoc-ngot-chuoi-bac-y-tinh-khoi-ox6n",
+    "gia_ban": "420000.00",
+    "gia_khuyen_mai": "340000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+    "mo_ta_ngan": "Ngọc trai nước ngọt ánh ngũ sắc tự nhiên, chuôi xỏ bằng bạc thật an toàn cho tai.",
+    "mo_ta_chi_tiet": "Ngọc trai nước ngọt ánh ngũ sắc tự nhiên, chuôi xỏ bằng bạc thật an toàn cho tai. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 77,
+    "is_noi_bat": 0,
+    "is_flash_sale": 1,
+    "luot_xem": 1394,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:56.000000Z",
+    "updated_at": "2026-09-27T09:05:56.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 305,
+            "id_san_pham": 157,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        },
+        {
+            "id": 306,
+            "id_san_pham": 157,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        }
+    ]
+}

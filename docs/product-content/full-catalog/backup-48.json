@@ -1,0 +1,39 @@
+{
+    "id": 48,
+    "id_cua_hang": null,
+    "id_danh_muc": 2,
+    "id_thuong_hieu": 6,
+    "ma_san_pham": "SFP-QUANNAM-20",
+    "ten_san_pham": "Quần Tây Nam Họa Tiết Kẻ Sọc Pinstripe Cổ Điển",
+    "slug_san_pham": "quan-tay-nam-hoa-tiet-ke-soc-pinstripe-co-dien-8vwq",
+    "gia_ban": "690000.00",
+    "gia_khuyen_mai": "590000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+    "mo_ta_ngan": "Sọc kẻ chỉ trắng mỏng dọc thân quần tạo hiệu ứng kéo dài đôi chân thanh thoát.",
+    "mo_ta_chi_tiet": "Sọc kẻ chỉ trắng mỏng dọc thân quần tạo hiệu ứng kéo dài đôi chân thanh thoát. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 91,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 2262,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:52.000000Z",
+    "updated_at": "2026-09-27T09:05:52.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 87,
+            "id_san_pham": 48,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 88,
+            "id_san_pham": 48,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        }
+    ]
+}

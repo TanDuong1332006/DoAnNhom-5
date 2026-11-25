@@ -1,0 +1,982 @@
+[
+  {
+    "at": "2026-11-18T09:48:13+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-ky",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:48:18+00:00",
+    "method": "POST",
+    "path": "api/dang-ky",
+    "status": 201,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:48:31+00:00",
+    "method": "OPTIONS",
+    "path": "api/xac-thuc-otp",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:48:32+00:00",
+    "method": "POST",
+    "path": "api/xac-thuc-otp",
+    "status": 422,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:49:04+00:00",
+    "method": "OPTIONS",
+    "path": "api/xac-thuc-otp",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:49:06+00:00",
+    "method": "POST",
+    "path": "api/xac-thuc-otp",
+    "status": 422,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:49:18+00:00",
+    "method": "OPTIONS",
+    "path": "api/xac-thuc-otp",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:49:19+00:00",
+    "method": "POST",
+    "path": "api/xac-thuc-otp",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:49:51+00:00",
+    "method": "GET",
+    "path": "api/client/san-pham/ao-uat-147-9903d2c7",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:49:51+00:00",
+    "method": "GET",
+    "path": "api/client/danh-mucs",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:13+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:14+00:00",
+    "method": "POST",
+    "path": "api/dang-nhap",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:15+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/thong-bao/count",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:15+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/san-pham/ao-uat-147-9903d2c7",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:16+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/danh-mucs",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:16+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:17+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:18+00:00",
+    "method": "GET",
+    "path": "api/client/thong-bao/count",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:18+00:00",
+    "method": "GET",
+    "path": "api/client/san-pham/ao-uat-147-9903d2c7",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:19+00:00",
+    "method": "GET",
+    "path": "api/client/danh-mucs",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:20+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:20+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:21+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/vi-uu-dai",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:21+00:00",
+    "method": "GET",
+    "path": "api/client/vi-uu-dai",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:36+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:37+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:38+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/dat-hang",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:38+00:00",
+    "method": "POST",
+    "path": "api/client/dat-hang",
+    "status": 201,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:42+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-thanh-toan/HD_CCB634664EFC15FE7D9656E7BFBCCA1B",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:43+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-thanh-toan/HD_CCB634664EFC15FE7D9656E7BFBCCA1B",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:45+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-thanh-toan/HD_CCB634664EFC15FE7D9656E7BFBCCA1B",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:46+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-thanh-toan/HD_CCB634664EFC15FE7D9656E7BFBCCA1B",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:47+00:00",
+    "method": "OPTIONS",
+    "path": "api/giao-dich/mo-phong",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:48+00:00",
+    "method": "POST",
+    "path": "api/giao-dich/mo-phong",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:49+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-thanh-toan/HD_CCB634664EFC15FE7D9656E7BFBCCA1B",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:49+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-thanh-toan/HD_CCB634664EFC15FE7D9656E7BFBCCA1B",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:51+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-thanh-toan/HD_CCB634664EFC15FE7D9656E7BFBCCA1B",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:52+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-thanh-toan/HD_CCB634664EFC15FE7D9656E7BFBCCA1B",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:54+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-thanh-toan/HD_CCB634664EFC15FE7D9656E7BFBCCA1B",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:54+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-thanh-toan/HD_CCB634664EFC15FE7D9656E7BFBCCA1B",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:57+00:00",
+    "method": "OPTIONS",
+    "path": "api/giao-dich/mo-phong",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:57+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-thanh-toan/HD_CCB634664EFC15FE7D9656E7BFBCCA1B",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:58+00:00",
+    "method": "POST",
+    "path": "api/giao-dich/mo-phong",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:59+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-thanh-toan/HD_CCB634664EFC15FE7D9656E7BFBCCA1B",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:50:59+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-thanh-toan/HD_CCB634664EFC15FE7D9656E7BFBCCA1B",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:00+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-thanh-toan/HD_CCB634664EFC15FE7D9656E7BFBCCA1B",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:15+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/thong-bao/count",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:15+00:00",
+    "method": "GET",
+    "path": "api/client/thong-bao/count",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:33+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/thong-bao/count",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:34+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/danh-mucs",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:34+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/san-phams",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:40+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:41+00:00",
+    "method": "POST",
+    "path": "api/dang-nhap",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:41+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:42+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:45+00:00",
+    "method": "OPTIONS",
+    "path": "api/admin/thong-ke/tong-quan",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:45+00:00",
+    "method": "OPTIONS",
+    "path": "api/admin/thong-ke/doanh-thu-theo-thang",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:46+00:00",
+    "method": "GET",
+    "path": "api/admin/thong-ke/tong-quan",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:47+00:00",
+    "method": "GET",
+    "path": "api/admin/thong-ke/doanh-thu-theo-thang",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:53+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:53+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:54+00:00",
+    "method": "OPTIONS",
+    "path": "api/admin/don-hang/get-data",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:51:55+00:00",
+    "method": "GET",
+    "path": "api/admin/don-hang/get-data",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:52:53+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-ky",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:52:54+00:00",
+    "method": "POST",
+    "path": "api/dang-ky",
+    "status": 201,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:53:08+00:00",
+    "method": "OPTIONS",
+    "path": "api/xac-thuc-otp",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:53:08+00:00",
+    "method": "POST",
+    "path": "api/xac-thuc-otp",
+    "status": 422,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:53:42+00:00",
+    "method": "OPTIONS",
+    "path": "api/xac-thuc-otp",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:53:42+00:00",
+    "method": "POST",
+    "path": "api/xac-thuc-otp",
+    "status": 422,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:04+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:05+00:00",
+    "method": "POST",
+    "path": "api/dang-nhap",
+    "status": 401,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:06+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:07+00:00",
+    "method": "POST",
+    "path": "api/dang-nhap",
+    "status": 401,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:08+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:09+00:00",
+    "method": "POST",
+    "path": "api/dang-nhap",
+    "status": 401,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:09+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:11+00:00",
+    "method": "POST",
+    "path": "api/dang-nhap",
+    "status": 401,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:11+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:13+00:00",
+    "method": "POST",
+    "path": "api/dang-nhap",
+    "status": 401,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:14+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:15+00:00",
+    "method": "POST",
+    "path": "api/dang-nhap",
+    "status": 401,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:16+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:17+00:00",
+    "method": "POST",
+    "path": "api/dang-nhap",
+    "status": 401,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:17+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:18+00:00",
+    "method": "POST",
+    "path": "api/dang-nhap",
+    "status": 401,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:19+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:20+00:00",
+    "method": "POST",
+    "path": "api/dang-nhap",
+    "status": 401,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:20+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:21+00:00",
+    "method": "POST",
+    "path": "api/dang-nhap",
+    "status": 401,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:22+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:23+00:00",
+    "method": "POST",
+    "path": "api/dang-nhap",
+    "status": 429,
+    "retry_after": "41"
+  },
+  {
+    "at": "2026-11-18T09:54:33+00:00",
+    "method": "OPTIONS",
+    "path": "api/forgot-password/send-otp",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:54:41+00:00",
+    "method": "POST",
+    "path": "api/forgot-password/send-otp",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:55:02+00:00",
+    "method": "OPTIONS",
+    "path": "api/forgot-password/verify-otp",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:55:03+00:00",
+    "method": "POST",
+    "path": "api/forgot-password/verify-otp",
+    "status": 400,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:55:10+00:00",
+    "method": "OPTIONS",
+    "path": "api/forgot-password/verify-otp",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:55:11+00:00",
+    "method": "POST",
+    "path": "api/forgot-password/verify-otp",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:55:53+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/thong-bao/count",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:55:54+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/thong-bao",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:55:55+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/danh-mucs",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:55:55+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:55:56+00:00",
+    "method": "GET",
+    "path": "api/client/thong-bao/count",
+    "status": 401,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:55:56+00:00",
+    "method": "GET",
+    "path": "api/client/thong-bao",
+    "status": 401,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:55:57+00:00",
+    "method": "GET",
+    "path": "api/client/danh-mucs",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:55:57+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 401,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:19+00:00",
+    "method": "OPTIONS",
+    "path": "api/dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:20+00:00",
+    "method": "POST",
+    "path": "api/dang-nhap",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:21+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/thong-bao/count",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:22+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/thong-bao",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:22+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:23+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/danh-mucs",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:23+00:00",
+    "method": "GET",
+    "path": "api/client/thong-bao/count",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:24+00:00",
+    "method": "GET",
+    "path": "api/client/thong-bao",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:24+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:25+00:00",
+    "method": "GET",
+    "path": "api/client/danh-mucs",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:25+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/tuy-chon-thong-bao",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:26+00:00",
+    "method": "GET",
+    "path": "api/client/tuy-chon-thong-bao",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:44+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/thong-bao/count",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:44+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/san-pham/ao-uat-147-9903d2c7",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:45+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/danh-mucs",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:45+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:46+00:00",
+    "method": "GET",
+    "path": "api/client/thong-bao/count",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:46+00:00",
+    "method": "GET",
+    "path": "api/client/san-pham/ao-uat-147-9903d2c7",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:47+00:00",
+    "method": "GET",
+    "path": "api/client/danh-mucs",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:47+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:48+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:49+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:50+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/vi-uu-dai",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:50+00:00",
+    "method": "GET",
+    "path": "api/client/vi-uu-dai",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:58+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:59+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:56:59+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/dat-hang",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:57:00+00:00",
+    "method": "POST",
+    "path": "api/client/dat-hang",
+    "status": 201,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:57:16+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/thong-bao/count",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:57:16+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/danh-mucs",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:57:16+00:00",
+    "method": "OPTIONS",
+    "path": "api/client/san-phams",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:57:17+00:00",
+    "method": "OPTIONS",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:57:17+00:00",
+    "method": "GET",
+    "path": "api/kiem-tra-dang-nhap",
+    "status": 200,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:57:18+00:00",
+    "method": "OPTIONS",
+    "path": "api/admin/don-hang/get-data",
+    "status": 204,
+    "retry_after": null
+  },
+  {
+    "at": "2026-11-18T09:57:18+00:00",
+    "method": "GET",
+    "path": "api/admin/don-hang/get-data",
+    "status": 200,
+    "retry_after": null
+  }
+]

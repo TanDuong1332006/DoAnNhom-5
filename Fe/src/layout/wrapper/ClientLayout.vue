@@ -60,8 +60,9 @@
           </div>
 
           <!-- Right Action Buttons (Cực kỳ gọn gàng trên 1 hàng duy nhất) -->
-          <div class="d-flex align-items-center justify-content-end gap-3 flex-shrink-0">
+          <div class="d-flex align-items-center justify-content-end gap-2 gap-sm-3 flex-shrink-0">
 
+            <NotificationBell />
             <!-- Cart Trigger Button -->
             <button @click="cartStore.toggleDrawer(true)" class="btn btn-light rounded-circle position-relative border-0 shadow-sm p-2 action-icon-btn" title="Giỏ hàng">
               <i class='bx bx-shopping-bag fs-4 text-dark'></i>
@@ -112,6 +113,9 @@
                   <div class="text-muted small" style="font-size: 11px;">Đăng nhập hoặc đăng ký tài khoản mới</div>
                 </li>
 
+                <li><router-link role="menuitem" class="dropdown-item py-2 small rounded-2" to="/thong-bao" @click="isUserDropdownOpen=false">Thông báo của tôi</router-link></li>
+                <li><router-link role="menuitem" class="dropdown-item py-2 small rounded-2" to="/vi-uu-dai" @click="isUserDropdownOpen=false">Ví ưu đãi của tôi</router-link></li>
+                <li><router-link role="menuitem" class="dropdown-item py-2 small rounded-2" to="/my-orders" @click="isUserDropdownOpen=false">Đơn hàng của tôi</router-link></li>
                 <!-- Admin & Profile Links -->
                 <li v-if="currentUser && currentUser.role === 'admin'">
                   <router-link role="menuitem" class="dropdown-item py-2 small fw-semibold text-danger rounded-2" to="/admin" @click="isUserDropdownOpen = false">
@@ -247,7 +251,7 @@
 
             <li class="nav-item">
               <a class="nav-link sub-nav-pill text-dark fw-semibold cursor-pointer" href="javascript:;" @click="dieuHuongDanhGia">
-                <i class='bx bx-chat text-info me-1.5'></i> Đánh Giá Cộng Đồng
+                <i class='bx bx-chat text-info me-1.5'></i> Đóng Góp Ý Kiến
               </a>
             </li>
           </ul>
@@ -263,6 +267,8 @@
           </button>
         </div>
         <div class="d-flex flex-column gap-2">
+          <router-link class="btn btn-light text-start" to="/gop-y" @click="isMobileMenuOpen=false">Đóng Góp Ý Kiến</router-link>
+          <router-link class="btn btn-light text-start" to="/vi-uu-dai" @click="isMobileMenuOpen=false">Ví ưu đãi của tôi</router-link>
           <!-- User info & logout on mobile -->
           <div v-if="currentUser" class="p-2.5 bg-light rounded-3 border mb-1 d-flex align-items-center justify-content-between">
             <div class="overflow-hidden">
@@ -344,7 +350,7 @@
 
         <div v-else class="cart-item-list d-flex flex-column gap-3">
           <div v-for="item in cartStore.items" :key="item.itemKey" class="cart-item-row p-2 rounded-3 border bg-light d-flex gap-3 align-items-center position-relative">
-            <img :src="item.hinh_anh || 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=100'" class="rounded-3 border object-fit-cover flex-shrink-0" style="width: 65px; height: 75px; object-fit: cover;">
+            <ProductImage :src="item.hinh_anh" class="rounded-3 border object-fit-cover flex-shrink-0" style="width: 65px; height: 75px; object-fit: cover;" />
             <div class="flex-grow-1 overflow-hidden">
               <h6 class="text-truncate mb-1 fw-bold text-dark small" :title="item.ten_san_pham">{{ item.ten_san_pham }}</h6>
               <div class="text-muted small mb-1" style="font-size: 11px;">
@@ -447,7 +453,7 @@
               <li><a href="javascript:;" @click="cartStore.toggleSizeAdvisor(true)" class="text-decoration-none text-secondary footer-link">Bảng Hướng Dẫn Chọn Size</a></li>
 
 
-              <li><a href="#" class="text-decoration-none text-secondary footer-link">Tra Cứu Tiến Độ Đơn Hàng</a></li>
+              <li><router-link to="/my-orders" class="text-decoration-none text-secondary footer-link">Tra Cứu Tiến Độ Đơn Hàng</router-link></li>
               <li><a href="#" class="text-decoration-none text-secondary footer-link">Hệ Thống Flagship Store</a></li>
             </ul>
           </div>
@@ -524,15 +530,19 @@
 </template>
 
 <script>
+import ProductImage from '../../components/shared/ProductImage.vue';
+import { apiUrl } from '../../services/apiConfig.js';
 import { cartStore } from '../../stores/cartStore';
 import SizeAdvisorModal from '../../components/Client/SizeAdvisorModal.vue';
 import CheckoutModal from '../../components/Client/CheckoutModal.vue';
+import NotificationBell from '../../components/Engagement/NotificationBell.vue';
 import axios from 'axios';
 import { customerSession, clearCustomerSession } from '../../services/authSessions';
 
 export default {
   name: 'ClientLayout',
-  components: {
+  components: { ProductImage,
+    NotificationBell,
     SizeAdvisorModal,
     CheckoutModal
   },
@@ -580,7 +590,7 @@ export default {
       this.currentUser = session?.user || null;
       if (!session) return;
       try {
-        const { data } = await axios.get('http://127.0.0.1:8000/api/kiem-tra-dang-nhap', { headers: { Authorization: `Bearer ${session.token}` } });
+        const { data } = await axios.get(apiUrl('/kiem-tra-dang-nhap'), { headers: { Authorization: `Bearer ${session.token}` } });
         if (request !== this.sessionRequest || customerSession()?.token !== session.token) return;
         if (data.status !== 1 || data.nguoi_dung?.role !== 'customer') { clearCustomerSession(session.token); this.currentUser = null; return; }
         this.currentUser = data.nguoi_dung;
@@ -597,7 +607,7 @@ export default {
       let confirmed = !token;
       try {
         if (token) {
-          const { data } = await axios.post('http://127.0.0.1:8000/api/dang-xuat', {}, { headers: { Authorization: `Bearer ${token}` }, timeout: 8000 });
+          const { data } = await axios.post(apiUrl('/dang-xuat'), {}, { headers: { Authorization: `Bearer ${token}` }, timeout: 8000 });
           confirmed = data.status === 1;
         }
       } catch { confirmed = false; }
@@ -642,7 +652,7 @@ export default {
       return Number(val).toLocaleString('vi-VN');
     },
     loadDanhMucs() {
-      axios.get('http://127.0.0.1:8000/api/client/danh-mucs')
+      axios.get(apiUrl('/client/danh-mucs'))
         .then(res => {
           if (res.data.status) {
             this.danh_mucs = res.data.data;
@@ -683,12 +693,7 @@ export default {
     dieuHuongDanhGia() {
       this.isCategoryDropdownOpen = false;
       this.isMobileMenuOpen = false;
-      if (this.$route.path !== '/') {
-        this.$router.push({ path: '/', hash: '#reviews-section' }).catch(() => {});
-      } else {
-        const el = document.getElementById('reviews-section');
-        if (el) el.scrollIntoView({ behavior: 'smooth' });
-      }
+      this.$router.push('/gop-y').catch(() => {});
     },
     async handleSearch(event) {
       const keyword = this.searchQuery.trim();
@@ -955,5 +960,12 @@ export default {
   color: var(--sofep-gold) !important;
   padding-left: 4px;
   transition: all 0.2s ease;
+}
+</style>
+
+<style scoped>
+@media (max-width: 480px) {
+  .user-dropdown-btn { padding: 6px !important; gap: 0 !important; }
+  .user-dropdown-btn > i { display: none; }
 }
 </style>

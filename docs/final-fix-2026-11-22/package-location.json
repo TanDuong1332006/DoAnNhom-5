@@ -1,0 +1,28 @@
+{
+  "stage": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-candidate-stage-d57e5857-5294-44d1-a151-444b71a7ce7e\\Nhom5_CMU-IS432CIS_SOFEP",
+  "manifest_files": 1000,
+  "redacted_files": [
+    "Fe/src/components/Client/CheckoutModal.vue",
+    "Fe/src/layout/ClientLayout.vue",
+    "Fe/src/layout/wrapper/ClientLayout.vue"
+  ],
+  "excluded": [
+    "Fe/src/assets/css/bootstrap.css.map",
+    "Fe/src/assets/css/bootstrap.min.css.map",
+    "Fe/src/assets/js/bootstrap.bundle.min.js.map",
+    "Fe/src/assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.min.css.map",
+    "Fe/src/assets/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.min.js.map",
+    "Fe/src/assets/plugins/highcharts/js/accessibility.js.map",
+    "Fe/src/assets/plugins/highcharts/js/cylinder.js.map",
+    "Fe/src/assets/plugins/highcharts/js/export-data.js.map",
+    "Fe/src/assets/plugins/highcharts/js/exporting.js.map",
+    "Fe/src/assets/plugins/highcharts/js/funnel3d.js.map",
+    "Fe/src/assets/plugins/highcharts/js/highcharts-3d.js.map",
+    "Fe/src/assets/plugins/highcharts/js/highcharts-more.js.map",
+    "Fe/src/assets/plugins/highcharts/js/highcharts.js.map",
+    "Fe/src/assets/plugins/highcharts/js/solid-gauge.js.map",
+    "Fe/src/assets/plugins/highcharts/js/variable-pie.js.map",
+    "Fe/src/assets/plugins/metismenu/css/metisMenu.min.css.map",
+    "Fe/src/assets/plugins/metismenu/js/metisMenu.min.js.map"
+  ]
+}

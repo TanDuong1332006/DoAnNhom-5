@@ -147,6 +147,7 @@
 </template>
 
 <script>
+import { apiUrl } from '../../services/apiConfig.js';
 import axios from 'axios';
 import { saveSession } from '../../services/authSessions';
 
@@ -173,7 +174,7 @@ export default {
 
       try {
         const res = await axios.post(
-          `${import.meta.env.VITE_API_URL}/dang-nhap`,
+          apiUrl('/dang-nhap'),
           this.dangNhap
         );
 
@@ -202,7 +203,9 @@ export default {
           await this.$router.push('/admin');
 
         } else if (nguoiDung.role === 'customer') {
-          await this.$router.push('/');
+          const back = sessionStorage.getItem('sofep_checkout_return') || sessionStorage.getItem('sofep_customer_return');
+          sessionStorage.removeItem('sofep_customer_return');
+          await this.$router.push(back?.startsWith('/') && !back.startsWith('//') ? back : '/');
         } else {
           this.$toast.error('Vai trò tài khoản không hợp lệ!');
         }

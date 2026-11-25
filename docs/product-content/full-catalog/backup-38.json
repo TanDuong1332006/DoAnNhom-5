@@ -1,0 +1,39 @@
+{
+    "id": 38,
+    "id_cua_hang": null,
+    "id_danh_muc": 2,
+    "id_thuong_hieu": 3,
+    "ma_san_pham": "SFP-QUANNAM-10",
+    "ten_san_pham": "Quần Jean Nam Slimfit Màu Xanh Chàm Indigo Tối Giản",
+    "slug_san_pham": "quan-jean-nam-slimfit-mau-xanh-cham-indigo-toi-gian-turo",
+    "gia_ban": "620000.00",
+    "gia_khuyen_mai": "520000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+    "mo_ta_ngan": "Màu nhuộm chàm thô sâu màu, phom ôm vừa phải tôn vóc dáng thon gọn.",
+    "mo_ta_chi_tiet": "Màu nhuộm chàm thô sâu màu, phom ôm vừa phải tôn vóc dáng thon gọn. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 134,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 2856,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:52.000000Z",
+    "updated_at": "2026-09-27T09:05:52.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 67,
+            "id_san_pham": 38,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        },
+        {
+            "id": 68,
+            "id_san_pham": 38,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:52.000000Z",
+            "updated_at": "2026-09-27T09:05:52.000000Z"
+        }
+    ]
+}

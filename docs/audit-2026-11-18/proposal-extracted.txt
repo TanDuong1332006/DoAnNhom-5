@@ -1,0 +1,662 @@
+P3: International School
+P5: SOFTWARE PROJECT MANAGEMENT
+P6: CMU-IS 432 CIS 
+P8: Project Proposal
+P9: Version 1.1
+P10: Date: 24 Aug, 2026
+P12: Smart Online Fashion E-commerce Platform 
+P13: Submitted by
+P14: Duong, Nguyen Tan
+P15: My, Nguyen Thi Giang
+P16: Nghi, Tran Nha
+P17: Ngan, Nguyen Thi Kim
+P18: Sang, Nguyen Cong Hoang
+P19: Hoang, Phan Van
+P21: Approved by 
+P22: Hoang, Le Kim
+P24: Proposal Review Panel Representative:
+P26: NameSignatureDate
+P27: Capstone Project 1- Mentor
+P29: Name: Hoang, Le KimSignatureDate
+P32: PROJECT INFORMATION
+P33: Project acronym
+P34: SOFEP
+P35: Project Title
+P36: Smart Online Fashion E-commerce Platform
+P37: Start Date
+P38: 20/08/2026
+P39: End Date
+P40: 24/08/2026
+P41: Lead Institution
+P42: International School, Duy Tan University
+P43: Project Mentor
+P44: Hoang, Le Kim
+P45: Scrum master / Project Leader & contact details
+P46: Duong, Nguyen Tan 
+P47: Email: dn1332006@gmail.com
+P48: Tel: 0362242553
+P49: Partner Organization
+P50: Duy Tan University
+P51: Project Web URL
+P53: Team members
+P54: Name
+P55: Email
+P56: Tel
+P58: Ngan, Nguyen Thi Kim
+P59: nguyentkimngan1505@gmail.com
+P60: 0374636896
+P62: Nghi, Tran Nha
+P63: trantrannghinghi06@gmail.com
+P64: 0965343695
+P66: Sang, Nguyen Cong Hoang
+P67: hoangsangnguyencong@gmail.com
+P68: 0905702746
+P70: My, Nguyen Thi Giang
+P71: giangmy175@gmail.com
+P72: 0352227040
+P74: Hoang, Phan Van
+P75: hoangphan.080206@gmail.com
+P76: 0905106457
+P83: DOCUMENT APPROVALS
+P84: The following signatures are required for approval of this document.
+P85: Duong, Nguyen Tan
+P86: Student ID: 30211143063
+P87: Scrum Master
+P88: Signature
+P89: Date
+P90: My, Nguyen Thi Giang
+P91: Student ID: 30200264363
+P92: Team Member
+P93: Signature
+P94: Date
+P95: Ngan, Nguyen Thi Kim
+P96: Student ID: 30201156734
+P97: Team Member
+P98: Signature
+P99: Date
+P100: Nghi, Tran Nha
+P101: Student ID: 30201163268
+P102: Team Member
+P103: Signature
+P104: Date
+P105: Sang, Nguyen Cong Hoang
+P106: Student ID: 30216636674
+P107: Team Member
+P108: Signature
+P109: Date
+P110: Hoang, Phan Van
+P111: Student ID: 30211156673
+P112: Team Member
+P113: Signature
+P114: Date
+P116: REVISION HISTORY
+P117: Version
+P118: Date
+P119: Comments
+P120: Author
+P121: 1.0
+P122: 24 Aug 2026
+P123: Initial Release
+P124:           Duong 
+P134: Table of Contents
+P135: 1. Project Title6
+P136: 2. Team Members6
+P137: 3. Supervisor(s)6
+P138: 4. Problem Statement6
+P139: 5. Survey / Existing Solution6
+P140: 6. Objectives and Scope8
+P141: 6.1 Goal8
+P142: 6.2 Scope not included8
+P143: 7. Key Features & Requirements9
+P144: 7.1 Key features9
+P145: 7.2 Requirement9
+P146: 8. Constraints and Assumptions11
+P147: 8.1 Constraints11
+P148: 8.2 Assumption11
+P149: 9. Target Users / Stakeholders12
+P150: 9.1Customer12
+P151: 9.2Merchant12
+P152: 9.3     Administrator12
+P153: 10. Technology Stack13
+P154: 11. Methodology & Development Plan13
+P155: 11.1 Scrum Process13
+P156: 11.2 Development Plan14
+P157: 12. System Architecture Overview17
+P158: 13. Potential Risks and Mitigation Strategies17
+P159: 14. Expected Outcomes / Deliverables18
+P160: 15. References19
+P162: 1. Project Title
+P163: SOFEP - Smart Online Fashion E-commerce Platform
+P164: 2. Team Members
+P165: Fullname
+P166: Student ID
+P167: Email
+P168: Role
+P169: Duong, Nguyen Tan
+P170: 30211143063
+P171: dn1332006@gmail.com
+P172: Scrum Master, Business Analysis, System Integration, Testing, Documentation
+P173: My, Nguyen Thi Giang
+P174: 30200264363
+P175: giangmy175@gmail.com
+P176: UX/UI Design, Front-End Development
+P177: Ngan, Nguyen Thi Kim
+P178: 30201156734
+P179: nguyentkimngan1505@gmail.com
+P180: Back-End Development, Product & Inventory
+P181: Nghi, Tran Nha
+P182: 30201163268
+P183: trantrannghinghi06@gmail.com
+P184: UX/UI Design, Front-End Development, Product Module
+P185: Sang, Nguyen Cong Hoang
+P186: 30216636674
+P187: hoangsangnguyencong@gmail.com
+P188: Back-End Development, Cart & Order
+P189: Hoang, Phan Van
+P190: 30211156673
+P191: hoangphan.080206@gmail.com
+P192: Back-End Development, API Integration
+P193: 3. Supervisor(s)
+P194: -  Fullname: Hoang, Le Kim
+P195: -  Email: lekimhoang@dtu.edu.vn
+P196: -  Phone number: 0367406555
+P197: -  Department/Branch: International School - CMU
+P198: -  Role: Mentor
+P199: 4. Problem Statement
+P200: What difficulties are users/customers facing?
+P201: The online fashion shopping experience still has several difficulties for both customers and merchants. Customers often have difficulty finding products that match their personal preferences, body information, and fashion style because online stores mainly rely on traditional keyword-based search and product categories. In addition, customers may not know whether a product is suitable for their style or needs. 
+P202: Merchants also face difficulties in managing products, inventory, customer orders, and understanding changing fashion trends. The lack of personalized recommendations and intelligent search makes the shopping experience less convenient and efficient. 
+P203: What is the impact of this issue?
+P204: These difficulties can reduce customer satisfaction and make it harder for customers to find suitable products. Customers may spend more time searching, receive irrelevant product recommendations, or purchase products that do not match their preferences. For merchants, inefficient product management and limited customer behavior analysis can make it difficult to understand customer needs and make appropriate business decisions. As the number of products, customers, and orders increases, traditional management methods may also affect the efficiency and scalability of the e-commerce platform.
+P205: Why did the team choose to solve this problem?
+P206: - The group wants to develop a Smart Online Fashion E-commerce Platform to provide a convenient shopping experience. The platform will provide separate functions for Customers, Merchants, and Administrators to manage products, inventory, orders, payments, and platform activities. Through these functions, the team aims to improve the efficiency of online fashion shopping and support merchants in making better product and sales decisions.
+P207: 5. Survey / Existing Solution
+P208: Tiêu Chí 
+P209: Shopee
+P210: Lazada
+P211: TikTok Shop
+P212: Platform
+P213: Web + App
+P214: Web + App
+P215: Web + App
+P216: Personalized Fashion Recommendation
+P217: Yes – Personalized product recommendations
+P218: Yes – Personalized product recommendations
+P219: Yes – Personalized recommendations based on user interactions
+P220: Image-based Product Search
+P221: Available – depends on current features
+P222: Available – depends on current features
+P223: Available – depends on current features
+P224: Fashion Trend Prediction
+P225: No dedicated fashion trend prediction for merchants
+P226: No dedicated fashion trend prediction for merchants
+P227: Recommendation/trend-oriented features, but not the same dedicated prediction function
+P228: Customer Complaint Management
+P229: Yes – Customer complaint/support system
+P230: Yes – Customer complaint/support system
+P231: Yes – Customer complaint/support system
+P232: User Behavior Analysis
+P233: Yes – Uses user interaction data for recommendations
+P234: Yes – Uses user interaction data for recommendations
+P235: Yes – Uses user interaction data for recommendations
+P236: Main Advantage
+P237: Large marketplace and wide product selection
+P238: Large marketplace and logistics ecosystem
+P239: Strong content-driven shopping and recommendation
+P240: 6. Objectives and Scope
+P241: 6.1 Objectives
+P242: 6.1.1 Build a Smart Online Fashion E-commerce Platform
+P243: -  Specific: Develop a Smart Online Fashion E-commerce Platform that provides comprehensive e-commerce functionalities, including product management, keyword-based and category-based product search, shopping cart, order processing, and basic user behavior tracking to support sales management. 
+P244: -  Measurable: Deliver a functional beta version that allows customers to register, browse and search for fashion products, place orders, and manage their orders. 
+P245: -  Achievable: With a team of six software engineering students and a development timeline of approximately four months, building a functional prototype is feasible. 
+P246: -  Relevant: The platform addresses challenges in online fashion shopping, improves customer experience, and supports merchants in managing products, understanding basic customer interactions, and making better business decisions.
+P247: -  Time-bound: Complete and deploy the beta version by November 2026.
+P248: 6.1.2  In-scope
+P249: Function
+P250: -  Customer registration, login, and profile management.
+P251: -  Product browsing, search, filtering, and product details.
+P252: -  Shopping cart, checkout, and order management.
+P253: -  User behavior analysis.
+P254: -  Merchant product, inventory, promotion, and order management.
+P255: -  Administrator functions for merchant approval, complaint handling, content moderation, and system monitoring.
+P256: -  Customer–merchant chat and notification functions.
+P257: User
+P258: -  Customers: Browse, search, and purchase fashion products.
+P259: -  Merchants: Manage products, inventory, and analyze customer behavior to improve sales.
+P260: -  Administrators: Manage platform operations, approve merchants, handle complaints, moderate content, and maintain system security.
+P261: 6.2 Scope not included
+P262: -  No direct integration with international payment gateways; only simulated payment transactions will be supported.
+P263: -  No real-money financial transactions. 
+P264: -  No advertising or premium membership features. 
+P265: -  No integration with government or external enterprise management systems.
+P266: -  No analysis of data outside the fashion domain.
+P267: 7. Key Features & Requirements
+P268: 7.1 Key features 
+P269: -  User registration, login, and profile management.
+P270: -  Fashion product browsing, search, filtering, and product details.
+P271: -  Shopping cart and checkout.
+P272: -  Order and payment management.
+P273: -  Merchant product and inventory management.
+P274: -  Merchant sales and customer behavior analysis.
+P275: -  Customer–merchant chat.
+P276: -  Automated notifications for orders, promotions, and system activities.
+P277: -  Customer complaint and dispute management.
+P278: -  Administrator merchant approval and product content moderation.
+P279: -  Dashboard for customers, merchants, and administrators.
+P280: 7.2 Requirement
+P281: 7.2.1 Functional requirement
+P282: Order ID
+P283: Key Feature
+P284: Description
+P285: FR01
+P286: User Registration/Login
+P287: The system must allow users to create accounts and log in securely using email or Google authentication.
+P288: FR02
+P289: User Profile Management
+P290: Customers must be able to update their personal information, fashion preferences, and body information.
+P291: FR03
+P292: Product Search & Filtering
+P293: Customers must be able to search, filter, and sort fashion products based on categories, price, size, color, and other attributes.
+P294: FR04
+P295: Product Management
+P296: Merchants must be able to create, update, and manage product information, images, prices, and inventory.
+P297: FR05
+P298: Shopping Cart
+P299: Customers must be able to add, remove, and update products in their shopping cart.
+P300: FR06
+P301: Order Management
+P302: Customers must be able to place orders and track order status, while merchants can manage received orders.
+P303: FR07
+P304: Payment
+P305: The system should support simulated payment transactions for orders.
+P306: FR08
+P307: User Behavior Analysis
+P308: The system should collect and analyze user searches, views, clicks, and purchases to support merchant insights.
+P309: FR09
+P310: Complaint Management
+P311: Customers can submit complaints, and administrators can review, manage, and resolve complaints and disputes.
+P312: FR10
+P313: Chat
+P314: Customers and merchants can communicate through the platform.
+P315: FR11
+P316: Notifications
+P317: The system should send notifications about orders, promotions, and important account activities.
+P318: FR12
+P319: Admin Management
+P320: Administrators can manage users, merchants, products, complaints, and platform activities.
+P322: 7.2.2 Non-Functional requirement
+P323: Order ID
+P324: Name
+P325: Description
+P326: NFR01
+P327: Performance
+P328:  System response time ≤ 2 seconds for basic operations.
+P329: NFR02
+P330: Security
+P331: Implement OAuth 2.0 or JWT for authentication and authorization.
+P332: NFR03
+P333: Usability
+P334: Provide a user-friendly interface with fast search and filtering.
+P335: NFR04
+P336: Scalability
+P337: The system should be able to handle increasing numbers of users, products, and orders without significant performance degradation.
+P339: 8. Constraints and Assumptions
+P340: 8.1 Constraints 
+P341: -  Time: The project must be completed within approximately three months, from August 2026 to November 2026.
+P342: -  Budget: The estimated project operating cost is approximately $59 per month,with a maximum project budget of $4,000.
+P343: Category
+P344: Item
+P345: Cost
+P346: Hardware
+P347: Laptops/PCs for team(6 person)
+P348: $ 0
+P350: Test Server (self-hosted)
+P351: $ 0 
+P352: Software
+P353: Licenses (MongoDB, Docker)
+P354: $0 (open source)
+P356: IDE(VS code)
+P357: $0
+P359: Domain
+P360: $5/month
+P362: Hosting
+P363: Cloud server
+P364: $30/month
+P366: Data storage
+P367: $20/month
+P368: Development Tools
+P369: GitHub Team
+P370: $4/month
+P371: Management Tool
+P372: Jira
+P373: $0/month
+P374: Meeting
+P375: Discord, zoom, Google meet
+P376: $0/month
+P377: Total
+P379: $59/month
+P380: Human resource: A six-member software engineering team.
+P381: 8.2 Assumption
+P382: - The development team has sufficient skills and time to complete the planned system within the project schedule. 
+P383: - The required development environment, Internet connection, software tools, and hardware are available and stable throughout development. 
+P384: - Vue.js, JavaScript, Laravel, PHP, MySQL, RESTful API, and Axios can be used within the project budget. 
+P385: - Users will provide sufficiently accurate profile information and preferences. 
+P386: - Merchants will provide accurate product information, prices, inventory quantities, and images.
+P387: 9. Target Users 
+P388: Customer
+P389: Objective
+P390: Customers are users who browse, search for, and purchase fashion products through the platform.
+P391: Benefit
+P392: - Browse and search fashion products conveniently.
+P393: - Manage personal profiles, orders, simulated payments, and order status.
+P394: Merchant
+P395: Objective
+P396: -    Merchants are individuals or fashion businesses that sell products through the platform.
+P397: 9.2.2 Benefit
+P398: -  Efficient Management: Easily manage products, inventory, orders, and sales information on a single platform.
+P399: -  Better Customer Understanding: Analyze customer search, viewing, and purchasing behavior to better understand their needs and preferences.
+P400: -  Business Decision Support: Adjust sales strategies.
+P401: -  Time Saving: Reduce manual management tasks and improve store operation efficiency.
+P402: -  Increased Sales Potential: Better understanding of customer needs and market trends helps merchants offer more suitable products and develop more effective sales strategies.
+P403: 9.3 Administrator
+P404: Objective
+P405: Administrators are responsible for operating, monitoring, and maintaining the platform.
+P406: Benefits
+P407: -  Approve and manage merchant accounts.
+P408: -  Monitor platform activities, users, products, orders, and revenue.
+P409: -  Handle customer complaints and disputes.
+P410: -  Moderate product content and manage inappropriate content.
+P411: -  Maintain system security, access control, and overall platform reliability.
+P412: 10. Technology Stack
+P413: - Frontend: Vue.js, JavaScript, HTML5, CSS3, Bootstrap 
+P414: - Backend: PHP, Laravel 
+P415: - Database: MySQL 
+P416: - API: RESTful API 
+P417: - API Client: Axios 
+P418: - Authentication: Laravel Sanctum and Google OAuth 
+P419: - Development Tool: Visual Studio Code 
+P420: - Database Management: Navicat 
+P421: - Version Control: Git, GitHub 
+P422: - Project Management: Jira
+P423: 11. Methodology & Development Plan
+P424: 11.1 Scrum Process
+P426: - The team will adopt Scrum as the main development methodology for the Smart Online Fashion E-commerce Platform (SOFEP). Scrum supports iterative and incremental development, allowing the team to develop the system through multiple Sprints and continuously improve the product based on testing and feedback.
+P427: - The development process will focus on delivering the core e-commerce functions first, including user authentication, product management, product search, shopping cart, order management, and role-based functions.
+P428: - The Scrum approach is suitable for SOFEP that may require continuous testing, adjustment, and integration. It also allows the team to identify problems early and improve the system throughout the development process.
+P429: Benefit of the methodology: 
+P430: - Easy adaptation to changes.
+P431: - Prioritization of the most beneficial work.
+P432: - Better satisfaction of customer needs.
+P433: - Improved productivity.
+P434: - Predictable delivery schedule.
+P435: 11.2 Development Plan
+P436: NO 
+P437: Task Name 
+P438: Duration 
+P439: Start 
+P440: Finish 
+P443: 92 days
+P444: 21/08/2026
+P445: 20/11/2026
+P446: 1. 
+P447: Initiation & Planning
+P448: 12 days
+P449: 21/08/2026
+P450: 01/09/2026 
+P451: 1.1 
+P452: Requirement analysis
+P453: 3 days
+P454: 21/08/2026
+P455: 23/08/2026
+P456: 1.2 
+P457: Define project scope
+P458: 2 days
+P459: 24/08/2026
+P460: 25/08/2026
+P461: 1.3
+P462: Create proposal document
+P463: 3 days
+P464: 26/08/2026
+P465: 28/08/2026
+P466: 1.4
+P467: Sprint planning & task assignment
+P468: 4 days
+P469: 29/08/2026
+P470: 01/09/2026
+P471: 2 
+P472: System Design
+P473: 14 days
+P474: 02/09/2026
+P475: 15/09/2026
+P476: 2.1 
+P477: UI/UX design
+P478: 5 days
+P479: 02/09/2026
+P480: 06/09/2026
+P481: 2.2 
+P482: System architecture design
+P483: 4 days
+P484: 07/09/2026
+P485: 10/09/2026
+P486: 2.3
+P487: Database design
+P488: 3 days
+P489: 11/09/2026
+P490: 13/09/2026
+P491: 2.4
+P492: API design
+P493: 2 days
+P494: 14/09/2026
+P495: 15/09/2026
+P496: 3 
+P497: Development 
+P498: 54 days
+P499: 16/09/2026
+P500: 08/11/2026
+P501: 3.1 
+P502: Sprint 1 
+P503: 14 days
+P504: 16/09/2026
+P505: 29/09/2026
+P506: 3.1.1
+P507: Design Database
+P508: 3 days
+P509: 16/09/2026
+P510: 18/09/2026
+P511: 3.1.2
+P512: Design UX/UI (Login, Register, Profile, Fashion Preferences
+P513: 3 days
+P514: 19/09/2026
+P515: 21/09/2026
+P516: 3.1.3
+P517: Front-End (Login, Register, Profile, Fashion Preferences)
+P518: 3 days
+P519: 22/09/2026
+P520: 24/09/2026
+P521: 3.1.4
+P522: Back-End (Authentication, User Management, Role-based Access)
+P523: 3 days
+P524: 25/09/2026
+P525: 27/09/2026
+P526: 3.1.5
+P527: Fetch API (Authentication, Profile, Preferences)
+P528: 2 days
+P529: 28/09/2026
+P530: 29/09/2026
+P531: 3.2 
+P532: Sprint 2 
+P533: 14 days
+P534: 30/09/2026
+P535: 13/10/2026
+P536: 3.2.1
+P537: Database Design (Product, Category, Inventory, Cart, Cart Item, Order and Order Item)
+P538: 3 days
+P539: 30/09/2026
+P540: 02/10/2026
+P541: 3.2.2
+P542: UX/UI Design (Product Listing, Product Detail, Search & Filtering, Shopping Cart and Checkout)
+P543: 3 days
+P544: 03/10/2026
+P545: 05/10/2026
+P546: 3.2.3
+P547: Front-End (Product Listing, Product Detail, Search, Filtering, Shopping Cart and Checkout)
+P548: 3 days
+P549: 06/10/2026
+P550: 8/10/2026
+P551: 3.2.4
+P552: Back-End (Product, Category, Inventory, Cart and Order Management)
+P553: 3 days
+P554: 9/10/2026
+P555: 11/10/2026
+P556: 3.2.5
+P557: REST API Integration between Front-End and Back-End
+P558: 2 days
+P559: 12/10/2026
+P560: 13/10/2026
+P561: 3.3
+P562: Sprint 3
+P563: 14 days
+P564: 14/10/2026
+P565: 27/10/2026
+P566: 3.3.1
+P567: Design UX/UI(Merchant Dashboard & Admin Dashboard)
+P568: 3 days
+P569: 14/10/2026
+P570: 16/10/2026
+P571: 3.3.2
+P572: Front-End (Product Management, Inventory, Promotions, Dashboard
+P573: 3 days
+P574: 17/10/2026
+P575: 19/10/2026
+P576: 3.3.3
+P577: Back-End (Merchant, Inventory, Promotions & Admin Management)
+P578: 3 days
+P579: 20/10/2026
+P580: 22/10/2026
+P581: 3.3.4
+P582: Implement Merchant Approval & Product Content Moderation
+P583: 3 days
+P584: 23/10/2026
+P585: 25/10/2026
+P586: 3.3.5
+P587: Fetch API (Merchant & Admin Functions)
+P588: 2 days
+P589: 26/10/2026
+P590: 27/10/2026
+P591: 3.4.
+P592: Sprint 4
+P593: 12 days
+P594: 28/10/2026
+P595: 08/11/2026
+P596: 3.4.1
+P597: E-commerce System Integration
+P598: 3 days
+P599: 28/10/2026
+P600: 30/10/2026
+P601: 3.4.2
+P602: API Integration & Data Flow Testing
+P603: 3 days
+P604: 31/10/2026
+P605: 02/11/2026
+P606: 3.4.3
+P607: Role-based Access & Module Integration
+P608: 3 days
+P609: 03/11/2026
+P610: 05/11/2026
+P611: 3.4.4
+P612: Database & System Optimization
+P613: 3 days
+P614: 06/11/2026
+P615: 08/11/2026
+P616: 4
+P617: Testing, Deployment & Closing
+P618: 12 days
+P619: 09/11/2026
+P620: 20/11/2026
+P621: 4.1
+P622: Functional & Integration Testing
+P623: 4 days
+P624: 09/11/2026
+P625: 12/11/2026
+P626: 4.2
+P629: Performance & Security Testing
+P631: 2 days
+P632: 13/11/2026
+P633: 14/11/2026
+P634: 4.3
+P635: Bug Fixing & System Improvement
+P638: 2 days
+P639: 15/11/2026
+P640: 16/11/2026
+P641: 4.4
+P642: Deployment
+P643: 1 day
+P644: 17/11/2026
+P645: 17/11/2026
+P646: 4.5
+P647: Documentation & Final Report
+P648: 3 days
+P649: 18/11/2026
+P650: 20/11/2026
+P652: 12. System Architecture Overview
+P654: 13. Potential Risks and Mitigation Strategies
+P656: Category
+P657: Name
+P658: Potential risks
+P659: Mitigation Strategies
+P660: Technologies
+P661: System Performance and Scalability
+P662: Scalability issues: When the number of customers, merchants, products, and orders increases, the system may experience slow response times or reduced performance.
+P663: Design a scalable architecture: Separate major services such as authentication, product management, order management, and payment. Use caching, database indexing, and load testing to improve system performance.
+P664: User & Data
+P665: User Profile Data
+P666: Incorrect or incomplete user information: Customers may provide inaccurate shipping addresses or contact details, which may lead to failed deliveries and order fulfillment issues.
+P667: Allow profile updates: Let customers easily edit and verify their profile information and addresses before checkout. Clearly explain that providing accurate information ensures successful order delivery.
+P669: Data Privacy
+P670: Exposure of personal information: The system processes user information such as accounts, addresses, browsing behavior, and order history. Unauthorized access may result in privacy violations.
+P671: Apply privacy protection: Collect only necessary information, use secure data transmission, control access based on user roles, and provide a clear privacy policy explaining how customer data is collected and used.
+P672: Security
+P673: Authentication and Authorization
+P674: Unauthorized account access: Weak authentication or incorrect authorization may allow attackers to access customer, merchant, or administrator accounts.
+P675: Implement security best practices: Use secure password hashing, JWT/OAuth 2.0 authentication where appropriate, role-based access control, account validation, session expiration, and protection against common web vulnerabilities.
+P677: Online Payment
+P678: Payment fraud or transaction failure: Customers may experience failed payments, duplicate transactions, or fraudulent payment activities.
+P679: Implement a simulated payment process: Validate simulated transaction status, prevent duplicate transactions, handle failed payment scenarios, and maintain payment and order transaction logs.
+P680: Business Operations
+P681: Inventory Management
+P682: Incorrect stock information: Product inventory may not be updated in real time, causing customers to order products that are already out of stock.
+P683: Synchronize inventory: Automatically update stock quantities after successful orders, cancellations, and merchant inventory changes. Validate available quantity again before order confirmation.
+P685: Order and Delivery Management
+P686: Order or delivery problems: Orders may be delayed, lost, incorrectly updated, or delivered to the wrong address.
+P687: Provide order tracking: Maintain clear order statuses such as Pending, Confirmed, Shipping, Delivered, Cancelled, and Returned. Integrate shipping information and allow customers to track order progress.
+P688: Merchant Management
+P689: Fraudulent or Unqualified Merchants
+P690: Low-quality or fraudulent sellers: Unverified merchants may publish misleading products, counterfeit goods, or provide poor services.
+P691: Merchant approval process: Require new merchants to provide necessary information and allow administrators to review and approve merchant accounts before they can officially sell products.
+P692: Content Management
+P693: Inappropriate or Misleading Product Content
+P694: Invalid product information: Merchants may upload inappropriate images, misleading descriptions, incorrect prices, or prohibited products.
+P695: Content moderation: Allow administrators to review reported or suspicious content, define product publishing rules, and provide mechanisms for customers to report inappropriate products.
+P696: Customer Service
+P697: Complaints and Disputes
+P698: Unresolved customer disputes: Problems related to products, payments, returns, or merchants may negatively affect customer trust.
+P699: Complaint management: Provide a complaint and dispute management process where administrators can review evidence, track complaint status, and support appropriate resolutions.
+P701: 14. Expected Outcomes / Deliverables
+P702: - Smart Online Fashion E-commerce Platform: A complete web-based fashion e-commerce system that supports customers, merchants, administrators.
+P703: - Customer Module: Customers can register and log in, manage personal profiles and fashion preferences, browse and search for products, place orders, make payments, and track order status.
+P704: - Merchant Module: Merchants can manage product information, inventory, promotions, and customer orders. 
+P705: - Admin Module: Administrators can manage product categories, approve new merchants, moderate product content, configure system information, monitor overall platform activities and revenue, and handle customer complaints or disputes.
+P706: - Database System: A structured database for managing user accounts, customer profiles, merchants, products, product categories, inventory, orders, payments, promotions, reviews, complaints, and other system data.
+P707: - Security and Access Control: Authentication and role-based authorization mechanisms for Customer, Merchant, and Admin accounts, together with appropriate protection for user information and system data.
+P708: - Software Testing Report: A report describing functional testing, integration testing, user interface testing, security-related testing, identified defects, testing results, and corrective actions.
+P709: - Technical Documentation: Documentation including system requirements, use cases, system architecture, database design, APIs, installation instructions, deployment instructions, and system configuration.
+P710: - User Documentation: Instructions that help Customers, Merchants, and Administrators understand and use the main features of the platform.
+P711: - Project Progress Report: Documentation of project milestones, assigned tasks, implementation progress, testing progress, and completed project activities.
+P712: - Source Code Repository: The complete source code maintained through  GitHub with appropriate commits, branches, version management, and project documentation.
+P713: - Deployed Prototype: A working prototype of the Smart Online Fashion E-commerce Platform that demonstrates the major functions of the proposed system.
+P714: 15. References
+P715: [1] Vercel, "Next.js Documentation." [Online]. Available: https://nextjs.org/docs. [Accessed: Aug. 12, 2026].
+P716: [2] Tiangolo, "FastAPI." [Online]. Available: https://fastapi.tiangolo.com/. [Accessed: Aug. 15, 2026].
+P717: [3] MongoDB Inc., "MongoDB Documentation." [Online]. Available: https://www.mongodb.com/docs/. [Accessed: Aug. 15, 2026].
+P718: [4] OWASP Foundation, "OWASP Top 10:2021 – Web Application Security Risks." [Online]. Available: https://owasp.org/www-project-top-ten/. [Accessed: Aug. 20, 2026].
+P719: [5] Auth0, "JSON Web Token (JWT) Introduction." [Online]. Available: https://jwt.io/introduction. [Accessed: Aug. 20, 2026].

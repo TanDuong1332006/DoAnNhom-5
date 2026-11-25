@@ -1,0 +1,9 @@
+{"case":"used_registration_otp","path":"xac-thuc-otp","expected":422,"actual":422,"passed":true}
+{"case":"pre_reset_token_valid","path":"kiem-tra-dang-nhap","expected":200,"actual":200,"passed":true}
+{"case":"password_reset_from_simulated_email","path":"forgot-password\/reset-password","expected":200,"actual":200,"passed":true}
+{"case":"old_token_revoked","path":"kiem-tra-dang-nhap","expected":401,"actual":401,"passed":true}
+{"case":"reset_otp_replay","path":"forgot-password\/reset-password","expected":400,"actual":400,"passed":true}
+{"case":"login_new_password","path":"dang-nhap","expected":200,"actual":200,"passed":true}
+{"case":"customer_admin_api_denied","path":"admin\/danh-muc\/get-data","expected":403,"actual":403,"passed":true}
+{"case":"guest_checkout_api_denied","path":"client\/dat-hang","expected":401,"actual":401,"passed":true}
+{"case":"admin_api_allowed","path":"admin\/don-hang\/get-data","expected":200,"actual":200,"passed":true}

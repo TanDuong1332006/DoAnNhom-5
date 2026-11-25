@@ -1,0 +1,244 @@
+[
+  {
+    "id": 1,
+    "name": "Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp",
+    "mysql_main": "http://127.0.0.1:8000/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+    "api_main": "http://127.0.0.1:8000/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+    "website_url": "http://127.0.0.1:8000/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+    "gallery_ids": [
+      436
+    ],
+    "file": "D:\\do_an_nhom\\code_chinh\\DoAnNhom-5-GITHUB\\themmoik27be\\storage\\app\\public\\products\\1\\illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+    "sha256": "18cac68cf57ce6b2bd2794834575343b5dfde1e2bee16bf77084385d01c38afc",
+    "placeholder": false,
+    "http": 200,
+    "slug": "ao-thun-nam-co-tron-cotton-supima",
+    "gallery": [
+      {
+        "id": 436,
+        "url": "http://127.0.0.1:8000/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+        "display": "Ảnh minh họa/ảnh được phép"
+      },
+      {
+        "id": 329,
+        "url": "http://127.0.0.1:8000/api/product-images/1/illustration-c083c263-33d5-4832-9472-e3c243dc1aeb.jpg",
+        "display": "Placeholder/bị lọc"
+      },
+      {
+        "id": 330,
+        "url": "http://127.0.0.1:8000/api/product-images/1/illustration-c32bbb37-92e1-412c-af55-be2f2a9f8471.jpg",
+        "display": "Placeholder/bị lọc"
+      },
+      {
+        "id": 1,
+        "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500",
+        "display": "Placeholder/bị lọc"
+      }
+    ],
+    "variant_image_links": []
+  },
+  {
+    "id": 3,
+    "name": "Quần Jean Nam Slimfit Denim Co Giãn Nhẹ",
+    "mysql_main": "http://127.0.0.1:8000/api/product-images/3/illustration-cc8516e1-45f2-4d7e-aa31-7ed16d81e21e.jpg",
+    "api_main": "http://127.0.0.1:8000/api/product-images/3/illustration-cc8516e1-45f2-4d7e-aa31-7ed16d81e21e.jpg",
+    "website_url": "http://127.0.0.1:8000/api/product-images/3/illustration-cc8516e1-45f2-4d7e-aa31-7ed16d81e21e.jpg",
+    "gallery_ids": [
+      364
+    ],
+    "file": "D:\\do_an_nhom\\code_chinh\\DoAnNhom-5-GITHUB\\themmoik27be\\storage\\app\\public\\products\\3\\illustration-cc8516e1-45f2-4d7e-aa31-7ed16d81e21e.jpg",
+    "sha256": "82a5c4b2a065f4ea032109baa2098d3a311775ef2558cc62d2c19fd18fb7387e",
+    "placeholder": false,
+    "http": 200,
+    "slug": "quan-jean-nam-slimfit-denim",
+    "gallery": [
+      {
+        "id": 364,
+        "url": "http://127.0.0.1:8000/api/product-images/3/illustration-cc8516e1-45f2-4d7e-aa31-7ed16d81e21e.jpg",
+        "display": "Ảnh minh họa/ảnh được phép"
+      },
+      {
+        "id": 3,
+        "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500",
+        "display": "Placeholder/bị lọc"
+      }
+    ],
+    "variant_image_links": []
+  },
+  {
+    "id": 4,
+    "name": "Đầm Xòe Nữ Cổ Vuông Thanh Lịch Dự Tiệc",
+    "mysql_main": "http://127.0.0.1:8000/api/product-images/4/illustration-4a74edd6-e428-46a3-87ed-afb7eeefaba4.jpg",
+    "api_main": "http://127.0.0.1:8000/api/product-images/4/illustration-4a74edd6-e428-46a3-87ed-afb7eeefaba4.jpg",
+    "website_url": "http://127.0.0.1:8000/api/product-images/4/illustration-4a74edd6-e428-46a3-87ed-afb7eeefaba4.jpg",
+    "gallery_ids": [
+      409
+    ],
+    "file": "D:\\do_an_nhom\\code_chinh\\DoAnNhom-5-GITHUB\\themmoik27be\\storage\\app\\public\\products\\4\\illustration-4a74edd6-e428-46a3-87ed-afb7eeefaba4.jpg",
+    "sha256": "f069a29af1c3e8bca5b4d743ba9ad2eff6d8dc18bf09ffc5aff8d8e5a2ea857f",
+    "placeholder": false,
+    "http": 200,
+    "slug": "dam-xoe-nu-co-vuong-thanh-lich",
+    "gallery": [
+      {
+        "id": 409,
+        "url": "http://127.0.0.1:8000/api/product-images/4/illustration-4a74edd6-e428-46a3-87ed-afb7eeefaba4.jpg",
+        "display": "Ảnh minh họa/ảnh được phép"
+      },
+      {
+        "id": 4,
+        "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500",
+        "display": "Placeholder/bị lọc"
+      }
+    ],
+    "variant_image_links": []
+  },
+  {
+    "id": 7,
+    "name": "Giày Sneaker Nam Nữ Thể Thao Air Cushion",
+    "mysql_main": "http://127.0.0.1:8000/api/product-images/7/illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg",
+    "api_main": "http://127.0.0.1:8000/api/product-images/7/illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg",
+    "website_url": "http://127.0.0.1:8000/api/product-images/7/illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg",
+    "gallery_ids": [
+      382
+    ],
+    "file": "D:\\do_an_nhom\\code_chinh\\DoAnNhom-5-GITHUB\\themmoik27be\\storage\\app\\public\\products\\7\\illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg",
+    "sha256": "436d47c65c245774a8aae2dc945a8f743309af581caeced9acebb77a65fb574f",
+    "placeholder": false,
+    "http": 200,
+    "slug": "giay-sneaker-the-thao-air-cushion",
+    "gallery": [
+      {
+        "id": 382,
+        "url": "http://127.0.0.1:8000/api/product-images/7/illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg",
+        "display": "Ảnh minh họa/ảnh được phép"
+      },
+      {
+        "id": 7,
+        "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+        "display": "Placeholder/bị lọc"
+      }
+    ],
+    "variant_image_links": []
+  },
+  {
+    "id": 8,
+    "name": "Túi Xách Da Nữ Đeo Chéo Khóa Mạ Vàng",
+    "mysql_main": "http://127.0.0.1:8000/api/product-images/8/illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg",
+    "api_main": "http://127.0.0.1:8000/api/product-images/8/illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg",
+    "website_url": "http://127.0.0.1:8000/api/product-images/8/illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg",
+    "gallery_ids": [
+      383
+    ],
+    "file": "D:\\do_an_nhom\\code_chinh\\DoAnNhom-5-GITHUB\\themmoik27be\\storage\\app\\public\\products\\8\\illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg",
+    "sha256": "ecd5d0627488b0dc7bdbe3979583218124d374f15dd4b8ce4d57eed723e72dad",
+    "placeholder": false,
+    "http": 200,
+    "slug": "tui-xach-da-nu-deo-cheo",
+    "gallery": [
+      {
+        "id": 383,
+        "url": "http://127.0.0.1:8000/api/product-images/8/illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg",
+        "display": "Ảnh minh họa/ảnh được phép"
+      },
+      {
+        "id": 8,
+        "url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+        "display": "Placeholder/bị lọc"
+      }
+    ],
+    "variant_image_links": []
+  },
+  {
+    "id": 172,
+    "name": "Áo polo",
+    "mysql_main": "https://thoitrangbigsize.vn/wp-content/uploads/2025/03/den-3.jpg",
+    "api_main": "https://thoitrangbigsize.vn/wp-content/uploads/2025/03/den-3.jpg",
+    "website_url": "/product-placeholder.svg",
+    "gallery_ids": [
+      516
+    ],
+    "file": null,
+    "sha256": null,
+    "placeholder": true,
+    "http": null,
+    "slug": "ao-polo",
+    "gallery": [
+      {
+        "id": 515,
+        "url": "http://127.0.0.1:8000/api/product-images/172/dd7b32f3-7ee8-4f6e-b7f0-e256ee801dc9.jpg",
+        "display": "Placeholder/bị lọc"
+      },
+      {
+        "id": 516,
+        "url": "https://thoitrangbigsize.vn/wp-content/uploads/2025/03/den-3.jpg",
+        "display": "Placeholder/bị lọc"
+      }
+    ],
+    "variant_image_links": [
+      {
+        "id": 500,
+        "id_san_pham": 172,
+        "id_mau_sac": 1,
+        "id_kich_thuoc": 1,
+        "id_anh_san_pham": 516
+      },
+      {
+        "id": 501,
+        "id_san_pham": 172,
+        "id_mau_sac": 1,
+        "id_kich_thuoc": 2,
+        "id_anh_san_pham": 516
+      },
+      {
+        "id": 502,
+        "id_san_pham": 172,
+        "id_mau_sac": 1,
+        "id_kich_thuoc": 3,
+        "id_anh_san_pham": 516
+      },
+      {
+        "id": 503,
+        "id_san_pham": 172,
+        "id_mau_sac": 1,
+        "id_kich_thuoc": 4,
+        "id_anh_san_pham": 516
+      },
+      {
+        "id": 505,
+        "id_san_pham": 172,
+        "id_mau_sac": 2,
+        "id_kich_thuoc": 1,
+        "id_anh_san_pham": 515
+      },
+      {
+        "id": 506,
+        "id_san_pham": 172,
+        "id_mau_sac": 2,
+        "id_kich_thuoc": 2,
+        "id_anh_san_pham": 515
+      },
+      {
+        "id": 507,
+        "id_san_pham": 172,
+        "id_mau_sac": 2,
+        "id_kich_thuoc": 3,
+        "id_anh_san_pham": 515
+      },
+      {
+        "id": 508,
+        "id_san_pham": 172,
+        "id_mau_sac": 2,
+        "id_kich_thuoc": 4,
+        "id_anh_san_pham": 515
+      },
+      {
+        "id": 509,
+        "id_san_pham": 172,
+        "id_mau_sac": 2,
+        "id_kich_thuoc": 5,
+        "id_anh_san_pham": 515
+      }
+    ]
+  }
+]

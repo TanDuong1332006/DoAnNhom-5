@@ -1,0 +1,9 @@
+{
+    "database": "doan_nhom_5",
+    "catalog_products": 168,
+    "selling_products": 168,
+    "engagement_schema_present": false,
+    "voucher_eligibility_columns_present": false,
+    "reservations_columns_present": false,
+    "read_only": true
+}

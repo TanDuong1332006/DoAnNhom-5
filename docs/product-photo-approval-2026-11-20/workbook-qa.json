@@ -1,0 +1,43 @@
+{
+  "products": 168,
+  "variants": 500,
+  "image_rows": 355,
+  "batches": [
+    {
+      "batch": "D01",
+      "count": 23
+    },
+    {
+      "batch": "D02",
+      "count": 21
+    },
+    {
+      "batch": "D03",
+      "count": 21
+    },
+    {
+      "batch": "D04",
+      "count": 21
+    },
+    {
+      "batch": "D05",
+      "count": 21
+    },
+    {
+      "batch": "D06",
+      "count": 21
+    },
+    {
+      "batch": "D07",
+      "count": 21
+    },
+    {
+      "batch": "D08",
+      "count": 19
+    }
+  ],
+  "partial_approval_state": "Thiếu hồ sơ/UAT",
+  "complete_approval_state": "Chờ phê duyệt nhập",
+  "all_test_approvals_reset": true,
+  "summary_placeholders": 168
+}

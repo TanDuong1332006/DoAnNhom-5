@@ -1,0 +1,15 @@
+{
+  "images": 167,
+  "exif_tag_counts": {
+    "20752": 167,
+    "20753": 167,
+    "20754": 167
+  },
+  "metadata_segment_counts": {
+    "e0": 167,
+    "e1": 167
+  },
+  "requires_review": [],
+  "passed": true,
+  "scope": "EXIF values and JPEG APP/COM segment signatures; decoded JPEGs; no metadata altered"
+}

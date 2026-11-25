@@ -13,7 +13,7 @@
         <div class="card border-0 shadow-sm">
           <div class="card-body p-0">
             <div v-for="item in cart.items" :key="item.id" class="d-flex align-items-center p-3 border-bottom">
-              <img :src="item.product?.image" width="80" height="80" class="rounded me-3" style="object-fit:cover;" :alt="item.product?.name">
+              <ProductImage :src="item.product?.image" width="80" height="80" class="rounded me-3" style="object-fit:cover;" :alt="item.product?.name" />
               <div class="flex-grow-1">
                 <h6 class="mb-1 fw-semibold">{{ item.product?.name }}</h6>
                 <span class="text-warning fw-bold">{{ formatPrice(item.price) }}đ</span>
@@ -82,10 +82,12 @@
 </template>
 
 <script>
+import ProductImage from '../../components/shared/ProductImage.vue';
 import { cartStore } from '@/stores/cartStore'
 import axiosClient from '@/services/axiosClient'
 
 export default {
+  components: { ProductImage },
   name: 'Cart',
   data() {
     return { cart: cartStore, couponCode: '', couponMessage: '', couponStatus: 0, discount: 0 }

@@ -2,6 +2,9 @@
 function userAt(storage, key) {
   try { return JSON.parse(storage.getItem(key) || 'null'); } catch { return null; }
 }
+function notifyCustomerSession() {
+  if (typeof window !== 'undefined') window.dispatchEvent(new Event('sofep-inbox-changed'));
+}
 function legacyUser(storage) { return userAt(storage, 'user') || userAt(storage, 'nguoi_dung'); }
 export function customerSession(storage = localStorage) {
   const user = userAt(storage, 'customer_user');
@@ -23,6 +26,7 @@ export function saveSession(token, user, storage = localStorage) {
     for (const key of ['auth_token', 'nguoi_dung_token']) storage.setItem(key, token);
     for (const key of ['user', 'nguoi_dung']) storage.setItem(key, JSON.stringify(user));
   }
+  if (user.role === 'customer') notifyCustomerSession();
 }
 function clearRole(role, token, storage) {
   const prefix = role === 'customer' ? 'customer' : 'admin';
@@ -37,6 +41,7 @@ function clearRole(role, token, storage) {
 }
 export function clearCustomerSession(token, storage = localStorage) {
   if (token) clearRole('customer', token, storage);
+  notifyCustomerSession();
 }
 export function clearAdminSession(token, storage = localStorage) {
   if (token) clearRole('admin', token, storage);

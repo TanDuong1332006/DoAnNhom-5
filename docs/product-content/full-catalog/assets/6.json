@@ -1,0 +1,15 @@
+{
+  "id": 6,
+  "sku": "SP-AOKHOAC-01",
+  "name": "Áo Khoác Blazer Nam 2 Lớp Form Rộng Hiện Đại",
+  "prompt": "One unique premium ecommerce product studio illustration. Product type and design: Áo Khoác Blazer Nam 2 Lớp Form Rộng Hiện Đại. Match exact garment construction, cut, gender, neckline, pattern and sleeve length. Single garment only, full item visible, front view on invisible mannequin against clean light gray background. Choose black, white or navy; obey explicit color named in title. No human, no accessories, no props, no watermark, no text, no external brand logos. Original AI-created SOFEP local demo illustration, not real SKU photography.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; no third-party stock license; not real SKU photography",
+  "file": "assets/6.jpg",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-676782d2-5133-4385-a395-8cca1179380f.png",
+  "created_at": "2026-10-31T09:46:28.039Z",
+  "review": "approved",
+  "sha256": "1529c809a38c1876365adf47812f1441450a7627cf28ff17e03613a57e5bc887",
+  "bytes": 123564
+}

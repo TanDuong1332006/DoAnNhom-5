@@ -167,6 +167,7 @@
 </template>
 
 <script>
+import { apiUrl } from '../../../services/apiConfig.js';
 import axios from 'axios';
 
 export default {
@@ -211,7 +212,7 @@ export default {
     },
     methods: {
         loadData() {
-            axios.get('http://127.0.0.1:8000/api/admin/thuong-hieu/get-data')
+            axios.get(apiUrl('/admin/thuong-hieu/get-data'))
                 .then(response => {
                     this.list_thuong_hieu = response.data.data;
                 })
@@ -224,7 +225,7 @@ export default {
                 this.$toast.error('Vui lòng nhập tên thương hiệu');
                 return;
             }
-            axios.post('http://127.0.0.1:8000/api/admin/thuong-hieu/create', this.create_ThuongHieu)
+            axios.post(apiUrl('/admin/thuong-hieu/create'), this.create_ThuongHieu)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -240,7 +241,7 @@ export default {
                 });
         },
         capNhatThuongHieu() {
-            axios.post('http://127.0.0.1:8000/api/admin/thuong-hieu/update', this.update_ThuongHieu)
+            axios.post(apiUrl('/admin/thuong-hieu/update'), this.update_ThuongHieu)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -255,7 +256,7 @@ export default {
                 });
         },
         xoaThuongHieu() {
-            axios.post('http://127.0.0.1:8000/api/admin/thuong-hieu/destroy', this.delete_ThuongHieu)
+            axios.post(apiUrl('/admin/thuong-hieu/destroy'), this.delete_ThuongHieu)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -270,7 +271,7 @@ export default {
                 });
         },
         changeStatus(item) {
-            axios.post('http://127.0.0.1:8000/api/admin/thuong-hieu/change-status', { id: item.id })
+            axios.post(apiUrl('/admin/thuong-hieu/change-status'), { id: item.id })
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);

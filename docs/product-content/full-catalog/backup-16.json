@@ -1,0 +1,47 @@
+{
+    "id": 16,
+    "id_cua_hang": null,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": 5,
+    "ma_san_pham": "SFP-AONAM-08",
+    "ten_san_pham": "Áo Sơ Mi Nam Vải Đũi Linen Thoáng Mát Tự Nhiên",
+    "slug_san_pham": "ao-so-mi-nam-vai-dui-linen-thoang-mat-tu-nhien-i1k9",
+    "gia_ban": "480000.00",
+    "gia_khuyen_mai": "410000.00",
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/16/illustration-a26d6e9c-6173-4822-a901-63b15897da6d.jpg",
+    "mo_ta_ngan": "Sợi lanh tự nhiên mộc mạc, thấm hút mồ hôi tối đa, tôn vẻ nam tính lãng tử.",
+    "mo_ta_chi_tiet": "Sợi lanh tự nhiên mộc mạc, thấm hút mồ hôi tối đa, tôn vẻ nam tính lãng tử. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 162,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 2613,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:51.000000Z",
+    "updated_at": "2026-10-30T16:47:08.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 23,
+            "id_san_pham": 16,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        },
+        {
+            "id": 24,
+            "id_san_pham": 16,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:51.000000Z",
+            "updated_at": "2026-09-27T09:05:51.000000Z"
+        },
+        {
+            "id": 335,
+            "id_san_pham": 16,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/16/illustration-a26d6e9c-6173-4822-a901-63b15897da6d.jpg",
+            "thu_tu": 0,
+            "created_at": null,
+            "updated_at": null
+        }
+    ]
+}

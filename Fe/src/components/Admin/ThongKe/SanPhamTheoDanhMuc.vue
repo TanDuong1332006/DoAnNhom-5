@@ -70,6 +70,7 @@
 </template>
 
 <script>
+import { apiUrl } from '../../../services/apiConfig.js';
 import { Doughnut } from 'vue-chartjs';
 import { Chart as ChartJS, Title, Tooltip, Legend, ArcElement } from 'chart.js';
 import axios from 'axios';
@@ -118,7 +119,7 @@ export default {
     methods: {
         loadData() {
             this.is_load = false;
-            axios.get('http://127.0.0.1:8000/api/admin/thong-ke/san-pham-theo-danh-muc')
+            axios.get(apiUrl('/admin/thong-ke/san-pham-theo-danh-muc'))
                 .then(res => {
                     if (res.data.status) {
                         this.list_data = res.data.data;

@@ -1,3 +1,4 @@
+import { apiUrl } from '../services/apiConfig.js';
 import axios from "axios";
 import { adminToken, clearAdminSession } from "../services/authSessions";
 import { useToast } from "vue-toastification";
@@ -12,7 +13,7 @@ export default function checkLogin(to, from, next) {
         return;
     }
 
-    return axios.get("http://127.0.0.1:8000/api/kiem-tra-dang-nhap", {
+    return axios.get(apiUrl("/kiem-tra-dang-nhap"), {
         headers: {
             "Authorization": `Bearer ${token}`
         }

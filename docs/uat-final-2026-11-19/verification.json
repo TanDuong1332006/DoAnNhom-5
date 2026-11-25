@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-19",
+  "branch": "nhanh-cua-duong",
+  "database": "sofep_security_uat_20261118_d588ff07a906",
+  "cache_prefix": "final142143-a1ff7601:",
+  "api_checks": 123,
+  "api_passed": true,
+  "frontend_tests": {
+    "passed": 68,
+    "failed": 0
+  },
+  "backend_tests": {
+    "passed": 88,
+    "skipped": 2,
+    "assertions": 1374
+  },
+  "build_passed": true,
+  "browser_new_uat": "Blocked: input geometry unavailable; screenshot identity differs from Chrome accessibility tree",
+  "files": [
+    {
+      "path": "Fe/src/pages/client/MyOrders.vue",
+      "sha256": "d289101dea98cb3880f7aeda15659c34bab4981380795742b8d2e96a13d9f81f"
+    },
+    {
+      "path": "Fe/tests/sprint34.test.mjs",
+      "sha256": "d12579465dcbee1a3b0964fe20e45d482e813880c1918d8920c86a6aef2d1c5e"
+    },
+    {
+      "path": "themmoik27be/tests/Support/FinalPurchaseEngagementUat.php",
+      "sha256": "fe9057a4e97581fee3a4dd246baa35ee294de1419e947fa69f66edf38d9d2e0d"
+    }
+  ],
+  "main_or_barber_touched": false,
+  "jira_proposal_commit_push_deploy_changed": false,
+  "diff_check": "passed; existing line-ending warnings only"
+}

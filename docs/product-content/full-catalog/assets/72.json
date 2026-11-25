@@ -1,0 +1,15 @@
+{
+  "id": 72,
+  "sku": "SFP-AONU-04",
+  "name": "Áo Len Nữ Cổ Lọ Dệt Kim Giữ Ấm Mùa Đông",
+  "prompt": "Use case: product-mockup. ONE unique ecommerce product illustration for a Vietnamese SOFEP local demo. Subject: Áo Len Nữ Cổ Lọ Dệt Kim Giữ Ấm Mùa Đông. Match exact clothing or accessory type, silhouette, neckline, sleeve length, cut, pattern and special construction in this Vietnamese title. Choose black, white or deep navy, obey explicit color named in title. SINGLE product only, ENTIRE item visible with margins, centered square composition, premium realistic studio render isolated on clean warm light gray background. Clothing on invisible mannequin or flat lay. Shoes: one shoe three-quarter side view. Accessories: single object close studio product view. NO people, NO additional objects or styling accessories, NO text, NO scenery, NO watermark, NO external brand marks. Original AI demo illustration, not a photo of a real SKU.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; no third-party stock license; not real SKU photography",
+  "file": "assets/72.jpg",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-ceb74551-a961-4c41-9061-f25f3f305c0e.png",
+  "created_at": "2026-10-31T09:40:37.78Z",
+  "review": "approved",
+  "sha256": "6643967dde1de8cce79d3a5d14e63576b5bd7a7c4e4c9be9178f91bd1c5e3034",
+  "bytes": 234533
+}

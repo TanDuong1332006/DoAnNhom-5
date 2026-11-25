@@ -1,0 +1,15 @@
+{
+  "id": 4,
+  "sku": "SP-VAYDAM-01",
+  "name": "Đầm Xòe Nữ Cổ Vuông Thanh Lịch Dự Tiệc",
+  "prompt": "One product only: black fit-and-flare midi dress, square neckline, puff sleeves, invisible mannequin, light gray background, no accessories. AI demo illustration.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; not a third-party stock photo; no claim of real SKU photography",
+  "file": "assets/4.jpg",
+  "created_at": "2026-10-31T09:28:29.823Z",
+  "review": "approved",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-3dc5ec58-dbd4-48a1-bc93-4d45c3d864c3.png",
+  "sha256": "f069a29af1c3e8bca5b4d743ba9ad2eff6d8dc18bf09ffc5aff8d8e5a2ea857f",
+  "bytes": 98441
+}

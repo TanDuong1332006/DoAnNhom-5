@@ -135,7 +135,7 @@
                                 <tbody>
                                     <tr v-for="ct in selected_don_hang.chi_tiets" :key="ct.id">
                                         <td class="text-center">
-                                            <img :src="ct.hinh_anh || 'https://via.placeholder.com/40'" class="rounded border" style="width: 35px; height: 35px; object-fit: cover;">
+                                            <ProductImage :src="ct.hinh_anh" class="rounded border" style="width: 35px; height: 35px; object-fit: cover;" />
                                         </td>
                                         <td class="text-wrap" style="max-width: 250px;">{{ ct.ten_san_pham }}</td>
                                         <td class="text-center small text-muted">
@@ -192,9 +192,12 @@
 </template>
 
 <script>
+import ProductImage from '../../shared/ProductImage.vue';
+import { apiUrl } from '../../../services/apiConfig.js';
 import axios from 'axios';
 
 export default {
+  components: { ProductImage },
     name: 'AdminDonHang',
     data() {
         return {
@@ -250,14 +253,14 @@ export default {
             }
         },
         loadData() {
-            axios.get('http://127.0.0.1:8000/api/admin/don-hang/get-data')
+            axios.get(apiUrl('/admin/don-hang/get-data'))
                 .then(res => { this.list_don_hang = res.data.data; });
         },
         xemChiTiet(item) {
             this.selected_don_hang = Object.assign({}, item);
         },
         capNhatTrangThaiDonHang() {
-            axios.post('http://127.0.0.1:8000/api/admin/don-hang/update-status', {
+            axios.post(apiUrl('/admin/don-hang/update-status'), {
                 id: this.selected_don_hang.id,
                 trang_thai_don_hang: this.selected_don_hang.trang_thai_don_hang,
                 trang_thai_thanh_toan: this.selected_don_hang.trang_thai_thanh_toan,

@@ -1,0 +1,60 @@
+{
+    "database": "doan_nhom_5",
+    "checked_at_utc": "2026-11-07T09:46:28+00:00",
+    "mode": "read-only PDO; existing user models bound in memory to Sanctum guard; no credentials or tokens created",
+    "checks": [
+        {
+            "path": "\/api\/admin\/gop-y",
+            "role": "admin",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/chien-dich",
+            "role": "admin",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/chien-dich\/xem-truoc",
+            "role": "admin",
+            "status": 200
+        },
+        {
+            "path": "\/api\/client\/thong-bao",
+            "role": "customer",
+            "status": 200
+        },
+        {
+            "path": "\/api\/client\/vi-uu-dai",
+            "role": "customer",
+            "status": 200
+        },
+        {
+            "path": "\/api\/client\/tuy-chon-thong-bao",
+            "role": "customer",
+            "status": 200
+        },
+        {
+            "path": "\/api\/admin\/gop-y",
+            "role": "customer",
+            "status": 403
+        },
+        {
+            "path": "\/api\/client\/vi-uu-dai",
+            "role": "admin",
+            "status": 403
+        },
+        {
+            "path": "\/api\/client\/vi-uu-dai",
+            "role": "guest",
+            "status": 401
+        },
+        {
+            "path": "\/api\/client\/dat-hang",
+            "role": "guest",
+            "status": 401
+        }
+    ],
+    "campaign_created": false,
+    "feedback_created": false,
+    "passed": true
+}

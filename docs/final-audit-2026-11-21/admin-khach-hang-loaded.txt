@@ -1,0 +1,104 @@
+Browser tab: 4, Title: "SOFEP STUDIO - Thời Trang Sang Xịn Mịn & Đương Đại 2026", URL: "http://127.0.0.1:5198/admin/khach-hang".
+1 AXWebArea SOFEP STUDIO - Thời Trang Sang Xịn Mịn & Đương Đại 2026, URL: 127.0.0.1:5198/admin/khach-hang
+	2 container
+		3 container
+			4 image
+			5 text SOFEP ✦ ADMIN PORTAL
+			6 combo box (collapsed, settable) Description: Tìm kiếm Admin, Secondary Actions: Expand
+			7 button user avatar SOFEP Demo Admin Quản Trị Viên
+				8 image user avatar
+				9 text SOFEP Demo Admin
+				10 text Quản Trị Viên
+		11 content list
+			12 link Description:  Dashboard, Value: 127.0.0.1:5198/admin
+			13 link (collapsed) Description:  Quản Lý Sản Phẩm, Value: javascript:;, Secondary Actions: Expand
+			14 link Description:  Đơn Hàng & Ưu Đãi, Value: javascript:;
+			15 link Description:  Khách Hàng & Phản Hồi, Value: javascript:;
+			16 link Description:  Báo Cáo & Thống Kê, Value: javascript:;
+		17 heading  QUẢN LÝ KHÁCH HÀNG (3), Value: 5
+			18 text 
+			19 text  QUẢN LÝ KHÁCH HÀNG (3)
+		20 container
+			21 text 
+			22 text field (settable)
+		23 table
+			24 row
+				25 cell
+					26 text STT
+				27 cell
+					28 text Họ Và Tên
+				29 cell
+					30 text Email
+				31 cell
+					32 text Số Điện Thoại
+				33 cell
+					34 text Địa Chỉ
+				35 cell
+					36 text Số Đơn Hàng
+				37 cell
+					38 text Trạng Thái Kích Hoạt
+				39 cell
+					40 text Khóa Tài Khoản
+			41 row
+				42 cell
+					43 text 1
+				44 cell
+					45 text 
+					46 text SOFEP Audit Registration
+				47 cell
+					48 text final-audit-5b1ed2d8-e908-42bc-8bdf-cc5ea63bb099@example.test
+				49 cell
+					50 text 0900000000
+				51 cell
+					52 text ---
+				53 cell
+					54 text 0 đơn
+				55 cell
+					56 button Chưa kích hoạt
+				57 cell
+					58 button  Bình thường
+						59 text 
+						60 text  Bình thường
+			61 row
+				62 cell
+					63 text 2
+				64 cell
+					65 text 
+					66 text SOFEP Audit Registration
+				67 cell
+					68 text final-audit-098d68de-1afe-4bf4-8ad5-9b2a529914b1@example.test
+				69 cell
+					70 text 0900000000
+				71 cell
+					72 text ---
+				73 cell
+					74 text 0 đơn
+				75 cell
+					76 button Chưa kích hoạt
+				77 cell
+					78 button  Bình thường
+						79 text 
+						80 text  Bình thường
+			81 row
+				82 cell
+					83 text 3
+				84 cell
+					85 text 
+					86 text SOFEP Demo Customer
+				87 cell
+					88 text customer@sofep.example.test
+				89 cell
+					90 text ---
+				91 cell
+					92 text ---
+				93 cell
+					94 text 7 đơn
+				95 cell
+					96 button Đã kích hoạt
+				97 cell
+					98 button  Bình thường
+						99 text 
+						100 text  Bình thường
+		101 text © 2026 SOFEP STUDIO. Bản quyền thuộc về thương hiệu thời trang cao cấp.
+
+The focused UI element is 1 AXWebArea SOFEP STUDIO - Thời Trang Sang Xịn Mịn & Đương Đại 2026, URL: 127.0.0.1:5198/admin/khach-hang

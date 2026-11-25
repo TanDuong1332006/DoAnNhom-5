@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "zip": "SOFEP_SUBMISSION_v2.zip",
+  "sha256": "b42640750e5c0c7902a22ffa23858b34f98db88e5055e77f389740e325a2b16e",
+  "source_files_matched": 999,
+  "zip_files_audited": 1174,
+  "images": 167,
+  "placeholder_product": 172,
+  "fe_tests": 78,
+  "be_passed": 90,
+  "be_skipped": 2,
+  "build": true,
+  "http_checks": 188,
+  "console_errors": 0,
+  "po_source_unchanged": true,
+  "po_data_and_storage_unchanged": true,
+  "hardware": "same Windows computer; independent extracted source/dependencies/database/storage"
+}

@@ -1,0 +1,3 @@
+<?php
+$u=json_decode(file_get_contents(__DIR__.'/uat-location.json'),true);$p=proc_open([PHP_BINARY,__DIR__.'/probe.php'],[0=>['pipe','r'],1=>['file',__DIR__.'/probe.out','w'],2=>['file',__DIR__.'/probe.err','w']],$pipes,$u['root']);fclose($pipes[0]);if(proc_close($p)!==0)throw new RuntimeException('Probe failed');
+$p=proc_open([PHP_BINARY,'artisan','serve','--host=127.0.0.1','--port=8045','--no-reload'],[0=>['pipe','r'],1=>['file',__DIR__.'/server.out','a'],2=>['file',__DIR__.'/server.err','a']],$pipes,$u['root'].'/themmoik27be');fclose($pipes[0]);echo "Standard Laravel UAT started on 8045.\n";while(proc_get_status($p)['running'])usleep(500000);

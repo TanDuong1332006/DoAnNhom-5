@@ -1,0 +1,47 @@
+{
+    "id": 97,
+    "id_cua_hang": null,
+    "id_danh_muc": 5,
+    "id_thuong_hieu": 1,
+    "ma_san_pham": "SFP-AOKHOAC-09",
+    "ten_san_pham": "Áo Khoác Cardigan Len Vặn Thừng Dáng Rộng Vintage",
+    "slug_san_pham": "ao-khoac-cardigan-len-van-thung-dang-rong-vintage-etk1",
+    "gia_ban": "620000.00",
+    "gia_khuyen_mai": "520000.00",
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/97/illustration-5ad4f7dc-1e6a-49a8-81f4-4ec4e1e83a81.jpg",
+    "mo_ta_ngan": "Họa tiết vặn thừng dày nổi 3D, nút sừng bò tự nhiên mang đậm hơi thở đồng quê Anh quốc.",
+    "mo_ta_chi_tiet": "Họa tiết vặn thừng dày nổi 3D, nút sừng bò tự nhiên mang đậm hơi thở đồng quê Anh quốc. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 60,
+    "is_noi_bat": 0,
+    "is_flash_sale": 1,
+    "luot_xem": 2693,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:54.000000Z",
+    "updated_at": "2026-10-30T16:47:33.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 185,
+            "id_san_pham": 97,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 186,
+            "id_san_pham": 97,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 345,
+            "id_san_pham": 97,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/97/illustration-5ad4f7dc-1e6a-49a8-81f4-4ec4e1e83a81.jpg",
+            "thu_tu": 0,
+            "created_at": null,
+            "updated_at": null
+        }
+    ]
+}

@@ -1,0 +1,2387 @@
+{
+  "phase": "after",
+  "main_passed": true,
+  "products": 168,
+  "illustrations": 167,
+  "placeholders": 1,
+  "http_main_scope": "All 168",
+  "raw_gallery": 238,
+  "local_gallery_http_checked": 167,
+  "blocked_gallery_rows_in_checked_details": 71,
+  "detail_count": 168,
+  "fixture_variant": {
+    "id": 510,
+    "image_id": 436,
+    "passed": true
+  },
+  "requests": 339,
+  "external_requests": 0,
+  "details": [
+    {
+      "id": 1,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 2,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 3,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 4,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 5,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 6,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 7,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 8,
+      "raw_gallery": 2,
+      "displayable_gallery": 1,
+      "excluded_gallery": 1
+    },
+    {
+      "id": 9,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 10,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 11,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 12,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 13,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 14,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 15,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 16,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 17,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 18,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 19,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 20,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 21,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 22,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 23,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 24,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 25,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 26,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 27,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 28,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 29,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 30,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 31,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 32,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 33,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 34,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 35,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 36,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 37,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 38,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 39,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 40,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 41,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 42,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 43,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 44,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 45,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 46,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 47,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 48,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 49,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 50,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 51,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 52,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 53,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 54,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 55,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 56,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 57,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 58,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 59,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 60,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 61,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 62,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 63,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 64,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 65,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 66,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 67,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 68,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 69,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 70,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 71,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 72,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 73,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 74,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 75,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 76,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 77,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 78,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 79,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 80,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 81,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 82,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 83,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 84,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 85,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 86,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 87,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 88,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 89,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 90,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 91,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 92,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 93,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 94,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 95,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 96,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 97,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 98,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 99,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 100,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 101,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 102,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 103,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 104,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 105,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 106,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 107,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 108,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 109,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 110,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 111,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 112,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 113,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 114,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 115,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 116,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 117,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 118,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 119,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 120,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 121,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 122,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 123,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 124,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 125,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 126,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 127,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 128,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 129,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 130,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 131,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 132,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 133,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 134,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 135,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 136,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 137,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 138,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 139,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 140,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 141,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 142,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 143,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 144,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 145,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 146,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 147,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 148,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 149,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 150,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 151,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 152,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 153,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 154,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 155,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 156,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 157,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 159,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 160,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 161,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 162,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 163,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 164,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 165,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 166,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 167,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 168,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 172,
+      "raw_gallery": 0,
+      "displayable_gallery": 0,
+      "excluded_gallery": 0
+    }
+  ],
+  "checks": [
+    {
+      "route": "/api/client/san-phams",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/1",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/2/illustration-62bdc116-408e-4f3a-b1af-2c5af8e24cfa.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/2",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/3/illustration-cc8516e1-45f2-4d7e-aa31-7ed16d81e21e.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/3",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/4/illustration-4a74edd6-e428-46a3-87ed-afb7eeefaba4.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/4",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/5/illustration-19767726-ec36-48f1-a837-6e5b4918f083.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/5",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/6/illustration-346e8b55-89a4-4cd8-a2b1-9f6d5325bc67.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/6",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/7/illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/7",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/8/illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/8",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/9/illustration-c1ceeba7-cc08-42e7-bca9-9edd4e551488.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/9",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/10/illustration-7f188457-9329-4ea1-8d3e-e7e8e6143aa0.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/10",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/11/illustration-216367c4-d8e8-45a8-9914-f78ce229c077.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/11",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/12/illustration-26b57c66-ab3d-488d-9a64-7d4ec33cfd8b.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/12",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/13/illustration-de15e877-9610-4053-b3ed-3c637f1cb0b5.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/13",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/14/illustration-386de4a6-45ae-4313-bc3b-84cfd3825595.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/14",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/15/illustration-888df565-6501-4cb8-875a-b10697b87d49.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/15",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/16/illustration-02fb8a1d-3ac6-4414-9e04-e74fed582eb9.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/16",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/17/illustration-6ceefdc5-00f2-480a-b86e-ac2c33eb5244.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/17",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/18/illustration-bd7668d8-c0b2-4ad9-b3f1-8f9962b2f6eb.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/18",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/19/illustration-ce775b1e-afac-4283-a9a2-dca909367f9a.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/19",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/20/illustration-e86dba73-b187-4236-86ad-6976dbe03cd1.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/20",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/21/illustration-82b032e2-0a67-4eab-8132-b917ce7f6074.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/21",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/22/illustration-6abdb532-5aac-45b0-9c9d-c8c909ee3939.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/22",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/23/illustration-42c9aa1c-9b7e-4e03-a96b-7bef83e58aaf.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/23",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/24/illustration-516b5b56-a13c-462d-a3eb-665bd3aa6b90.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/24",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/25/illustration-98c07397-f86e-4ba6-a9f4-8312b57df65a.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/25",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/26/illustration-76d4e9c8-2eb6-496d-8593-4940c6d109df.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/26",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/27/illustration-0cc085e3-9f98-401f-893e-1ef66ea44890.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/27",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/28/illustration-0c518b69-bef7-4c01-9703-c970a592ed15.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/28",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/29/illustration-8e8a0e60-f92f-4e3c-a299-b6979cf95438.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/29",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/30/illustration-d8cb8172-f3c1-4838-a863-12a627eaf695.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/30",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/31/illustration-74cc653d-1444-48e6-be9d-5521c626361a.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/31",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/32/illustration-4f759b34-8857-44b8-8004-6d59d71ac5da.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/32",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/33/illustration-5fc0a0e4-a759-4504-b8a1-af7ae8423e5e.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/33",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/34/illustration-554ee32c-3c78-4e56-b86e-be470c415321.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/34",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/35/illustration-4232949c-7d76-4898-966a-1e6d64890480.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/35",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/36/illustration-17d0e70c-5a0d-4ba4-b916-dac32e3b0327.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/36",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/37/illustration-9712624c-c640-4d9a-a545-754ba3075a6a.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/37",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/38/illustration-fa5bfc7e-8f72-4c60-ad09-50f74f905acb.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/38",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/39/illustration-5f058c91-b989-44e6-ab1f-0bd5a9fc0ef6.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/39",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/40/illustration-8f638e8e-021a-43ad-ba42-181372716725.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/40",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/41/illustration-6ded153e-78df-4d74-84dd-8ce115c8f1a4.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/41",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/42/illustration-7dcea417-37e6-4464-ab13-a6423df58667.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/42",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/43/illustration-cf48d348-e596-4167-8661-905ec510a9d3.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/43",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/44/illustration-5a110fac-ac00-457b-b9f3-5095d46940d0.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/44",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/45/illustration-6d3c21f9-5c22-4bbf-8633-87c9e7df2632.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/45",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/46/illustration-be0bc7f4-9313-45fd-be54-7400934f7f0b.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/46",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/47/illustration-eeccd65d-d201-410e-93f1-405c0867b005.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/47",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/48/illustration-4ad30eda-6ec3-47ba-800e-1f602c06e0ad.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/48",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/49/illustration-03e91436-d926-4495-84c6-36c33273935d.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/49",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/50/illustration-5861341e-070d-4f70-9239-e17c32e87730.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/50",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/51/illustration-57ac3340-8c8a-4245-9a60-af5526819ef3.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/51",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/52/illustration-15773f86-9004-4bc6-b90f-2cccd9c27b5e.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/52",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/53/illustration-31489b95-2de5-4783-bef0-2cad7066e527.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/53",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/54/illustration-f1623a5a-bf48-4e51-9436-fa4c757bd5fc.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/54",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/55/illustration-473818d9-5398-46f6-8028-041afea22fd8.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/55",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/56/illustration-c5b20a11-7827-496f-86fa-10af01d7f013.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/56",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/57/illustration-43960e4a-dc39-497e-bcbb-710e4bb621d8.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/57",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/58/illustration-6da6c68b-4b98-4d76-88e6-6445f5f18ae6.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/58",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/59/illustration-44f474ef-a734-41f7-8ce2-a990211f6ef5.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/59",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/60/illustration-69ea3e72-b296-4665-9488-a6e430f4d369.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/60",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/61/illustration-7932beb2-a6bd-41a4-9fc7-14f6b2dc5a01.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/61",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/62/illustration-35b2c9cc-c6eb-4c75-a180-8e3383159ca8.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/62",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/63/illustration-2586bb94-f5bb-4947-92e6-e31424c48a8a.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/63",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/64/illustration-9de3d6c6-693c-4eb7-b89b-f411258df131.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/64",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/65/illustration-23ac3168-2e49-4341-aced-47df790c8bc5.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/65",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/66/illustration-665a86a0-2188-4692-a6b8-994fe279c4a0.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/66",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/67/illustration-ed757848-95c8-4aea-aaf4-edabfdc38051.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/67",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/68/illustration-addbf706-b4fa-426d-89e9-f5dd6c1202b9.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/68",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/69/illustration-5be18770-fbb2-4a73-b8b4-6ccf18df8ad1.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/69",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/70/illustration-55d46b11-7d21-4979-ade5-5670ec7e762a.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/70",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/71/illustration-a460e738-8134-4a0d-ba34-99e8ade92213.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/71",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/72/illustration-db23629b-f189-4130-ae05-245d641d7a02.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/72",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/73/illustration-b6241a9a-1fd7-440b-9473-ea902296622f.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/73",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/74/illustration-19b7738b-82f7-44b3-9f0b-b1fcacbc7bd1.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/74",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/75/illustration-10bd86b8-8f0f-483b-9cf4-a95176916e06.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/75",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/76/illustration-3afa7e40-2a56-4811-8c3d-414149471e49.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/76",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/77/illustration-0455b6d0-a9c2-4ffe-803d-54a6a5da21a5.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/77",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/78/illustration-59d38262-46a7-4089-8f3b-85188accc68f.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/78",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/79/illustration-3a108cc0-abee-4865-9e3c-ed89d32053fe.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/79",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/80/illustration-51a92118-87c1-442a-a9e3-5284528ed023.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/80",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/81/illustration-3ed0747b-ef6a-4768-862b-b9e65ce2eef9.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/81",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/82/illustration-abfbc2e1-7806-4baf-9557-f3eba79e029c.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/82",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/83/illustration-ca862522-0b91-4c1d-913b-a1ebf441d0e4.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/83",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/84/illustration-e63120b4-4ac1-4d9d-93c3-05d6a7223602.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/84",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/85/illustration-6e65eebe-e6cf-4771-8e5f-3bf61b368dcd.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/85",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/86/illustration-847d4fbd-d37c-4a4f-aeab-83941ab8d793.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/86",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/87/illustration-1de22a9c-97e9-4a82-a7c3-603b12b19bd1.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/87",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/88/illustration-747c88f8-33ba-4cdd-b607-947907980040.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/88",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/89/illustration-a9e0d416-2984-417b-98b2-727c60579a51.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/89",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/90/illustration-d13ba2dc-97a6-4965-a028-ec21fd66dcbc.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/90",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/91/illustration-e149fd06-2d44-4652-a715-55351d0a5ef2.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/91",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/92/illustration-140155d9-5286-4d6d-80a8-dabb3169906a.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/92",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/93/illustration-6f44d48e-5e59-442d-897b-be3450dd51b4.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/93",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/94/illustration-7d3884c9-72f7-4336-af57-faf8a379729a.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/94",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/95/illustration-33ea8bce-a4e5-45e5-9c8f-fe0e02e25a78.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/95",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/96/illustration-a65efa80-262a-42b5-af10-21e5696c5b7f.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/96",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/97/illustration-4ac14b30-776b-4ab4-9877-186a71348bb9.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/97",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/98/illustration-0d108778-3f6b-416f-a06d-7e19083b219e.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/98",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/99/illustration-07d6690b-cba1-4ada-9e35-716b84efdf61.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/99",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/100/illustration-d9a24d22-003b-458c-8f21-6f2ff6076d73.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/100",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/101/illustration-2a661cc3-06b7-4e96-9432-4e7aee6f4593.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/101",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/102/illustration-fa445adb-0302-4014-ab6b-5ff5a208cd93.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/102",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/103/illustration-5889565c-3e43-4f3e-9205-ce226e9db7c2.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/103",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/104/illustration-e52b574e-4068-4850-95d5-e5cc4e3f3c35.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/104",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/105/illustration-470a2830-0429-4607-ad16-04607332a3f0.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/105",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/106/illustration-329d8837-c61f-4d54-b93b-05a879722162.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/106",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/107/illustration-ca8d327a-7d33-44ab-a53b-235f2de13967.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/107",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/108/illustration-b8ce1f96-4d60-4932-8106-820b5ef2c4ff.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/108",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/109/illustration-46a4a868-8eb1-432c-8ffc-9286abd1079e.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/109",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/110/illustration-4662868d-9071-450c-b718-9d311587fa64.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/110",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/111/illustration-d7ba3972-2a9c-47ed-b176-c6dca94635e1.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/111",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/112/illustration-46c914a3-8ea3-4d51-93a0-d8a8f377302b.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/112",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/113/illustration-899730d3-3461-4702-a3db-a11e6a622ae9.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/113",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/114/illustration-e111b5b3-80e6-444c-9b78-0eacb7de022b.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/114",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/115/illustration-12aa8da7-8034-49f2-ac17-34dbb1db26d7.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/115",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/116/illustration-7e2a8ce0-764a-4281-a66c-c626c81abe13.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/116",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/117/illustration-9d9d5213-511c-477f-be75-ef0c61a43774.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/117",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/118/illustration-b77c1833-9cc5-4c05-9eae-928e983156e2.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/118",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/119/illustration-6644fe3e-55f2-410e-a7f0-a609473f294c.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/119",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/120/illustration-1993d29c-aea1-4742-9dd4-3cc5184a8b69.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/120",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/121/illustration-b8e3ba84-c4f7-4660-9785-dd7cb877c94a.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/121",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/122/illustration-cc1576af-6e37-4f3f-a5c0-fcb79728a05b.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/122",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/123/illustration-9bc73f6a-19e2-4163-8107-a95e2117c837.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/123",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/124/illustration-197b4dd4-8716-4226-99ea-2a7cf2c82f19.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/124",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/125/illustration-459c7ecb-fca5-4bf1-a789-4c303ae94205.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/125",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/126/illustration-eadcfa3b-e48e-4b7c-8fe1-11d928e1e501.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/126",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/127/illustration-14b874cd-406d-49b0-8f1c-7a543a323a53.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/127",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/128/illustration-6f020175-8b58-45f5-8be8-c38667843dee.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/128",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/129/illustration-44750f0e-47e9-4eab-8f15-822feb7a7be7.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/129",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/130/illustration-2087b2cc-1a70-45bd-a2bb-a1a94e8daac2.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/130",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/131/illustration-9543b6b7-2cae-4c75-9c8f-f0fd2587d930.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/131",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/132/illustration-0c93af49-1407-49ed-a75a-3d32d6b470ba.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/132",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/133/illustration-0f8e73da-edf8-4a79-bf40-b97775e28081.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/133",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/134/illustration-94251939-8a41-4940-b3c6-ccf9c21ec638.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/134",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/135/illustration-69e3cd26-1fb1-440f-9e20-0629c1a5415b.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/135",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/136/illustration-f0feedd6-e4a4-4cf5-99f6-c180d1e3acfa.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/136",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/137/illustration-ab3cc375-070c-4ee7-a03f-c68059d2e472.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/137",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/138/illustration-7cf3d452-03dd-4a34-b67d-993fe0b48570.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/138",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/139/illustration-7c39665f-35fe-4939-9f15-19c2c410956b.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/139",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/140/illustration-dd1455f9-dfd9-4f40-ad8e-861b4c5c8c54.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/140",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/141/illustration-daad1627-5b36-48f4-9e00-389a5c8623a2.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/141",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/142/illustration-dcc43e9e-571e-44c1-9951-1dd500138c95.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/142",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/143/illustration-3fdedba6-a139-4bd4-ac85-97b9c7264b95.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/143",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/144/illustration-3bfd3f13-f734-445c-a3f2-3405b0d556a0.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/144",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/145/illustration-1fdb6c4d-4147-4005-9e29-777720e761d9.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/145",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/146/illustration-c0043ba3-0662-4c65-a4f1-37ba7c620584.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/146",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/147/illustration-107cf7bf-5f7c-4d40-8bdc-5a67f95f5215.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/147",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/148/illustration-9a5faa48-89f8-4d36-bdc4-8e8c6c6ff16b.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/148",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/149/illustration-13f2d83c-5aa6-4daa-809c-6395d7501e19.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/149",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/150/illustration-ab54ba65-7241-48aa-b0f5-bec3230a969c.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/150",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/151/illustration-5a5bd945-6c5d-4807-82e1-3fe65f278274.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/151",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/152/illustration-3073b90c-54c5-4abf-b702-2944710b653b.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/152",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/153/illustration-2ea87da5-0378-495f-b3d3-82e26fbaaa5c.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/153",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/154/illustration-47240542-bfc9-4147-81f8-f167f5f1d7a5.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/154",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/155/illustration-449725e1-2242-487b-b328-7fffd489c004.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/155",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/156/illustration-d790179a-9499-438d-bc12-a663cd036d42.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/156",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/157/illustration-da2de699-2197-4750-930d-32039d65c734.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/157",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/159/illustration-867a993e-87c1-41dd-9ad3-1411c55dcf0e.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/159",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/160/illustration-7fb90a57-f42d-4470-b510-2dc9c06c35d6.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/160",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/161/illustration-e31c891f-e722-433d-96bd-c54b797ab726.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/161",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/162/illustration-24504b98-e45d-4460-9930-c3665a65c4e8.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/162",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/163/illustration-bd0dd32c-6dd1-4f22-85d1-aa455b1afb26.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/163",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/164/illustration-497169e9-c6ff-418f-bca5-6197e4d9d63a.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/164",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/165/illustration-928b067e-0007-4df7-b77a-72b2df7c0c80.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/165",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/166/illustration-c54e0455-222b-4aea-a175-fd04ed6aefb4.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/166",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/167/illustration-f619deb7-3ea7-4f1a-bc57-b91c80ee2fc8.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/167",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/168/illustration-c3a0cd1d-f71d-4806-9022-038d34eb4e28.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/168",
+      "status": 200
+    },
+    {
+      "route": "/product-placeholder.svg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/172",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/1/illustration-00000000-0000-0000-0000-000000000000.jpg",
+      "status": 404
+    },
+    {
+      "route": "/api/product-images/1/not-an-image.php",
+      "status": 404
+    }
+  ]
+}

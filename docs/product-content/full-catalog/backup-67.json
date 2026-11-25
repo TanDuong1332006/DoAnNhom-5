@@ -1,0 +1,39 @@
+{
+    "id": 67,
+    "id_cua_hang": null,
+    "id_danh_muc": 3,
+    "id_thuong_hieu": 4,
+    "ma_san_pham": "SFP-VAYDAM-19",
+    "ten_san_pham": "Đầm Ren Trắng Nữ Tinh Khôi Dáng Xòe Lót Lụa",
+    "slug_san_pham": "dam-ren-trang-nu-tinh-khoi-dang-xoe-lot-lua-qw0h",
+    "gia_ban": "820000.00",
+    "gia_khuyen_mai": "699000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+    "mo_ta_ngan": "Họa tiết ren hoa thêu nổi thủ công, lớp lót lụa habutai êm dịu nâng niu làn da.",
+    "mo_ta_chi_tiet": "Họa tiết ren hoa thêu nổi thủ công, lớp lót lụa habutai êm dịu nâng niu làn da. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 169,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 300,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:53.000000Z",
+    "updated_at": "2026-09-27T09:05:53.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 125,
+            "id_san_pham": 67,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        },
+        {
+            "id": 126,
+            "id_san_pham": 67,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        }
+    ]
+}

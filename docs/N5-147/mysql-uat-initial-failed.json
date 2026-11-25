@@ -1,0 +1,207 @@
+{
+  "checked_at": "2026-11-18T09:30:06+00:00",
+  "database": "sofep_security_uat_20261118_c2866b3d1514",
+  "new_database_only": true,
+  "main_or_barber_selected": true,
+  "external_mail_sent": false,
+  "passed": false,
+  "migration_count": 26,
+  "mysql_version": "8.4.3",
+  "failure_type": "RuntimeException",
+  "checks": [
+    {
+      "case": "real_migrations_from_empty_mysql",
+      "passed": true
+    },
+    {
+      "case": "security_and_engagement_schema_present",
+      "passed": true
+    },
+    {
+      "case": "second_migrate_has_no_pending_work",
+      "passed": true
+    },
+    {
+      "case": "registration_created",
+      "expected": 201,
+      "actual": 201,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "role_baseline_works_without_fixture_schema_patch",
+      "passed": true
+    },
+    {
+      "case": "unverified_login_forbidden",
+      "expected": 403,
+      "actual": 403,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "registration_wrong_otp",
+      "expected": 422,
+      "actual": 422,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "registration_correct_otp",
+      "expected": 200,
+      "actual": 200,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "registration_replay_rejected",
+      "expected": 422,
+      "actual": 422,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "customer_login",
+      "expected": 200,
+      "actual": 200,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "admin_login",
+      "expected": 200,
+      "actual": 200,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "admin_allowed",
+      "expected": 200,
+      "actual": 200,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "customer_admin_forbidden",
+      "expected": 403,
+      "actual": 403,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "guest_checkout_unauthorized",
+      "expected": 401,
+      "actual": 401,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "invalid_token_unauthorized",
+      "expected": 401,
+      "actual": 401,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "send_reset_otp",
+      "expected": 200,
+      "actual": 200,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "resend_cooldown_429",
+      "expected": 429,
+      "actual": 429,
+      "retry_after": "59",
+      "passed": true
+    },
+    {
+      "case": "reset_cache_contains_hash_not_plaintext",
+      "passed": true
+    },
+    {
+      "case": "reset_wrong_otp",
+      "expected": 400,
+      "actual": 400,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "reset_verify_correct",
+      "expected": 200,
+      "actual": 200,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "reset_success",
+      "expected": 200,
+      "actual": 200,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "old_customer_token_401",
+      "expected": 401,
+      "actual": 401,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "all_customer_devices_revoked",
+      "passed": true
+    },
+    {
+      "case": "admin_token_preserved",
+      "expected": 200,
+      "actual": 200,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "reset_replay_rejected",
+      "expected": 400,
+      "actual": 400,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "old_password_rejected",
+      "expected": 401,
+      "actual": 401,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "new_password_accepted",
+      "expected": 200,
+      "actual": 200,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "expired_token_401",
+      "expected": 401,
+      "actual": 401,
+      "retry_after": null,
+      "passed": true
+    },
+    {
+      "case": "shared_verify_reset_budget_429",
+      "expected": 429,
+      "actual": 400,
+      "retry_after": null,
+      "passed": false
+    }
+  ],
+  "database_retained": true,
+  "limiter_cache_isolation_verified": false,
+  "main_runtime_rate_limit_cache_written": true,
+  "scope_of_unintended_access": "Rate limiter cache on doan_nhom_5 initialized before UAT config override; account/schema writes targeted generated UAT; no cleanup of main cache performed.",
+  "harness_failure": "Expected sixth attempt but issued only fifth; corrected in rerun.",
+  "barber_selected": false,
+  "main_limiter_cache_database": "doan_nhom_5",
+  "main_schema_migrations_run": false,
+  "main_account_changes": false
+}

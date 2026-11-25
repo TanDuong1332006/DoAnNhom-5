@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "customer_login": true,
+  "product_detail": true,
+  "color_size_selection": true,
+  "cart_add": true,
+  "checkout_cod_success": true,
+  "search_query_ao": true,
+  "admin_login": true,
+  "admin_products_168": true,
+  "no_labels": true,
+  "console_errors_or_warnings": 0
+}

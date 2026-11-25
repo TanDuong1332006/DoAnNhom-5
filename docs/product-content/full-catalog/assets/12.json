@@ -1,0 +1,15 @@
+{
+  "id": 12,
+  "sku": "SFP-AONAM-04",
+  "name": "Áo Thun Nam Graphic Oversized SOFEP Studio 2026",
+  "prompt": "Use case: product-mockup. Create ONE unique ecommerce catalog product illustration for a local Vietnamese SOFEP demo. Subject (Vietnamese product title, preserve exact garment/accessory type and construction): Áo Thun Nam Graphic Oversized SOFEP Studio 2026. Additional type information: In họa tiết hình học trừu tượng công nghệ in lụa thủ công cao cấp không bong tróc.. Choose black, white or deep navy; obey any explicit color in the title. Entire single product visible, premium realistic studio rendering, isolated on clean warm light gray background, centered square composition, soft shadow. Clothing on invisible mannequin or flat lay, shoes three-quarter side view, accessories clear close product view. No people, no other products, no scenery, no watermark, no external brand logos. This is an original AI demo illustration, not a photograph of the actual SKU. Do not add text except SOFEP when title specifically requests embroidered brand. Each image must reflect the specific product silhouette and details.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; not a third-party stock photo; no claim of real SKU photography",
+  "file": "assets/12.jpg",
+  "created_at": "2026-10-31T09:29:12.209Z",
+  "review": "approved",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-2796e867-2ba2-4f65-be3f-0efb42d9ce88.png",
+  "sha256": "f9aa9fc8fd330f6165817f5dd17696e24588fc0160ff1b5745da13f3b452f9a4",
+  "bytes": 164755
+}

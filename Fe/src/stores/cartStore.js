@@ -22,6 +22,7 @@ export const cartStore = reactive({
     isOpenDrawer: false,
     isOpenSizeAdvisor: false,
     isOpenCheckout: false,
+    selectedVoucherCode: '',
     selectedSizeAdvisorSize: 'L',
 
     get count() {

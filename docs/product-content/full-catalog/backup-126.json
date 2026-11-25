@@ -1,0 +1,39 @@
+{
+    "id": 126,
+    "id_cua_hang": null,
+    "id_danh_muc": 6,
+    "id_thuong_hieu": 6,
+    "ma_san_pham": "SFP-GIAY-18",
+    "ten_san_pham": "Giày Da Nữ Derby Cột Dây Đế Răng Cưa Phong Cách Cổ Điển",
+    "slug_san_pham": "giay-da-nu-derby-cot-day-de-rang-cua-phong-cach-co-dien-ibbh",
+    "gia_ban": "780000.00",
+    "gia_khuyen_mai": "640000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+    "mo_ta_ngan": "Da bóng viền chỉ nổi màu kem, phối cùng tất trắng và chân váy ngắn cực xinh.",
+    "mo_ta_chi_tiet": "Da bóng viền chỉ nổi màu kem, phối cùng tất trắng và chân váy ngắn cực xinh. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 120,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 1496,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:55.000000Z",
+    "updated_at": "2026-09-27T09:05:55.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 243,
+            "id_san_pham": 126,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        },
+        {
+            "id": 244,
+            "id_san_pham": 126,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        }
+    ]
+}

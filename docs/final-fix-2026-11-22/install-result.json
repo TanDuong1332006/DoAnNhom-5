@@ -1,0 +1,21 @@
+{
+    "passed": true,
+    "database": "sofep_demo_20261122_9ada385739a5",
+    "backend_port": 8047,
+    "frontend_port": 5200,
+    "catalog_counts": {
+        "danh_mucs": 8,
+        "thuong_hieus": 6,
+        "mau_sacs": 7,
+        "kich_thuocs": 6,
+        "san_phams": 168,
+        "anh_san_phams": 167,
+        "chi_tiet_san_phams": 501
+    },
+    "restored_images": 167,
+    "placeholder_product_id": 172,
+    "orders": 0,
+    "accounts_generated_locally": 2,
+    "tokens": 0,
+    "migrations": 26
+}

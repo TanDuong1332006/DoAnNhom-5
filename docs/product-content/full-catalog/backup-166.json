@@ -1,0 +1,39 @@
+{
+    "id": 166,
+    "id_cua_hang": null,
+    "id_danh_muc": 8,
+    "id_thuong_hieu": 4,
+    "ma_san_pham": "SFP-PHUKIEN-18",
+    "ten_san_pham": "Kẹp Tóc Nữ Đính Đá Càng Cua Phong Cách Hàn Quốc Cao Cấp",
+    "slug_san_pham": "kep-toc-nu-dinh-da-cang-cua-phong-cach-han-quoc-cao-cap-bgk5",
+    "gia_ban": "160000.00",
+    "gia_khuyen_mai": "120000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+    "mo_ta_ngan": "Lò xo thép lực giữ tóc chắc chắn không gãy, đính ngọc trai nhân tạo sáng lấp lánh.",
+    "mo_ta_chi_tiet": "Lò xo thép lực giữ tóc chắc chắn không gãy, đính ngọc trai nhân tạo sáng lấp lánh. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 167,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 1625,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:57.000000Z",
+    "updated_at": "2026-09-27T09:05:57.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 323,
+            "id_san_pham": 166,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:57.000000Z",
+            "updated_at": "2026-09-27T09:05:57.000000Z"
+        },
+        {
+            "id": 324,
+            "id_san_pham": 166,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:57.000000Z",
+            "updated_at": "2026-09-27T09:05:57.000000Z"
+        }
+    ]
+}

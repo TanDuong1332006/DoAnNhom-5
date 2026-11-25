@@ -1,0 +1,39 @@
+{
+    "id": 117,
+    "id_cua_hang": null,
+    "id_danh_muc": 6,
+    "id_thuong_hieu": 2,
+    "ma_san_pham": "SFP-GIAY-09",
+    "ten_san_pham": "Giày Thể Thao Tập Gym Nam Nữ Đế Bám Chống Trượt Chuyên Nghiệp",
+    "slug_san_pham": "giay-the-thao-tap-gym-nam-nu-de-bam-chong-truot-chuyen-nghiep-nyzg",
+    "gia_ban": "780000.00",
+    "gia_khuyen_mai": "640000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+    "mo_ta_ngan": "Đế bằng hỗ trợ các bài squat và deadlift vững chắc, hỗ trợ cổ chân tối đa.",
+    "mo_ta_chi_tiet": "Đế bằng hỗ trợ các bài squat và deadlift vững chắc, hỗ trợ cổ chân tối đa. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 45,
+    "is_noi_bat": 0,
+    "is_flash_sale": 1,
+    "luot_xem": 1909,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:55.000000Z",
+    "updated_at": "2026-09-27T09:05:55.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 225,
+            "id_san_pham": 117,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        },
+        {
+            "id": 226,
+            "id_san_pham": 117,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        }
+    ]
+}

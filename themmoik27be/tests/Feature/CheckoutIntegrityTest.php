@@ -74,10 +74,10 @@ class CheckoutIntegrityTest extends ProductDetailDemoTest
     public function test_idempotency_key_is_not_revealed_by_order_number_and_different_payload_is_rejected(): void
     {
         $key = (string) Str::uuid();
-        $response = $this->postJson('/api/client/dat-hang', $this->payload(), ['Idempotency-Key' => $key])->assertCreated();
+        $response = $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $this->payload(), ['Idempotency-Key' => $key])->assertCreated();
         $this->assertNotSame('HD_'.strtoupper(str_replace('-', '', $key)), $response->json('don_hang.ma_don_hang'));
         $payload = $this->payload(); $payload['items'][0]['quantity'] = 1;
-        $this->postJson('/api/client/dat-hang', $payload, ['Idempotency-Key' => $key])->assertStatus(409);
+        $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $payload, ['Idempotency-Key' => $key])->assertStatus(409);
         $this->assertSame(1, DB::table('don_hangs')->count());
     }
 
@@ -87,7 +87,7 @@ class CheckoutIntegrityTest extends ProductDetailDemoTest
         $token = $customer->createToken('qa')->plainTextToken;
         $coupon = MaGiamGia::create(['ma_code' => 'NEW', 'ten_giam_gia' => 'QA', 'loai_giam' => 'co_dinh', 'gia_tri' => 10, 'so_luong' => 10, 'so_luong_da_dung' => 0, 'trang_thai' => 1, 'doi_tuong' => 'new', 'gioi_han_moi_khach' => 1]);
         $payload = $this->payload(); $payload['items'][0]['quantity'] = 1; $payload['ma_giam_gia_su_dung'] = 'NEW';
-        $this->postJson('/api/client/dat-hang', $payload)->assertUnprocessable();
+        $this->postJson('/api/client/dat-hang', $payload)->assertUnauthorized();
         $this->withToken($token)->postJson('/api/client/dat-hang', $payload)->assertCreated();
         $this->withToken($token)->postJson('/api/client/dat-hang', $payload)->assertUnprocessable();
         $coupon->update(['doi_tuong' => 'selected', 'ids_khach_hang' => [999]]);
@@ -102,7 +102,7 @@ class CheckoutIntegrityTest extends ProductDetailDemoTest
     {
         MaGiamGia::create(['ma_code' => 'CANCEL', 'ten_giam_gia' => 'QA', 'loai_giam' => 'co_dinh', 'gia_tri' => 10, 'so_luong' => 1, 'so_luong_da_dung' => 0, 'trang_thai' => 1]);
         $payload = $this->payload(); $payload['ma_giam_gia_su_dung'] = 'CANCEL';
-        $result = $this->postJson('/api/client/dat-hang', $payload)->assertCreated();
+        $result = $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $payload)->assertCreated();
         $id = $result->json('don_hang.id');
         $customer = \App\Models\KhachHang::first()->createToken('customer')->plainTextToken;
         $this->withToken($customer)->postJson('/api/admin/don-hang/update-status', ['id' => $id, 'trang_thai_don_hang' => 'da_huy'])->assertForbidden();
@@ -131,10 +131,10 @@ class CheckoutIntegrityTest extends ProductDetailDemoTest
     public function test_server_reprices_and_idempotency_does_not_consume_stock_twice(): void
     {
         $key = (string) Str::uuid();
-        $result = $this->postJson('/api/client/dat-hang', $this->payload(), ['Idempotency-Key' => $key])->assertCreated()
+        $result = $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $this->payload(), ['Idempotency-Key' => $key])->assertCreated()
             ->assertJsonPath('don_hang.tong_tien_hang', 200)->assertJsonPath('don_hang.tong_thanh_toan', 30200)
-            ->assertJsonPath('don_hang.id_khach_hang', null)->assertJsonPath('vietqr_url', null);
-        $this->postJson('/api/client/dat-hang', $this->payload(), ['Idempotency-Key' => $key])->assertCreated()
+            ->assertJsonPath('don_hang.id_khach_hang', 1)->assertJsonPath('vietqr_url', null);
+        $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $this->payload(), ['Idempotency-Key' => $key])->assertCreated()
             ->assertJsonPath('don_hang.ma_don_hang', $result->json('don_hang.ma_don_hang'));
         $this->assertSame(1, DB::table('don_hangs')->count());
         $this->assertEquals(2, DB::table('chi_tiet_san_phams')->where('id', 50)->value('so_luong_ton'));
@@ -146,11 +146,11 @@ class CheckoutIntegrityTest extends ProductDetailDemoTest
         $payload = $this->payload();
         $payload['items'][0]['quantity'] = 3;
         $payload['items'][] = $payload['items'][0];
-        $this->postJson('/api/client/dat-hang', $payload)->assertUnprocessable();
+        $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $payload)->assertUnprocessable();
         $payload = $this->payload(); unset($payload['items'][0]['id_chi_tiet_san_pham']);
-        $this->postJson('/api/client/dat-hang', $payload)->assertUnprocessable();
+        $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $payload)->assertUnprocessable();
         $payload['items'] = [];
-        $this->postJson('/api/client/dat-hang', $payload)->assertUnprocessable();
+        $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $payload)->assertUnprocessable();
         $this->assertSame(0, DB::table('don_hangs')->count());
         $this->assertEquals(4, DB::table('chi_tiet_san_phams')->where('id', 50)->value('so_luong_ton'));
     }
@@ -159,23 +159,66 @@ class CheckoutIntegrityTest extends ProductDetailDemoTest
     {
         MaGiamGia::create(['ma_code' => 'QA50', 'ten_giam_gia' => 'QA', 'loai_giam' => 'phan_tram', 'gia_tri' => 50, 'giam_toi_da' => 80, 'so_luong' => 1, 'so_luong_da_dung' => 0, 'trang_thai' => 1]);
         $payload = $this->payload(); $payload['ma_giam_gia_su_dung'] = 'qa50';
-        $this->postJson('/api/client/dat-hang', $payload)->assertCreated()->assertJsonPath('don_hang.tien_giam_gia', 80)->assertJsonPath('don_hang.tong_thanh_toan', 30120);
-        $this->postJson('/api/client/dat-hang', $payload)->assertUnprocessable()->assertJsonValidationErrors('ma_giam_gia_su_dung');
+        $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $payload)->assertCreated()->assertJsonPath('don_hang.tien_giam_gia', 80)->assertJsonPath('don_hang.tong_thanh_toan', 30120);
+        $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $payload)->assertUnprocessable()->assertJsonValidationErrors('ma_giam_gia_su_dung');
         $this->assertEquals(1, MaGiamGia::first()->so_luong_da_dung);
         $this->assertEquals(2, DB::table('chi_tiet_san_phams')->where('id', 50)->value('so_luong_ton'));
     }
 
     public function test_demo_payment_needs_order_capability_and_is_repeatable_without_real_bank(): void
     {
-        $result = $this->postJson('/api/client/dat-hang', $this->payload())->assertCreated();
+        $result = $this->withToken(\App\Models\KhachHang::first()->createToken('checkout-test')->plainTextToken)->postJson('/api/client/dat-hang', $this->payload())->assertCreated();
         $code = $result->json('don_hang.ma_don_hang');
-        $this->getJson('/api/kiem-tra-thanh-toan/'.$code)->assertForbidden();
-        $this->postJson('/api/giao-dich/mo-phong', ['ma_hoa_don' => $code])->assertForbidden();
+        $this->app['auth']->forgetGuards();
+        $this->withHeader('Authorization', '')->getJson('/api/kiem-tra-thanh-toan/'.$code)->assertUnauthorized();
+        $this->postJson('/api/giao-dich/mo-phong', ['ma_hoa_don' => $code])->assertUnauthorized();
+        $this->withToken(\App\Models\KhachHang::first()->createToken('pay-test')->plainTextToken);
         $payment = ['ma_hoa_don' => $code, 'payment_token' => $result->json('payment_token')];
         $this->postJson('/api/giao-dich/mo-phong', $payment)->assertOk();
         $this->postJson('/api/giao-dich/mo-phong', $payment)->assertOk();
         $this->getJson('/api/kiem-tra-thanh-toan/'.$code.'?payment_token='.$payment['payment_token'])->assertOk()->assertJsonPath('da_thanh_toan', true);
         $this->getJson('/api/giao-dich')->assertForbidden();
+    }
+
+    public function test_checkout_requires_valid_customer_and_payment_is_owner_only(): void
+    {
+        $this->postJson('/api/client/dat-hang', $this->payload())->assertUnauthorized();
+        $this->withToken('invalid')->postJson('/api/client/dat-hang', $this->payload())->assertUnauthorized();
+        $customer = \App\Models\KhachHang::first();
+        $expired = $customer->createToken('expired', ['*'], now()->subMinute())->plainTextToken;
+        $this->app['auth']->forgetGuards();
+        $this->withToken($expired)->postJson('/api/client/dat-hang', $this->payload())->assertUnauthorized();
+        $ownerToken = $customer->createToken('owner')->plainTextToken;
+        $result = $this->withToken($ownerToken)->postJson('/api/client/dat-hang', $this->payload())->assertCreated()
+            ->assertJsonPath('don_hang.id_khach_hang', $customer->id)
+            ->assertJsonPath('don_hang.trang_thai_thanh_toan', 'chua_thanh_toan');
+        $code = $result->json('don_hang.ma_don_hang');
+        $payment = ['ma_hoa_don' => $code, 'payment_token' => $result->json('payment_token')];
+        $other = \App\Models\KhachHang::create(['ho_va_ten' => 'Other', 'email' => 'other@example.test', 'mat_khau' => 'unused', 'role' => 'customer', 'is_khoa' => 0, 'is_kich_hoat' => 1]);
+        $seller = \App\Models\KhachHang::create(['ho_va_ten' => 'Seller', 'email' => 'seller-pay@example.test', 'mat_khau' => 'unused', 'role' => 'seller', 'is_khoa' => 0, 'is_kich_hoat' => 1]);
+        $admin = \App\Models\User::create(['name' => 'Admin', 'email' => 'pay-admin@example.test', 'password' => 'unused']);
+        foreach ([$other, $seller, $admin] as $user) {
+            $this->app['auth']->forgetGuards();
+            $this->withToken($user->createToken('denied')->plainTextToken);
+            $this->getJson('/api/kiem-tra-thanh-toan/'.$code)->assertForbidden();
+            $this->postJson('/api/giao-dich/mo-phong', $payment)->assertForbidden();
+            if ($user !== $other) $this->postJson('/api/client/dat-hang', $this->payload())->assertForbidden();
+        }
+        $this->app['auth']->forgetGuards();
+        $this->withToken($ownerToken)->postJson('/api/giao-dich/mo-phong', $payment + ['ket_qua' => 'failed'])->assertOk()->assertJsonPath('success', false);
+        $this->getJson('/api/kiem-tra-thanh-toan/'.$code)->assertJsonPath('da_thanh_toan', false);
+        foreach ([1, 2] as $_) $this->postJson('/api/giao-dich/mo-phong', $payment)->assertOk();
+        $this->getJson('/api/kiem-tra-thanh-toan/'.$code)->assertJsonPath('da_thanh_toan', true)->assertJsonPath('don_hang.trang_thai_don_hang', 'cho_xac_nhan');
+        $this->assertEquals(2, DB::table('chi_tiet_san_phams')->where('id', 50)->value('so_luong_ton'));
+    }
+
+    public function test_cod_remains_unpaid_and_cannot_use_demo_transfer(): void
+    {
+        $payload = $this->payload(); $payload['phuong_thuc_thanh_toan'] = 'COD';
+        $this->withToken(\App\Models\KhachHang::first()->createToken('cod')->plainTextToken);
+        $order = $this->postJson('/api/client/dat-hang', $payload)->assertCreated()->assertJsonPath('don_hang.trang_thai_thanh_toan', 'chua_thanh_toan');
+        $this->postJson('/api/giao-dich/mo-phong', ['ma_hoa_don' => $order->json('don_hang.ma_don_hang')])->assertStatus(409);
+        $this->assertEquals(0, DB::table('hoa_dons')->value('trang_thai'));
     }
 
     public function test_voucher_dates_minimum_and_fixed_amount_are_enforced(): void
@@ -186,5 +229,29 @@ class CheckoutIntegrityTest extends ProductDetailDemoTest
             try { (clone $coupon)->fill($attributes)->discountFor(200); $this->fail('Voucher phải bị từ chối.'); }
             catch (\Illuminate\Validation\ValidationException $e) { $this->assertArrayHasKey('ma_giam_gia_su_dung', $e->errors()); }
         }
+    }
+    public function test_export_checkout_fixture_for_browser(): void
+    {
+        $directory = getenv('SOFEP_UAT_DIR');
+        if (!$directory) {
+            $this->markTestSkipped('Optional browser fixture export requires SOFEP_UAT_DIR.');
+        }
+        $directory = realpath($directory);
+        $this->assertNotFalse($directory);
+        $this->assertStringStartsWith('sofep-uat-', basename($directory));
+        $database = $directory.DIRECTORY_SEPARATOR.'uat.sqlite';
+        $this->assertFileDoesNotExist($database);
+        $password = bin2hex(random_bytes(16));
+        DB::table('san_phams')->where('id', 1)->update(['hinh_anh' => 'http://127.0.0.1:8015/__uat/image.svg']);
+        \App\Models\User::create(['name' => 'UAT Admin', 'email' => 'admin@sofep.example.test', 'password' => \Illuminate\Support\Facades\Hash::make($password)]);
+        foreach (['customer', 'seller'] as $role) {
+            \App\Models\KhachHang::create(['ho_va_ten' => 'UAT '.$role, 'email' => $role.'@sofep.example.test', 'mat_khau' => \Illuminate\Support\Facades\Hash::make($password),
+                'role' => $role, 'is_kich_hoat' => 1, 'is_khoa' => 0]);
+        }
+        DB::statement('VACUUM INTO '.DB::connection()->getPdo()->quote($database));
+        file_put_contents($directory.DIRECTORY_SEPARATOR.'session.json', json_encode([
+            'purpose' => 'SOFEP disposable browser fixture', 'database' => $database, 'password' => $password,
+        ], JSON_THROW_ON_ERROR));
+        $this->assertFileExists($database);
     }
 }

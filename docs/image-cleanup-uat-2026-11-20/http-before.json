@@ -1,0 +1,161 @@
+{
+  "phase": "before",
+  "main_passed": true,
+  "products": 168,
+  "illustrations": 167,
+  "placeholders": 1,
+  "http_main_scope": "9 products: 8 categories + ID172",
+  "raw_gallery": 465,
+  "local_gallery_http_checked": 0,
+  "blocked_gallery_rows_in_checked_details": 3,
+  "detail_count": 9,
+  "fixture_variant": {
+    "id": 510,
+    "image_id": 436,
+    "passed": true
+  },
+  "requests": 21,
+  "external_requests": 0,
+  "details": [
+    {
+      "id": 1,
+      "raw_gallery": 3,
+      "displayable_gallery": 3,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 3,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 4,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 5,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 6,
+      "raw_gallery": 2,
+      "displayable_gallery": 2,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 7,
+      "raw_gallery": 1,
+      "displayable_gallery": 1,
+      "excluded_gallery": 0
+    },
+    {
+      "id": 8,
+      "raw_gallery": 2,
+      "displayable_gallery": 1,
+      "excluded_gallery": 1
+    },
+    {
+      "id": 149,
+      "raw_gallery": 3,
+      "displayable_gallery": 1,
+      "excluded_gallery": 2
+    },
+    {
+      "id": 172,
+      "raw_gallery": 0,
+      "displayable_gallery": 0,
+      "excluded_gallery": 0
+    }
+  ],
+  "checks": [
+    {
+      "route": "/api/client/san-phams",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/1",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/3/illustration-cc8516e1-45f2-4d7e-aa31-7ed16d81e21e.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/3",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/4/illustration-4a74edd6-e428-46a3-87ed-afb7eeefaba4.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/4",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/5/illustration-19767726-ec36-48f1-a837-6e5b4918f083.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/5",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/6/illustration-346e8b55-89a4-4cd8-a2b1-9f6d5325bc67.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/6",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/7/illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/7",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/8/illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/8",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/149/illustration-13f2d83c-5aa6-4daa-809c-6395d7501e19.jpg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/149",
+      "status": 200
+    },
+    {
+      "route": "/product-placeholder.svg",
+      "status": 200
+    },
+    {
+      "route": "/api/client/demo/san-pham/172",
+      "status": 200
+    },
+    {
+      "route": "/api/product-images/1/illustration-00000000-0000-0000-0000-000000000000.jpg",
+      "status": 404
+    },
+    {
+      "route": "/api/product-images/1/not-an-image.php",
+      "status": 404
+    }
+  ]
+}

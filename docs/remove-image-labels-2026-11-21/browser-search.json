@@ -1,0 +1,280 @@
+{
+  "badges": 0,
+  "heading": "KẾT QUẢ TUYỂN CHỌN: \"ÁO\"",
+  "labels": false,
+  "photos": [
+    {
+      "loaded": true,
+      "src": "http://localhost:5173/product-placeholder.svg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/167/illustration-f619deb7-3ea7-4f1a-bc57-b91c80ee2fc8.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/123/illustration-9bc73f6a-19e2-4163-8107-a95e2117c837.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/108/illustration-b8ce1f96-4d60-4932-8106-820b5ef2c4ff.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/107/illustration-ca8d327a-7d33-44ab-a53b-235f2de13967.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/106/illustration-329d8837-c61f-4d54-b93b-05a879722162.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/105/illustration-470a2830-0429-4607-ad16-04607332a3f0.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/104/illustration-e52b574e-4068-4850-95d5-e5cc4e3f3c35.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/103/illustration-5889565c-3e43-4f3e-9205-ce226e9db7c2.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/102/illustration-fa445adb-0302-4014-ab6b-5ff5a208cd93.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/101/illustration-2a661cc3-06b7-4e96-9432-4e7aee6f4593.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/100/illustration-d9a24d22-003b-458c-8f21-6f2ff6076d73.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/99/illustration-07d6690b-cba1-4ada-9e35-716b84efdf61.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/98/illustration-0d108778-3f6b-416f-a06d-7e19083b219e.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/97/illustration-4ac14b30-776b-4ab4-9877-186a71348bb9.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/96/illustration-a65efa80-262a-42b5-af10-21e5696c5b7f.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/95/illustration-33ea8bce-a4e5-45e5-9c8f-fe0e02e25a78.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/94/illustration-7d3884c9-72f7-4336-af57-faf8a379729a.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/93/illustration-6f44d48e-5e59-442d-897b-be3450dd51b4.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/92/illustration-140155d9-5286-4d6d-80a8-dabb3169906a.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/91/illustration-e149fd06-2d44-4652-a715-55351d0a5ef2.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/90/illustration-d13ba2dc-97a6-4965-a028-ec21fd66dcbc.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/89/illustration-a9e0d416-2984-417b-98b2-727c60579a51.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/88/illustration-747c88f8-33ba-4cdd-b607-947907980040.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/87/illustration-1de22a9c-97e9-4a82-a7c3-603b12b19bd1.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/86/illustration-847d4fbd-d37c-4a4f-aeab-83941ab8d793.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/85/illustration-6e65eebe-e6cf-4771-8e5f-3bf61b368dcd.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/84/illustration-e63120b4-4ac1-4d9d-93c3-05d6a7223602.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/83/illustration-ca862522-0b91-4c1d-913b-a1ebf441d0e4.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/82/illustration-abfbc2e1-7806-4baf-9557-f3eba79e029c.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/81/illustration-3ed0747b-ef6a-4768-862b-b9e65ce2eef9.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/80/illustration-51a92118-87c1-442a-a9e3-5284528ed023.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/79/illustration-3a108cc0-abee-4865-9e3c-ed89d32053fe.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/78/illustration-59d38262-46a7-4089-8f3b-85188accc68f.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/77/illustration-0455b6d0-a9c2-4ffe-803d-54a6a5da21a5.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/76/illustration-3afa7e40-2a56-4811-8c3d-414149471e49.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/75/illustration-10bd86b8-8f0f-483b-9cf4-a95176916e06.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/74/illustration-19b7738b-82f7-44b3-9f0b-b1fcacbc7bd1.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/73/illustration-b6241a9a-1fd7-440b-9473-ea902296622f.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/72/illustration-db23629b-f189-4130-ae05-245d641d7a02.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/71/illustration-a460e738-8134-4a0d-ba34-99e8ade92213.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/70/illustration-55d46b11-7d21-4979-ade5-5670ec7e762a.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/69/illustration-5be18770-fbb2-4a73-b8b4-6ccf18df8ad1.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/28/illustration-0c518b69-bef7-4c01-9703-c970a592ed15.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/27/illustration-0cc085e3-9f98-401f-893e-1ef66ea44890.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/26/illustration-76d4e9c8-2eb6-496d-8593-4940c6d109df.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/25/illustration-98c07397-f86e-4ba6-a9f4-8312b57df65a.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/24/illustration-516b5b56-a13c-462d-a3eb-665bd3aa6b90.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/23/illustration-42c9aa1c-9b7e-4e03-a96b-7bef83e58aaf.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/22/illustration-6abdb532-5aac-45b0-9c9d-c8c909ee3939.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/21/illustration-82b032e2-0a67-4eab-8132-b917ce7f6074.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/20/illustration-e86dba73-b187-4236-86ad-6976dbe03cd1.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/19/illustration-ce775b1e-afac-4283-a9a2-dca909367f9a.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/18/illustration-bd7668d8-c0b2-4ad9-b3f1-8f9962b2f6eb.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/17/illustration-6ceefdc5-00f2-480a-b86e-ac2c33eb5244.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/16/illustration-02fb8a1d-3ac6-4414-9e04-e74fed582eb9.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/15/illustration-888df565-6501-4cb8-875a-b10697b87d49.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/14/illustration-386de4a6-45ae-4313-bc3b-84cfd3825595.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/13/illustration-de15e877-9610-4053-b3ed-3c637f1cb0b5.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/12/illustration-26b57c66-ab3d-488d-9a64-7d4ec33cfd8b.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/11/illustration-216367c4-d8e8-45a8-9914-f78ce229c077.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/10/illustration-7f188457-9329-4ea1-8d3e-e7e8e6143aa0.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/9/illustration-c1ceeba7-cc08-42e7-bca9-9edd4e551488.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/6/illustration-346e8b55-89a4-4cd8-a2b1-9f6d5325bc67.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/5/illustration-19767726-ec36-48f1-a837-6e5b4918f083.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/2/illustration-62bdc116-408e-4f3a-b1af-2c5af8e24cfa.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:8000/api/product-images/1/illustration-f8d55e60-803f-4354-a03c-93cc613b1b8c.jpg"
+    },
+    {
+      "loaded": true,
+      "src": "http://localhost:5173/product-placeholder.svg"
+    }
+  ],
+  "url": "http://localhost:5173/tim-kiem?q=%C3%81o"
+}

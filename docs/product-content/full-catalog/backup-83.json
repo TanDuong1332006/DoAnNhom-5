@@ -1,0 +1,39 @@
+{
+    "id": 83,
+    "id_cua_hang": null,
+    "id_danh_muc": 4,
+    "id_thuong_hieu": 1,
+    "ma_san_pham": "SFP-AONU-15",
+    "ten_san_pham": "Áo Thun Nữ Cổ Tim Vải Tencel Mát Mịn Thấm Hút",
+    "slug_san_pham": "ao-thun-nu-co-tim-vai-tencel-mat-min-tham-hut-iitz",
+    "gia_ban": "280000.00",
+    "gia_khuyen_mai": "220000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+    "mo_ta_ngan": "Sợi sinh học Tencel từ bột gỗ thiên nhiên, êm dịu tuyệt đối với làn da nhạy cảm.",
+    "mo_ta_chi_tiet": "Sợi sinh học Tencel từ bột gỗ thiên nhiên, êm dịu tuyệt đối với làn da nhạy cảm. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 129,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 1121,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:54.000000Z",
+    "updated_at": "2026-10-19T08:25:36.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 157,
+            "id_san_pham": 83,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 158,
+            "id_san_pham": 83,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        }
+    ]
+}

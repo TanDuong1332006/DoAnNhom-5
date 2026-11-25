@@ -2,6 +2,13 @@ import { createRouter, createWebHistory } from "vue-router";
 import checkLogin from "./checkLogin";
 
 const routes = [
+    { path: '/my-orders', meta: { layout: 'client' }, component: () => import('../pages/client/MyOrders.vue') },
+    { path: '/gop-y', meta: { layout: 'client' }, component: () => import('../components/Engagement/FeedbackPage.vue') },
+    { path: '/dong-gop-y-kien', redirect: '/gop-y' },
+    { path: '/thong-bao', meta: { layout: 'client' }, component: () => import('../components/Engagement/CustomerCenter.vue') },
+    { path: '/vi-uu-dai', meta: { layout: 'client' }, component: () => import('../components/Engagement/CustomerCenter.vue') },
+    { path: '/admin/gop-y', component: () => import('../components/Engagement/AdminFeedback.vue') },
+    { path: '/admin/thong-bao', component: () => import('../components/Engagement/AdminCampaigns.vue') },
     {
         path: '/demo/product-detail-2/:id?',
         meta: { layout: 'client' },
@@ -118,7 +125,7 @@ const routes = [
     },
     {
         path: '/admin/danh-gia',
-        component: () => import('../components/Admin/DanhGia/index.vue')
+        redirect: '/admin'
     },
 
     // ─── ADMIN CHART THỐNG KÊ ───────────────────────────────

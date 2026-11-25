@@ -1,0 +1,39 @@
+{
+    "id": 64,
+    "id_cua_hang": null,
+    "id_danh_muc": 3,
+    "id_thuong_hieu": 6,
+    "ma_san_pham": "SFP-VAYDAM-16",
+    "ten_san_pham": "Váy Nhún Bèo Tầng Vải Chiffon Bay Bổng Lãng Mạn",
+    "slug_san_pham": "vay-nhun-beo-tang-vai-chiffon-bay-bong-lang-man-pfht",
+    "gia_ban": "560000.00",
+    "gia_khuyen_mai": "470000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+    "mo_ta_ngan": "Lớp voan chiffon mềm xếp tầng bồng bềnh, họa tiết hoa phấn pastel ngọt ngào.",
+    "mo_ta_chi_tiet": "Lớp voan chiffon mềm xếp tầng bồng bềnh, họa tiết hoa phấn pastel ngọt ngào. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 123,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 2357,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:53.000000Z",
+    "updated_at": "2026-09-27T09:05:53.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 119,
+            "id_san_pham": 64,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        },
+        {
+            "id": 120,
+            "id_san_pham": 64,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        }
+    ]
+}

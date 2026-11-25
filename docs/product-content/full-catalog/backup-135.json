@@ -1,0 +1,39 @@
+{
+    "id": 135,
+    "id_cua_hang": null,
+    "id_danh_muc": 7,
+    "id_thuong_hieu": 2,
+    "ma_san_pham": "SFP-TUIXACH-07",
+    "ten_san_pham": "Balo Du Lịch Đa Năng Cỡ Lớn Chống Thấm 40L Mở Vali",
+    "slug_san_pham": "balo-du-lich-da-nang-co-lon-chong-tham-40l-mo-vali-k8lr",
+    "gia_ban": "950000.00",
+    "gia_khuyen_mai": "799000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+    "mo_ta_ngan": "Mở ngang 180 độ như một chiếc vali, có ngăn riêng để giày dép thông gió.",
+    "mo_ta_chi_tiet": "Mở ngang 180 độ như một chiếc vali, có ngăn riêng để giày dép thông gió. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 123,
+    "is_noi_bat": 1,
+    "is_flash_sale": 0,
+    "luot_xem": 180,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:56.000000Z",
+    "updated_at": "2026-09-27T09:05:56.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 261,
+            "id_san_pham": 135,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        },
+        {
+            "id": 262,
+            "id_san_pham": 135,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        }
+    ]
+}

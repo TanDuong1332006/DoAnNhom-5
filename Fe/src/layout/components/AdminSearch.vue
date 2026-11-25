@@ -13,6 +13,7 @@
 </template>
 
 <script>
+import { apiUrl } from '../../services/apiConfig.js';
 import axios from 'axios';
 import { searchSections, matchesSearch } from '../../services/adminSearch';
 export default {
@@ -37,7 +38,7 @@ export default {
       const generation = this.generation;
       this.controller = new AbortController(); this.loading = true;
       try {
-        const { data } = await axios.get('http://127.0.0.1:8000/api/admin/san-pham/get-data?search_options=1', { signal: this.controller.signal });
+        const { data } = await axios.get(apiUrl('/admin/san-pham/get-data?search_options=1'), { signal: this.controller.signal });
         if (generation !== this.generation) return;
         this.products = data.data || []; this.loadedAt = Date.now();
       } catch (error) {

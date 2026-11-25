@@ -88,10 +88,11 @@
 </template>
 
 <script>
+import { apiUrl } from '../../../services/apiConfig.js';
 import axios from 'axios';
 import ProductImage from '../../shared/ProductImage.vue';
 
-const api = 'http://127.0.0.1:8000/api/admin/';
+const api = apiUrl('/admin/');
 const emptyDraft = () => ({ id_mau_sac: null, id_kich_thuoc: null, id_anh_san_pham: undefined, so_luong_ton: 0, gia_chenh_lech: 0, trang_thai: 1 });
 
 export default {

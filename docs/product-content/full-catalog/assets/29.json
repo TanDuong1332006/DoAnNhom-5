@@ -1,0 +1,15 @@
+{
+  "id": 29,
+  "sku": "SFP-QUANNAM-01",
+  "name": "Quần Jean Nam Ống Suông Wide-Leg Vintage Wash SOFEP",
+  "prompt": "Use case: product-mockup. ONE unique ecommerce product illustration for a Vietnamese SOFEP local demo. Subject: Quần Jean Nam Ống Suông Wide-Leg Vintage Wash SOFEP. Match exact clothing or accessory type, silhouette, neckline, sleeve length, cut, pattern and special construction in this Vietnamese title. Choose black, white or deep navy, obey explicit color named in title. SINGLE product only, ENTIRE item visible with margins, centered square composition, premium realistic studio render isolated on clean warm light gray background. Clothing on invisible mannequin or flat lay. Shoes: one shoe three-quarter side view. Accessories: single object close studio product view. NO people, NO additional objects or styling accessories, NO text, NO scenery, NO watermark, NO external brand marks. Original AI demo illustration, not a photo of a real SKU.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; no third-party stock license; not real SKU photography",
+  "file": "assets/29.jpg",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-4b85503e-0b36-4d05-890e-c116881d6ded.png",
+  "created_at": "2026-10-31T09:34:12.959Z",
+  "review": "approved",
+  "sha256": "97c7e01ea69520706f8b6ca16088048b1e6de5bdd6a8c73cf2a8ced6a65e43d4",
+  "bytes": 183343
+}

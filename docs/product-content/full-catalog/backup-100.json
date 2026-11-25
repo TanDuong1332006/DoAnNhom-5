@@ -1,0 +1,47 @@
+{
+    "id": 100,
+    "id_cua_hang": null,
+    "id_danh_muc": 5,
+    "id_thuong_hieu": 2,
+    "ma_san_pham": "SFP-AOKHOAC-12",
+    "ten_san_pham": "Áo Khoác Phao Lông Vũ Dáng Ngắn Siêu Nhẹ 800FP",
+    "slug_san_pham": "ao-khoac-phao-long-vu-dang-ngan-sieu-nhe-800fp-cxxn",
+    "gia_ban": "1290000.00",
+    "gia_khuyen_mai": "1050000.00",
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/100/illustration-67a113b5-5f6b-4237-8f71-15b4ad3379fc.jpg",
+    "mo_ta_ngan": "Lõi lông vũ 90/10 siêu nhẹ chỉ 280g, có túi gấp gọn tiện lợi mang đi du lịch.",
+    "mo_ta_chi_tiet": "Lõi lông vũ 90/10 siêu nhẹ chỉ 280g, có túi gấp gọn tiện lợi mang đi du lịch. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 170,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 331,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:54.000000Z",
+    "updated_at": "2026-10-30T16:47:34.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 191,
+            "id_san_pham": 100,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 192,
+            "id_san_pham": 100,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 346,
+            "id_san_pham": 100,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/100/illustration-67a113b5-5f6b-4237-8f71-15b4ad3379fc.jpg",
+            "thu_tu": 0,
+            "created_at": null,
+            "updated_at": null
+        }
+    ]
+}

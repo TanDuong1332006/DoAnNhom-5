@@ -1,0 +1,32 @@
+[
+  {
+    "to": [
+      "browser-customer-9903d2c7@sofep.example.test"
+    ],
+    "subject": "Mã xác thực đăng ký tài khoản SOFEP",
+    "captured_at": "2026-11-18T09:48:18+00:00",
+    "mime_sha256": "9b8e94239da6a945e4fc9b6f7af873d53bd4f981ce2bb637a046ab949e403135",
+    "transport": "array",
+    "external_delivery": false
+  },
+  {
+    "to": [
+      "browser-mobile-9903d2c7@sofep.example.test"
+    ],
+    "subject": "Mã xác thực đăng ký tài khoản SOFEP",
+    "captured_at": "2026-11-18T09:52:54+00:00",
+    "mime_sha256": "17ec2c7261bb4c5476795b09e60aa8be89ffd85a221ec047c20248543a9abf9b",
+    "transport": "array",
+    "external_delivery": false
+  },
+  {
+    "to": [
+      "browser-customer-9903d2c7@sofep.example.test"
+    ],
+    "subject": "Mã xác nhận quên mật khẩu - SOFEP STUDIO",
+    "captured_at": "2026-11-18T09:54:41+00:00",
+    "mime_sha256": "ca5a68aa6a82e6d362058f8a691aee199491d6ad30902bbe1dc9082883fa95bd",
+    "transport": "array",
+    "external_delivery": false
+  }
+]

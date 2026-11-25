@@ -370,6 +370,7 @@
 
 
 <script>
+import { apiUrl } from '../../services/apiConfig.js';
 import axios from 'axios';
 
 export default {
@@ -422,7 +423,7 @@ export default {
       const duLieuDangKy = { ...this.dangKy, role: 'customer' };
 
       axios.post(
-        'http://127.0.0.1:8000/api/dang-ky',
+        apiUrl('/dang-ky'),
         duLieuDangKy
       )
       .then(res => {
@@ -507,7 +508,7 @@ export default {
       this.otpLoading = true;
 
       axios.post(
-        'http://127.0.0.1:8000/api/xac-thuc-otp',
+        apiUrl('/xac-thuc-otp'),
         {
           email: this.emailXacThuc,
           otp: this.otp

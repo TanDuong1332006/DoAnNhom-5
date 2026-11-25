@@ -1,0 +1,39 @@
+{
+    "id": 69,
+    "id_cua_hang": null,
+    "id_danh_muc": 4,
+    "id_thuong_hieu": 2,
+    "ma_san_pham": "SFP-AONU-01",
+    "ten_san_pham": "Áo Croptop Nữ Tay Ngắn Cổ Tròn Ôm Body Cotton SOFEP",
+    "slug_san_pham": "ao-croptop-nu-tay-ngan-co-tron-om-body-cotton-sofep-rpll",
+    "gia_ban": "260000.00",
+    "gia_khuyen_mai": "210000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+    "mo_ta_ngan": "Chất vải thun cotton spandex co giãn 4 chiều mềm mịn, tôn trọn vẹn eo thon.",
+    "mo_ta_chi_tiet": "Chất vải thun cotton spandex co giãn 4 chiều mềm mịn, tôn trọn vẹn eo thon. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 127,
+    "is_noi_bat": 1,
+    "is_flash_sale": 1,
+    "luot_xem": 499,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:53.000000Z",
+    "updated_at": "2026-09-27T09:05:53.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 129,
+            "id_san_pham": 69,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        },
+        {
+            "id": 130,
+            "id_san_pham": 69,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        }
+    ]
+}

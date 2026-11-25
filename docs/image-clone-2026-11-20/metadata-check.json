@@ -1,0 +1,11 @@
+{
+  "images_checked": 167,
+  "tag_counts": {
+    "20752": 167,
+    "20753": 167,
+    "20754": 167
+  },
+  "metadata_requiring_review": [],
+  "passed": true,
+  "method": "Pillow EXIF parse; only three observed constant numeric/byte tags allowed; original bytes unchanged"
+}

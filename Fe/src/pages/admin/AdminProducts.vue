@@ -31,7 +31,7 @@
           </thead>
           <tbody>
             <tr v-for="p in products" :key="p.id">
-              <td><img :src="p.image" width="50" height="50" class="rounded" style="object-fit:cover;"></td>
+              <td><ProductImage :src="p.image" width="50" height="50" class="rounded" style="object-fit:cover;" /></td>
               <td class="fw-semibold" style="max-width:200px;">{{ p.name }}</td>
               <td><span class="badge bg-light text-dark border">{{ p.category?.name }}</span></td>
               <td>
@@ -106,7 +106,7 @@
                 </div>
               </div>
               <div v-if="form.image" class="col-md-12">
-                <img :src="form.image" height="100" class="rounded border">
+                <ProductImage :src="form.image" height="100" class="rounded border" />
               </div>
             </div>
           </div>
@@ -123,9 +123,11 @@
 </template>
 
 <script>
+import ProductImage from '../../components/shared/ProductImage.vue';
 import axiosClient from '@/services/axiosClient'
 
 export default {
+  components: { ProductImage },
   name: 'AdminProducts',
   data() {
     return {

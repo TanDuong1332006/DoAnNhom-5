@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {createHash} from 'node:crypto';
+const dir=path.dirname(fileURLToPath(import.meta.url)),repo=path.resolve(dir,'../..');
+const d=JSON.parse(fs.readFileSync(path.join(dir,'source-catalog.json'))),manifest=JSON.parse(fs.readFileSync(path.join(dir,'portable-demo/manifest.json')));
+const refs=new Set([...d.catalog.san_phams.map(p=>p.hinh_anh),...d.catalog.anh_san_phams.map(g=>g.duong_dan_anh),...d.order_image_references.map(o=>o.hinh_anh)]);
+const fileFor=url=>{const p=new URL(url,'http://localhost').pathname,m=p.match(/^\/api\/product-images\/(\d+)\/([^/]+)$/);return m?`products/${m[1]}/${m[2]}`:p.startsWith('/storage/')?p.slice(9):null;};
+const referencedFiles=new Set([...refs].map(fileFor).filter(Boolean)),files=[];
+const storage=path.join(repo,'themmoik27be/storage/app/public');
+function visit(folder){for(const e of fs.readdirSync(folder,{withFileTypes:true})){const f=path.join(folder,e.name);if(e.isDirectory())visit(f);else if(/\.(jpg|jpeg|png|webp|svg|gif|avif)$/i.test(e.name)){const relative=path.relative(storage,f).replaceAll('\\','/');files.push({path:relative,sha256:createHash('sha256').update(fs.readFileSync(f)).digest('hex'),referenced:referencedFiles.has(relative)});}}}
+visit(storage);
+const before=JSON.parse(fs.readFileSync(path.join(repo,'docs/image-audit-2026-11-20/storage-preservation.json'))).files;
+const beforeHashes=new Map(before.map(f=>[f.file.replace('themmoik27be/storage/app/public/',''),f.sha256]));
+const changed=files.filter(f=>beforeHashes.get(f.path)!==f.sha256),missing=before.filter(f=>!files.some(x=>x.path===f.file.replace('themmoik27be/storage/app/public/','')));
+const orphan=files.filter(f=>!f.referenced);
+fs.writeFileSync(path.join(dir,'unreferenced-files.csv'),'\ufefffile,sha256,decision\r\n'+orphan.map(f=>`${f.path},${f.sha256},PO review required; do not delete`).join('\r\n'));
+const order=d.order_image_references.map(o=>{const f=fileFor(o.hinh_anh);return{url:o.hinh_anh,reference_count:Number(o.reference_count),local_file:f,exists:f?fs.existsSync(path.join(storage,f)):null,in_demo_bundle:manifest.images.some(m=>m.path===f),decision:'Keep original URL and file; no order snapshot changes'};});
+const out={storage_files:files.length,unreferenced_files:orphan,changed_since_previous_audit:changed,missing_since_previous_audit:missing,order_urls:order,order_url_count:order.length,order_references:order.reduce((n,o)=>n+o.reference_count,0),scope:'Catalog/gallery + variant FK + order-image aggregate; no proof about other applications/backups'};
+fs.writeFileSync(path.join(dir,'preservation.json'),JSON.stringify(out,null,2));console.log(JSON.stringify({...out,order_urls:order.length},null,2));

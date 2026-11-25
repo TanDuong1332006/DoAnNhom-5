@@ -28,15 +28,20 @@ class giaoDichController extends Controller
     public function moPhongThanhToan(Request $request)
     {
         abort_unless(app()->environment(['local', 'testing']), 403, 'Mô phỏng chỉ dùng trong môi trường local/testing.');
-        $request->validate(['ma_hoa_don' => 'required|string|max:255']);
+        $request->validate(['ma_hoa_don' => 'required|string|max:255', 'ket_qua' => 'sometimes|in:success,failed']);
         return DB::transaction(function () use ($request) {
             $order = DonHang::where('ma_don_hang', $request->ma_hoa_don)->lockForUpdate()->firstOrFail();
             DemoPayment::authorize($request, $order);
             abort_if($order->trang_thai_don_hang === 'da_huy' || $order->phuong_thuc_thanh_toan !== 'MB_BANK', 409, 'Đơn hàng không thể mô phỏng thanh toán.');
+            if ($request->input('ket_qua', 'success') === 'failed') {
+                return response()->json(['status' => 0, 'success' => false, 'message' => 'Thanh toán mô phỏng thất bại.']);
+            }
             if ($order->trang_thai_thanh_toan !== 'da_thanh_toan') {
                 $invoice = HoaDon::where('ma_hoa_don', $order->ma_don_hang)->lockForUpdate()->firstOrFail();
+                abort_unless((float) $invoice->tong_tien === (float) $order->tong_thanh_toan
+                    && $invoice->phuong_thuc_thanh_toan === 'MB_BANK', 409, 'Giao dịch không khớp đơn hàng.');
                 $invoice->update(['trang_thai' => 1]);
-                $order->update(['trang_thai_thanh_toan' => 'da_thanh_toan', 'trang_thai_don_hang' => 'da_xac_nhan']);
+                $order->update(['trang_thai_thanh_toan' => 'da_thanh_toan']);
             }
             return response()->json(['status' => 1, 'success' => true, 'message' => 'Đã ghi nhận thanh toán mô phỏng; không có giao dịch tiền thật.']);
         });

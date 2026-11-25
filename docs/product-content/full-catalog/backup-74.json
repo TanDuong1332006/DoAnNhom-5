@@ -1,0 +1,39 @@
+{
+    "id": 74,
+    "id_cua_hang": null,
+    "id_danh_muc": 4,
+    "id_thuong_hieu": 1,
+    "ma_san_pham": "SFP-AONU-06",
+    "ten_san_pham": "Áo Hai Dây Nữ Lụa Satin Viền Ren Cổ V Gợi Cảm",
+    "slug_san_pham": "ao-hai-day-nu-lua-satin-vien-ren-co-v-goi-cam-kn7p",
+    "gia_ban": "290000.00",
+    "gia_khuyen_mai": "230000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+    "mo_ta_ngan": "Viền ren tinh tế trước ngực, dây áo tùy chỉnh độ dài linh hoạt.",
+    "mo_ta_chi_tiet": "Viền ren tinh tế trước ngực, dây áo tùy chỉnh độ dài linh hoạt. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 153,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 2271,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:53.000000Z",
+    "updated_at": "2026-09-27T09:05:53.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 139,
+            "id_san_pham": 74,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        },
+        {
+            "id": 140,
+            "id_san_pham": 74,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        }
+    ]
+}

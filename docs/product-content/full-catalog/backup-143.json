@@ -1,0 +1,39 @@
+{
+    "id": 143,
+    "id_cua_hang": null,
+    "id_danh_muc": 7,
+    "id_thuong_hieu": 5,
+    "ma_san_pham": "SFP-TUIXACH-15",
+    "ten_san_pham": "Túi Xách Nữ Công Sở Đựng Tài Liệu A4 Da Thật Khóa Số",
+    "slug_san_pham": "tui-xach-nu-cong-so-dung-tai-lieu-a4-da-that-khoa-so-d9q1",
+    "gia_ban": "1100000.00",
+    "gia_khuyen_mai": "890000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+    "mo_ta_ngan": "Phom hộp vuông vắn uy quyền cho nữ lãnh đạo, nhiều ngăn phân loại tài liệu khoa học.",
+    "mo_ta_chi_tiet": "Phom hộp vuông vắn uy quyền cho nữ lãnh đạo, nhiều ngăn phân loại tài liệu khoa học. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 142,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 677,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:56.000000Z",
+    "updated_at": "2026-09-27T09:05:56.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 277,
+            "id_san_pham": 143,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        },
+        {
+            "id": 278,
+            "id_san_pham": 143,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:56.000000Z",
+            "updated_at": "2026-09-27T09:05:56.000000Z"
+        }
+    ]
+}

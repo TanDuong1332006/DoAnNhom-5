@@ -1,0 +1,47 @@
+{
+    "id": 80,
+    "id_cua_hang": null,
+    "id_danh_muc": 4,
+    "id_thuong_hieu": 3,
+    "ma_san_pham": "SFP-AONU-12",
+    "ten_san_pham": "Áo Len Nữ Cardigan Nút Cài Ngọc Trai Vintage",
+    "slug_san_pham": "ao-len-nu-cardigan-nut-cai-ngoc-trai-vintage-llzp",
+    "gia_ban": "520000.00",
+    "gia_khuyen_mai": "430000.00",
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/80/illustration-ed3f6b70-7eb7-42eb-8b4f-295e2f3d9c2b.jpg",
+    "mo_ta_ngan": "Hàng nút ngọc trai nhân tạo sang trọng, chất len mềm rủ nhẹ nhàng mùa thu.",
+    "mo_ta_chi_tiet": "Hàng nút ngọc trai nhân tạo sang trọng, chất len mềm rủ nhẹ nhàng mùa thu. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 169,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 868,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:53.000000Z",
+    "updated_at": "2026-10-30T16:47:22.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 151,
+            "id_san_pham": 80,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        },
+        {
+            "id": 152,
+            "id_san_pham": 80,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:53.000000Z",
+            "updated_at": "2026-09-27T09:05:53.000000Z"
+        },
+        {
+            "id": 341,
+            "id_san_pham": 80,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/80/illustration-ed3f6b70-7eb7-42eb-8b4f-295e2f3d9c2b.jpg",
+            "thu_tu": 0,
+            "created_at": null,
+            "updated_at": null
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 100,
+  "sku": "SFP-AOKHOAC-12",
+  "name": "Áo Khoác Phao Lông Vũ Dáng Ngắn Siêu Nhẹ 800FP",
+  "prompt": "One unique premium ecommerce product studio illustration. Product type and design: Áo Khoác Phao Lông Vũ Dáng Ngắn Siêu Nhẹ 800FP. Match exact garment construction, cut, gender, neckline, pattern and sleeve length. Single garment only, full item visible, front view on invisible mannequin against clean light gray background. Choose black, white or navy; obey explicit color named in title. No human, no accessories, no props, no watermark, no text, no external brand logos. Original AI-created SOFEP local demo illustration, not real SKU photography.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; no third-party stock license; not real SKU photography",
+  "file": "assets/100.jpg",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-caa41e59-3f87-458b-bc57-e2dd4afb42ba.png",
+  "created_at": "2026-10-31T09:54:08.469Z",
+  "review": "approved",
+  "sha256": "8be1558702efdb772e1d74cca518ff442d9bceeceb673e5862e86fe5bbf9ba87",
+  "bytes": 149737
+}

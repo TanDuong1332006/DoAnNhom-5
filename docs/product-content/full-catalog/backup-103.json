@@ -1,0 +1,39 @@
+{
+    "id": 103,
+    "id_cua_hang": null,
+    "id_danh_muc": 5,
+    "id_thuong_hieu": 3,
+    "ma_san_pham": "SFP-AOKHOAC-15",
+    "ten_san_pham": "Áo Khoác Gió Nam Nữ Trượt Nước Đi Mưa Có Phản Quang",
+    "slug_san_pham": "ao-khoac-gio-nam-nu-truot-nuoc-di-mua-co-phan-quang-gisa",
+    "gia_ban": "450000.00",
+    "gia_khuyen_mai": "380000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+    "mo_ta_ngan": "Đường viền phản quang ban đêm an toàn, gấp gọn thành chiếc túi nhỏ đeo hông.",
+    "mo_ta_chi_tiet": "Đường viền phản quang ban đêm an toàn, gấp gọn thành chiếc túi nhỏ đeo hông. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 117,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 1460,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:54.000000Z",
+    "updated_at": "2026-09-27T09:05:54.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 197,
+            "id_san_pham": 103,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 198,
+            "id_san_pham": 103,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        }
+    ]
+}

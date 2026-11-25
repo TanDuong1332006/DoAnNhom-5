@@ -1,0 +1,107 @@
+[
+  {
+    "concurrency": 8,
+    "timeout_ms": 8000,
+    "checks": [
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/5/illustration-19767726-ec36-48f1-a837-6e5b4918f083.jpg",
+        "status": 200,
+        "bytes": 261051,
+        "ms": 1560
+      },
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/6/illustration-346e8b55-89a4-4cd8-a2b1-9f6d5325bc67.jpg",
+        "status": 200,
+        "bytes": 123564,
+        "ms": 2869
+      },
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/6/illustration-a4d91bd8-e53f-4091-95b8-36de5b848c45.jpg",
+        "status": 200,
+        "bytes": 150600,
+        "ms": 4513
+      },
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/7/illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg",
+        "status": 200,
+        "bytes": 204261,
+        "ms": 6219
+      },
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/8/illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg",
+        "status": 200,
+        "bytes": 204941,
+        "ms": 7644
+      },
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/9/illustration-c1ceeba7-cc08-42e7-bca9-9edd4e551488.jpg",
+        "error": "TimeoutError",
+        "ms": 8023
+      },
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/9/illustration-38dfb9fe-e82f-405f-bb69-76758b3a87f2.jpg",
+        "error": "TimeoutError",
+        "ms": 8024
+      },
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/9/illustration-43c41f19-b93f-4e5e-b010-ff4533bcdb5c.jpg",
+        "error": "TimeoutError",
+        "ms": 8025
+      }
+    ]
+  },
+  {
+    "concurrency": 8,
+    "timeout_ms": 20000,
+    "checks": [
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/5/illustration-19767726-ec36-48f1-a837-6e5b4918f083.jpg",
+        "status": 200,
+        "bytes": 261051,
+        "ms": 3504
+      },
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/6/illustration-346e8b55-89a4-4cd8-a2b1-9f6d5325bc67.jpg",
+        "status": 200,
+        "bytes": 123564,
+        "ms": 4782
+      },
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/6/illustration-a4d91bd8-e53f-4091-95b8-36de5b848c45.jpg",
+        "status": 200,
+        "bytes": 150600,
+        "ms": 6426
+      },
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/7/illustration-0e8041d0-658e-490d-8959-ee68fd5b49e9.jpg",
+        "status": 200,
+        "bytes": 204261,
+        "ms": 8310
+      },
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/8/illustration-e86eafad-9735-4f6f-affb-49ffcbac129f.jpg",
+        "status": 200,
+        "bytes": 204941,
+        "ms": 9749
+      },
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/9/illustration-c1ceeba7-cc08-42e7-bca9-9edd4e551488.jpg",
+        "status": 200,
+        "bytes": 117422,
+        "ms": 11207
+      },
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/9/illustration-38dfb9fe-e82f-405f-bb69-76758b3a87f2.jpg",
+        "status": 200,
+        "bytes": 50459,
+        "ms": 12373
+      },
+      {
+        "url": "http://127.0.0.1:8000/api/product-images/9/illustration-43c41f19-b93f-4e5e-b010-ff4533bcdb5c.jpg",
+        "status": 200,
+        "bytes": 21973,
+        "ms": 13999
+      }
+    ]
+  }
+]

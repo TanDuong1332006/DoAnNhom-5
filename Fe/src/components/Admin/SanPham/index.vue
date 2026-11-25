@@ -295,6 +295,7 @@
 </template>
 
 <script>
+import { apiUrl } from '../../../services/apiConfig.js';
 import axios from 'axios';
 import { matchesSearch } from '../../../services/adminSearch';
 import ProductImages from './ProductImages.vue';
@@ -366,13 +367,13 @@ export default {
             return Number(val).toLocaleString('vi-VN');
         },
         loadData() {
-            axios.get('http://127.0.0.1:8000/api/admin/san-pham/get-data')
+            axios.get(apiUrl('/admin/san-pham/get-data'))
                 .then(res => {
                     this.list_san_pham = res.data.data;
                 }).catch(this.showError);
         },
         loadDanhMucVaThuongHieu() {
-            axios.get('http://127.0.0.1:8000/api/admin/danh-muc/get-data')
+            axios.get(apiUrl('/admin/danh-muc/get-data'))
                 .then(res => { this.list_danh_muc = res.data.data; });
         },
         moModalCapNhat(item) {
@@ -385,7 +386,7 @@ export default {
                 return;
             }
             this.creatingProduct = true;
-            axios.post('http://127.0.0.1:8000/api/admin/san-pham/create', Object.fromEntries(Object.entries(this.create_SanPham).filter(([key, value]) => key !== 'slug_san_pham' || value)))
+            axios.post(apiUrl('/admin/san-pham/create'), Object.fromEntries(Object.entries(this.create_SanPham).filter(([key, value]) => key !== 'slug_san_pham' || value)))
                 .then(res => {
                     if (res.data.status) {
                         this.createdProduct = res.data.data;
@@ -403,7 +404,7 @@ export default {
                 }).finally(() => { this.creatingProduct = false; });
         },
         capNhatSanPham() {
-            axios.post('http://127.0.0.1:8000/api/admin/san-pham/update', this.update_SanPham)
+            axios.post(apiUrl('/admin/san-pham/update'), this.update_SanPham)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -412,7 +413,7 @@ export default {
                 }).catch(this.showError);
         },
         xoaSanPham() {
-            axios.post('http://127.0.0.1:8000/api/admin/san-pham/destroy', this.delete_SanPham)
+            axios.post(apiUrl('/admin/san-pham/destroy'), this.delete_SanPham)
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -421,7 +422,7 @@ export default {
                 }).catch(this.showError);
         },
         changeStatus(item) {
-            axios.post('http://127.0.0.1:8000/api/admin/san-pham/change-status', { id: item.id })
+            axios.post(apiUrl('/admin/san-pham/change-status'), { id: item.id })
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);
@@ -430,7 +431,7 @@ export default {
                 }).catch(this.showError);
         },
         changeNoiBat(item) {
-            axios.post('http://127.0.0.1:8000/api/admin/san-pham/change-noi-bat', { id: item.id })
+            axios.post(apiUrl('/admin/san-pham/change-noi-bat'), { id: item.id })
                 .then(res => {
                     if (res.data.status) {
                         this.$toast.success(res.data.message);

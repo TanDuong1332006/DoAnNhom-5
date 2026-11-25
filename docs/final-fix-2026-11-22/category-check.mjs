@@ -1,0 +1,19 @@
+import fs from 'node:fs';import {spawn,execFileSync} from 'node:child_process';import {fileURLToPath} from 'node:url';
+const dir=new URL('.',import.meta.url),loc=JSON.parse(fs.readFileSync(new URL('uat-location.json',dir))),access=JSON.parse(fs.readFileSync(loc.root+'/themmoik27be/storage/app/private/demo-access.json')),base='http://127.0.0.1:8047/api',checks=[];
+async function call(label,p,body,token,expected=200){const r=await fetch(base+p,{method:body?'POST':'GET',headers:{Accept:'application/json',...(body?{'Content-Type':'application/json'}:{}),...(token?{Authorization:'Bearer '+token}:{})},body:body?JSON.stringify(body):undefined,signal:AbortSignal.timeout(45000)});const j=await r.json();checks.push({label,status:r.status,expected,pass:r.status===expected});return j;}
+const php=execFileSync('where.exe',['php'],{encoding:'utf8'}).trim().split(/\r?\n/)[0],helper=fileURLToPath(new URL('mysql-safety.php',dir));
+try{const tokens={};for(const role of ['customer','admin'])tokens[role]=(await call(role+' login','/dang-nhap',{email:access[role].email,mat_khau:access[role].password})).token;
+execFileSync(php,[helper,'capture']);
+const rejected=await call('category with catalog/history rejected','/admin/danh-muc/destroy',{id:1},tokens.admin,409);checks.push({label:'clear conflict message',pass:rejected.message==='Danh mục còn sản phẩm. Hãy tạm ẩn thay vì xóa.'});
+await call('invalid category id','/admin/danh-muc/destroy',{id:999999},tokens.admin,422);await call('guest denied','/admin/danh-muc/destroy',{id:1},null,401);await call('customer denied','/admin/danh-muc/destroy',{id:1},tokens.customer,403);
+for(const [action,method] of [['get-data','GET'],['change-status','POST'],['destroy','POST']])await call('retired '+action,'/admin/danh-gia/'+action,method==='POST'?{id:1}:null,tokens.admin,404);
+execFileSync(php,[helper,'verify']);checks.push({label:'catalog variants gallery history unchanged after rejection',pass:true});
+const name='UAT empty category '+Date.now();await call('create disposable category','/admin/danh-muc/create',{ten_danh_muc:name},tokens.admin,201);let category=(await call('find disposable category','/admin/danh-muc/get-data',null,tokens.admin)).data.find(x=>x.ten_danh_muc===name);
+const child=spawn(php,[helper,'race',String(category.id)],{stdio:['ignore','pipe','pipe']});let out='',err='';child.stdout.on('data',x=>out+=x);child.stderr.on('data',x=>err+=x);const finished=new Promise(resolve=>child.on('close',code=>resolve(code)));
+const ready=new URL('race-ready.json',dir);for(let i=0;!fs.existsSync(ready)&&i<100;i++)await new Promise(r=>setTimeout(r,50));if(!fs.existsSync(ready))throw Error('Race fixture not ready');
+const raceStarted=Date.now();const pending=call('concurrent child insert prevents category deletion','/admin/danh-muc/destroy',{id:category.id},tokens.admin,409);const code=await finished;await pending;if(code!==0)throw Error('Race subprocess '+err);const created=JSON.parse(out);checks.push({label:'observed lock wait',milliseconds:Date.now()-raceStarted,pass:Date.now()-raceStarted>=700});checks.push({label:'concurrent child committed safely',pass:created.committed===true});
+await call('remove disposable product only','/admin/san-pham/destroy',{id:created.id},tokens.admin);await call('delete now-empty disposable category','/admin/danh-muc/destroy',{id:category.id},tokens.admin);
+const remaining=(await call('catalog restored to 168','/admin/san-pham/get-data',null,tokens.admin)).data;checks.push({label:'only original 168 products remain',pass:remaining.length===168});
+}catch(e){checks.push({label:'runner',pass:false,error:e.message});}
+const result={passed:checks.every(x=>x.pass),checks,scope:'New isolated MySQL only; disposable category/product; no physical files deleted'};fs.writeFileSync(new URL('category-results.json',dir),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+

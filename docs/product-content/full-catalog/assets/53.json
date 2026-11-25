@@ -1,0 +1,15 @@
+{
+  "id": 53,
+  "sku": "SFP-VAYDAM-05",
+  "name": "Đầm Suông Nữ Vải Đũi Linen Thắt Nơ Eo Tinh Tế",
+  "prompt": "Use case: product-mockup. ONE unique ecommerce product illustration for a Vietnamese SOFEP local demo. Subject: Đầm Suông Nữ Vải Đũi Linen Thắt Nơ Eo Tinh Tế. Match exact clothing or accessory type, silhouette, neckline, sleeve length, cut, pattern and special construction in this Vietnamese title. Choose black, white or deep navy, obey explicit color named in title. SINGLE product only, ENTIRE item visible with margins, centered square composition, premium realistic studio render isolated on clean warm light gray background. Clothing on invisible mannequin or flat lay. Shoes: one shoe three-quarter side view. Accessories: single object close studio product view. NO people, NO additional objects or styling accessories, NO text, NO scenery, NO watermark, NO external brand marks. Original AI demo illustration, not a photo of a real SKU.",
+  "source": "OpenAI built-in image_gen",
+  "kind": "AI-generated demo illustration",
+  "license": "Generated for this demo; no third-party stock license; not real SKU photography",
+  "file": "assets/53.jpg",
+  "generated_path": "C:\\Users\\dn133\\.codex\\generated_images\\01a19147-4c91-70e0-979f-44d5ead05ced\\exec-0c3c0bd7-9af8-4444-beff-040af5ebe925.png",
+  "created_at": "2026-10-31T09:37:48.712Z",
+  "review": "approved",
+  "sha256": "bc4a935bced9029de92940bc0fa6136cb9d60107f85c3502d51790d9e9718f9e",
+  "bytes": 129205
+}

@@ -1,0 +1,39 @@
+{
+    "id": 165,
+    "id_cua_hang": null,
+    "id_danh_muc": 8,
+    "id_thuong_hieu": 1,
+    "ma_san_pham": "SFP-PHUKIEN-17",
+    "ten_san_pham": "Hộp 5 Đôi Vớ Tất Cổ Cao Nam Nữ Dệt Kim Kháng Khuẩn Bạc",
+    "slug_san_pham": "hop-5-doi-vo-tat-co-cao-nam-nu-det-kim-khang-khuan-bac-sdug",
+    "gia_ban": "199000.00",
+    "gia_khuyen_mai": "159000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1582966772680-860e372bb558?w=700",
+    "mo_ta_ngan": "Công nghệ phân tử ion bạc khử mùi hôi chân 24/7, cổ chun dệt rib không thít chặt.",
+    "mo_ta_chi_tiet": "Công nghệ phân tử ion bạc khử mùi hôi chân 24/7, cổ chun dệt rib không thít chặt. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 95,
+    "is_noi_bat": 0,
+    "is_flash_sale": 1,
+    "luot_xem": 2305,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:57.000000Z",
+    "updated_at": "2026-09-27T09:05:57.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 321,
+            "id_san_pham": 165,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1582966772680-860e372bb558?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:57.000000Z",
+            "updated_at": "2026-09-27T09:05:57.000000Z"
+        },
+        {
+            "id": 322,
+            "id_san_pham": 165,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1582966772680-860e372bb558?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:57.000000Z",
+            "updated_at": "2026-09-27T09:05:57.000000Z"
+        }
+    ]
+}

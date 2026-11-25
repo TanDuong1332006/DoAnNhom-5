@@ -304,6 +304,7 @@
 </template>
 
 <script>
+import { apiUrl } from '../../services/apiConfig.js';
 import { cartStore } from '../../stores/cartStore';
 import axios from 'axios';
 import ProductImage from '../shared/ProductImage.vue';
@@ -328,7 +329,7 @@ export default {
   tinhPhanTramGiam(base,sale){return Number(base)>Number(sale)&&Number(sale)>0?Math.round((base-sale)/base*100):0;},
   async loadData(){
    this.loading=true;this.error='';this.san_phams=[];this.danh_mucs=[];
-   const responses=await Promise.allSettled([axios.get('http://127.0.0.1:8000/api/client/danh-mucs'),axios.get('http://127.0.0.1:8000/api/client/san-phams?all=1')]);
+   const responses=await Promise.allSettled([axios.get(apiUrl('/client/danh-mucs')),axios.get(apiUrl('/client/san-phams?all=1'))]);
    if(responses[0].status==='fulfilled'&&responses[0].value.data.status)this.danh_mucs=responses[0].value.data.data;else this.error='Không thể tải danh mục. Vui lòng thử lại.';
    if(responses[1].status==='fulfilled'&&responses[1].value.data.status&&Array.isArray(responses[1].value.data.data))this.san_phams=responses[1].value.data.data;else this.error='Không thể tải sản phẩm. Vui lòng thử lại.';
    this.loading=false;
@@ -339,7 +340,7 @@ export default {
   async moQuickView(p){
    const request=++this.quickRequest;this.selectedProduct=null;this.quickLoading=true;this.quickError='';this.quickColorImage=null;
    try{
-    const res=await axios.get('http://127.0.0.1:8000/api/client/san-pham/'+encodeURIComponent(p.slug_san_pham||p.id));
+    const res=await axios.get(apiUrl('/client/san-pham/')+encodeURIComponent(p.slug_san_pham||p.id));
     if(request!==this.quickRequest)return;
     if(!res.data.status||!res.data.data?.san_pham)throw new Error('Invalid response');
     this.selectedProduct=res.data.data.san_pham;await this.$nextTick();

@@ -1,0 +1,22 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {spawnSync} from 'node:child_process';
+import os from 'node:os';
+const dir=path.dirname(fileURLToPath(import.meta.url)),bundle=path.join(dir,'portable-demo');
+const manifest=JSON.parse(fs.readFileSync(path.join(bundle,'manifest.json'))),catalog=JSON.parse(fs.readFileSync(path.join(bundle,'catalog.json')));
+const tables=Object.keys(catalog),forbidden=['khach_hangs','users','don_hangs','chi_tiet_don_hangs','personal_access_tokens'];
+if(tables.some(t=>forbidden.includes(t)))throw Error('Sensitive table in package');
+const strings=JSON.stringify({catalog,manifest});if(/127\.0\.0\.1|localhost|[A-Z]:\\|@/.test(strings))throw Error('Unexpected absolute origin, machine path or contact address');
+const exif=manifest.images.filter(i=>fs.readFileSync(path.join(bundle,'media',i.path)).includes(Buffer.from('Exif\0\0'))).map(i=>i.path);
+const metadata=JSON.parse(fs.readFileSync(path.join(dir,'metadata-check.json')));
+if(!metadata.passed||metadata.images_checked!==manifest.images.length)throw Error('Image metadata review incomplete');
+// Catalog đã bị sửa phải bị chặn trước CREATE DATABASE/connection, không cần credential.
+const corrupted=fs.mkdtempSync(path.join(os.tmpdir(),'sofep-bad-image-demo-'));
+for(const file of ['import.php','boot.php','manifest.json'])fs.copyFileSync(path.join(bundle,file),path.join(corrupted,file));
+fs.writeFileSync(path.join(corrupted,'catalog.json'),'{}');
+const clone=JSON.parse(fs.readFileSync(path.join(dir,'../image-audit-2026-11-20/clone-location.json'))).path;
+const child=spawnSync('php',[path.join(corrupted,'import.php'),path.join(clone,'themmoik27be'),path.join(corrupted,'runtime')],{encoding:'utf8'});
+if(child.status===0||!child.stderr.includes('Catalog checksum mismatch')||fs.existsSync(path.join(corrupted,'runtime')))throw Error('Checksum guard did not block before setup');
+const result={catalog_tables:tables,account_order_token_tables_in_package:0,absolute_origins_or_machine_paths_in_catalog_manifest:0,exif_images:exif.length,exif_review:'Only constant byte/numeric tags 20752, 20753, 20754; no GPS/author/string tags',corrupt_catalog_blocked_before_database_setup:true,images:manifest.images.length};
+fs.writeFileSync(path.join(dir,'package-safety.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));

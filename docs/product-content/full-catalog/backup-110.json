@@ -1,0 +1,39 @@
+{
+    "id": 110,
+    "id_cua_hang": null,
+    "id_danh_muc": 6,
+    "id_thuong_hieu": 1,
+    "ma_san_pham": "SFP-GIAY-02",
+    "ten_san_pham": "Giày Lười Da Bò Nam Loafer Khóa Mạ Vàng Sang Trọng",
+    "slug_san_pham": "giay-luoi-da-bo-nam-loafer-khoa-ma-vang-sang-trong-q9lt",
+    "gia_ban": "1250000.00",
+    "gia_khuyen_mai": "990000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+    "mo_ta_ngan": "Da bò Nappa nhập khẩu mềm như găng tay, đai khóa mạ vàng 18K tinh tế.",
+    "mo_ta_chi_tiet": "Da bò Nappa nhập khẩu mềm như găng tay, đai khóa mạ vàng 18K tinh tế. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 117,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 1923,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:55.000000Z",
+    "updated_at": "2026-09-27T09:05:55.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 211,
+            "id_san_pham": 110,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        },
+        {
+            "id": 212,
+            "id_san_pham": 110,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:55.000000Z",
+            "updated_at": "2026-09-27T09:05:55.000000Z"
+        }
+    ]
+}

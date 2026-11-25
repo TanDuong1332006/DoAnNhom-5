@@ -1,0 +1,39 @@
+{
+    "id": 99,
+    "id_cua_hang": null,
+    "id_danh_muc": 5,
+    "id_thuong_hieu": 6,
+    "ma_san_pham": "SFP-AOKHOAC-11",
+    "ten_san_pham": "Áo Blazer Nữ Kẻ Caro Houndstooth Nanh Sói Hoàng Gia",
+    "slug_san_pham": "ao-blazer-nu-ke-caro-houndstooth-nanh-soi-hoang-gia-vmip",
+    "gia_ban": "850000.00",
+    "gia_khuyen_mai": "720000.00",
+    "hinh_anh": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+    "mo_ta_ngan": "Họa tiết nanh sói đen trắng cổ điển, lớp lót lụa satin mượt mà ôm sát cơ thể.",
+    "mo_ta_chi_tiet": "Họa tiết nanh sói đen trắng cổ điển, lớp lót lụa satin mượt mà ôm sát cơ thể. Thiết kế độc quyền thuộc bộ sưu tập SOFEP Haute Atelier 2026. Được may đo và gia công tỉ mỉ với độ bền vượt trội, dễ dàng bảo quản và giặt ủi.",
+    "so_luong_ton": 142,
+    "is_noi_bat": 0,
+    "is_flash_sale": 0,
+    "luot_xem": 2125,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:54.000000Z",
+    "updated_at": "2026-09-27T09:05:54.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 189,
+            "id_san_pham": 99,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+            "thu_tu": 1,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        },
+        {
+            "id": 190,
+            "id_san_pham": 99,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=700",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:54.000000Z",
+            "updated_at": "2026-09-27T09:05:54.000000Z"
+        }
+    ]
+}

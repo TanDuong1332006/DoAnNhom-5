@@ -1,0 +1,81 @@
+{
+  "database": "sofep_security_uat_20261118_d588ff07a906",
+  "passed": true,
+  "checks": [
+    {
+      "case": "Login fixture A",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "case": "Login fixture Admin",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "case": "Eligible A opts out",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "case": "Preview excludes opted-out eligible A",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "case": "No recipient after eligible opt-out",
+      "passed": true
+    },
+    {
+      "case": "Restore fixture preference",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "case": "Preview restores eligible A",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "case": "Exactly one recipient restored",
+      "passed": true
+    },
+    {
+      "case": "History Guest detail denied",
+      "expected": 401,
+      "actual": 401,
+      "passed": true
+    },
+    {
+      "case": "History Admin denied",
+      "expected": 403,
+      "actual": 403,
+      "passed": true
+    },
+    {
+      "case": "Invalid history page rejected",
+      "expected": 422,
+      "actual": 422,
+      "passed": true
+    },
+    {
+      "case": "Logout fixture A",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "case": "Revoked token history denied",
+      "expected": 401,
+      "actual": 401,
+      "passed": true
+    }
+  ],
+  "external_messages_sent": false
+}

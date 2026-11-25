@@ -1,0 +1,47 @@
+{
+    "id": 1,
+    "id_cua_hang": null,
+    "id_danh_muc": 1,
+    "id_thuong_hieu": 1,
+    "ma_san_pham": "SP-AONAM-01",
+    "ten_san_pham": "Áo Thun Nam Cổ Tròn Cotton Supima Cao Cấp",
+    "slug_san_pham": "ao-thun-nam-co-tron-cotton-supima",
+    "gia_ban": "299000.00",
+    "gia_khuyen_mai": "249000.00",
+    "hinh_anh": "http://127.0.0.1:8000/api/product-images/1/illustration-c083c263-33d5-4832-9472-e3c243dc1aeb.jpg",
+    "mo_ta_ngan": "Chất liệu 100% cotton Supima mềm mịn, co giãn 4 chiều.",
+    "mo_ta_chi_tiet": "Áo thun cotton Supima cao cấp thấm hút mồ hôi cực tốt, bền màu qua nhiều lần giặt.",
+    "so_luong_ton": 120,
+    "is_noi_bat": 1,
+    "is_flash_sale": 1,
+    "luot_xem": 1069,
+    "trang_thai": 1,
+    "created_at": "2026-09-27T09:05:49.000000Z",
+    "updated_at": "2026-10-30T16:52:36.000000Z",
+    "anh_san_phams": [
+        {
+            "id": 1,
+            "id_san_pham": 1,
+            "duong_dan_anh": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500",
+            "thu_tu": 2,
+            "created_at": "2026-09-27T09:05:49.000000Z",
+            "updated_at": "2026-09-27T09:05:49.000000Z"
+        },
+        {
+            "id": 329,
+            "id_san_pham": 1,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/1/illustration-c083c263-33d5-4832-9472-e3c243dc1aeb.jpg",
+            "thu_tu": 0,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": 330,
+            "id_san_pham": 1,
+            "duong_dan_anh": "http://127.0.0.1:8000/api/product-images/1/illustration-c32bbb37-92e1-412c-af55-be2f2a9f8471.jpg",
+            "thu_tu": 1,
+            "created_at": null,
+            "updated_at": null
+        }
+    ]
+}

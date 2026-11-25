@@ -54,7 +54,7 @@
           <div class="card-header fw-bold bg-dark text-white">Đơn hàng của bạn</div>
           <div class="card-body">
             <div v-for="item in cart.items" :key="item.id" class="d-flex align-items-center mb-3">
-              <img :src="item.product?.image" width="50" height="50" class="rounded me-2" style="object-fit:cover;">
+              <ProductImage :src="item.product?.image" width="50" height="50" class="rounded me-2" style="object-fit:cover;" />
               <div class="flex-grow-1">
                 <div class="fw-semibold small">{{ item.product?.name }}</div>
                 <div class="text-muted small">x{{ item.quantity }}</div>
@@ -84,11 +84,13 @@
 </template>
 
 <script>
+import ProductImage from '../../components/shared/ProductImage.vue';
 import axiosClient from '@/services/axiosClient'
 import { authStore } from '@/stores/authStore'
 import { cartStore } from '@/stores/cartStore'
 
 export default {
+  components: { ProductImage },
   name: 'Checkout',
   data() {
     return {

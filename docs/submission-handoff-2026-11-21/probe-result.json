@@ -1,0 +1,20 @@
+{
+    "passed": true,
+    "database": "sofep_demo_20261121_1862a96c23ee",
+    "storage": "C:\\Users\\dn133\\AppData\\Local\\Temp\\sofep-submission-install-v2-e6414f61ef524a88ad1e65d0190c5cd2\\themmoik27be\\storage\\app/public",
+    "cors": [
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "http://localhost:5198",
+        "http://127.0.0.1:5198"
+    ],
+    "mysql_version": "8.4.3",
+    "counts": {
+        "khach_hangs": 1,
+        "users": 1,
+        "don_hangs": 0,
+        "chi_tiet_don_hangs": 0,
+        "personal_access_tokens": 0
+    },
+    "config_cached": false
+}
